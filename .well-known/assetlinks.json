@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.deadline",
+      "sha256_cert_fingerprints": [
+        "4AD6CAB608AEDC4AB0824603B893B329A4CC04D83AB110BEEA5668851FF4FCE8"
+      ]
+    }
+  }
+]
