@@ -3,50 +3,373 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nonlate Legal</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.5;
-      background: #0b1020;
-      color: #f5f7ff;
-    }
-    .wrap {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 32px 20px 48px;
-    }
-    h1 { margin: 0 0 8px; font-size: 2rem; }
-    p { margin: 0 0 16px; color: #c7d1ff; }
-    .card {
-      background: #141b33;
-      border: 1px solid #2d3a66;
-      border-radius: 12px;
-      padding: 16px;
-      margin: 10px 0;
-    }
-    a {
-      color: #9bb1ff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    a:hover { text-decoration: underline; }
-    .muted { color: #9aa4cf; font-size: 0.95rem; margin-top: 24px; }
-  </style>
+  <title>Nonlate — Never miss a deadline, without the guilt trip</title>
+  <meta name="description" content="Nonlate gently interrupts the apps that eat your time and redirects you to the deadlines that actually matter. One place for every task across Notion, Google, Microsoft, Jira, Trello, Classroom and more.">
+  <meta name="theme-color" content="#0b0b0e">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nonlate — Never miss a deadline, without the guilt trip">
+  <meta property="og:description" content="A quiet co-pilot for your real responsibilities. One place for every task, one polite nudge before you scroll.">
+  <meta property="og:url" content="https://nonlate.app/">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0b0e'/%3E%3Cpath d='M9 22V10h2.2l6 8.2V10H19.5v12h-2.2l-6-8.2V22H9z' fill='%23f4efe6'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="wrap">
-    <h1>Nonlate Legal Pages</h1>
-    <p>Official support and privacy pages for the Nonlate app.</p>
 
-    <div class="card"><a href="/privacy/">Privacy Policy</a></div>
-    <div class="card"><a href="/terms/">Terms of Service</a></div>
-    <div class="card"><a href="/support/">Support</a></div>
-    <div class="card"><a href="/data-deletion/">Data Deletion</a></div>
+<!-- ===================== NAV ===================== -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="/" class="brand" aria-label="Nonlate home">
+      <span class="brand-mark">N</span>
+      <span>nonlate</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#integrations">Integrations</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+    <a href="#get" class="nav-cta">Get early access</a>
+  </div>
+</header>
 
-    <p class="muted">Last updated: April 2, 2026</p>
-  </main>
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow"><span class="dot"></span> Focus. Without the guilt trip.</div>
+    <h1 class="display">Never miss <em>what actually matters.</em></h1>
+    <p class="hero-sub">Nonlate is a calm layer on top of the apps that eat your day. The moment you reach for a distraction, it shows you the deadline you were about to walk past — then gets out of your way.</p>
+
+    <div class="cta-row">
+      <a href="#get" class="btn btn-primary">
+        Get early access
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#how" class="btn btn-ghost">See how it works</a>
+    </div>
+
+    <div class="hero-meta">
+      <span><span class="tick">✓</span> Works with what you already use</span>
+      <span><span class="tick">✓</span> No account. No inbox. No tracking you across the web</span>
+      <span><span class="tick">✓</span> iOS &amp; Android</span>
+    </div>
+
+    <!-- ------- HERO VISUAL ------- -->
+    <div class="hero-visual">
+      <!-- Intercept panel -->
+      <div class="panel dark reveal">
+        <span class="panel-label">The Nonlate moment</span>
+        <div class="intercept-demo">
+          <div class="intercept-app">
+            <span><strong>Instagram</strong></span>
+            <span style="opacity:.55;font-size:13px">Blocked by Nonlate</span>
+          </div>
+          <div class="intercept-big">Before you scroll — there&rsquo;s something due.</div>
+          <div class="intercept-sub">A gentle reminder, not a lock. You decide.</div>
+          <div class="intercept-task">
+            <div>
+              <div class="t-title">Thesis draft</div>
+              <div class="t-sub">Notion · Due today, 6:00 PM</div>
+            </div>
+            <div style="font-weight:800">2h left</div>
+          </div>
+          <div class="intercept-actions">
+            <span class="pill primary">Work on it</span>
+            <span class="pill">Later</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inbox panel -->
+      <div class="panel reveal">
+        <span class="panel-label">One list. Every source.</span>
+        <div class="list-demo">
+          <div class="task-row urgent">
+            <div>
+              <div style="font-weight:700">Merge main → release</div>
+              <div class="meta"><span class="src-dot"></span> Jira · DEV-412</div>
+            </div>
+            <div class="due">3h</div>
+          </div>
+          <div class="task-row">
+            <div>
+              <div style="font-weight:700">Calc II — problem set 9</div>
+              <div class="meta"><span class="src-dot"></span> Classroom</div>
+            </div>
+            <div class="due">Tue</div>
+          </div>
+          <div class="task-row">
+            <div>
+              <div style="font-weight:700">Ship landing page v2</div>
+              <div class="meta"><span class="src-dot"></span> Notion</div>
+            </div>
+            <div class="due">Fri</div>
+          </div>
+          <div class="task-row">
+            <div>
+              <div style="font-weight:700">Dentist · 2:30 PM</div>
+              <div class="meta"><span class="src-dot"></span> Google Calendar</div>
+            </div>
+            <div class="due">Apr 24</div>
+          </div>
+          <div class="task-row">
+            <div>
+              <div style="font-weight:700">Review PRs in queue</div>
+              <div class="meta"><span class="src-dot"></span> Trello</div>
+            </div>
+            <div class="due">Next wk</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="section paper" id="how">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">How it works</div>
+      <h2 class="section-title">Three steps. Then it fades into the background.</h2>
+      <p class="section-lede">You don&rsquo;t need a new system. Nonlate listens to the tools you already trust and speaks up at the one moment most productivity apps miss: right before you disappear into your phone.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div>
+          <div class="step-num">01</div>
+          <div class="step-title">Connect your sources</div>
+          <div class="step-body">Pick from Notion, Google Calendar, Google Tasks, Google Classroom, Microsoft To Do, Teams, Outlook, Jira, Trello, Blackboard iCal — whichever ones hold your real work.</div>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div>
+          <div class="step-num">02</div>
+          <div class="step-title">Choose your distractions</div>
+          <div class="step-body">Mark the handful of apps that usually win. Social, games, video — whatever the honest answer is. Everything else stays untouched.</div>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div>
+          <div class="step-num">03</div>
+          <div class="step-title">Get a quiet nudge</div>
+          <div class="step-body">When you open a distraction, Nonlate pauses the moment and shows the next thing that&rsquo;s actually due. One tap to continue anyway. No shame, no logs.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURES ===================== -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">What you get</div>
+      <h2 class="section-title">A gentler kind of productive.</h2>
+      <p class="section-lede">Nonlate isn&rsquo;t a task manager trying to replace your life. It&rsquo;s a thin, respectful layer that makes the tools you already use feel like they&rsquo;re finally on your side.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature accent reveal">
+        <div class="f-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        </div>
+        <div class="f-title">The intercept moment</div>
+        <div class="f-body">A full-screen pause in front of your worst time-sinks. Shows your most urgent deadline with context — source, due time, how much is left. Tap to work on it, or tap to continue. That&rsquo;s it.</div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="f-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 10h18M8 4v4M16 4v4"/></svg>
+        </div>
+        <div class="f-title">Unified deadline view</div>
+        <div class="f-body">Every task from every tool in one clean, honest list — grouped by what&rsquo;s actually urgent, not alphabetical or by project.</div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="f-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4L4 20"/></svg>
+        </div>
+        <div class="f-title">Real-time sync</div>
+        <div class="f-body">Silent push from Notion, Google Calendar, Jira, Trello and more. When your deadline moves, Nonlate already knows.</div>
+      </div>
+
+      <div class="feature reveal">
+        <div class="f-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 4v6c0 5-4 8-9 8s-9-3-9-8V7l9-4z"/></svg>
+        </div>
+        <div class="f-title">You stay in control</div>
+        <div class="f-body">Every nudge is skippable. Nonlate doesn&rsquo;t lock you out, report on you, or moralize. It respects that some days a scroll is the right call.</div>
+      </div>
+
+      <div class="feature wide reveal">
+        <div class="f-icon" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+        </div>
+        <div class="f-title">Built for the way you actually live</div>
+        <div class="f-body">Students juggling Classroom and Blackboard. Designers living in Notion. Engineers in Jira. Parents on Google Calendar. Nonlate quietly gathers all of it — so the question stops being &ldquo;what do I have to do?&rdquo; and starts being &ldquo;what do I want to do next?&rdquo;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REMINDER vs BLOCKER ===================== -->
+<section class="section paper">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">Reminder, not blocker</div>
+      <h2 class="section-title">Guilt apps don&rsquo;t work. Presence does.</h2>
+      <p class="section-lede">Every other focus app treats you like a problem to be controlled. Nonlate treats you like an adult with a lot on your plate — and shows you what&rsquo;s on it, at the right moment.</p>
+    </div>
+
+    <div class="vs">
+      <div class="vs-card neg reveal">
+        <div class="vs-label">Traditional blockers</div>
+        <h3>Lock your phone. Break your focus twice.</h3>
+        <ul class="vs-bullets">
+          <li>Passwords, timers, hard walls</li>
+          <li>Doesn&rsquo;t know what you&rsquo;re avoiding</li>
+          <li>Makes you feel watched</li>
+          <li>Easy to work around, hard to live with</li>
+        </ul>
+      </div>
+      <div class="vs-card pos reveal">
+        <div class="vs-label">Nonlate</div>
+        <h3>Pauses for one second. Shows the thing. Steps aside.</h3>
+        <ul class="vs-bullets">
+          <li>Knows exactly what&rsquo;s due and when</li>
+          <li>Respects your agency — tap to continue anytime</li>
+          <li>Calm, readable, on-brand for real life</li>
+          <li>Works because it earns the moment, not takes it</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INTEGRATIONS ===================== -->
+<section class="section" id="integrations">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">Integrations</div>
+      <h2 class="section-title">Bring your own tools. All of them.</h2>
+      <p class="section-lede">Connect as many as you want. Disconnect anytime from settings. Nonlate only reads what it needs to show your deadlines — nothing more.</p>
+    </div>
+
+    <div class="integrations-grid">
+      <div class="int-tile reveal"><span class="int-logo">N</span>Notion</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#4285F4">G</span>Google Calendar</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#1A73E8">T</span>Google Tasks</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#0F9D58">C</span>Google Classroom</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#5059C9">M</span>Microsoft To Do</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#464EB8">T</span>Microsoft Teams</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#0078D4">O</span>Outlook</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#0052CC">J</span>Jira</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#0079BF">T</span>Trello</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#F58025">B</span>Blackboard</div>
+      <div class="int-tile reveal"><span class="int-logo" style="background:#EA4335">iC</span>iCal</div>
+      <div class="int-tile reveal"><span class="int-logo">+</span>More coming</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRIVACY ===================== -->
+<section class="section dark" id="privacy">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-eyebrow">Privacy</div>
+      <h2 class="section-title">Your deadlines. Not our product.</h2>
+      <p class="section-lede">Nonlate is designed so the smallest possible amount of your life ever leaves your phone. No analytics dashboards on your behavior. No selling. No profile building.</p>
+    </div>
+
+    <div class="trust">
+      <div class="reveal">
+        <ul class="trust-points">
+          <li><span class="badge">1</span><span><b>Minimum-needed OAuth scopes.</b> Each integration asks only for what&rsquo;s required to read your tasks and deadlines.</span></li>
+          <li><span class="badge">2</span><span><b>Tokens stay encrypted.</b> On-device AES-256 storage. Certificate-pinned transport. Nothing sits in plaintext.</span></li>
+          <li><span class="badge">3</span><span><b>No cross-site tracking.</b> No third-party analytics following you around the web.</span></li>
+          <li><span class="badge">4</span><span><b>One-tap disconnect.</b> Every integration is reversible from settings. Uninstall wipes local data.</span></li>
+          <li><span class="badge">5</span><span><b>Email-based deletion.</b> Request complete removal any time — <a href="/data-deletion/" style="color:var(--cream);text-decoration:underline">details here</a>.</span></li>
+        </ul>
+      </div>
+      <div class="trust-card reveal">
+<span class="c">// What Nonlate stores about a task</span>
+{
+  <span class="k">id</span>: <span class="v">"notion:abc123"</span>,
+  <span class="k">title</span>: <span class="v">"Thesis draft"</span>,
+  <span class="k">due</span>: <span class="v">"2026-04-19T18:00"</span>,
+  <span class="k">source</span>: <span class="v">"notion"</span>,
+  <span class="k">status</span>: <span class="v">"open"</span>
+}
+
+<span class="c">// What it doesn&rsquo;t</span>
+<span class="c">– message contents</span>
+<span class="c">– calendar invitees</span>
+<span class="c">– how long you used any app</span>
+<span class="c">– who you talk to</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="cta-band" id="get">
+  <div class="container">
+    <h2 class="reveal">Stop being late without being locked out.</h2>
+    <p class="reveal">Nonlate is launching soon on iOS and Android. Leave your email and we&rsquo;ll send one message the day it&rsquo;s available — nothing else.</p>
+    <div class="cta-row reveal" style="justify-content:center">
+      <a href="mailto:support@nonlate.app?subject=Nonlate%20early%20access" class="btn btn-primary">
+        Join the early list
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="/support/" class="btn btn-ghost">Questions? Contact support</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand" style="color:var(--cream)">
+          <span class="brand-mark">N</span>
+          <span>nonlate</span>
+        </div>
+        <p>A calmer co-pilot for your real responsibilities. Built for people who have a lot going on and don&rsquo;t need another app yelling at them.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#integrations">Integrations</a>
+        <a href="#get">Early access</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="/support/">Support</a>
+        <a href="mailto:support@nonlate.app">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/data-deletion/">Data deletion</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© <span id="yr">2026</span> Nonlate. All rights reserved.</div>
+      <div>nonlate.app</div>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+<script src="/script.js" defer></script>
 </body>
 </html>
