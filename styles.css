@@ -275,6 +275,10 @@ h1.display em {
   width: 8px; height: 8px; border-radius: 50%;
   background: var(--accent);
 }
+.task-row .src-ico {
+  width: 16px; height: 16px; display: inline-block; flex-shrink: 0;
+  object-fit: contain;
+}
 .task-row.urgent { background: #fff1ed; border-color: #ffdacd; }
 .task-row.urgent .src-dot { background: #ff5a36; }
 .task-row .due {
@@ -450,32 +454,53 @@ h1.display em {
 .integrations-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 12px;
+  gap: 14px;
 }
 .int-tile {
   background: var(--paper);
   border: 1px solid rgba(11,11,14,0.06);
-  border-radius: 14px;
-  padding: 18px 14px;
+  border-radius: 16px;
+  padding: 22px 14px 18px;
   text-align: center;
   font-size: 13px;
   font-weight: 600;
   color: var(--ink-2);
-  display: flex; flex-direction: column; align-items: center; gap: 10px;
-  min-height: 92px;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+  min-height: 112px;
   justify-content: center;
-  transition: transform 150ms ease, border-color 150ms ease;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
 }
-.int-tile:hover { transform: translateY(-2px); border-color: var(--accent); }
+.int-tile:hover {
+  transform: translateY(-2px);
+  border-color: rgba(11,11,14,0.12);
+  box-shadow: 0 8px 24px rgba(11,11,14,0.06);
+}
 .int-logo {
-  width: 28px; height: 28px;
+  width: 44px; height: 44px;
   display: flex; align-items: center; justify-content: center;
-  font-weight: 800; font-size: 14px;
-  color: var(--cream); background: var(--ink);
-  border-radius: 8px;
+  background: #fff;
+  border: 1px solid rgba(11,11,14,0.06);
+  border-radius: 12px;
+  color: var(--ink-2);
 }
+.int-logo img {
+  width: 24px; height: 24px; display: block;
+}
+.int-name {
+  line-height: 1.25;
+}
+.int-tile.int-more .int-logo {
+  background: transparent;
+  border-style: dashed;
+  border-color: rgba(11,11,14,0.18);
+  color: var(--ink-2);
+}
+.int-tile.int-more .int-logo svg { width: 18px; height: 18px; }
 @media (max-width: 860px) {
   .integrations-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 480px) {
+  .integrations-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* ---------- Trust ---------- */
