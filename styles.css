@@ -606,8 +606,62 @@ footer {
   .foot-grid { grid-template-columns: 1fr; }
 }
 
-/* ---------- Utility ---------- */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity 700ms ease, transform 700ms ease; }
+/* ---------- Reveal & motion ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 700ms cubic-bezier(.2,.7,.2,1), transform 700ms cubic-bezier(.2,.7,.2,1);
+  transition-delay: calc(var(--i, 0) * 60ms);
+}
 .reveal.visible { opacity: 1; transform: translateY(0); }
+
+.reveal.from-left  { transform: translate(-24px, 18px); }
+.reveal.from-right { transform: translate( 24px, 18px); }
+.reveal.from-left.visible,
+.reveal.from-right.visible { transform: translate(0, 0); }
+
+/* Nav — frosted bg + shrink once user scrolls */
+.nav { transition: background-color 200ms ease, box-shadow 200ms ease; }
+.nav.scrolled {
+  background: rgba(244, 239, 230, 0.82);
+  box-shadow: 0 1px 0 rgba(11,11,14,0.06), 0 8px 24px rgba(11,11,14,0.05);
+}
+.nav-inner { transition: height 220ms ease; }
+.nav.scrolled .nav-inner { height: 56px; }
+
+/* Button arrow slides on hover */
+.btn-primary svg { transition: transform 200ms ease; }
+.btn-primary:hover svg { transform: translateX(4px); }
+
+/* Integration tile icon bloom on hover */
+.int-tile .int-logo { transition: transform 220ms cubic-bezier(.2,.7,.2,1), box-shadow 220ms ease; }
+.int-tile:hover .int-logo {
+  transform: scale(1.08) translateY(-1px);
+  box-shadow: 0 6px 16px rgba(11,11,14,0.08);
+}
+
+/* One-time pulse on the urgent task when it becomes visible */
+@keyframes urgent-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255, 90, 54, 0.38); }
+  70%  { box-shadow: 0 0 0 14px rgba(255, 90, 54, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 90, 54, 0); }
+}
+.task-row.urgent.visible { animation: urgent-pulse 1400ms ease-out 320ms 1; }
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.from-left,
+  .reveal.from-right,
+  .nav,
+  .nav-inner,
+  .btn-primary svg,
+  .int-tile .int-logo {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+  }
+  .reveal { opacity: 1; }
+}
 
 ::selection { background: var(--accent); color: #fff; }
