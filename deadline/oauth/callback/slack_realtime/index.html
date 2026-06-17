@@ -35,6 +35,15 @@
             color: #60a5fa;
             text-decoration: none;
         }
+        .open-button {
+            display: inline-block;
+            margin-top: 0.75rem;
+            padding: 0.9rem 1.25rem;
+            border-radius: 14px;
+            background: #60a5fa;
+            color: #07111f;
+            font-weight: 700;
+        }
         a:hover {
             text-decoration: underline;
         }
@@ -42,8 +51,32 @@
     <script>
         const callbackPath = 'slack_realtime';
         const appUrl = 'deadline://oauth/callback/' + callbackPath + window.location.search;
+        const diagnosticUrl = 'https://deadline-opal.vercel.app/api/oauth-bridge';
+        const queryKeys = Array.from(new URLSearchParams(window.location.search).keys());
 
-        function openDeadLine() {
+        function reportBridge(stage) {
+            const params = new URLSearchParams(window.location.search);
+            const payload = JSON.stringify({
+                platform: callbackPath,
+                stage: stage,
+                has_code: params.has('code'),
+                has_state: params.has('state'),
+                query_keys: queryKeys
+            });
+            const blob = new Blob([payload], { type: 'text/plain;charset=UTF-8' });
+            if (navigator.sendBeacon && navigator.sendBeacon(diagnosticUrl, blob)) {
+                return;
+            }
+            fetch(diagnosticUrl, {
+                method: 'POST',
+                body: payload,
+                mode: 'no-cors',
+                keepalive: true
+            }).catch(function() {});
+        }
+
+        function openDeadLine(stage) {
+            reportBridge(stage || 'redirect_attempt');
             window.location.href = appUrl;
         }
 
@@ -52,14 +85,18 @@
             const link = document.getElementById('link');
             if (link) {
                 link.href = appUrl;
+                link.addEventListener('click', function() {
+                    reportBridge('manual_click');
+                });
             }
-            setTimeout(function() {
-                if (manualLink) {
-                    manualLink.style.display = 'block';
-                }
-            }, 500);
-            [0, 700, 1500, 2800].forEach(function(delay) {
-                setTimeout(openDeadLine, delay);
+            if (manualLink) {
+                manualLink.style.display = 'block';
+            }
+            reportBridge('loaded');
+            [0, 700, 1500, 2800, 4500, 6500, 9000, 12000].forEach(function(delay, index) {
+                setTimeout(function() {
+                    openDeadLine('redirect_attempt_' + (index + 1));
+                }, delay);
             });
         }
 
@@ -77,7 +114,7 @@
         <p>Redirecting you back to the app</p>
         <div id="manual-link" style="display: none; margin-top: 1rem;">
             <p>Not redirected automatically?</p>
-            <a id="link" href="#">Click here to open DeadLine</a>
+            <a id="link" class="open-button" href="#">Open Nonlate</a>
         </div>
     </div>
 </body>
