@@ -40,12 +40,34 @@
         }
     </style>
     <script>
-        const params = window.location.search;
-        const appUrl = 'deadline://oauth/callback/slack_realtime' + params;
-        window.location.href = appUrl;
-        setTimeout(function() {
-            document.getElementById('manual-link').style.display = 'block';
-        }, 2000);
+        const callbackPath = 'slack_realtime';
+        const appUrl = 'deadline://oauth/callback/' + callbackPath + window.location.search;
+
+        function openDeadLine() {
+            window.location.href = appUrl;
+        }
+
+        function startRedirect() {
+            const manualLink = document.getElementById('manual-link');
+            const link = document.getElementById('link');
+            if (link) {
+                link.href = appUrl;
+            }
+            setTimeout(function() {
+                if (manualLink) {
+                    manualLink.style.display = 'block';
+                }
+            }, 500);
+            [0, 700, 1500, 2800].forEach(function(delay) {
+                setTimeout(openDeadLine, delay);
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', startRedirect);
+        } else {
+            startRedirect();
+        }
     </script>
 </head>
 <body>
@@ -58,8 +80,5 @@
             <a id="link" href="#">Click here to open DeadLine</a>
         </div>
     </div>
-    <script>
-        document.getElementById('link').href = 'deadline://oauth/callback/slack_realtime' + window.location.search;
-    </script>
 </body>
 </html>
