@@ -4,46 +4,121 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nonlate Support</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.6;
-      background: #ffffff;
-      color: #121212;
-    }
-    .wrap { max-width: 860px; margin: 0 auto; padding: 28px 20px 56px; }
-    h1 { margin: 0 0 6px; }
-    h2 { margin-top: 28px; font-size: 1.2rem; }
-    .meta { color: #666; margin-bottom: 24px; }
-    a { color: #304ffe; }
-  </style>
+  <meta name="description" content="Get help with Nonlate integration, sync, ad privacy, and data deletion requests.">
+  <meta name="theme-color" content="#0b0b0e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b0b0e'/%3E%3Cpath d='M9 22V10h2.2l6 8.2V10H19.5v12h-2.2l-6-8.2V22H9z' fill='%23f4efe6'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <main class="wrap">
-    <h1>Nonlate Support</h1>
-    <p class="meta">Last updated: April 2, 2026</p>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="brand" aria-label="Nonlate home">
+        <span class="brand-mark">N</span>
+        <span>nonlate</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/#how">How it works</a>
+        <a href="/#features">Features</a>
+        <a href="/#integrations">Integrations</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <a href="/#get" class="nav-cta">Get early access</a>
+    </div>
+  </header>
 
-    <p>Need help with Nonlate? Contact support and we will respond as soon as possible.</p>
+  <main class="legal-main">
+    <section class="legal-hero">
+      <div class="container">
+        <p class="legal-kicker">Help</p>
+        <h1 class="legal-title">Support</h1>
+        <p class="legal-intro">Need help with Nonlate? Contact support and we will respond as soon as possible.</p>
+        <p class="legal-updated">Last updated: April 2, 2026</p>
+      </div>
+    </section>
 
-    <h2>Support Email</h2>
-    <p><a href="mailto:support@nonlate.app">support@nonlate.app</a></p>
+    <div class="container legal-layout">
+      <article class="legal-article">
+        <h2>Support email</h2>
+        <p><a href="mailto:support@nonlate.app">support@nonlate.app</a></p>
 
-    <h2>Include these details</h2>
-    <ul>
-      <li>Device model and OS version</li>
-      <li>App version</li>
-      <li>A short description of the issue</li>
-      <li>Screenshots or logs (if available)</li>
-    </ul>
+        <h2>Include these details</h2>
+        <ul>
+          <li>Device model and OS version.</li>
+          <li>App version.</li>
+          <li>A short description of the issue.</li>
+          <li>Screenshots or logs, if available.</li>
+        </ul>
 
-    <h2>Common requests</h2>
-    <ul>
-      <li>Integration connection problems</li>
-      <li>Sync issues</li>
-      <li>Ad privacy choices</li>
-      <li>Data deletion requests</li>
-    </ul>
+        <h2>Common requests</h2>
+        <div class="support-grid">
+          <div class="support-card">
+            <strong>Integration connection problems</strong>
+            <span>Provider login, permissions, or callback issues.</span>
+          </div>
+          <div class="support-card">
+            <strong>Sync issues</strong>
+            <span>Tasks, due dates, or calendars not appearing as expected.</span>
+          </div>
+          <div class="support-card">
+            <strong>Ad privacy choices</strong>
+            <span>Questions about consent, ATT, or ad privacy settings.</span>
+          </div>
+          <div class="support-card">
+            <strong>Data deletion requests</strong>
+            <span>Requests to remove data associated with Nonlate.</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="legal-side" aria-label="Legal pages">
+        <p class="legal-side-title">Nonlate pages</p>
+        <nav class="legal-link-list">
+          <a class="legal-link-card" href="/privacy/">Privacy Policy</a>
+          <a class="legal-link-card" href="/terms/">Terms of Service</a>
+          <a class="legal-link-card" href="/support/" aria-current="page">Support</a>
+          <a class="legal-link-card" href="/data-deletion/">Data Deletion</a>
+        </nav>
+      </aside>
+    </div>
   </main>
+
+  <footer>
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <div class="brand">
+            <span class="brand-mark">N</span>
+            <span>nonlate</span>
+          </div>
+          <p>A calmer co-pilot for your real responsibilities. Built for people who have a lot going on and don&rsquo;t need another app yelling at them.</p>
+        </div>
+        <div class="foot-col">
+          <h3>Product</h3>
+          <a href="/#how">How it works</a>
+          <a href="/#features">Features</a>
+          <a href="/#integrations">Integrations</a>
+          <a href="/#get">Early access</a>
+        </div>
+        <div class="foot-col">
+          <h3>Company</h3>
+          <a href="/support/">Support</a>
+          <a href="mailto:support@nonlate.app">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h3>Legal</h3>
+          <a href="/privacy/">Privacy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/data-deletion/">Data deletion</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div>&copy; 2026 Nonlate. All rights reserved.</div>
+        <div>nonlate.app</div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
