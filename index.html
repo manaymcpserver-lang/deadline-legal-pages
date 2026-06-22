@@ -17,46 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script>
-    (function () {
-      // ClickUp OAuth only stores the origin as its redirect URL, so it sends the
-      // authorization code back here, to the site root. Bridge it to the app's
-      // custom scheme. Every other integration uses its own /deadline/oauth/... page.
-      var query = window.location.search || "";
-      var params = new URLSearchParams(query);
-      var isOAuthCallback = params.has("code") && params.has("state");
-
-      document.documentElement.classList.add('js');
-
-      if (!isOAuthCallback) {
-        return;
-      }
-
-      var appUrl = "deadline://oauth/callback/clickup" + query;
-      window.__nonlateOAuthAppUrl = appUrl;
-      window.location.replace(appUrl);
-
-      setTimeout(function () {
-        window.location.href = appUrl;
-      }, 120);
-
-      document.addEventListener("DOMContentLoaded", function () {
-        document.body.innerHTML = [
-          '<main style="min-height:100vh;display:grid;place-items:center;background:#000;color:#fff;text-align:center;padding:24px;font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,sans-serif">',
-          '<div>',
-          '<p style="margin:0;font-size:18px;line-height:1.4">Returning you to Nonlate...</p>',
-          '<p style="margin:14px 0 0;font-size:16px;line-height:1.4;opacity:.88">If it does not open, <a id="oauth-open-link" style="color:#93c5fd;text-decoration:none" href="#">tap here</a>.</p>',
-          '</div>',
-          '</main>'
-        ].join("");
-
-        var openLink = document.getElementById("oauth-open-link");
-        if (openLink) {
-          openLink.href = appUrl;
-        }
-      });
-    })();
-  </script>
+  <script>document.documentElement.classList.add('js');</script>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
