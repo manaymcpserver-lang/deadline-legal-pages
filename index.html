@@ -24,7 +24,9 @@
       // custom scheme. Every other integration uses its own /deadline/oauth/... page.
       var query = window.location.search || "";
       var params = new URLSearchParams(query);
-      var isOAuthCallback = params.has("code") && params.has("state");
+      // ClickUp redirects back with `code` only — it does NOT echo the `state`
+      // parameter — so the callback check must require `code` alone.
+      var isOAuthCallback = params.has("code");
 
       document.documentElement.classList.add('js');
 
