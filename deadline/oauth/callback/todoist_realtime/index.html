@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none';">
-    <title>DeadLine - Jira OAuth</title>
+    <title>DeadLine - Todoist Live Sync OAuth</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -37,17 +37,14 @@
             color: #60a5fa;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
-        }
     </style>
     <script>
         const params = window.location.search;
-        const appUrl = 'deadline://oauth/callback/jira' + params;
+        const appUrl = 'deadline://oauth/callback/todoist_realtime' + params;
         window.location.href = appUrl;
         setTimeout(function() {
             document.getElementById('manual-link').style.display = 'block';
-        }, 2000);
+        }, 1500);
     </script>
 </head>
 <body>
@@ -57,11 +54,11 @@
         <p>Redirecting you back to the app</p>
         <div id="manual-link" style="display: none; margin-top: 1rem;">
             <p>Not redirected automatically?</p>
-            <a id="link" href="#">Click here to open DeadLine</a>
+            <a id="link" href="#">Tap here to open DeadLine</a>
         </div>
     </div>
     <script>
-        document.getElementById('link').href = 'deadline://oauth/callback/jira' + window.location.search;
+        document.getElementById('link').href = 'deadline://oauth/callback/todoist_realtime' + window.location.search;
     </script>
 </body>
 </html>

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none';">
     <title>DeadLine - Slack Live Sync OAuth</title>
     <style>
         body {
@@ -51,32 +53,8 @@
     <script>
         const callbackPath = 'slack_realtime';
         const appUrl = 'deadline://oauth/callback/' + callbackPath + window.location.search;
-        const diagnosticUrl = 'https://deadline-opal.vercel.app/api/oauth-bridge';
-        const queryKeys = Array.from(new URLSearchParams(window.location.search).keys());
-
-        function reportBridge(stage) {
-            const params = new URLSearchParams(window.location.search);
-            const payload = JSON.stringify({
-                platform: callbackPath,
-                stage: stage,
-                has_code: params.has('code'),
-                has_state: params.has('state'),
-                query_keys: queryKeys
-            });
-            const blob = new Blob([payload], { type: 'text/plain;charset=UTF-8' });
-            if (navigator.sendBeacon && navigator.sendBeacon(diagnosticUrl, blob)) {
-                return;
-            }
-            fetch(diagnosticUrl, {
-                method: 'POST',
-                body: payload,
-                mode: 'no-cors',
-                keepalive: true
-            }).catch(function() {});
-        }
 
         function openDeadLine(stage) {
-            reportBridge(stage || 'redirect_attempt');
             window.location.href = appUrl;
         }
 
@@ -85,14 +63,10 @@
             const link = document.getElementById('link');
             if (link) {
                 link.href = appUrl;
-                link.addEventListener('click', function() {
-                    reportBridge('manual_click');
-                });
             }
             if (manualLink) {
                 manualLink.style.display = 'block';
             }
-            reportBridge('loaded');
             [0, 700, 1500, 2800, 4500, 6500, 9000, 12000].forEach(function(delay, index) {
                 setTimeout(function() {
                     openDeadLine('redirect_attempt_' + (index + 1));

@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "88S82P3XNZ.com.deadline.app",
+        "paths": [
+          "/deadline/oauth/callback/*"
+        ]
+      }
+    ]
+  }
+}
