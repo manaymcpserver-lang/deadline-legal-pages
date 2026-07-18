@@ -264,8 +264,8 @@ p {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 12px rgba(198, 255, 94, 0.7);
+  background: #ffbd4a;
+  box-shadow: 0 0 12px rgba(255, 189, 74, 0.62);
 }
 
 .menu-toggle {
@@ -2418,15 +2418,20 @@ p {
   }
 
   .hero-stage {
-    min-height: 460px;
+    min-height: 670px;
   }
 
-  .orbit--calendar {
-    left: 0;
+  .hero-shot--back,
+  .orbit {
+    display: none;
   }
 
-  .orbit--notion {
-    right: 0;
+  .hero-shot--front {
+    width: min(86%, 300px);
+    top: 0;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .moment__visual {
