@@ -527,6 +527,7 @@ p {
 
 .hero-shot {
   position: absolute;
+  aspect-ratio: 3 / 5;
   margin: 0;
   overflow: hidden;
   border: 1px solid var(--line-strong);
@@ -538,7 +539,11 @@ p {
 .hero-shot img {
   width: 100%;
   height: auto;
+  transform: translateY(var(--hero-crop-y));
 }
+
+.hero-shot img[src$="01-know-whats-due-before-you-scroll.webp"] { --hero-crop-y: -23%; }
+.hero-shot img[src$="02-a-deadline-is-waiting.webp"] { --hero-crop-y: -18%; }
 
 .hero-shot--back {
   width: min(55%, 290px);
@@ -744,19 +749,29 @@ p {
 }
 
 .moment__screen-stack {
+  position: relative;
   width: min(100%, 300px);
-  display: grid;
-  place-items: center;
+  aspect-ratio: 3 / 5;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-radius: 22px;
+  background: #090b14;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
 }
 
 .moment__screen {
+  position: absolute;
+  inset: 0 auto auto 0;
   display: none;
   width: 100%;
-  grid-area: 1 / 1;
-  border: 1px solid var(--line-strong);
-  border-radius: 22px;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  height: auto;
+  transform: translateY(var(--moment-crop-y));
 }
+
+.moment__screen[src$="03-deadlines-from-everywhere.webp"],
+.moment__screen[src$="05-one-list-for-every-source.webp"],
+.moment__screen[src$="06-choose-what-gets-interrupted.webp"] { --moment-crop-y: -23%; }
+.moment__screen[src$="02-a-deadline-is-waiting.webp"] { --moment-crop-y: -18%; }
 
 .moment__screen:first-child {
   display: block;
@@ -765,7 +780,8 @@ p {
 .js-ready .moment__screen {
   display: block;
   opacity: 0;
-  transform: scale(0.97) translateY(10px);
+  transform: translateY(calc(var(--moment-crop-y) + 10px)) scale(0.97);
+  transform-origin: center top;
   transition: opacity 360ms ease, transform 360ms ease;
 }
 
@@ -774,7 +790,7 @@ p {
 .js-ready [data-active="2"] .moment__screen:nth-child(3),
 .js-ready [data-active="3"] .moment__screen:nth-child(4) {
   opacity: 1;
-  transform: scale(1) translateY(0);
+  transform: translateY(var(--moment-crop-y)) scale(1);
 }
 
 .moment__caption {
@@ -987,7 +1003,7 @@ p {
   transform: translateY(var(--poster-crop-y, 0));
 }
 
-.product-card__media img[src$="03-deadlines-from-everywhere.webp"] { --poster-crop-y: -22%; }
+.product-card__media img[src$="05-one-list-for-every-source.webp"] { --poster-crop-y: -23%; }
 .product-card__media img[src$="04-turn-deadlines-into-a-day-plan.webp"] { --poster-crop-y: -28%; }
 .product-card__media img[src$="06-choose-what-gets-interrupted.webp"] { --poster-crop-y: -27%; }
 
@@ -2466,7 +2482,7 @@ p {
   }
 
   .hero-stage {
-    min-height: 670px;
+    min-height: clamp(440px, 128vw, 500px);
   }
 
   .hero-shot--back,
