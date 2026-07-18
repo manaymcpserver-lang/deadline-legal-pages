@@ -5,7 +5,7 @@
       "namespace": "android_app",
       "package_name": "com.deadline",
       "sha256_cert_fingerprints": [
-        "4AD6CAB608AEDC4AB0824603B893B329A4CC04D83AB110BEEA5668851FF4FCE8"
+        "4A:D6:CA:B6:08:AE:DC:4A:B0:82:46:03:B8:93:B3:29:A4:CC:04:D8:3A:B1:10:BE:EA:56:68:85:1F:F4:FC:E8"
       ]
     }
   },
@@ -15,7 +15,7 @@
       "namespace": "android_app",
       "package_name": "com.nonlate.app",
       "sha256_cert_fingerprints": [
-        "4AD6CAB608AEDC4AB0824603B893B329A4CC04D83AB110BEEA5668851FF4FCE8"
+        "4A:D6:CA:B6:08:AE:DC:4A:B0:82:46:03:B8:93:B3:29:A4:CC:04:D8:3A:B1:10:BE:EA:56:68:85:1F:F4:FC:E8"
       ]
     }
   }
