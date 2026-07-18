@@ -982,8 +982,14 @@ p {
 }
 
 .product-card__media img {
+  display: block;
   width: 100%;
+  transform: translateY(var(--poster-crop-y, 0));
 }
+
+.product-card__media img[src$="03-deadlines-from-everywhere.webp"] { --poster-crop-y: -22%; }
+.product-card__media img[src$="04-turn-deadlines-into-a-day-plan.webp"] { --poster-crop-y: -28%; }
+.product-card__media img[src$="06-choose-what-gets-interrupted.webp"] { --poster-crop-y: -27%; }
 
 .product-card__media--right {
   width: min(88%, 520px);
@@ -1391,7 +1397,7 @@ p {
   color: var(--ink);
 }
 
-.insight-card > div {
+.insight-card > div:not(.insight-card__media) {
   padding: 34px;
 }
 
@@ -1403,15 +1409,28 @@ p {
   color: #4f596d;
 }
 
-.insight-card img {
+.insight-card__media {
   width: 76%;
-  margin: auto auto -43% auto;
+  aspect-ratio: 3 / 5;
+  margin: auto auto 0;
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 24px 24px 0 0;
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.26);
 }
 
-.insight-card--light img {
+.insight-card__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: translateY(var(--insight-crop-y));
+}
+
+.insight-card__media img[src$="07-choose-the-message-that-stops-you.webp"] { --insight-crop-y: -23%; }
+.insight-card__media img[src$="08-see-your-focus-rhythm.webp"] { --insight-crop-y: -23%; }
+.insight-card__media img[src$="09-make-focus-feel-yours.webp"] { --insight-crop-y: -20%; }
+
+.insight-card--light .insight-card__media {
   border-color: rgba(12, 16, 32, 0.12);
   box-shadow: 0 28px 60px rgba(34, 52, 76, 0.18);
 }
@@ -2221,7 +2240,7 @@ p {
     min-height: 760px;
   }
 
-  .insight-card img {
+  .insight-card__media {
     width: min(72%, 430px);
   }
 
@@ -2398,11 +2417,11 @@ p {
     min-height: 650px;
   }
 
-  .insight-card > div {
+  .insight-card > div:not(.insight-card__media) {
     padding: 28px;
   }
 
-  .insight-card img {
+  .insight-card__media {
     width: 84%;
   }
 
