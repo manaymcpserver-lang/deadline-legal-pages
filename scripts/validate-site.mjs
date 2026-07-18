@@ -43,6 +43,7 @@ const requiredFiles = [
   '.well-known/apple-app-site-association',
   '.well-known/assetlinks.json',
   '.well-known/microsoft-identity-association.json',
+  '.github/workflows/validate-site.yml',
   '404.html',
   'CNAME',
   'assets/brand/apple-touch-icon.png',
@@ -376,6 +377,7 @@ check('homepage core story remains available without JavaScript', () => {
     'Blocker',
     'Focus Lock',
     '20+ supported sources',
+    'Live Activities',
     'Coming soon to iOS and Android',
   ];
   const missing = requiredCopy.filter((copy) => !text.includes(copy));
@@ -386,6 +388,32 @@ check('homepage core story remains available without JavaScript', () => {
   expect(!/^\.reveal\s*\{[^}]*opacity\s*:\s*0/m.test(css), 'reveal content is hidden before JavaScript runs');
   expect(/\.moment__screen:first-child\s*\{[^}]*display\s*:\s*block/s.test(css), 'the first product-sequence screen must be visible without JavaScript');
   expect(/\.js-ready\s+\.site-nav/s.test(css), 'mobile menu collapsing must be gated behind the JavaScript-ready class');
+});
+
+check('interactive product sequence exposes only the active screen', () => {
+  const html = read('index.html');
+  const script = read('script.js');
+  const visualTag = html.match(/<div\b[^>]*class=(['"])[^'"]*\bmoment__visual\b[^'"]*\1[^>]*>/i)?.[0] ?? '';
+  expect(!/\baria-live\s*=/i.test(visualTag), 'the full visual region must not announce every stacked screenshot');
+
+  const captionTag = html.match(/<div\b[^>]*class=(['"])[^'"]*\bmoment__caption\b[^'"]*\1[^>]*>/i)?.[0] ?? '';
+  expect(/\baria-live\s*=\s*(['"])polite\1/i.test(captionTag), 'the changing caption must use aria-live="polite"');
+  expect(/\baria-atomic\s*=\s*(['"])true\1/i.test(captionTag), 'the changing caption must be announced atomically');
+
+  const screenTags = tags(html, 'img').filter(({ attributes }) =>
+    attributes.get('class')?.split(/\s+/).includes('moment__screen'),
+  );
+  expect(screenTags.length === 4, `expected four product-sequence screens; found ${screenTags.length}`);
+  const initiallyHidden = screenTags.slice(1).filter(({ attributes }) => attributes.get('aria-hidden') === 'true');
+  expect(initiallyHidden.length === 3, 'the three inactive static screens must start aria-hidden');
+  expect(/screen\.setAttribute\(['"]aria-hidden['"],\s*String\(screenIndex\s*!==\s*index\)\)/.test(script), 'JavaScript must synchronize aria-hidden with the active screen');
+});
+
+check('Pages validation workflow runs the site validator', () => {
+  const workflow = read('.github/workflows/validate-site.yml');
+  expect(/pull_request\s*:/i.test(workflow), 'workflow must validate pull requests');
+  expect(/push\s*:/i.test(workflow), 'workflow must validate pushes');
+  expect(/node\s+scripts\/validate-site\.mjs/.test(workflow), 'workflow must run node scripts/validate-site.mjs');
 });
 
 check('reduced-motion users receive static visible states', () => {

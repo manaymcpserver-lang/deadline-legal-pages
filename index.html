@@ -75,13 +75,13 @@
 
       <nav class="site-nav" id="primary-navigation" aria-label="Primary" data-site-nav>
         <a href="#nonlate-moment">How it works</a>
-        <a href="#product">Product</a>
+        <a href="#product">Features</a>
         <a href="#integrations">Integrations</a>
         <a href="#plans">Plans</a>
         <a href="#privacy">Privacy</a>
       </nav>
 
-      <span class="availability-pill"><span aria-hidden="true"></span> Coming soon</span>
+      <a class="availability-pill" href="#coming-soon"><span aria-hidden="true"></span> Coming soon</a>
     </div>
   </header>
 
@@ -93,10 +93,10 @@
         <div class="hero__copy">
           <p class="eyebrow"><span class="eyebrow__line" aria-hidden="true"></span> Deadlines before distractions</p>
           <h1 id="hero-title">Know what&rsquo;s due <span>before you scroll.</span></h1>
-          <p class="hero__lede">Nonlate gathers your school, work, calendar, and to-do deadlines, helps you plan the day, then steps in when a chosen app is about to pull you away.</p>
+          <p class="hero__lede">Nonlate brings school, work, calendar, and to-do deadlines into one plan—then shows what matters when a chosen app is about to pull you away.</p>
 
           <div class="hero__actions">
-            <a class="button button--primary" href="#nonlate-moment">See the Nonlate moment <span aria-hidden="true">&darr;</span></a>
+            <a class="button button--primary" href="#nonlate-moment">See Nonlate in action <span aria-hidden="true">&darr;</span></a>
             <span class="platform-note"><span class="platform-note__dots" aria-hidden="true"><i></i><i></i></span> Coming soon to iOS and Android</span>
           </div>
 
@@ -135,14 +135,14 @@
         </div>
 
         <div class="moment__layout" data-moment>
-          <div class="moment__visual reveal" aria-live="polite">
+          <div class="moment__visual reveal">
             <div class="moment__screen-stack" data-moment-screens data-active="0">
               <img class="moment__screen" src="/assets/product/03-deadlines-from-everywhere.webp" width="900" height="1955" alt="Deadlines gathered from school, calendars, tasks, and work" loading="lazy" decoding="async">
-              <img class="moment__screen" src="/assets/product/05-one-list-for-every-source.webp" width="900" height="1955" alt="A unified Nonlate task list showing work from multiple sources" loading="lazy" decoding="async">
-              <img class="moment__screen" src="/assets/product/06-choose-what-gets-interrupted.webp" width="900" height="1955" alt="Nonlate focus settings for selecting distracting apps, categories, and websites" loading="lazy" decoding="async">
-              <img class="moment__screen" src="/assets/product/02-a-deadline-is-waiting.webp" width="900" height="1955" alt="A Nonlate reminder putting due work before a distraction" loading="lazy" decoding="async">
+              <img class="moment__screen" src="/assets/product/05-one-list-for-every-source.webp" width="900" height="1955" alt="A unified Nonlate task list showing work from multiple sources" loading="lazy" decoding="async" aria-hidden="true">
+              <img class="moment__screen" src="/assets/product/06-choose-what-gets-interrupted.webp" width="900" height="1955" alt="Nonlate focus settings for selecting distracting apps, categories, and websites" loading="lazy" decoding="async" aria-hidden="true">
+              <img class="moment__screen" src="/assets/product/02-a-deadline-is-waiting.webp" width="900" height="1955" alt="A Nonlate reminder putting due work before a distraction" loading="lazy" decoding="async" aria-hidden="true">
             </div>
-            <div class="moment__caption"><span data-moment-count>01</span> / 04 <strong data-moment-label>Deadlines connect</strong></div>
+            <div class="moment__caption" aria-live="polite" aria-atomic="true"><span data-moment-count>01</span> / 04 <strong data-moment-label>Deadlines connect</strong></div>
           </div>
 
           <ol class="moment__steps">
@@ -215,6 +215,39 @@
             </div>
             <div class="product-card__media">
               <img src="/assets/product/06-choose-what-gets-interrupted.webp" width="900" height="1955" alt="Nonlate app blocking settings with selected apps, categories, and websites" loading="lazy" decoding="async">
+            </div>
+          </article>
+
+          <article class="product-card product-card--wide product-card--visible reveal" id="live-activities">
+            <div class="product-card__copy">
+              <span class="card-index">04</span>
+              <h3>Keep the next deadline in sight</h3>
+              <p>Widgets keep due work at a glance. On supported iPhones, Live Activities and Dynamic Island can count down an approaching deadline or an active break without reopening Nonlate.</p>
+              <ul class="inline-facts"><li>Home Screen widgets</li><li>Live Activities</li><li>Dynamic Island</li></ul>
+            </div>
+            <div class="product-card__live-preview" role="img" aria-label="Illustration of Nonlate deadline and break Live Activities on iPhone">
+              <div aria-hidden="true">
+                <div class="live-preview__island">
+                  <img src="/assets/brand/icon-192.png" width="24" height="24" alt="">
+                  <span>Due soon</span>
+                  <strong>10:08</strong>
+                </div>
+                <div class="live-preview__card">
+                  <div class="live-preview__head">
+                    <span><img src="/assets/brand/icon-192.png" width="24" height="24" alt=""> Nonlate</span>
+                    <span class="live-preview__status"><i></i> Due soon</span>
+                  </div>
+                  <h4>Biology lab</h4>
+                  <p>Due in</p>
+                  <strong class="live-preview__countdown">10:08</strong>
+                  <div class="live-preview__foot"><span></span> Deadline approaching</div>
+                </div>
+                <div class="live-preview__break">
+                  <span><i></i> Break active</span>
+                  <strong>09:55</strong>
+                  <small>Blocking resumes when the break ends</small>
+                </div>
+              </div>
             </div>
           </article>
         </div>
@@ -450,7 +483,7 @@
           <p>Real deadlines, at the moment they matter. Built for school, work, and everything in between.</p>
           <span class="footer-tagline">Be on time. Gently.</span>
         </div>
-        <div class="footer-column"><h2>Product</h2><a href="#nonlate-moment">How it works</a><a href="#product">Product</a><a href="#integrations">Integrations</a><a href="#plans">Plans</a></div>
+        <div class="footer-column"><h2>Product</h2><a href="#nonlate-moment">How it works</a><a href="#product">Features</a><a href="#integrations">Integrations</a><a href="#plans">Plans</a></div>
         <div class="footer-column"><h2>Help</h2><a href="/support/">Support</a><a href="#faq">FAQ</a><a href="mailto:support@nonlate.app">Contact</a></div>
         <div class="footer-column"><h2>Legal</h2><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/data-deletion/">Data deletion</a></div>
       </div>

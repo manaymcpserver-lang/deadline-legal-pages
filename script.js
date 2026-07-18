@@ -47,6 +47,7 @@
   if (moment) {
     const steps = [...moment.querySelectorAll('[data-moment-step]')];
     const screens = moment.querySelector('[data-moment-screens]');
+    const screenItems = [...moment.querySelectorAll('.moment__screen')];
     const count = moment.querySelector('[data-moment-count]');
     const label = moment.querySelector('[data-moment-label]');
 
@@ -55,6 +56,9 @@
       if (!step) return;
 
       if (screens) screens.dataset.active = String(index);
+      screenItems.forEach((screen, screenIndex) => {
+        screen.setAttribute('aria-hidden', String(screenIndex !== index));
+      });
       if (count) count.textContent = String(index + 1).padStart(2, '0');
       if (label) label.textContent = step.querySelector('strong')?.textContent || '';
 
@@ -68,6 +72,8 @@
     steps.forEach((step, index) => {
       step.querySelector('button')?.addEventListener('click', () => setMoment(index));
     });
+
+    setMoment(0);
 
     if (!reduceMotion.matches && 'IntersectionObserver' in window) {
       const momentObserver = new IntersectionObserver(
