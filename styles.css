@@ -589,15 +589,12 @@ p {
 }
 
 .source-ribbon {
+  --source-ribbon-gap: 18px;
+  --source-ribbon-inner-width: calc(min(100vw - 40px, var(--max)) - 46px);
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
   margin-top: 42px;
   margin-bottom: 0;
   padding: 18px 22px;
-  list-style: none;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -607,6 +604,43 @@ p {
   font-weight: 750;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.source-ribbon__track {
+  display: flex;
+  align-items: center;
+  gap: var(--source-ribbon-gap);
+  width: max-content;
+  will-change: transform;
+}
+
+.source-ribbon__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  width: max-content;
+  min-width: var(--source-ribbon-inner-width);
+  gap: var(--source-ribbon-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@keyframes source-ribbon-scroll {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(calc(-50% - 9px), 0, 0); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .source-ribbon__track {
+    animation: source-ribbon-scroll 30s linear infinite;
+  }
+
+  .source-ribbon:hover .source-ribbon__track,
+  .source-ribbon:focus-within .source-ribbon__track {
+    animation-play-state: paused;
+  }
 }
 
 .source-ribbon::before,
@@ -2139,13 +2173,7 @@ p {
   }
 
   .source-ribbon {
-    justify-content: flex-start;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .source-ribbon li {
-    flex: 0 0 auto;
+    --source-ribbon-inner-width: calc(min(100vw - 32px, var(--max)) - 46px);
   }
 
   .moment__layout {
@@ -2300,6 +2328,7 @@ p {
   }
 
   .source-ribbon {
+    --source-ribbon-inner-width: calc(min(100vw - 24px, var(--max)) - 46px);
     margin-top: 12px;
   }
 
@@ -2518,5 +2547,14 @@ p {
   .will-reveal {
     opacity: 1;
     transform: none;
+  }
+
+  .source-ribbon {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .source-ribbon__group[aria-hidden="true"] {
+    display: none;
   }
 }

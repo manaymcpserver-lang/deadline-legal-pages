@@ -31,7 +31,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/plus-jakarta-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/product/02-a-deadline-is-waiting.webp" as="image" type="image/webp" fetchpriority="high">
-  <link rel="stylesheet" href="/styles.css?v=20260718-2">
+  <link rel="stylesheet" href="/styles.css?v=20260718-3">
 
   <script type="application/ld+json">
   {
@@ -121,9 +121,16 @@
         </div>
       </div>
 
-      <ul class="container source-ribbon" aria-label="Examples of supported sources">
-        <li>Canvas</li><li>Google Classroom</li><li>Notion</li><li>Todoist</li><li>Microsoft To Do</li><li>Jira</li><li>Google Calendar</li>
-      </ul>
+      <div class="container source-ribbon" role="group" aria-label="Supported sources. Focus to pause the moving list." tabindex="0">
+        <div class="source-ribbon__track">
+          <ul class="source-ribbon__group" aria-label="Examples of supported sources">
+            <li>Canvas</li><li>Google Classroom</li><li>Notion</li><li>Todoist</li><li>Microsoft To Do</li><li>Jira</li><li>Google Calendar</li>
+          </ul>
+          <ul class="source-ribbon__group" aria-hidden="true">
+            <li>Canvas</li><li>Google Classroom</li><li>Notion</li><li>Todoist</li><li>Microsoft To Do</li><li>Jira</li><li>Google Calendar</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="section moment" id="nonlate-moment" aria-labelledby="moment-title">
