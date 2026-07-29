@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex,nofollow,noarchive">
     <meta name="referrer" content="no-referrer">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none';">
-    <title>DeadLine - Asana OAuth</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none';">
+    <title>Nonlate - Asana OAuth</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -50,15 +50,16 @@
             document.getElementById('manual-link').style.display = 'block';
         }, 2000);
     </script>
+    <script src="/deadline/oauth/callback/oauth-ui.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="spinner"></div>
-        <h2>Connecting to DeadLine...</h2>
+        <h2>Connecting to Nonlate...</h2>
         <p>Redirecting you back to the app</p>
         <div id="manual-link" style="display: none; margin-top: 1rem;">
             <p>Not redirected automatically?</p>
-            <a id="link" href="#">Click here to open DeadLine</a>
+            <a id="link" href="#">Click here to open Nonlate</a>
         </div>
     </div>
     <script>
