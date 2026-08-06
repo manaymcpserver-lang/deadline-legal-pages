@@ -47,6 +47,9 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /Focus Lock/i);
   assert.match(html, /Stronger break control/i);
   assert.match(html, /Tasks · every source/i);
+  assert.match(html, /Nonlate App \| Deadline-Aware App Blocker/i);
+  assert.match(html, /name="robots" content="index, follow"/i);
+  assert.match(html, /"alternateName":"Nonlate App"/i);
   const realScreenOrder = [
     "Home · due tasks",
     "Tasks · every source",
@@ -120,6 +123,9 @@ test("client source retains every interaction and accessibility contract", async
   assert.doesNotMatch(css, /\.focus-lock-card > div p\s*\{/);
   assert.match(css, /\.reveal-ready \[data-reveal\]/);
   assert.match(css, /height:\s*clamp\(400px, 110vw, 670px\)/);
+  assert.match(css, /\.dialog-actions\s*\{[^}]*grid-template-columns:\s*\.9fr 1\.1fr/);
+  assert.match(css, /\.dialog-tasks > \.mini-task \+ \.mini-task\s*\{[^}]*margin-top:\s*0/);
+  assert.match(css, /max-height:\s*calc\(100dvh - 16px\)/);
   assert.match(css, /padding-block:\s*72px 0/);
 });
 
