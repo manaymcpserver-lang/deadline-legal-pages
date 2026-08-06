@@ -125,7 +125,7 @@ function InterceptDialog({ onClose, onViewTasks, onBreak }: { onClose: () => voi
           <button className="button-primary" type="button" onClick={onViewTasks}>View tasks <span>→</span></button>
           <button className="button-secondary" type="button" onClick={onBreak}>Start a 10-minute demo break</button>
         </div>
-        <p className="dialog-footnote">“View tasks” closes this website demo without moving the page. Press Esc to dismiss or replay it anytime.</p>
+        <p className="dialog-footnote">“View tasks” closes this website demo without moving the page.</p>
       </div>
     </div>
   );
@@ -474,7 +474,7 @@ export default function Home() {
             </div>
             <div className="privacy-points">
               <article data-reveal><span>01</span><div><h3>Protected in transit and at rest</h3><p>HTTPS/TLS in transit, Keychain on iOS, and Keystore-backed encrypted preferences on Android.</p></div></article>
-              <article data-reveal><span>02</span><div><h3>Limited use of Google data</h3><p>Google task and calendar data is used only to provide connected sync and Nonlate features—not advertising or generalized AI training.</p></div></article>
+              <article data-reveal><span>02</span><div><h3>Limited use of Google data</h3><p>Google task and calendar data is used only to provide connected sync and Nonlate features, not advertising or generalized AI training.</p></div></article>
               <article data-reveal><span>03</span><div><h3>Your connections stay reversible</h3><p>Disconnect a source in Nonlate settings or request deletion through support at any time.</p></div></article>
             </div>
           </section>

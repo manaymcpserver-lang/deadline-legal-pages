@@ -72,7 +72,7 @@ export const blockingBehavior: InterceptionBehavior = {
   label: "Core experience",
   title: "Block distracting apps when work is due.",
   description:
-    "The blocker shows the work that made it appear—overdue first, then what is due next—and offers the task or timed-break actions supported by that platform.",
+    "The blocker shows the work that made it appear, with overdue tasks first and upcoming work next. It then offers the task or timed-break actions supported by that platform.",
   friction: "Deadline context, not a generic wall",
 };
 
