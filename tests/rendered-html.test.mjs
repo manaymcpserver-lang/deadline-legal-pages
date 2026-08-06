@@ -18,10 +18,24 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /Nonlate checks/i);
   assert.match(html, /Blocker appears/i);
   assert.match(html, /The blocker is the product/i);
-  assert.match(html, /02 · SCHEDULE/i);
+  assert.match(html, /02 · PLANNER/i);
+  assert.match(html, /03 · SCHEDULE/i);
   assert.match(html, /Tasks you add manually and tasks synced from integrations/i);
-  assert.match(html, /Planner to assign work to a day or time/i);
-  assert.match(html, /Schedule then shows that planned work alongside tasks, events, classes, and shifts/i);
+  assert.match(html, /Pick a day, add due tasks to that day’s plan/i);
+  assert.match(html, /Schedule places work from Planner alongside due tasks, calendar events, classes, and shifts/i);
+  assert.match(html, /04 · APP PROTECTION/i);
+  assert.match(html, /05 · CAN’T MISS ALARM/i);
+  assert.match(html, /06 · AT A GLANCE/i);
+  const productCardOrder = [
+    "01 · DUE WORK",
+    "02 · PLANNER",
+    "03 · SCHEDULE",
+    "04 · APP PROTECTION",
+    "05 · CAN’T MISS ALARM",
+    "06 · AT A GLANCE",
+  ].map((label) => html.indexOf(label));
+  assert.ok(productCardOrder.every((position) => position >= 0), "every product card must be present");
+  assert.deepEqual(productCardOrder, [...productCardOrder].sort((a, b) => a - b), "product cards must follow the app flow");
   assert.match(html, /TODAY’S MESSAGE/i);
   assert.match(html, /Manual tasks and core blocking/i);
   assert.match(html, /Examples of social and entertainment apps you can protect/i);
@@ -35,7 +49,7 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /Custom colors too/i);
   assert.match(html, /Coming soon to iOS and Android/i);
   assert.match(html, /"@type":"FAQPage"/i);
-  assert.doesNotMatch(html, /02 · PLANNER|TODAY’S REMINDER|Reminder only|Pause blocking|View the plan|Return with intention|planning, reminders, and app protection/i);
+  assert.doesNotMatch(html, /TODAY’S REMINDER|Reminder only|Pause blocking|View the plan|Return with intention|planning, reminders, and app protection/i);
 });
 
 for (const [pathname, heading] of [

@@ -247,13 +247,32 @@ p { text-wrap: pretty; }
 .bento-card > p:not(.card-index) { margin-top: 12px; max-width: 48ch; color: var(--muted); }
 .card-index { color: var(--violet-soft); font-size: 9px; letter-spacing: .14em; }
 .bento-tasks { grid-column: span 7; }
-.bento-plan { grid-column: span 5; }
-.bento-protect { grid-column: span 4; }
-.bento-alarm { grid-column: span 4; }
-.bento-widget { grid-column: span 4; }
+.bento-planner { grid-column: span 5; }
+.bento-schedule { grid-column: span 7; }
+.bento-protect { grid-column: span 5; }
+.bento-alarm, .bento-widget { grid-column: span 6; }
 .bento-visual { margin-top: 34px; }
 .task-preview { max-width: 590px; }
-.planner-preview { margin-top: 25px; padding: 18px; border: 1px solid var(--line); border-radius: 19px; background: #0c0f1a; }
+.planner-preview, .schedule-preview { margin-top: 25px; padding: 18px; border: 1px solid var(--line); border-radius: 19px; background: #0c0f1a; }
+.planner-preview-head, .planner-list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.planner-preview-head strong, .planner-list-head strong { font-size: 11px; }
+.planner-preview-head small, .planner-list-head small { color: var(--quiet); font-size: 7px; text-align: right; }
+.planner-days { margin-top: 12px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; text-align: center; }
+.planner-days > * { padding: 8px 5px; border: 1px solid var(--line); border-radius: 11px; color: var(--muted); font-size: 8px; font-style: normal; }
+.planner-days b { background: var(--violet-soft); color: #121422; }
+.planner-days strong { display: block; font-size: 15px; }
+.planner-list-head { margin-top: 15px; }
+.planner-list-head strong span { display: inline-grid; width: 18px; height: 18px; margin-left: 4px; place-items: center; border-radius: 50%; background: rgba(255, 255, 255, .1); font-size: 8px; }
+.planned-task { margin-top: 8px; padding: 9px 10px; display: grid; grid-template-columns: 5px 1fr auto; align-items: center; gap: 8px; border: 1px solid rgba(178, 168, 255, .22); border-radius: 11px; background: linear-gradient(135deg, rgba(143, 124, 255, .16), rgba(255, 255, 255, .04)); }
+.planned-task > i { width: 5px; height: 5px; border-radius: 50%; background: var(--orange); }
+.planned-task > span { min-width: 0; }
+.planned-task > span strong, .planned-task > span small { display: block; }
+.planned-task > span strong { overflow: hidden; color: var(--ink-2); font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
+.planned-task > span small { margin-top: 2px; color: var(--orange); font-size: 7px; }
+.planned-task > b { color: var(--violet-soft); font-size: 9px; }
+.planner-upcoming-head { margin-top: 15px; }
+.planner-upcoming-task { background: rgba(255, 255, 255, .035); }
+.planner-upcoming-task > b { color: var(--muted); font-size: 7px; font-weight: 500; }
 .day-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; text-align: center; }
 .day-row > * { padding: 8px 5px; border: 1px solid var(--line); border-radius: 11px; color: var(--muted); font-size: 8px; font-style: normal; }
 .day-row b { background: var(--violet-soft); color: #121422; }
@@ -474,8 +493,7 @@ p { text-wrap: pretty; }
   .dual-phone-stage { max-width: 700px; margin-inline: auto; }
   .behavior-section, .privacy-section, .faq-section { grid-template-columns: 1fr; gap: 45px; }
   .behavior-grid { max-width: 850px; }
-  .bento-tasks, .bento-plan { grid-column: span 6; }
-  .bento-protect, .bento-alarm, .bento-widget { grid-column: span 4; }
+  .bento-tasks, .bento-planner, .bento-schedule, .bento-protect, .bento-alarm, .bento-widget { grid-column: span 6; }
 }
 
 @media (max-width: 900px) {
@@ -487,7 +505,7 @@ p { text-wrap: pretty; }
   .primary-nav a { padding: 11px 0; }
   .moment { grid-template-columns: 1fr; }
   .moment .section-heading { position: static; }
-  .bento-tasks, .bento-plan, .bento-protect, .bento-alarm, .bento-widget { grid-column: span 6; }
+  .bento-tasks, .bento-planner, .bento-schedule, .bento-protect, .bento-alarm, .bento-widget { grid-column: span 6; }
   .personal-grid, .plans-grid { grid-template-columns: 1fr; }
   .personal-grid article { min-height: 460px; }
   .plans-grid { max-width: 620px; margin-inline: auto; margin-top: 50px; }
@@ -517,10 +535,10 @@ p { text-wrap: pretty; }
   .moment { gap: 36px; }
   .moment-steps li { min-height: 0; padding-block: 24px; }
   .bento-grid { grid-template-columns: 1fr; }
-  .bento-tasks, .bento-plan, .bento-protect, .bento-alarm, .bento-widget { grid-column: 1; }
+  .bento-tasks, .bento-planner, .bento-schedule, .bento-protect, .bento-alarm, .bento-widget { grid-column: 1; }
   .bento-grid, .integration-grid, .screen-rail, .personal-grid, .plans-grid { margin-top: 36px; }
   .bento-card, .behavior-card, .personal-grid article { min-height: 0; }
-  .bento-visual, .planner-preview, .app-orbits, .alarm-preview, .widget-preview, .message-preview, .pulse-preview, .theme-preview { margin-top: 28px; }
+  .bento-visual, .planner-preview, .schedule-preview, .app-orbits, .alarm-preview, .widget-preview, .message-preview, .pulse-preview, .theme-preview { margin-top: 28px; }
   .behavior-grid { grid-template-columns: 1fr; }
   .behavior-section, .privacy-section, .faq-section { gap: 36px; }
   .focus-lock-card { grid-column: 1; grid-template-columns: 1fr; }
