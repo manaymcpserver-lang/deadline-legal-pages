@@ -144,6 +144,11 @@ check("static export contains every public route and platform file", () => {
   expect(read("CNAME").trim() === "nonlate.app", "CNAME must contain nonlate.app");
 });
 
+check("Pages artifact packaging includes hidden platform-association files", () => {
+  const workflow = readFileSync(join(repoRoot, ".github/workflows/deploy-pages.yml"), "utf8");
+  expect(/include-hidden-files:\s*true/.test(workflow), "Pages upload must include .well-known and .nojekyll");
+});
+
 for (const [route, pathname] of publicPages) {
   check(`metadata, canonical URL, and landmarks: ${route}`, () => {
     const html = read(pathname);
