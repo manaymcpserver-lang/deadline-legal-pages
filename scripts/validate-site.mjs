@@ -176,7 +176,7 @@ check("homepage preserves the complete dual-platform blocker story", () => {
     expect(!text.includes(forbidden), `found superseded copy: ${forbidden}`);
   }
   const source = readFileSync(join(repoRoot, "app/page.tsx"), "utf8");
-  expect(source.includes("View tasks") && source.includes("Start a 10-minute demo break"), "intercept actions changed");
+  expect(source.includes("View tasks") && source.includes("Take a 10-minute break"), "intercept actions changed");
   for (const id of ["moment", "product", "tasks", "integrations", "plans", "privacy", "faq", "coming-soon"]) {
     expect(new RegExp(`\\bid=["']${id}["']`).test(html), `missing #${id}`);
   }
