@@ -336,9 +336,21 @@ export default function Home() {
                 <p className="card-index">01 · DUE WORK</p><h3>One place for what’s due.</h3><p>Tasks you add manually and tasks synced from integrations appear in one list, with overdue work first and upcoming deadlines ordered by urgency.</p>
                 <div className="bento-visual task-preview">{demoTasks.map((task) => <MiniTask task={task} key={task.title} />)}</div>
               </article>
-              <article className="bento-card bento-plan" data-reveal>
-                <p className="card-index">02 · SCHEDULE</p><h3>Turn deadlines into a day.</h3><p>Use Planner to assign work to a day or time. Schedule then shows that planned work alongside tasks, events, classes, and shifts.</p>
-                <div className="planner-preview">
+              <article className="bento-card bento-planner" data-reveal>
+                <p className="card-index">02 · PLANNER</p><h3>Choose a day for the work.</h3><p>Pick a day, add due tasks to that day’s plan, and see upcoming work that still needs scheduling.</p>
+                <div className="planner-preview" aria-label="Planner preview with chosen days, today’s plan, and an upcoming task">
+                  <div className="planner-preview-head"><strong>Choose a day</strong><small>Swipe for later dates</small></div>
+                  <div className="planner-days"><b>Sun<strong>5</strong></b><span>Mon<strong>6</strong></span><span>Tue<strong>7</strong></span><span>Wed<strong>8</strong></span></div>
+                  <div className="planner-list-head"><strong>Today’s plan <span>2</span></strong><small>Tap + to add to plan</small></div>
+                  <div className="planned-task"><i /><span><strong>Project outline</strong><small>in 1 hour</small></span><b>↩</b></div>
+                  <div className="planned-task"><i /><span><strong>Team brief</strong><small>in 3 hours</small></span><b>↩</b></div>
+                  <div className="planner-list-head planner-upcoming-head"><strong>Upcoming tasks</strong><small>Keep the day above</small></div>
+                  <div className="planned-task planner-upcoming-task"><i /><span><strong>Read chapter 8</strong><small>in 18 hours</small></span><b>Drag</b></div>
+                </div>
+              </article>
+              <article className="bento-card bento-schedule" data-reveal>
+                <p className="card-index">03 · SCHEDULE</p><h3>See the whole day in order.</h3><p>Schedule places work from Planner alongside due tasks, calendar events, classes, and shifts on one timed timeline.</p>
+                <div className="schedule-preview">
                   <div className="day-row"><span>Tue<strong>5</strong></span><b>Wed<strong>6</strong></b><span>Thu<strong>7</strong></span><span>Fri<strong>8</strong></span></div>
                   <div className="schedule-line"><small>9 AM</small><i className="block-orange">Biology lab</i></div>
                   <div className="schedule-line"><small>11 AM</small><i className="block-violet">Project outline</i></div>
@@ -346,7 +358,7 @@ export default function Home() {
                 </div>
               </article>
               <article className="bento-card bento-protect" data-reveal>
-                <p className="card-index">03 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Select the distracting apps you want Nonlate to protect. Your other apps stay untouched, and the blocker appears only when unfinished work matches your due-task settings.</p>
+                <p className="card-index">04 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Select the distracting apps you want Nonlate to protect. Your other apps stay untouched, and the blocker appears only when unfinished work matches your due-task settings.</p>
                 <div className="app-orbits" aria-label="Examples of social and entertainment apps you can protect">
                   <span className="orbit-center"><img src="/assets/nonlate-icon.png" alt="Nonlate" /><small>Nonlate</small></span>
                   <span className="app-dot app-youtube"><img src="/assets/distractions/youtube.svg" alt="YouTube" /></span>
@@ -359,11 +371,11 @@ export default function Home() {
                 </div>
               </article>
               <article className="bento-card bento-alarm" data-reveal>
-                <p className="card-index">04 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>Attach an alarm to an important task or scheduled item. At the time you choose, Nonlate uses the strongest alarm presentation supported by your device.</p>
+                <p className="card-index">05 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>Attach an alarm to an important task or scheduled item. At the time you choose, Nonlate uses the strongest alarm presentation supported by your device.</p>
                 <div className="alarm-preview"><small>TASK · HISTORY ESSAY DRAFT</small><strong>9:00</strong><span>MONDAY · 8:00 AM</span><button type="button" tabIndex={-1}>Snooze</button></div>
               </article>
               <article className="bento-card bento-widget" data-reveal>
-                <p className="card-index">05 · AT A GLANCE</p><h3>Keep the next deadline in sight.</h3><p>Widgets show your next task, today’s plan, or the coming week without opening Nonlate. Supported iPhones also use Live Activities and Dynamic Island for active countdowns.</p>
+                <p className="card-index">06 · AT A GLANCE</p><h3>Keep the next deadline in sight.</h3><p>Widgets show your next task, today’s plan, or the coming week without opening Nonlate. Supported iPhones also use Live Activities and Dynamic Island for active countdowns.</p>
                 <div className="widget-preview"><span><small>NONLATE · DUE SOON</small><b>Biology lab</b><strong>10:08</strong></span><span className="break-widget"><small>BREAK ACTIVE</small><b>Blocking resumes</b><strong>09:55</strong></span></div>
               </article>
             </div>
