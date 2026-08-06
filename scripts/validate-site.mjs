@@ -137,7 +137,7 @@ check("static export contains every public route and platform file", () => {
     "data-deletion/index.html", "CNAME", ".nojekyll", "robots.txt", "sitemap.xml", "site.webmanifest",
     "app-ads.txt", ".well-known/apple-app-site-association", ".well-known/assetlinks.json",
     ".well-known/microsoft-identity-association.json", "assets/screens/ios-blocker.png",
-    "assets/screens/android-blocker.png", "og.png",
+    "assets/screens/ios-tasks.png", "assets/screens/android-blocker.png", "og.png",
   ];
   const missing = required.filter((pathname) => !existsSync(join(outRoot, pathname)));
   expect(missing.length === 0, `missing:\n- ${missing.join("\n- ")}`);

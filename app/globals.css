@@ -313,7 +313,7 @@ p { text-wrap: pretty; }
 .behavior-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; align-items: start; }
 .behavior-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .behavior-card, .focus-lock-card { min-height: 300px; padding: 28px; border: 1px solid var(--line); border-radius: 25px; background: rgba(255, 255, 255, .025); }
-.behavior-card > p:first-child, .focus-lock-card > div p { color: var(--cyan); font: 9px var(--font-jetbrains), monospace; letter-spacing: .13em; text-transform: uppercase; }
+.behavior-card > p:first-child, .focus-lock-card > div p:first-child { color: var(--cyan); font: 9px var(--font-jetbrains), monospace; letter-spacing: .13em; text-transform: uppercase; }
 .behavior-card h3, .focus-lock-card h3 { margin: 16px 0 12px; font-size: 28px; line-height: 1.08; }
 .behavior-card > p:nth-of-type(2), .focus-lock-card > div p:last-child { color: var(--muted); font-size: 14px; }
 .behavior-card > span, .focus-lock-card > span { display: inline-flex; margin-top: 24px; padding: 6px 10px; border-radius: 999px; background: rgba(255, 255, 255, .05); color: var(--ink-2); font-size: 9px; font-weight: 750; }

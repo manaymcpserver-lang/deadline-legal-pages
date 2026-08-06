@@ -22,6 +22,7 @@ const demoTasks = [
 
 const screenGallery = [
   { src: "/assets/screens/ios-home.png", alt: "Nonlate iOS Home showing overdue and upcoming tasks from connected sources", platform: "iOS", label: "Home · due tasks" },
+  { src: "/assets/screens/ios-tasks.png", alt: "Nonlate iOS task list showing Canvas, Notion, Slack, and Google Tasks work with different dates and times", platform: "iOS", label: "Tasks · every source" },
   { src: "/assets/screens/android-blocker.png", alt: "Nonlate Android blocker showing the overdue and upcoming work that triggered it", platform: "Android", label: "Blocker · work due" },
   { src: "/assets/screens/ios-planner.png", alt: "Nonlate iOS Planner assigning upcoming tasks to a chosen day", platform: "iOS", label: "Planner · choose a day" },
   { src: "/assets/screens/android-schedule.png", alt: "Nonlate Android Schedule arranging planned work, tasks, events, classes, and shifts by time", platform: "Android", label: "Schedule · timed day" },
@@ -358,7 +359,7 @@ export default function Home() {
                 </div>
               </article>
               <article className="bento-card bento-protect" data-reveal>
-                <p className="card-index">04 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Select the distracting apps you want Nonlate to protect. Your other apps stay untouched, and the blocker appears only when unfinished work matches your due-task settings.</p>
+                <p className="card-index">04 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Choose which distracting apps Nonlate can interrupt. When one opens, Nonlate checks for unfinished due work and shows the blocker only when something needs attention.</p>
                 <div className="app-orbits" aria-label="Examples of social and entertainment apps you can protect">
                   <span className="orbit-center"><img src="/assets/nonlate-icon.png" alt="Nonlate" /><small>Nonlate</small></span>
                   <span className="app-dot app-youtube"><img src="/assets/distractions/youtube.svg" alt="YouTube" /></span>
@@ -371,7 +372,7 @@ export default function Home() {
                 </div>
               </article>
               <article className="bento-card bento-alarm" data-reveal>
-                <p className="card-index">05 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>Attach an alarm to an important task or scheduled item. At the time you choose, Nonlate uses the strongest alarm presentation supported by your device.</p>
+                <p className="card-index">05 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>Attach an alarm to a task or scheduled item and choose the time. Nonlate then uses the strongest alarm presentation your device supports.</p>
                 <div className="alarm-preview"><small>TASK · HISTORY ESSAY DRAFT</small><strong>9:00</strong><span>MONDAY · 8:00 AM</span><button type="button" tabIndex={-1}>Snooze</button></div>
               </article>
               <article className="bento-card bento-widget" data-reveal>
