@@ -1,80 +1,36 @@
-# Nonlate Legal Pages (GitHub Pages)
+# Nonlate website
 
-This folder is ready to be deployed as a static site for:
+Production source for [nonlate.app](https://nonlate.app/). The site is a static Next.js export deployed by GitHub Actions to GitHub Pages.
 
-- `https://nonlate.app/`
+## Local development
 
-It already includes:
-
-- `CNAME` set to `nonlate.app`
-- `.well-known/assetlinks.json`
-- `deadline/oauth/callback/`
-- `privacy/`
-- `support/`
-- `data-deletion/`
-- `terms/`
-
-## Deploy Option A (recommended): separate repo
-
-1. Create a new GitHub repo, for example `nonlate-legal-pages`.
-2. Copy the contents of this folder into that repo root.
-3. Push to `main`.
-4. In GitHub repo: `Settings -> Pages`
-5. Source: `Deploy from branch`, branch `main`, folder `/ (root)`.
-6. In `Custom domain`, set `nonlate.app`.
-7. Enable HTTPS after DNS is live.
-
-## DNS (Hostinger)
-
-For your DNS zone:
-
-- Type: `A`
-- Name: `@`
-- Target: `185.199.108.153`
-
-- Type: `A`
-- Name: `@`
-- Target: `185.199.109.153`
-
-- Type: `A`
-- Name: `@`
-- Target: `185.199.110.153`
-
-- Type: `A`
-- Name: `@`
-- Target: `185.199.111.153`
-
-- Type: `AAAA`
-- Name: `@`
-- Target: `2606:50c0:8000::153`
-
-- Type: `AAAA`
-- Name: `@`
-- Target: `2606:50c0:8001::153`
-
-- Type: `AAAA`
-- Name: `@`
-- Target: `2606:50c0:8002::153`
-
-- Type: `AAAA`
-- Name: `@`
-- Target: `2606:50c0:8003::153`
-
-- Optional `www` record:
-  Type: `CNAME`
-  Name: `www`
-  Target: `manaymcpserver-lang.github.io`
-
-If any existing conflicting `A`, `AAAA`, or `CNAME` for the root host exists, remove it first.
-
-## Verify
+Requires Node.js 22 or newer.
 
 ```bash
-dig +short nonlate.app
-curl -I https://nonlate.app
+npm ci
+npm run dev
 ```
 
-Expected:
+## Validation
 
-- `dig` resolves to GitHub Pages IPs
-- `curl` returns HTTP 200/301 over HTTPS after certificate provisioning.
+```bash
+npm run lint
+npm test
+git diff --check
+```
+
+`npm test` creates the static export in `out/`, runs rendered-page tests, and verifies the legal routes, OAuth callbacks, platform-association files, advertising declaration, metadata, links, accessibility fallbacks, and production file hashes.
+
+## Deployment
+
+Pull requests run the validation workflow. Merges to `main` run the GitHub Pages deployment workflow. The custom domain remains `nonlate.app`, with HTTPS enforced in the repository’s Pages settings.
+
+Deployment-critical static files live in `public/`:
+
+- `.well-known/**`
+- `deadline/oauth/callback/**`
+- `app-ads.txt`
+- `CNAME`
+- `robots.txt`, `sitemap.xml`, and `site.webmanifest`
+
+The OAuth and association files are protected by checksums in `scripts/validate-site.mjs`; update those checksums only when an app-link or OAuth change has been separately reviewed.
