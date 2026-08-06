@@ -258,6 +258,7 @@ export default function Home() {
       {
         "@type": "SoftwareApplication",
         name: "Nonlate",
+        alternateName: "Nonlate App",
         url: "https://nonlate.app/",
         applicationCategory: "ProductivityApplication",
         operatingSystem: "iOS, Android",

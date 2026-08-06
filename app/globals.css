@@ -546,9 +546,23 @@ p { text-wrap: pretty; }
   .integration-grid { grid-template-columns: 1fr; }
   .screen-rail { grid-auto-columns: minmax(238px, 78vw); }
   .screen-rail img { height: 520px; }
-  .dialog-actions { grid-template-columns: 1fr; }
-  .intercept-veil { padding: 10px; }
-  .intercept-dialog { border-radius: 26px; }
+  .intercept-veil { padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom)); }
+  .intercept-dialog { max-height: calc(100dvh - 16px); padding: 18px 16px 16px; border-radius: 22px; }
+  .dialog-close { top: 13px; right: 13px; width: 36px; height: 36px; }
+  .dialog-badge { max-width: calc(100% - 46px); padding: 5px 9px; gap: 7px; font-size: 8px; letter-spacing: .09em; }
+  .dialog-progress { margin-top: 17px; padding-right: 2px; font-size: 8px; line-height: 1.45; }
+  .intercept-dialog h2 { margin-top: 7px; max-width: none; font-size: clamp(29px, 8.5vw, 34px); }
+  #intercept-description { max-width: none; margin-top: 10px; font-size: 13px; line-height: 1.45; }
+  .dialog-tasks { margin-top: 16px; gap: 7px; }
+  .dialog-tasks > .mini-task { padding: 9px 10px; gap: 9px; border-radius: 14px; }
+  .dialog-tasks > .mini-task + .mini-task { margin-top: 0; }
+  .dialog-tasks .mini-task img { width: 28px; height: 28px; border-radius: 8px; }
+  .dialog-tasks .mini-task strong { font-size: 11px; }
+  .dialog-tasks .mini-task small, .dialog-tasks .mini-task em { font-size: 8px; }
+  .dialog-actions { margin-top: 16px; grid-template-columns: .9fr 1.1fr; gap: 8px; }
+  .dialog-actions .button-primary, .dialog-actions .button-secondary { min-height: 50px; padding: 7px 10px; font-size: 11px; line-height: 1.25; text-align: center; }
+  .dialog-actions .button-primary { gap: 7px; }
+  .dialog-footnote { margin-top: 11px; font-size: 9px; line-height: 1.4; }
   .break-pill { left: 10px; right: 10px; bottom: 10px; min-width: 0; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
