@@ -108,6 +108,8 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(page, /root\.inert = interceptOpen/);
   assert.match(page, /lastFocusedRef\.current\?\.focus\(\{ preventScroll: true \}\)/);
   assert.match(page, /View tasks/);
+  assert.match(page, /Take a 10-minute break/);
+  assert.doesNotMatch(page, /Start a 10-minute demo break/);
   assert.match(page, /Website demo: these sample tasks are not real/i);
   assert.match(page, /View tasks” closes this website demo without moving the page\.<\/p>/i);
   assert.doesNotMatch(page, /Press Esc to dismiss or replay it anytime/i);
@@ -126,7 +128,8 @@ test("client source retains every interaction and accessibility contract", async
   assert.doesNotMatch(css, /\.focus-lock-card > div p\s*\{/);
   assert.match(css, /\.reveal-ready \[data-reveal\]/);
   assert.match(css, /height:\s*clamp\(400px, 110vw, 670px\)/);
-  assert.match(css, /\.dialog-actions\s*\{[^}]*grid-template-columns:\s*\.9fr 1\.1fr/);
+  assert.match(css, /\.dialog-actions\s*\{[^}]*grid-template-columns:\s*\.82fr 1\.18fr/);
+  assert.match(css, /\.dialog-actions \.button-secondary\s*\{[^}]*white-space:\s*nowrap/);
   assert.match(css, /\.dialog-tasks > \.mini-task \+ \.mini-task\s*\{[^}]*margin-top:\s*0/);
   assert.match(css, /max-height:\s*calc\(100dvh - 16px\)/);
   assert.match(css, /padding-block:\s*72px 0/);

@@ -123,7 +123,7 @@ function InterceptDialog({ onClose, onViewTasks, onBreak }: { onClose: () => voi
         <div className="dialog-tasks">{demoTasks.map((task) => <MiniTask key={task.title} task={task} />)}</div>
         <div className="dialog-actions">
           <button className="button-primary" type="button" onClick={onViewTasks}>View tasks <span>→</span></button>
-          <button className="button-secondary" type="button" onClick={onBreak}>Start a 10-minute demo break</button>
+          <button className="button-secondary" type="button" onClick={onBreak}>Take a 10-minute break</button>
         </div>
         <p className="dialog-footnote">“View tasks” closes this website demo without moving the page.</p>
       </div>
