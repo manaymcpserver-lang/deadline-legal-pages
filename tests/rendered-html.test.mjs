@@ -18,6 +18,12 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /Nonlate checks/i);
   assert.match(html, /Blocker appears/i);
   assert.match(html, /The blocker is the product/i);
+  assert.match(html, /02 · SCHEDULE/i);
+  assert.match(html, /Tasks you add manually and tasks synced from integrations/i);
+  assert.match(html, /Planner to assign work to a day or time/i);
+  assert.match(html, /Schedule then shows that planned work alongside tasks, events, classes, and shifts/i);
+  assert.match(html, /TODAY’S MESSAGE/i);
+  assert.match(html, /Manual tasks and core blocking/i);
   assert.match(html, /Examples of social and entertainment apps you can protect/i);
   for (const appName of ["Instagram", "TikTok", "YouTube", "Snapchat", "Reddit", "Facebook"]) {
     assert.match(html, new RegExp(appName, "i"));
@@ -29,7 +35,7 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /Custom colors too/i);
   assert.match(html, /Coming soon to iOS and Android/i);
   assert.match(html, /"@type":"FAQPage"/i);
-  assert.doesNotMatch(html, /Reminder only|Pause blocking|View the plan|Return with intention/i);
+  assert.doesNotMatch(html, /02 · PLANNER|TODAY’S REMINDER|Reminder only|Pause blocking|View the plan|Return with intention|planning, reminders, and app protection/i);
 });
 
 for (const [pathname, heading] of [
@@ -71,6 +77,8 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(page, /root\.inert = interceptOpen/);
   assert.match(page, /lastFocusedRef\.current\?\.focus\(\{ preventScroll: true \}\)/);
   assert.match(page, /View tasks/);
+  assert.match(page, /Website demo: these sample tasks are not real/i);
+  assert.match(page, /View tasks” closes this website demo without moving the page/i);
   assert.doesNotMatch(page, /scrollIntoView|querySelector\("#tasks"\)/);
   assert.match(page, /10 \* 60 \* 1000/);
   assert.match(page, /\$\{platform\}-blocker\.png/);

@@ -21,11 +21,11 @@ const demoTasks = [
 ];
 
 const screenGallery = [
-  { src: "/assets/screens/ios-home.png", alt: "Nonlate iOS home screen with due tasks", platform: "iOS", label: "Home" },
-  { src: "/assets/screens/android-blocker.png", alt: "Nonlate Android deadline blocker showing urgent work", platform: "Android", label: "Blocker" },
-  { src: "/assets/screens/ios-planner.png", alt: "Nonlate iOS planner arranging tasks into a day", platform: "iOS", label: "Planner" },
-  { src: "/assets/screens/android-schedule.png", alt: "Nonlate Android schedule showing tasks, classes, and events", platform: "Android", label: "Schedule" },
-  { src: "/assets/screens/android-insights.png", alt: "Nonlate Android focus rhythm insights", platform: "Android", label: "Insights" },
+  { src: "/assets/screens/ios-home.png", alt: "Nonlate iOS Home showing overdue and upcoming tasks from connected sources", platform: "iOS", label: "Home · due tasks" },
+  { src: "/assets/screens/android-blocker.png", alt: "Nonlate Android blocker showing the overdue and upcoming work that triggered it", platform: "Android", label: "Blocker · work due" },
+  { src: "/assets/screens/ios-planner.png", alt: "Nonlate iOS Planner assigning upcoming tasks to a chosen day", platform: "iOS", label: "Planner · choose a day" },
+  { src: "/assets/screens/android-schedule.png", alt: "Nonlate Android Schedule arranging planned work, tasks, events, classes, and shifts by time", platform: "Android", label: "Schedule · timed day" },
+  { src: "/assets/screens/android-insights.png", alt: "Nonlate Android Insights showing Focus Pulse, streaks, focus rhythm, and recovery", platform: "Android", label: "Insights · Focus Pulse" },
 ];
 
 function SourcePill({ icon, label, note }: { icon: string; label: string; note?: string }) {
@@ -116,15 +116,15 @@ function InterceptDialog({ onClose, onViewTasks, onBreak }: { onClose: () => voi
       <div className="intercept-dialog" role="dialog" aria-modal="true" aria-labelledby="intercept-title" aria-describedby="intercept-description" ref={dialogRef}>
         <button className="dialog-close" type="button" onClick={onClose} aria-label="Close interactive demo">×</button>
         <p className="dialog-badge"><span /> Interactive demo · Nonlate stepped in</p>
-        <p className="dialog-progress">You reached the moment distractions usually win.</p>
+        <p className="dialog-progress">You opened a distraction while three tasks were due.</p>
         <h2 id="intercept-title">Your next deadline beats the feed.</h2>
-        <p id="intercept-description">This is a website demo—no real tasks are changed. Here is what Nonlate would put first.</p>
+        <p id="intercept-description">Website demo: these sample tasks are not real and nothing is changed. In the app, Nonlate would show your overdue and upcoming work here.</p>
         <div className="dialog-tasks">{demoTasks.map((task) => <MiniTask key={task.title} task={task} />)}</div>
         <div className="dialog-actions">
           <button className="button-primary" type="button" onClick={onViewTasks}>View tasks <span>→</span></button>
-          <button className="button-secondary" type="button" onClick={onBreak}>Start a 10-minute break</button>
+          <button className="button-secondary" type="button" onClick={onBreak}>Start a 10-minute demo break</button>
         </div>
-        <p className="dialog-footnote">Press Esc to dismiss. You can replay this demo anytime.</p>
+        <p className="dialog-footnote">“View tasks” closes this website demo without moving the page. Press Esc to dismiss or replay it anytime.</p>
       </div>
     </div>
   );
@@ -260,7 +260,7 @@ export default function Home() {
         url: "https://nonlate.app/",
         applicationCategory: "ProductivityApplication",
         operatingSystem: "iOS, Android",
-        description: "Deadline-aware planning, reminders, and app protection for school, work, and personal tasks.",
+        description: "Nonlate combines manual and synced deadlines, helps you plan and schedule them, and blocks selected distractions when work is due.",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
       },
       {
@@ -285,15 +285,15 @@ export default function Home() {
             <div className="hero-copy" data-reveal>
               <p className="eyebrow"><span /> Deadlines before distractions</p>
               <h1 id="hero-title">Know what’s due <strong>before you scroll.</strong></h1>
-              <p className="hero-lede">Nonlate brings school, work, calendar, and to-do deadlines into one plan—then puts what matters in front of a chosen distraction.</p>
+              <p className="hero-lede">Nonlate combines tasks you add yourself with deadlines synced from school, calendar, to-do, and work apps. If you open a chosen distraction while work is due, Nonlate shows the blocker first.</p>
               <div className="hero-actions">
                 <a className="button-primary" href="#moment">See Nonlate step in <span>↓</span></a>
                 <span className="coming-note"><i /><i /> Coming soon to iOS and Android</span>
               </div>
               <dl className="hero-stats" aria-label="Product highlights">
-                <div><dt>20+</dt><dd>supported sources</dd></div>
-                <div><dt>Block</dt><dd>distractions when work is due</dd></div>
-                <div><dt>Both</dt><dd>iOS and Android</dd></div>
+                <div><dt>20+</dt><dd>school, work, calendar, and task sources</dd></div>
+                <div><dt>Block</dt><dd>selected distractions only when work is due</dd></div>
+                <div><dt>Both</dt><dd>platform-specific iOS and Android blockers</dd></div>
               </dl>
             </div>
 
@@ -312,7 +312,7 @@ export default function Home() {
             <div className="section-heading" data-reveal>
               <p className="eyebrow"><span /> The Nonlate moment</p>
               <h2 id="moment-title">The distraction arrives second.</h2>
-              <p>Your actual deadlines decide when Nonlate steps in. The feed is only half the story.</p>
+              <p>Choose which distracting apps to protect. When one opens, Nonlate checks unfinished due work and shows the blocker only when something needs your attention.</p>
               <button type="button" className="text-action" onClick={openIntercept}>Replay the intercept demo <span>↗</span></button>
             </div>
             <ol className="moment-steps">
@@ -329,15 +329,15 @@ export default function Home() {
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> One connected system</p>
               <h2 id="product-title">From scattered deadlines to a day you can act on.</h2>
-              <p>Tasks, planning, schedule, alarms, and focus all share the same source of truth: what is actually due.</p>
+              <p>The same manual and synced tasks power your due-work list, Planner, Schedule, Can’t Miss Alarms, widgets, Focus Pulse, and blocker.</p>
             </div>
             <div className="bento-grid">
               <article className="bento-card bento-tasks" id="tasks" data-reveal>
-                <p className="card-index">01 · DUE WORK</p><h3>One place for what’s due.</h3><p>Connected and manual tasks rise together, already sorted by urgency.</p>
+                <p className="card-index">01 · DUE WORK</p><h3>One place for what’s due.</h3><p>Tasks you add manually and tasks synced from integrations appear in one list, with overdue work first and upcoming deadlines ordered by urgency.</p>
                 <div className="bento-visual task-preview">{demoTasks.map((task) => <MiniTask task={task} key={task.title} />)}</div>
               </article>
               <article className="bento-card bento-plan" data-reveal>
-                <p className="card-index">02 · PLANNER</p><h3>Turn deadlines into a day.</h3><p>Place the work before the hours disappear.</p>
+                <p className="card-index">02 · SCHEDULE</p><h3>Turn deadlines into a day.</h3><p>Use Planner to assign work to a day or time. Schedule then shows that planned work alongside tasks, events, classes, and shifts.</p>
                 <div className="planner-preview">
                   <div className="day-row"><span>Tue<strong>5</strong></span><b>Wed<strong>6</strong></b><span>Thu<strong>7</strong></span><span>Fri<strong>8</strong></span></div>
                   <div className="schedule-line"><small>9 AM</small><i className="block-orange">Biology lab</i></div>
@@ -346,7 +346,7 @@ export default function Home() {
                 </div>
               </article>
               <article className="bento-card bento-protect" data-reveal>
-                <p className="card-index">03 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Your whole phone is not the problem. Protect only the moments that tend to disappear.</p>
+                <p className="card-index">03 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Select the distracting apps you want Nonlate to protect. Your other apps stay untouched, and the blocker appears only when unfinished work matches your due-task settings.</p>
                 <div className="app-orbits" aria-label="Examples of social and entertainment apps you can protect">
                   <span className="orbit-center"><img src="/assets/nonlate-icon.png" alt="Nonlate" /><small>Nonlate</small></span>
                   <span className="app-dot app-youtube"><img src="/assets/distractions/youtube.svg" alt="YouTube" /></span>
@@ -359,11 +359,11 @@ export default function Home() {
                 </div>
               </article>
               <article className="bento-card bento-alarm" data-reveal>
-                <p className="card-index">04 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>For critical tasks and scheduled items on supported devices.</p>
+                <p className="card-index">04 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>Attach an alarm to an important task or scheduled item. At the time you choose, Nonlate uses the strongest alarm presentation supported by your device.</p>
                 <div className="alarm-preview"><small>TASK · HISTORY ESSAY DRAFT</small><strong>9:00</strong><span>MONDAY · 8:00 AM</span><button type="button" tabIndex={-1}>Snooze</button></div>
               </article>
               <article className="bento-card bento-widget" data-reveal>
-                <p className="card-index">05 · AT A GLANCE</p><h3>Keep the next deadline in sight.</h3><p>Home Screen widgets and, on supported iPhones, Live Activities and Dynamic Island.</p>
+                <p className="card-index">05 · AT A GLANCE</p><h3>Keep the next deadline in sight.</h3><p>Widgets show your next task, today’s plan, or the coming week without opening Nonlate. Supported iPhones also use Live Activities and Dynamic Island for active countdowns.</p>
                 <div className="widget-preview"><span><small>NONLATE · DUE SOON</small><b>Biology lab</b><strong>10:08</strong></span><span className="break-widget"><small>BREAK ACTIVE</small><b>Blocking resumes</b><strong>09:55</strong></span></div>
               </article>
             </div>
@@ -373,14 +373,14 @@ export default function Home() {
             <div className="section-heading" data-reveal>
               <p className="eyebrow"><span /> Deadline-aware blocking</p>
               <h2 id="behavior-title">The blocker is the product.</h2>
-              <p>When a selected distraction opens while work is due, Nonlate puts the real deadlines in front of it. Focus Lock makes the break path stricter when you need a stronger boundary.</p>
+              <p>When a selected distraction opens, Nonlate checks unfinished tasks that are overdue or inside your chosen due window. Calendar events can appear in Schedule, but they never trigger the blocker.</p>
             </div>
             <div className="behavior-grid">
               <article className="behavior-card behavior-blocker" data-reveal>
                 <p>{blockingBehavior.label}</p><h3>{blockingBehavior.title}</h3><p>{blockingBehavior.description}</p><span>{blockingBehavior.friction}</span>
               </article>
               <article className="focus-lock-card" data-reveal>
-                <div><p>Optional setting</p><h3>Focus Lock</h3><p>Removes the quick break from the blocked-app screen, then adds a brief reflection inside Nonlate before a timed break can begin.</p></div>
+                <div><p>Optional setting</p><h3>Focus Lock</h3><p>Focus Lock removes the quick-break choice from the blocker. To take a break, return to Nonlate, pause for a short reflection, and then start the configured timer.</p></div>
                 <span>Stronger break control</span>
               </article>
             </div>
@@ -390,7 +390,7 @@ export default function Home() {
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> Integrations</p>
               <h2 id="integrations-title">Connect the tools already holding your responsibilities.</h2>
-              <p>More than twenty sources across school, calendars, tasks, and work—without rebuilding every list by hand.</p>
+              <p>Connect the school, calendar, to-do, and work services you already use. Supported tasks and due dates join the same list as manual tasks, so you do not have to enter them twice.</p>
             </div>
             <div className="integration-grid">
               {integrationGroups.map((group) => (
@@ -400,14 +400,14 @@ export default function Home() {
                 </article>
               ))}
             </div>
-            <p className="section-note">Availability and sync speed vary by provider, platform, and plan. Calendar events can appear in planning and schedule views, but they do not trigger blocking.</p>
+            <p className="section-note">Source availability, permissions, and sync speed vary by provider, platform, and plan. Imported calendar events appear in Schedule, but they are not due tasks and never trigger blocking.</p>
           </section>
 
           <section className="real-screens section-shell" aria-labelledby="screens-title">
             <div className="section-heading" data-reveal>
               <p className="eyebrow"><span /> Current builds</p>
               <h2 id="screens-title">Real screens. Platform-native details.</h2>
-              <p>The live demo tells the story. These are the actual current iOS and Android product screens behind it.</p>
+              <p>These are current iOS and Android screens. Planner assigns work to a date or session; Schedule places that work beside tasks, events, classes, and shifts in one timed view.</p>
             </div>
             <div className="screen-rail">
               {screenGallery.map((screen) => (
@@ -423,12 +423,12 @@ export default function Home() {
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> Personal by design</p>
               <h2 id="personal-title">More human than a wall of statistics.</h2>
-              <p>Shape the intervention, understand your focus rhythm, and make the experience calm enough to keep.</p>
+              <p>Choose what the blocker says and how Nonlate looks, then use Focus Pulse to understand how consistently you finish due work on time.</p>
             </div>
             <div className="personal-grid">
-              <article data-reveal><span className="personal-number">01</span><h3>Choose the message that stops you.</h3><p>Use the standard prompt, write your own, or choose daily wisdom in the tone you need.</p><div className="message-preview"><small>TODAY’S REMINDER</small><blockquote>“Start smaller than your excuses.”</blockquote><span>Daily wisdom · Calm</span></div></article>
-              <article data-reveal><span className="personal-number">02</span><h3>See your Focus Pulse.</h3><p>Understand streaks, on-time days, missed days, and how quickly you recover.</p><div className="pulse-preview"><div><span className="pulse-score"><strong>82</strong><small>FOCUS PULSE</small></span></div><span><b>5</b> current</span><span><b>12</b> best</span><span><b>1.4d</b> recover</span></div></article>
-              <article data-reveal><span className="personal-number">03</span><h3>Make focus feel yours.</h3><p>Choose from 12 built-in themes—or create your own—and carry the same visual language into widgets.</p><div className="theme-preview"><span className="theme-aurora">Aurora</span><span className="theme-bloom">Bloom</span><span className="theme-sage">Sage</span><span className="theme-boring">Boring</span><div className="theme-more"><div className="theme-more-swatches" aria-hidden="true"><i className="swatch-nightfall" /><i className="swatch-sky" /><i className="swatch-golden" /><i className="swatch-berry" /></div><p><strong>+8 more themes</strong><small>Custom colors too</small></p></div></div></article>
+              <article data-reveal><span className="personal-number">01</span><h3>Choose the message that stops you.</h3><p>On supported blocker screens, use the standard deadline prompt, write a custom message, or rotate Daily Wisdom in the tone you need.</p><div className="message-preview"><small>TODAY’S MESSAGE</small><blockquote>“Start smaller than your excuses.”</blockquote><span>Daily wisdom · Calm</span></div></article>
+              <article data-reveal><span className="personal-number">02</span><h3>See your Focus Pulse.</h3><p>See on-time and missed due-work days, current and best streaks, your strongest weekdays, and how quickly you get back on track after a miss.</p><div className="pulse-preview"><div><span className="pulse-score"><strong>82</strong><small>FOCUS PULSE</small></span></div><span><b>5</b> current</span><span><b>12</b> best</span><span><b>1.4d</b> recover</span></div></article>
+              <article data-reveal><span className="personal-number">03</span><h3>Make focus feel yours.</h3><p>Choose one of 12 built-in themes or create custom colors. Your selected theme carries through the app and supported widgets.</p><div className="theme-preview"><span className="theme-aurora">Aurora</span><span className="theme-bloom">Bloom</span><span className="theme-sage">Sage</span><span className="theme-boring">Boring</span><div className="theme-more"><div className="theme-more-swatches" aria-hidden="true"><i className="swatch-nightfall" /><i className="swatch-sky" /><i className="swatch-golden" /><i className="swatch-berry" /></div><p><strong>+8 more themes</strong><small>Custom colors too</small></p></div></div></article>
             </div>
           </section>
 
@@ -436,7 +436,7 @@ export default function Home() {
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> A plan for every level of focus</p>
               <h2 id="plans-title">Start simply. Add friction when you need it.</h2>
-              <p>Local store pricing and eligible trials will appear in the app at launch.</p>
+              <p>Start with one connected source and three protected apps. Paid plans add more sources, faster sync, broader blocking, customization, insights, and no ads; exact store pricing appears at launch.</p>
             </div>
             <div className="plans-grid">
               {planTiers.map((plan) => (
@@ -455,13 +455,13 @@ export default function Home() {
             <div className="privacy-copy" data-reveal>
               <p className="eyebrow"><span /> Privacy by design</p>
               <h2 id="privacy-title">Connected data is for your deadlines.</h2>
-              <p>Nonlate asks for the data needed to sync the services you choose, protects credentials according to platform best practices, and keeps disconnect and deletion controls within reach.</p>
+              <p>Nonlate processes task and calendar details only for services you choose to connect, stores credentials using platform-secure storage, and lets you disconnect sources or request deletion.</p>
               <a className="text-action" href="/privacy/">Read the full privacy policy <span>→</span></a>
             </div>
             <div className="privacy-points">
               <article data-reveal><span>01</span><div><h3>Protected in transit and at rest</h3><p>HTTPS/TLS in transit, Keychain on iOS, and Keystore-backed encrypted preferences on Android.</p></div></article>
-              <article data-reveal><span>02</span><div><h3>Limited use of Google data</h3><p>Google user data supports connected sync and focus features. It is not used for ads or generalized AI training.</p></div></article>
-              <article data-reveal><span>03</span><div><h3>Your connections stay reversible</h3><p>Disconnect integrations in settings or request deletion through Nonlate support.</p></div></article>
+              <article data-reveal><span>02</span><div><h3>Limited use of Google data</h3><p>Google task and calendar data is used only to provide connected sync and Nonlate features—not advertising or generalized AI training.</p></div></article>
+              <article data-reveal><span>03</span><div><h3>Your connections stay reversible</h3><p>Disconnect a source in Nonlate settings or request deletion through support at any time.</p></div></article>
             </div>
           </section>
 

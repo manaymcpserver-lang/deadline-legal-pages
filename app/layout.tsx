@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Nonlate",
   },
   description:
-    "Nonlate gathers deadlines from school, work, calendars, and task tools, then steps in when a chosen distraction opens.",
+    "Nonlate combines manual and synced deadlines, helps you plan and schedule them, and blocks selected distractions when work is due.",
   alternates: { canonical: "/" },
   manifest: "/site.webmanifest",
   icons: {
