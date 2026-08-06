@@ -24,7 +24,9 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /Pick a day, add due tasks to that day’s plan/i);
   assert.match(html, /Schedule places work from Planner alongside due tasks, calendar events, classes, and shifts/i);
   assert.match(html, /04 · APP PROTECTION/i);
+  assert.match(html, /Choose which distracting apps Nonlate can interrupt/i);
   assert.match(html, /05 · CAN’T MISS ALARM/i);
+  assert.match(html, /Attach an alarm to a task or scheduled item and choose the time/i);
   assert.match(html, /06 · AT A GLANCE/i);
   const productCardOrder = [
     "01 · DUE WORK",
@@ -44,6 +46,17 @@ test("static export contains the production landing experience", async () => {
   }
   assert.match(html, /Focus Lock/i);
   assert.match(html, /Stronger break control/i);
+  assert.match(html, /Tasks · every source/i);
+  const realScreenOrder = [
+    "Home · due tasks",
+    "Tasks · every source",
+    "Blocker · work due",
+    "Planner · choose a day",
+    "Schedule · timed day",
+    "Insights · Focus Pulse",
+  ].map((label) => html.indexOf(label));
+  assert.ok(realScreenOrder.every((position) => position >= 0), "every real-screen card must be present");
+  assert.deepEqual(realScreenOrder, [...realScreenOrder].sort((a, b) => a - b), "real screens must follow the product flow");
   assert.match(html, /12 built-in themes/i);
   assert.match(html, /\+8 more themes/i);
   assert.match(html, /Custom colors too/i);
@@ -103,6 +116,8 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(css, /@media \(prefers-reduced-motion: reduce\)/);
   assert.match(css, /\.theme-more[^}]*grid-column:\s*1 \/ -1/);
   assert.match(css, /\.pulse-score[^}]*gap:\s*5px/);
+  assert.match(css, /\.focus-lock-card > div p:first-child[^}]*var\(--font-jetbrains\)/);
+  assert.doesNotMatch(css, /\.focus-lock-card > div p\s*\{/);
   assert.match(css, /\.reveal-ready \[data-reveal\]/);
   assert.match(css, /height:\s*clamp\(400px, 110vw, 670px\)/);
   assert.match(css, /padding-block:\s*72px 0/);
@@ -117,6 +132,7 @@ test("deployment-critical assets are present in source and output", async () => 
     "public/deadline/oauth/callback/oauth-ui.js",
     "public/og.png",
     "public/assets/screens/ios-blocker.png",
+    "public/assets/screens/ios-tasks.png",
     "public/assets/screens/android-blocker.png",
     "out/CNAME",
     "out/404.html",
