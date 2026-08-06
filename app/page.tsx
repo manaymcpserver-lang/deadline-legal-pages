@@ -202,7 +202,7 @@ export default function Home() {
     root.inert = interceptOpen;
     document.body.classList.toggle("dialog-open", interceptOpen);
     if (!interceptOpen) {
-      focusTimer = window.setTimeout(() => lastFocusedRef.current?.focus(), 0);
+      focusTimer = window.setTimeout(() => lastFocusedRef.current?.focus({ preventScroll: true }), 0);
     }
     return () => {
       window.clearTimeout(focusTimer);
@@ -237,8 +237,7 @@ export default function Home() {
   const closeIntercept = useCallback(() => setInterceptOpen(false), []);
   const viewTasks = useCallback(() => {
     setInterceptOpen(false);
-    window.setTimeout(() => document.querySelector("#tasks")?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "center" }), 20);
-  }, [reducedMotion]);
+  }, []);
   const startBreak = useCallback(() => {
     const expiry = Date.now() + 10 * 60 * 1000;
     window.sessionStorage.setItem("nonlate-demo-break-until", String(expiry));

@@ -69,9 +69,9 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(page, /aria-modal="true"/);
   assert.match(page, /event\.key === "Escape"/);
   assert.match(page, /root\.inert = interceptOpen/);
-  assert.match(page, /lastFocusedRef\.current\?\.focus/);
+  assert.match(page, /lastFocusedRef\.current\?\.focus\(\{ preventScroll: true \}\)/);
   assert.match(page, /View tasks/);
-  assert.match(page, /querySelector\("#tasks"\)/);
+  assert.doesNotMatch(page, /scrollIntoView|querySelector\("#tasks"\)/);
   assert.match(page, /10 \* 60 \* 1000/);
   assert.match(page, /\$\{platform\}-blocker\.png/);
   assert.match(page, /<BlockerCapture platform="ios" \/>/);
@@ -82,6 +82,8 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(css, /\.theme-more[^}]*grid-column:\s*1 \/ -1/);
   assert.match(css, /\.pulse-score[^}]*gap:\s*5px/);
   assert.match(css, /\.reveal-ready \[data-reveal\]/);
+  assert.match(css, /height:\s*clamp\(400px, 110vw, 670px\)/);
+  assert.match(css, /padding-block:\s*72px 0/);
 });
 
 test("deployment-critical assets are present in source and output", async () => {
