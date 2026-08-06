@@ -92,9 +92,10 @@ test("privacy export contains the current production disclosures", async () => {
 });
 
 test("client source retains every interaction and accessibility contract", async () => {
-  const [page, css] = await Promise.all([
+  const [page, css, siteData] = await Promise.all([
     readFile(new URL("app/page.tsx", root), "utf8"),
     readFile(new URL("app/globals.css", root), "utf8"),
+    readFile(new URL("app/site-data.ts", root), "utf8"),
   ]);
 
   assert.match(page, /sessionStorage/);
@@ -108,7 +109,9 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(page, /lastFocusedRef\.current\?\.focus\(\{ preventScroll: true \}\)/);
   assert.match(page, /View tasks/);
   assert.match(page, /Website demo: these sample tasks are not real/i);
-  assert.match(page, /View tasks” closes this website demo without moving the page/i);
+  assert.match(page, /View tasks” closes this website demo without moving the page\.<\/p>/i);
+  assert.doesNotMatch(page, /Press Esc to dismiss or replay it anytime/i);
+  assert.doesNotMatch(`${page}\n${siteData}`, /—/, "homepage marketing copy should not contain em dashes");
   assert.doesNotMatch(page, /scrollIntoView|querySelector\("#tasks"\)/);
   assert.match(page, /10 \* 60 \* 1000/);
   assert.match(page, /\$\{platform\}-blocker\.png/);
