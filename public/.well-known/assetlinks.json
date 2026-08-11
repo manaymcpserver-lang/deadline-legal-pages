@@ -15,7 +15,8 @@
       "namespace": "android_app",
       "package_name": "com.nonlate.app",
       "sha256_cert_fingerprints": [
-        "4A:D6:CA:B6:08:AE:DC:4A:B0:82:46:03:B8:93:B3:29:A4:CC:04:D8:3A:B1:10:BE:EA:56:68:85:1F:F4:FC:E8"
+        "4A:D6:CA:B6:08:AE:DC:4A:B0:82:46:03:B8:93:B3:29:A4:CC:04:D8:3A:B1:10:BE:EA:56:68:85:1F:F4:FC:E8",
+        "1E:A5:85:B1:B9:44:9A:3F:CA:51:6D:00:62:76:CB:3C:29:A2:5C:16:00:CD:74:FD:44:F0:35:DE:97:00:BD:2A"
       ]
     }
   }

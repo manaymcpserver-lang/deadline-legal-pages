@@ -26,7 +26,7 @@ const callbackNames = [
 const protectedHashes = {
   "app-ads.txt": "4dd545e4e9d58a9edf2c85eac93fa4c3d51694c6c1a1ed921e2bc61d9ff05dd4",
   ".well-known/apple-app-site-association": "4e10d9982b0dd59363772359aa6b939f0601200de654436507aa7b9788399402",
-  ".well-known/assetlinks.json": "7251c274c8461fd16c717f4c957954568055fdd1697207c9139d147099e9f196",
+  ".well-known/assetlinks.json": "b514a06653e3b49e79d9ed4b5b098b6204a684e8982fe114ff7e095973664c13",
   ".well-known/microsoft-identity-association.json": "bbf91a66e5bde422aff695cc3272a031c834fc391b53de76e13132c1807e0d76",
   "deadline/oauth/callback/airtable/index.html": "99e5eaab24881b3b7bad28f5fd242ed3a58dee65b30b5974c2a5556079f01889",
   "deadline/oauth/callback/asana/index.html": "71ee50632a5095dd88a06035ed7c13a9aefb27777ae9331d181b5e756a08107f",
@@ -222,13 +222,17 @@ check("OAuth callbacks and association files are byte-for-byte production baseli
   expect(JSON.stringify(actual) === JSON.stringify([...callbackNames].sort()), `callback route set changed: ${actual.join(", ")}`);
 });
 
-check("Digital Asset Links contains only the approved production fingerprint", () => {
-  const fingerprint = "4A:D6:CA:B6:08:AE:DC:4A:B0:82:46:03:B8:93:B3:29:A4:CC:04:D8:3A:B1:10:BE:EA:56:68:85:1F:F4:FC:E8";
+check("Digital Asset Links contains the approved production fingerprints", () => {
+  const uploadFingerprint = "4A:D6:CA:B6:08:AE:DC:4A:B0:82:46:03:B8:93:B3:29:A4:CC:04:D8:3A:B1:10:BE:EA:56:68:85:1F:F4:FC:E8";
+  const playSigningFingerprint = "1E:A5:85:B1:B9:44:9A:3F:CA:51:6D:00:62:76:CB:3C:29:A2:5C:16:00:CD:74:FD:44:F0:35:DE:97:00:BD:2A";
   const statements = JSON.parse(read(".well-known/assetlinks.json"));
-  for (const packageName of ["com.deadline", "com.nonlate.app"]) {
+  for (const [packageName, fingerprints] of [
+    ["com.deadline", [uploadFingerprint]],
+    ["com.nonlate.app", [uploadFingerprint, playSigningFingerprint]],
+  ]) {
     const statement = statements.find((entry) => entry?.target?.package_name === packageName);
     expect(statement, `missing ${packageName}`);
-    expect(JSON.stringify(statement.target.sha256_cert_fingerprints) === JSON.stringify([fingerprint]), `${packageName} fingerprint set changed`);
+    expect(JSON.stringify(statement.target.sha256_cert_fingerprints) === JSON.stringify(fingerprints), `${packageName} fingerprint set changed`);
   }
 });
 
