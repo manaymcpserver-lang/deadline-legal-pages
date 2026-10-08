@@ -42,7 +42,7 @@ export default function PrivacyPage() {
       </ul>
 
       <h2>No advertising</h2>
-      <p>The current versions of Nonlate are ad-free. They do not include Google AdMob, advertising-consent prompts, or advertising tracking requests. Older versions may have included advertising features; updating removes those features.</p>
+      <p>The ad-free release (iOS 1.0.3 and Android 1.0.11) does not include Google AdMob, advertising-consent prompts, or advertising tracking requests. Older versions may include advertising features; updating to the ad-free release removes those features.</p>
 
       <h2>Source trial and device integrity</h2>
       <p>The optional source trial starts after your first successful external-source connection and lasts 30 days. Switching sources does not restart it, and it does not automatically charge you. Signed trial certificates are verified on your device. The trial service is contacted for activation, recovery, or suspicious certificate or time state, not for hourly trial checks.</p>
