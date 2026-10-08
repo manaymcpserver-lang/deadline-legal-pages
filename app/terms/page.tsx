@@ -9,9 +9,15 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <LegalPage eyebrow="Legal" title="Terms of Service" description="By using Nonlate, you agree to these terms." updated="April 2, 2026" currentHref="/terms/">
+    <LegalPage eyebrow="Legal" title="Terms of Service" description="By using Nonlate, you agree to these terms." updated="October 7, 2026" currentHref="/terms/">
       <h2>Service</h2>
       <p>Nonlate helps users organize deadlines and tasks, including by connecting third-party services selected by the user.</p>
+
+      <h2>Free features and source trial</h2>
+      <p>Nonlate is ad-free. Manual tasks and on-device calendars and reminders remain free. The optional source trial permits one external source at a time for 30 days, starting with the first successful connection. Switching sources, reinstalling, or cancelling a subscription does not restart or extend the original window. The source trial has no automatic charge. At expiry, external syncing pauses while imported tasks remain available for local completion and blocking.</p>
+
+      <h2>Subscriptions</h2>
+      <p>Plus and Pro provide paid features within their respective source and syncing limits. The purchase screen displays the store-localized price, billing period, and available terms. Annual prices are billed as annual totals. Subscriptions renew automatically unless cancelled through the purchasing store under its rules. Deleting Nonlate does not cancel a subscription. Use Restore Purchases to recover eligible access. The source trial is separate from any store subscription introductory offer. Refund requests are handled under the purchasing store’s policies and applicable law.</p>
 
       <h2>User responsibilities</h2>
       <ul>

@@ -196,14 +196,13 @@ check("homepage ships SoftwareApplication and FAQ structured data", () => {
 check("legal and support pages contain the production source-of-truth copy", () => {
   const privacy = visibleText(read("privacy/index.html"));
   for (const expected of [
-    "Last updated: July 22, 2026", "Birth month and year stored on your device", "Advertising and privacy choices",
-    "Paid users, users whose age is unknown, and users identified as under 16 do not receive ads",
-    "Google user data imported through connected Google services is never used for advertising",
+    "Last updated: October 7, 2026", "No advertising", "Signed trial certificates",
+    "Limited Use requirements", "Trial records are not automatically deleted after 90 days",
     "AES-256-GCM", "support@nonlate.app",
   ]) expect(privacy.includes(expected), `privacy page is missing: ${expected}`);
 
-  expect(visibleText(read("terms/index.html")).includes("Last updated: April 2, 2026"), "terms update date changed");
-  expect(visibleText(read("support/index.html")).includes("Ad privacy choices"), "support ad-privacy request is missing");
+  expect(visibleText(read("terms/index.html")).includes("Last updated: October 7, 2026"), "terms update date changed");
+  expect(visibleText(read("support/index.html")).includes("Subscriptions and source trial"), "subscription/trial support is missing");
   expect(visibleText(read("data-deletion/index.html")).includes("Nonlate Data Deletion Request"), "deletion subject is missing");
 });
 

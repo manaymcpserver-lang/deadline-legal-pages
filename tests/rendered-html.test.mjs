@@ -84,11 +84,12 @@ for (const [pathname, heading] of [
 
 test("privacy export contains the current production disclosures", async () => {
   const html = await readPage("privacy/index.html");
-  assert.match(html, /July 22, 2026/);
-  assert.match(html, /Advertising and privacy choices/i);
-  assert.match(html, /Birth month and year stored on your device/i);
-  assert.match(html, /Google user data imported through connected Google services is never used for advertising/i);
-  assert.match(html, /Ad privacy choices item in app settings/i);
+  assert.match(html, /October 7, 2026/);
+  assert.match(html, /No advertising/i);
+  assert.match(html, /Signed trial certificates/i);
+  assert.match(html, /Limited Use requirements/i);
+  assert.match(html, /not automatically deleted after 90 days/i);
+  assert.doesNotMatch(html, /Eligible adults using the free version/);
 });
 
 test("client source retains every interaction and accessibility contract", async () => {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <LegalPage eyebrow="Legal" title="Privacy Policy" description="This policy explains what information Nonlate processes and how it is used." updated="July 22, 2026" currentHref="/privacy/">
+    <LegalPage eyebrow="Legal" title="Privacy Policy" description="This policy explains what information Nonlate processes and how it is used." updated="October 7, 2026" currentHref="/privacy/">
       <p>Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.</p>
 
       <h2>What we process</h2>
@@ -17,8 +17,8 @@ export default function PrivacyPage() {
         <li>Connection data for integrations you choose to connect.</li>
         <li>Task and calendar metadata needed for app features, such as title, due date, source, and completion status.</li>
         <li>App settings and focus preferences.</li>
-        <li>Ad consent choices and ad delivery data.</li>
-        <li>Birth month and year stored on your device to determine age-appropriate ad eligibility. Nonlate does not send this value to advertising providers.</li>
+        <li>Anonymous source-trial identifiers, hashed recovery credentials, original start and expiry dates, platform, and integrity status. The trial ledger does not contain provider credentials or hardware fingerprints.</li>
+        <li>Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.</li>
         <li>Diagnostic data for reliability, such as crash reports.</li>
       </ul>
 
@@ -37,20 +37,20 @@ export default function PrivacyPage() {
       <ul>
         <li>Sync tasks and events from connected services.</li>
         <li>Show reminders and focus features.</li>
-        <li>Serve ads and apply privacy choices for ad-consent data. Google user data is not used for advertising.</li>
+        <li>Validate subscription access and protect the 30-day source trial against repeated redemption.</li>
         <li>Keep the app reliable and secure.</li>
       </ul>
 
-      <h2>Advertising and privacy choices</h2>
-      <p>Eligible adults using the free version of Nonlate may see compact native ads provided by Google AdMob. Ad personalization is optional. Where applicable, Nonlate asks for your advertising privacy choice only after you have used the app for a period of time rather than during onboarding.</p>
-      <ul>
-        <li>If you allow personalized advertising, Google may use permitted advertising identifiers and consent information to select ads.</li>
-        <li>If you decline personalization, or applicable rules require it, Nonlate may request non-personalized or limited ads when Google’s consent system permits them.</li>
-        <li>Paid users, users whose age is unknown, and users identified as under 16 do not receive ads or an advertising-personalization prompt from Nonlate.</li>
-        <li>On iOS, Nonlate may show Apple’s tracking-permission prompt after an explanation when that permission is relevant. Declining that permission does not prevent you from using the app.</li>
-        <li>Where required, you can review or change available advertising choices from the Ad privacy choices item in app settings.</li>
-      </ul>
-      <p>Google user data imported through connected Google services is never used for advertising. For more information about how Google processes advertising data, see <a href="https://policies.google.com/technologies/ads">Google’s advertising privacy information</a>.</p>
+      <h2>No advertising</h2>
+      <p>The current versions of Nonlate are ad-free. They do not include Google AdMob, advertising-consent prompts, or advertising tracking requests. Older versions may have included advertising features; updating removes those features.</p>
+
+      <h2>Source trial and device integrity</h2>
+      <p>The optional source trial starts after your first successful external-source connection and lasts 30 days. Switching sources does not restart it, and it does not automatically charge you. Signed trial certificates are verified on your device. The trial service is contacted for activation, recovery, or suspicious certificate or time state, not for hourly trial checks.</p>
+      <p>Apple App Attest and DeviceCheck and Google Play Integrity provide app or device-integrity signals. Redemption signals may survive reinstalling the app where platform services support them. These are not permanent hardware identifiers. Android protected local storage alone cannot reliably prevent resets after reinstalling or clearing app data.</p>
+      <p>At expiry, external syncing pauses. Imported tasks remain available for local completion and blocking. Verified paid access can resume syncing within your plan’s limits.</p>
+
+      <h2>Retention</h2>
+      <p>Local tasks and preferences remain until you remove them or clear app data. Protected recovery credentials may survive uninstalling on some platforms. Server-side integration records, authorized sync metadata, diagnostic records, and trial-redemption records are retained as needed to operate the requested features, recover access, and prevent abuse. Trial records are not automatically deleted after 90 days. You can request deletion using the process below; limited records may be retained where required for security or legal obligations.</p>
 
       <h2>Data protection</h2>
       <ul>
@@ -63,10 +63,10 @@ export default function PrivacyPage() {
       </ul>
 
       <h2>Sharing</h2>
-      <p>Data may be shared with providers you connect and service providers needed to run the app, such as hosting, database, notification, crash-reporting, ads, and consent tools. Google user data is shared only as needed to operate connected Google sync features and is not shared with advertising providers. We do not sell personal data.</p>
+      <p>Data may be processed by providers you connect and service providers needed to run the app, such as hosting, database, notification, crash-reporting, subscription validation, and platform integrity services. Some authorized server-side sync features retain task titles, due dates, and provider webhook payloads. Google user data is transferred only as needed to operate connected Google sync features, never for advertising. We do not sell personal data.</p>
 
       <h2>User controls</h2>
-      <ul><li>Disconnect integrations in app settings.</li><li>Review available advertising privacy choices in app settings.</li><li>Uninstall the app to remove local app data on your device.</li><li>Request data deletion by email.</li></ul>
+      <ul><li>Disconnect integrations in app settings.</li><li>Manage subscriptions through the store where you purchased them.</li><li>Clear local app data or uninstall the app; protected credentials and server records may require a separate deletion request.</li><li>Request data deletion by email or follow our <a href="/data-deletion/">data deletion instructions</a>.</li></ul>
 
       <h2>Contact</h2>
       <p>For privacy requests, contact <a href="mailto:support@nonlate.app">support@nonlate.app</a>.</p>

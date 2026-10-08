@@ -20,7 +20,7 @@ export default function SupportPage() {
       <div className="support-grid">
         <section className="support-card"><h3>Integration connection problems</h3><p>Provider login, permissions, or callback issues.</p></section>
         <section className="support-card"><h3>Sync issues</h3><p>Tasks, due dates, or calendars not appearing as expected.</p></section>
-        <section className="support-card"><h3>Ad privacy choices</h3><p>Questions about consent, ATT, or ad privacy settings.</p></section>
+        <section className="support-card"><h3>Subscriptions and source trial</h3><p>Questions about store purchases, restoring access, or the 30-day source trial.</p></section>
         <section className="support-card"><h3>Data deletion requests</h3><p>Requests to remove data associated with Nonlate.</p></section>
       </div>
     </LegalPage>
