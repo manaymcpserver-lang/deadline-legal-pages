@@ -63,7 +63,8 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /12 built-in themes/i);
   assert.match(html, /\+8 more themes/i);
   assert.match(html, /Custom colors too/i);
-  assert.match(html, /Coming soon to iOS and Android/i);
+  assert.match(html, /iOS available in Mozambique/i);
+  assert.match(html, /Android coming soon/i);
   assert.match(html, /"@type":"FAQPage"/i);
   assert.doesNotMatch(html, /TODAY’S REMINDER|Reminder only|Pause blocking|View the plan|Return with intention|planning, reminders, and app protection/i);
 });
@@ -84,12 +85,24 @@ for (const [pathname, heading] of [
 
 test("privacy export contains the current production disclosures", async () => {
   const html = await readPage("privacy/index.html");
-  assert.match(html, /October 7, 2026/);
+  assert.match(html, /October 12, 2026/);
   assert.match(html, /No advertising/i);
   assert.match(html, /Signed trial certificates/i);
   assert.match(html, /Limited Use requirements/i);
   assert.match(html, /not automatically deleted after 90 days/i);
   assert.doesNotMatch(html, /Eligible adults using the free version/);
+});
+
+test("plans and FAQ disclose the current ad-free source trial and localized purchase terms", async () => {
+  const html = await readPage("index.html");
+  for (const text of ["$5.99 / month", "$59.99 / year", "$11.99 / month", "$99.99 / year", "billed annually", "USD reference prices", "current localized price", "30 days", "no automatic charge", "external syncing pauses", "local completion and blocking", "No Nonlate account is required"]) {
+    assert.ok(html.includes(text), `missing current product term: ${text}`);
+  }
+  assert.doesNotMatch(html, /Ads for eligible users|exact store pricing appears at launch|Coming soon to iOS and Android/);
+  assert.match(html, /href="https:\/\/apps\.apple\.com\/mz\/app\/nonlate-tasks-focus\/id6759996284"/);
+  assert.doesNotMatch(html, /href="https:\/\/play\.google\.com\/store/, "do not advertise unverified Android public availability");
+  const data = JSON.parse(html.match(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/)[1]);
+  assert.equal(data["@graph"].find(item => item["@type"] === "FAQPage").mainEntity.length, 8);
 });
 
 test("client source retains every interaction and accessibility contract", async () => {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <LegalPage eyebrow="Legal" title="Privacy Policy" description="This policy explains what information Nonlate processes and how it is used." updated="October 7, 2026" currentHref="/privacy/">
+    <LegalPage eyebrow="Legal" title="Privacy Policy" description="This policy explains what information Nonlate processes and how it is used." updated="October 12, 2026" currentHref="/privacy/">
       <p>Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.</p>
 
       <h2>What we process</h2>
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
       </ul>
 
       <h2>No advertising</h2>
-      <p>The ad-free release (iOS 1.0.3 and Android 1.0.11) does not include Google AdMob, advertising-consent prompts, or advertising tracking requests. Older versions may include advertising features; updating to the ad-free release removes those features.</p>
+      <p>Current Nonlate releases are ad-free on every plan and do not include Google AdMob, advertising-consent prompts, or advertising tracking requests. Older versions may include advertising features; updating to a current ad-free release removes those features.</p>
 
       <h2>Source trial and device integrity</h2>
       <p>The optional source trial starts after your first successful external-source connection and lasts 30 days. Switching sources does not restart it, and it does not automatically charge you. Signed trial certificates are verified on your device. The trial service is contacted for activation, recovery, or suspicious certificate or time state, not for hourly trial checks.</p>

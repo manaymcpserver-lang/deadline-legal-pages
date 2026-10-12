@@ -42,7 +42,7 @@ export function SiteHeader() {
 
         <div className="nav-actions">
           <Link className="status-chip" href="/#coming-soon">
-            <span aria-hidden="true" /> Coming soon
+            <span aria-hidden="true" /> Get Nonlate
           </Link>
           <button
             className="menu-button"
@@ -69,7 +69,7 @@ export function SiteFooter() {
             <img src="/assets/nonlate-icon.png" alt="" width="38" height="38" />
             <span>Nonlate</span>
           </Link>
-          <p>Real deadlines, at the moment they matter. Built for school, work, and everything in between.</p>
+          <p>Real deadlines, at the moment they matter. Built for school, work, and everyday life.</p>
           <span className="mono-label">Be on time. Gently.</span>
         </div>
         <div>

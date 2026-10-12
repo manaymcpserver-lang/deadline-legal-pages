@@ -381,6 +381,7 @@ p { text-wrap: pretty; }
 .plan-card > p { color: var(--muted); font: 8px var(--font-jetbrains), monospace; text-transform: uppercase; }
 .plan-card h3 { margin-top: 13px; font-size: 34px; }
 .plan-card > strong { display: block; margin-top: 10px; font-size: 21px; }
+.plan-annual-price { display: block; margin-top: 8px; color: var(--ink-2); font-size: 14px; line-height: 1.5; }
 .plan-card ul { margin: 27px 0 0; padding: 0; display: grid; gap: 12px; list-style: none; }
 .plan-card li { display: flex; align-items: center; gap: 10px; color: var(--ink-2); font-size: 13px; }
 .plan-card li span { color: var(--lime); }
@@ -410,7 +411,9 @@ p { text-wrap: pretty; }
 .closing-section > img { width: 104px; height: 104px; margin: 0 auto 26px; border-radius: 28px; box-shadow: 0 24px 60px rgba(92, 65, 202, .4); }
 .closing-section > p { max-width: 680px; margin-inline: auto; }
 .platform-statuses { margin: 35px auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-.platform-statuses > span { min-width: 180px; padding: 16px 20px; display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 12px; align-items: center; border: 1px solid var(--line); border-radius: 18px; background: rgba(255, 255, 255, .035); text-align: left; }
+.platform-statuses > span, .platform-statuses > a { min-width: 180px; padding: 16px 20px; display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 12px; align-items: center; border: 1px solid var(--line); border-radius: 18px; background: rgba(255, 255, 255, .035); text-align: left; }
+.platform-statuses > a:hover { border-color: var(--violet); }
+.platform-statuses > a:focus-visible { outline: 2px solid var(--violet); outline-offset: 4px; }
 .platform-statuses i { grid-row: 1 / -1; font-size: 23px; font-style: normal; }
 .platform-statuses b { font-size: 14px; }
 .platform-statuses small { color: var(--muted); font-size: 10px; }
@@ -581,7 +584,7 @@ p { text-wrap: pretty; }
   .phone-ios { left: 0; }
   .phone-android { right: 0; }
   .moment-steps li { grid-template-columns: 40px 1fr; }
-  .platform-statuses > span { width: 100%; }
+  .platform-statuses > span, .platform-statuses > a { width: 100%; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-brand { grid-column: 1; }
   .legal-content { padding: 25px 20px; }

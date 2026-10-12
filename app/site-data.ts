@@ -31,6 +31,7 @@ export type PlanTier = {
   name: "Free" | "Plus" | "Pro";
   eyebrow: string;
   price: string;
+  annualPrice?: string;
   highlighted?: boolean;
   features: string[];
 };
@@ -39,6 +40,8 @@ export type FaqEntry = {
   question: string;
   answer: string;
 };
+
+export const appStoreUrl = "https://apps.apple.com/mz/app/nonlate-tasks-focus/id6759996284";
 
 export const demoPhases: DemoPhase[] = [
   {
@@ -136,35 +139,38 @@ export const planTiers: PlanTier[] = [
     eyebrow: "The essentials",
     price: "$0",
     features: [
-      "1 connected source at a time",
+      "Try 1 external source at a time for 30 days",
       "Up to 3 protected apps",
-      "Tasks sync when you open Nonlate or refresh",
-      "Manual tasks and core blocking",
-      "Ads for eligible users",
+      "Source sync on open or refresh during the trial",
+      "Manual tasks and core blocking stay free",
+      "On-device calendars and reminders stay free",
+      "Ad-free, with no automatic trial charge",
     ],
   },
   {
     name: "Plus",
     eyebrow: "Best for most people",
-    price: "Paid",
+    price: "$5.99 / month",
+    annualPrice: "$59.99 / year",
     highlighted: true,
     features: [
       "Up to 3 connected sources",
-      "Sources refresh hourly in the background",
+      "Hourly background sync when available",
       "Unlimited app blocking plus supported websites and categories",
       "Widgets, themes, and extended insights",
-      "No ads",
+      "Custom intercept messages",
     ],
   },
   {
     name: "Pro",
     eyebrow: "Everything connected",
-    price: "Paid",
+    price: "$11.99 / month",
+    annualPrice: "$99.99 / year",
     features: [
       "Unlimited connected task sources",
       "Live Sync for supported integrations",
       "Trello connection and sync",
-      "Fastest updates each provider supports",
+      "Provider-dependent updates within sync limits",
       "Everything in Plus",
     ],
   },
@@ -189,7 +195,7 @@ export const faqEntries: FaqEntry[] = [
   {
     question: "Does every integration update instantly?",
     answer:
-      "No. Update speed depends on both the provider and your plan. Free syncs when you open Nonlate or refresh, Plus refreshes selected sources hourly in the background, and Pro adds Live Sync only for integrations that support it.",
+      "No. During the source trial, Free syncs one external source when you open Nonlate or refresh. Plus supports hourly background sync, and Pro adds Live Sync for supported integrations within sync limits. Timing depends on provider permissions, device background limits, and service availability. Live Sync is not guaranteed for every provider or account role.",
   },
   {
     question: "Does blocking work identically on iOS and Android?",
@@ -199,6 +205,16 @@ export const faqEntries: FaqEntry[] = [
   {
     question: "When can I download it?",
     answer:
-      "Nonlate is coming soon to iOS and Android. This website has no waitlist or placeholder store buttons; verified store links will appear only when the apps are ready to download.",
+      "Nonlate is available on the Mozambique App Store. Android is coming soon; closed-test access is not the same as public availability. Store availability may vary by country. The download link opens the verified Mozambique listing.",
+  },
+  {
+    question: "What stays free after the source trial?",
+    answer:
+      "Manual tasks, on-device calendars and reminders, and blocking up to three distracting apps stay free. The 30-day trial starts after your first successful external-source connection and permits one external source at a time. Switching sources does not restart the window. When it ends, external syncing pauses, but imported tasks remain available for local completion and blocking. The source trial has no automatic charge and is separate from any subscription introductory offer. Paid access resumes syncing within the purchased plan’s limits.",
+  },
+  {
+    question: "Do I need a Nonlate account, and are there ads?",
+    answer:
+      "No Nonlate account is required, and every plan is ad-free. Connecting a source may require signing in to that provider and granting its requested permissions. Paid subscriptions are optional, billed through your app store, and renew automatically unless cancelled through that store.",
   },
 ];

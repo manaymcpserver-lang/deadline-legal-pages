@@ -168,7 +168,7 @@ check("homepage preserves the complete dual-platform blocker story", () => {
     "Know what’s due before you scroll.", "Actual current iOS blocker capture", "Actual current Android blocker capture",
     "Work is due", "You open a distraction", "Nonlate checks", "Blocker appears", "The blocker is the product.",
     "Focus Lock", "Stronger break control", "12 built-in themes",
-    "+8 more themes", "Custom colors too", "Coming soon to iOS and Android",
+    "+8 more themes", "Custom colors too", "iOS available in Mozambique", "Android coming soon",
   ];
   const missing = required.filter((value) => !text.includes(value));
   expect(missing.length === 0, `missing copy: ${missing.join(", ")}`);
@@ -190,13 +190,13 @@ check("homepage ships SoftwareApplication and FAQ structured data", () => {
   const graph = data["@graph"] ?? [];
   expect(graph.some((entry) => entry["@type"] === "SoftwareApplication"), "missing SoftwareApplication");
   const faq = graph.find((entry) => entry["@type"] === "FAQPage");
-  expect(faq?.mainEntity?.length === 6, "FAQPage must expose all six questions");
+  expect(faq?.mainEntity?.length === 8, "FAQPage must expose all eight questions");
 });
 
 check("legal and support pages contain the production source-of-truth copy", () => {
   const privacy = visibleText(read("privacy/index.html"));
   for (const expected of [
-    "Last updated: October 7, 2026", "No advertising", "Signed trial certificates",
+    "Last updated: October 12, 2026", "No advertising", "Signed trial certificates",
     "Limited Use requirements", "Trial records are not automatically deleted after 90 days",
     "AES-256-GCM", "support@nonlate.app",
   ]) expect(privacy.includes(expected), `privacy page is missing: ${expected}`);

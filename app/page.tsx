@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { MouseEvent as ReactMouseEvent } from "react";
 import { SiteFooter, SiteHeader } from "./components/SiteChrome";
 import {
+  appStoreUrl,
   blockingBehavior,
   demoPhases,
   faqEntries,
@@ -290,7 +291,7 @@ export default function Home() {
               <p className="hero-lede">Nonlate combines tasks you add yourself with deadlines synced from school, calendar, to-do, and work apps. If you open a chosen distraction while work is due, Nonlate shows the blocker first.</p>
               <div className="hero-actions">
                 <a className="button-primary" href="#moment">See Nonlate step in <span>↓</span></a>
-                <span className="coming-note"><i /><i /> Coming soon to iOS and Android</span>
+                <span className="coming-note"><i /><i /> iOS available in Mozambique · Android coming soon</span>
               </div>
               <dl className="hero-stats" aria-label="Product highlights">
                 <div><dt>20+</dt><dd>school, work, calendar, and task sources</dd></div>
@@ -450,19 +451,21 @@ export default function Home() {
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> A plan for every level of focus</p>
               <h2 id="plans-title">Start simply. Add friction when you need it.</h2>
-              <p>Start with one connected source and three protected apps. Paid plans add more sources, faster sync, broader blocking, customization, insights, and no ads; exact store pricing appears at launch.</p>
+              <p>Every plan is ad-free, with no Nonlate account required. Try one external source free for 30 days and protect up to three distracting apps. Paid plans add more sources, background sync, broader blocking, customization, and insights.</p>
             </div>
             <div className="plans-grid">
               {planTiers.map((plan) => (
                 <article className={`plan-card${plan.highlighted ? " is-highlighted" : ""}`} key={plan.name} data-reveal>
                   {plan.highlighted ? <span className="plan-badge">Best for most people</span> : null}
                   <p>{plan.eyebrow}</p><h3>{plan.name}</h3><strong>{plan.price}</strong>
+                  {plan.annualPrice ? <span className="plan-annual-price">or {plan.annualPrice}, billed annually</span> : null}
                   <ul>{plan.features.map((feature) => <li key={feature}><span>✓</span>{feature}</li>)}</ul>
-                  <div className="plan-status">Coming soon</div>
+                  <div className="plan-status">Choose your plan in the app</div>
                 </article>
               ))}
             </div>
-            <p className="section-note">Features can vary by platform and provider. Paid pricing may vary by region.</p>
+            <p className="section-note">Prices shown are USD reference prices. Your app store displays the current localized price and billing period before purchase; prices and availability may vary by region and platform. Paid subscriptions renew automatically unless cancelled through the purchasing store. Features and sync timing vary by provider and device.</p>
+            <p className="section-note">The source trial starts after your first successful connection, has no automatic charge, and does not restart when you switch sources. After 30 days, external syncing pauses; imported tasks remain available for local completion and blocking. Manual tasks and on-device calendars and reminders stay free.</p>
           </section>
 
           <section className="privacy-section section-shell" id="privacy" aria-labelledby="privacy-title">
@@ -495,8 +498,8 @@ export default function Home() {
             <img src="/assets/nonlate-icon.png" alt="Nonlate app icon" width="104" height="104" />
             <p className="eyebrow"><span /> Be on time. Gently.</p>
             <h2 id="closing-title">Put the deadline before the distraction.</h2>
-            <p>Nonlate is coming soon to iOS and Android. No signup form, no inbox promise, and no store button before it is real.</p>
-            <div className="platform-statuses" aria-label="Planned platforms"><span><i></i><b>iOS</b><small>Coming soon</small></span><span><i>◆</i><b>Android</b><small>Coming soon</small></span></div>
+            <p>Built for school, work, and everyday life. Ad-free, with no Nonlate account required. Download on the Mozambique App Store; Android public availability is coming soon.</p>
+            <div className="platform-statuses" aria-label="Platform availability"><a href={appStoreUrl} aria-label="Get Nonlate on the Mozambique App Store"><i></i><b>iOS</b><small>App Store · Mozambique</small></a><span><i>◆</i><b>Android</b><small>Coming soon</small></span></div>
             <a className="button-secondary" href="/support/">Questions? Visit support</a>
           </section>
         </main>
