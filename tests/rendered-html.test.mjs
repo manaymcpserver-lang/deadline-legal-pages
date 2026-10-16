@@ -44,6 +44,7 @@ function visibleText(html) {
 test("static export contains the production landing experience", async () => {
   const html = await readPage("index.html");
   const text = visibleText(html);
+  assert.doesNotMatch(html, /class="mascot-banner"/);
   assert.match(text, /More connected\. Less distracted\./i);
   assert.match(text, /From all over the place\. To one place\./i);
   assert.match(text, /Stay ahead of what’s due\./i);

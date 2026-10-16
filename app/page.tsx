@@ -326,10 +326,6 @@ export default function Home() {
         <main id="main-content">
           <section className="hero section-shell" aria-labelledby="hero-title">
             <div className="hero-copy" data-reveal>
-              <div className="mascot-banner">
-                <img src="/assets/mascots/peek.png" alt="" width="96" height="96" />
-                <p>From all over the place.<br /><strong>To one place.</strong></p>
-              </div>
               <h1 id="hero-title">More connected.<strong>Less distracted.</strong></h1>
               <p className="hero-support">Stay ahead of what’s due.</p>
               <p className="hero-lede">Your tasks, deadlines, and plans—together. Nonlate connects the tools you already use and steps in when a chosen distraction gets ahead of unfinished work.</p>
