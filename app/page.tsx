@@ -167,7 +167,6 @@ export default function Home() {
   const [interceptOpen, setInterceptOpen] = useState(false);
   const [breakLeft, setBreakLeft] = useState(getSavedBreakSeconds);
   const [scrollProgress, setScrollProgress] = useState(0);
-  const [motionPaused, setMotionPaused] = useState(false);
   const mainShellRef = useRef<HTMLDivElement>(null);
   const lastFocusedRef = useRef<HTMLElement | null>(null);
 
@@ -308,7 +307,7 @@ export default function Home() {
   return (
     <>
       <div className="scroll-meter" aria-hidden="true"><span style={{ width: `${scrollProgress}%` }} /></div>
-      <div id="site-shell" ref={mainShellRef} className={motionPaused ? "motion-paused" : undefined}>
+      <div id="site-shell" ref={mainShellRef}>
         <a className="skip-link" href="#main-content">Skip to content</a>
         <SiteHeader />
         <main id="main-content">
@@ -352,7 +351,6 @@ export default function Home() {
 
           <div className="launch-strip section-shell">
             <p>Made for your real day.<span> School. Work. Everything in between.</span></p>
-            <button className="motion-toggle" type="button" aria-pressed={motionPaused} onClick={() => setMotionPaused((paused) => !paused)} disabled={reducedMotion}>{reducedMotion ? "Reduced motion enabled" : motionPaused ? "Resume animations" : "Pause animations"}</button>
           </div>
 
           <section className="moment section-shell" id="moment" aria-labelledby="moment-title">
@@ -371,7 +369,6 @@ export default function Home() {
                 poster="/assets/films/outrun-distraction.jpg"
                 title="Meet the little nudge."
                 description="A tiny teammate steps between a wandering phone and the next scroll."
-                motionPaused={motionPaused}
                 reducedMotion={reducedMotion}
               />
               <p className="film-side-note"><span aria-hidden="true">✦</span> A little character.<br /><strong>A clearer boundary.</strong></p>
@@ -444,7 +441,6 @@ export default function Home() {
                 poster="/assets/films/deadline-in-the-wild.jpg"
                 title="Catch it before “later.”"
                 description="Our little deadline hunter catches a task before it disappears into Later. Your work stays yours to complete."
-                motionPaused={motionPaused}
                 reducedMotion={reducedMotion}
               />
             </div>

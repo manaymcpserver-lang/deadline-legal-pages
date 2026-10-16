@@ -228,15 +228,13 @@ test("mascot films remain optional, quiet, and lightweight before interaction", 
   }
 });
 
-test("mascot playback respects visibility, reduced motion, and explicit controls", async () => {
+test("mascot playback loops without on-page controls and respects device preferences", async () => {
   const component = await readFile(new URL("app/components/MascotVignette.tsx", root), "utf8");
   assert.match(component, /new IntersectionObserver/);
-  assert.match(component, /if \(!inViewRef\.current \|\| document\.hidden \|\| motionPaused \|\| reducedMotion\)\s*\{\s*pause\(\)/,
-    "off-screen, hidden-tab, globally paused and reduced-motion films must stop");
-  assert.match(component, /if \(!manuallyPausedRef\.current && !autoplayBlockedRef\.current && video\.paused\)/,
-    "visible films must resume automatically unless explicitly paused or the browser denied playback");
-  assert.match(component, /manuallyPausedRef\.current = true/);
-  assert.match(component, /manuallyPausedRef\.current = false/);
+  assert.match(component, /if \(!inViewRef\.current \|\| document\.hidden \|\| reducedMotion\)\s*\{\s*pause\(\)/,
+    "off-screen, hidden-tab and reduced-motion films must stop");
+  assert.match(component, /if \(!autoplayBlockedRef\.current && video\.paused\)/,
+    "visible films must resume automatically unless the browser denied playback");
   assert.match(component, /autoplayBlockedRef\.current = true/);
   assert.match(component, /addEventListener\("visibilitychange", syncPlayback\)/);
   assert.match(component, /removeEventListener\("visibilitychange", syncPlayback\)/);
@@ -244,8 +242,12 @@ test("mascot playback respects visibility, reduced motion, and explicit controls
   assert.match(component, /video\.pause\(\)/);
   assert.match(component, /video\.muted = true/);
   assert.match(component, /video\.play\(\)\.catch\(/, "denied playback must be handled");
-  assert.match(component, /onClick=\{togglePlayback\}/);
-  assert.match(component, /aria-controls=\{`\$\{id\}-video`\}/);
+  assert.doesNotMatch(component, /<button\b|togglePlayback|motionPaused/);
+  const html = await readPage("index.html");
+  assert.doesNotMatch(visibleText(html), /(?:Pause|Resume) animations|(?:Pause|Replay|Play) .* animation/);
+  for (const video of html.matchAll(/<video\b[^>]*>/g)) {
+    assert.doesNotMatch(video[0], /\bcontrols(?:\s|=|>)/i);
+  }
   assert.match(component, /aria-describedby=/);
   assert.match(component, /Silent brand animation, not an app recording/);
   assert.doesNotMatch(component, /<video\b[^>]*\bautoPlay(?:\s|=|>)/,

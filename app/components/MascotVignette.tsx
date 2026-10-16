@@ -8,19 +8,17 @@ export type MascotVignetteProps = {
   poster: string;
   title: string;
   description: string;
-  motionPaused: boolean;
   reducedMotion: boolean;
   className?: string;
 };
 
-/** A silent, looping brand story that runs only while visible, with a pause override. */
+/** A silent looping brand story, respecting visibility and device motion preferences. */
 export function MascotVignette({
   id,
   src,
   poster,
   title,
   description,
-  motionPaused,
   reducedMotion,
   className,
 }: MascotVignetteProps) {
@@ -28,11 +26,8 @@ export function MascotVignette({
   const videoRef = useRef<HTMLVideoElement>(null);
   const mountedRef = useRef(false);
   const inViewRef = useRef(false);
-  const manuallyPausedRef = useRef(false);
   const autoplayBlockedRef = useRef(false);
   const playRequestRef = useRef(0);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [hasEnded, setHasEnded] = useState(false);
   const [playFailed, setPlayFailed] = useState(false);
 
   const requestPlay = useCallback(() => {
@@ -44,7 +39,6 @@ export function MascotVignette({
     void video.play().catch(() => {
       if (mountedRef.current && request === playRequestRef.current) {
         autoplayBlockedRef.current = true;
-        setIsPlaying(false);
         setPlayFailed(true);
       }
     });
@@ -69,17 +63,17 @@ export function MascotVignette({
       video.pause();
     };
     const syncPlayback = () => {
-      if (!inViewRef.current || document.hidden || motionPaused || reducedMotion) {
+      if (!inViewRef.current || document.hidden || reducedMotion) {
         pause();
         return;
       }
-      if (!manuallyPausedRef.current && !autoplayBlockedRef.current && video.paused) {
+      if (!autoplayBlockedRef.current && video.paused) {
         requestPlay();
       }
     };
 
     // Observe the media, not the caption: long copy must not prevent a visible film
-    // from reaching the threshold. Without observer support, playback stays manual.
+    // from reaching the threshold. Without observer support, the poster stays visible.
     const media = video.parentElement ?? figure;
     const observer = typeof IntersectionObserver === "undefined"
       ? null
@@ -96,29 +90,7 @@ export function MascotVignette({
       document.removeEventListener("visibilitychange", syncPlayback);
       pause();
     };
-  }, [motionPaused, reducedMotion, requestPlay]);
-
-  const togglePlayback = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    if (!video.paused && !video.ended) {
-      manuallyPausedRef.current = true;
-      playRequestRef.current += 1;
-      video.pause();
-      return;
-    }
-    manuallyPausedRef.current = false;
-    autoplayBlockedRef.current = false;
-    if (video.ended || hasEnded) {
-      video.currentTime = 0;
-      setHasEnded(false);
-    }
-    // An explicit Play action may override a motion preference for this film only.
-    // Off-screen, hidden-document and subsequent global-pause changes still pause it.
-    requestPlay();
-  };
-
-  const action = isPlaying ? "Pause" : hasEnded ? "Replay" : "Play";
+  }, [reducedMotion, requestPlay]);
 
   return (
     <figure
@@ -143,38 +115,15 @@ export function MascotVignette({
           disablePictureInPicture
           aria-label={`${title}: animated brand story`}
           aria-describedby={`${id}-description ${id}-note`}
-          onPlay={() => {
-            setHasEnded(false);
-            setIsPlaying(true);
-          }}
-          onPause={() => setIsPlaying(false)}
-          onEnded={() => {
-            setIsPlaying(false);
-            setHasEnded(true);
-          }}
-          onError={() => {
-            setIsPlaying(false);
-            setPlayFailed(true);
-          }}
+          onError={() => setPlayFailed(true)}
         />
       </div>
       <figcaption className="mascot-vignette-caption">
         <p className="mascot-vignette-eyebrow">A little Nonlate story</p>
         <h3 className="mascot-vignette-title" id={`${id}-title`}>{title}</h3>
         <p className="mascot-vignette-description" id={`${id}-description`}>{description}</p>
-        <div className="mascot-vignette-controls">
-          <button
-            className="mascot-vignette-control"
-            type="button"
-            onClick={togglePlayback}
-            aria-controls={`${id}-video`}
-            aria-label={`${action} ${title} animation`}
-          >
-            <span aria-hidden="true">{isPlaying ? "Ⅱ" : hasEnded ? "↻" : "▶"}</span> {action}
-          </button>
-          <p className="mascot-vignette-note" id={`${id}-note`}>Silent brand animation, not an app recording.</p>
-        </div>
-        <p className="mascot-vignette-error" role="status">{playFailed ? "The animation couldn’t play. You can try Play again; the story above is always available." : ""}</p>
+        <p className="mascot-vignette-note" id={`${id}-note`}>Silent brand animation, not an app recording.</p>
+        <p className="mascot-vignette-error" role="status">{playFailed ? "This browser couldn’t play the animation. Its still image and story remain available." : ""}</p>
       </figcaption>
     </figure>
   );
