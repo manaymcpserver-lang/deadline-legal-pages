@@ -188,6 +188,7 @@ test("mascot films remain optional, quiet, and lightweight before interaction", 
     assert.match(openingTag, /\bpreload="none"/i);
     assert.match(openingTag, /\bmuted(?:\s|=|>)/i);
     assert.match(openingTag, /\bplaysinline(?:\s|=|>)/i);
+    assert.match(openingTag, /\bloop(?:\s|=|>)/i, "both visible films must repeat without a Play action");
     assert.match(openingTag, /\bposter="\/assets\/films\/[^"/]+\.jpg"/i);
     assert.doesNotMatch(openingTag, /\bautoplay(?:\s|=|>)/i,
       "playback must be controlled by visibility and motion preferences, not an autoplay attribute");
@@ -206,12 +207,13 @@ test("mascot films remain optional, quiet, and lightweight before interaction", 
 test("mascot playback respects visibility, reduced motion, and explicit controls", async () => {
   const component = await readFile(new URL("app/components/MascotVignette.tsx", root), "utf8");
   assert.match(component, /new IntersectionObserver/);
-  assert.match(component, /if \(!inViewRef\.current \|\| document\.hidden \|\| motionPaused\)\s*\{\s*pause\(\)/,
-    "off-screen, hidden-tab and globally paused films must stop");
-  assert.match(component, /if \(!reducedMotion && !hasPlayedRef\.current && !autoAttemptedRef\.current\)/,
-    "automatic playback must respect reduced motion and run at most once");
-  assert.match(component, /autoAttemptedRef\.current = true/);
-  assert.match(component, /hasPlayedRef\.current = true/);
+  assert.match(component, /if \(!inViewRef\.current \|\| document\.hidden \|\| motionPaused \|\| reducedMotion\)\s*\{\s*pause\(\)/,
+    "off-screen, hidden-tab, globally paused and reduced-motion films must stop");
+  assert.match(component, /if \(!manuallyPausedRef\.current && !autoplayBlockedRef\.current && video\.paused\)/,
+    "visible films must resume automatically unless explicitly paused or the browser denied playback");
+  assert.match(component, /manuallyPausedRef\.current = true/);
+  assert.match(component, /manuallyPausedRef\.current = false/);
+  assert.match(component, /autoplayBlockedRef\.current = true/);
   assert.match(component, /addEventListener\("visibilitychange", syncPlayback\)/);
   assert.match(component, /removeEventListener\("visibilitychange", syncPlayback\)/);
   assert.match(component, /observer\?\.disconnect\(\)/);
@@ -222,8 +224,8 @@ test("mascot playback respects visibility, reduced motion, and explicit controls
   assert.match(component, /aria-controls=\{`\$\{id\}-video`\}/);
   assert.match(component, /aria-describedby=/);
   assert.match(component, /Silent brand animation, not an app recording/);
-  assert.doesNotMatch(component, /<video\b[^>]*\b(?:autoPlay|loop)(?:\s|=|>)/,
-    "films must not autoplay or loop outside the guarded playback logic");
+  assert.doesNotMatch(component, /<video\b[^>]*\bautoPlay(?:\s|=|>)/,
+    "automatic playback must start through the visibility and motion guards");
 });
 
 test("deployment-critical assets are present in source and output", async () => {

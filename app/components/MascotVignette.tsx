@@ -13,7 +13,7 @@ export type MascotVignetteProps = {
   className?: string;
 };
 
-/** A short, silent brand story: one automatic viewing, with explicit playback controls. */
+/** A silent, looping brand story that runs only while visible, with a pause override. */
 export function MascotVignette({
   id,
   src,
@@ -28,8 +28,8 @@ export function MascotVignette({
   const videoRef = useRef<HTMLVideoElement>(null);
   const mountedRef = useRef(false);
   const inViewRef = useRef(false);
-  const hasPlayedRef = useRef(false);
-  const autoAttemptedRef = useRef(false);
+  const manuallyPausedRef = useRef(false);
+  const autoplayBlockedRef = useRef(false);
   const playRequestRef = useRef(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [hasEnded, setHasEnded] = useState(false);
@@ -43,6 +43,7 @@ export function MascotVignette({
     setPlayFailed(false);
     void video.play().catch(() => {
       if (mountedRef.current && request === playRequestRef.current) {
+        autoplayBlockedRef.current = true;
         setIsPlaying(false);
         setPlayFailed(true);
       }
@@ -68,12 +69,11 @@ export function MascotVignette({
       video.pause();
     };
     const syncPlayback = () => {
-      if (!inViewRef.current || document.hidden || motionPaused) {
+      if (!inViewRef.current || document.hidden || motionPaused || reducedMotion) {
         pause();
         return;
       }
-      if (!reducedMotion && !hasPlayedRef.current && !autoAttemptedRef.current) {
-        autoAttemptedRef.current = true;
+      if (!manuallyPausedRef.current && !autoplayBlockedRef.current && video.paused) {
         requestPlay();
       }
     };
@@ -101,12 +101,14 @@ export function MascotVignette({
   const togglePlayback = () => {
     const video = videoRef.current;
     if (!video) return;
-    autoAttemptedRef.current = true;
     if (!video.paused && !video.ended) {
+      manuallyPausedRef.current = true;
       playRequestRef.current += 1;
       video.pause();
       return;
     }
+    manuallyPausedRef.current = false;
+    autoplayBlockedRef.current = false;
     if (video.ended || hasEnded) {
       video.currentTime = 0;
       setHasEnded(false);
@@ -136,12 +138,12 @@ export function MascotVignette({
           height="960"
           muted
           playsInline
+          loop
           preload="none"
           disablePictureInPicture
           aria-label={`${title}: animated brand story`}
           aria-describedby={`${id}-description ${id}-note`}
           onPlay={() => {
-            hasPlayedRef.current = true;
             setHasEnded(false);
             setIsPlaying(true);
           }}
