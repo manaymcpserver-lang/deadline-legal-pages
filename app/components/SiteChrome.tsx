@@ -41,9 +41,6 @@ export function SiteHeader() {
         </nav>
 
         <div className="nav-actions">
-          <Link className="status-chip" href="/#coming-soon">
-            <span aria-hidden="true" /> Get Nonlate
-          </Link>
           <button
             className="menu-button"
             type="button"
