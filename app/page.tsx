@@ -11,7 +11,7 @@ import {
   playStoreUrl,
   demoPhases,
   faqEntries,
-  featuredIntegrations,
+  previewIntegrations,
   integrationGroups,
   planTiers,
   type Platform,
@@ -340,13 +340,21 @@ export default function Home() {
           <section className="integration-preview section-shell" aria-labelledby="integration-preview-title">
             <div className="integration-preview-heading">
               <h2 id="integration-preview-title">Works with your tools</h2>
-              <a href="#integrations">See all integrations <span aria-hidden="true">→</span></a>
             </div>
-            <ul className="integration-preview-rail" tabIndex={0} aria-label="Featured integrations. Swipe or scroll horizontally to explore.">
-              {featuredIntegrations.map((item) => (
-                <li key={item.name}><SourcePill icon={item.icon} label={item.name} /></li>
-              ))}
-            </ul>
+            <div className="integration-preview-window" tabIndex={0} role="region" aria-label="All integrations. Automatically scrolling; use arrow keys to explore.">
+              <div className="integration-preview-track">
+                <ul className="integration-preview-list" aria-label="Supported integration services">
+                  {previewIntegrations.map((item) => (
+                    <li key={item.name}><SourcePill icon={item.icon} label={item.name} note={item.platformNote} /></li>
+                  ))}
+                </ul>
+                <ul className="integration-preview-list integration-preview-copy" aria-hidden="true">
+                  {previewIntegrations.map((item) => (
+                    <li key={item.name}><SourcePill icon={item.icon} label={item.name} note={item.platformNote} /></li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </section>
 
           <div className="launch-strip section-shell">

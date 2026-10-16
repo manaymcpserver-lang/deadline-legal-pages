@@ -134,13 +134,7 @@ export const integrationGroups: IntegrationGroup[] = [
   },
 ];
 
-const featuredIntegrationNames = new Set([
-  "Canvas", "Google Classroom", "Google Calendar", "Todoist", "Microsoft To Do", "Notion",
-]);
-
-export const featuredIntegrations = integrationGroups
-  .flatMap((group) => group.items)
-  .filter((item) => featuredIntegrationNames.has(item.name));
+export const previewIntegrations = integrationGroups.flatMap((group) => group.items);
 
 export const planTiers: PlanTier[] = [
   {

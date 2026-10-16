@@ -179,28 +179,37 @@ test("client source retains every interaction and accessibility contract", async
     "the real-screen gallery must remain scrollable on narrow devices");
 });
 
-test("featured integrations introduce existing tools before the blocker story", async () => {
+test("the automatic integration banner includes every source before the blocker story", async () => {
   const html = await readPage("index.html");
   const preview = html.match(/<section\b[^>]*aria-labelledby="integration-preview-title"[^>]*>([\s\S]*?)<\/section>/)?.[1];
   assert.ok(preview, "a compact integration strip must follow the hero");
   assert.match(preview, /Works with your tools/);
-  assert.match(preview, /href="#integrations"[^>]*>See all integrations/);
+  assert.doesNotMatch(preview, /See all integrations/);
   assert.match(preview, /tabindex="0"/i);
-  assert.equal([...preview.matchAll(/<li\b/g)].length, 6);
-  for (const name of ["Canvas", "Google Classroom", "Google Calendar", "Todoist", "Microsoft To Do", "Notion"]) {
-    assert.ok(visibleText(preview).includes(name), `missing featured source ${name}`);
+  const lists = [...preview.matchAll(/<ul\b[^>]*>([\s\S]*?)<\/ul>/g)];
+  assert.equal(lists.length, 2, "a matching duplicate must make the banner seamless");
+  assert.match(lists[1][0], /aria-hidden="true"/, "screen readers must not hear the duplicate");
+  assert.equal(lists[0][1], lists[1][1], "the repeated content must match exactly");
+  const fullSection = html.match(/<section\b[^>]*id="integrations"[^>]*>([\s\S]*?)<\/section>/)[1];
+  const expectedNames = [...fullSection.matchAll(/<span class="source-pill">[\s\S]*?<span>([^<]+)<\/span>/g)].map((match) => visibleText(match[1]));
+  assert.equal(expectedNames.length, 25);
+  assert.equal([...lists[0][1].matchAll(/<li\b/g)].length, expectedNames.length);
+  for (const name of expectedNames) {
+    assert.ok(visibleText(lists[0][1]).includes(name), `missing banner source ${name}`);
   }
   assert.ok(html.indexOf('id="hero-title"') < html.indexOf('id="integration-preview-title"'));
   assert.ok(html.indexOf('id="integration-preview-title"') < html.indexOf('id="moment"'));
   assert.ok(html.indexOf('id="moment"') < html.indexOf('id="integrations"'));
   const css = await readFile(new URL("app/globals.css", root), "utf8");
-  assert.match(css, /\.integration-preview-rail\s*\{[^}]*overflow-x:\s*auto/);
-  assert.match(css, /\.integration-preview-rail li\s*\{[^}]*flex:\s*0 0 auto/);
+  assert.match(css, /\.integration-preview-window\s*\{[^}]*overflow-x:\s*auto/);
+  assert.match(css, /\.integration-preview-track\s*\{[^}]*animation:\s*integration-scroll 90s linear infinite/);
+  assert.match(css, /translate3d\(-50%, 0, 0\)/);
+  assert.match(css, /\.integration-preview-track\s*\{ animation: none; transform: none;/);
   const stylesheets = [...new Set([...html.matchAll(/<link\b[^>]*href="([^\"]+\.css)"[^>]*>/g)].map((match) => match[1]))];
   assert.ok(stylesheets.length > 0, "the exported page must link its stylesheet");
   const exportedCss = (await Promise.all(stylesheets.map((pathname) => readFile(new URL(pathname.replace(/^\//, ""), out), "utf8")))).join("\n");
-  assert.match(exportedCss, /\.integration-preview-rail\s*\{[^}]*display:\s*flex/,
-    "the production stylesheet, not only source CSS, must include the horizontal strip");
+  assert.match(exportedCss, /\.integration-preview-track\s*\{[^}]*animation:\s*[^;]*integration-scroll/,
+    "the production stylesheet, not only source CSS, must include the automatic banner");
 });
 
 test("mascot films remain optional, quiet, and lightweight before interaction", async () => {
