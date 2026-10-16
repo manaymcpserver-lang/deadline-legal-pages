@@ -7,6 +7,14 @@ const out = new URL("../out/", import.meta.url);
 
 const readPage = (pathname) => readFile(new URL(pathname, out), "utf8");
 
+test("responsive refinements reserve room for tablet previews and the rotating FAQ icon", async () => {
+  const css = await readFile(new URL("app/globals.css", root), "utf8");
+  const tablet = css.slice(css.indexOf("@media (max-width: 900px)"), css.indexOf("@media (max-width: 700px)"));
+  assert.match(tablet, /\.bento-tasks, \.bento-planner \{ grid-column: span 6;/);
+  assert.match(tablet, /\.bento-protect \{ grid-column: span 12;/);
+  assert.match(css, /\.faq-list summary span \{ flex: 0 0 24px; width: 24px; height: 24px; margin-inline: 6px;/);
+});
+
 test("official store badges are available in both download areas", async () => {
   const html = await readPage("index.html");
   for (const [file, label] of [["app-store.svg", "Download on the App Store"], ["google-play.svg", "Get it on Google Play"]]) {
