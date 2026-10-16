@@ -179,6 +179,30 @@ test("client source retains every interaction and accessibility contract", async
     "the real-screen gallery must remain scrollable on narrow devices");
 });
 
+test("featured integrations introduce existing tools before the blocker story", async () => {
+  const html = await readPage("index.html");
+  const preview = html.match(/<section\b[^>]*aria-labelledby="integration-preview-title"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(preview, "a compact integration strip must follow the hero");
+  assert.match(preview, /Works with your tools/);
+  assert.match(preview, /href="#integrations"[^>]*>See all integrations/);
+  assert.match(preview, /tabindex="0"/i);
+  assert.equal([...preview.matchAll(/<li\b/g)].length, 6);
+  for (const name of ["Canvas", "Google Classroom", "Google Calendar", "Todoist", "Microsoft To Do", "Notion"]) {
+    assert.ok(visibleText(preview).includes(name), `missing featured source ${name}`);
+  }
+  assert.ok(html.indexOf('id="hero-title"') < html.indexOf('id="integration-preview-title"'));
+  assert.ok(html.indexOf('id="integration-preview-title"') < html.indexOf('id="moment"'));
+  assert.ok(html.indexOf('id="moment"') < html.indexOf('id="integrations"'));
+  const css = await readFile(new URL("app/globals.css", root), "utf8");
+  assert.match(css, /\.integration-preview-rail\s*\{[^}]*overflow-x:\s*auto/);
+  assert.match(css, /\.integration-preview-rail li\s*\{[^}]*flex:\s*0 0 auto/);
+  const stylesheets = [...new Set([...html.matchAll(/<link\b[^>]*href="([^\"]+\.css)"[^>]*>/g)].map((match) => match[1]))];
+  assert.ok(stylesheets.length > 0, "the exported page must link its stylesheet");
+  const exportedCss = (await Promise.all(stylesheets.map((pathname) => readFile(new URL(pathname.replace(/^\//, ""), out), "utf8")))).join("\n");
+  assert.match(exportedCss, /\.integration-preview-rail\s*\{[^}]*display:\s*flex/,
+    "the production stylesheet, not only source CSS, must include the horizontal strip");
+});
+
 test("mascot films remain optional, quiet, and lightweight before interaction", async () => {
   const html = await readPage("index.html");
   const videos = [...html.matchAll(/<video\b[^>]*>[\s\S]*?<\/video>/gi)].map(match => match[0]);

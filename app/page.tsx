@@ -11,6 +11,7 @@ import {
   playStoreUrl,
   demoPhases,
   faqEntries,
+  featuredIntegrations,
   integrationGroups,
   planTiers,
   type Platform,
@@ -335,6 +336,18 @@ export default function Home() {
             <div className="hero-demo" data-reveal>
               <DualPhoneDemo />
             </div>
+          </section>
+
+          <section className="integration-preview section-shell" aria-labelledby="integration-preview-title">
+            <div className="integration-preview-heading">
+              <h2 id="integration-preview-title">Works with your tools</h2>
+              <a href="#integrations">See all integrations <span aria-hidden="true">→</span></a>
+            </div>
+            <ul className="integration-preview-rail" tabIndex={0} aria-label="Featured integrations. Swipe or scroll horizontally to explore.">
+              {featuredIntegrations.map((item) => (
+                <li key={item.name}><SourcePill icon={item.icon} label={item.name} /></li>
+              ))}
+            </ul>
           </section>
 
           <div className="launch-strip section-shell">
