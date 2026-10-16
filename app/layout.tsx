@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Nonlate",
   },
   description:
-    "Nonlate is a deadline-aware app blocker for iOS and Android that combines manual and synced tasks, planning, schedules, alarms, and distraction blocking.",
+    "Nonlate brings tasks, calendars, and supported connected sources into one plan, then blocks selected distractions when work is due. Built for iOS and Android.",
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
   manifest: "/site.webmanifest",
@@ -33,15 +33,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Nonlate",
-    title: "Nonlate App | Know what’s due before you scroll.",
-    description: "A deadline-aware app blocker for iOS and Android that puts real due work before selected distractions.",
+    title: "Nonlate | More connected. Less distracted.",
+    description: "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.",
     url: "/",
     images: [{ url: "/og.png", width: 1536, height: 1024, alt: "Nonlate deadline blockers on iOS and Android" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nonlate App | Know what’s due before you scroll.",
-    description: "A deadline-aware app blocker for iOS and Android that puts real due work before selected distractions.",
+    title: "Nonlate | More connected. Less distracted.",
+    description: "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.",
     images: ["/og.png"],
   },
 };

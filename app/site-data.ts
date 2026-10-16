@@ -41,7 +41,8 @@ export type FaqEntry = {
   answer: string;
 };
 
-export const appStoreUrl = "https://apps.apple.com/mz/app/nonlate-tasks-focus/id6759996284";
+export const appStoreUrl = "https://apps.apple.com/app/id6759996284";
+export const playStoreUrl = "https://play.google.com/store/apps/details?id=com.nonlate.app";
 
 export const demoPhases: DemoPhase[] = [
   {
@@ -154,10 +155,11 @@ export const planTiers: PlanTier[] = [
     annualPrice: "$59.99 / year",
     highlighted: true,
     features: [
+      "7-day free trial on monthly or yearly, if eligible",
       "Up to 3 connected sources",
       "Hourly background sync when available",
       "Unlimited app blocking plus supported websites and categories",
-      "Widgets, themes, and extended insights",
+      "Widgets, themes, app icons, and extended insights",
       "Custom intercept messages",
     ],
   },
@@ -177,6 +179,11 @@ export const planTiers: PlanTier[] = [
 ];
 
 export const faqEntries: FaqEntry[] = [
+  {
+    question: "What is Nonlate?",
+    answer:
+      "Nonlate is a deadline-aware task planner and app blocker for iOS and Android. It brings manual tasks and deadlines from supported school, work, and task services into one plan, with calendars alongside them. When a selected distracting app opens while work is due, Nonlate puts those tasks first. You choose the protected apps, due window, and available break settings.",
+  },
   {
     question: "What happens when I open a blocked app?",
     answer:
@@ -203,9 +210,14 @@ export const faqEntries: FaqEntry[] = [
       "No. Both platforms check due work before selected distractions, but the operating systems allow different presentations. iOS uses Apple Screen Time shields. Android uses Accessibility only to detect when a selected app opens and can show a fuller blocker with task details.",
   },
   {
-    question: "When can I download it?",
+    question: "Where can I download Nonlate?",
     answer:
-      "Nonlate is available on the Mozambique App Store. Android is coming soon; closed-test access is not the same as public availability. Store availability may vary by country. The download link opens the verified Mozambique listing.",
+      "Download Nonlate from the Apple App Store for iPhone or Google Play for Android. Public listings are available in the United States and Mozambique; availability and compatible devices may vary by country. The store listing shows the version currently available to you.",
+  },
+  {
+    question: "How do the 30-day source preview and 7-day Plus trial differ?",
+    answer:
+      "The 30-day source preview lets Free users connect one external source at a time without starting a paid subscription or an automatic charge. Separately, eligible customers can start a 7-day free trial of Plus Monthly or Plus Yearly through their app store. That subscription trial unlocks Plus features and automatically renews at the displayed monthly or yearly price unless cancelled before the trial ends. Eligibility, local pricing, and the renewal date are shown by the store before confirmation. The Plus offer does not add a Pro trial or restart the source-preview window.",
   },
   {
     question: "What stays free after the source trial?",

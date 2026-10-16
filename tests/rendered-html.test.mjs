@@ -7,34 +7,41 @@ const out = new URL("../out/", import.meta.url);
 
 const readPage = (pathname) => readFile(new URL(pathname, out), "utf8");
 
+function visibleText(html) {
+  const entities = { amp: "&", apos: "'", gt: ">", lt: "<", nbsp: " ", quot: '"', rsquo: "’" };
+  return html.replace(/<script\b[\s\S]*?<\/script>|<style\b[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&(#x[\da-f]+|#\d+|[a-z]+);/gi, (entity, code) => {
+      const lower = code.toLowerCase();
+      if (lower.startsWith("#x")) return String.fromCodePoint(Number.parseInt(lower.slice(2), 16));
+      if (lower.startsWith("#")) return String.fromCodePoint(Number.parseInt(lower.slice(1), 10));
+      return entities[lower] ?? entity;
+    }).replace(/\s+/g, " ").trim();
+}
+
 test("static export contains the production landing experience", async () => {
   const html = await readPage("index.html");
-  assert.match(html, /Know what’s due before you scroll\./i);
-  assert.match(html, /Replay the intercept demo/i);
+  const text = visibleText(html);
+  assert.match(text, /More connected\. Less distracted\./i);
+  assert.match(text, /From all over the place\. To one place\./i);
+  assert.match(text, /Stay ahead of what’s due\./i);
+  assert.match(text, /Try the blocker demo/i);
   assert.match(html, /Actual Nonlate iOS blocker screen/i);
   assert.match(html, /Actual Nonlate Android blocker screen/i);
   assert.match(html, /Work is due/i);
   assert.match(html, /You open a distraction/i);
   assert.match(html, /Nonlate checks/i);
   assert.match(html, /Blocker appears/i);
-  assert.match(html, /The blocker is the product/i);
-  assert.match(html, /02 · PLANNER/i);
-  assert.match(html, /03 · SCHEDULE/i);
-  assert.match(html, /Tasks you add manually and tasks synced from integrations/i);
-  assert.match(html, /Pick a day, add due tasks to that day’s plan/i);
-  assert.match(html, /Schedule places work from Planner alongside due tasks, calendar events, classes, and shifts/i);
-  assert.match(html, /04 · APP PROTECTION/i);
-  assert.match(html, /Choose which distracting apps Nonlate can interrupt/i);
-  assert.match(html, /05 · CAN’T MISS ALARM/i);
-  assert.match(html, /Attach an alarm to a task or scheduled item and choose the time/i);
-  assert.match(html, /06 · AT A GLANCE/i);
+  assert.match(text, /Add your own tasks or connect your existing tools/i);
+  assert.match(text, /Choose a day in Planner/i);
+  assert.match(text, /planned work, deadlines, events, classes, and shifts together in Schedule/i);
+  assert.match(text, /Your chosen distractions can wait/i);
+  assert.match(text, /Can’t Miss Alarms use the strongest alarm presentation supported by your device/i);
+  assert.match(text, /Widgets and supported iPhone Live Activities/i);
   const productCardOrder = [
-    "01 · DUE WORK",
-    "02 · PLANNER",
-    "03 · SCHEDULE",
-    "04 · APP PROTECTION",
-    "05 · CAN’T MISS ALARM",
-    "06 · AT A GLANCE",
+    "01 · CONNECT",
+    "02 · PLAN",
+    "03 · FOCUS",
   ].map((label) => html.indexOf(label));
   assert.ok(productCardOrder.every((position) => position >= 0), "every product card must be present");
   assert.deepEqual(productCardOrder, [...productCardOrder].sort((a, b) => a - b), "product cards must follow the app flow");
@@ -45,15 +52,13 @@ test("static export contains the production landing experience", async () => {
     assert.match(html, new RegExp(appName, "i"));
   }
   assert.match(html, /Focus Lock/i);
-  assert.match(html, /Stronger break control/i);
-  assert.match(html, /Tasks · every source/i);
+  assert.match(text, /Only unfinished due tasks trigger blocking/i);
+  assert.match(text, /not calendar events/i);
   assert.match(html, /Nonlate App \| Deadline-Aware App Blocker/i);
   assert.match(html, /name="robots" content="index, follow"/i);
   assert.match(html, /"alternateName":"Nonlate App"/i);
   const realScreenOrder = [
     "Home · due tasks",
-    "Tasks · every source",
-    "Blocker · work due",
     "Planner · choose a day",
     "Schedule · timed day",
     "Insights · Focus Pulse",
@@ -63,8 +68,9 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /12 built-in themes/i);
   assert.match(html, /\+8 more themes/i);
   assert.match(html, /Custom colors too/i);
-  assert.match(html, /iOS available in Mozambique/i);
-  assert.match(html, /Android coming soon/i);
+  assert.match(text, /Download for iOS/i);
+  assert.match(text, /Get it on Android/i);
+  assert.match(text, /availability and compatible devices may vary by country/i);
   assert.match(html, /"@type":"FAQPage"/i);
   assert.doesNotMatch(html, /TODAY’S REMINDER|Reminder only|Pause blocking|View the plan|Return with intention|planning, reminders, and app protection/i);
 });
@@ -95,30 +101,51 @@ test("privacy export contains the current production disclosures", async () => {
 
 test("plans and FAQ disclose the current ad-free source trial and localized purchase terms", async () => {
   const html = await readPage("index.html");
-  for (const text of ["$5.99 / month", "$59.99 / year", "$11.99 / month", "$99.99 / year", "billed annually", "USD reference prices", "current localized price", "30 days", "no automatic charge", "external syncing pauses", "local completion and blocking", "No Nonlate account is required"]) {
+  for (const text of ["$5.99 / month", "$59.99 / year", "$11.99 / month", "$99.99 / year", "billed annually", "USD reference prices", "full localized renewal price", "30 days", "no automatic charge", "external syncing pauses", "local completion and blocking", "No Nonlate account is required", "Plus free for 7 days on Monthly or Yearly", "renews automatically unless cancelled", "does not add a Pro trial or restart the source-preview window"]) {
     assert.ok(html.includes(text), `missing current product term: ${text}`);
   }
-  assert.doesNotMatch(html, /Ads for eligible users|exact store pricing appears at launch|Coming soon to iOS and Android/);
-  assert.match(html, /href="https:\/\/apps\.apple\.com\/mz\/app\/nonlate-tasks-focus\/id6759996284"/);
-  assert.doesNotMatch(html, /href="https:\/\/play\.google\.com\/store/, "do not advertise unverified Android public availability");
+  assert.doesNotMatch(html, /Ads for eligible users|exact store pricing appears at launch|Coming soon to iOS and Android|Android coming soon|iOS available in Mozambique/);
+  assert.match(html, /href="https:\/\/apps\.apple\.com\/app\/id6759996284"/);
+  assert.match(html, /href="https:\/\/play\.google\.com\/store\/apps\/details\?id=com\.nonlate\.app"/);
   const data = JSON.parse(html.match(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/)[1]);
-  assert.equal(data["@graph"].find(item => item["@type"] === "FAQPage").mainEntity.length, 8);
+  const faq = data["@graph"].find(item => item["@type"] === "FAQPage").mainEntity;
+  const visibleFaq = [...html.matchAll(/<details\b[^>]*>\s*<summary\b[^>]*>([\s\S]*?)<\/summary>\s*<p>([\s\S]*?)<\/p>\s*<\/details>/gi)]
+    .map(([, question, answer]) => ({
+      question: visibleText(question.replace(/<span\b[^>]*>[\s\S]*?<\/span>/gi, "")),
+      answer: visibleText(answer),
+    }));
+  assert.equal(visibleFaq.length, 10, "all ten product questions must remain visible");
+  assert.deepEqual(faq.map(item => ({ question: item.name, answer: item.acceptedAnswer.text })), visibleFaq,
+    "structured FAQ questions and answers must exactly match the visible FAQ");
 });
 
 test("client source retains every interaction and accessibility contract", async () => {
-  const [page, css, siteData] = await Promise.all([
+  const [page, css] = await Promise.all([
     readFile(new URL("app/page.tsx", root), "utf8"),
     readFile(new URL("app/globals.css", root), "utf8"),
-    readFile(new URL("app/site-data.ts", root), "utf8"),
   ]);
 
   assert.match(page, /sessionStorage/);
-  assert.match(page, /nonlate-intercept-seen-v1/);
-  assert.match(page, /window\.innerHeight \* 2\.4/);
+  assert.doesNotMatch(page, /nonlate-intercept-seen-v1|window\.innerHeight \* 2\.4/,
+    "scrolling must not automatically open the intercept dialog");
+  assert.match(page, /onClick=\{openIntercept\}/, "the demo must require an explicit button action");
+  assert.match(page, /const openIntercept = useCallback\([\s\S]*?setInterceptOpen\(true\)/);
+  assert.equal([...page.matchAll(/setInterceptOpen\(true\)/g)].length, 1,
+    "only the explicit demo handler may open the dialog");
+  assert.doesNotMatch(page, /\bopenIntercept\s*\(/, "effects must not invoke the demo handler automatically");
   assert.match(page, /prefers-reduced-motion/);
+  assert.match(page, /const getServerMotionPreference = \(\) => true/,
+    "static rendering must keep films still until the browser motion preference is known");
+  assert.match(page, /useSyncExternalStore\(\s*subscribeMotionPreference,\s*getMotionPreference,\s*getServerMotionPreference/,
+    "the first client render must agree with the server motion snapshot");
   assert.match(page, /role="dialog"/);
   assert.match(page, /aria-modal="true"/);
   assert.match(page, /event\.key === "Escape"/);
+  assert.match(page, /event\.key !== "Tab"/);
+  assert.match(page, /document\.activeElement === first/);
+  assert.match(page, /document\.activeElement === last/);
+  assert.match(page, /last\.focus\(\)/);
+  assert.match(page, /first\.focus\(\)/);
   assert.match(page, /root\.inert = interceptOpen/);
   assert.match(page, /lastFocusedRef\.current\?\.focus\(\{ preventScroll: true \}\)/);
   assert.match(page, /View tasks/);
@@ -127,7 +154,6 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(page, /Website demo: these sample tasks are not real/i);
   assert.match(page, /View tasks” closes this website demo without moving the page\.<\/p>/i);
   assert.doesNotMatch(page, /Press Esc to dismiss or replay it anytime/i);
-  assert.doesNotMatch(`${page}\n${siteData}`, /—/, "homepage marketing copy should not contain em dashes");
   assert.doesNotMatch(page, /scrollIntoView|querySelector\("#tasks"\)/);
   assert.match(page, /10 \* 60 \* 1000/);
   assert.match(page, /\$\{platform\}-blocker\.png/);
@@ -141,12 +167,63 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(css, /\.focus-lock-card > div p:first-child[^}]*var\(--font-jetbrains\)/);
   assert.doesNotMatch(css, /\.focus-lock-card > div p\s*\{/);
   assert.match(css, /\.reveal-ready \[data-reveal\]/);
-  assert.match(css, /height:\s*clamp\(400px, 110vw, 670px\)/);
+  assert.match(css, /\.dual-phone-stage\s*\{[^}]*height:\s*clamp\(/,
+    "both platform captures need a responsive stage");
+  assert.match(css, /\.capture-frame img\s*\{[^}]*height:\s*auto/,
+    "real blocker captures must preserve their image proportions");
   assert.match(css, /\.dialog-actions\s*\{[^}]*grid-template-columns:\s*\.82fr 1\.18fr/);
   assert.match(css, /\.dialog-actions \.button-secondary\s*\{[^}]*white-space:\s*nowrap/);
   assert.match(css, /\.dialog-tasks > \.mini-task \+ \.mini-task\s*\{[^}]*margin-top:\s*0/);
   assert.match(css, /max-height:\s*calc\(100dvh - 16px\)/);
-  assert.match(css, /padding-block:\s*72px 0/);
+  assert.match(css, /\.screen-rail\s*\{[^}]*overflow-x:\s*auto/,
+    "the real-screen gallery must remain scrollable on narrow devices");
+});
+
+test("mascot films remain optional, quiet, and lightweight before interaction", async () => {
+  const html = await readPage("index.html");
+  const videos = [...html.matchAll(/<video\b[^>]*>[\s\S]*?<\/video>/gi)].map(match => match[0]);
+  assert.equal(videos.length, 2, "both selected mascot vignettes must render");
+  for (const video of videos) {
+    const openingTag = video.match(/^<video\b[^>]*>/i)[0];
+    assert.match(openingTag, /\bpreload="none"/i);
+    assert.match(openingTag, /\bmuted(?:\s|=|>)/i);
+    assert.match(openingTag, /\bplaysinline(?:\s|=|>)/i);
+    assert.match(openingTag, /\bposter="\/assets\/films\/[^"/]+\.jpg"/i);
+    assert.doesNotMatch(openingTag, /\bautoplay(?:\s|=|>)/i,
+      "playback must be controlled by visibility and motion preferences, not an autoplay attribute");
+  }
+  for (const name of ["outrun-distraction", "deadline-in-the-wild"]) {
+    assert.ok(videos.some(video => video.includes(`/assets/films/${name}.jpg`)), `missing ${name} poster`);
+    assert.ok(videos.some(video => video.includes(`/assets/films/${name}.mp4`)), `missing ${name} source`);
+    for (const extension of ["mp4", "jpg"]) {
+      const pathname = `assets/films/${name}.${extension}`;
+      await access(new URL(`public/${pathname}`, root));
+      await access(new URL(pathname, out));
+    }
+  }
+});
+
+test("mascot playback respects visibility, reduced motion, and explicit controls", async () => {
+  const component = await readFile(new URL("app/components/MascotVignette.tsx", root), "utf8");
+  assert.match(component, /new IntersectionObserver/);
+  assert.match(component, /if \(!inViewRef\.current \|\| document\.hidden \|\| motionPaused\)\s*\{\s*pause\(\)/,
+    "off-screen, hidden-tab and globally paused films must stop");
+  assert.match(component, /if \(!reducedMotion && !hasPlayedRef\.current && !autoAttemptedRef\.current\)/,
+    "automatic playback must respect reduced motion and run at most once");
+  assert.match(component, /autoAttemptedRef\.current = true/);
+  assert.match(component, /hasPlayedRef\.current = true/);
+  assert.match(component, /addEventListener\("visibilitychange", syncPlayback\)/);
+  assert.match(component, /removeEventListener\("visibilitychange", syncPlayback\)/);
+  assert.match(component, /observer\?\.disconnect\(\)/);
+  assert.match(component, /video\.pause\(\)/);
+  assert.match(component, /video\.muted = true/);
+  assert.match(component, /video\.play\(\)\.catch\(/, "denied playback must be handled");
+  assert.match(component, /onClick=\{togglePlayback\}/);
+  assert.match(component, /aria-controls=\{`\$\{id\}-video`\}/);
+  assert.match(component, /aria-describedby=/);
+  assert.match(component, /Silent brand animation, not an app recording/);
+  assert.doesNotMatch(component, /<video\b[^>]*\b(?:autoPlay|loop)(?:\s|=|>)/,
+    "films must not autoplay or loop outside the guarded playback logic");
 });
 
 test("deployment-critical assets are present in source and output", async () => {

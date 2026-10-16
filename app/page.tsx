@@ -2,12 +2,13 @@
 
 /* eslint-disable @next/next/no-img-element -- local product art is pre-sized and the gallery is lazy-loaded */
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import type { MouseEvent as ReactMouseEvent } from "react";
 import { SiteFooter, SiteHeader } from "./components/SiteChrome";
+import { MascotVignette } from "./components/MascotVignette";
 import {
   appStoreUrl,
-  blockingBehavior,
+  playStoreUrl,
   demoPhases,
   faqEntries,
   integrationGroups,
@@ -23,8 +24,6 @@ const demoTasks = [
 
 const screenGallery = [
   { src: "/assets/screens/ios-home.png", alt: "Nonlate iOS Home showing overdue and upcoming tasks from connected sources", platform: "iOS", label: "Home · due tasks" },
-  { src: "/assets/screens/ios-tasks.png", alt: "Nonlate iOS task list showing Canvas, Notion, Slack, and Google Tasks work with different dates and times", platform: "iOS", label: "Tasks · every source" },
-  { src: "/assets/screens/android-blocker.png", alt: "Nonlate Android blocker showing the overdue and upcoming work that triggered it", platform: "Android", label: "Blocker · work due" },
   { src: "/assets/screens/ios-planner.png", alt: "Nonlate iOS Planner assigning upcoming tasks to a chosen day", platform: "iOS", label: "Planner · choose a day" },
   { src: "/assets/screens/android-schedule.png", alt: "Nonlate Android Schedule arranging planned work, tasks, events, classes, and shifts by time", platform: "Android", label: "Schedule · timed day" },
   { src: "/assets/screens/android-insights.png", alt: "Nonlate Android Insights showing Focus Pulse, streaks, focus rhythm, and recovery", platform: "Android", label: "Insights · Focus Pulse" },
@@ -67,7 +66,7 @@ function BlockerCapture({ platform }: { platform: Platform }) {
           fetchPriority="high"
         />
       </div>
-      <figcaption>Actual current {isIOS ? "iOS" : "Android"} blocker capture</figcaption>
+      <figcaption>{isIOS ? "iOS" : "Android"} blocker example</figcaption>
     </figure>
   );
 }
@@ -76,7 +75,7 @@ function DualPhoneDemo() {
   return (
     <div className="dual-phone-stage">
       <div className="stage-halo" aria-hidden="true" />
-      <div className="floating-chip chip-sync"><img src="/assets/integrations/google_calendar.png" alt="" /> synced <b>now</b></div>
+      <div className="floating-chip chip-sync"><img src="/assets/integrations/google_calendar.png" alt="" /> your tools, <b>together</b></div>
       <div className="floating-chip chip-overdue"><img src="/assets/integrations/canvas.png" alt="" /> <b>1 overdue</b></div>
       <BlockerCapture platform="ios" />
       <BlockerCapture platform="android" />
@@ -144,25 +143,32 @@ function getSavedBreakSeconds() {
   return saved > Date.now() ? Math.ceil((saved - Date.now()) / 1000) : 0;
 }
 
+function subscribeMotionPreference(onChange: () => void) {
+  const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+  media.addEventListener("change", onChange);
+  return () => media.removeEventListener("change", onChange);
+}
+
+function getMotionPreference() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+// The static page and its first client render agree. Films stay still until the
+// browser preference is known, including when opening a film section directly.
+const getServerMotionPreference = () => true;
+
 export default function Home() {
-  const [reducedMotion, setReducedMotion] = useState(
-    () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+  const reducedMotion = useSyncExternalStore(
+    subscribeMotionPreference,
+    getMotionPreference,
+    getServerMotionPreference,
   );
   const [interceptOpen, setInterceptOpen] = useState(false);
   const [breakLeft, setBreakLeft] = useState(getSavedBreakSeconds);
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [motionPaused, setMotionPaused] = useState(false);
   const mainShellRef = useRef<HTMLDivElement>(null);
   const lastFocusedRef = useRef<HTMLElement | null>(null);
-
-  useEffect(() => {
-    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const update = () => {
-      setReducedMotion(media.matches);
-    };
-    update();
-    media.addEventListener("change", update);
-    return () => media.removeEventListener("change", update);
-  }, []);
 
   useEffect(() => {
     let queued = false;
@@ -172,19 +178,13 @@ export default function Home() {
       window.requestAnimationFrame(() => {
         const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
         setScrollProgress(Math.min(100, Math.round((window.scrollY / max) * 100)));
-        const seen = window.sessionStorage.getItem("nonlate-intercept-seen-v1");
-        if (!seen && !reducedMotion && window.scrollY > window.innerHeight * 2.4) {
-          window.sessionStorage.setItem("nonlate-intercept-seen-v1", "1");
-          lastFocusedRef.current = document.activeElement as HTMLElement | null;
-          setInterceptOpen(true);
-        }
         queued = false;
       });
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [reducedMotion]);
+  }, []);
 
   useEffect(() => {
     const timer = window.setInterval(() => {
@@ -232,7 +232,6 @@ export default function Home() {
   }, [reducedMotion]);
 
   const openIntercept = useCallback((event?: ReactMouseEvent<HTMLButtonElement>) => {
-    window.sessionStorage.setItem("nonlate-intercept-seen-v1", "1");
     lastFocusedRef.current = event?.currentTarget ?? (document.activeElement as HTMLElement | null);
     setInterceptOpen(true);
   }, []);
@@ -251,23 +250,51 @@ export default function Home() {
     setBreakLeft(0);
   }, []);
 
-  const marqueeSources = useMemo(() => integrationGroups.flatMap((group) => group.items).slice(0, 12), []);
-
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://nonlate.app/#organization",
+        name: "Nonlate",
+        url: "https://nonlate.app/",
+        logo: "https://nonlate.app/assets/brand/icon-512.png",
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nonlate.app/#website",
+        name: "Nonlate",
+        url: "https://nonlate.app/",
+        publisher: { "@id": "https://nonlate.app/#organization" },
+        about: { "@id": "https://nonlate.app/#software" },
+      },
+      {
         "@type": "SoftwareApplication",
+        "@id": "https://nonlate.app/#software",
         name: "Nonlate",
         alternateName: "Nonlate App",
         url: "https://nonlate.app/",
-        applicationCategory: "ProductivityApplication",
-        operatingSystem: "iOS, Android",
+        applicationCategory: "UtilitiesApplication",
+        operatingSystem: ["iOS", "Android"],
         description: "Nonlate combines manual and synced deadlines, helps you plan and schedule them, and blocks selected distractions when work is due.",
-        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        publisher: { "@id": "https://nonlate.app/#organization" },
+        image: "https://nonlate.app/assets/brand/icon-512.png",
+        downloadUrl: [appStoreUrl, playStoreUrl],
+        installUrl: [appStoreUrl, playStoreUrl],
+        screenshot: screenGallery.map((screen) => `https://nonlate.app${screen.src}`),
+        featureList: [
+          "Manual tasks and connected-source deadlines",
+          "Deadline-aware blocking of selected distractions",
+          "Daily Planner and timed Schedule",
+          "Widgets and supported iOS Live Activities",
+          "Custom intercept messages and Daily Wisdom",
+          "Themes and Focus Pulse insights",
+        ],
+        offers: { "@type": "Offer", name: "Free download with optional Plus and Pro subscriptions", price: "0", priceCurrency: "USD", url: "https://nonlate.app/#plans" },
       },
       {
         "@type": "FAQPage",
+        "@id": "https://nonlate.app/#faq",
         mainEntity: faqEntries.map((entry) => ({
           "@type": "Question",
           name: entry.question,
@@ -280,23 +307,28 @@ export default function Home() {
   return (
     <>
       <div className="scroll-meter" aria-hidden="true"><span style={{ width: `${scrollProgress}%` }} /></div>
-      <div id="site-shell" ref={mainShellRef}>
+      <div id="site-shell" ref={mainShellRef} className={motionPaused ? "motion-paused" : undefined}>
         <a className="skip-link" href="#main-content">Skip to content</a>
         <SiteHeader />
         <main id="main-content">
           <section className="hero section-shell" aria-labelledby="hero-title">
             <div className="hero-copy" data-reveal>
-              <p className="eyebrow"><span /> Deadlines before distractions</p>
-              <h1 id="hero-title">Know what’s due <strong>before you scroll.</strong></h1>
-              <p className="hero-lede">Nonlate combines tasks you add yourself with deadlines synced from school, calendar, to-do, and work apps. If you open a chosen distraction while work is due, Nonlate shows the blocker first.</p>
-              <div className="hero-actions">
-                <a className="button-primary" href="#moment">See Nonlate step in <span>↓</span></a>
-                <span className="coming-note"><i /><i /> iOS available in Mozambique · Android coming soon</span>
+              <div className="mascot-banner">
+                <img src="/assets/mascots/peek.png" alt="" width="96" height="96" />
+                <p>From all over the place.<br /><strong>To one place.</strong></p>
               </div>
+              <h1 id="hero-title">More connected.<strong>Less distracted.</strong></h1>
+              <p className="hero-support">Stay ahead of what’s due.</p>
+              <p className="hero-lede">Your tasks, deadlines, and plans—together. Nonlate connects the tools you already use and steps in when a chosen distraction gets ahead of unfinished work.</p>
+              <div className="hero-actions">
+                <a className="button-primary store-download" href={appStoreUrl}><span aria-hidden="true">↗</span> Download for iOS</a>
+                <a className="button-secondary store-download" href={playStoreUrl}><span aria-hidden="true">↗</span> Get it on Android</a>
+              </div>
+              <p className="hero-free-note">Start free. No Nonlate account required. <a href="#plans">See plans →</a></p>
               <dl className="hero-stats" aria-label="Product highlights">
-                <div><dt>20+</dt><dd>school, work, calendar, and task sources</dd></div>
-                <div><dt>Block</dt><dd>selected distractions only when work is due</dd></div>
-                <div><dt>Both</dt><dd>platform-specific iOS and Android blockers</dd></div>
+                <div><dt>Connect</dt><dd>School, work, tasks & calendars</dd></div>
+                <div><dt>Plan</dt><dd>One clear view of your day</dd></div>
+                <div><dt>Focus</dt><dd>Deadlines before distractions</dd></div>
               </dl>
             </div>
 
@@ -305,18 +337,31 @@ export default function Home() {
             </div>
           </section>
 
-          <div className="source-marquee" aria-label="Examples of supported sources">
-            <div className="marquee-track">
-              {[...marqueeSources, ...marqueeSources].map((source, index) => <SourcePill key={`${source.name}-${index}`} icon={source.icon} label={source.name} />)}
-            </div>
+          <div className="launch-strip section-shell">
+            <p>Made for your real day.<span> School. Work. Everything in between.</span></p>
+            <button className="motion-toggle" type="button" aria-pressed={motionPaused} onClick={() => setMotionPaused((paused) => !paused)} disabled={reducedMotion}>{reducedMotion ? "Reduced motion enabled" : motionPaused ? "Resume animations" : "Pause animations"}</button>
           </div>
 
           <section className="moment section-shell" id="moment" aria-labelledby="moment-title">
             <div className="section-heading" data-reveal>
-              <p className="eyebrow"><span /> The Nonlate moment</p>
-              <h2 id="moment-title">The distraction arrives second.</h2>
-              <p>Choose which distracting apps to protect. When one opens, Nonlate checks unfinished due work and shows the blocker only when something needs your attention.</p>
-              <button type="button" className="text-action" onClick={openIntercept}>Replay the intercept demo <span>↗</span></button>
+              <p className="eyebrow"><span /> A little help at the right moment</p>
+              <h2 id="moment-title">Before the feed.<br />What needs you?</h2>
+              <p>Choose the distractions Nonlate can interrupt. When work is due, your next task gets the first word.</p>
+              <button type="button" className="button-primary demo-launch" onClick={openIntercept}>Try the blocker demo <span aria-hidden="true">↗</span></button>
+              <small className="demo-disclaimer">Just a website preview. Nothing on your device is blocked.</small>
+            </div>
+            <div className="moment-visual" data-reveal>
+              <span className="film-orbit" aria-hidden="true" />
+              <MascotVignette
+                id="distraction-film"
+                src="/assets/films/outrun-distraction.mp4"
+                poster="/assets/films/outrun-distraction.jpg"
+                title="Meet the little nudge."
+                description="A tiny teammate steps between a wandering phone and the next scroll."
+                motionPaused={motionPaused}
+                reducedMotion={reducedMotion}
+              />
+              <p className="film-side-note"><span aria-hidden="true">✦</span> A little character.<br /><strong>A clearer boundary.</strong></p>
             </div>
             <ol className="moment-steps">
               {demoPhases.map((item, index) => (
@@ -326,21 +371,22 @@ export default function Home() {
                 </li>
               ))}
             </ol>
+            <p className="moment-note">Only unfinished due tasks trigger blocking—not calendar events. Want a firmer boundary? Optional Focus Lock moves quick breaks back into Nonlate.</p>
           </section>
 
           <section className="product-section section-shell" id="product" aria-labelledby="product-title">
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> One connected system</p>
-              <h2 id="product-title">From scattered deadlines to a day you can act on.</h2>
-              <p>The same manual and synced tasks power your due-work list, Planner, Schedule, Can’t Miss Alarms, widgets, Focus Pulse, and blocker.</p>
+              <h2 id="product-title">Less juggling.<br />More doing.</h2>
+              <p>Keep what’s due, what’s planned, and what needs your focus working together.</p>
             </div>
             <div className="bento-grid">
               <article className="bento-card bento-tasks" id="tasks" data-reveal>
-                <p className="card-index">01 · DUE WORK</p><h3>One place for what’s due.</h3><p>Tasks you add manually and tasks synced from integrations appear in one list, with overdue work first and upcoming deadlines ordered by urgency.</p>
+                <p className="card-index">01 · CONNECT</p><h3>One place for what’s due.</h3><p>Add your own tasks or connect your existing tools. See overdue work first and upcoming deadlines next.</p>
                 <div className="bento-visual task-preview">{demoTasks.map((task) => <MiniTask task={task} key={task.title} />)}</div>
               </article>
               <article className="bento-card bento-planner" data-reveal>
-                <p className="card-index">02 · PLANNER</p><h3>Choose a day for the work.</h3><p>Pick a day, add due tasks to that day’s plan, and see upcoming work that still needs scheduling.</p>
+                <p className="card-index">02 · PLAN</p><h3>Make room for the work.</h3><p>Choose a day in Planner. Then see planned work, deadlines, events, classes, and shifts together in Schedule.</p>
                 <div className="planner-preview" aria-label="Planner preview with chosen days, today’s plan, and an upcoming task">
                   <div className="planner-preview-head"><strong>Choose a day</strong><small>Swipe for later dates</small></div>
                   <div className="planner-days"><b>Sun<strong>5</strong></b><span>Mon<strong>6</strong></span><span>Tue<strong>7</strong></span><span>Wed<strong>8</strong></span></div>
@@ -351,17 +397,8 @@ export default function Home() {
                   <div className="planned-task planner-upcoming-task"><i /><span><strong>Read chapter 8</strong><small>in 18 hours</small></span><b>Drag</b></div>
                 </div>
               </article>
-              <article className="bento-card bento-schedule" data-reveal>
-                <p className="card-index">03 · SCHEDULE</p><h3>See the whole day in order.</h3><p>Schedule places work from Planner alongside due tasks, calendar events, classes, and shifts on one timed timeline.</p>
-                <div className="schedule-preview">
-                  <div className="day-row"><span>Tue<strong>5</strong></span><b>Wed<strong>6</strong></b><span>Thu<strong>7</strong></span><span>Fri<strong>8</strong></span></div>
-                  <div className="schedule-line"><small>9 AM</small><i className="block-orange">Biology lab</i></div>
-                  <div className="schedule-line"><small>11 AM</small><i className="block-violet">Project outline</i></div>
-                  <div className="schedule-line"><small>2 PM</small><i className="block-cyan">Team brief</i></div>
-                </div>
-              </article>
               <article className="bento-card bento-protect" data-reveal>
-                <p className="card-index">04 · APP PROTECTION</p><h3>Choose what gets interrupted.</h3><p>Choose which distracting apps Nonlate can interrupt. When one opens, Nonlate checks for unfinished due work and shows the blocker only when something needs attention.</p>
+                <p className="card-index">03 · FOCUS</p><h3>A nudge before the scroll.</h3><p>Your chosen distractions can wait. See the work that needs attention, then choose the task or supported break action.</p>
                 <div className="app-orbits" aria-label="Examples of social and entertainment apps you can protect">
                   <span className="orbit-center"><img src="/assets/nonlate-icon.png" alt="Nonlate" /><small>Nonlate</small></span>
                   <span className="app-dot app-youtube"><img src="/assets/distractions/youtube.svg" alt="YouTube" /></span>
@@ -373,39 +410,31 @@ export default function Home() {
                   <span className="app-dot app-facebook"><img src="/assets/distractions/facebook.svg" alt="Facebook" /></span>
                 </div>
               </article>
-              <article className="bento-card bento-alarm" data-reveal>
-                <p className="card-index">05 · CAN’T MISS ALARM</p><h3>Set an alarm you can’t miss.</h3><p>Attach an alarm to a task or scheduled item and choose the time. Nonlate then uses the strongest alarm presentation your device supports.</p>
-                <div className="alarm-preview"><small>TASK · HISTORY ESSAY DRAFT</small><strong>9:00</strong><span>MONDAY · 8:00 AM</span><button type="button" tabIndex={-1}>Snooze</button></div>
-              </article>
-              <article className="bento-card bento-widget" data-reveal>
-                <p className="card-index">06 · AT A GLANCE</p><h3>Keep the next deadline in sight.</h3><p>Widgets show your next task, today’s plan, or the coming week without opening Nonlate. Supported iPhones also use Live Activities and Dynamic Island for active countdowns.</p>
-                <div className="widget-preview"><span><small>NONLATE · DUE SOON</small><b>Biology lab</b><strong>10:08</strong></span><span className="break-widget"><small>BREAK ACTIVE</small><b>Blocking resumes</b><strong>09:55</strong></span></div>
-              </article>
             </div>
-          </section>
-
-          <section className="behavior-section section-shell" aria-labelledby="behavior-title">
-            <div className="section-heading" data-reveal>
-              <p className="eyebrow"><span /> Deadline-aware blocking</p>
-              <h2 id="behavior-title">The blocker is the product.</h2>
-              <p>When a selected distraction opens, Nonlate checks unfinished tasks that are overdue or inside your chosen due window. Calendar events can appear in Schedule, but they never trigger the blocker.</p>
-            </div>
-            <div className="behavior-grid">
-              <article className="behavior-card behavior-blocker" data-reveal>
-                <p>{blockingBehavior.label}</p><h3>{blockingBehavior.title}</h3><p>{blockingBehavior.description}</p><span>{blockingBehavior.friction}</span>
-              </article>
-              <article className="focus-lock-card" data-reveal>
-                <div><p>Optional setting</p><h3>Focus Lock</h3><p>Focus Lock removes the quick-break choice from the blocker. To take a break, return to Nonlate, pause for a short reflection, and then start the configured timer.</p></div>
-                <span>Stronger break control</span>
-              </article>
+            <div className="included-row">
+              <article><span aria-hidden="true">↗</span><div><h3>A reminder with more presence.</h3><p>Can’t Miss Alarms use the strongest alarm presentation supported by your device.</p></div></article>
+              <article><span aria-hidden="true">◷</span><div><h3>Your next deadline, in sight.</h3><p>Widgets and supported iPhone Live Activities keep the next step close.</p></div></article>
             </div>
           </section>
 
           <section className="integrations-section section-shell" id="integrations" aria-labelledby="integrations-title">
-            <div className="section-heading centered" data-reveal>
+            <div className="integration-intro">
+            <div className="section-heading" data-reveal>
               <p className="eyebrow"><span /> Integrations</p>
-              <h2 id="integrations-title">Connect the tools already holding your responsibilities.</h2>
-              <p>Connect the school, calendar, to-do, and work services you already use. Supported tasks and due dates join the same list as manual tasks, so you do not have to enter them twice.</p>
+              <h2 id="integrations-title">Your tools.<br />Finally on the same page.</h2>
+              <p>Keep using the services you love. Bring supported tasks and due dates into Nonlate without entering them twice.</p>
+            </div>
+            <div className="wildlife-film" data-reveal>
+              <MascotVignette
+                id="deadline-film"
+                src="/assets/films/deadline-in-the-wild.mp4"
+                poster="/assets/films/deadline-in-the-wild.jpg"
+                title="Catch it before “later.”"
+                description="Our little deadline hunter catches a task before it disappears into Later. Your work stays yours to complete."
+                motionPaused={motionPaused}
+                reducedMotion={reducedMotion}
+              />
+            </div>
             </div>
             <div className="integration-grid">
               {integrationGroups.map((group) => (
@@ -420,11 +449,11 @@ export default function Home() {
 
           <section className="real-screens section-shell" aria-labelledby="screens-title">
             <div className="section-heading" data-reveal>
-              <p className="eyebrow"><span /> Current builds</p>
-              <h2 id="screens-title">Real screens. Platform-native details.</h2>
-              <p>These are current iOS and Android screens. Planner assigns work to a date or session; Schedule places that work beside tasks, events, classes, and shifts in one timed view.</p>
+              <p className="eyebrow"><span /> Made for your phone</p>
+              <h2 id="screens-title">A clearer day.<br />A real app.</h2>
+              <p>Actual iOS and Android screens, with platform-native details. Swipe through a few everyday views.</p>
             </div>
-            <div className="screen-rail">
+            <div className="screen-rail" role="region" aria-label="Actual app screenshots. Scroll horizontally to explore." tabIndex={0}>
               {screenGallery.map((screen) => (
                 <figure key={screen.src} data-reveal>
                   <div className="screen-meta"><span>{screen.platform}</span><strong>{screen.label}</strong></div>
@@ -437,8 +466,8 @@ export default function Home() {
           <section className="personal-section section-shell" aria-labelledby="personal-title">
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> Personal by design</p>
-              <h2 id="personal-title">More human than a wall of statistics.</h2>
-              <p>Choose what the blocker says and how Nonlate looks, then use Focus Pulse to understand how consistently you finish due work on time.</p>
+              <h2 id="personal-title">A little more you.</h2>
+              <p>Make the experience yours, from your colors to the words that bring you back.</p>
             </div>
             <div className="personal-grid">
               <article data-reveal><span className="personal-number">01</span><h3>Choose the message that stops you.</h3><p>On supported blocker screens, use the standard deadline prompt, write a custom message, or rotate Daily Wisdom in the tone you need.</p><div className="message-preview"><small>TODAY’S MESSAGE</small><blockquote>“Start smaller than your excuses.”</blockquote><span>Daily wisdom · Calm</span></div></article>
@@ -450,8 +479,8 @@ export default function Home() {
           <section className="plans-section section-shell" id="plans" aria-labelledby="plans-title">
             <div className="section-heading centered" data-reveal>
               <p className="eyebrow"><span /> A plan for every level of focus</p>
-              <h2 id="plans-title">Start simply. Add friction when you need it.</h2>
-              <p>Every plan is ad-free, with no Nonlate account required. Try one external source free for 30 days and protect up to three distracting apps. Paid plans add more sources, background sync, broader blocking, customization, and insights.</p>
+              <h2 id="plans-title">Start free.<br />Connect more when you’re ready.</h2>
+              <p>Manual tasks and core blocking stay free. Plus adds more connections and personalization. Pro brings everything together.</p>
             </div>
             <div className="plans-grid">
               {planTiers.map((plan) => (
@@ -460,11 +489,12 @@ export default function Home() {
                   <p>{plan.eyebrow}</p><h3>{plan.name}</h3><strong>{plan.price}</strong>
                   {plan.annualPrice ? <span className="plan-annual-price">or {plan.annualPrice}, billed annually</span> : null}
                   <ul>{plan.features.map((feature) => <li key={feature}><span>✓</span>{feature}</li>)}</ul>
-                  <div className="plan-status">Choose your plan in the app</div>
+                  <a className="plan-status" href="#coming-soon">Choose your plan in the app <span aria-hidden="true">↗</span></a>
                 </article>
               ))}
             </div>
-            <p className="section-note">Prices shown are USD reference prices. Your app store displays the current localized price and billing period before purchase; prices and availability may vary by region and platform. Paid subscriptions renew automatically unless cancelled through the purchasing store. Features and sync timing vary by provider and device.</p>
+            <p className="section-note">Eligible subscribers can try Plus free for 7 days on Monthly or Yearly. After the trial, the selected paid plan renews automatically unless cancelled. Eligibility, the full localized renewal price, and the billing period are confirmed in your app store before subscribing.</p>
+            <p className="section-note">Prices shown are USD reference prices; prices and availability may vary by region and platform. Manage or cancel subscriptions in the purchasing store. Features and sync timing vary by provider and device.</p>
             <p className="section-note">The source trial starts after your first successful connection, has no automatic charge, and does not restart when you switch sources. After 30 days, external syncing pauses; imported tasks remain available for local completion and blocking. Manual tasks and on-device calendars and reminders stay free.</p>
           </section>
 
@@ -486,7 +516,7 @@ export default function Home() {
             <div className="section-heading" data-reveal>
               <p className="eyebrow"><span /> Questions, answered plainly</p>
               <h2 id="faq-title">Before Nonlate steps in.</h2>
-              <p>The important details without the productivity theater.</p>
+              <p>Clear answers, so you know what to expect.</p>
             </div>
             <div className="faq-list">
               {faqEntries.map((entry) => <details key={entry.question} data-reveal><summary>{entry.question}<span>+</span></summary><p>{entry.answer}</p></details>)}
@@ -495,12 +525,12 @@ export default function Home() {
 
           <section className="closing-section section-shell" id="coming-soon" aria-labelledby="closing-title" data-reveal>
             <div className="closing-glow" aria-hidden="true" />
-            <img src="/assets/nonlate-icon.png" alt="Nonlate app icon" width="104" height="104" />
-            <p className="eyebrow"><span /> Be on time. Gently.</p>
-            <h2 id="closing-title">Put the deadline before the distraction.</h2>
-            <p>Built for school, work, and everyday life. Ad-free, with no Nonlate account required. Download on the Mozambique App Store; Android public availability is coming soon.</p>
-            <div className="platform-statuses" aria-label="Platform availability"><a href={appStoreUrl} aria-label="Get Nonlate on the Mozambique App Store"><i></i><b>iOS</b><small>App Store · Mozambique</small></a><span><i>◆</i><b>Android</b><small>Coming soon</small></span></div>
-            <a className="button-secondary" href="/support/">Questions? Visit support</a>
+            <img className="closing-mascot" src="/assets/mascots/victory.png" alt="" width="192" height="192" loading="lazy" />
+            <p className="eyebrow"><span /> From all over the place. To one place.</p>
+            <h2 id="closing-title">Your day.<br />Back in your hands.</h2>
+            <p>Stay ahead of what’s due. Start free on iOS or Android, with no Nonlate account required.</p>
+            <div className="platform-statuses" aria-label="Download Nonlate"><a href={appStoreUrl}><b>Download for iOS</b><small>App Store ↗</small></a><a href={playStoreUrl}><b>Get it on Android</b><small>Google Play ↗</small></a></div>
+            <a className="text-action" href="/support/">Questions? We’re here to help <span>→</span></a>
           </section>
         </main>
         <SiteFooter />

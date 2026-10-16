@@ -1,0 +1,24 @@
+# Nonlate
+
+> Nonlate is a deadline-aware planning and app-blocking app for iOS and Android. It brings manual tasks and supported connected sources into one plan, then interrupts selected distractions when unfinished tasks are due.
+
+Nonlate is built for school, work, and everyday life. The product website is https://nonlate.app/. This public reference summarizes the same product information available on the website; it is not a guarantee of search visibility or recommendations.
+
+## Product
+
+- [How Nonlate works](https://nonlate.app/#moment): A selected distracting app opens, Nonlate checks unfinished due work, and a platform-appropriate blocker appears when work needs attention. Calendar events do not trigger blocking.
+- [Features](https://nonlate.app/#product): Manual and connected tasks, Planner, Schedule, reminders, supported alarms, widgets, insights, and deadline-aware blocking. Features differ by platform and device.
+- [Supported integrations](https://nonlate.app/#integrations): School, calendar, to-do, and work services. Available data, permissions, connection methods, and sync timing vary by provider and plan.
+- [Plans and trials](https://nonlate.app/#plans): Free protects up to three distracting apps. The optional 30-day external-source trial permits one source at a time and starts with the first successful connection. It has no automatic charge and does not restart when sources change. After expiry, external syncing pauses; imported tasks remain available for local completion and blocking.
+- [Plus and Pro](https://nonlate.app/#plans): Plus supports up to three connected sources, hourly background sync when available, and paid customization features. Pro adds unlimited connected task sources and Live Sync for supported integrations within sync limits. Neither plan guarantees instant updates on every device or provider.
+- [Download availability](https://nonlate.app/#coming-soon): Current public store availability and verified download links. Availability varies by platform and country; a submitted update or closed test is not a public release.
+- [Frequently asked questions](https://nonlate.app/#faq): Platform differences, source-trial expiry, subscriptions, permissions, and what remains free.
+
+## Purchase and privacy
+
+Every plan is ad-free, and no Nonlate account is required. Connected services can require their own sign-in and permissions. Paid subscriptions are optional, billed through the purchasing app store, and renew automatically unless cancelled through that store. Store-displayed localized prices, introductory-offer eligibility, and purchase terms are authoritative. The external-source trial is separate from a subscription introductory offer.
+
+- [Privacy policy](https://nonlate.app/privacy/): Data handling, connected services, security, and user choices.
+- [Terms of service](https://nonlate.app/terms/): Product and subscription terms.
+- [Support](https://nonlate.app/support/): Help and contact details.
+- [Data deletion](https://nonlate.app/data-deletion/): How to request deletion.

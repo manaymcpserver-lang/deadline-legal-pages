@@ -165,18 +165,25 @@ check("homepage preserves the complete dual-platform blocker story", () => {
   const html = read("index.html");
   const text = visibleText(html);
   const required = [
-    "Know what’s due before you scroll.", "Actual current iOS blocker capture", "Actual current Android blocker capture",
-    "Work is due", "You open a distraction", "Nonlate checks", "Blocker appears", "The blocker is the product.",
-    "Focus Lock", "Stronger break control", "12 built-in themes",
-    "+8 more themes", "Custom colors too", "iOS available in Mozambique", "Android coming soon",
+    "More connected.", "Less distracted.", "Stay ahead of what’s due.",
+    "From all over the place.", "To one place.", "iOS blocker example", "Android blocker example",
+    "Work is due", "You open a distraction", "Nonlate checks", "Blocker appears",
+    "01 · CONNECT", "02 · PLAN", "03 · FOCUS", "Can’t Miss Alarms", "Live Activities",
+    "Focus Lock", "12 built-in themes", "+8 more themes", "Custom colors too",
+    "Download for iOS", "Get it on Android", "availability and compatible devices may vary by country",
   ];
   const missing = required.filter((value) => !text.includes(value));
   expect(missing.length === 0, `missing copy: ${missing.join(", ")}`);
-  for (const forbidden of ["Reminder only", "Pause blocking", "Return with intention", "View the plan"]) {
+  for (const forbidden of ["Reminder only", "Pause blocking", "Return with intention", "View the plan", "Android coming soon", "iOS available in Mozambique"]) {
     expect(!text.includes(forbidden), `found superseded copy: ${forbidden}`);
   }
   const source = readFileSync(join(repoRoot, "app/page.tsx"), "utf8");
   expect(source.includes("View tasks") && source.includes("Take a 10-minute break"), "intercept actions changed");
+  expect(/onClick=\{openIntercept\}/.test(source), "missing explicit blocker-demo action");
+  expect(!/nonlate-intercept-seen-v1|window\.innerHeight \* 2\.4|\bopenIntercept\s*\(/.test(source), "scroll-triggered intercept returned");
+  for (const url of ["https://apps.apple.com/app/id6759996284", "https://play.google.com/store/apps/details?id=com.nonlate.app"]) {
+    expect(html.includes(`href="${url}"`), `missing verified store link: ${url}`);
+  }
   for (const id of ["moment", "product", "tasks", "integrations", "plans", "privacy", "faq", "coming-soon"]) {
     expect(new RegExp(`\\bid=["']${id}["']`).test(html), `missing #${id}`);
   }
@@ -188,9 +195,18 @@ check("homepage ships SoftwareApplication and FAQ structured data", () => {
   expect(scripts.length === 1, `expected one JSON-LD block; found ${scripts.length}`);
   const data = JSON.parse(scripts[0][1]);
   const graph = data["@graph"] ?? [];
-  expect(graph.some((entry) => entry["@type"] === "SoftwareApplication"), "missing SoftwareApplication");
+  const software = graph.find((entry) => entry["@type"] === "SoftwareApplication");
+  expect(software, "missing SoftwareApplication");
+  expect(software.applicationCategory === "UtilitiesApplication", "software must use the supported UtilitiesApplication category");
   const faq = graph.find((entry) => entry["@type"] === "FAQPage");
-  expect(faq?.mainEntity?.length === 8, "FAQPage must expose all eight questions");
+  const visibleFaq = [...html.matchAll(/<details\b[^>]*>\s*<summary\b[^>]*>([\s\S]*?)<\/summary>\s*<p>([\s\S]*?)<\/p>\s*<\/details>/gi)]
+    .map(([, question, answer]) => ({
+      question: visibleText(question.replace(/<span\b[^>]*>[\s\S]*?<\/span>/gi, "")),
+      answer: visibleText(answer),
+    }));
+  expect(visibleFaq.length === 10, "homepage must show all ten FAQ questions");
+  const structuredFaq = faq?.mainEntity?.map((entry) => ({ question: entry.name, answer: entry.acceptedAnswer?.text }));
+  expect(JSON.stringify(structuredFaq) === JSON.stringify(visibleFaq), "FAQ structured data must match every visible question and answer");
 });
 
 check("legal and support pages contain the production source-of-truth copy", () => {
@@ -258,8 +274,8 @@ check("all local links and assets in exported HTML resolve", () => {
   const broken = [];
   for (const pathname of walk(outRoot).filter((file) => extname(file) === ".html")) {
     const html = readFileSync(pathname, "utf8");
-    for (const tag of html.matchAll(/<(?:a|img|link|script|source)\b[^>]*>/gi)) {
-      for (const match of tag[0].matchAll(/\b(?:href|src)=["']([^"']+)["']/gi)) {
+    for (const tag of html.matchAll(/<(?:a|img|link|script|source|video)\b[^>]*>/gi)) {
+      for (const match of tag[0].matchAll(/\b(?:href|src|poster)=["']([^"']+)["']/gi)) {
         const resolved = resolveReference(decodeEntities(match[1]));
         if (resolved && !fileOrIndexExists(resolved)) broken.push(`${relative(outRoot, pathname)} → ${match[1]}`);
       }

@@ -83,6 +83,7 @@ export function SiteFooter() {
           <h2>Help</h2>
           <Link href="/support/">Support</Link>
           <Link href="/#faq">FAQ</Link>
+          <a href="/llms.txt">Product facts</a>
           <a href="mailto:support@nonlate.app">Contact</a>
         </div>
         <div>
