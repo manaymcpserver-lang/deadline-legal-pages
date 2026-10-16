@@ -100,9 +100,16 @@ p { text-wrap: pretty; }
 .hero-copy h1 strong { display: block; background: linear-gradient(105deg, #d2c9ff 8%, #9d92ff 40%, #55dcff 93%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero-support { margin-top: 23px; color: var(--ink-2); font-size: clamp(20px, 2vw, 25px); font-weight: 650; letter-spacing: -.025em; }
 .hero-lede { margin-top: 12px; max-width: 51ch; color: #abb0c1; font-size: 16px; line-height: 1.7; }
-.hero-actions { margin-top: 29px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-.store-download { min-height: 52px; padding-inline: 21px; font-size: 13px; }
-.store-download > span { font-size: 17px; }
+.hero-actions { margin-top: 29px; }
+.store-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; }
+.store-badge { display: inline-flex; flex: 0 0 auto; padding-block: 11px; }
+.store-badge img { display: block; height: 44px; width: auto; max-width: none; }
+.closing-store-badges { margin: 24px auto; justify-content: center; }
+@media (max-width: 360px) {
+  .store-badges { gap: 20px; }
+  .store-badge { padding-block: 10px; }
+  .store-badge img { height: 40px; }
+}
 .hero-free-note { margin-top: 15px; color: var(--muted); font-size: 12px; }
 .hero-free-note a { display: inline-block; margin-left: 6px; color: var(--violet-soft); }
 .hero-free-note a:hover { text-decoration: underline; }
@@ -482,13 +489,6 @@ p { text-wrap: pretty; }
 .closing-glow { position: absolute; inset: -40%; background: radial-gradient(circle at 50% 50%, rgba(143, 124, 255, .23), transparent 36%), radial-gradient(circle at 30% 60%, rgba(85, 220, 255, .1), transparent 30%); animation: glowDrift 20s ease-in-out infinite; }
 .closing-section > img { width: 172px; height: 172px; margin: 0 auto 18px; object-fit: contain; }
 .closing-section > p { max-width: 680px; margin-inline: auto; }
-.platform-statuses { margin: 35px auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-.platform-statuses > span, .platform-statuses > a { min-width: 210px; padding: 16px 22px; display: grid; gap: 2px; align-items: center; border: 1px solid var(--line); border-radius: 18px; background: rgba(255, 255, 255, .035); text-align: left; }
-.platform-statuses > a:hover { border-color: var(--violet); }
-.platform-statuses > a:focus-visible { outline: 2px solid var(--violet); outline-offset: 4px; }
-.platform-statuses i { grid-row: 1 / -1; font-size: 23px; font-style: normal; }
-.platform-statuses b { font-size: 14px; }
-.platform-statuses small { color: var(--muted); font-size: 10px; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); background: rgba(4, 6, 13, .48); }
@@ -500,6 +500,7 @@ p { text-wrap: pretty; }
 .footer-grid a { color: #c5c8d5; font-size: 13px; }
 .footer-grid a:hover { color: var(--cyan); }
 .footer-bottom { padding-block: 23px 34px; display: flex; justify-content: space-between; gap: 14px; border-top: 1px solid var(--line); color: var(--quiet); font-size: 11px; }
+.trademark-note { padding-bottom: 24px; color: var(--quiet); font-size: 11px; }
 
 /* Intercept */
 .intercept-veil { position: fixed; z-index: 1500; inset: 0; padding: 22px; display: flex; align-items: center; justify-content: center; background: rgba(4, 6, 14, .75); backdrop-filter: blur(18px) saturate(.75); animation: veilIn 280ms ease both; }
@@ -616,8 +617,7 @@ p { text-wrap: pretty; }
   .hero-copy h1 { margin-top: 24px; font-size: clamp(40px, 10.7vw, 64px); }
   .hero-support { margin-top: 18px; font-size: 21px; }
   .hero-lede { margin-top: 10px; font-size: 15px; }
-  .hero-actions { gap: 9px; margin-top: 24px; }
-  .store-download { min-height: 49px; padding-inline: 16px; font-size: 12px; }
+  .hero-actions { margin-top: 24px; }
   .hero-free-note { max-width: 29ch; line-height: 1.7; }
   .hero-stats { margin-top: 23px; padding-top: 17px; gap: 12px; }
   .hero-stats dt { font-size: 12px; }
@@ -688,7 +688,6 @@ p { text-wrap: pretty; }
   .phone-ios { left: 0; }
   .phone-android { right: 0; }
   .moment-steps li { grid-template-columns: 40px 1fr; }
-  .platform-statuses > span, .platform-statuses > a { width: 100%; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-brand { grid-column: 1; }
   .legal-content { padding: 25px 20px; }

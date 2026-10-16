@@ -30,6 +30,19 @@ const screenGallery = [
   { src: "/assets/screens/android-insights.png", alt: "Nonlate Android Insights showing Focus Pulse, streaks, focus rhythm, and recovery", platform: "Android", label: "Insights · Focus Pulse" },
 ];
 
+function StoreBadges({ className }: { className: string }) {
+  return (
+    <div className={`store-badges ${className}`} aria-label="Download Nonlate">
+      <a className="store-badge" href={appStoreUrl} aria-label="Download Nonlate on the App Store">
+        <img src="/assets/store-badges/app-store.svg" alt="Download on the App Store" width="120" height="40" />
+      </a>
+      <a className="store-badge" href={playStoreUrl} aria-label="Get Nonlate on Google Play">
+        <img src="/assets/store-badges/google-play.svg" alt="Get it on Google Play" width="239" height="71" />
+      </a>
+    </div>
+  );
+}
+
 function SourcePill({ icon, label, note }: { icon: string; label: string; note?: string }) {
   return (
     <span className="source-pill">
@@ -320,10 +333,7 @@ export default function Home() {
               <h1 id="hero-title">More connected.<strong>Less distracted.</strong></h1>
               <p className="hero-support">Stay ahead of what’s due.</p>
               <p className="hero-lede">Your tasks, deadlines, and plans—together. Nonlate connects the tools you already use and steps in when a chosen distraction gets ahead of unfinished work.</p>
-              <div className="hero-actions">
-                <a className="button-primary store-download" href={appStoreUrl}><span aria-hidden="true">↗</span> Download for iOS</a>
-                <a className="button-secondary store-download" href={playStoreUrl}><span aria-hidden="true">↗</span> Get it on Android</a>
-              </div>
+              <StoreBadges className="hero-actions" />
               <p className="hero-free-note">Start free. No Nonlate account required. <a href="#plans">See plans →</a></p>
               <dl className="hero-stats" aria-label="Product highlights">
                 <div><dt>Connect</dt><dd>School, work, tasks & calendars</dd></div>
@@ -546,7 +556,7 @@ export default function Home() {
             <p className="eyebrow"><span /> From all over the place. To one place.</p>
             <h2 id="closing-title">Your day.<br />Back in your hands.</h2>
             <p>Stay ahead of what’s due. Start free on iOS or Android, with no Nonlate account required.</p>
-            <div className="platform-statuses" aria-label="Download Nonlate"><a href={appStoreUrl}><b>Download for iOS</b><small>App Store ↗</small></a><a href={playStoreUrl}><b>Get it on Android</b><small>Google Play ↗</small></a></div>
+            <StoreBadges className="closing-store-badges" />
             <a className="text-action" href="/support/">Questions? We’re here to help <span>→</span></a>
           </section>
         </main>

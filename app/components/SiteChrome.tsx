@@ -97,6 +97,7 @@ export function SiteFooter() {
         <span>© 2026 Nonlate. All rights reserved.</span>
         <span className="mono-label">nonlate.app</span>
       </div>
+      <p className="trademark-note section-shell">Apple, the Apple logo, and App Store are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
     </footer>
   );
 }

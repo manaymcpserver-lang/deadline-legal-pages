@@ -170,10 +170,13 @@ check("homepage preserves the complete dual-platform blocker story", () => {
     "Work is due", "You open a distraction", "Nonlate checks", "Blocker appears",
     "01 · CONNECT", "02 · PLAN", "03 · FOCUS", "Can’t Miss Alarms", "Live Activities",
     "Focus Lock", "12 built-in themes", "+8 more themes", "Custom colors too",
-    "Download for iOS", "Get it on Android", "availability and compatible devices may vary by country",
+    "availability and compatible devices may vary by country",
   ];
   const missing = required.filter((value) => !text.includes(value));
   expect(missing.length === 0, `missing copy: ${missing.join(", ")}`);
+  for (const badge of ["Download on the App Store", "Get it on Google Play"]) {
+    expect(html.includes(`alt="${badge}"`), `missing accessible official badge: ${badge}`);
+  }
   for (const forbidden of ["Reminder only", "Pause blocking", "Return with intention", "View the plan", "Android coming soon", "iOS available in Mozambique"]) {
     expect(!text.includes(forbidden), `found superseded copy: ${forbidden}`);
   }

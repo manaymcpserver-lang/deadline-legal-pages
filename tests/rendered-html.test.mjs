@@ -7,6 +7,20 @@ const out = new URL("../out/", import.meta.url);
 
 const readPage = (pathname) => readFile(new URL(pathname, out), "utf8");
 
+test("official store badges are available in both download areas", async () => {
+  const html = await readPage("index.html");
+  for (const [file, label] of [["app-store.svg", "Download on the App Store"], ["google-play.svg", "Get it on Google Play"]]) {
+    const asset = `assets/store-badges/${file}`;
+    const source = await readFile(new URL(`public/${asset}`, root), "utf8");
+    assert.equal(await readPage(asset), source, "export must preserve original artwork");
+    assert.match(source, /<svg\b/);
+    assert.doesNotMatch(source, /<script\b|\bon\w+\s*=|(?:href|src)=["']https?:/i);
+    const rendered = html.replace(/<script\b[\s\S]*?<\/script>/gi, "");
+    assert.equal(rendered.split(`src="/${asset}"`).length - 1, 2);
+    assert.equal(rendered.split(`alt="${label}"`).length - 1, 2);
+  }
+});
+
 function visibleText(html) {
   const entities = { amp: "&", apos: "'", gt: ">", lt: "<", nbsp: " ", quot: '"', rsquo: "’" };
   return html.replace(/<script\b[\s\S]*?<\/script>|<style\b[\s\S]*?<\/style>/gi, " ")
@@ -68,8 +82,8 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /12 built-in themes/i);
   assert.match(html, /\+8 more themes/i);
   assert.match(html, /Custom colors too/i);
-  assert.match(text, /Download for iOS/i);
-  assert.match(text, /Get it on Android/i);
+  assert.match(html, /alt="Download on the App Store"/i);
+  assert.match(html, /alt="Get it on Google Play"/i);
   assert.match(text, /availability and compatible devices may vary by country/i);
   assert.match(html, /"@type":"FAQPage"/i);
   assert.doesNotMatch(html, /TODAY’S REMINDER|Reminder only|Pause blocking|View the plan|Return with intention|planning, reminders, and app protection/i);
