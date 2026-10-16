@@ -72,6 +72,11 @@ function BlockerCapture({ platform }: { platform: Platform }) {
     <figure className={`blocker-capture blocker-capture-${platform}`}>
       <div className="capture-label"><span>{isIOS ? "iOS" : "Android"}</span>Actual blocker screen</div>
       <div className="capture-frame">
+        <div className="capture-copy">
+          <h3>Distracting apps get<br />blocked when work is due</h3>
+          <p>See what’s overdue and due next. Complete the work or take a timed break to regain access.</p>
+        </div>
+        <div className="capture-screen">
         <img
           src={`/assets/screens/${platform}-blocker.png`}
           alt={isIOS ? "Actual Nonlate iOS blocker screen" : "Actual Nonlate Android blocker screen"}
@@ -79,6 +84,7 @@ function BlockerCapture({ platform }: { platform: Platform }) {
           height={isIOS ? "1600" : "1400"}
           fetchPriority="high"
         />
+        </div>
       </div>
       <figcaption>{isIOS ? "iOS" : "Android"} blocker example</figcaption>
     </figure>

@@ -15,6 +15,16 @@ test("responsive refinements reserve room for tablet previews and the rotating F
   assert.match(css, /\.faq-list summary span \{ flex: 0 0 24px; width: 24px; height: 24px; margin-inline: 6px;/);
 });
 
+test("blocker cards share their sizing and live website typography", async () => {
+  const html = (await readPage("index.html")).replace(/<script\b[\s\S]*?<\/script>/gi, "");
+  assert.equal(html.split('class="capture-copy"').length - 1, 2);
+  assert.equal(html.split('class="capture-screen"').length - 1, 2);
+  const css = await readFile(new URL("app/globals.css", root), "utf8");
+  assert.match(css, /\.blocker-capture \{[^}]*width: min\(47%, 270px\);[^}]*container-type: inline-size/);
+  assert.match(css, /\.capture-copy h3 \{[^}]*font-size: 6\.8cqw/);
+  assert.doesNotMatch(css, /\.blocker-capture-(?:ios|android) \{[^}]*width:/);
+});
+
 test("official store badges are available in both download areas", async () => {
   const html = await readPage("index.html");
   for (const [file, label] of [["app-store.svg", "Download on the App Store"], ["google-play.svg", "Get it on Google Play"]]) {
@@ -193,7 +203,7 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(css, /\.reveal-ready \[data-reveal\]/);
   assert.match(css, /\.dual-phone-stage\s*\{[^}]*height:\s*clamp\(/,
     "both platform captures need a responsive stage");
-  assert.match(css, /\.capture-frame img\s*\{[^}]*height:\s*auto/,
+  assert.match(css, /\.capture-screen img\s*\{[^}]*height:\s*auto/,
     "real blocker captures must preserve their image proportions");
   assert.match(css, /\.dialog-actions\s*\{[^}]*grid-template-columns:\s*\.82fr 1\.18fr/);
   assert.match(css, /\.dialog-actions \.button-secondary\s*\{[^}]*white-space:\s*nowrap/);
