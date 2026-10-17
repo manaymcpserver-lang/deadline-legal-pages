@@ -25,10 +25,72 @@ const demoTasks = [
 
 const screenGallery = [
   { src: "/assets/screens/ios-home.png", alt: "Nonlate iOS Home showing overdue and upcoming tasks from connected sources", platform: "iOS", label: "Home · due tasks" },
+  { src: "/assets/screens/ios-tasks.png", alt: "Nonlate iOS Tasks bringing imported tasks and personal reminders into one searchable list", platform: "iOS", label: "Tasks · one list" },
   { src: "/assets/screens/ios-planner.png", alt: "Nonlate iOS Planner assigning upcoming tasks to a chosen day", platform: "iOS", label: "Planner · choose a day" },
   { src: "/assets/screens/android-schedule.png", alt: "Nonlate Android Schedule arranging planned work, tasks, events, classes, and shifts by time", platform: "Android", label: "Schedule · timed day" },
+  { src: "/assets/screens/android-blocker.png", alt: "Nonlate Android Blocker showing due tasks before a distracting app", platform: "Android", label: "Blocker · due-work check" },
   { src: "/assets/screens/android-insights.png", alt: "Nonlate Android Insights showing Focus Pulse, streaks, focus rhythm, and recovery", platform: "Android", label: "Insights · Focus Pulse" },
 ];
+
+function ScreenGallery() {
+  const railRef = useRef<HTMLDivElement>(null);
+  const [range, setRange] = useState({ first: 1, last: 4, atStart: true, atEnd: false });
+
+  useEffect(() => {
+    const rail = railRef.current;
+    if (!rail) return;
+    const update = () => {
+      const bounds = rail.getBoundingClientRect();
+      const visible = Array.from(rail.children).flatMap((card, index) => {
+        const box = card.getBoundingClientRect();
+        const overlap = Math.min(box.right, bounds.right) - Math.max(box.left, bounds.left);
+        return overlap >= box.width / 2 ? [index + 1] : [];
+      });
+      setRange({
+        first: visible[0] ?? 1,
+        last: visible.at(-1) ?? 1,
+        atStart: rail.scrollLeft <= 2,
+        atEnd: rail.scrollLeft + rail.clientWidth >= rail.scrollWidth - 2,
+      });
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(rail);
+    rail.addEventListener("scroll", update, { passive: true });
+    return () => { observer.disconnect(); rail.removeEventListener("scroll", update); };
+  }, []);
+
+  const move = (direction: number) => {
+    const rail = railRef.current;
+    if (!rail) return;
+    const first = rail.children[0] as HTMLElement;
+    const second = rail.children[1] as HTMLElement;
+    const step = second.offsetLeft - first.offsetLeft;
+    const index = Math.round(rail.scrollLeft / step) + direction;
+    rail.scrollTo({ left: index * step, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
+  };
+
+  return (
+    <>
+      <div className="screen-controls">
+        <p id="screen-help">Swipe or use the arrows to explore all six screens.</p>
+        <div className="screen-navigation">
+          <span aria-live="polite" aria-atomic="true">Screens {range.first}{range.last !== range.first ? `–${range.last}` : ""} of {screenGallery.length}</span>
+          <button type="button" aria-label="Previous app screenshots" aria-controls="app-screen-rail" disabled={range.atStart} onClick={() => move(-1)}>←</button>
+          <button type="button" aria-label="Next app screenshots" aria-controls="app-screen-rail" disabled={range.atEnd} onClick={() => move(1)}>→</button>
+        </div>
+      </div>
+      <div ref={railRef} id="app-screen-rail" className="screen-rail" role="region" aria-label="Actual app screenshots" aria-describedby="screen-help" tabIndex={0}>
+        {screenGallery.map((screen) => (
+          <figure key={screen.src}>
+            <div className="screen-meta"><span>{screen.platform}</span><strong>{screen.label}</strong></div>
+            <img src={screen.src} alt={screen.alt} loading="lazy" width="660" height={screen.platform === "iOS" ? "1434" : "1173"} />
+          </figure>
+        ))}
+      </div>
+    </>
+  );
+}
 
 function StoreBadges({ className }: { className: string }) {
   return (
@@ -482,14 +544,7 @@ export default function Home() {
               <h2 id="screens-title">A clearer day.<br />A real app.</h2>
               <p>Actual iOS and Android screens, with platform-native details. Swipe through a few everyday views.</p>
             </div>
-            <div className="screen-rail" role="region" aria-label="Actual app screenshots. Scroll horizontally to explore." tabIndex={0}>
-              {screenGallery.map((screen) => (
-                <figure key={screen.src} data-reveal>
-                  <div className="screen-meta"><span>{screen.platform}</span><strong>{screen.label}</strong></div>
-                  <img src={screen.src} alt={screen.alt} loading="lazy" width="660" height={screen.platform === "iOS" ? "1434" : "1173"} />
-                </figure>
-              ))}
-            </div>
+            <ScreenGallery />
           </section>
 
           <section className="personal-section section-shell" aria-labelledby="personal-title">

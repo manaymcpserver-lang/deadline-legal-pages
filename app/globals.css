@@ -417,7 +417,14 @@ p { text-wrap: pretty; }
 .integration-group > div { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; }
 
 .real-screens { overflow: hidden; }
-.screen-rail { margin-top: 50px; padding-bottom: 22px; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(250px, 315px); gap: 16px; overflow-x: auto; overscroll-behavior-inline: contain; scroll-snap-type: inline mandatory; scrollbar-color: rgba(143, 124, 255, .5) transparent; }
+.screen-controls { margin-top: 36px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.screen-controls p, .screen-navigation span { color: var(--muted); font-size: 12px; }
+.screen-navigation { display: flex; align-items: center; gap: 10px; }
+.screen-navigation span { margin-right: 6px; font-variant-numeric: tabular-nums; }
+.screen-navigation button { width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 50%; background: rgba(255, 255, 255, .04); color: var(--ink); font-size: 22px; cursor: pointer; }
+.screen-navigation button:hover:not(:disabled) { border-color: var(--violet-soft); background: rgba(143, 124, 255, .15); }
+.screen-navigation button:disabled { opacity: .35; cursor: default; }
+.screen-rail { margin-top: 18px; padding-bottom: 22px; display: grid; grid-auto-flow: column; grid-auto-columns: max(250px, calc((100% - 48px) / 4)); gap: 16px; overflow-x: auto; overscroll-behavior-inline: contain; scroll-snap-type: inline mandatory; scrollbar-color: rgba(143, 124, 255, .5) transparent; }
 .screen-rail figure { margin: 0; scroll-snap-align: start; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: #0c0f19; }
 .screen-meta { padding: 15px 17px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--line); }
 .screen-meta span { color: var(--cyan); font: 8px var(--font-jetbrains), monospace; text-transform: uppercase; }

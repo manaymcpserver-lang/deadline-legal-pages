@@ -93,12 +93,21 @@ test("static export contains the production landing experience", async () => {
   assert.match(html, /"alternateName":"Nonlate App"/i);
   const realScreenOrder = [
     "Home · due tasks",
+    "Tasks · one list",
     "Planner · choose a day",
     "Schedule · timed day",
+    "Blocker · due-work check",
     "Insights · Focus Pulse",
   ].map((label) => html.indexOf(label));
   assert.ok(realScreenOrder.every((position) => position >= 0), "every real-screen card must be present");
   assert.deepEqual(realScreenOrder, [...realScreenOrder].sort((a, b) => a - b), "real screens must follow the product flow");
+  const gallery = html.match(/id="app-screen-rail"[\s\S]*?<\/section>/)[0];
+  assert.equal((gallery.match(/<figure\b/g) ?? []).length, 6);
+  assert.match(gallery, /ios-tasks\.png/);
+  assert.match(gallery, /android-blocker\.png/);
+  assert.match(html, /aria-label="Previous app screenshots"/);
+  assert.match(html, /aria-label="Next app screenshots"/);
+  assert.match(html, /aria-live="polite"/);
   assert.match(html, /12 built-in themes/i);
   assert.match(html, /\+8 more themes/i);
   assert.match(html, /Custom colors too/i);
