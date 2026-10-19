@@ -1,0 +1,35 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { firstGuide } from "./guide-data";
+
+const title = "Guides to tasks, deadlines and fewer distractions";
+const description = "Practical Nonlate guides to organizing deadlines, planning your work and managing distracting apps on iPhone and Android.";
+
+export const metadata: Metadata = {
+  title,
+  description,
+  alternates: { canonical: "/guides/" },
+  openGraph: { type: "website", title, description, url: "/guides/", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
+};
+
+export default function GuidesPage() {
+  return (
+    <>
+      <header className="guides-heading">
+        <p className="eyebrow"><span /> Nonlate guides</p>
+        <h1>A little less scrolling.<br />A clearer next step.</h1>
+        <p>Practical answers about tasks, deadlines and distractions. Start with one change you can use today.</p>
+      </header>
+      <div className="guides-list">
+        <article className="guide-card">
+          <p className="guide-category">App blocking · iPhone &amp; Android</p>
+          <h2><Link href={firstGuide.href}>{firstGuide.title}</Link></h2>
+          <p>{firstGuide.description}</p>
+          <p className="guide-byline">By Nonlate · <time dateTime={firstGuide.date}>{firstGuide.displayDate}</time></p>
+          <Link className="guide-read-link" href={firstGuide.href}>Read the guide <span aria-hidden="true">↗</span></Link>
+        </article>
+      </div>
+    </>
+  );
+}

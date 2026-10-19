@@ -15,6 +15,8 @@ const publicPages = new Map([
   ["/terms/", "terms/index.html"],
   ["/support/", "support/index.html"],
   ["/data-deletion/", "data-deletion/index.html"],
+  ["/guides/", "guides/index.html"],
+  ["/guides/block-distracting-apps-until-tasks-are-done/", "guides/block-distracting-apps-until-tasks-are-done/index.html"],
 ]);
 
 const callbackNames = [
@@ -267,7 +269,7 @@ check("404 page is noindex and contains no OAuth forwarding", () => {
   expect(!/deadline:\/\/oauth\/callback/i.test(html), "404 must not forward OAuth callbacks");
 });
 
-check("sitemap contains exactly the five public content URLs", () => {
+check("sitemap contains exactly the public content URLs, including guides", () => {
   const actual = [...read("sitemap.xml").matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)].map((match) => match[1]);
   const expected = [...publicPages.keys()].map((route) => `${origin}${route}`);
   expect(JSON.stringify(actual.sort()) === JSON.stringify(expected.sort()), `sitemap URLs changed: ${actual.join(", ")}`);

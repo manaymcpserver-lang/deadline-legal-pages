@@ -14,6 +14,11 @@ Nonlate is built for school, work, and everyday life. The product website is htt
 - [Download availability](https://nonlate.app/#coming-soon): Current public store availability and verified download links. Availability varies by platform and country; a submitted update or closed test is not a public release.
 - [Frequently asked questions](https://nonlate.app/#faq): Platform differences, source-trial expiry, subscriptions, permissions, and what remains free.
 
+## Guides
+
+- [Guides](https://nonlate.app/guides/): Practical articles published by Nonlate about tasks, deadlines and app blocking.
+- [How to block distracting apps until your tasks are done](https://nonlate.app/guides/block-distracting-apps-until-tasks-are-done/): Setup, iPhone and Android differences, timed breaks, troubleshooting and Free-plan limits. Blocking is not a tamper-proof lock or a guarantee of productivity.
+
 ## Purchase and privacy
 
 Every plan is ad-free, and no Nonlate account is required. Connected services can require their own sign-in and permissions. Paid subscriptions are optional, billed through the purchasing app store, and renew automatically unless cancelled through that store. Store-displayed localized prices, introductory-offer eligibility, and purchase terms are authoritative. The external-source trial is separate from a subscription introductory offer.
