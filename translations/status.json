@@ -1,0 +1,917 @@
+{
+  "preparedOn": "2026-10-19",
+  "scope": "Website homepage, its FAQ, guide index and first guide only. Apps, existing in-app links, videos, English product terms, legal and support copy remain unchanged.",
+  "languages": 47,
+  "homepageSourceUnits": 308,
+  "guideSourceUnits": 111,
+  "completeHomepageVariants": 47,
+  "completeGuideVariants": 47,
+  "inSessionReviewedHomepageVariants": [
+    "es",
+    "fr",
+    "hi",
+    "ar",
+    "zh-Hans",
+    "pt-BR",
+    "pt-PT",
+    "de",
+    "ja",
+    "id",
+    "ru",
+    "ko",
+    "it",
+    "tr",
+    "vi",
+    "pl",
+    "fa",
+    "th",
+    "nl",
+    "uk",
+    "bn",
+    "ur",
+    "ta",
+    "te",
+    "zh-Hant",
+    "he",
+    "fil",
+    "cs",
+    "sv",
+    "ca",
+    "da",
+    "fi",
+    "el",
+    "hu",
+    "ms",
+    "nb",
+    "ro",
+    "hr",
+    "sk",
+    "sl",
+    "gu",
+    "kn",
+    "ml",
+    "mr",
+    "or",
+    "pa"
+  ],
+  "inSessionReviewedGuideVariants": [
+    "es",
+    "fr",
+    "hi",
+    "ar",
+    "zh-Hans",
+    "pt-BR",
+    "pt-PT",
+    "de",
+    "ja",
+    "id",
+    "ru",
+    "ko",
+    "it",
+    "tr",
+    "vi",
+    "pl",
+    "fa",
+    "th",
+    "nl",
+    "uk",
+    "bn",
+    "ur",
+    "ta",
+    "te",
+    "zh-Hant",
+    "he",
+    "fil",
+    "cs",
+    "sv",
+    "ca",
+    "da",
+    "fi",
+    "el",
+    "hu",
+    "ms",
+    "nb",
+    "ro",
+    "hr",
+    "sk",
+    "sl",
+    "gu",
+    "kn",
+    "ml",
+    "mr",
+    "or",
+    "pa"
+  ],
+  "nativeSpeakerCertification": false,
+  "paidTranslationServicesUsed": false,
+  "localizedGuideIllustrationVariants": 44,
+  "localizedHomepageIllustrationVariants": 46,
+  "localizedAndroidIllustrationVariants": 29,
+  "homepageImagePolicy": "Use matching language, platform and screen; otherwise label the original English screenshot.",
+  "readyForPublication": false,
+  "remainingReleaseRequirements": [
+    "Explicit publication approval of the reviewed translations",
+    "Complete locale-by-locale visual review; automated links, metadata and sample mobile/RTL checks do not certify translation quality"
+  ],
+  "rows": [
+    {
+      "locale": "en",
+      "homepage": {
+        "status": "original",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "original",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 7,
+      "localizedGuideIllustration": null
+    },
+    {
+      "locale": "es",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/es-iphone-blocking.jpg"
+    },
+    {
+      "locale": "fr",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/fr-iphone-blocking.jpg"
+    },
+    {
+      "locale": "hi",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/hi-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ar",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ar-iphone-blocking.jpg"
+    },
+    {
+      "locale": "zh-Hans",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/zh-Hans-iphone-blocking.jpg"
+    },
+    {
+      "locale": "pt-BR",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/pt-BR-iphone-blocking.jpg"
+    },
+    {
+      "locale": "pt-PT",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/pt-PT-iphone-blocking.jpg"
+    },
+    {
+      "locale": "de",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/de-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ja",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ja-iphone-blocking.jpg"
+    },
+    {
+      "locale": "id",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/id-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ru",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ru-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ko",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ko-iphone-blocking.jpg"
+    },
+    {
+      "locale": "it",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/it-iphone-blocking.jpg"
+    },
+    {
+      "locale": "tr",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/tr-iphone-blocking.jpg"
+    },
+    {
+      "locale": "vi",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/vi-iphone-blocking.jpg"
+    },
+    {
+      "locale": "pl",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/pl-iphone-blocking.jpg"
+    },
+    {
+      "locale": "fa",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": null
+    },
+    {
+      "locale": "th",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/th-iphone-blocking.jpg"
+    },
+    {
+      "locale": "nl",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/nl-iphone-blocking.jpg"
+    },
+    {
+      "locale": "uk",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/uk-iphone-blocking.jpg"
+    },
+    {
+      "locale": "bn",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/bn-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ur",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/homepage-artwork/ur-ios-blocker.jpg"
+    },
+    {
+      "locale": "ta",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ta-iphone-blocking.jpg"
+    },
+    {
+      "locale": "te",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/te-iphone-blocking.jpg"
+    },
+    {
+      "locale": "zh-Hant",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/zh-Hant-iphone-blocking.jpg"
+    },
+    {
+      "locale": "he",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/he-iphone-blocking.jpg"
+    },
+    {
+      "locale": "fil",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": null
+    },
+    {
+      "locale": "cs",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/cs-iphone-blocking.jpg"
+    },
+    {
+      "locale": "sv",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/sv-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ca",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ca-iphone-blocking.jpg"
+    },
+    {
+      "locale": "da",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/da-iphone-blocking.jpg"
+    },
+    {
+      "locale": "fi",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/fi-iphone-blocking.jpg"
+    },
+    {
+      "locale": "el",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/el-iphone-blocking.jpg"
+    },
+    {
+      "locale": "hu",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/hu-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ms",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ms-iphone-blocking.jpg"
+    },
+    {
+      "locale": "nb",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/nb-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ro",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ro-iphone-blocking.jpg"
+    },
+    {
+      "locale": "hr",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/hr-iphone-blocking.jpg"
+    },
+    {
+      "locale": "sk",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/sk-iphone-blocking.jpg"
+    },
+    {
+      "locale": "sl",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/sl-iphone-blocking.jpg"
+    },
+    {
+      "locale": "gu",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/gu-iphone-blocking.jpg"
+    },
+    {
+      "locale": "kn",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/kn-iphone-blocking.jpg"
+    },
+    {
+      "locale": "ml",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/ml-iphone-blocking.jpg"
+    },
+    {
+      "locale": "mr",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/mr-iphone-blocking.jpg"
+    },
+    {
+      "locale": "or",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/or-iphone-blocking.jpg"
+    },
+    {
+      "locale": "pa",
+      "homepage": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "guides": {
+        "status": "in-session-reviewed",
+        "complete": true,
+        "missingUnits": [],
+        "unresolvedUnits": []
+      },
+      "equivalentRawHomepageScreens": 0,
+      "localizedGuideIllustration": "/assets/guide-artwork/pa-iphone-blocking.jpg"
+    }
+  ]
+}

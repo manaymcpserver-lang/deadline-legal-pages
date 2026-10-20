@@ -3,11 +3,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { appStoreUrl, playStoreUrl } from "../../site-data";
 import { firstGuide } from "../guide-data";
+import { GuideLanguages, guideAlternates } from "../GuideLanguages";
 
 export const metadata: Metadata = {
   title: firstGuide.title,
   description: firstGuide.description,
-  alternates: { canonical: firstGuide.href },
+  alternates: { canonical: firstGuide.href, languages: guideAlternates(true) },
   authors: [{ name: "Nonlate", url: "https://nonlate.app/" }],
   openGraph: {
     type: "article",
@@ -71,6 +72,7 @@ function DownloadLinks() {
 export default function AppBlockingGuide() {
   return (
     <>
+      <GuideLanguages article />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
       <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/guides/">Guides</Link><span aria-hidden="true">/</span><span aria-current="page">App blocking</span></nav>
       <article className="guide-article">

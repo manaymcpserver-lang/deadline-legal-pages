@@ -18,6 +18,13 @@ const publicPages = new Map([
   ["/guides/", "guides/index.html"],
   ["/guides/block-distracting-apps-until-tasks-are-done/", "guides/block-distracting-apps-until-tasks-are-done/index.html"],
 ]);
+const guideLocales = JSON.parse(readFileSync(join(repoRoot, "app/guides/locales.json"), "utf8"));
+for (const locale of guideLocales.filter((locale) => locale !== "en")) {
+  publicPages.set(`/${locale}/`, `${locale}/index.html`);
+  for (const page of ['privacy','terms','support','data-deletion']) publicPages.set(`/${locale}/${page}/`, `${locale}/${page}/index.html`);
+  publicPages.set(`/guides/${locale}/`, `guides/${locale}/index.html`);
+  publicPages.set(`/guides/${locale}/block-distracting-apps-until-tasks-are-done/`, `guides/${locale}/block-distracting-apps-until-tasks-are-done/index.html`);
+}
 
 const callbackNames = [
   "airtable", "asana", "blackboard", "clickup", "github", "google_tasks", "jira", "linear",
@@ -182,7 +189,7 @@ check("homepage preserves the complete dual-platform blocker story", () => {
   for (const forbidden of ["Reminder only", "Pause blocking", "Return with intention", "View the plan", "Android coming soon", "iOS available in Mozambique"]) {
     expect(!text.includes(forbidden), `found superseded copy: ${forbidden}`);
   }
-  const source = readFileSync(join(repoRoot, "app/page.tsx"), "utf8");
+  const source = readFileSync(join(repoRoot, "app/HomePage.tsx"), "utf8");
   expect(source.includes("View tasks") && source.includes("Take a 10-minute break"), "intercept actions changed");
   expect(/onClick=\{openIntercept\}/.test(source), "missing explicit blocker-demo action");
   expect(!/nonlate-intercept-seen-v1|window\.innerHeight \* 2\.4|\bopenIntercept\s*\(/.test(source), "scroll-triggered intercept returned");

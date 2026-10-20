@@ -1,0 +1,774 @@
+{
+  "auditedAt": "2026-10-19",
+  "scope": "Existing assets only; no app changes, captures, store writes, image editing, or public page changes.",
+  "locales": 47,
+  "uniqueHomepageScreenshotSlots": 7,
+  "exactNonEnglishHomepageScreenshotLocales": 0,
+  "localizedStoreIllustrationLocales": 43,
+  "suitableForAutomaticRawHomepageReplacement": false,
+  "coverage": {
+    "en": {
+      "exactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "missingExactHomepageScreens": [],
+      "guideStoreIllustration": null,
+      "note": "Existing original homepage assets."
+    },
+    "es": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/es-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "fr": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/fr-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "hi": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/hi-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ar": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ar-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "zh-Hans": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/zh-Hans-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "pt-BR": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/pt-BR-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "pt-PT": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/pt-PT-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "de": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/de-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ja": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ja-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "id": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/id-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ru": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ru-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ko": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ko-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "it": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/it-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "tr": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/tr-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "vi": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/vi-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "pl": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/pl-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "fa": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": null,
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "th": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/th-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "nl": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/nl-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "uk": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/uk-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "bn": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/bn-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ur": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": null,
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ta": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ta-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "te": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/te-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "zh-Hant": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/zh-Hant-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "he": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/he-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "fil": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": null,
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "cs": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/cs-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "sv": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/sv-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ca": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ca-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "da": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/da-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "fi": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/fi-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "el": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/el-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "hu": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/hu-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ms": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ms-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "nb": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/nb-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ro": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ro-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "hr": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/hr-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "sk": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/sk-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "sl": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/sl-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "gu": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/gu-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "kn": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/kn-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "ml": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/ml-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "mr": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/mr-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "or": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/or-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    },
+    "pa": {
+      "exactHomepageScreens": [],
+      "missingExactHomepageScreens": [
+        "ios-home",
+        "ios-tasks",
+        "ios-planner",
+        "ios-blocker",
+        "android-schedule",
+        "android-blocker",
+        "android-insights"
+      ],
+      "guideStoreIllustration": "/assets/guide-artwork/pa-iphone-blocking.jpg",
+      "note": "Do not claim an English image is translated. Store illustrations are not equivalent raw device screenshots."
+    }
+  },
+  "qaCaptures": [
+    {
+      "locale": "ar",
+      "platform": "iOS",
+      "screen": "schedule_0",
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/unified-calendars-2026-10-12/localized-screenshots/7A440CB7-6043-4D6F-AFF9-A09FF6551CBE.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "9a14cb4ab3b93ec1eca19e39f35c0033c608bd18d4c72cad9d05b5e44dab2b12",
+      "kind": "real-device-large-text-QA-capture",
+      "testIdentifier": "UnifiedCalendarUITests/testTranslatedYearHeadersAndLargeText()",
+      "equivalentHomepageScreenshot": false,
+      "reason": "Large-text QA capture with test content and status/call indicators; not the same view/content as the homepage screenshot."
+    },
+    {
+      "locale": "ar",
+      "platform": "iOS",
+      "screen": "planner_0",
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/unified-calendars-2026-10-12/localized-screenshots/448DAD86-50C3-458B-912D-4D10F4E5DD81.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "ec2e91ad9b7756f6674f3cbf47b9ce2067363c1bb37dcb39b82660a7fc3d3d05",
+      "kind": "real-device-large-text-QA-capture",
+      "testIdentifier": "UnifiedCalendarUITests/testTranslatedYearHeadersAndLargeText()",
+      "equivalentHomepageScreenshot": false,
+      "reason": "Large-text QA capture with test content and status/call indicators; not the same view/content as the homepage screenshot."
+    },
+    {
+      "locale": "ar",
+      "platform": "iOS",
+      "screen": "tasks_0",
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/unified-calendars-2026-10-12/localized-screenshots/62B91A55-BB5B-4839-BABC-F5287438B469.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "c6a1d6cdaa09c91c4c3fb943eaa43877d55065c9575ebe89ee130021246848c4",
+      "kind": "real-device-large-text-QA-capture",
+      "testIdentifier": "UnifiedCalendarUITests/testTranslatedYearHeadersAndLargeText()",
+      "equivalentHomepageScreenshot": false,
+      "reason": "Large-text QA capture with test content and status/call indicators; not the same view/content as the homepage screenshot."
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iOS",
+      "screen": "schedule_0",
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/unified-calendars-2026-10-12/localized-screenshots/83166745-26CF-4CA8-9A8A-7D12A6C0D6F2.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "abd3ae318db1d99efdb64b21c3d5ee8688a778765191ce044df937ece6875ec4",
+      "kind": "real-device-large-text-QA-capture",
+      "testIdentifier": "UnifiedCalendarUITests/testTranslatedYearHeadersAndLargeText()",
+      "equivalentHomepageScreenshot": false,
+      "reason": "Large-text QA capture with test content and status/call indicators; not the same view/content as the homepage screenshot."
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iOS",
+      "screen": "planner_0",
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/unified-calendars-2026-10-12/localized-screenshots/4EBBE824-EA7F-4E72-8B3D-D2B83D87D2A4.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "09579e7000b608ffb0dc9d0c7c64232aa94af34526492e6286f2fe3935388b1d",
+      "kind": "real-device-large-text-QA-capture",
+      "testIdentifier": "UnifiedCalendarUITests/testTranslatedYearHeadersAndLargeText()",
+      "equivalentHomepageScreenshot": false,
+      "reason": "Large-text QA capture with test content and status/call indicators; not the same view/content as the homepage screenshot."
+    },
+    {
+      "locale": "pt-PT",
+      "platform": "iOS",
+      "screen": "tasks_0",
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/unified-calendars-2026-10-12/localized-screenshots/96EC5651-FBC2-4A86-9437-F4608F1E1BBA.png",
+      "width": 1290,
+      "height": 2796,
+      "sha256": "9a5b4539764f18828e8dca76e2ad0c87ee7abafb93375bc231ad5bf288abdeeb",
+      "kind": "real-device-large-text-QA-capture",
+      "testIdentifier": "UnifiedCalendarUITests/testTranslatedYearHeadersAndLargeText()",
+      "equivalentHomepageScreenshot": false,
+      "reason": "Large-text QA capture with test content and status/call indicators; not the same view/content as the homepage screenshot."
+    }
+  ],
+  "otherQACandidates": [
+    {
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/production-audit-2026-10-15/android/screenshots/release-portuguese-large-Agenda.png",
+      "width": 1080,
+      "height": 2340,
+      "equivalentHomepageScreenshot": false
+    },
+    {
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/production-audit-2026-10-15/android/screenshots/release-portuguese-large-Planeador.png",
+      "width": 1080,
+      "height": 2340,
+      "equivalentHomepageScreenshot": false
+    },
+    {
+      "file": "/Users/manay/Desktop/DeadLine/artifacts/production-audit-2026-10-15/android/signed-release-final/portuguese-home.png",
+      "width": 1080,
+      "height": 2340,
+      "equivalentHomepageScreenshot": false
+    }
+  ],
+  "illustrationProvenance": [
+    "release/submission-preparation-2026-10-18/planner-artwork/manifest.json explicitly identifies rendered marketing artwork, not live-account/device captures.",
+    "release/ios-localization-expansion/manifest.json identifies the original HTML marketing templates.",
+    "app/guides/artwork.json records 43 localized App Store blocker illustrations and their provenance hashes."
+  ]
+}

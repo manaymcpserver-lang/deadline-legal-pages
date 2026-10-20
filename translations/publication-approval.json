@@ -1,0 +1,561 @@
+{
+  "date": "2026-10-19",
+  "userAuthorizedPublication": true,
+  "paidTranslationServicesUsed": false,
+  "nativeSpeakerCertification": false,
+  "dictionaries": [
+    {
+      "category": "homepage",
+      "locale": "es"
+    },
+    {
+      "category": "homepage",
+      "locale": "fr"
+    },
+    {
+      "category": "homepage",
+      "locale": "hi"
+    },
+    {
+      "category": "homepage",
+      "locale": "ar"
+    },
+    {
+      "category": "homepage",
+      "locale": "zh-Hans"
+    },
+    {
+      "category": "homepage",
+      "locale": "pt-BR"
+    },
+    {
+      "category": "homepage",
+      "locale": "pt-PT"
+    },
+    {
+      "category": "homepage",
+      "locale": "de"
+    },
+    {
+      "category": "homepage",
+      "locale": "ja"
+    },
+    {
+      "category": "homepage",
+      "locale": "id"
+    },
+    {
+      "category": "homepage",
+      "locale": "ru"
+    },
+    {
+      "category": "homepage",
+      "locale": "ko"
+    },
+    {
+      "category": "homepage",
+      "locale": "it"
+    },
+    {
+      "category": "homepage",
+      "locale": "tr"
+    },
+    {
+      "category": "homepage",
+      "locale": "vi"
+    },
+    {
+      "category": "homepage",
+      "locale": "pl"
+    },
+    {
+      "category": "homepage",
+      "locale": "fa"
+    },
+    {
+      "category": "homepage",
+      "locale": "th"
+    },
+    {
+      "category": "homepage",
+      "locale": "nl"
+    },
+    {
+      "category": "homepage",
+      "locale": "uk"
+    },
+    {
+      "category": "homepage",
+      "locale": "bn"
+    },
+    {
+      "category": "homepage",
+      "locale": "ur"
+    },
+    {
+      "category": "homepage",
+      "locale": "ta"
+    },
+    {
+      "category": "homepage",
+      "locale": "te"
+    },
+    {
+      "category": "homepage",
+      "locale": "zh-Hant"
+    },
+    {
+      "category": "homepage",
+      "locale": "he"
+    },
+    {
+      "category": "homepage",
+      "locale": "fil"
+    },
+    {
+      "category": "homepage",
+      "locale": "cs"
+    },
+    {
+      "category": "homepage",
+      "locale": "sv"
+    },
+    {
+      "category": "homepage",
+      "locale": "ca"
+    },
+    {
+      "category": "homepage",
+      "locale": "da"
+    },
+    {
+      "category": "homepage",
+      "locale": "fi"
+    },
+    {
+      "category": "homepage",
+      "locale": "el"
+    },
+    {
+      "category": "homepage",
+      "locale": "hu"
+    },
+    {
+      "category": "homepage",
+      "locale": "ms"
+    },
+    {
+      "category": "homepage",
+      "locale": "nb"
+    },
+    {
+      "category": "homepage",
+      "locale": "ro"
+    },
+    {
+      "category": "homepage",
+      "locale": "hr"
+    },
+    {
+      "category": "homepage",
+      "locale": "sk"
+    },
+    {
+      "category": "homepage",
+      "locale": "sl"
+    },
+    {
+      "category": "homepage",
+      "locale": "gu"
+    },
+    {
+      "category": "homepage",
+      "locale": "kn"
+    },
+    {
+      "category": "homepage",
+      "locale": "ml"
+    },
+    {
+      "category": "homepage",
+      "locale": "mr"
+    },
+    {
+      "category": "homepage",
+      "locale": "or"
+    },
+    {
+      "category": "homepage",
+      "locale": "pa"
+    },
+    {
+      "category": "guides",
+      "locale": "es"
+    },
+    {
+      "category": "guides",
+      "locale": "fr"
+    },
+    {
+      "category": "guides",
+      "locale": "hi"
+    },
+    {
+      "category": "guides",
+      "locale": "ar"
+    },
+    {
+      "category": "guides",
+      "locale": "zh-Hans"
+    },
+    {
+      "category": "guides",
+      "locale": "pt-BR"
+    },
+    {
+      "category": "guides",
+      "locale": "pt-PT"
+    },
+    {
+      "category": "guides",
+      "locale": "de"
+    },
+    {
+      "category": "guides",
+      "locale": "ja"
+    },
+    {
+      "category": "guides",
+      "locale": "id"
+    },
+    {
+      "category": "guides",
+      "locale": "ru"
+    },
+    {
+      "category": "guides",
+      "locale": "ko"
+    },
+    {
+      "category": "guides",
+      "locale": "it"
+    },
+    {
+      "category": "guides",
+      "locale": "tr"
+    },
+    {
+      "category": "guides",
+      "locale": "vi"
+    },
+    {
+      "category": "guides",
+      "locale": "pl"
+    },
+    {
+      "category": "guides",
+      "locale": "fa"
+    },
+    {
+      "category": "guides",
+      "locale": "th"
+    },
+    {
+      "category": "guides",
+      "locale": "nl"
+    },
+    {
+      "category": "guides",
+      "locale": "uk"
+    },
+    {
+      "category": "guides",
+      "locale": "bn"
+    },
+    {
+      "category": "guides",
+      "locale": "ur"
+    },
+    {
+      "category": "guides",
+      "locale": "ta"
+    },
+    {
+      "category": "guides",
+      "locale": "te"
+    },
+    {
+      "category": "guides",
+      "locale": "zh-Hant"
+    },
+    {
+      "category": "guides",
+      "locale": "he"
+    },
+    {
+      "category": "guides",
+      "locale": "fil"
+    },
+    {
+      "category": "guides",
+      "locale": "cs"
+    },
+    {
+      "category": "guides",
+      "locale": "sv"
+    },
+    {
+      "category": "guides",
+      "locale": "ca"
+    },
+    {
+      "category": "guides",
+      "locale": "da"
+    },
+    {
+      "category": "guides",
+      "locale": "fi"
+    },
+    {
+      "category": "guides",
+      "locale": "el"
+    },
+    {
+      "category": "guides",
+      "locale": "hu"
+    },
+    {
+      "category": "guides",
+      "locale": "ms"
+    },
+    {
+      "category": "guides",
+      "locale": "nb"
+    },
+    {
+      "category": "guides",
+      "locale": "ro"
+    },
+    {
+      "category": "guides",
+      "locale": "hr"
+    },
+    {
+      "category": "guides",
+      "locale": "sk"
+    },
+    {
+      "category": "guides",
+      "locale": "sl"
+    },
+    {
+      "category": "guides",
+      "locale": "gu"
+    },
+    {
+      "category": "guides",
+      "locale": "kn"
+    },
+    {
+      "category": "guides",
+      "locale": "ml"
+    },
+    {
+      "category": "guides",
+      "locale": "mr"
+    },
+    {
+      "category": "guides",
+      "locale": "or"
+    },
+    {
+      "category": "guides",
+      "locale": "pa"
+    },
+    {
+      "category": "legal",
+      "locale": "es"
+    },
+    {
+      "category": "legal",
+      "locale": "fr"
+    },
+    {
+      "category": "legal",
+      "locale": "hi"
+    },
+    {
+      "category": "legal",
+      "locale": "ar"
+    },
+    {
+      "category": "legal",
+      "locale": "zh-Hans"
+    },
+    {
+      "category": "legal",
+      "locale": "pt-BR"
+    },
+    {
+      "category": "legal",
+      "locale": "pt-PT"
+    },
+    {
+      "category": "legal",
+      "locale": "de"
+    },
+    {
+      "category": "legal",
+      "locale": "ja"
+    },
+    {
+      "category": "legal",
+      "locale": "id"
+    },
+    {
+      "category": "legal",
+      "locale": "ru"
+    },
+    {
+      "category": "legal",
+      "locale": "ko"
+    },
+    {
+      "category": "legal",
+      "locale": "it"
+    },
+    {
+      "category": "legal",
+      "locale": "tr"
+    },
+    {
+      "category": "legal",
+      "locale": "vi"
+    },
+    {
+      "category": "legal",
+      "locale": "pl"
+    },
+    {
+      "category": "legal",
+      "locale": "fa"
+    },
+    {
+      "category": "legal",
+      "locale": "th"
+    },
+    {
+      "category": "legal",
+      "locale": "nl"
+    },
+    {
+      "category": "legal",
+      "locale": "uk"
+    },
+    {
+      "category": "legal",
+      "locale": "bn"
+    },
+    {
+      "category": "legal",
+      "locale": "ur"
+    },
+    {
+      "category": "legal",
+      "locale": "ta"
+    },
+    {
+      "category": "legal",
+      "locale": "te"
+    },
+    {
+      "category": "legal",
+      "locale": "zh-Hant"
+    },
+    {
+      "category": "legal",
+      "locale": "he"
+    },
+    {
+      "category": "legal",
+      "locale": "fil"
+    },
+    {
+      "category": "legal",
+      "locale": "cs"
+    },
+    {
+      "category": "legal",
+      "locale": "sv"
+    },
+    {
+      "category": "legal",
+      "locale": "ca"
+    },
+    {
+      "category": "legal",
+      "locale": "da"
+    },
+    {
+      "category": "legal",
+      "locale": "fi"
+    },
+    {
+      "category": "legal",
+      "locale": "el"
+    },
+    {
+      "category": "legal",
+      "locale": "hu"
+    },
+    {
+      "category": "legal",
+      "locale": "ms"
+    },
+    {
+      "category": "legal",
+      "locale": "nb"
+    },
+    {
+      "category": "legal",
+      "locale": "ro"
+    },
+    {
+      "category": "legal",
+      "locale": "hr"
+    },
+    {
+      "category": "legal",
+      "locale": "sk"
+    },
+    {
+      "category": "legal",
+      "locale": "sl"
+    },
+    {
+      "category": "legal",
+      "locale": "gu"
+    },
+    {
+      "category": "legal",
+      "locale": "kn"
+    },
+    {
+      "category": "legal",
+      "locale": "ml"
+    },
+    {
+      "category": "legal",
+      "locale": "mr"
+    },
+    {
+      "category": "legal",
+      "locale": "or"
+    },
+    {
+      "category": "legal",
+      "locale": "pa"
+    }
+  ],
+  "englishPolicyUrlsPreserved": true
+}

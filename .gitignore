@@ -4,3 +4,8 @@ node_modules/
 out/
 npm-debug.log*
 *.tsbuildinfo
+__pycache__/
+*.pyc
+# Local store-console inventories and audit screenshots are not site content.
+translations/*.png
+translations/android-store-inventory.json

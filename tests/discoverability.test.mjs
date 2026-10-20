@@ -6,7 +6,7 @@ const root = new URL("../", import.meta.url);
 
 test("public product reference stays factual and points to visible product information", async () => {
   const reference = await readFile(new URL("public/llms.txt", root), "utf8");
-  const page = await readFile(new URL("app/page.tsx", root), "utf8");
+  const page = await readFile(new URL("app/HomePage.tsx", root), "utf8");
 
   assert.match(reference, /^# Nonlate\n/);
   assert.match(reference, /deadline-aware planning and app-blocking/);
@@ -38,6 +38,6 @@ test("search metadata preserves canonical origin and separates product identity 
   assert.match(layout, /alternates: \{ canonical: "\/" \}/);
   assert.match(layout, /More connected\. Less distracted\./);
   assert.match(layout, /Stay ahead of what’s due/);
-  assert.match(layout, /<html lang="en">/);
+  assert.match(layout, /<html lang="en"(?:\s|>)/);
   assert.doesNotMatch(layout, /available worldwide|download (?:now|today)|aggregateRating|reviewCount/i);
 });

@@ -1,0 +1,4643 @@
+{
+  "kind": "Existing localized App Store and Google Play illustrations, not raw device captures",
+  "policy": "Use matching language, platform and screen; otherwise label the original English screenshot.",
+  "assets": {
+    "cs": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/cs-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "cs",
+        "sha256": "6be8446ff0b79004a9e866a6c9fef07836148e8b70a7170330bff7bc4b91032e",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "cs",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/cs-ios-home.jpg",
+        "language": "cs",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "7d7315a9-4eb9-4c7c-9485-503eac08e37c",
+          "fileName": "01-home.png"
+        },
+        "sha256": "0bbdacf0b235038baa1948bb450ebd00a65b4bba512ece4e730c541ce8f4b735"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/cs-ios-planner.jpg",
+        "language": "cs",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "de53769a-2483-45f8-ba44-f17bdede5861",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "a71accfd10642103c197e7180ed9673ef233c87090e4f1332330f83e2e21c863"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/cs-android-blocker.png",
+        "language": "cs",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "cs-CZ",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/7tH3pINePCFtxfN9no2B-9RfROcKTEC1USRA4v1fnIFXlyBI3vYy8bgfbX2cDRcYU75ApQyYiLn2SBFK83B9Gw=s1920"
+        },
+        "sha256": "1ed7edddf3bfec540b7d7eb0898ba7055dc14f72df2474289443ded69511a136"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/cs-android-schedule.png",
+        "language": "cs",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "cs-CZ",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/Ci5BvbufciTCkTbo9mTrIYi6zNicEjKzxR8isTJ6lVdp51NZF5QKY3jfWaHJunAE3ZQQNDpYvojJ862n0Z8i=s1920"
+        },
+        "sha256": "0d88fa4b90613410fdde1ca13bf0158b17a57d09868e3be9e28f36730ab33ec3"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/cs-android-insights.png",
+        "language": "cs",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "cs-CZ",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/EbsNS-PIKCP7SeaDCokxaQulbNhWEn4Ewdhw5VviRiECVJOcG-33P9GMQjD-27ncGmL50bg2DsJSDOVk1Xdv=s1920"
+        },
+        "sha256": "2bc839fe0cccc879a443735b7366df0206c7e5a8b1b80029726f5303fffb0af1"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/cs-ios-tasks-website.jpg",
+        "language": "cs",
+        "locale": "cs",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/cs/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "988bfd124bce87efb4841096b187fe5741c0b0943d697b84a17d6a2f7e916410"
+      }
+    },
+    "ru": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ru-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ru",
+        "sha256": "aba389b8e1347ffbb1606b96a7ced774968c5d1776b62822b23ed1778a4b74e6",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "ru",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ru-ios-home.jpg",
+        "language": "ru",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "0c972ab9-af74-4d7e-bc2b-8bd4677a5501",
+          "fileName": "01-home.png"
+        },
+        "sha256": "45f50be312ba0b98fbc0ff35d006941b02639542186b7c43222e67b89de582eb"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ru-ios-planner.jpg",
+        "language": "ru",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "d323c7e6-437c-430e-90e4-214850ce01d9",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "5641eef8a7bfd40e0b2078eda79261f6bbb38c7b3881768c128518a20e068782"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ru-android-blocker.png",
+        "language": "ru",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ru-RU",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/iNujAiiEflVlUC-VAD62TKut5p2jptcgY1MyKthIcgnpCd8-65DYEfJSHxUm8XL-6Knz9Q2RK5FIKYW3aPky3bs=s1920"
+        },
+        "sha256": "1c8a4a857365bcc728dba8348df1767db11de7952b7321345e5a187ad6520177"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ru-android-schedule.png",
+        "language": "ru",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ru-RU",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/gSDwqHO2h6-nRYseC6CdpE-ml7EdMW0Kj8F86IfPc4aDK5L-t0A3SpAQgIU1moQrzA7fXkoYcDM9o8qY8ThtcQ=s1920"
+        },
+        "sha256": "686c2d36f54f2fec559cb7f8649f6b7686218c51257ffc6efcaab1f82fd0dbfb"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ru-android-insights.png",
+        "language": "ru",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ru-RU",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/zKl9mJazs-JlHS1o427Xr5Gn6dJhcSFTCOIu8KFnErQ-MvHWoReHXOlR2oSIYaBxWlIctk6HGx5dBVB2RZLceQ=s1920"
+        },
+        "sha256": "3f1dca9d42eb7e34a64ffbd9623eaf826d7a5ddd504248672e7682496a0b9373"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ru-ios-tasks-website.jpg",
+        "language": "ru",
+        "locale": "ru",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ru/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "fbbddda04a861d2d3ab62d182ed4c9bbef163d56dfbb37b56f9a4efffe1c03be"
+      }
+    },
+    "zh-Hant": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/zh-Hant-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "zh-Hant",
+        "sha256": "082daa1c96fd45f89c3e249333d4b9a8f9888efe287047b8ad3e51f52cef3fcc",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "zh-Hant",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/zh-Hant-ios-home.jpg",
+        "language": "zh-Hant",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "1f175020-7a43-46c5-ab24-bece8fe6e142",
+          "fileName": "01-home.png"
+        },
+        "sha256": "0f42ee9f9f556fd8398a7a1328967c57b1f25b9bd6074ee2d8d1f1555bf5948d"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/zh-Hant-ios-planner.jpg",
+        "language": "zh-Hant",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "b7e6695f-1486-4910-8d4c-c069314c62af",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "854f86f067f1ee240628e1175605f17dd4110ebbc15a54e8cca0839a7a4c1230"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/zh-Hant-android-blocker.png",
+        "language": "zh-Hant",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "zh-TW",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/MDDUbqd1JDMuguWsEHc62HVLe3KeTmfvo4uuf8Zp-4V0WWniyRbse75WFkzGEekDKqmbYcYH5dKIkohvYBDMfw=s1920"
+        },
+        "sha256": "e126bae8708c209113b930acdce0d2526f9426fcf953350e60693ae96d6d3ae4"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/zh-Hant-android-schedule.png",
+        "language": "zh-Hant",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "zh-TW",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/_O8_0hig4mHtzBBARrAlRygaay9jI6UtYZczRaEluQfXqC5X47KOfOySQlBjVui3GVTCYhvrlcgjG8BODjx7dQ=s1920"
+        },
+        "sha256": "e3287bba997d10d502375f43a979dad3aa39c11a07ca3d1d589e67231efdf722"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/zh-Hant-android-insights.png",
+        "language": "zh-Hant",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "zh-TW",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/NhoomcEdI4fGgBa66TrvrX6Wr3OEOQqYPbCens12tmUwv42marN9ukiZofQFlvee8qq7kMXqH5k0-Ro5YUSdok8=s1920"
+        },
+        "sha256": "586ff6c2e7d9b5d4ad044b9ab7d9a39dbe9a81cea9e9ca1b827605b876df780a"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/zh-Hant-ios-tasks-website.jpg",
+        "language": "zh-Hant",
+        "locale": "zh-Hant",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/zh-Hant/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "dde8cce120e0ae065a7674d1b015e4fc6555cc4a1f046392ae63c34ab9941ea6"
+      }
+    },
+    "uk": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/uk-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "uk",
+        "sha256": "f75acf03c91ebabaae00853e43d627ffbb6d7a6b6ce09936b39e5a254d3d80b8",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "uk",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/uk-ios-home.jpg",
+        "language": "uk",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "975c9ce8-bfa7-467b-bba3-7188b22568f5",
+          "fileName": "01-home.png"
+        },
+        "sha256": "9a3fa6829db7f57ce9be1ae23db68f4eb7542f68e71556c7764ddc50ebcca0b6"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/uk-ios-planner.jpg",
+        "language": "uk",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "d6c4ecb0-3918-473c-8120-5765d48af526",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "eda60083c2986ebe76785abcc8e66f71a3da5abed8e32b74eb3772df9ed8b792"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/uk-android-blocker.png",
+        "language": "uk",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "uk",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/8U-ukiRFgZbfnhx5CUQawp4vo9FRMJo136ylppWYH9OLUJt5cXKoD9AN6YMeyE0QP6ksaG2yWMkbbETz9tZVWw=s1920"
+        },
+        "sha256": "99823f7af24d65c7c639bd56637aa220a4c1545458c8e8a4ac94c616d47415e0"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/uk-android-schedule.png",
+        "language": "uk",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "uk",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/EMjQ6vVH1pzQSMXlAzy5FgXravQ0I__n3gyYWhgWc6Pb6IFBE7KtCc8iftyfwgq7cgatJzNkRl-GB_zPCe7y=s1920"
+        },
+        "sha256": "02989b86228f318f60a2632257e9b80ffe1875e1bcdd4f5532142370ebbceee5"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/uk-android-insights.png",
+        "language": "uk",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "uk",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/we8GUqjXw5AF-TKXfAfN16Ljq2g_lffxhe-9EFL9bDVOyWqrTx9q7z9375Vu5nUjQbhufQhPqn0cOXfVwmV14g=s1920"
+        },
+        "sha256": "cb56ee290703160ad9cacbc3b2e22b9681cdb194cfafd88ab0741e0424456de1"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/uk-ios-tasks-website.jpg",
+        "language": "uk",
+        "locale": "uk",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/uk/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "944666c56bd055b4ec8d01539405e45bc6fada3dc03bbf4c46a11e2a5f0d7181"
+      }
+    },
+    "vi": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/vi-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "vi",
+        "sha256": "eb89f368c6dbd49a551057bcf13c64ac4d57838b13cbdfb5545a1585c92e7a3d",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "vi",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/vi-ios-home.jpg",
+        "language": "vi",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "fb0d72e0-40e2-4f1c-91d7-2dbb2345bfad",
+          "fileName": "01-home.png"
+        },
+        "sha256": "0689709ce0d99d9cd8e032e98540f699c07e107ed487d836b88ab8fd46fca4a7"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/vi-ios-planner.jpg",
+        "language": "vi",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "969cc3dc-0f30-4573-9867-8bfad4f799c5",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "a788b1419eae223744d6e82b4380e89ca24c9257ccc22e8b307dd8dd0fa2ebaa"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/vi-android-blocker.png",
+        "language": "vi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "vi",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/quKidpAVqRXcA3KKF9svjyQGjAgZssQ6LwsR8aUnsssZIbHU3PYKMCNZGwq_PXVxbsazkHZ1zaVjAu3xIBKp=s1920"
+        },
+        "sha256": "8aa9d59bc50d9e1ed9aabe5aa3681459102a31714b0a85c2bffed88085583647"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/vi-android-schedule.png",
+        "language": "vi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "vi",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/IoNEFUVY6fhWFsnnhiRWu-y5jsf5TfgGlKxFLAxJS7RxLw--4dG9k1HOCBxUkpDijWslfEzfZz4uGksDQxx-lA=s1920"
+        },
+        "sha256": "3b7fe5431c9ececcbfdee4f1805b01339c7285f1d011e9247b613b75d7eedbc5"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/vi-android-insights.png",
+        "language": "vi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "vi",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/FwrKHJQTwqICO6RwNRubqP5eEQjN0dQz2GJnijkuQ_lzne8AJ_BZkk8ISMlUqiDqg24uUEbevTslWqYgBQPEj44=s1920"
+        },
+        "sha256": "73e59690f9f98ef22c854b596c93bb584e1fb5af05ddf417658d07cdfc72916e"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/vi-ios-tasks-website.jpg",
+        "language": "vi",
+        "locale": "vi",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/vi/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "83e0de53f5cbcdb1c5a0ee81a608d7eaedf0977bfa675de70debccec3eec906d"
+      }
+    },
+    "ta": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ta-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ta",
+        "sha256": "e4afd7bccd91034d0e929c6f78f68170ce5041169c357db102301eb6b656201f",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "ta",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ta-ios-home.jpg",
+        "language": "ta",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "c4d1dfee-4123-4855-86c0-225e77328220",
+          "fileName": "01-home.png"
+        },
+        "sha256": "3f27bc1c105c86f5fbd070594c524e771b84ca9683854ae38190493777013f08"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ta-ios-planner.jpg",
+        "language": "ta",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "cad4b5a8-97fe-439c-af59-f558e7f1ae6f",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "d74c1d62607ad5deb25f7568476f2dbb551a28824f63aea755328417cf00625f"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ta-android-blocker.png",
+        "language": "ta",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ta-IN",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/Gq1hzk2wuHhQ5GyBs5aHsvKyExHEkEvte4krmXoonCMyNU4uwD3v1JBDrMeaoDLxHBDxlAgUyZlBv0JNaisay3E=s1920"
+        },
+        "sha256": "e532a4244f9e6140c3af3b3b09c073e30f8852e0f8e00de0b40bcc9fbd3b6358"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ta-android-schedule.png",
+        "language": "ta",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ta-IN",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/FNMKRTqQsOgMPoaQp2YWxJHBIuYEpThJp99sqXzB0GKvLyW3M6r2D91BSsH1rXFV2Q_UHoCA0TVAjExUbnSsLQ=s1920"
+        },
+        "sha256": "33549fa8aea152c07db6e74f626a2e6a3e34e699dfc56116d2a188dfb3a0d7f3"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ta-android-insights.png",
+        "language": "ta",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ta-IN",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/Ij6CvXDy_WYrt_QsQ49kI3YMQC1aM9pR5fkAlDTKriSu5AZT-DhU1db3FQso0kNYyyjKBD9VST80QyrLUIcSYg=s1920"
+        },
+        "sha256": "9a799f90a90e2f2a50e4b58ff211a0e61e38dcef623fb3eb9ad5c53401d1ff29"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ta-ios-tasks-website.jpg",
+        "language": "ta",
+        "locale": "ta",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ta/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "7b334e00e460c5a13e649f7436234e090790277470c38bcff70e87327ff7571d"
+      }
+    },
+    "ko": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ko-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ko",
+        "sha256": "7e578d45655e8ccd069563ba465442793dd2f10dcff649f3768b400c7d0ac138",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "ko",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ko-ios-home.jpg",
+        "language": "ko",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "9f6bdad4-3a2f-486f-a964-64146e2b7760",
+          "fileName": "01-home.png"
+        },
+        "sha256": "284d60b1438f01f1671b247b1ee4531474bf98fb8c1f5d1565b35c16cd055364"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ko-ios-planner.jpg",
+        "language": "ko",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "16c9fe20-a09b-4beb-a260-e11351a5d871",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "b2cb7234fe9e9ea07d6e47aff8c21cccaf398de2bfbe2b3e9bacc8c951b80b16"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ko-android-blocker.png",
+        "language": "ko",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ko-KR",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/KYF1PVeccWwxl1Nui0_sVcetO5I4jjyr2JF9P-S3n9B3msHV2zFwa7WqEQiYxqY6ma1ork_k8rRIYzptBdTS=s1920"
+        },
+        "sha256": "a7adb7da188b539e8242eb7281121be6a405c35a8745a8b76d28cc36cffb32ae"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ko-android-schedule.png",
+        "language": "ko",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ko-KR",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/rRHmXoR1SjoKFxB2NuZp4UcM-l_XE2Ehdbhi1CajQhifUsMUScSokG9hZ0BHf2XX8tsuNSyT75pXne5bywUE7g=s1920"
+        },
+        "sha256": "aa9152979fade6b4dc1d53e8844a953366a10fe889d44b8bf8f9d59a6d10404f"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ko-android-insights.png",
+        "language": "ko",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ko-KR",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/lZhqkPN9agfIZt4Ypy_yWeEL-QLXtAPf4nEgHw7pjzk6j94KGZryuHfOJWJcxg6vOtPv0Q8IQbrB9fYqY9H2=s1920"
+        },
+        "sha256": "382b76b1f7acf054cfb761255a5d474653920db166c0ce8c4d86f740b7579925"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ko-ios-tasks-website.jpg",
+        "language": "ko",
+        "locale": "ko",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ko/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "dd600d7c52462d039696fc908a1efaa0238484c2c8c2714287dafea34e768c87"
+      }
+    },
+    "te": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/te-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "te",
+        "sha256": "4cb27f60716e3f26d387880b43dab4d812da2e7578016ac35661897008c49b3c",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "te",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/te-ios-home.jpg",
+        "language": "te",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "5b68f47e-f071-4ce6-94f9-2887ab925516",
+          "fileName": "01-home.png"
+        },
+        "sha256": "0e282c93c68e99fecdb264e3251c8e1cdf60cfa51c127a8048959b5d10d665c6"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/te-ios-planner.jpg",
+        "language": "te",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "1dff5dca-1228-496a-a620-1a498bf5ef27",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "d4bc79b18f4938ca14bd9600923efd94513b1380fcfcd7238a7851d97d33b8f3"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/te-android-blocker.png",
+        "language": "te",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "te-IN",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/5J_t4Y7biZHtrhsomsoJVvHZheoCws4aXxPWAX1YfgO-nkyNvLy4zXwdnMmdX8uz7aRT4XvB6QuFrqohcLN_PA=s1920"
+        },
+        "sha256": "d9bca5134a2af5fdedc693c5a935267b5ce5709b86f75a6c54b0a0afcb6df6aa"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/te-android-schedule.png",
+        "language": "te",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "te-IN",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/mkueKZ23-tpZ9GczI9OLd_T1wkcHN43KMa0szzMxnRiI63jKEJhH8kRaDo7uYvxRGgzM40klt6gM_S8-rBZl1sQ=s1920"
+        },
+        "sha256": "2f5d6bb06ed97ef8eb03fa5d2726e2109fd3b7c371df8052081405c971c4d829"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/te-android-insights.png",
+        "language": "te",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "te-IN",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/yih49xDW4gZNJWwUeTd-CvfWl4-ocZzS8W7CI27rtWJKS_cTLjhnKnMpe5S2-gPK_ao5mZFDA70JVtSRaGCzMw=s1920"
+        },
+        "sha256": "c53d0791809221b622a4015df59de3263c3d8fd0f7b01235787a0ee444e9daa6"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/te-ios-tasks-website.jpg",
+        "language": "te",
+        "locale": "te",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/te/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "434ae4a11893574209c36828637590efa4b23cc8f099535bb034007b370cda8c"
+      }
+    },
+    "he": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/he-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "he",
+        "sha256": "8ddc93aef13e5a108935450429de8db08c1f868fd137efd72ec2bade99712000",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "he",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/he-ios-home.jpg",
+        "language": "he",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "b60332d4-d3f1-49aa-8a42-53f89a2c76ce",
+          "fileName": "01-home.png"
+        },
+        "sha256": "7f6eefa683acbf536bdfd3e0b26b2bad377517f23d88991d97c4d368aafa3444"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/he-ios-planner.jpg",
+        "language": "he",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "d902283f-463f-4599-9469-14119d1e43ed",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "94ff04020fd0f139c21c7870f7fe614ba41dff641be2feb336d2f9e9a22a8ad3"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/he-android-blocker.png",
+        "language": "he",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "iw-IL",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/WbLg-eZ2N-rHwK6IyjPKu_lKBV9WKUhq0C0Sa9L0uREi9yb5T9xsMw0ODSnvrIoaNnj6Cl1f2ImEgsMV1qRFVA=s1920"
+        },
+        "sha256": "0e8d102632bd37773b2fbc366ec1035632cda75bbf3f6dbbc40fe28b0d453551"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/he-android-schedule.png",
+        "language": "he",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "iw-IL",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/5cB1IT266VptbYeDgpsCyaRYdRc1NE8yYfWCR8y40cs4MBwenQXs424Tgc8yBniN0IExjiSrs2A4h6wPX_oatb0=s1920"
+        },
+        "sha256": "623e6cfe6fc7e80c89e0826ac572c33c627add4c9b45dd7aeabc46830057f42a"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/he-android-insights.png",
+        "language": "he",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "iw-IL",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/WILpz9k-sgmGGf1iJ_vxTfwjn3JCLx6jPQeVYRtYdHoiaex9pKYV3eHAdVGJz-W5yxn-sq0mBqkzSHKvzUYN2w=s1920"
+        },
+        "sha256": "5f7b3286f86c09cd2f1be5fb19466ac3285fe69ea1bf044c7e43fe24407e6b2b"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/he-ios-tasks-website.jpg",
+        "language": "he",
+        "locale": "he",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/he/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "e2c2852e2149ff9a8690654633ac31b3133c026f4871f428de6ed4d9a9dc1c50"
+      }
+    },
+    "pl": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/pl-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "pl",
+        "sha256": "22906bb680ee84c969661c0ba5ee7e30e006d01f8b0645fbc3bd390348105553",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "pl",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/pl-ios-home.jpg",
+        "language": "pl",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "b462b83b-4c0d-47a0-9fda-dc1f25b9d4ac",
+          "fileName": "01-home.png"
+        },
+        "sha256": "acb8d4c2a21a09df97c78b478bd250ac6f4775fcecce6b77b3f8be724989821b"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/pl-ios-planner.jpg",
+        "language": "pl",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "94637a7c-fd21-4017-8e8e-9961ee03f6ab",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "f3f12c054a5d65ff5ce7c5aabe6910d3779c76aa2f25faf79e8e2594fc86301c"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/pl-android-blocker.png",
+        "language": "pl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pl-PL",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/9BFIo0IH2NfwKBW7fbdph-GYfE9ZDlWWUXu9wxEnbZm5a37UMhxw_8fLx-GC4FwLSVdC8_Qv8qhpWQ_fymnVPg=s1920"
+        },
+        "sha256": "51f56bbfdd8cb0a110b963c1be7dc16e0bd4d47aa400aa1585e6422b5adc61bd"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/pl-android-schedule.png",
+        "language": "pl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pl-PL",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/uW-gLvc9ic9d13rK0pJ5dGJu14pEOcYlZm99rZ3mjYPA3yRayz_Oe5gaJXxmISXXO3v43TfkxIv8FlRoj1VdLA=s1920"
+        },
+        "sha256": "ee1053700360ebf5813c53a16f3ad22aa26ffc7e7605ddfc9e9608de9bce0e7b"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/pl-android-insights.png",
+        "language": "pl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pl-PL",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/3AabIT6JyqAEtjc4-WUIPcpCVzj1E1Yl0f2ibtnFxtJsskluCqlkIpMaXcVMAnk8Kul-BSGQqV0I232Nfdplrg=s1920"
+        },
+        "sha256": "989ea763cabf2e6f0e44f2617ef7a99b592264cc3b49314c88d3e27f34ea7370"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/pl-ios-tasks-website.jpg",
+        "language": "pl",
+        "locale": "pl",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/pl/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "c844d41e9ccb4cbe8383e6aac2cd2e1f05442b4d1f0aa008cc3a69dbd4392b81"
+      }
+    },
+    "pt-BR": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/pt-BR-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "pt-BR",
+        "sha256": "e1d320615abb7451dce63c7ec61048e9120cdfe507f2895353310a79ac839da5",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "pt-BR",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/pt-BR-ios-home.jpg",
+        "language": "pt-BR",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "a0f849d0-4950-4ef7-8775-e8449de815c6",
+          "fileName": "01-home.png"
+        },
+        "sha256": "8d78bea387612eaf8ecc1764c5c595bdf0a29b9cd670879ecd9e6c465a2c5c9a"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/pt-BR-ios-planner.jpg",
+        "language": "pt-BR",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "f6b1ca6b-2655-4bc5-97c5-3f175e1fdd3e",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "d298442443aae8eee1ab6d56391658e80feeed21e201afb03a54c7e2d360cefc"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/pt-BR-android-blocker.png",
+        "language": "pt-BR",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pt-BR",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/Oq2yJ5xtXXjEt5b-bXafcObLSB2q_c0pHNB9j53tLq2iPczyrManaLR2ONjR25GfyihLtnCHEzRN1lCqM80WKw=s1920"
+        },
+        "sha256": "fe33870d80825993f5cc7eadff03e0abab59af26d54f377942001796611adbc6"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/pt-BR-android-schedule.png",
+        "language": "pt-BR",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pt-BR",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/UR4ibetjkFogKpoHWyLETPWdcFXXuzAujUmlYq-bBaXZnnvuhSj0b1UjX3nb2x5j37L3jOzDi41L-f2wbZg1lQ=s1920"
+        },
+        "sha256": "6d359ddff1998ce9bdf5dedaec030a28c6e594c13833b5467a4026f1b3a8b8f9"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/pt-BR-android-insights.png",
+        "language": "pt-BR",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pt-BR",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/X4D10rWk5fwBAM14BPHNNkdgGR8RiloNhZgtNH3pkGIjQEuHF1jqIjlgq3fTbWEi03rk27-M2lokp365D9_-B8g=s1920"
+        },
+        "sha256": "f2f72ec5900655bb1d92cc79a7986b95245e883af6981e6e0d7a5db35ad86af3"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/pt-BR-ios-tasks-website.jpg",
+        "language": "pt-BR",
+        "locale": "pt-BR",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/pt-BR/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "7696100c3577308a1e5f7290995546f92b4ee441ed5011ee1887b187abd04aa0"
+      }
+    },
+    "pt-PT": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/pt-PT-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "pt-PT",
+        "sha256": "b30150482ecbee9a743022459fc7b54068a80e2e153b86c75f418958f0fbbdef",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "pt-PT",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/pt-PT-ios-home.jpg",
+        "language": "pt-PT",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "aa4cbb84-4f4a-4df4-84b0-4e97a3f6d34c",
+          "fileName": "01-home.png"
+        },
+        "sha256": "3ec4a748caf65976f08518e2ed574ad7db0ff2b9a407329e3a84f53eeb8a3db9"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/pt-PT-ios-planner.jpg",
+        "language": "pt-PT",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "1f2a2d30-d24c-4d96-a081-cb5f96a1c573",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "25644cb6fc7ba56b480f70769ff874b560d924ee9e607022e73cbcf7932774d1"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/pt-PT-android-blocker.png",
+        "language": "pt-PT",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pt-PT",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/2mYbr4-AhXFYILTB7ncGfjLMsCCa5O3CCMP9-JMEf3dZ6jNKs_TmMDSUJyd-btcvORCDYBYCR2hdvO-UqhGeUf4=s1920"
+        },
+        "sha256": "13b69a73355de38139e0f300aa68bb3fca1abe25ec3bdc4b6a358801b85250cc"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/pt-PT-android-schedule.png",
+        "language": "pt-PT",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pt-PT",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/hKHRsCUEHRDjhsI4H61E2XoRJSqH0PP3_7-aw8tCBwG-x-Wo-oXuTObFZ-XJlzqNj5Myn9eCHKvQmIrWL2MvmA=s1920"
+        },
+        "sha256": "b9cebbd00e9eb57a97ac5443b9e55862a033b1bb8577dfa0a269d7abdc20934a"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/pt-PT-android-insights.png",
+        "language": "pt-PT",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pt-PT",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/OeX35SdCsDlhN1wjfSOcVK_EMsZBDtCRXQyINhD1X-eIZNUMpcMuWjhOQly8LREpOfLBAXpeeGF_yRkgHvuND0g=s1920"
+        },
+        "sha256": "a389cc498b0fb6cb1a46230a7d0d45ab03442c16b5494f812c29c804c872930c"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/pt-PT-ios-tasks-website.jpg",
+        "language": "pt-PT",
+        "locale": "pt-PT",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/pt-PT/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "8907685634bba56849c1649a64b9eb9f76e7fa1dd3f6a1f8c3c846e2cac9f483"
+      }
+    },
+    "ar": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ar-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ar",
+        "sha256": "b91941d87abb62d7423b17358c7090a13fd682abaecdc5df36d8d5b555fe471c",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "ar",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ar-ios-home.jpg",
+        "language": "ar",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "46f42ab8-0956-40cc-8fa7-db84c735bf06",
+          "fileName": "01-home.png"
+        },
+        "sha256": "d1884765091edccf7693d55096fbe3bbc37f8e502afff1c2355736d47a2efd73"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ar-ios-planner.jpg",
+        "language": "ar",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "bc85ab28-f97a-4e1c-869d-d0d89e70ea4a",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "1e45edcb041a0380d50fe0945896272e600a888be9678d1453f09865e035206a"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ar-android-blocker.png",
+        "language": "ar",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ar",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/CICziLOVejyk7xAzaIg47E9YnX_6V9tP4dlpegASQHxwySy_9pFTZRg8ZzXcDxXyZH9g56lX5pjtTi_F-1-2Lg=s1920"
+        },
+        "sha256": "641139c36c28bf231c93388628c6320af6cd618779325a1ac9a1b7f7c7cb616a"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ar-android-schedule.png",
+        "language": "ar",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ar",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/Xm3nA_898ZWt1SDUC9iVwTVfLzd_-CRTxoN-bUS9qMXbdDfzU-ddPkWk-x9AbHQDq4RaZqhag2TP2RwvrvI02g=s1920"
+        },
+        "sha256": "e0de762f092b4dabed10c2bcfa6be472b3b3278ef0bebe94caec85eef952bdeb"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ar-android-insights.png",
+        "language": "ar",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ar",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/MCvR4Mo4b3Zs2J9bYGBcKX6gEKInd1RnUrYUNictbkgxKPfhs_DdN40GOMAByRu964eS1byHEdeB98RzWjym=s1920"
+        },
+        "sha256": "760cac11e629ee37f36037b6b73d692ca7d76976abf83aa0b98fe636c8ae26a1"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ar-ios-tasks-website.jpg",
+        "language": "ar",
+        "locale": "ar",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ar/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "786256b2a0104eadf17544d8296287fb79c327d27ba64185df2b0f9379ca42c8"
+      }
+    },
+    "th": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/th-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "th",
+        "sha256": "a107580a3d3a6432e8e3a9bdd1a2292fcbbb51b01b7951966bca87b486eda73d",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "th",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/th-ios-home.jpg",
+        "language": "th",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "0f24c70b-030f-4596-b782-047e0684a014",
+          "fileName": "01-home.png"
+        },
+        "sha256": "605cc0c654418d97a354ec0e3c71e59b92270cd8a0d165e5533433d981726ca0"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/th-ios-planner.jpg",
+        "language": "th",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "fb61c32e-8d5a-44e8-8e1a-21c682fb3c49",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "8a47cee9bb68f719fc8a7de49750caff81ff8af2abb9ae0456384cfb1425abdc"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/th-android-blocker.png",
+        "language": "th",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "th",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/0334hZUpuBzzHK5-Mb1sWCM6higX5ShLIB_7Sz3w62-4te9osYkAxrcP3Y0lseLmVL1rgL_HXPIY3DDlQAZA=s1920"
+        },
+        "sha256": "74c048b0c6638b625c78f56110cd9eca5cb782a2dfb822fb6aa5ed3f7fcb7f64"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/th-android-schedule.png",
+        "language": "th",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "th",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/zjO6MAxpTjxqIuldgIJQ5U6hKRr__N9A8C2Vs-Xo-laAhfyzCfnBgRwVknniSiBtC4qCbuKzwPZnpHKaXmvVjFU=s1920"
+        },
+        "sha256": "8a3bb45b3f74f290eaa82e9e53b12d31698e95ca846835f693d59f3d09a8ec15"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/th-android-insights.png",
+        "language": "th",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "th",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/mqNQu1XGhVMuCCM88DObqUmTPFyddn040q2PgYQAvhA2vdEe-961K_oDK4hcrCarhd2IqPf4XlI9_4t7zHMSPl0=s1920"
+        },
+        "sha256": "0420a0d00a57bc46dee63137dfc676d717667ee4fbf45daac923043566a886ef"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/th-ios-tasks-website.jpg",
+        "language": "th",
+        "locale": "th",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/th/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "05a29045e498e53b49d873847dca64500082674a184ee3361a2f6ab23dadce03"
+      }
+    },
+    "ja": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ja-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ja",
+        "sha256": "6a93d4312401cb3c8ad80bca97d6ac9afe40038b7aa1e5db4e3892701521ded9",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "ja",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ja-ios-home.jpg",
+        "language": "ja",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "2296d5b3-afe1-4016-867e-c4e592effcec",
+          "fileName": "01-home.png"
+        },
+        "sha256": "0c44e6bd0d7671717da5a809fa6566cbb4f267807945e2a099f37b525d71436f"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ja-ios-planner.jpg",
+        "language": "ja",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "f401653d-4f26-4512-ba3c-25dc164db50e",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "39a417adc1c8de2937de5856a2e4981b334942cc87cf73fa3a661e0df7ccfb04"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ja-android-blocker.png",
+        "language": "ja",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ja-JP",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/UqgKlx9pNHCDjw02uUT3RaSZ2QtSvBWoIC-MEEvJ4ibluGIgnKvCzr7o6kzhMrecrhV7-E-0EULejK_SQsmi=s1920"
+        },
+        "sha256": "b0c481d69d8b0f9e2881751f6adf87dd98df42f3b4f20c81348eff826c432d55"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ja-android-schedule.png",
+        "language": "ja",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ja-JP",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/k-ni-7tgpFYAPbeW3GCHYhaAqCV8AiUeFqvS-tKwQX1uSKQJcoxFo56eKsvMEft67cwp8rJj2qNrtw73qTHZlQ=s1920"
+        },
+        "sha256": "48b209e9c5552c53cbaeac410b323a754a16bb7c4e35b2d94af5de3c12a059e6"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ja-android-insights.png",
+        "language": "ja",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ja-JP",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/LRlTR6nKUQnLZvPTAN150Sz5Zmx2YBwmZMzlplB7DqDP6qefHDSYVU76ZLj655_7M8fUbsW4MlCPQLNSvPg1aQ=s1920"
+        },
+        "sha256": "3677a50056de3f39e92dc1cea871bbcc591a9e42040e7f1c2dfcb77474e13741"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ja-ios-tasks-website.jpg",
+        "language": "ja",
+        "locale": "ja",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ja/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "47b86cb02211ff5f243a2a108699ef06099439aaf9a3d700e6202becaa3f8626"
+      }
+    },
+    "id": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/id-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "id",
+        "sha256": "2a32b586200c629e80f81e6f5b94f8e93c16717a24f7cba26f3292514c3e1f19",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "id",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/id-ios-home.jpg",
+        "language": "id",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "79ebea4e-d4ed-4a6c-8704-ec9cca07c9b3",
+          "fileName": "01-home.png"
+        },
+        "sha256": "2b33c06e867bc5792e4149620029794f80565a294dfe6ae217419c713245a90a"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/id-ios-planner.jpg",
+        "language": "id",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "ac95586f-6dd0-499d-9428-57215d05e7f4",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "f791cbb239bc754ae78da52b8df41e8c05b8533f9238a1b1688a3a9e45c7ef24"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/id-android-blocker.png",
+        "language": "id",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "id",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/9V8Fqc8tKWMztr6US0qpxFJE3AjfyQUOufRS8FEOCpdE3ZUrSuIVopxrpP2v9s8AVTloluzLZ5TCY2qqR2WPCQ=s1920"
+        },
+        "sha256": "3eeced00c8b9b05471d2044971769f88647fb67840277376eb038dca02c74987"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/id-android-schedule.png",
+        "language": "id",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "id",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/qADFje3eowsTjVzDgZ0z1uELW_u7wfpbAMlPKNa3bwYuoUdnc1q0FBEVouQVWyftJ6VdBHbn0KKSpHBshVkagg=s1920"
+        },
+        "sha256": "cf62ea2a1b2d5bda1a7ba9402f1b0d8cc0ca27f999f160ca0b917304665f76ae"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/id-android-insights.png",
+        "language": "id",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "id",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/hf7UK37JBCsgXcruSQi2XEQTU5AtHb5qf4wYsmRefPGAyDOPATpXk7EDnokLXcGFBkhv2f15w4fzyfIXInsd=s1920"
+        },
+        "sha256": "1f9d7fed5ffb61357f65e3917dd067ae644cd73c15ccb58486c82371d74c63f1"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/id-ios-tasks-website.jpg",
+        "language": "id",
+        "locale": "id",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/id/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "990c42d635c415382f89891c2868c97832a4360bea92c363c6b18e0811a246ed"
+      }
+    },
+    "de": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/de-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "de",
+        "sha256": "3cc3be8999c9ac3ee8d4d784b91a3bd02de0f38c68b71711535fd4c9def94f28",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "de",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/de-ios-home.jpg",
+        "language": "de",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "4ac40718-978a-496b-8f79-f1b488dc29e0",
+          "fileName": "01-home.png"
+        },
+        "sha256": "d9347f1225c76069b59065494c0416522a657a3b842d65cd3d8555601c27c204"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/de-ios-planner.jpg",
+        "language": "de",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "ea877885-318c-4502-8031-07ee050efb5a",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "a2085e66c53364b058994338ef3c602ef233fc0dec2c77c68ce6373f6b0cd51d"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/de-android-blocker.png",
+        "language": "de",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "de-DE",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/IQwJHgQraqKfrKSSwNCTb89hL7CH2bRtwMUYXsnilmVRzvWfb7iOrSUpzN_w4565ddn4TA8P-xWEu3PpdfMeyw=s1920"
+        },
+        "sha256": "280d1ad52c2e0451f947a9c91ffe6b490245efca020d00d59a7fd978cde30ea8"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/de-android-schedule.png",
+        "language": "de",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "de-DE",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/N_1O8uV0HYooYul4LexxR8BfUiDK43i_iHz6prBDtf69gsUbEQXnw2VIcWLDPElQvrXdIe6IUAg7TF0xob-UFA=s1920"
+        },
+        "sha256": "1c9f9a3b02e273ea7b9c9b1222502bc9c688cf3c260e9b16a34f84aed060e721"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/de-android-insights.png",
+        "language": "de",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "de-DE",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/nJOTfl5cEveCUJhk3B879IbYcO0PMbG6p2gG9w792XEHexUJ87p7ZNyREFlQY7S-c2fwe7rrd9i1faU7W8buoAE=s1920"
+        },
+        "sha256": "60cd256d06c05c4824c9e455dbb409f6899d85ddc527fedbf979786201b084e3"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/de-ios-tasks-website.jpg",
+        "language": "de",
+        "locale": "de",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/de/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "293506c7e0c0bedfb2f545ace3bcd176dab62c12982a044d8900fcc9ba5c0e17"
+      }
+    },
+    "zh-Hans": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/zh-Hans-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "zh-Hans",
+        "sha256": "f28ca0da423c6fe31bd10f26a8a4607d0cf3ecda36f95d99e0bb6535599fd214",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "zh-Hans",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/zh-Hans-ios-home.jpg",
+        "language": "zh-Hans",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "d9fa8ca0-3117-4f5e-83f4-2272ebb6a4a2",
+          "fileName": "01-home.png"
+        },
+        "sha256": "0f54a9e7db2cdae2a7b3faf168b305d7996c26f45ff62280679883b6eb5b8863"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/zh-Hans-ios-planner.jpg",
+        "language": "zh-Hans",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "1c3bf424-0a49-4675-9c91-5020bb3c3500",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "a8bd90a84bb1a8618f65d053809789066f2919c51f4218a940ef066e7ad31dab"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/zh-Hans-android-blocker.png",
+        "language": "zh-Hans",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "zh-CN",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/sMpxb-1KJO_hmvb6nCfP4kgOcys82I0tBvaGDNX118eSuIpIQp8-6twFzrVqTt4L_B7ceAHfV8xZ6Qvc7Ws6RA=s1920"
+        },
+        "sha256": "1297148d0e8614e63fdf878228d49d55ec955e98a4994e592c8a5b96a613bfa7"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/zh-Hans-android-schedule.png",
+        "language": "zh-Hans",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "zh-CN",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/Pl9sLr9xDsiNNhJXiy_elb82iEVHYiGqFFiPNSPER2LLpiDQvvSICK6CQScyrN1pXlg1RNDvBKtGmf0ZBJcy4A=s1920"
+        },
+        "sha256": "6f18c116ea3e0aa61dec7e5747a407b258493f6ee1b795394aef343fa79052be"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/zh-Hans-android-insights.png",
+        "language": "zh-Hans",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "zh-CN",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/-BHhmLD9zt9gSf3hyV_a3WRKahrWM_RVWKR_cjRTCKWWEq-Kyoc12aldntdlDPLIuKYCpmgHE8KhhCK4t0OE4w=s1920"
+        },
+        "sha256": "7a5cbb43424058c89a9f36cb88c7af7576109f7752dc7ade84572780df676c23"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/zh-Hans-ios-tasks-website.jpg",
+        "language": "zh-Hans",
+        "locale": "zh-Hans",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/zh-Hans/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "82cc055795d0bdd26da485094fa48602ff577eee2272024b7c45ab127fb8d9c9"
+      }
+    },
+    "bn": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/bn-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "bn",
+        "sha256": "e8b2766cb5ba6a95d7603071cf4817fa72d0f58700090f2388762644b3e27419",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "bn",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/bn-ios-home.jpg",
+        "language": "bn",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "7cafb2f1-14e9-4a9d-b166-30ea1ef28e84",
+          "fileName": "01-home.png"
+        },
+        "sha256": "b408c577fb113433abf1f9debd61f336715afaeb8693e348367a60ed154ec01c"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/bn-ios-planner.jpg",
+        "language": "bn",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "470d2e3f-0942-42bb-89c0-bef39d0a0749",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "6f4f68c290cf27e251c5ec315c4ef1e71ccb83df27c115467dd5b8ee6b989f3f"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/bn-android-blocker.png",
+        "language": "bn",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "bn-BD",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/EX99c6pgrm-fKXEVDFnwad6jKj7VWAlbXxdkS2lmdiuYyAURgsh-XFD05un3oaYfLP1ucge184PPvpSYjGd5NQ=s1920"
+        },
+        "sha256": "1652ea9ab4e9b29bda3975e88241013d5fa14ff9e2faacd175cb77394b849036"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/bn-android-schedule.png",
+        "language": "bn",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "bn-BD",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/BFsTSn7WIU6BjsvUmgbb6cS4eVA1codvMR1zZ_5ZgQ-5G9U6R7K-zgLRIbobfVA9SEgT9TTdQBXfEDk_LEY9=s1920"
+        },
+        "sha256": "66cc6a81ed94808cfc1a60e1e47657407136881b1f71f847bae7cc3282c7177e"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/bn-android-insights.png",
+        "language": "bn",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "bn-BD",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/STjHGDSXwHC7Z9gTa0L_WtlXfdSTm1KVClJFhdjly8ph704L-N15qzGhjgsuD0tEv2hRwb3Njuk1RuIjnEYQ4qY=s1920"
+        },
+        "sha256": "f19617e073e8f74bf129205d0075ff714116ce1277764090d46c48ee03e6568a"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/bn-ios-tasks-website.jpg",
+        "language": "bn",
+        "locale": "bn",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/bn/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "cfe2b73b056a0d910abd229bef650fdbf2ea057a272ed48bb7f2a0d0e0af5647"
+      }
+    },
+    "sv": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/sv-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "sv",
+        "sha256": "1fb05f6686245811de24af42c3e423335822605c91b1ead7c84fdf65bf7d585e",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "sv",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/sv-ios-home.jpg",
+        "language": "sv",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "36b70904-8375-49d0-bb33-2010e6b3adac",
+          "fileName": "01-home.png"
+        },
+        "sha256": "c86e68a1f4860eb46f1e077c894ad6666b179c99eebc1318b3be44ef2c3bbb3f"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/sv-ios-planner.jpg",
+        "language": "sv",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "b4e5affd-148c-4f04-a7e1-b6b17de5a2b2",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "cf681965ba419c7a7b46861975f928c7eada6fc0a1fbf3b214183269fc94800a"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/sv-android-blocker.png",
+        "language": "sv",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sv-SE",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/Zfo20r6mrzHTOo8jiKzaSa_83nNCoekRK-kKR-d5zDKIrkB2Qbrf6WIGalInli3RmnCwgGopKqCNnotqVBfZm9U=s1920"
+        },
+        "sha256": "c6c761fa6f6010cf0f05452081309068b0ff06c64f1e2f733ba8ff59ea6c2765"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/sv-android-schedule.png",
+        "language": "sv",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sv-SE",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/BAy9KnmdOc-n8lOU096t9zmAxPqpMpdk_jiWw2XdBIR6m4SZJGB3RJLjMO6ft7rcOavVsaaLC3WOsQU8qoF1=s1920"
+        },
+        "sha256": "ec98e431e787db2eedfcb48da496802d2ef6ec5185ce7a305d912ff2971a757b"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/sv-android-insights.png",
+        "language": "sv",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sv-SE",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/g6BsoSKTZFv-2JzqoY-5MXmtZkSdP9t1tLAep0xkT8uIG-21KWLEAH_TFOXVltoD2n5B0vwHk6e7u8mhPROxKA=s1920"
+        },
+        "sha256": "2b50176a8209d9d245e55aac876d69a592393f8b401a6b9c8935b2074b3ea94a"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/sv-ios-tasks-website.jpg",
+        "language": "sv",
+        "locale": "sv",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/sv/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "3f2e234dd979d9e71bec86067995b10bbaf4d08296b0f67eada2092ebd584f80"
+      }
+    },
+    "es": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/es-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "es",
+        "sha256": "26b2c523bd859300d606cc2d9a7ee52a7c68c1d8de2faad74fbefdef5c73b935",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "es",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/es-ios-home.jpg",
+        "language": "es",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "ca24aaa0-0d91-4fa2-838f-56a15e236a79",
+          "fileName": "01-home.png"
+        },
+        "sha256": "e72110c0b33eed4432fa1d7279d581cf18178c18c126f22401fb8af09033bb9b"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/es-ios-planner.jpg",
+        "language": "es",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "8e411266-872f-4d62-88a9-c019e594aa9a",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "806b77396931d39b002dcaaefd4ce3d2028fdcc70cbe55081a6271d80a102e84"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/es-android-blocker.png",
+        "language": "es",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "es-ES",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/7UBbDWm8tAzyufXeWXHSkZMnWWwmtAFFDLyz4O7Qofj18_79phhdufa_fNcf6m3_KXirEGK8fYoJYFRTu0_Mhw=s1920"
+        },
+        "sha256": "fd5e1b966130dec4d0eaa16ba4638940a2fbdb0c93b69f43af35e7837ff376a4"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/es-android-schedule.png",
+        "language": "es",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "es-ES",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/x4mycDTqvGBavnfYcdehfe0Fj7PFhB2tsPvp7HBUwgktpFW_nn86OjCcgmJqhvXcCyopXDKnckgobKJ_Aauk=s1920"
+        },
+        "sha256": "66ad34d9bed50be2820e9621dcae811600b0633ec05737f152fe5e6154beb6bc"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/es-android-insights.png",
+        "language": "es",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "es-ES",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/fObBYGmuvKmQnmeZs4fyLLyEwEnaGswnrd8psFnXqzEeKjqLB29GlzITN6TgJ2_9Smpsuf-0VCdfjj82z3Oq=s1920"
+        },
+        "sha256": "d5d01fa1231f8dc85e39754887ea762b96b5f249b906b0f67aed670a195c6e5c"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/es-ios-tasks-website.jpg",
+        "language": "es",
+        "locale": "es",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/es/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "3470dbb1c6d672a8ea3e2deaf3676503fb9c9adfa40710f738471e7c60511d98"
+      }
+    },
+    "nl": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/nl-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "nl",
+        "sha256": "dcd547eca2cbc7b876afab01863392f3534921b458610ae37ffe36a08555b522",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "nl",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/nl-ios-home.jpg",
+        "language": "nl",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "31137b47-6176-434a-9008-079845e92e64",
+          "fileName": "01-home.png"
+        },
+        "sha256": "a4280564e2ec47eb1d60e6f664d2108e70280d91da2142228077a642f5aa75f9"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/nl-ios-planner.jpg",
+        "language": "nl",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "faf5f1f7-98fd-4690-9375-215c238bf87c",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "82436a590c0e2bb9134bd4d7d3ac5dbeacb5817d1116e091b1aa2d807a89e6ab"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/nl-android-blocker.png",
+        "language": "nl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "nl-NL",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/F27sb0zt-y8Wi4WqgzFnN4jAiOUF6q0Q0dMjutxJkQ_xEUdKRiEOyh15bdcRB9Df_KQAG5KrYSz4zmVe6VqB=s1920"
+        },
+        "sha256": "1ae3440544a271600b0a4503e1a6f358e09977cf7746c59fa2c573820c950e38"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/nl-android-schedule.png",
+        "language": "nl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "nl-NL",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/MS3cqDrlO4n4h8D-EKo5hHPa3M9z0qWYx4sMOvgDgDAs-JKD9sbnBDrj09DP9MZFg-nTUBf8ZjaH6e9iCDZMVw=s1920"
+        },
+        "sha256": "4ad9998a9743298890e693b4182a66b14d1193ade3c2c4dbffeeee6239d1acf1"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/nl-android-insights.png",
+        "language": "nl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "nl-NL",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/aB3aYh1FGSe7J3gIXq9hny__X_MLUFzi75rVDxXFYMgcrYqSSzzLusFj6UUuqXI7fQT47F80L7Z4_W7Qjt5NZg=s1920"
+        },
+        "sha256": "493ab653c982a2c898345f22d3e789ef1c4fcc8b41923ac5c9ea2a9b0d3f5177"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/nl-ios-tasks-website.jpg",
+        "language": "nl",
+        "locale": "nl",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/nl/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "cc9a2c097859c9c2fdad75db7454c3e1a23c874fcf2ad84ba9ed2a723f8ce1be"
+      }
+    },
+    "tr": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/tr-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "tr",
+        "sha256": "79d6b2080b0b5fd7ce585adccf49ba86753239535f2810ed64f061cc88015fc6",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "tr",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/tr-ios-home.jpg",
+        "language": "tr",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "fe830cb6-b781-4828-b8ad-26f6bdb69118",
+          "fileName": "01-home.png"
+        },
+        "sha256": "e4b97a57a8c9f8d886560a04be0e2c01eff6fd3c0890b54101e6690dbe998410"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/tr-ios-planner.jpg",
+        "language": "tr",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "16dcb673-e71d-4a73-96d8-ed3567215266",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "580e8608e8e79c11c33fb1839295f158ce01140b91c6d1d3ac86d641ed94532d"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/tr-android-blocker.png",
+        "language": "tr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "tr-TR",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/CA5_X02Q3sZ1fXCYOEO-cVFEQAVlJoF6XPUvH5v8y6yJgo6tTdTf6YSyLAaqtKmHlL8Sb2U3J_8YtL-3W5uUtg=s1920"
+        },
+        "sha256": "5240e9930b9f51cb729685a12275eccaaa04e01f2de7fa30617af2c5de2c2aff"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/tr-android-schedule.png",
+        "language": "tr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "tr-TR",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/gA2Oi5ZMGCC9qaPlWarACVqPEhXK2kwUVAlvfZCHCCamYHj1UpGrDcCMxjxDdTxR3W52tkjhxbhAjGm5D6XCow=s1920"
+        },
+        "sha256": "0f765c3ce7f027c5ec290b68d32cbba97f712150c622c2c405c97f02af162911"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/tr-android-insights.png",
+        "language": "tr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "tr-TR",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/mdzxGKihgmlk-poyUWfarMt5RZ6S-qxAQa7iKrZQ0wGnlVGeFC_0cb1_OsKcq8kxwuSqAx0Mpdf3ktHYz9zHJ_s=s1920"
+        },
+        "sha256": "7854420d2518756f6910d3ee8725ee480bfb1eda09e9d17af7acca582fb43b2b"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/tr-ios-tasks-website.jpg",
+        "language": "tr",
+        "locale": "tr",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/tr/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "0f20d85799c2ddd8241701b1840b102e4e586a8004bc8639417fdc7b69ed53ab"
+      }
+    },
+    "fr": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/fr-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "fr",
+        "sha256": "34a7301211d31990481e54901b95be42553b667acd26b268bc20e5a1755953cb",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "fr",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/fr-ios-home.jpg",
+        "language": "fr",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "8d9a8fa5-be19-460b-b241-987addc66132",
+          "fileName": "01-home.png"
+        },
+        "sha256": "54564ec92f6e4371244c64ddbcd12750fe24667113d1971ecb20937e9cb46187"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/fr-ios-planner.jpg",
+        "language": "fr",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "c1c2ebf3-92ea-44df-b678-8349c037bad0",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "38c91c69b44aea4e7c8b829cb356352d27d76589f7cc9d93e5179e8de44e6cbf"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/fr-android-blocker.png",
+        "language": "fr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fr-FR",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/JPJpMSnWL3IOkNFOA9zoIuTOsSmb0lA7JeltEExT4X1nUXtdqvHZjiFqI-_uTIKr_GpeHa48Vgj0ckr_xAFMKOs=s1920"
+        },
+        "sha256": "37680051a844a79bdc14197283eb3cf699369231c9617ca4a444528ef203ecee"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/fr-android-schedule.png",
+        "language": "fr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fr-FR",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/ABX817hCjUq6BYO_7wiWlOW3PoLMw2HslfvPtvnLxSWPYOhHOa45hNOCWxsfAqSRuBMp2QuJdrJIZFacXQI8=s1920"
+        },
+        "sha256": "c76345e62033e1401b02dfd962ef7c4c6b37af4f18484bdca1d5999ad6bffd4a"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/fr-android-insights.png",
+        "language": "fr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fr-FR",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/dR1KT5N-cWIAclj1eprIDVpA6pz7RhYNv-meqVsJ_BDa9z7pwi5K-GmJp9CHUwKRTCuSda6jSqCLG3h_Y5orBxU=s1920"
+        },
+        "sha256": "ed1482b0a86d1ed6d4e7010e99d84869e5848c55c708f41a1a2e42750755a66e"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/fr-ios-tasks-website.jpg",
+        "language": "fr",
+        "locale": "fr",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fr/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "12c48e0e5c6403a23ead949ddbc4ceb0c54aa018d614aa469591ba3d92f55a48"
+      }
+    },
+    "it": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/it-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "it",
+        "sha256": "5017987aadcca7c0650fa4d375122ba5f8178195c7cc5826f39d84f935463874",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "it",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/it-ios-home.jpg",
+        "language": "it",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "4775d8f1-1b30-4059-8b2a-57d4b902c3ec",
+          "fileName": "01-home.png"
+        },
+        "sha256": "70a21f40adfc7ad4ce0740549db2b51c9a2c4f2a36b7f42825d74947d6ab21b6"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/it-ios-planner.jpg",
+        "language": "it",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "327c68d6-485c-4e2b-8732-82bb820a973f",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "f7cb77258436a581baa44e5f2cd5e4eacff709ee16e2242e380eefc206079408"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/it-android-blocker.png",
+        "language": "it",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "it-IT",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/fV1dUA8CEMfgmOA6C9JoMrvkkwqf16g45cI-iZNv0YC3eZlmA589jjzT2u7otdXPfTSlQndyjeYM3C37m0JNmiE=s1920"
+        },
+        "sha256": "1218655fb5f7119d01c10d075a49bf692f9c133c8b44840ad5a5d7837c2edcfd"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/it-android-schedule.png",
+        "language": "it",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "it-IT",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/Xt3h2-BiJ7fk3nF7e4Y28-sb4LWP2AaghV0qFrbLKZYvTBCeai6M6j75j1JYw9KI-kfyN2gQIQjwW7wQ-QVlNh0=s1920"
+        },
+        "sha256": "2ebb48d264fd3e7c5ebf5d682d18aa3fd9233b813a70d7544289aa7bb7f2fa55"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/it-android-insights.png",
+        "language": "it",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "it-IT",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/VZDwAXGEKxA6bWzIuU4t2E9gXNDWh1vY5JJGJRCQZ4C23VRrJrBxu5YjOjUShOPvs5BJnH-aDoTTQR401EWyqoM=s1920"
+        },
+        "sha256": "fbaa6e5a777821b5bf053dfe1c7869fc391bb2f9ff61d62c57250e057888ad55"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/it-ios-tasks-website.jpg",
+        "language": "it",
+        "locale": "it",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/it/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "88830c2a1643ca6c2f7b72fd9c7c5a4087856414be44b9402f8696f0cd0fb375"
+      }
+    },
+    "hi": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/hi-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "hi",
+        "sha256": "fe9cff96d9f0e84357911a9537c0c7b6762bac03be81a96ef222a69d4170e3fe",
+        "sourceFile": "02-deadline-blocking.png",
+        "language": "hi",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/hi-ios-home.jpg",
+        "language": "hi",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "d074d5ed-6df9-40fa-8d4c-3f7afe46420d",
+          "fileName": "01-home.png"
+        },
+        "sha256": "38ac747ebb31627a4065e71943f51b3661fa718ef7333afd2971a97b9e8d6b32"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/hi-ios-planner.jpg",
+        "language": "hi",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "0b6356ae-7849-4c75-8608-d11cf0c0cf9e",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "994cda39639032b8f068854a229acf8c2967dbb85a279626f2f9d397943477af"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/hi-android-blocker.png",
+        "language": "hi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hi-IN",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/dJoTOQKYFVitMFmhdOyaAfAk3EoQJBdYB-2v2WoLJQ1ziW3UqnFrrCfc8WQxJYzOkw0IV1PToBRX4I5BK3VBLw=s1920"
+        },
+        "sha256": "e5bbda3a22eee1da36653337d5335ef8779d4f6a802e2e4e5a4849355e9cc8ab"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/hi-android-schedule.png",
+        "language": "hi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hi-IN",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/Rx-XDFs9f4FvJ46I2whrndysvAx-P78w1bnlxK7f4C9ELm1o2DgCpz9GYV6r6facQTj2ZCQ2gFkYQzjsHQ_NCA=s1920"
+        },
+        "sha256": "8f015e7e17fa1b9732890c7929be6079add701779b6293164eee2a2b494c4edf"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/hi-android-insights.png",
+        "language": "hi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hi-IN",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/hvv9s2WMC9v3EK3IIHHU7SBO7n615bjv0B9Ey4jdBJlpm8_B4eAbB7rrXgs7cm7vIoLWuXpnOn7DCvGbAFfW=s1920"
+        },
+        "sha256": "bd81db7c500d40ea3787e603226d755a355046989c18033ec1e0f880405293ee"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/hi-ios-tasks-website.jpg",
+        "language": "hi",
+        "locale": "hi",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/hi/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "6949938cd51f146d43d92fbcbcbce00f94b041c21ebe7e89de9ab5297f71b0a1"
+      }
+    },
+    "ca": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ca-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ca",
+        "sha256": "197f00e261a450a10aff982357a5645cef46c8d833e72c96af4d72920198e012",
+        "sourceFile": "release/ios-localization-expansion/ca/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "ca",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ca-ios-home.jpg",
+        "language": "ca",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/ca/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "23730276426084f58983edcc4ed0fd8b184e50aa441e4e3b70fe956ac5922e20"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ca-ios-tasks-website.jpg",
+        "language": "ca",
+        "locale": "ca",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ca/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "0bce3dacb53ea182ee6674e69e561b3c1b305ef848c1928eea8ae7dabb0fdad4"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ca-ios-planner.jpg",
+        "language": "ca",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "ca",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/ca/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "8d95058f9df3ac56eb0d7c5cc60aef5321b18f41b491fb3020f42238b5f795ad"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ca-android-blocker.jpg",
+        "language": "ca",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ca",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ca/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "b9710e6598335225eb6fb939484f5af99ef44472a04a057976a37c5f3e94febf"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ca-android-schedule.jpg",
+        "language": "ca",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ca",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ca/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "8094217c94aea0ba1119a37666aa56367ae08a24589b37727ce25df20b36629d"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ca-android-insights.jpg",
+        "language": "ca",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ca",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ca/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "57ed171a6d59d00f1fdcebbe92c199c7e08c71ca811b627b857619d57986fca1"
+      }
+    },
+    "da": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/da-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "da",
+        "sha256": "bb99806d3ab1a31a86d3efc73c2b726202bed25bb7ed6af8d50c4fd04b22ded8",
+        "sourceFile": "release/ios-localization-expansion/da/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "da",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/da-ios-home.jpg",
+        "language": "da",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/da/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "49f64e9fa8e06e45ec5cb0ee9cd299d21377d960e7a9c9afbd11599f2c8961f5"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/da-ios-tasks-website.jpg",
+        "language": "da",
+        "locale": "da",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/da/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "955f739495857a45d630e32faa84bb189f56d2c6dbb9efa293f55e391f1c403a"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/da-ios-planner.jpg",
+        "language": "da",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "da",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/da/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "84926f595e1bdb2ba91247006fc70fff718b7a768e9bc04744a39660ee5a3929"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/da-android-blocker.jpg",
+        "language": "da",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "da-DK",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/da/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "6a7c42d6fced8796d8316c434f9f98d29c1f2e9c75f27d99aaa0dfb9db52f6eb"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/da-android-schedule.jpg",
+        "language": "da",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "da-DK",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/da/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "f5a539a3549e902f6d718c292ae1a6c30d6068c7deda6952350f628d0e7c7c14"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/da-android-insights.jpg",
+        "language": "da",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "da-DK",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/da/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "867ed14ae216c1e7af748d1c83e20fcfbf6f84e946be57b80c843a10f3291dd7"
+      }
+    },
+    "fi": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/fi-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "fi",
+        "sha256": "ae7152c082b0d5169b13f135d7fb096c9c0cadd4934245641e16439423f982c0",
+        "sourceFile": "release/ios-localization-expansion/fi/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "fi",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/fi-ios-home.jpg",
+        "language": "fi",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/fi/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "54ec8eb0b623438f6ea747920b16a24f8470a0ecd7a41faa508b41d9a717d980"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/fi-ios-tasks-website.jpg",
+        "language": "fi",
+        "locale": "fi",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fi/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "8d198cb42458f0677a01123d8a90e179734d76942a234b4e8b3b852fef665394"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/fi-ios-planner.jpg",
+        "language": "fi",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "fi",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/fi/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "a41532c75859534af9481b1bfd0e35a6c28beeb8d81ae3a3c8d7c4fca220c8d2"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/fi-android-blocker.jpg",
+        "language": "fi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fi-FI",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/fi/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "6f1c07b94bfd9b079c6a0729d51c6ec2e4471e8001b9c16b5c7c27add9752242"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/fi-android-schedule.jpg",
+        "language": "fi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fi-FI",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/fi/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "0f790bbd1028207de141c9c16c442de62d3fee7f457085cacdf6ea77449ffc87"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/fi-android-insights.jpg",
+        "language": "fi",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fi-FI",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/fi/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "328cb832e68547edc4f0efe5dc091b915d2220550f8f9428fd781ee9208a50ca"
+      }
+    },
+    "el": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/el-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "el",
+        "sha256": "9b23145d56cfe62425a7a015940d4eba3ad100f7f3ad0738e9eea08cd7bc72a6",
+        "sourceFile": "release/ios-localization-expansion/el/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "el",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/el-ios-home.jpg",
+        "language": "el",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/el/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "818f90959b38068780c23f28fbba7f17e45cace7c437d4d4ccc7f21277d107a6"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/el-ios-tasks-website.jpg",
+        "language": "el",
+        "locale": "el",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/el/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "9e363411c1fca98deee5e16f877d05c2a874795a6c0ed27e2d2c7b554d508273"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/el-ios-planner.jpg",
+        "language": "el",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "el",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/el/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "b3023799860bd02bc5aa1f2ef38183b4427a269229dcf51cd461fbca84b8f0dd"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/el-android-blocker.jpg",
+        "language": "el",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "el-GR",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/el/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "ae29cce3aec2485417f14dc1512f754d562715e6eebdb36e5f9cbbcfe305aa4b"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/el-android-schedule.jpg",
+        "language": "el",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "el-GR",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/el/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "afdf64af74de9611d27807a5f9ff294642685aefc415aaab5f3468736c86c784"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/el-android-insights.jpg",
+        "language": "el",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "el-GR",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/el/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "b08ce47b63972fd8a4e1641029d797372bd9179e6c9c799af1428a826581ae4b"
+      }
+    },
+    "hu": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/hu-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "hu",
+        "sha256": "79a1cb59ca544ba3583f8ed30f878ea8fad932e6be741ceef54509dcd8f9577f",
+        "sourceFile": "release/ios-localization-expansion/hu/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "hu",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/hu-ios-home.jpg",
+        "language": "hu",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/hu/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "408f57a0c12ee299267cafac53a08c84a5ee402044124e9c042f9ba7287f42a7"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/hu-ios-tasks-website.jpg",
+        "language": "hu",
+        "locale": "hu",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/hu/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "5041469113a82e96560b3d87255e571c837781459c750b9a907193d97932c770"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/hu-ios-planner.jpg",
+        "language": "hu",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "hu",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/hu/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "bf8a2a6014332f40f225ee359f8b15b69952cea5ee19af876578e3c24645e041"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/hu-android-blocker.jpg",
+        "language": "hu",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hu-HU",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/hu/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "90e27e41b95a2e25e55ca844b5d17b475e83c1671c7f7b7747b366c4e43fbe13"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/hu-android-schedule.jpg",
+        "language": "hu",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hu-HU",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/hu/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "7c74d47238ba379da1fdf7b853acfd16c20d0d55926278e2c936897a4bc7c2e9"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/hu-android-insights.jpg",
+        "language": "hu",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hu-HU",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/hu/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "27d3e072fad5305fa3e9a630b3c8369010a0b0d31e0f30118363f188fd2aecf2"
+      }
+    },
+    "ms": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ms-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ms",
+        "sha256": "bf846b3e17d7cc2042022c51177e62ef1bbdf721e32df5ccebfc5d6644c0c1c7",
+        "sourceFile": "release/ios-localization-expansion/ms/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "ms",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ms-ios-home.jpg",
+        "language": "ms",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/ms/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "8e8dc1825b4cf9c60900b7234cc1e88f8efdfbcbbe4d8197b38e12245388cb2d"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ms-ios-tasks-website.jpg",
+        "language": "ms",
+        "locale": "ms",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ms/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "abe3592aec68388224364ddfe8ebcf786ff6a4cf50ba6d264a879437af5b345d"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ms-ios-planner.jpg",
+        "language": "ms",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "ms",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/ms/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "a9c731375ff35d9526ff1d8acc6b481234bb884068d1fcfb642ea14fb891646f"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ms-android-blocker.jpg",
+        "language": "ms",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ms",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ms/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "22c1a73e42b53447a358f656e561f4e93cb962e458192b1c60bd8dd0c78045c7"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ms-android-schedule.jpg",
+        "language": "ms",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ms",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ms/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "826a70f61a8860fa064e15db387039e64aeeb8af6c1b722a28106a5dc9d46689"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ms-android-insights.jpg",
+        "language": "ms",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ms",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ms/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "9f71f72bb2973e956fcabb76d4dad8a998d1134ba89f6628c6152c4a8a0a364b"
+      }
+    },
+    "nb": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/nb-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "nb",
+        "sha256": "ca87f9029485a1c75e61f8a3bb5735626642cbc18ae00e95c12e0ac95b5a3b06",
+        "sourceFile": "release/ios-localization-expansion/no/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "nb",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/nb-ios-home.jpg",
+        "language": "nb",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/no/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "03639e851177a551d49310f6935b67ba0dc8d57c6bfe30c4985a82d91acd29fb"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/nb-ios-tasks-website.jpg",
+        "language": "nb",
+        "locale": "nb",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/nb/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "2f061c32f9a3dd7e98cd51cfc8262084f33221eb60736b9620f6d11e92562dc7"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/nb-ios-planner.jpg",
+        "language": "nb",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "no",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/no/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "a543a7e059159d2732d9643db16a8a112528bed9f79dcbcec9c4676cc738caa1"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/nb-android-blocker.jpg",
+        "language": "nb",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "no-NO",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/nb/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "e61bc6933d823b9c4a68b15d84549a7afedc4896baa6896379268af145c98680"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/nb-android-schedule.jpg",
+        "language": "nb",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "no-NO",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/nb/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "3e10ebeef262127e9595a69f1affa0c01b2d78730f4c8888a96fe31e9808c0ff"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/nb-android-insights.jpg",
+        "language": "nb",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "no-NO",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/nb/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "eb7115943e89ad786988664c7a542776d799bd51d44d41eb25aaa05a50fbb1f2"
+      }
+    },
+    "ro": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ro-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ro",
+        "sha256": "1336f81fc4b464b7a47de2a1d035edc8396b2c0823286621629ec7feaaed9d9e",
+        "sourceFile": "release/ios-localization-expansion/ro/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "ro",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ro-ios-home.jpg",
+        "language": "ro",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/ro/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "da5803b03cf300cd1189d8d1d0564a6a5d0e56b158b8bf732fed16ab266541ae"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ro-ios-tasks-website.jpg",
+        "language": "ro",
+        "locale": "ro",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ro/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "6005b4c89c28127f959052c09b5df1bce0650bfdf18cc8b27b2d44f444586d3b"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ro-ios-planner.jpg",
+        "language": "ro",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "ro",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/ro/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "66529e76932372a26b02cec6a03f28c7a82293e04402556f5a6666d5f9a4e4f9"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ro-android-blocker.jpg",
+        "language": "ro",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ro",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ro/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "ef0f2e4b6dec5bf5ab2c49fd940a9103f0a2280ddf7836b7d63f87af3202a4c9"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ro-android-schedule.jpg",
+        "language": "ro",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ro",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ro/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "e2f2f2d6d3efa60ec1c986fea678f39edf27f5e44700135868907ff5dcf80c35"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ro-android-insights.jpg",
+        "language": "ro",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ro",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ro/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "dafad52d8fa9040a1872b93428358a779d368c72ac8eb3941ae50a220db9752b"
+      }
+    },
+    "hr": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/hr-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "hr",
+        "sha256": "5ea62ab632aaeddefb5a0fd012383518394343a8113a4cfffce2dca53634f052",
+        "sourceFile": "release/ios-localization-expansion/hr/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "hr",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/hr-ios-home.jpg",
+        "language": "hr",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/hr/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "66c81f1ee6161bab3682269021fec2649a1197a0194fcf7ece732faf684128d7"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/hr-ios-tasks-website.jpg",
+        "language": "hr",
+        "locale": "hr",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/hr/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "c0c835e3df62ac96e5bcde34b9c2fbba59fd145c17b202d297a6b289b26831b4"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/hr-ios-planner.jpg",
+        "language": "hr",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "hr",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/hr/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "8b2f9c95415ad3ebc56091ab27b7106b0855290cb05a266bcaffd8acf5f9da5d"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/hr-android-blocker.jpg",
+        "language": "hr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hr",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/hr/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "bc0803d499d945ba1268a80929ef2e8662fdb6e475d521ade0d7bde7fb1d1101"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/hr-android-schedule.jpg",
+        "language": "hr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hr",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/hr/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "8d2277352e254cbe92c832573eb5b7eb12b9c38ac46130721f4d1a46116d07e6"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/hr-android-insights.jpg",
+        "language": "hr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "hr",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/hr/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "12a8f2ebe5a7e7c9fa916b45fe041dd7b6fee40bd18b7dc65bbc828aaa3f17ae"
+      }
+    },
+    "sk": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/sk-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "sk",
+        "sha256": "18bdf882373d47f635390602c95e8242f238caef4ac67218f20995626f4c5fac",
+        "sourceFile": "release/ios-localization-expansion/sk/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "sk",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/sk-ios-home.jpg",
+        "language": "sk",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/sk/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "c93008578a6dfff4d91a0b86e4f9644b9652145d3bb0cf176b714fe16130c482"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/sk-ios-tasks-website.jpg",
+        "language": "sk",
+        "locale": "sk",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/sk/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "4b89d24dd2fd2f46b872e9a35562d701976d249e4051f06d9735a7abdf44b660"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/sk-ios-planner.jpg",
+        "language": "sk",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "sk",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/sk/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "bd7f044e01dc61e2353301f1a2e7f87ca6198c8c6989d819ba7ee0d19cba3ec2"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/sk-android-blocker.jpg",
+        "language": "sk",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sk",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/sk/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "3a1462b836f960e23cf6a8721c899bd874a59d606e238dd95820d81be07e8962"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/sk-android-schedule.jpg",
+        "language": "sk",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sk",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/sk/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "2a10c73ca2980bd139ae52d3879e8d9604d1d265698ae8d3b20c2227c2cb53a4"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/sk-android-insights.jpg",
+        "language": "sk",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sk",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/sk/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "70610da6fee946b99d9f4c3527ff60c3739c22596093f1fd380d21a15b75abc6"
+      }
+    },
+    "sl": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/sl-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "sl",
+        "sha256": "8eac1122068eeac98c04e25c664bc710b2aebcf85fe00014ec090a548a5c44f5",
+        "sourceFile": "release/ios-localization-expansion/sl/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "sl",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/sl-ios-home.jpg",
+        "language": "sl",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/sl/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "577818e5f293c90c42d05a64e38fe73b9a7bd506fd11e438a40deac66ed39cc3"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/sl-ios-tasks-website.jpg",
+        "language": "sl",
+        "locale": "sl",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/sl/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "deb9853873f856db7ef863a0c5f44a0266a091c8cc673660d09acd72641246f4"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/sl-ios-planner.jpg",
+        "language": "sl",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "sl-SI",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/sl/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "f6c232d8bf427d0827eb324a186d4debb100f11f6a242d5924db79bdb992ecc1"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/sl-android-blocker.jpg",
+        "language": "sl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sl",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/sl/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "8354500f96424dc2bd6db0ba9dce25fcb85b7fbabbb3e22507da2034b8788435"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/sl-android-schedule.jpg",
+        "language": "sl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sl",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/sl/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "43d0b550aaa7c69b70db4da880ab44486b4b499de5c93b695c722bac7e4a0a6d"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/sl-android-insights.jpg",
+        "language": "sl",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "sl",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/sl/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "8c13998f9cca7881b68995c32452b936d4cc640359c1213901daf01daf4dbae0"
+      }
+    },
+    "gu": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/gu-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "gu",
+        "sha256": "dff7bbed3e79d5db47734c67de522b60de2b6477cd5e1c251ecd44aee3849885",
+        "sourceFile": "release/ios-localization-expansion/gu/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "gu",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/gu-ios-home.jpg",
+        "language": "gu",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/gu/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "4c095901ca178d7624b181db1665f515a07558f807f6aee1b70134c927ae2688"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/gu-ios-tasks-website.jpg",
+        "language": "gu",
+        "locale": "gu",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/gu/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "7dbf592d6760ad86f17ae996bb3a29a3265aa045ed5828e9592df72612286dc5"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/gu-ios-planner.jpg",
+        "language": "gu",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "gu-IN",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/gu/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "fb5fa39ce1c84c0b274099d03d02d03f35d53a8f0b89393f112f5d3d091728e0"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/gu-android-blocker.jpg",
+        "language": "gu",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "gu",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/gu/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "4148c964feb02c46f22db0fa495aac6d123cc7912b60e43659a6db0b1d2a37ac"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/gu-android-schedule.jpg",
+        "language": "gu",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "gu",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/gu/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "6f3ec612bb167524c81b516f77338d2a6a35ece1b8764e3453f8ce102f873959"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/gu-android-insights.jpg",
+        "language": "gu",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "gu",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/gu/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "094cf38fd056a2250a8276c96a78de89561f5c9b1f9fe8e623a453d7627c72df"
+      }
+    },
+    "kn": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/kn-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "kn",
+        "sha256": "dcd3d465ac7dc3a0a01d705b07d0da5cf60a0a79ab5f11e0c10bd99f3b92cc4e",
+        "sourceFile": "release/ios-localization-expansion/kn/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "kn",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/kn-ios-home.jpg",
+        "language": "kn",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/kn/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "5baee86977899f516c36f3aa1c4b3ad5c11a5a125d68fb6cb721e3afd9bbb9f0"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/kn-ios-tasks-website.jpg",
+        "language": "kn",
+        "locale": "kn",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/kn/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "a86eaf723863281cb28d12119a6c2fc902eee6434d188f59ae9a67ade8799460"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/kn-ios-planner.jpg",
+        "language": "kn",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "kn-IN",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/kn/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "d2ca427247975455414e601be9981563fe9babb58832eba6b78219f93d99100d"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/kn-android-blocker.jpg",
+        "language": "kn",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "kn-IN",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/kn/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "209ced433396597261effefb90407d2d386925cc623c5f8e5e4f3c8e10807091"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/kn-android-schedule.jpg",
+        "language": "kn",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "kn-IN",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/kn/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "2094fe7599320e21e87ce972a0e52b264c9d64f00acd3c882671411880444691"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/kn-android-insights.jpg",
+        "language": "kn",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "kn-IN",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/kn/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "d5c13c55dceec7fe01ba936af28364e4a5b5cd8bb14c6be792303e274a493237"
+      }
+    },
+    "ml": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/ml-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "ml",
+        "sha256": "01b07c2aeca7cb883af497c1b29706be7e8ce6a9e9a48c3121c2dce1590ff80e",
+        "sourceFile": "release/ios-localization-expansion/ml/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "ml",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ml-ios-home.jpg",
+        "language": "ml",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/ml/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "2843927865c278cb7757d8851a771072afff6b258ee00069a024f12dec5f2851"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ml-ios-tasks-website.jpg",
+        "language": "ml",
+        "locale": "ml",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ml/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "76d5c3cc69e3a6c0a231b6bbae704f2e5fbd50d930ae0346c5f25aaa60b86b28"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ml-ios-planner.jpg",
+        "language": "ml",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "ml-IN",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/ml/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "1f113ed356d351c293dd150ebd5cfd2b96de8945cba955c0105d97b371fd0912"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ml-android-blocker.jpg",
+        "language": "ml",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ml-IN",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ml/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "2ee4aa16dddfce25f088fd94d51f7bf52d1f64d6a3e85fae1f43f9d9e2c15595"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ml-android-schedule.jpg",
+        "language": "ml",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ml-IN",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ml/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "5034acd0319e53a3c1b75e2535844345169ad528d01e597cda79166898d1052a"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ml-android-insights.jpg",
+        "language": "ml",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ml-IN",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/ml/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "2d44ac400c3bafde78f3fdc28d22357912c22000cbc98f499dcbf402c9277246"
+      }
+    },
+    "mr": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/mr-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "mr",
+        "sha256": "47502ddf4ca2740d39578bd717dd2ff4abc6d06b5063db12510cb3da1123f593",
+        "sourceFile": "release/ios-localization-expansion/mr/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "mr",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/mr-ios-home.jpg",
+        "language": "mr",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/mr/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "67a74facc1196165cff8ebb870e8c63a6a256e71b90ff574fb227a64107ed5e0"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/mr-ios-tasks-website.jpg",
+        "language": "mr",
+        "locale": "mr",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/mr/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "5cb1551b466e3aec81bb15506a3412398ce4f6e7fec7ca5ec50b06b5d5bd1cf3"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/mr-ios-planner.jpg",
+        "language": "mr",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "mr-IN",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/mr/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "edae219829de06c06045df1701b70c4af2ee8d986f6cacfc427fec83dae8e401"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/mr-android-blocker.jpg",
+        "language": "mr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "mr-IN",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/mr/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "3c7420c3c81a9638d31f8270920970935e6e4a6ffa4fe675882d4318861da4cd"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/mr-android-schedule.jpg",
+        "language": "mr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "mr-IN",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/mr/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "f1615726bef9134e3ce7cc44e8d03e3e0144f11b10c8ab2fa760542e39711a25"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/mr-android-insights.jpg",
+        "language": "mr",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "mr-IN",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/mr/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "62577484ba6264b5b4b2e419106d46e92302ecceb63066470cd0ad316b1c422c"
+      }
+    },
+    "or": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/or-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "or",
+        "sha256": "97ad9aa4f8817f1a5e7c6e6de248a29e953bfcbf4bc3d6066947a1fe4cb273a9",
+        "sourceFile": "release/ios-localization-expansion/or/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "or",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/or-ios-home.jpg",
+        "language": "or",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/or/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "34f9f9edf4839a3e4d9fda22b5503a361846465eb07be49135f431d5c88f3a22"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/or-ios-tasks-website.jpg",
+        "language": "or",
+        "locale": "or",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/or/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "073e72846ab0b740c99598b2e7b4fccbb917a5c1200859adf7d3a35aa31e3e93"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/or-ios-planner.jpg",
+        "language": "or",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "or-IN",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/or/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "f1df53cd048f74cf2ae3571f379ee8832256a7ef67fe297a156a372da6ce9556"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/or-android-blocker-website.jpg",
+        "language": "or",
+        "locale": "or",
+        "platform": "Android",
+        "kind": "website-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/or/android-blocker.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "ef589117b205af55aff2ec006146aafde04e4ddaaa2ac38180307de0a967fa1c"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/or-android-schedule-website.jpg",
+        "language": "or",
+        "locale": "or",
+        "platform": "Android",
+        "kind": "website-illustration",
+        "width": 1080,
+        "height": 2347,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/or/android-schedule.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "c957dcdd871d5e1cb766f8b0109a9870de46de8ee034f57050a740dd0caed121"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/or-android-insights-website.jpg",
+        "language": "or",
+        "locale": "or",
+        "platform": "Android",
+        "kind": "website-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/or/android-insights.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "a114a0b3f3cc1e2662f1f24cffef28fed497116e505a11be485115a8ca12aba0"
+      }
+    },
+    "pa": {
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/guide-artwork/pa-iphone-blocking.jpg",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "locale": "pa",
+        "sha256": "c3f91b469a2eca7fbe44827abf7078e557ed9bb0bd25bb8c274e64391b83b006",
+        "sourceFile": "release/ios-localization-expansion/pa/iphone/05-a-deadline-is-waiting.jpg",
+        "language": "pa",
+        "width": 660,
+        "height": 1434
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/pa-ios-home.jpg",
+        "language": "pa",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "localFile": "release/ios-localization-expansion/pa/iphone/03-know-whats-due-before-you-scroll.jpg"
+        },
+        "sha256": "1fb53ab6160ae0f0a60b33c082d174a6672c515039d19f7b19b03bfd9a8e19ff"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/pa-ios-tasks-website.jpg",
+        "language": "pa",
+        "locale": "pa",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/pa/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "9f29bbd03d7c3f977d875f5650bda7ba273339465a0058fb09cdccb23c31e8ef"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/pa-ios-planner.jpg",
+        "language": "pa",
+        "platform": "iOS",
+        "kind": "store-illustration",
+        "width": 1320,
+        "height": 2868,
+        "source": {
+          "store": "App Store",
+          "listingLocale": "pa-IN",
+          "screenNumber": 4,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/ios-planner/pa/iphone.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "ece713fef109e502385ea6707f492ee6979525e47a45758505c71e4885e60bed"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/pa-android-blocker.jpg",
+        "language": "pa",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pa",
+          "screenNumber": 2,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/pa/02-deadline-blocking.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "262444ab24dab7c8284e685c5e448707ee95e6918316fb6f34346d69c1e185fc"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/pa-android-schedule.jpg",
+        "language": "pa",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pa",
+          "screenNumber": 6,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/pa/06-schedule.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "cb03e1c4272fd670cba0fc0e92e360e20b9dafccf5dc5cf3ecaaf898aedb2d09"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/pa-android-insights.jpg",
+        "language": "pa",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "pa",
+          "screenNumber": 8,
+          "localFile": "/Users/manay/Desktop/DeadLine/release/localization-expansion-2026-10-19/android/pa/08-insights.png",
+          "status": "prepared-store-submission"
+        },
+        "sha256": "034bd692c49963788e27a75b36471e87f8729889834ed1315e40f93304867879"
+      }
+    },
+    "ur": {
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/ur-ios-home.jpg",
+        "language": "ur",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "7db59ab6-6d17-417b-9906-72dac642f858",
+          "fileName": "01-home.png"
+        },
+        "sha256": "ce245dc3c53d2ca96707e94c9d3042ab5084004d38b4e0d631aaa6dbe4138f16"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/ur-ios-planner.jpg",
+        "language": "ur",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "292ade5a-6561-414d-9755-8131e9801078",
+          "fileName": "05-planner.png"
+        },
+        "sha256": "e0437a89165dc0336002658e66617fbdb3b0df99425a8cfe778026539cc24b9b"
+      },
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/homepage-artwork/ur-ios-blocker.jpg",
+        "language": "ur",
+        "kind": "store-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "store": "App Store",
+          "id": "58d5b252-12de-4f4d-9747-10fb2e0d04ed",
+          "fileName": "02-deadline-blocking.png"
+        },
+        "sha256": "b1958c20e480720798a11576a159d0abc50219b0c418bc8921a8d97dcf442bed"
+      },
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/ur-android-blocker.png",
+        "language": "ur",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ur",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/BqRQH2rWgRl1mx3rsAz7oD4jwzG4Adz2aoV45IB3l6THxQN79o0VKMCRcydhXSAGKuqB0L3Q8Wx1iBmWko20=s1920"
+        },
+        "sha256": "3b671356d6fb4f47a0dc23fa4b1cb274a6c10014e8a196ab64b2dda4ed071a25"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/ur-android-schedule.png",
+        "language": "ur",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ur",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/jPYzkQ6LzViAmjjxtnnoTEywOlnsyvGd78XPUoBd2fKp2-4RZjZ8SSGe46QvXhEW2UV_yRxqMpe843pafoUp=s1920"
+        },
+        "sha256": "6d9c741c63dcb1a85ea3ef7ac8bcfa232198b0303e718143aecc0ac6f8685039"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/ur-android-insights.png",
+        "language": "ur",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "ur",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/6pL4Jxe7k1dkVaItDR3indQQgmUdp6UHIahLGkrmsmgQ-HC9sU2VOFmCJbUOOSXTYrMROEe8s1aO1RZ05svd0g=s1920"
+        },
+        "sha256": "d4fb56f3e490078d54867946aa1d7c5d1067df2cbb09834291c90d8edcd42eb5"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/ur-ios-tasks-website.jpg",
+        "language": "ur",
+        "locale": "ur",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/ur/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "47215b6df8080c646d31144401a0a903ef5d3d137dccacdad2f5b7b2c1de1f16"
+      }
+    },
+    "fil": {
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/fil-android-blocker.png",
+        "language": "fil",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fil",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/GIJbexzFwjhYw1cMxMrOvQfwBRflAOTl1sj62isJtQKyuQQfU3ogUWmdKA6U5Z-Rzx1oKX1hjUiSSG6fqOmD9Q=s1920"
+        },
+        "sha256": "108374d86eaaa566ee9513e62c079045b3083f5831cddcc68109a4eb50157caf"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/fil-android-schedule.png",
+        "language": "fil",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fil",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/akyemJDF1nPdFx7E9h3Y_WeEWLHCJ630X3nu2PfToCR90sgJeqXhF_1J-i-F98gtdN4aytvGbZGs6V8Va0W9=s1920"
+        },
+        "sha256": "311233c58d334bb3b1b284a9a086a0da43ad0c904703f625055bb7b56cc1039a"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/fil-android-insights.png",
+        "language": "fil",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fil",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/eDXmvse38Fu-lwUqTN4OFNbOHZ209tRKE0n7wkE8Ut9nkSdm0KAnpPhn7bLWQQ1uuwoHE5HcTC5i16NkXGtUEw=s1920"
+        },
+        "sha256": "d7411e37ae2538fa677edb27a4fbf333263f8ecb45503fa1f3f8d1231123b821"
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/fil-ios-home-website.jpg",
+        "language": "fil",
+        "locale": "fil",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fil/ios-home.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "ad19963801b3a5af3c45e9b2c9e59f7d588231b3b7cd455737b8a57f49165fba"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/fil-ios-planner-website.jpg",
+        "language": "fil",
+        "locale": "fil",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fil/ios-planner.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "7932cb9643f9ea192f97d548d921ffc347065edb0231726c8723da8dcb01d9c2"
+      },
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/homepage-artwork/fil-ios-blocker-website.jpg",
+        "language": "fil",
+        "locale": "fil",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fil/ios-blocker.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "01b4f93de11acacef36d10e7399d9bc8d0e04a8e698f6b1f526f40eba80c86ac"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/fil-ios-tasks-website.jpg",
+        "language": "fil",
+        "locale": "fil",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fil/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "61e8eb71593618a5bf6f14bc60868e8e98b40bd3087834c84a3a9f0c418be204"
+      }
+    },
+    "fa": {
+      "/assets/screens/android-blocker.png": {
+        "src": "/assets/homepage-artwork/fa-android-blocker.png",
+        "language": "fa",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fa",
+          "screenNumber": 2,
+          "url": "https://lh3.googleusercontent.com/WOWJAx3Zl9LWxmO3N_fmzsjEh32zjvneXRXy6JhnNFKzRYgb1voo1bzPG3ECta0c6S_LV-uhYk03_0Sdx35Xsg=s1920"
+        },
+        "sha256": "a5244e40923247602e7b130c193f13f90c0f38a0c9289d781642c73e5af78cf7"
+      },
+      "/assets/screens/android-schedule.png": {
+        "src": "/assets/homepage-artwork/fa-android-schedule.png",
+        "language": "fa",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fa",
+          "screenNumber": 6,
+          "url": "https://lh3.googleusercontent.com/PuQHFn5J4aYgWJw2DvDC28kgCGUtWy67uav3WIRAOn3PQcjbfNhplFWjC10vHrFflm2XA0F0Nqm97Ef-8CgP=s1920"
+        },
+        "sha256": "8168b981a313771a27dfe05664caca0398015ff246d0c76fa65d5bbbf2a6be06"
+      },
+      "/assets/screens/android-insights.png": {
+        "src": "/assets/homepage-artwork/fa-android-insights.png",
+        "language": "fa",
+        "platform": "Android",
+        "kind": "store-illustration",
+        "width": 1080,
+        "height": 1920,
+        "source": {
+          "store": "Google Play",
+          "listingLocale": "fa",
+          "screenNumber": 8,
+          "url": "https://lh3.googleusercontent.com/TWTTPSjS376gzifwa6fAPNrOPBDnc-4m_DB4CNoq-BapUKfWJpMf9y-MbhSKpWgC6sfIn4Ij3NWxJQKCPI5Zhg=s1920"
+        },
+        "sha256": "cecbaf4c77a322dd253055bd462e6b4d2376fabff6f9c60b7e9c153dc64c6b27"
+      },
+      "/assets/screens/ios-home.png": {
+        "src": "/assets/homepage-artwork/fa-ios-home-website.jpg",
+        "language": "fa",
+        "locale": "fa",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fa/ios-home.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "d599f51a4f8dc365df1ed46676743d70d4f860c9db03979ab4b634143074c533"
+      },
+      "/assets/screens/ios-planner.png": {
+        "src": "/assets/homepage-artwork/fa-ios-planner-website.jpg",
+        "language": "fa",
+        "locale": "fa",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fa/ios-planner.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "7fb15f9fa6c224028777233d23be97b64bd7fb12428c174792ebcd62e79e6b1b"
+      },
+      "/assets/screens/ios-blocker.png": {
+        "src": "/assets/homepage-artwork/fa-ios-blocker-website.jpg",
+        "language": "fa",
+        "locale": "fa",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fa/ios-blocker.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "bb06f6d79d4dc78c8f79f2c18f28cf66be7ddb173f0154b6fae15126bcd627e5"
+      },
+      "/assets/screens/ios-tasks.png": {
+        "src": "/assets/homepage-artwork/fa-ios-tasks-website.jpg",
+        "language": "fa",
+        "locale": "fa",
+        "platform": "iOS",
+        "kind": "website-illustration",
+        "width": 660,
+        "height": 1434,
+        "source": {
+          "type": "localized-editable-website-artwork",
+          "localFile": "translations/website-artwork/fa/ios-tasks.html",
+          "notUploadedToStores": true
+        },
+        "sha256": "08455f5977a50ec5d99ca8b92d625159ed9ecacc84db4fbf65592ac0c3bec335"
+      }
+    }
+  }
+}

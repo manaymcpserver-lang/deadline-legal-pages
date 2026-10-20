@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { firstGuide } from "./guide-data";
+import { GuideLanguages, guideAlternates } from "./GuideLanguages";
 
 const title = "Guides to tasks, deadlines and fewer distractions";
 const description = "Practical Nonlate guides to organizing deadlines, planning your work and managing distracting apps on iPhone and Android.";
@@ -8,7 +9,7 @@ const description = "Practical Nonlate guides to organizing deadlines, planning 
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: "/guides/" },
+  alternates: { canonical: "/guides/", languages: guideAlternates(false) },
   openGraph: { type: "website", title, description, url: "/guides/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
 };
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function GuidesPage() {
   return (
     <>
+      <GuideLanguages />
       <header className="guides-heading">
         <p className="eyebrow"><span /> Nonlate guides</p>
         <h1>A little less scrolling.<br />A clearer next step.</h1>

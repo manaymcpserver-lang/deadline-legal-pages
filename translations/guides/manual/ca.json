@@ -1,0 +1,5 @@
+{
+"96":"Feu servir el planificador i el calendari per triar quan treballar. Planificar una tasca no en canvia la data límit, i un esdeveniment del calendari no és una tasca que activi el bloqueig.",
+"97":"Feu servir un bloquejador d'aplicacions que comprovi les tasques pendents, no només un temporitzador. A Nonlate trieu les aplicacions que us distreuen i un interval abans de les dates límit. Quan s'obre una aplicació seleccionada i hi ha una tasca pendent apta per al bloqueig que ha vençut o venç dins d'aquest interval, Nonlate bloqueja l'accés de la manera que admet el vostre dispositiu.",
+"100":"Sí. El pla gratuït de Nonlate inclou tasques afegides manualment i el bloqueig bàsic de fins a tres aplicacions que distreuen. No cal un compte Nonlate i tots els plans són lliures d'anuncis. Connectar una font externa és opcional i té límits de prova i subscripció independents. Consulteu els plans i els detalls de la prova actuals; s'apliquen els preus i les condicions de compra de la botiga local."
+}

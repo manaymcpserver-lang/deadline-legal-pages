@@ -1,0 +1,36 @@
+{
+  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "reviewType": "Independent model-assisted critical-meaning comparison against complete English source units; not native-speaker or legal certification",
+  "criticalIndicesReviewed": [4, 6, 66, 74, 77, 83, 91, 122, 127, 135],
+  "completedLocales": ["ar", "bn", "ca", "cs", "da", "de", "el", "es", "fa", "fi", "fil", "fr", "gu", "he", "hi", "hr", "hu", "id", "it", "ja", "kn", "ko", "ml", "mr", "ms", "nb", "nl", "or", "pa", "pl", "pt-BR", "pt-PT", "ro", "ru", "sk", "sl", "sv", "ta", "te", "th", "tr", "uk", "ur", "vi", "zh-Hans", "zh-Hant"],
+  "pendingLocales": [],
+  "comparisonsCompleted": 460,
+  "substantiveCriticalMeaningIssues": [],
+  "corrections": [
+    {
+      "locale": "pt-PT",
+      "index": 83,
+      "severity": "grammar",
+      "observed": "A ecrã de compra",
+      "requested": "O ecrã de compra",
+      "status": "corrected_by_author_and_independently_verified",
+      "meaningImpact": "No critical policy meaning reversal. Wrong grammatical gender for ecrã."
+    },
+    {
+      "locale": "kn",
+      "index": 127,
+      "severity": "wording_clarification",
+      "observed": "Author flagged ambiguous consequential-damages wording during final self-review.",
+      "requested": "Express harms arising as a consequence rather than ambiguous effective harm.",
+      "status": "corrected_by_author_and_independently_verified",
+      "meaningImpact": "Final wording preserves maximum-law-permitted qualifier and exclusion of indirect, incidental and consequential damages."
+    }
+  ],
+  "notes": [
+    "Each completed locale was read at every listed critical index and compared for completeness, qualifiers, negations, numbers, limits, billing terms, data-use restrictions, liability and encryption commitments.",
+    "No manual translation files edited by this reviewer.",
+    "pt-PT grammar and reported localization vocabulary corrections were independently re-read at indices 66, 77, 83 and 122; all reported changes are verified and critical policy meaning remains preserved.",
+    "hi index 135 states encryption before production database storage rather than literally translating at rest; intended storage-encryption guarantee is preserved.",
+    "Remaining 130 source units per locale are outside this independent review's assigned scope."
+  ]
+}

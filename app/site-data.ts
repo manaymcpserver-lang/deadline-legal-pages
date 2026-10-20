@@ -142,11 +142,11 @@ export const planTiers: PlanTier[] = [
     eyebrow: "The essentials",
     price: "$0",
     features: [
-      "Try 1 external source at a time for 30 days",
+      "30-day source trial",
       "Up to 3 protected apps",
       "Source sync on open or refresh during the trial",
       "Manual tasks and core blocking stay free",
-      "On-device calendars and reminders stay free",
+      "Free download with optional Plus and Pro subscriptions",
       "Ad-free, with no automatic trial charge",
     ],
   },
@@ -224,7 +224,7 @@ export const faqEntries: FaqEntry[] = [
   {
     question: "What stays free after the source trial?",
     answer:
-      "Manual tasks, on-device calendars and reminders, and blocking up to three distracting apps stay free. The 30-day trial starts after your first successful external-source connection and permits one external source at a time. Switching sources does not restart the window. When it ends, external syncing pauses, but imported tasks remain available for local completion and blocking. The source trial has no automatic charge and is separate from any subscription introductory offer. Paid access resumes syncing within the purchased plan’s limits.",
+      "Manual tasks and core blocking stay free. One source for 30 days. No payment or automatic charge. Change sources without restarting your trial.",
   },
   {
     question: "Do I need a Nonlate account, and are there ads?",

@@ -144,7 +144,7 @@ test("privacy export contains the current production disclosures", async () => {
 
 test("plans and FAQ disclose the current ad-free source trial and localized purchase terms", async () => {
   const html = await readPage("index.html");
-  for (const text of ["$5.99 / month", "$59.99 / year", "$11.99 / month", "$99.99 / year", "billed annually", "USD reference prices", "full localized renewal price", "30 days", "no automatic charge", "external syncing pauses", "local completion and blocking", "No Nonlate account is required", "Plus free for 7 days on Monthly or Yearly", "renews automatically unless cancelled", "does not add a Pro trial or restart the source-preview window"]) {
+  for (const text of ["$5.99 / month", "$59.99 / year", "$11.99 / month", "$99.99 / year", "billed annually", "USD reference prices", "full localized renewal price", "30 days", "No payment or automatic charge", "syncing pauses", "local completion and blocking", "No Nonlate account is required", "Plus free for 7 days on Monthly or Yearly", "renews automatically unless cancelled", "does not add a Pro trial or restart the source-preview window"]) {
     assert.ok(html.includes(text), `missing current product term: ${text}`);
   }
   assert.doesNotMatch(html, /Ads for eligible users|exact store pricing appears at launch|Coming soon to iOS and Android|Android coming soon|iOS available in Mozambique/);
@@ -164,7 +164,7 @@ test("plans and FAQ disclose the current ad-free source trial and localized purc
 
 test("client source retains every interaction and accessibility contract", async () => {
   const [page, css] = await Promise.all([
-    readFile(new URL("app/page.tsx", root), "utf8"),
+    readFile(new URL("app/HomePage.tsx", root), "utf8"),
     readFile(new URL("app/globals.css", root), "utf8"),
   ]);
 
@@ -195,13 +195,13 @@ test("client source retains every interaction and accessibility contract", async
   assert.match(page, /Take a 10-minute break/);
   assert.doesNotMatch(page, /Start a 10-minute demo break/);
   assert.match(page, /Website demo: these sample tasks are not real/i);
-  assert.match(page, /View tasks” closes this website demo without moving the page\.<\/p>/i);
+  assert.match(page, /closes this website demo without moving the page\./i);
   assert.doesNotMatch(page, /Press Esc to dismiss or replay it anytime/i);
   assert.doesNotMatch(page, /scrollIntoView|querySelector\("#tasks"\)/);
   assert.match(page, /10 \* 60 \* 1000/);
   assert.match(page, /\$\{platform\}-blocker\.png/);
-  assert.match(page, /<BlockerCapture platform="ios" \/>/);
-  assert.match(page, /<BlockerCapture platform="android" \/>/);
+  assert.match(page, /<BlockerCapture platform="ios"\s*\/>/);
+  assert.match(page, /<BlockerCapture platform="android"\s*\/>/);
   assert.doesNotMatch(page, /storyboard|story-sequence|story-control|phase-dots|demo-controller/);
   assert.doesNotMatch(page, /ios-insights\.png|function (IOSPhone|AndroidPhone)|phone-shell/);
   assert.match(css, /@media \(prefers-reduced-motion: reduce\)/);

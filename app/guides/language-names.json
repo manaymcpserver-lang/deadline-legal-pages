@@ -1,0 +1,12 @@
+{
+  "en": "English", "es": "Español", "fr": "Français", "hi": "हिन्दी", "ar": "العربية",
+  "zh-Hans": "简体中文", "pt-BR": "Português (Brasil)", "pt-PT": "Português (Portugal)",
+  "de": "Deutsch", "ja": "日本語", "id": "Bahasa Indonesia", "ru": "Русский", "ko": "한국어",
+  "it": "Italiano", "tr": "Türkçe", "vi": "Tiếng Việt", "pl": "Polski", "fa": "فارسی",
+  "th": "ไทย", "nl": "Nederlands", "uk": "Українська", "bn": "বাংলা", "ur": "اردو",
+  "ta": "தமிழ்", "te": "తెలుగు", "zh-Hant": "繁體中文", "he": "עברית", "fil": "Filipino",
+  "cs": "Čeština", "sv": "Svenska", "ca": "Català", "da": "Dansk", "fi": "Suomi",
+  "el": "Ελληνικά", "hu": "Magyar", "ms": "Bahasa Melayu", "nb": "Norsk bokmål",
+  "ro": "Română", "hr": "Hrvatski", "sk": "Slovenčina", "sl": "Slovenščina", "gu": "ગુજરાતી",
+  "kn": "ಕನ್ನಡ", "ml": "മലയാളം", "mr": "मराठी", "or": "ଓଡ଼ିଆ", "pa": "ਪੰਜਾਬੀ"
+}

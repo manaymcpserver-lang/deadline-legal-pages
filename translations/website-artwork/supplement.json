@@ -1,0 +1,52 @@
+{
+  "fa": {
+    "1-day streak":"روند ۱ روزه",
+    "15 minutes break":"۱۵ دقیقه استراحت",
+    "3 tasks due today":"۳ کار با مهلت امروز",
+    "Know what’s due before you scroll":"قبل از گشتن در گوشی، از مهلت‌هایت باخبر شو",
+    "Your real deadlines, gathered and ready.":"مهلت‌های واقعی شما، یکجا و آماده.",
+    "Jul":"ژوئیه",
+    "Pick a day, add the work, see what needs attention.":"یک روز انتخاب کن، کارها را اضافه کن و ببین چه چیزی به توجه نیاز دارد.",
+    "Scroll here, keep the day above":"اینجا پیمایش کن؛ روز بالا می‌ماند",
+    "Turn deadlines into a day plan":"مهلت‌ها را به برنامهٔ روزانه تبدیل کن",
+    "1 task overdue.":"مهلت ۱ کار گذشته است.",
+    "2 tasks are due in the next 24 hours.":"مهلت ۲ کار در ۲۴ ساعت آینده است.",
+    "Complete the tasks, or take a 15 minutes break.":"کارها را انجام بده یا ۱۵ دقیقه استراحت کن.",
+    "Distracting apps get blocked when work is due":"وقتی موعد کار می‌رسد، برنامه‌های حواس‌پرت‌کن مسدود می‌شوند"
+  },
+  "fil": {
+    "1-day streak":"1 araw na sunod-sunod",
+    "15 minutes break":"15 minutong pahinga",
+    "3 tasks due today":"3 gawaing dapat matapos ngayon",
+    "Know what’s due before you scroll":"Alamin ang mga dapat tapusin bago mag-scroll",
+    "Your real deadlines, gathered and ready.":"Ang iyong mga takdang oras, magkakasama at handa.",
+    "Jul":"Hul",
+    "Pick a day, add the work, see what needs attention.":"Pumili ng araw, idagdag ang gawain, at tingnan ang dapat pagtuunan.",
+    "Scroll here, keep the day above":"Mag-scroll dito; mananatili ang araw sa itaas",
+    "Turn deadlines into a day plan":"Gawing plano sa araw ang mga takdang oras",
+    "1 task overdue.":"1 gawain ang lampas na sa takdang oras.",
+    "2 tasks are due in the next 24 hours.":"2 gawain ang dapat matapos sa susunod na 24 na oras.",
+    "Complete the tasks, or take a 15 minutes break.":"Tapusin ang mga gawain, o magpahinga nang 15 minuto.",
+    "Distracting apps get blocked when work is due":"Naba-block ang mga app na nakakaabala kapag oras nang tapusin ang gawain"
+  },
+  "or": {
+    "1 task is overdue":"୧ଟି କାମର ସମୟସୀମା ପାର ହୋଇଛି",
+    "3 tasks need your attention. Get back to it, or request 15 minutes.":"୩ଟି କାମ ପ୍ରତି ଧ୍ୟାନ ଦେବା ଦରକାର। କାମକୁ ଫେରନ୍ତୁ, କିମ୍ବା ୧୫ ମିନିଟ୍ ମାଗନ୍ତୁ।",
+    "A deadline is waiting":"ଏକ ସମୟସୀମା ଅପେକ୍ଷା କରିଛି",
+    "In 2h":"୨ ଘଣ୍ଟାରେ",
+    "Open a chosen app and your due work appears first.":"ବାଛିଥିବା ଆପ୍ ଖୋଲନ୍ତୁ ଏବଂ ପ୍ରଥମେ ଆପଣଙ୍କ ବାକି କାମ ଦେଖନ୍ତୁ।",
+    "Quick check-in":"ଏକ ଛୋଟ ଯାଞ୍ଚ",
+    "Request 15 minutes":"୧୫ ମିନିଟ୍ ମାଗନ୍ତୁ",
+    "Uses Android's Accessibility permission to detect the app opening":"ଆପ୍ ଖୋଲିବା ଚିହ୍ନଟ କରିବାକୁ Androidର ଅଭିଗମ୍ୟତା ଅନୁମତି ବ୍ୟବହାର କରେ",
+    "Cafe shift":"କାଫେରେ କାମ ପାଳି",
+    "Classes, shifts, and tasks on one real schedule.":"କ୍ଲାସ୍, କାମ ପାଳି ଓ କାର୍ଯ୍ୟ—ଗୋଟିଏ ସମୟସୂଚୀରେ।",
+    "Deadlines and events, side by side":"ସମୟସୀମା ଓ ଇଭେଣ୍ଟ, ପାଖାପାଖି",
+    "Due 11:00 AM":"ସମୟସୀମା ୧୧:୦୦",
+    "Planned 2:30 – 3:30 PM":"ଯୋଜନା ୧୪:୩୦–୧୫:୩୦",
+    "Statistics 101":"ପରିସଂଖ୍ୟାନ ୧୦୧",
+    "7 to best":"ସର୍ବୋତ୍ତମ ପାଇଁ ଆଉ ୭ ଦିନ",
+    "Back on track in 2 days on average. Latest: 1 day.":"ହାରାହାରି ୨ ଦିନରେ ପୁଣି ଠିକ୍ ପଥରେ। ସଦ୍ୟତମ: ୧ ଦିନ।",
+    "Due days handled on time, last 30 days":"ଗତ ୩୦ ଦିନରେ ଠିକ୍ ସମୟରେ ସମ୍ଭାଳିଥିବା ସମୟସୀମା ଦିନ",
+    "Tue strongest":"ମଙ୍ଗଳବାର ସବୁଠୁ ଭଲ"
+  }
+}

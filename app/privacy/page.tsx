@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LegalPage } from "../components/LegalPage";
 
 export const metadata: Metadata = {
@@ -66,7 +67,7 @@ export default function PrivacyPage() {
       <p>Data may be processed by providers you connect and service providers needed to run the app, such as hosting, database, notification, crash-reporting, subscription validation, and platform integrity services. Some authorized server-side sync features retain task titles, due dates, and provider webhook payloads. Google user data is transferred only as needed to operate connected Google sync features, never for advertising. We do not sell personal data.</p>
 
       <h2>User controls</h2>
-      <ul><li>Disconnect integrations in app settings.</li><li>Manage subscriptions through the store where you purchased them.</li><li>Clear local app data or uninstall the app; protected credentials and server records may require a separate deletion request.</li><li>Request data deletion by email or follow our <a href="/data-deletion/">data deletion instructions</a>.</li></ul>
+      <ul><li>Disconnect integrations in app settings.</li><li>Manage subscriptions through the store where you purchased them.</li><li>Clear local app data or uninstall the app; protected credentials and server records may require a separate deletion request.</li><li>Request data deletion by email or follow our <Link href="/data-deletion/">data deletion instructions</Link>.</li></ul>
 
       <h2>Contact</h2>
       <p>For privacy requests, contact <a href="mailto:support@nonlate.app">support@nonlate.app</a>.</p>

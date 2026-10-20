@@ -1,0 +1,387 @@
+{
+  "kind": "localized App Store illustration, not a live device screenshot",
+  "assets": {
+    "ur": {
+      "src": "/assets/homepage-artwork/ur-ios-blocker.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ur",
+      "sha256": "b1958c20e480720798a11576a159d0abc50219b0c418bc8921a8d97dcf442bed",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "cs": {
+      "src": "/assets/guide-artwork/cs-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "cs",
+      "sha256": "6be8446ff0b79004a9e866a6c9fef07836148e8b70a7170330bff7bc4b91032e",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "ru": {
+      "src": "/assets/guide-artwork/ru-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ru",
+      "sha256": "aba389b8e1347ffbb1606b96a7ced774968c5d1776b62822b23ed1778a4b74e6",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "zh-Hant": {
+      "src": "/assets/guide-artwork/zh-Hant-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "zh-Hant",
+      "sha256": "082daa1c96fd45f89c3e249333d4b9a8f9888efe287047b8ad3e51f52cef3fcc",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "uk": {
+      "src": "/assets/guide-artwork/uk-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "uk",
+      "sha256": "f75acf03c91ebabaae00853e43d627ffbb6d7a6b6ce09936b39e5a254d3d80b8",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "vi": {
+      "src": "/assets/guide-artwork/vi-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "vi",
+      "sha256": "eb89f368c6dbd49a551057bcf13c64ac4d57838b13cbdfb5545a1585c92e7a3d",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "ta": {
+      "src": "/assets/guide-artwork/ta-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ta",
+      "sha256": "e4afd7bccd91034d0e929c6f78f68170ce5041169c357db102301eb6b656201f",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "ko": {
+      "src": "/assets/guide-artwork/ko-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ko",
+      "sha256": "7e578d45655e8ccd069563ba465442793dd2f10dcff649f3768b400c7d0ac138",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "te": {
+      "src": "/assets/guide-artwork/te-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "te",
+      "sha256": "4cb27f60716e3f26d387880b43dab4d812da2e7578016ac35661897008c49b3c",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "he": {
+      "src": "/assets/guide-artwork/he-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "he",
+      "sha256": "8ddc93aef13e5a108935450429de8db08c1f868fd137efd72ec2bade99712000",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "pl": {
+      "src": "/assets/guide-artwork/pl-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "pl",
+      "sha256": "22906bb680ee84c969661c0ba5ee7e30e006d01f8b0645fbc3bd390348105553",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "pt-BR": {
+      "src": "/assets/guide-artwork/pt-BR-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "pt-BR",
+      "sha256": "e1d320615abb7451dce63c7ec61048e9120cdfe507f2895353310a79ac839da5",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "pt-PT": {
+      "src": "/assets/guide-artwork/pt-PT-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "pt-PT",
+      "sha256": "b30150482ecbee9a743022459fc7b54068a80e2e153b86c75f418958f0fbbdef",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "ar": {
+      "src": "/assets/guide-artwork/ar-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ar",
+      "sha256": "b91941d87abb62d7423b17358c7090a13fd682abaecdc5df36d8d5b555fe471c",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "th": {
+      "src": "/assets/guide-artwork/th-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "th",
+      "sha256": "a107580a3d3a6432e8e3a9bdd1a2292fcbbb51b01b7951966bca87b486eda73d",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "ja": {
+      "src": "/assets/guide-artwork/ja-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ja",
+      "sha256": "6a93d4312401cb3c8ad80bca97d6ac9afe40038b7aa1e5db4e3892701521ded9",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "id": {
+      "src": "/assets/guide-artwork/id-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "id",
+      "sha256": "2a32b586200c629e80f81e6f5b94f8e93c16717a24f7cba26f3292514c3e1f19",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "de": {
+      "src": "/assets/guide-artwork/de-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "de",
+      "sha256": "3cc3be8999c9ac3ee8d4d784b91a3bd02de0f38c68b71711535fd4c9def94f28",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "zh-Hans": {
+      "src": "/assets/guide-artwork/zh-Hans-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "zh-Hans",
+      "sha256": "f28ca0da423c6fe31bd10f26a8a4607d0cf3ecda36f95d99e0bb6535599fd214",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "bn": {
+      "src": "/assets/guide-artwork/bn-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "bn",
+      "sha256": "e8b2766cb5ba6a95d7603071cf4817fa72d0f58700090f2388762644b3e27419",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "sv": {
+      "src": "/assets/guide-artwork/sv-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "sv",
+      "sha256": "1fb05f6686245811de24af42c3e423335822605c91b1ead7c84fdf65bf7d585e",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "es": {
+      "src": "/assets/guide-artwork/es-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "es",
+      "sha256": "26b2c523bd859300d606cc2d9a7ee52a7c68c1d8de2faad74fbefdef5c73b935",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "nl": {
+      "src": "/assets/guide-artwork/nl-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "nl",
+      "sha256": "dcd547eca2cbc7b876afab01863392f3534921b458610ae37ffe36a08555b522",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "tr": {
+      "src": "/assets/guide-artwork/tr-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "tr",
+      "sha256": "79d6b2080b0b5fd7ce585adccf49ba86753239535f2810ed64f061cc88015fc6",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "fr": {
+      "src": "/assets/guide-artwork/fr-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "fr",
+      "sha256": "34a7301211d31990481e54901b95be42553b667acd26b268bc20e5a1755953cb",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "it": {
+      "src": "/assets/guide-artwork/it-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "it",
+      "sha256": "5017987aadcca7c0650fa4d375122ba5f8178195c7cc5826f39d84f935463874",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "hi": {
+      "src": "/assets/guide-artwork/hi-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "hi",
+      "sha256": "fe9cff96d9f0e84357911a9537c0c7b6762bac03be81a96ef222a69d4170e3fe",
+      "sourceFile": "02-deadline-blocking.png"
+    },
+    "ca": {
+      "src": "/assets/guide-artwork/ca-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ca",
+      "sha256": "197f00e261a450a10aff982357a5645cef46c8d833e72c96af4d72920198e012",
+      "sourceFile": "release/ios-localization-expansion/ca/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "da": {
+      "src": "/assets/guide-artwork/da-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "da",
+      "sha256": "bb99806d3ab1a31a86d3efc73c2b726202bed25bb7ed6af8d50c4fd04b22ded8",
+      "sourceFile": "release/ios-localization-expansion/da/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "fi": {
+      "src": "/assets/guide-artwork/fi-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "fi",
+      "sha256": "ae7152c082b0d5169b13f135d7fb096c9c0cadd4934245641e16439423f982c0",
+      "sourceFile": "release/ios-localization-expansion/fi/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "el": {
+      "src": "/assets/guide-artwork/el-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "el",
+      "sha256": "9b23145d56cfe62425a7a015940d4eba3ad100f7f3ad0738e9eea08cd7bc72a6",
+      "sourceFile": "release/ios-localization-expansion/el/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "hu": {
+      "src": "/assets/guide-artwork/hu-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "hu",
+      "sha256": "79a1cb59ca544ba3583f8ed30f878ea8fad932e6be741ceef54509dcd8f9577f",
+      "sourceFile": "release/ios-localization-expansion/hu/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "ms": {
+      "src": "/assets/guide-artwork/ms-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ms",
+      "sha256": "bf846b3e17d7cc2042022c51177e62ef1bbdf721e32df5ccebfc5d6644c0c1c7",
+      "sourceFile": "release/ios-localization-expansion/ms/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "nb": {
+      "src": "/assets/guide-artwork/nb-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "nb",
+      "sha256": "ca87f9029485a1c75e61f8a3bb5735626642cbc18ae00e95c12e0ac95b5a3b06",
+      "sourceFile": "release/ios-localization-expansion/no/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "ro": {
+      "src": "/assets/guide-artwork/ro-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ro",
+      "sha256": "1336f81fc4b464b7a47de2a1d035edc8396b2c0823286621629ec7feaaed9d9e",
+      "sourceFile": "release/ios-localization-expansion/ro/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "hr": {
+      "src": "/assets/guide-artwork/hr-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "hr",
+      "sha256": "5ea62ab632aaeddefb5a0fd012383518394343a8113a4cfffce2dca53634f052",
+      "sourceFile": "release/ios-localization-expansion/hr/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "sk": {
+      "src": "/assets/guide-artwork/sk-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "sk",
+      "sha256": "18bdf882373d47f635390602c95e8242f238caef4ac67218f20995626f4c5fac",
+      "sourceFile": "release/ios-localization-expansion/sk/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "sl": {
+      "src": "/assets/guide-artwork/sl-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "sl",
+      "sha256": "8eac1122068eeac98c04e25c664bc710b2aebcf85fe00014ec090a548a5c44f5",
+      "sourceFile": "release/ios-localization-expansion/sl/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "gu": {
+      "src": "/assets/guide-artwork/gu-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "gu",
+      "sha256": "dff7bbed3e79d5db47734c67de522b60de2b6477cd5e1c251ecd44aee3849885",
+      "sourceFile": "release/ios-localization-expansion/gu/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "kn": {
+      "src": "/assets/guide-artwork/kn-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "kn",
+      "sha256": "dcd3d465ac7dc3a0a01d705b07d0da5cf60a0a79ab5f11e0c10bd99f3b92cc4e",
+      "sourceFile": "release/ios-localization-expansion/kn/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "ml": {
+      "src": "/assets/guide-artwork/ml-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "ml",
+      "sha256": "01b07c2aeca7cb883af497c1b29706be7e8ce6a9e9a48c3121c2dce1590ff80e",
+      "sourceFile": "release/ios-localization-expansion/ml/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "mr": {
+      "src": "/assets/guide-artwork/mr-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "mr",
+      "sha256": "47502ddf4ca2740d39578bd717dd2ff4abc6d06b5063db12510cb3da1123f593",
+      "sourceFile": "release/ios-localization-expansion/mr/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "or": {
+      "src": "/assets/guide-artwork/or-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "or",
+      "sha256": "97ad9aa4f8817f1a5e7c6e6de248a29e953bfcbf4bc3d6066947a1fe4cb273a9",
+      "sourceFile": "release/ios-localization-expansion/or/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "pa": {
+      "src": "/assets/guide-artwork/pa-iphone-blocking.jpg",
+      "platform": "iOS",
+      "kind": "store-illustration",
+      "locale": "pa",
+      "sha256": "c3f91b469a2eca7fbe44827abf7078e557ed9bb0bd25bb8c274e64391b83b006",
+      "sourceFile": "release/ios-localization-expansion/pa/iphone/05-a-deadline-is-waiting.jpg"
+    },
+    "fa": {
+      "src": "/assets/homepage-artwork/fa-ios-blocker-website.jpg",
+      "language": "fa",
+      "locale": "fa",
+      "platform": "iOS",
+      "kind": "website-illustration",
+      "width": 660,
+      "height": 1434,
+      "source": {
+        "type": "localized-editable-website-artwork",
+        "localFile": "translations/website-artwork/fa/ios-blocker.html",
+        "notUploadedToStores": true
+      },
+      "sha256": "bb06f6d79d4dc78c8f79f2c18f28cf66be7ddb173f0154b6fae15126bcd627e5"
+    },
+    "fil": {
+      "src": "/assets/homepage-artwork/fil-ios-blocker-website.jpg",
+      "language": "fil",
+      "locale": "fil",
+      "platform": "iOS",
+      "kind": "website-illustration",
+      "width": 660,
+      "height": 1434,
+      "source": {
+        "type": "localized-editable-website-artwork",
+        "localFile": "translations/website-artwork/fil/ios-blocker.html",
+        "notUploadedToStores": true
+      },
+      "sha256": "01b4f93de11acacef36d10e7399d9bc8d0e04a8e698f6b1f526f40eba80c86ac"
+    }
+  }
+}
