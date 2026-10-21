@@ -25,6 +25,13 @@ test("blocker cards share their sizing and live website typography", async () =>
   assert.doesNotMatch(css, /\.blocker-capture-(?:ios|android) \{[^}]*width:/);
 });
 
+test("only the cropped Android hero capture gets a fitted, closed phone bottom", async () => {
+  const css = await readFile(new URL("app/globals.css", root), "utf8");
+  assert.match(css, /\.blocker-capture-android \.capture-screen \{[^}]*aspect-ratio: 517 \/ 963;[^}]*border-radius: 30px/);
+  assert.match(css, /\.blocker-capture-android \.capture-screen::after \{[^}]*border-bottom: 1\.8cqw solid #55575b;[^}]*pointer-events: none/);
+  assert.match(css, /\.capture-screen \{[^}]*aspect-ratio: 608 \/ 1248/);
+});
+
 test("official store badges are available in both download areas", async () => {
   const html = await readPage("index.html");
   for (const [file, label] of [["app-store.svg", "Download on the App Store"], ["google-play.svg", "Get it on Google Play"]]) {
