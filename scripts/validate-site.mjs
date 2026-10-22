@@ -20,6 +20,10 @@ const publicPages = new Map([
   ["/guides/block-distracting-apps-until-tasks-are-done/", "guides/block-distracting-apps-until-tasks-are-done/index.html"],
 ]);
 const guideLocales = JSON.parse(readFileSync(join(repoRoot, "app/guides/locales.json"), "utf8"));
+const planningLocales = JSON.parse(readFileSync(join(repoRoot, "app/guides/planning-locales.json"), "utf8"));
+for (const locale of planningLocales.filter((locale) => locale !== "en")) {
+  publicPages.set(`/guides/${locale}/a-deadline-is-not-a-plan/`, `guides/${locale}/a-deadline-is-not-a-plan/index.html`);
+}
 for (const locale of guideLocales.filter((locale) => locale !== "en")) {
   publicPages.set(`/${locale}/`, `${locale}/index.html`);
   for (const page of ['privacy','terms','support','data-deletion']) publicPages.set(`/${locale}/${page}/`, `${locale}/${page}/index.html`);

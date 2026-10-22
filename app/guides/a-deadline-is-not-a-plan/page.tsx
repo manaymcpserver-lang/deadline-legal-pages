@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { appStoreUrl, playStoreUrl } from "../../site-data";
 import { firstGuide, planningGuide as guide } from "../guide-data";
+import { GuideLanguages, guideAlternates } from "../GuideLanguages";
+import planningLocales from "../planning-locales.json";
 
 export const metadata: Metadata = {
   title: guide.title,
   description: guide.description,
-  alternates: { canonical: guide.href },
+  alternates: { canonical: guide.href, languages: guideAlternates(true, guide.href, planningLocales) },
   authors: [{ name: "Nonlate", url: "https://nonlate.app/" }],
   openGraph: {
     type: "article", title: guide.title, description: guide.description,
@@ -49,7 +51,7 @@ const structuredData = {
 export default function PlanningGuide() {
   return (
     <>
-      <p className="guide-disclosure" lang="en">This article is currently available in English. <Link href="/guides/">Browse guides and available languages.</Link></p>
+      <GuideLanguages article articleHref={guide.href} availableLocales={planningLocales} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
       <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/guides/">Guides</Link><span aria-hidden="true">/</span><span aria-current="page">Planning your work</span></nav>
       <article className="guide-article">

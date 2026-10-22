@@ -4,11 +4,16 @@ Production source for [nonlate.app](https://nonlate.app/). The site is a static 
 
 ## Local development
 
-The October 22 planning post, `/guides/a-deadline-is-not-a-plan/`, is currently
-English-only. Every guide index links to it with an explicit English-language,
-left-to-right card. Existing translated guides and their approval/completeness
-checks are unchanged. Do not create alternate-language article URLs until their
-translations have been prepared and reviewed. The sitemap now has 330 pages.
+The October 22 planning post, `/guides/a-deadline-is-not-a-plan/`, is available
+in English, Spanish, French, German, Arabic, Brazilian Portuguese and European
+Portuguese. The supported set is recorded in `app/guides/planning-locales.json`.
+Other guide indexes retain an explicit English-language, left-to-right card.
+Existing translations and approval/completeness checks are unchanged. The new
+article uses separately stored, directly authored AI-assisted translations with
+in-session semantic and technical review, not native-speaker certification.
+`scripts/localize-planning-guide.py` enforces source hashes and complete
+dictionaries, localizes index cards, and preserves correct language links and
+Arabic directionality. The sitemap now has 336 pages.
 
 Requires Node.js 22 or newer.
 

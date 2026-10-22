@@ -1,0 +1,15 @@
+{
+  "sourceHash": "650e64c52871de1fc8ff5521f20efd6db0afba512b9c7111188899aaceb67b65",
+  "date": "2026-10-22",
+  "locales": ["es", "fr", "de", "ar", "pt-BR", "pt-PT"],
+  "method": "Direct AI-assisted translation and in-session comparison with the English source; not independent native-speaker certification",
+  "checkedMeaning": [
+    "The real Friday deadline remains unchanged when Tuesday work is planned",
+    "Plan names come from task names, not custom plan titles",
+    "Calendar events do not trigger blocking",
+    "Planning a session does not by itself activate a scheduled restriction",
+    "Timed breaks and other eligible unfinished blocking tasks remain relevant",
+    "Marking complete does not verify actual completion or submission",
+    "Provider, permission, plan and device limitations remain qualified"
+  ]
+}

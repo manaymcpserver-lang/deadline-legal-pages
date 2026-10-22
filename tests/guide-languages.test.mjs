@@ -108,6 +108,6 @@ test("localized routes are fully discoverable in the sitemap", async () => {
   const sitemap = await read("out/sitemap.xml");
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   assert.equal(new Set(urls).size, urls.length);
-  assert.equal(urls.length, 330);
+  assert.equal(urls.length, 336);
   for (const locale of locales) for (const article of [false,true]) assert.ok(urls.includes(`https://nonlate.app${route(locale,article)}`));
 });
