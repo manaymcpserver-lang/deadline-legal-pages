@@ -79,11 +79,14 @@ test("planning translations are complete, preserve brands, and have reciprocal a
     assert.ok(body.includes('href="/guides/ja/"'));
     assert.ok(!body.includes('/guides/ja/a-deadline-is-not-a-plan/'));
     assert.ok(body.includes(`href="/guides/${locale}/block-distracting-apps-until-tasks-are-done/"`));
+    assert.ok(body.includes(`href="/guides/${locale}/"`));
+    assert.ok(!body.includes('href="/guides/"'));
     assert.ok(!body.includes('The short answer'));
     assert.doesNotMatch(html, /<script(?![^>]*application\/ld\+json)/i);
     assert.match(body, /class="guide-translation-note"/);
     const schema = JSON.parse(html.match(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/)[1]);
     const article = schema['@graph'].find(item => item['@type'] === 'Article');
+    assert.equal(schema['@graph'].find(item => item['@type'] === 'BreadcrumbList').itemListElement[1].item, `https://nonlate.app/guides/${locale}/`);
     assert.equal(article.inLanguage, locale);
     assert.equal(article.mainEntityOfPage, `https://nonlate.app${path}`);
     assert.ok(body.includes(article.headline));

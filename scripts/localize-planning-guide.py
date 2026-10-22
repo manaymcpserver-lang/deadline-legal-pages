@@ -59,6 +59,8 @@ for code in LOCALES:
     # Link the first guide in the reader's language too. Other missing article
     # translations keep their guide-index fallback from WebsiteLanguageMenu.
     html = destination.read_text()
+    html = html.replace('href="/guides/"', f'href="/guides/{code}/"')
+    html = html.replace('"item": "https://nonlate.app/guides/"', f'"item": "https://nonlate.app/guides/{code}/"')
     first = "/guides/block-distracting-apps-until-tasks-are-done/"
     html = html.replace(f'href="{first}"', f'href="/guides/{code}/block-distracting-apps-until-tasks-are-done/"')
     # Existing renderer preserves every footer language choice. Restore the
