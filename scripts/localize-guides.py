@@ -174,7 +174,10 @@ def localize(path, code, strings):
         if node.tag == "link" and (node.attrs.get("as") == "script" or node.attrs.get("rel") == "modulepreload"):
             return False
         is_native_link = node.tag == "a" and "lang" in node.attrs
-        proper = proper or is_native_link
+        # Explicitly language-tagged editorial cards remain in their original
+        # language until reviewed article translations exist. Do not relabel
+        # English posts as translations or rewrite their canonical links.
+        proper = proper or is_native_link or (node.tag != "html" and bool(node.attrs.get("lang")))
         if node.tag == "html":
             node.attrs.update(lang=code, dir="rtl" if code in RTL else "ltr")
         if node.tag is None:

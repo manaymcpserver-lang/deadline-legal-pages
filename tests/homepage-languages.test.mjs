@@ -127,7 +127,7 @@ test("homepage and guide language URLs share a complete sitemap", async () => {
   const xml = await read("out/sitemap.xml");
   const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
   assert.equal(new Set(urls).size, urls.length);
-  assert.equal(urls.length, 329);
+  assert.equal(urls.length, 330);
   for (const locale of locales) assert.ok(urls.includes(`https://nonlate.app${pathFor(locale)}`));
 });
 

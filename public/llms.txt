@@ -16,6 +16,8 @@ Nonlate is built for school, work, and everyday life. The product website is htt
 
 ## Guides
 
+- [A deadline is not a plan: how to make time for your tasks](https://nonlate.app/guides/a-deadline-is-not-a-plan/): An English-language guide to separating deadlines from work sessions, using Planner and Schedule, and understanding task-based blocking.
+
 - [Guides](https://nonlate.app/guides/): Practical articles published by Nonlate about tasks, deadlines and app blocking.
 - [How to block distracting apps until your tasks are done](https://nonlate.app/guides/block-distracting-apps-until-tasks-are-done/): Setup, iPhone and Android differences, timed breaks, troubleshooting and Free-plan limits. Blocking is not a tamper-proof lock or a guarantee of productivity.
 

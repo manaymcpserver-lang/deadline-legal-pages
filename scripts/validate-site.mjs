@@ -16,6 +16,7 @@ const publicPages = new Map([
   ["/support/", "support/index.html"],
   ["/data-deletion/", "data-deletion/index.html"],
   ["/guides/", "guides/index.html"],
+  ["/guides/a-deadline-is-not-a-plan/", "guides/a-deadline-is-not-a-plan/index.html"],
   ["/guides/block-distracting-apps-until-tasks-are-done/", "guides/block-distracting-apps-until-tasks-are-done/index.html"],
 ]);
 const guideLocales = JSON.parse(readFileSync(join(repoRoot, "app/guides/locales.json"), "utf8"));

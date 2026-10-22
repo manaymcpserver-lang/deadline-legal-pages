@@ -4,6 +4,12 @@ Production source for [nonlate.app](https://nonlate.app/). The site is a static 
 
 ## Local development
 
+The October 22 planning post, `/guides/a-deadline-is-not-a-plan/`, is currently
+English-only. Every guide index links to it with an explicit English-language,
+left-to-right card. Existing translated guides and their approval/completeness
+checks are unchanged. Do not create alternate-language article URLs until their
+translations have been prepared and reviewed. The sitemap now has 330 pages.
+
 Requires Node.js 22 or newer.
 
 ```bash

@@ -4,6 +4,7 @@ import { createContext, useContext, useEffect, useMemo, type ReactNode } from "r
 import { usePathname } from "next/navigation";
 import locales from "../guides/locales.json";
 import languageNames from "../guides/language-names.json";
+import { firstGuide } from "../guides/guide-data";
 import mediaLabels from "../../translations/media-labels.json";
 import playMediaLabels from "../../translations/play-media-labels.json";
 
@@ -64,8 +65,11 @@ export function WebsiteLanguageMenu() {
   const pathname = usePathname();
   let guideSuffix = pathname.startsWith("/guides/") ? pathname.slice("/guides/".length) : null;
   if (guideSuffix !== null && locales.includes(guideSuffix.split("/")[0])) guideSuffix = guideSuffix.split("/").slice(1).join("/");
+  // Only the first article has reviewed translations. New English articles
+  // send other language choices to their guide index, never a missing route.
+  const isEnglishArticle = guideSuffix !== null && guideSuffix !== "" && guideSuffix.replace(/\/$/, "") !== firstGuide.href.slice("/guides/".length).replace(/\/$/, "");
   const policy = ["/privacy/", "/terms/", "/support/", "/data-deletion/"].find(route => pathname.replace(/\/$/, "").endsWith(route.replace(/\/$/, "")));
-  const destination = (code: string) => policy ? `${code === "en" ? "" : `/${code}`}${policy}` : guideSuffix === null ? homePath(code) : `/guides/${code === "en" ? "" : `${code}/`}${guideSuffix}`;
+  const destination = (code: string) => policy ? `${code === "en" ? "" : `/${code}`}${policy}` : guideSuffix === null ? homePath(code) : `/guides/${code === "en" ? "" : `${code}/`}${isEnglishArticle && code !== "en" ? "" : guideSuffix}`;
   const name = (code: string) => nativeLanguageNames[code] ?? code;
   return <details className="website-languages" data-language-switcher>
     <summary>{t("Language")} · <span lang={locale}>{name(locale)}</span></summary>

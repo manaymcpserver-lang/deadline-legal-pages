@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { firstGuide } from "./guide-data";
+import { firstGuide, planningGuide } from "./guide-data";
 import { GuideLanguages, guideAlternates } from "./GuideLanguages";
 
 const title = "Guides to tasks, deadlines and fewer distractions";
@@ -24,6 +24,13 @@ export default function GuidesPage() {
         <p>Practical answers about tasks, deadlines and distractions. Start with one change you can use today.</p>
       </header>
       <div className="guides-list">
+        <article className="guide-card" lang="en" dir="ltr">
+          <p className="guide-category">Planning · School, work &amp; everyday life · English</p>
+          <h2><Link href={planningGuide.href} hrefLang="en">{planningGuide.title}</Link></h2>
+          <p>{planningGuide.description}</p>
+          <p className="guide-byline">By Nonlate · <time dateTime={planningGuide.date}>{planningGuide.displayDate}</time></p>
+          <Link className="guide-read-link" href={planningGuide.href} hrefLang="en">Read in English <span aria-hidden="true">↗</span></Link>
+        </article>
         <article className="guide-card">
           <p className="guide-category">App blocking · iPhone &amp; Android</p>
           <h2><Link href={firstGuide.href}>{firstGuide.title}</Link></h2>
