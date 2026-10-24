@@ -32,7 +32,7 @@ export function homepageMetadata(locale: string): Metadata {
     title: { absolute: t("Nonlate App | Deadline-Aware App Blocker") },
     description: t("Nonlate brings tasks, calendars, and supported connected sources into one plan, then blocks selected distractions when work is due. Built for iOS and Android."),
     alternates: { canonical, languages: homepageLanguages },
-    openGraph: { type: "website", siteName: "Nonlate", url: canonical, locale: locale.replace("-", "_"), title: t("Nonlate | More connected. Less distracted."), description: t("Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention."), images: [{ url: "/og.png", width: 1536, height: 1024, alt: t("Nonlate deadline blockers on iOS and Android") }] },
-    twitter: { card: "summary_large_image", title: t("Nonlate | More connected. Less distracted."), description: t("Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention."), images: ["/og.png"] },
+    openGraph: { type: "website", siteName: "Nonlate", url: canonical, locale: locale.replace("-", "_"), title: t("Nonlate | More connected. Less distracted."), description: t("Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention."), images: [{ url: "/og-launch-2026-10.png", width: 1536, height: 1024, alt: t("Nonlate deadline blockers on iOS and Android") }] },
+    twitter: { card: "summary_large_image", title: t("Nonlate | More connected. Less distracted."), description: t("Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention."), images: ["/og-launch-2026-10.png"] },
   };
 }

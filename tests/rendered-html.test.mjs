@@ -321,6 +321,7 @@ test("deployment-critical assets are present in source and output", async () => 
     "public/app-ads.txt",
     "public/deadline/oauth/callback/oauth-ui.js",
     "public/og.png",
+    "public/og-launch-2026-10.png",
     "public/assets/screens/ios-blocker.png",
     "public/assets/screens/ios-tasks.png",
     "public/assets/screens/android-blocker.png",
@@ -328,4 +329,13 @@ test("deployment-critical assets are present in source and output", async () => 
     "out/404.html",
   ];
   await Promise.all(paths.map((pathname) => access(new URL(pathname, root))));
+});
+
+test("link previews use the current, versioned launch artwork", async () => {
+  const html = await readPage("index.html");
+  assert.match(html, /property="og:image" content="https:\/\/nonlate\.app\/og-launch-2026-10\.png"/);
+  assert.match(html, /name="twitter:image" content="https:\/\/nonlate\.app\/og-launch-2026-10\.png"/);
+  const current = await readFile(new URL("public/og-launch-2026-10.png", root));
+  const legacy = await readFile(new URL("public/og.png", root));
+  assert.deepEqual(current, legacy, "legacy image URL must not retain coming-soon artwork");
 });

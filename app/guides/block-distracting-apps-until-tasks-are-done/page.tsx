@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     publishedTime: firstGuide.date,
     modifiedTime: firstGuide.date,
     authors: ["Nonlate"],
-    images: [{ url: "/og.png", width: 1536, height: 1024, alt: "Nonlate blockers on iPhone and Android" }],
+    images: [{ url: "/og-launch-2026-10.png", width: 1536, height: 1024, alt: "Nonlate blockers on iPhone and Android" }],
   },
-  twitter: { card: "summary_large_image", title: firstGuide.title, description: firstGuide.description, images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title: firstGuide.title, description: firstGuide.description, images: ["/og-launch-2026-10.png"] },
 };
 
 const sections = [
@@ -46,7 +46,7 @@ const structuredData = {
       inLanguage: "en",
       author: { "@type": "Organization", name: "Nonlate", url: "https://nonlate.app/" },
       publisher: { "@type": "Organization", name: "Nonlate", url: "https://nonlate.app/", logo: { "@type": "ImageObject", url: "https://nonlate.app/assets/brand/icon-512.png" } },
-      image: "https://nonlate.app/og.png",
+      image: "https://nonlate.app/og-launch-2026-10.png",
       about: { "@type": "SoftwareApplication", name: "Nonlate", operatingSystem: "iOS, Android", url: "https://nonlate.app/" },
     },
     {

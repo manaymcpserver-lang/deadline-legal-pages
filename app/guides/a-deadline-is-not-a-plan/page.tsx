@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article", title: guide.title, description: guide.description,
     url: guide.href, publishedTime: guide.date, modifiedTime: guide.date,
-    authors: ["Nonlate"], images: ["/og.png"],
+    authors: ["Nonlate"], images: ["/og-launch-2026-10.png"],
   },
-  twitter: { card: "summary_large_image", title: guide.title, description: guide.description, images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title: guide.title, description: guide.description, images: ["/og-launch-2026-10.png"] },
 };
 
 const sections = [
@@ -35,7 +35,7 @@ const structuredData = {
       datePublished: guide.date, dateModified: guide.date, inLanguage: "en",
       author: { "@type": "Organization", name: "Nonlate", url: "https://nonlate.app/" },
       publisher: { "@type": "Organization", name: "Nonlate", url: "https://nonlate.app/" },
-      image: "https://nonlate.app/og.png",
+      image: "https://nonlate.app/og-launch-2026-10.png",
     },
     {
       "@type": "BreadcrumbList",

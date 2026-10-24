@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: "/guides/", languages: guideAlternates(false) },
-  openGraph: { type: "website", title, description, url: "/guides/", images: ["/og.png"] },
-  twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
+  openGraph: { type: "website", title, description, url: "/guides/", images: ["/og-launch-2026-10.png"] },
+  twitter: { card: "summary_large_image", title, description, images: ["/og-launch-2026-10.png"] },
 };
 
 export default function GuidesPage() {

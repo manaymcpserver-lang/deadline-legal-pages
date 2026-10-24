@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     title: "Nonlate | More connected. Less distracted.",
     description: "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.",
     url: "/",
-    images: [{ url: "/og.png", width: 1536, height: 1024, alt: "Nonlate deadline blockers on iOS and Android" }],
+    images: [{ url: "/og-launch-2026-10.png", width: 1536, height: 1024, alt: "Nonlate deadline blockers on iOS and Android" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Nonlate | More connected. Less distracted.",
     description: "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.",
-    images: ["/og.png"],
+    images: ["/og-launch-2026-10.png"],
   },
 };
 
