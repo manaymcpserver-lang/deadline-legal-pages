@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { firstGuide, planningGuide } from "./guide-data";
+import { firstGuide, planningGuide, productivityGuide } from "./guide-data";
 import { GuideLanguages, guideAlternates } from "./GuideLanguages";
 
 const title = "Guides to tasks, deadlines and fewer distractions";
@@ -37,6 +37,14 @@ export default function GuidesPage() {
           <p>{firstGuide.description}</p>
           <p className="guide-byline">By Nonlate · <time dateTime={firstGuide.date}>{firstGuide.displayDate}</time></p>
           <Link className="guide-read-link" href={firstGuide.href}>Read the guide <span aria-hidden="true">↗</span></Link>
+        </article>
+      </div>
+      <div className="guides-list">
+        <article className="guide-card" lang="en" dir="ltr" data-guide="productivity">
+          <h2><Link href={productivityGuide.href} hrefLang="en">{productivityGuide.title}</Link></h2>
+          <p>{productivityGuide.description}</p>
+          <p className="guide-byline">Nonlate · <time dateTime={productivityGuide.date}>{productivityGuide.date}</time></p>
+          <Link className="guide-read-link" href={productivityGuide.href} hrefLang="en">Read the guide <span aria-hidden="true">↗</span></Link>
         </article>
       </div>
     </>

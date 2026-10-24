@@ -16,6 +16,7 @@ const publicPages = new Map([
   ["/support/", "support/index.html"],
   ["/data-deletion/", "data-deletion/index.html"],
   ["/guides/", "guides/index.html"],
+  ["/guides/best-productivity-app/", "guides/best-productivity-app/index.html"],
   ["/guides/a-deadline-is-not-a-plan/", "guides/a-deadline-is-not-a-plan/index.html"],
   ["/guides/block-distracting-apps-until-tasks-are-done/", "guides/block-distracting-apps-until-tasks-are-done/index.html"],
 ]);
@@ -25,6 +26,7 @@ for (const locale of planningLocales.filter((locale) => locale !== "en")) {
   publicPages.set(`/guides/${locale}/a-deadline-is-not-a-plan/`, `guides/${locale}/a-deadline-is-not-a-plan/index.html`);
 }
 for (const locale of guideLocales.filter((locale) => locale !== "en")) {
+  publicPages.set(`/guides/${locale}/best-productivity-app/`, `guides/${locale}/best-productivity-app/index.html`);
   publicPages.set(`/${locale}/`, `${locale}/index.html`);
   for (const page of ['privacy','terms','support','data-deletion']) publicPages.set(`/${locale}/${page}/`, `${locale}/${page}/index.html`);
   publicPages.set(`/guides/${locale}/`, `guides/${locale}/index.html`);

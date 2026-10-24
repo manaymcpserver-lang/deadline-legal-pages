@@ -4,6 +4,14 @@ Production source for [nonlate.app](https://nonlate.app/). The site is a static 
 
 ## Local development
 
+The October 24 guide, `/guides/best-productivity-app/`, is available in all 47
+website languages. It is a brand-authored practical guide, not an independent
+ranking. Direct AI-assisted translations and in-session semantic/technical
+review are recorded under `translations/productivity-guide/`; this is not
+native-speaker certification. `scripts/localize-productivity-guide.py` checks
+source hashes, complete copy, localized cards, language links and metadata.
+The sitemap now contains 383 canonical pages.
+
 The October 22 planning post, `/guides/a-deadline-is-not-a-plan/`, is available
 in English, Spanish, French, German, Arabic, Brazilian Portuguese and European
 Portuguese. The supported set is recorded in `app/guides/planning-locales.json`.

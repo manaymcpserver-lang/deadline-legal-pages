@@ -16,6 +16,8 @@ Nonlate is built for school, work, and everyday life. The product website is htt
 
 ## Guides
 
+- [Best productivity app: choose a tool that helps you finish](https://nonlate.app/guides/best-productivity-app/): A concise, brand-authored guide to selecting tools for missed deadlines, scattered tasks and distractions. Available in all 47 website languages; not an independent ranking.
+
 - [A deadline is not a plan: how to make time for your tasks](https://nonlate.app/guides/a-deadline-is-not-a-plan/): A guide to separating deadlines from work sessions, using Planner and Schedule, and understanding task-based blocking. Available in English, Spanish, French, German, Arabic, Brazilian Portuguese and European Portuguese through the article language menu.
 
 - [Guides](https://nonlate.app/guides/): Practical articles published by Nonlate about tasks, deadlines and app blocking.

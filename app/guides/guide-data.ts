@@ -13,3 +13,10 @@ export const planningGuide = {
   date: "2026-10-22",
   displayDate: "October 22, 2026",
 };
+
+export const productivityGuide = {
+  href: "/guides/best-productivity-app/",
+  title: "Best productivity app: choose a tool that helps you finish",
+  description: "The best productivity app solves your actual problem: missed deadlines, scattered tasks, difficulty starting or distracting apps.",
+  date: "2026-10-24",
+};
