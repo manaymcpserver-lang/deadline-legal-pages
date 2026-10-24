@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Language suggestion — local QA only</title>
+<link rel="stylesheet" href="/language-suggestion.css">
+<style>body{margin:0;padding:24px;background:#080b18;color:#f4f5fb;font:16px/1.6 system-ui}main{max-width:700px;margin:50px auto}button,select{font:inherit;padding:10px;margin:6px 0}nav{display:flex;gap:16px}p{max-width:55ch}</style></head>
+<body><main><h1>Language suggestion — local QA only</h1><p>This fixture simulates browser languages without changing the computer’s browser settings. The live website has none of these test controls.</p>
+<label>Simulated preferred browser language <select id="language"><option value="pt-BR">Português (Brasil)</option><option value="ar-SA">العربية</option><option value="en-US">English</option></select></label><br>
+<button id="reset">Reset choice and show suggestion</button><button id="retry">Retry with saved choice</button>
+<p id="saved" role="status"></p><nav class="guide-languages" aria-label="Manual language selector"><a href="/" lang="en">English</a><a href="/pt-BR/" lang="pt-BR">Português (Brasil)</a><a href="/ar/" lang="ar">العربية</a></nav>
+<h2>Static content stays readable</h2><p>The optional banner must not redirect, replace this text, move keyboard focus, or block navigation. English dismisses the suggestion; choosing Portuguese opens the matching page.</p></main>
+<script type="module" data-language-suggestion data-current-language="en" data-language-targets='{"en":"/","pt-BR":"/pt-BR/","ar":"/ar/"}'>
+import {mountLanguageSuggestion,preferenceKey,readPreference} from '/language-suggestion.js';
+const language=document.getElementById('language');
+const saved=document.getElementById('saved');
+function show(reset){document.getElementById('nonlate-language-suggestion')?.remove();if(reset)localStorage.removeItem(preferenceKey);mountLanguageSuggestion(document,{localStorage,navigator:{languages:[language.value],language:language.value}},window.location);saved.textContent='Saved choice: '+(readPreference(localStorage)||'none');}
+document.getElementById('reset').addEventListener('click',()=>show(true));
+document.getElementById('retry').addEventListener('click',()=>show(false));
+show(true);
+</script></body></html>

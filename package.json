@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/prepare-homepage-i18n.mjs --check && next build && python3 scripts/localize-guides.py build && python3 scripts/localize-policies.py build && node scripts/finalize-homepage-locales.mjs && node scripts/finalize-language-sitemap.mjs && python3 scripts/localize-planning-guide.py && python3 scripts/localize-productivity-guide.py",
+    "build": "node scripts/prepare-homepage-i18n.mjs --check && next build && python3 scripts/localize-guides.py build && python3 scripts/localize-policies.py build && node scripts/finalize-homepage-locales.mjs && node scripts/finalize-language-sitemap.mjs && python3 scripts/localize-planning-guide.py && python3 scripts/localize-productivity-guide.py && node scripts/add-language-suggestion.mjs",
     "start": "python3 -m http.server 3000 --directory out",
     "test": "npm run build && node --test tests/*.test.mjs && npm run validate:site",
     "lint": "eslint .",

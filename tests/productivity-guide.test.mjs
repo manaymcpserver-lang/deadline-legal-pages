@@ -42,7 +42,7 @@ test("productivity guide publishes all 47 complete, matching-language articles",
     assert.ok(card.includes(`lang="${locale}"`));
     if (locale !== "en") {
       assert.ok(html.includes(`<html lang="${locale}" dir="${['ar','fa','he','ur'].includes(locale) ? 'rtl' : 'ltr'}"`));
-      assert.doesNotMatch(html, /<script(?![^>]*application\/ld\+json)/i);
+      assert.doesNotMatch(html.replace(/<script type="module" src="\/language-suggestion\.js"[^>]*><\/script>/g, ""), /<script(?![^>]*application\/ld\+json)/i);
       assert.ok(!visible.includes(copy.en.intro));
       const dictionary = JSON.parse(await read(`translations/productivity-guide/${locale}.json`));
       assert.equal(dictionary.sourceHash, source.sourceHash);

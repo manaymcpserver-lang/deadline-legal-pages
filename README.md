@@ -4,6 +4,16 @@ Production source for [nonlate.app](https://nonlate.app/). The site is a static 
 
 ## Local development
 
+All public pages include an optional, locally executed language suggestion.
+English pages can offer an available same-page translation based on browser
+languages or a saved manual preference. Explicit translated URLs are respected;
+there are no automatic redirects, location lookups, translation requests or
+tracking calls. Choosing the existing language dismisses the suggestion and
+remembers that decision in local storage. Existing language menus also remember
+manual choices. Without JavaScript or storage, the static site remains usable.
+The post-export injection in `scripts/add-language-suggestion.mjs` preserves
+translated article/policy content without adding React hydration to those pages.
+
 The October 24 guide, `/guides/best-productivity-app/`, is available in all 47
 website languages. It is a brand-authored practical guide, not an independent
 ranking. Direct AI-assisted translations and in-session semantic/technical

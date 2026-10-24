@@ -35,7 +35,7 @@ test('all 188 privacy, terms, support and deletion pages keep localized routes a
    assert.ok(html.includes(`href="https://nonlate.app${href}"`),`${route}: alternate ${target}`);
   }
   if(code!=='en'){
-   assert.doesNotMatch(html,/<script\b/,'static policy pages must not hydrate back to English');
+   assert.doesNotMatch(html.replace(/<script type="module" src="\/language-suggestion\.js"[^>]*><\/script>/g,''),/<script\b/,'static policy pages must not hydrate back to English');
    for(const target of pages)assert.ok(body.includes(`href="${path(code,target)}"`),`${route}: legal navigation ${target}`);
    assert.ok(body.includes(`href="/${code}/"`),`${route}: localized homepage`);
    assert.ok(body.includes(`href="/${page}/" hreflang="en"`),`${route}: English original`);

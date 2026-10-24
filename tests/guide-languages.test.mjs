@@ -62,7 +62,7 @@ test("all 94 guide pages have reciprocal language links, matching canonicals and
       assert.ok(html.includes(`href="https://nonlate.app${route("en", article)}"`));
       if (locale !== "en") {
         assert.ok(html.includes(`<html lang="${locale}" dir="${["ar","fa","he","ur"].includes(locale) ? "rtl" : "ltr"}"`));
-        assert.doesNotMatch(html, /<script(?![^>]*application\/ld\+json)/i, `${path}: unnecessary client bundle`);
+        assert.doesNotMatch(html.replace(/<script type="module" src="\/language-suggestion\.js"[^>]*><\/script>/g, ""), /<script(?![^>]*application\/ld\+json)/i, `${path}: unnecessary client bundle`);
         assert.ok(body.includes(`href="${route(locale)}"`));
         assert.ok(body.includes(`class="guide-translation-note"`));
         assert.doesNotMatch(body, /<button\b/, `${path}: dead JavaScript control`);

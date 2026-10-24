@@ -82,7 +82,7 @@ test("planning translations are complete, preserve brands, and have reciprocal a
     assert.ok(body.includes(`href="/guides/${locale}/"`));
     assert.ok(!body.includes('href="/guides/"'));
     assert.ok(!body.includes('The short answer'));
-    assert.doesNotMatch(html, /<script(?![^>]*application\/ld\+json)/i);
+    assert.doesNotMatch(html.replace(/<script type="module" src="\/language-suggestion\.js"[^>]*><\/script>/g, ""), /<script(?![^>]*application\/ld\+json)/i);
     assert.match(body, /class="guide-translation-note"/);
     const schema = JSON.parse(html.match(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/)[1]);
     const article = schema['@graph'].find(item => item['@type'] === 'Article');
