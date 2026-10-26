@@ -7,14 +7,14 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/prepare-homepage-i18n.mjs --check && next build && python3 scripts/localize-guides.py build && python3 scripts/localize-policies.py build && node scripts/finalize-homepage-locales.mjs && node scripts/finalize-language-sitemap.mjs && python3 scripts/localize-planning-guide.py && python3 scripts/localize-productivity-guide.py && node scripts/add-language-suggestion.mjs",
+    "build": "node scripts/prepare-homepage-i18n.mjs --check && next build && python3 scripts/localize-guides.py build && python3 scripts/localize-policies.py build && node scripts/finalize-homepage-locales.mjs && node scripts/finalize-language-sitemap.mjs && python3 scripts/localize-planning-guide.py && python3 scripts/localize-productivity-guide.py && python3 scripts/build-search-guides.py && node scripts/add-language-suggestion.mjs",
     "start": "python3 -m http.server 3000 --directory out",
     "test": "npm run build && node --test tests/*.test.mjs && npm run validate:site",
     "lint": "eslint .",
     "validate:site": "node scripts/validate-site.mjs"
   },
   "dependencies": {
-    "next": "16.4.0",
+    "next": "16.4.3",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
@@ -24,7 +24,7 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.4",
-    "eslint-config-next": "16.4.0",
+    "eslint-config-next": "16.4.3",
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3"
   },

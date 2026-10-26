@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { searchGuideRoutes } from "../scripts/search-guide-registry.mjs";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
@@ -108,6 +109,6 @@ test("localized routes are fully discoverable in the sitemap", async () => {
   const sitemap = await read("out/sitemap.xml");
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   assert.equal(new Set(urls).size, urls.length);
-  assert.equal(urls.length, 383);
+  assert.equal(urls.length, 383 + searchGuideRoutes.length);
   for (const locale of locales) for (const article of [false,true]) assert.ok(urls.includes(`https://nonlate.app${route(locale,article)}`));
 });

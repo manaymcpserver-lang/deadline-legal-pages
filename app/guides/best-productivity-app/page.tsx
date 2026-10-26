@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- the post-export guide index requires full-page navigation instead of the older RSC payload */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { appStoreUrl, playStoreUrl } from "../../site-data";
@@ -26,7 +27,7 @@ export default function ProductivityGuide() {
   return <>
     <GuideLanguages article articleHref={guide.href} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
-    <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/guides/">Guides</Link></nav>
+    <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><a href="/guides/">Guides</a></nav>
     <article className="guide-article">
       <header className="guides-heading">
         <h1>{text.title}</h1><p>{text.intro}</p>
@@ -40,6 +41,6 @@ export default function ProductivityGuide() {
       </section>
       <nav className="guide-toc" aria-label="Guides"><ul><li><Link href={firstGuide.href}>{firstGuide.title}</Link></li></ul></nav>
     </article>
-    <Link className="guide-back" href="/guides/">← All guides</Link>
+    <a className="guide-back" href="/guides/">← All guides</a>
   </>;
 }

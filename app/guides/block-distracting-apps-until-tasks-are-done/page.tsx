@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- the post-export guide index requires full-page navigation instead of the older RSC payload */
 /* eslint-disable @next/next/no-img-element -- reuse the existing, pre-sized product screenshots and official badges */
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -74,7 +75,7 @@ export default function AppBlockingGuide() {
     <>
       <GuideLanguages article />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
-      <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/guides/">Guides</Link><span aria-hidden="true">/</span><span aria-current="page">App blocking</span></nav>
+      <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><a href="/guides/">Guides</a><span aria-hidden="true">/</span><span aria-current="page">App blocking</span></nav>
       <article className="guide-article">
         <header className="guides-heading">
           <p className="eyebrow"><span /> App blocking · iPhone &amp; Android</p>
@@ -153,7 +154,7 @@ export default function AppBlockingGuide() {
         </aside>
         <footer className="guide-notes"><h2>About this guide</h2><p>By Nonlate. Product instructions were checked against Nonlate’s iOS and Android settings and blocking rules for this publication. Screenshots show platform examples; your theme and app version may differ.</p><p>For more details, see <Link href="/#moment">how Nonlate works</Link>, <Link href="/#faq">product questions</Link> and our <Link href="/privacy/">privacy policy</Link>.</p></footer>
       </article>
-      <Link className="guide-back" href="/guides/">← All guides</Link>
+      <a className="guide-back" href="/guides/">← All guides</a>
     </>
   );
 }
