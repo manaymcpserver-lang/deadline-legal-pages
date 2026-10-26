@@ -1,0 +1,263 @@
+{
+  "researched": "2026-10-26",
+  "method": "Live web searches in English, Spanish, Brazilian Portuguese, French, German and Hindi; inspection of Nonlate's live homepage and supplied project source. Queries below are research inputs and observed result language, not verified search-volume data or Search Console queries. Results are qualitative topic evidence, not proof of demand size or a ranking forecast.",
+  "volume_data": null,
+  "search_console_access": false,
+  "translation_review": "AI-assisted translations with an in-session semantic review against the English source; not certified native-language review.",
+  "reel": {
+    "url": "https://www.instagram.com/reel/De7uN34B1I_/",
+    "verified_steps": [
+      "Use Google Ads Keyword Planner to explore customer search queries.",
+      "Identify questions and searches made by the intended customer.",
+      "Organize the queries into a query map.",
+      "Create a useful page for each distinct intent.",
+      "Organize pages in a CMS structure.",
+      "Use templates including titles and frequently asked questions.",
+      "Use AI to assist with code; the speaker makes an AI-code visibility claim that is not an established special-markup requirement.",
+      "Use AI to assist with copywriting."
+    ],
+    "status": "All eight steps verified visually by the reel-analysis agent in the Instagram browser player; this research record combines that report with separate live search research. No ranking guarantee."
+  },
+  "product_verification": {
+    "source_files": [
+      "app/HomePage.tsx",
+      "app/site-data.ts",
+      "app/guides/block-distracting-apps-until-tasks-are-done/page.tsx"
+    ],
+    "verified": [
+      "Google Classroom and Todoist appear in supported integration groups.",
+      "Blocking responds to eligible unfinished tasks inside the chosen due window, not calendar events.",
+      "iPhone uses Screen Time shields; Android uses the required Accessibility permission and can show fuller task details.",
+      "Supported timed breaks remain possible; Focus Lock changes access to breaks and is not a tamper-proof guarantee.",
+      "Free includes manual tasks and core blocking for up to three distracting apps.",
+      "Optional 30-day external-source trial covers one source at a time, syncing on open or refresh with no automatic trial charge. Afterwards syncing pauses without eligible paid source access; imported tasks remain available for local completion and blocking.",
+      "Provider access, permissions, account role, plan and device background limits affect sync timing."
+    ]
+  },
+  "intents": [
+    {
+      "intent": "Task completion before distracting apps",
+      "queries": [
+        "block apps until tasks complete",
+        "task based app blocker"
+      ],
+      "candidate_slug": "block-distracting-apps-until-tasks-are-done",
+      "rationale": "Clear task-driven intent with dedicated competitor product pages. Existing Nonlate guide should remain the core explainer rather than creating many synonymous pages.",
+      "evidence": [
+        {
+          "label": "TaskLock product page",
+          "url": "https://tasklockapp.com/"
+        },
+        {
+          "label": "Done Focus Lock product page",
+          "url": "https://donefocuslock.com/"
+        }
+      ]
+    },
+    {
+      "intent": "Canvas assignments, deadlines and distraction blocking",
+      "queries": [
+        "Canvas assignment planner app",
+        "Canvas assignments block apps"
+      ],
+      "candidate_slug": "canvas-assignment-planner",
+      "rationale": "Canvas-specific results emphasize imported assignments and due dates; Nonlate can explain the distinction between import, planning and due-task blocking.",
+      "evidence": [
+        {
+          "label": "AssignMint product page",
+          "url": "https://www.assignmint.tech/"
+        },
+        {
+          "label": "DueMo Canvas planner",
+          "url": "https://duemo.app/"
+        }
+      ]
+    },
+    {
+      "intent": "Google Classroom assignment planner",
+      "queries": [
+        "Google Classroom assignments planner app",
+        "Google Classroom organizar tareas aplicación"
+      ],
+      "candidate_slug": "google-classroom-assignment-planner",
+      "rationale": "Serve students who want to move from a school assignment list to a work plan. Explain account restrictions, missing work and sync delays instead of promising unrestricted imports or automatic submissions.",
+      "evidence": [
+        {
+          "label": "Google for Education Classroom app directory",
+          "url": "https://edu.google.com/intl/ALL_sg/workspace-for-education/products/classroom/apps/"
+        },
+        {
+          "label": "Google Classroom student help: find your classwork",
+          "url": "https://support.google.com/edu/classroom/answer/6020284?hl=en"
+        }
+      ]
+    },
+    {
+      "intent": "Keep Todoist and add an app blocker",
+      "queries": [
+        "Todoist block apps integration",
+        "block social media until Todoist tasks done"
+      ],
+      "candidate_slug": "todoist-distraction-blocker",
+      "rationale": "A first-person Todoist community discussion describes this exact workflow. The useful Nonlate answer preserves the original task system, checks imported dates and qualifies completion/sync behavior.",
+      "evidence": [
+        {
+          "label": "Todoist community: block social media until tasks finished",
+          "url": "https://www.reddit.com/r/todoist/comments/1rck62j/i_programmed_my_phone_to_block_social_media_until/"
+        },
+        {
+          "label": "Todoist official product overview",
+          "url": "https://www.todoist.com/"
+        }
+      ]
+    },
+    {
+      "intent": "Spanish study app blocking",
+      "queries": [
+        "bloquear aplicaciones para estudiar",
+        "bloquear aplicaciones hasta terminar tareas estudiar"
+      ],
+      "suggested_title": "Cómo bloquear aplicaciones para estudiar sin perder las herramientas que necesitas",
+      "rationale": "Spanish app listings use bloqueador de apps and estudiar naturally. A practical selective-app guide can explain permissions and essential study tools.",
+      "evidence": [
+        {
+          "label": "FocusDen Spanish Google Play listing",
+          "url": "https://play.google.com/store/apps/details?hl=es_MX&id=com.supnistic_ai.distraX"
+        },
+        {
+          "label": "Focus Lock Spanish App Store listing",
+          "url": "https://apps.apple.com/es/app/focus-lock-bloquear-apps/id1494966346?platform=watch"
+        }
+      ]
+    },
+    {
+      "intent": "Brazilian Portuguese social-media blocking for study",
+      "queries": [
+        "aplicativo bloquear redes sociais estudar tarefas",
+        "bloquear Instagram para estudar"
+      ],
+      "suggested_title": "Como bloquear redes sociais para estudar e organizar seus prazos",
+      "rationale": "Local product positioning and first-person student discussion both connect Instagram distraction to exam study. Use local vocabulary and a concrete work session, without inventing exam-preparation features.",
+      "evidence": [
+        {
+          "label": "Estudo Ninja Modo Ninja",
+          "url": "https://estudoninja.com/modo-ninja"
+        },
+        {
+          "label": "Portuguese student discussion on Instagram and study",
+          "url": "https://www.reddit.com/r/concursospublicos/comments/1i26xw8"
+        }
+      ]
+    },
+    {
+      "intent": "French revision distraction blocking",
+      "queries": [
+        "bloquer applications réviser devoirs",
+        "bloquer applications étudier application"
+      ],
+      "suggested_title": "Comment bloquer les applications pour réviser sans oublier ses devoirs",
+      "rationale": "French results use réviser and bloquer les applications. Nonlate should explain deadline-aware task planning rather than implying it generates revision quizzes like competitors.",
+      "evidence": [
+        {
+          "label": "Study Time French App Store listing",
+          "url": "https://apps.apple.com/fr/app/study-time-bloquer-app/id6757340083?platform=ipad"
+        },
+        {
+          "label": "French student phone-distraction discussion",
+          "url": "https://www.reddit.com/r/etudiants/comments/1n605z4"
+        }
+      ]
+    },
+    {
+      "intent": "German task-based app blocking while learning",
+      "queries": [
+        "Apps sperren bis Aufgaben erledigt lernen",
+        "Apps beim Lernen sperren"
+      ],
+      "suggested_title": "Apps beim Lernen sperren: Aufgaben vor Ablenkung",
+      "rationale": "German competitor pages directly describe tasks before app access. A localized guide should distinguish Nonlate's due-work window from all-day lists and exam-date locks.",
+      "evidence": [
+        {
+          "label": "Bloko German product page",
+          "url": "https://bloko.app/de/"
+        },
+        {
+          "label": "TaskLock German App Store listing",
+          "url": "https://apps.apple.com/de/app/tasklock-apps-sperren/id6760604253"
+        }
+      ]
+    },
+    {
+      "intent": "Hindi phone distraction while studying",
+      "queries": [
+        "पढ़ाई के समय मोबाइल ऐप ब्लॉक कैसे करें"
+      ],
+      "suggested_title": "पढ़ाई के समय ध्यान भटकाने वाले ऐप्स कैसे ब्लॉक करें",
+      "rationale": "A Hindi competitor guide addresses studying with a phone nearby. Treat as a future localized content candidate, not a quantified demand claim.",
+      "evidence": [
+        {
+          "label": "Unscrol Hindi study guide",
+          "url": "https://unscrol.com/hi/blog/how-to-focus-while-studying/"
+        }
+      ]
+    },
+    {
+      "intent": "Student work planning versus assignment deadlines",
+      "queries": [
+        "student assignment planner Canvas deadlines",
+        "Google Classroom assignments planner"
+      ],
+      "candidate_slug": "a-deadline-is-not-a-plan",
+      "rationale": "The existing planning guide can own the broad distinction. New provider guides should link into it and answer provider-specific problems, avoiding overlapping generic pages.",
+      "evidence": [
+        {
+          "label": "DueMo assignment timeline and weekly planning",
+          "url": "https://duemo.app/"
+        },
+        {
+          "label": "Google Classroom apps for assignment planning",
+          "url": "https://edu.google.com/intl/ALL_sg/workspace-for-education/products/classroom/apps/"
+        }
+      ]
+    }
+  ],
+  "official_guidance": [
+    {
+      "label": "Google AI features and your website",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "application": "Use crawlable text, useful original content and internal links. Google says no special AI text file or schema is required; inclusion and ranking are not guaranteed."
+    },
+    {
+      "label": "Google spam policies",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "application": "Avoid doorway pages and large sets of thin keyword variants. Each new guide should solve a distinct user problem."
+    },
+    {
+      "label": "Google localized versions",
+      "url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+      "application": "Use real translated main content and reciprocal hreflang references including self. Publish localized URLs only when the corresponding translation exists."
+    }
+  ],
+  "measurement": [
+    "After publication verify HTTP success, self-canonical, indexability, language tags, sitemap inclusion and internal links.",
+    "Use Search Console impressions, clicks, query language and landing-page performance to prioritize later translations; this session has no private Search Console data.",
+    "Consolidate close query variants into one helpful guide rather than creating one page for each wording."
+  ],
+  "implemented_batch": {
+    "slugs": [
+      "canvas-assignment-planner",
+      "google-classroom-assignment-planner",
+      "block-apps-while-studying",
+      "todoist-distraction-blocker"
+    ],
+    "locales": [
+      "en",
+      "es",
+      "pt-BR",
+      "fr",
+      "de"
+    ],
+    "pages": 20,
+    "scope": "Four distinct workflows. Existing core app-blocking guide remains the single target for completion-based blocking synonyms. Remaining languages use explicitly labelled English cards until fully translated."
+  }
+}

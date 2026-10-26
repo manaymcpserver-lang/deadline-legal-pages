@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, extname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
+import { searchGuideRoutes } from "./search-guide-registry.mjs";
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outRoot = join(repoRoot, "out");
@@ -21,6 +22,7 @@ const publicPages = new Map([
   ["/guides/block-distracting-apps-until-tasks-are-done/", "guides/block-distracting-apps-until-tasks-are-done/index.html"],
 ]);
 const guideLocales = JSON.parse(readFileSync(join(repoRoot, "app/guides/locales.json"), "utf8"));
+for (const route of searchGuideRoutes) publicPages.set(route, `${route.slice(1)}index.html`);
 const planningLocales = JSON.parse(readFileSync(join(repoRoot, "app/guides/planning-locales.json"), "utf8"));
 for (const locale of planningLocales.filter((locale) => locale !== "en")) {
   publicPages.set(`/guides/${locale}/a-deadline-is-not-a-plan/`, `guides/${locale}/a-deadline-is-not-a-plan/index.html`);

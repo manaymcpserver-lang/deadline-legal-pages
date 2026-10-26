@@ -1,0 +1,51 @@
+{
+  "reviewedOn": "2026-10-26",
+  "method": "Direct AI-assisted drafting and translation; in-session semantic review against verified Nonlate source and official provider documentation. Not native-speaker certification.",
+  "publicationBasis": "User requested research-backed guide expansion in multiple languages.",
+  "files": {
+    "canvas.json": {
+      "sha256": "2541bc0239e11b9b93fac5f059cf43a59f64acc19daaf9cfc10b1b42ed62150d",
+      "status": "reviewed",
+      "locales": [
+        "en",
+        "es",
+        "pt-BR",
+        "fr",
+        "de"
+      ]
+    },
+    "classroom.json": {
+      "sha256": "bb1e7e04efc8dec733e07fee7b60ee5d9e140b2b360c4a5853aec95827f984d1",
+      "status": "reviewed",
+      "locales": [
+        "en",
+        "es",
+        "pt-BR",
+        "fr",
+        "de"
+      ]
+    },
+    "study.json": {
+      "sha256": "ec686ce86be8618a6d781d7379a7460daf4753c2e17075e74b238d76db616329",
+      "status": "reviewed",
+      "locales": [
+        "en",
+        "es",
+        "pt-BR",
+        "fr",
+        "de"
+      ]
+    },
+    "todoist.json": {
+      "sha256": "42b56113c9b8cb2ec1abae4c1a2633883bb8274172203ccf2671b946898f69da",
+      "status": "reviewed",
+      "locales": [
+        "en",
+        "es",
+        "pt-BR",
+        "fr",
+        "de"
+      ]
+    }
+  }
+}

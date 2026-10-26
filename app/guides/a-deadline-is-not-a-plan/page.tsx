@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- the post-export guide index requires full-page navigation instead of the older RSC payload */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { appStoreUrl, playStoreUrl } from "../../site-data";
@@ -53,7 +54,7 @@ export default function PlanningGuide() {
     <>
       <GuideLanguages article articleHref={guide.href} availableLocales={planningLocales} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
-      <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><Link href="/guides/">Guides</Link><span aria-hidden="true">/</span><span aria-current="page">Planning your work</span></nav>
+      <nav className="guide-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true">/</span><a href="/guides/">Guides</a><span aria-hidden="true">/</span><span aria-current="page">Planning your work</span></nav>
       <article className="guide-article">
         <header className="guides-heading">
           <p className="eyebrow"><span /> Planning · School, work &amp; everyday life</p>
@@ -117,7 +118,7 @@ export default function PlanningGuide() {
           <p className="guide-disclosure">Connections, sync behavior and blocking controls vary by platform and plan. See <Link href="/#plans">current plans</Link> or <Link href="/support/">contact support</Link> for setup help.</p>
         </aside>
       </article>
-      <Link className="guide-back" href="/guides/">← All guides</Link>
+      <a className="guide-back" href="/guides/">← All guides</a>
     </>
   );
 }

@@ -1,0 +1,355 @@
+{
+  "slug": "google-classroom-assignment-planner",
+  "published": "2026-10-26",
+  "related": [
+    "canvas-assignment-planner",
+    "block-distracting-apps-until-tasks-are-done"
+  ],
+  "sources": [
+    {
+      "label": "Google Classroom Help: Find your classwork",
+      "url": "https://support.google.com/edu/classroom/answer/6020284?hl=en"
+    },
+    {
+      "label": "Nonlate plans and supported integrations",
+      "url": "https://nonlate.app/#plans"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Google Classroom assignment planner: turn due work into a study plan",
+      "description": "Bring supported Google Classroom assignments into Nonlate, plan time to work, and interrupt selected distractions when unfinished tasks are due.",
+      "intro": "An assignment list tells you what is due. It does not decide when you will start. A Google Classroom assignment planner works best when it connects those two decisions without replacing the place where you receive and submit schoolwork.",
+      "answer": "Nonlate supports Google Classroom as a connected source. Bring supported tasks into your due-work list, choose a day to work, and protect selected distracting apps. Blocking responds to eligible unfinished tasks inside your chosen due window; it is not a permanent lock until all homework is submitted.",
+      "sections": [
+        {
+          "id": "check-classroom",
+          "heading": "Start with the school’s original assignment",
+          "paragraphs": [
+            "Check Classroom for the assignment instructions, current due date and submission status. Google’s own to-do view can help you review assigned, missing and completed work across classes. Keep Classroom as the reference for what your teacher expects.",
+            "Before relying on an import, compare one assignment in both apps. Check its title, due date and completion status. A timetable event or class meeting is not the same as a task that must be finished."
+          ]
+        },
+        {
+          "id": "connect-plan",
+          "heading": "Connect, check, then choose a work session",
+          "paragraphs": [
+            "Use the Google Classroom connection offered in Nonlate and follow the sign-in and permission instructions shown in your version. School-managed accounts may restrict third-party access; a connection cannot override your school’s policy."
+          ],
+          "steps": [
+            "Confirm you are using the account enrolled in the relevant class and approve only the permissions you understand.",
+            "Refresh Nonlate and check which supported assignments appear. Add a manual task for a paper handout or work that was never posted online.",
+            "Choose a day in Planner, then use Schedule to see the work beside classes and other commitments. Planning does not change the teacher’s deadline.",
+            "Select distracting apps and a due-work window, complete the platform permission steps, and check blocking with one qualifying unfinished task."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "A report due Friday needs a start before Friday",
+          "paragraphs": [
+            "For a Friday report, plan an outline on Wednesday and a writing session on Thursday. Keep the actual submission deadline visible. A separate manual preparation task can represent the outline if you need a smaller next action.",
+            "When the report qualifies for your blocking window, opening a selected distraction can trigger Nonlate’s blocker. Submit through Classroom as required by your teacher, then refresh and check the imported status. Do not assume a local checkmark submits your file or changes your grade."
+          ]
+        },
+        {
+          "id": "missing-work",
+          "heading": "If an assignment or update is missing",
+          "paragraphs": [
+            "Check the original assignment, account, connection permissions and latest refresh before creating a duplicate. A teacher’s changed due date or your latest submission may not appear immediately. Sync depends on provider access, plan, connectivity and device background limits.",
+            "If school restrictions prevent connecting, ask the school about permitted access and use manual tasks meanwhile. Do not bypass school controls. Keep enough detail in a manual task to find the original assignment later, without copying private class material unnecessarily."
+          ]
+        },
+        {
+          "id": "limits",
+          "heading": "Understand blocking and source access",
+          "paragraphs": [
+            "On iPhone, Nonlate uses Screen Time shields; Android can show a fuller task blocker through its required Accessibility permission. Supported timed breaks and device settings still apply. Calendar events never trigger deadline-aware blocking.",
+            "Free includes manual tasks and core blocking for up to three distracting apps. An optional 30-day trial supports one external source at a time, syncing on open or refresh, without an automatic trial charge. Afterwards syncing pauses unless an eligible paid plan provides source access; imported tasks remain available for local completion and blocking. Check current plans and store terms. The source trial starts with the first successful connection."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Nonlate replace Google Classroom?",
+          "answer": "No. Keep using Classroom for instructions, teacher feedback and submission. Nonlate helps bring supported tasks into a plan and connect due work to distraction blocking."
+        },
+        {
+          "question": "Will a class in my calendar block Instagram?",
+          "answer": "No. Calendar events can appear in Schedule, but only eligible unfinished due tasks trigger blocking."
+        },
+        {
+          "question": "Can I start without connecting my school account?",
+          "answer": "Yes. Create manual tasks with realistic due dates and try the free core blocking first. External-source access has separate trial and subscription limits."
+        }
+      ]
+    },
+    "es": {
+      "title": "Planificador de tareas de Google Classroom: de la entrega al plan de estudio",
+      "description": "Reúne tareas compatibles de Google Classroom en Nonlate, reserva tiempo para estudiar y bloquea distracciones elegidas cuando hay trabajo pendiente por vencer.",
+      "intro": "Una lista de tareas te dice qué debes entregar. No decide cuándo vas a empezar. Un planificador de Google Classroom resulta más útil si une ambas decisiones y conserva el lugar donde recibes y entregas los trabajos.",
+      "answer": "Nonlate admite Google Classroom como fuente conectada. Reúne tareas compatibles, elige un día para trabajar y protege las apps que te distraen. El bloqueo responde a tareas pendientes que cumplen el intervalo de vencimiento elegido; no es un bloqueo permanente hasta entregar todos los deberes.",
+      "sections": [
+        {
+          "id": "check-classroom",
+          "heading": "Empieza por la tarea original del centro",
+          "paragraphs": [
+            "Comprueba en Classroom las instrucciones, la fecha de entrega actual y el estado del trabajo. Su vista de tareas permite revisar trabajos asignados, sin entregar y completados de distintas clases. Classroom sigue siendo la referencia de lo que pide tu profesor.",
+            "Antes de confiar en la importación, compara una tarea en ambas apps: título, fecha y estado. Una clase o un evento del horario no equivale a una tarea que debes completar."
+          ]
+        },
+        {
+          "id": "connect-plan",
+          "heading": "Conecta, comprueba y reserva tiempo",
+          "paragraphs": [
+            "Utiliza la conexión con Google Classroom que ofrece Nonlate y sigue las instrucciones de inicio de sesión y permisos de tu versión. Las cuentas del centro pueden restringir el acceso de terceros; la conexión no puede saltarse esa política."
+          ],
+          "steps": [
+            "Comprueba que utilizas la cuenta inscrita en la clase y autoriza solo los permisos que entiendes.",
+            "Actualiza Nonlate y revisa qué tareas compatibles aparecen. Añade una tarea manual para trabajos en papel o que nunca se publicaron en línea.",
+            "Elige un día en el Planificador y consulta la Agenda para ver el trabajo junto a las clases y otros compromisos. Planificar no cambia la fecha del profesor.",
+            "Selecciona las apps que te distraen y el intervalo de vencimiento, concede los permisos de tu plataforma y prueba con una tarea pendiente que cumpla los criterios."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Un informe para el viernes necesita un comienzo antes",
+          "paragraphs": [
+            "Para un informe que vence el viernes, reserva el miércoles para el esquema y el jueves para redactar. Conserva visible la fecha real de entrega. Una tarea manual de preparación puede representar el esquema si necesitas un siguiente paso más pequeño.",
+            "Cuando el informe entre en el intervalo de bloqueo, abrir una distracción seleccionada puede activar el bloqueador. Entrega el trabajo en Classroom como indique el profesor y después actualiza y comprueba el estado importado. Marcar una tarea local no significa enviar el archivo ni cambiar la nota."
+          ]
+        },
+        {
+          "id": "missing-work",
+          "heading": "Si falta una tarea o una actualización",
+          "paragraphs": [
+            "Antes de crear un duplicado, revisa la tarea original, la cuenta, los permisos de conexión y la última actualización. Una nueva fecha del profesor o tu última entrega pueden tardar en aparecer. La sincronización depende del acceso del proveedor, el plan, la conexión y los límites del dispositivo en segundo plano.",
+            "Si el centro impide conectar la cuenta, consulta qué acceso permite y utiliza tareas manuales mientras tanto. No eludas sus controles. Guarda información suficiente para localizar la tarea original, sin copiar material privado de la clase innecesariamente."
+          ]
+        },
+        {
+          "id": "limits",
+          "heading": "Límites del bloqueo y de las conexiones",
+          "paragraphs": [
+            "En iPhone, Nonlate utiliza pantallas de bloqueo de Tiempo de uso; Android puede mostrar un bloqueador más completo mediante el permiso de Accesibilidad requerido. Siguen aplicándose las pausas temporales compatibles y los ajustes del dispositivo. Los eventos de calendario nunca activan este bloqueo.",
+            "Free incluye tareas manuales y bloqueo básico de hasta tres apps. Una prueba opcional de 30 días permite una fuente externa a la vez, con sincronización al abrir o actualizar y sin cobro automático. Después, la sincronización se pausa salvo que un plan de pago compatible dé acceso; las tareas importadas siguen disponibles para completarlas localmente y para el bloqueo. Consulta los planes y condiciones de la tienda. La prueba de fuentes comienza con la primera conexión realizada correctamente."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Nonlate sustituye a Google Classroom?",
+          "answer": "No. Sigue usando Classroom para las instrucciones, los comentarios del profesor y las entregas. Nonlate reúne tareas compatibles para planificar y vincular los vencimientos con el bloqueo de distracciones."
+        },
+        {
+          "question": "¿Una clase del calendario bloqueará Instagram?",
+          "answer": "No. Los eventos pueden aparecer en la Agenda, pero solo las tareas pendientes que cumplen los criterios de vencimiento activan el bloqueo."
+        },
+        {
+          "question": "¿Puedo empezar sin conectar la cuenta del centro?",
+          "answer": "Sí. Crea tareas manuales con fechas realistas y prueba primero el bloqueo básico gratuito. El acceso a fuentes externas tiene límites de prueba y suscripción independientes."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Planejador de tarefas do Google Classroom: transforme prazos em um plano de estudo",
+      "description": "Reúna tarefas compatíveis do Google Classroom no Nonlate, reserve tempo para estudar e interrompa distrações escolhidas quando houver tarefas perto do prazo.",
+      "intro": "Uma lista de atividades mostra o que precisa ser entregue. Ela não decide quando você vai começar. Um planejador do Google Classroom funciona melhor quando une essas decisões sem substituir o lugar onde você recebe e entrega os trabalhos.",
+      "answer": "O Nonlate oferece conexão com o Google Classroom. Reúna tarefas compatíveis, escolha um dia para trabalhar e proteja os apps que distraem você. O bloqueio considera tarefas pendentes dentro do intervalo de prazo escolhido; não é uma trava permanente até entregar toda a lição.",
+      "sections": [
+        {
+          "id": "check-classroom",
+          "heading": "Comece pela atividade original da escola",
+          "paragraphs": [
+            "Confira no Classroom as instruções, o prazo atual e o status da entrega. A própria lista de atividades do Classroom ajuda a revisar trabalhos atribuídos, pendentes e concluídos de várias turmas. Mantenha o Classroom como referência do que o professor pede.",
+            "Antes de confiar na importação, compare uma atividade nos dois apps: título, prazo e status. Uma aula ou evento do horário não é a mesma coisa que uma tarefa a concluir."
+          ]
+        },
+        {
+          "id": "connect-plan",
+          "heading": "Conecte, confira e reserve tempo para estudar",
+          "paragraphs": [
+            "Use a conexão com o Google Classroom oferecida no Nonlate e siga as orientações de login e permissões da sua versão. Contas gerenciadas pela escola podem restringir o acesso de terceiros; a conexão não pode ignorar essa política."
+          ],
+          "steps": [
+            "Confira se a conta está inscrita na turma correta e autorize apenas permissões que você entende.",
+            "Atualize o Nonlate e veja quais atividades compatíveis aparecem. Adicione uma tarefa manual para trabalhos em papel ou que nunca foram publicados on-line.",
+            "Escolha um dia no Planejador e consulte a Agenda para ver o trabalho ao lado de aulas e compromissos. Planejar não muda o prazo definido pelo professor.",
+            "Escolha os apps que distraem e o intervalo de prazo, conceda as permissões da plataforma e confira o bloqueio com uma tarefa pendente que se enquadre nos critérios."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Um relatório para sexta precisa começar antes",
+          "paragraphs": [
+            "Para um relatório com entrega na sexta, reserve a quarta para o esboço e a quinta para escrever. Mantenha o prazo real visível. Uma tarefa manual de preparação pode representar o esboço quando você precisar de um próximo passo menor.",
+            "Quando o relatório entrar no intervalo de bloqueio, abrir uma distração selecionada poderá ativar o bloqueador. Entregue pelo Classroom conforme a orientação do professor, depois atualize e confira o status importado. Marcar uma tarefa localmente não significa enviar o arquivo nem alterar a nota."
+          ]
+        },
+        {
+          "id": "missing-work",
+          "heading": "Se uma atividade ou atualização não aparecer",
+          "paragraphs": [
+            "Antes de criar uma cópia, confira a atividade original, a conta, as permissões de conexão e a última atualização. Uma mudança de prazo ou entrega recente pode não aparecer imediatamente. A sincronização depende do acesso do provedor, do plano, da conexão e dos limites de segundo plano do aparelho.",
+            "Se a escola impedir a conexão, pergunte qual acesso é permitido e use tarefas manuais enquanto isso. Não contorne os controles da instituição. Registre detalhes suficientes para encontrar a atividade original depois, sem copiar material privado da turma desnecessariamente."
+          ]
+        },
+        {
+          "id": "limits",
+          "heading": "Entenda os limites do bloqueio e das fontes",
+          "paragraphs": [
+            "No iPhone, o Nonlate usa telas de bloqueio do Tempo de Uso; no Android, pode mostrar um bloqueador mais completo com a permissão de Acessibilidade necessária. As pausas temporizadas compatíveis e os ajustes do aparelho continuam valendo. Eventos do calendário nunca acionam o bloqueio por prazo.",
+            "O Free inclui tarefas manuais e bloqueio básico para até três apps. Um teste opcional de 30 dias permite uma fonte externa por vez, sincronizada ao abrir ou atualizar, sem cobrança automática. Depois, a sincronização pausa, salvo se um plano pago compatível fornecer acesso; as tarefas importadas continuam disponíveis para conclusão local e bloqueio. Confira os planos e as condições da loja. O teste de fontes começa na primeira conexão bem-sucedida."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "O Nonlate substitui o Google Classroom?",
+          "answer": "Não. Continue usando o Classroom para instruções, comentários do professor e entregas. O Nonlate reúne tarefas compatíveis para planejar e relacionar os prazos ao bloqueio de distrações."
+        },
+        {
+          "question": "Uma aula no calendário vai bloquear o Instagram?",
+          "answer": "Não. Eventos podem aparecer na Agenda, mas somente tarefas pendentes que atendam aos critérios de prazo acionam o bloqueio."
+        },
+        {
+          "question": "Posso começar sem conectar a conta da escola?",
+          "answer": "Sim. Crie tarefas manuais com prazos realistas e experimente primeiro o bloqueio básico gratuito. O acesso a fontes externas tem limites próprios de teste e assinatura."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Planifier ses devoirs Google Classroom : passer des échéances au travail",
+      "description": "Retrouvez les devoirs Google Classroom compatibles dans Nonlate, prévoyez du temps pour travailler et bloquez les distractions choisies à l’approche des échéances.",
+      "intro": "Une liste de devoirs indique ce qu’il faut rendre. Elle ne décide pas quand commencer. Un planificateur Google Classroom est surtout utile s’il relie ces deux décisions sans remplacer l’endroit où vous recevez et rendez vos travaux.",
+      "answer": "Nonlate permet de connecter Google Classroom. Rassemblez les tâches compatibles, choisissez un jour pour travailler et protégez les apps qui vous distraient. Le blocage dépend des tâches inachevées comprises dans votre fenêtre d’échéance ; il ne reste pas imposé jusqu’à la remise de tous les devoirs.",
+      "sections": [
+        {
+          "id": "check-classroom",
+          "heading": "Vérifiez d’abord le devoir dans Classroom",
+          "paragraphs": [
+            "Consultez dans Classroom les consignes, la date limite actuelle et l’état de remise. Sa propre liste de tâches permet de retrouver les travaux attribués, manquants et terminés de plusieurs cours. Classroom reste la référence pour les attentes de votre enseignant.",
+            "Avant de vous fier à l’importation, comparez un devoir dans les deux apps : titre, échéance et état. Un cours ou un événement de l’emploi du temps n’est pas une tâche à terminer."
+          ]
+        },
+        {
+          "id": "connect-plan",
+          "heading": "Connectez, vérifiez, puis réservez un créneau",
+          "paragraphs": [
+            "Utilisez la connexion Google Classroom proposée dans Nonlate et suivez les indications de connexion et d’autorisation de votre version. Les comptes gérés par un établissement peuvent limiter l’accès aux services tiers ; une connexion ne contourne pas cette politique."
+          ],
+          "steps": [
+            "Vérifiez que vous utilisez le compte inscrit au cours concerné et n’accordez que les autorisations que vous comprenez.",
+            "Actualisez Nonlate et vérifiez quels devoirs compatibles apparaissent. Ajoutez une tâche manuelle pour un travail distribué sur papier ou jamais publié en ligne.",
+            "Choisissez un jour dans le Planificateur, puis consultez l’Agenda pour voir le travail à côté des cours et des engagements. Planifier ne change pas l’échéance de l’enseignant.",
+            "Sélectionnez les apps distrayantes et la fenêtre d’échéance, accordez les autorisations de votre plateforme, puis vérifiez le blocage avec une tâche inachevée admissible."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Un rapport à rendre vendredi se commence avant",
+          "paragraphs": [
+            "Pour un rapport à rendre vendredi, prévoyez le plan mercredi et la rédaction jeudi. Gardez la véritable date de remise visible. Une tâche manuelle de préparation peut représenter le plan si vous avez besoin d’une prochaine étape plus petite.",
+            "Quand le rapport entre dans votre fenêtre de blocage, ouvrir une distraction sélectionnée peut déclencher le bloqueur. Rendez le travail dans Classroom selon les consignes, puis actualisez et vérifiez l’état importé. Cocher une tâche localement ne signifie pas envoyer le fichier ni modifier la note."
+          ]
+        },
+        {
+          "id": "missing-work",
+          "heading": "Si un devoir ou une mise à jour manque",
+          "paragraphs": [
+            "Avant de créer un doublon, vérifiez le devoir d’origine, le compte, les autorisations et la dernière actualisation. Une échéance modifiée ou une remise récente peut ne pas apparaître immédiatement. La synchronisation dépend de l’accès au service, de la formule, de la connexion et des limites du téléphone en arrière-plan.",
+            "Si l’établissement empêche la connexion, demandez quels accès sont autorisés et utilisez des tâches manuelles en attendant. Ne contournez pas ses contrôles. Notez assez de détails pour retrouver le devoir d’origine, sans copier inutilement des documents privés du cours."
+          ]
+        },
+        {
+          "id": "limits",
+          "heading": "Comprendre les limites du blocage et des sources",
+          "paragraphs": [
+            "Sur iPhone, Nonlate utilise les écrans de blocage de Temps d’écran ; Android peut présenter un bloqueur plus détaillé avec l’autorisation d’accessibilité nécessaire. Les pauses minutées compatibles et les réglages de l’appareil s’appliquent toujours. Les événements du calendrier ne déclenchent jamais ce blocage.",
+            "Free comprend les tâches manuelles et le blocage de base de trois apps au maximum. Un essai facultatif de 30 jours permet une source externe à la fois, synchronisée à l’ouverture ou à l’actualisation, sans facturation automatique. Ensuite, la synchronisation est suspendue sans formule payante adaptée ; les tâches importées restent utilisables pour les terminer localement et pour le blocage. Vérifiez les formules et les conditions de la boutique. L’essai des sources commence lors de la première connexion réussie."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Nonlate remplace-t-il Google Classroom ?",
+          "answer": "Non. Continuez à utiliser Classroom pour les consignes, les retours de l’enseignant et la remise des travaux. Nonlate rassemble les tâches compatibles pour les planifier et relier les échéances au blocage des distractions."
+        },
+        {
+          "question": "Un cours dans mon calendrier bloquera-t-il Instagram ?",
+          "answer": "Non. Les événements peuvent apparaître dans l’Agenda, mais seules les tâches inachevées répondant aux critères d’échéance déclenchent le blocage."
+        },
+        {
+          "question": "Puis-je commencer sans connecter mon compte scolaire ?",
+          "answer": "Oui. Créez des tâches manuelles avec des échéances réalistes et essayez d’abord le blocage de base gratuit. L’accès aux sources externes a ses propres limites d’essai et d’abonnement."
+        }
+      ]
+    },
+    "de": {
+      "title": "Google-Classroom-Aufgaben planen: von der Abgabe zum Lernplan",
+      "description": "Übernimm unterstützte Google-Classroom-Aufgaben in Nonlate, plane Arbeitszeit und unterbrich ausgewählte Ablenkungen, wenn unerledigte Aufgaben fällig werden.",
+      "intro": "Eine Aufgabenliste zeigt, was abgegeben werden muss. Sie entscheidet nicht, wann du anfängst. Ein Planer für Google Classroom hilft besonders dann, wenn er diese Entscheidungen verbindet und der Ort für Aufgaben und Abgaben erhalten bleibt.",
+      "answer": "Nonlate unterstützt Google Classroom als verbundene Quelle. Übernimm unterstützte Aufgaben, wähle einen Arbeitstag und schütze dich vor ausgewählten ablenkenden Apps. Die Sperre richtet sich nach unerledigten Aufgaben im gewählten Fälligkeitsfenster; sie ist keine dauerhafte Sperre bis zur Abgabe aller Hausaufgaben.",
+      "sections": [
+        {
+          "id": "check-classroom",
+          "heading": "Prüfe zuerst die ursprüngliche Schulaufgabe",
+          "paragraphs": [
+            "Sieh dir in Classroom die Anweisungen, den aktuellen Abgabetermin und den Abgabestatus an. Die dortige Aufgabenübersicht hilft, zugewiesene, fehlende und erledigte Arbeiten aus mehreren Kursen zu prüfen. Classroom bleibt die Referenz für die Anforderungen deiner Lehrkraft.",
+            "Vergleiche vor dem ersten Einsatz eine Aufgabe in beiden Apps: Titel, Fälligkeit und Status. Eine Unterrichtsstunde oder ein Stundenplantermin ist keine Aufgabe, die erledigt werden muss."
+          ]
+        },
+        {
+          "id": "connect-plan",
+          "heading": "Verbinden, prüfen und Arbeitszeit einplanen",
+          "paragraphs": [
+            "Nutze die in Nonlate angebotene Google-Classroom-Verbindung und folge den Anmelde- und Berechtigungsschritten deiner Version. Schulisch verwaltete Konten können den Zugriff durch Drittanbieter begrenzen; die Verbindung setzt diese Regeln nicht außer Kraft."
+          ],
+          "steps": [
+            "Prüfe, ob du das im betreffenden Kurs angemeldete Konto nutzt, und erteile nur Berechtigungen, die du verstehst.",
+            "Aktualisiere Nonlate und prüfe, welche unterstützten Aufgaben erscheinen. Ergänze Papieraufgaben oder nicht online veröffentlichte Arbeiten manuell.",
+            "Wähle im Planer einen Tag und sieh dir die Arbeit im Tagesplan neben Unterricht und anderen Terminen an. Die Planung verändert den Abgabetermin nicht.",
+            "Wähle ablenkende Apps und das Fälligkeitsfenster, erteile die nötigen Plattformberechtigungen und prüfe die Sperre mit einer passenden unerledigten Aufgabe."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Ein Bericht für Freitag braucht einen früheren Anfang",
+          "paragraphs": [
+            "Plane für einen Bericht mit Abgabe am Freitag die Gliederung am Mittwoch und das Schreiben am Donnerstag. Behalte den tatsächlichen Abgabetermin im Blick. Eine separate manuelle Vorbereitungsaufgabe kann die Gliederung abbilden, wenn du einen kleineren nächsten Schritt brauchst.",
+            "Liegt der Bericht im Fälligkeitsfenster, kann das Öffnen einer gewählten Ablenkung die Sperre auslösen. Gib die Arbeit nach den Vorgaben in Classroom ab und aktualisiere anschließend den importierten Status. Ein lokales Häkchen sendet keine Datei ab und ändert keine Note."
+          ]
+        },
+        {
+          "id": "missing-work",
+          "heading": "Wenn eine Aufgabe oder Änderung fehlt",
+          "paragraphs": [
+            "Prüfe vor einem Duplikat die Originalaufgabe, das Konto, die Verbindungsberechtigungen und die letzte Aktualisierung. Ein geänderter Termin oder eine neue Abgabe erscheint möglicherweise verzögert. Die Synchronisierung hängt vom Anbieterzugriff, Tarif, Internetzugang und den Hintergrundbeschränkungen des Geräts ab.",
+            "Verhindern Schulregeln die Verbindung, frage nach erlaubtem Zugriff und nutze vorerst manuelle Aufgaben. Umgehe die Kontrollen nicht. Notiere genug Details, um die Originalaufgabe wiederzufinden, ohne unnötig private Unterrichtsmaterialien zu kopieren."
+          ]
+        },
+        {
+          "id": "limits",
+          "heading": "Grenzen von Sperren und Quellen verstehen",
+          "paragraphs": [
+            "Auf dem iPhone nutzt Nonlate Bildschirmzeit-Sperrbildschirme; Android kann mit der erforderlichen Bedienungshilfen-Berechtigung eine ausführlichere Aufgabensperre anzeigen. Unterstützte zeitlich begrenzte Pausen und Geräteeinstellungen gelten weiterhin. Kalendertermine lösen die fälligkeitsabhängige Sperre nie aus.",
+            "Free umfasst manuelle Aufgaben und die grundlegende Sperre von bis zu drei ablenkenden Apps. Ein optionaler 30-Tage-Test erlaubt jeweils eine externe Quelle mit Synchronisierung beim Öffnen oder Aktualisieren, ohne automatische Testgebühr. Danach pausiert die Synchronisierung ohne passenden kostenpflichtigen Tarif; importierte Aufgaben bleiben für lokale Erledigung und Sperren verfügbar. Prüfe die aktuellen Tarife und Store-Bedingungen. Der Quellentest beginnt mit der ersten erfolgreichen Verbindung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ersetzt Nonlate Google Classroom?",
+          "answer": "Nein. Nutze Classroom weiterhin für Anweisungen, Rückmeldungen der Lehrkraft und Abgaben. Nonlate hilft, unterstützte Aufgaben zu planen und fällige Arbeit mit Ablenkungssperren zu verbinden."
+        },
+        {
+          "question": "Sperrt eine Unterrichtsstunde im Kalender Instagram?",
+          "answer": "Nein. Termine können im Tagesplan erscheinen, aber nur passende unerledigte Aufgaben mit Fälligkeit lösen die Sperre aus."
+        },
+        {
+          "question": "Kann ich ohne verbundenes Schulkonto anfangen?",
+          "answer": "Ja. Erstelle manuelle Aufgaben mit realistischen Terminen und teste zuerst die kostenlose grundlegende Sperre. Für externe Quellen gelten eigene Test- und Abonnementgrenzen."
+        }
+      ]
+    }
+  }
+}

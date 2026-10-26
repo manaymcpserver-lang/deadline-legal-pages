@@ -2,6 +2,26 @@
 
 Production source for [nonlate.app](https://nonlate.app/). The site is a static Next.js export deployed by GitHub Actions to GitHub Pages.
 
+The October 26 search-intent batch adds four practical workflows: studying with
+fewer distracting apps, Canvas assignments, Google Classroom assignments, and
+Todoist with distraction blocking. Each has complete English, Spanish, Brazilian
+Portuguese, French and German copy, for 20 new pages and 403 canonical sitemap
+URLs. The 47 guide indexes link to the same-language article where available;
+other indexes explicitly label the English fallback. Existing translations stay
+unchanged. Research evidence and the remaining keyword map are recorded in
+`research/search-intents-2026-10-26.json`; observations are not search volumes.
+
+`app/guides/search-content/` holds the article data and a hash-pinned review
+record. The build rejects changed or incomplete copy until its review record is
+reconciled. `scripts/build-search-guides.py` reuses the existing same-language
+header, footer and styles after the older localizers run, then adds canonical
+URLs, reciprocal alternates, Article/Breadcrumb data, table-of-contents links,
+visible FAQs and related guides. The articles and indexes remain usable without
+JavaScript; only the existing optional language suggestion is added afterward.
+Translations are directly authored with AI assistance and in-session semantic
+review, not native-speaker certification. New translations must cover the full
+article and be added to the reviewed locale set before publication.
+
 ## Local development
 
 All public pages include an optional, locally executed language suggestion.

@@ -1,0 +1,271 @@
+{
+  "slug": "block-apps-while-studying",
+  "published": "2026-10-26",
+  "related": [
+    "canvas-assignment-planner",
+    "block-distracting-apps-until-tasks-are-done"
+  ],
+  "sources": [
+    {
+      "label": "Nonlate: deadline-aware blocking and platform differences",
+      "url": "https://nonlate.app/guides/block-distracting-apps-until-tasks-are-done/"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "How to block distracting apps while studying",
+      "description": "Build a study session with fewer phone distractions. Choose useful blocking rules, keep study tools available and understand Nonlate’s deadline-aware approach.",
+      "intro": "You open your phone to check an assignment, then find yourself scrolling. A useful study setup interrupts that detour while leaving your notes, course materials and essential communication available. Start with one specific piece of work and the few apps that repeatedly pull you away.",
+      "answer": "To block apps while studying, choose your distracting apps, keep necessary study tools accessible and decide whether you need a fixed study timer or blocking tied to unfinished due work. Nonlate uses eligible tasks and a selected due-work window; creating a study session alone does not activate blocking.",
+      "sections": [
+        {
+          "id": "choose-the-rule",
+          "heading": "Choose the rule that matches your study session",
+          "paragraphs": [
+            "A fixed timer suits a session you want to protect regardless of deadlines. A daily usage limit caps time spent in an app. Deadline-aware blocking responds to unfinished work approaching its deadline. These rules answer different needs; choose the one that fits the problem you actually have.",
+            "For example, a worksheet due tonight can qualify for Nonlate blocking when it falls inside your selected due-work window. A revision task due next month may not. Do not change a real submission deadline merely to force a block. Calendar events do not trigger blocking."
+          ]
+        },
+        {
+          "id": "prepare-a-session",
+          "heading": "Set up one manageable session",
+          "paragraphs": [
+            "Keep your learning platform, authenticator and reading tools accessible. If a distracting app also carries important course messages, decide how you will check those messages before adding it to your blocked list. Menu wording and permission steps vary by device and app version."
+          ],
+          "steps": [
+            "Name a concrete next action, such as outlining three paragraphs, rather than “study everything.”",
+            "Add the task and its real deadline in Nonlate. Choose when to work in Planner or Schedule; planning does not move the deadline.",
+            "Select the distracting apps and the due-work window, enable blocking, and follow the Screen Time setup on iPhone or Accessibility setup on Android.",
+            "Test one selected app while an unfinished task qualifies. Check whether an active break or revoked permission explains unexpected access."
+          ]
+        },
+        {
+          "id": "breaks-and-completion",
+          "heading": "Plan breaks and check what you finished",
+          "paragraphs": [
+            "Pick a stopping point before starting: finish a question, review the outline or work for a manageable interval. Supported timed breaks can allow access while tasks remain due. Optional Focus Lock removes the quick-break button from the blocker, but a break can still be started from Home after a due-task check and reflection pause.",
+            "When you stop, review the work and mark the appropriate task complete. Nonlate does not verify assignment submission or the quality of your work. Another eligible unfinished task may keep blocking active. Treat the interruption as a prompt to return to studying, not proof that studying happened."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I try this for free?",
+          "answer": "Manual tasks and core blocking for up to three distracting apps are included in Nonlate’s Free plan. Connected sources have separate trial and subscription limits."
+        },
+        {
+          "question": "Will it block every app for my whole study session?",
+          "answer": "No. Nonlate checks selected apps, eligible unfinished tasks, the due-work window and available break settings. It is not a tamper-proof device lock or a guarantee of concentration."
+        },
+        {
+          "question": "What if I need my phone for studying?",
+          "answer": "Block only the distractions you choose. Keep course materials and essential tools available, and use a small next action to make returning to the work easier."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cómo bloquear aplicaciones que distraen mientras estudias",
+      "description": "Prepara una sesión de estudio con menos distracciones. Elige qué bloquear, conserva tus herramientas de estudio y conoce el bloqueo según los plazos de Nonlate.",
+      "intro": "Abres el móvil para consultar una tarea y acabas mirando redes sociales. Una buena preparación interrumpe ese desvío y deja disponibles tus apuntes, materiales y comunicaciones esenciales. Empieza por una parte concreta del trabajo y las pocas aplicaciones que suelen distraerte.",
+      "answer": "Para bloquear aplicaciones mientras estudias, selecciona las distracciones, deja accesibles las herramientas necesarias y decide si necesitas un temporizador fijo o un bloqueo vinculado a tareas pendientes próximas a vencer. Nonlate utiliza tareas que cumplen los requisitos y un intervalo de vencimiento elegido; crear una sesión de estudio no activa por sí solo el bloqueo.",
+      "sections": [
+        {
+          "id": "choose-the-rule",
+          "heading": "Elige una regla que encaje con tu sesión",
+          "paragraphs": [
+            "Un temporizador fijo sirve para proteger una sesión independientemente de las entregas. Un límite diario restringe el tiempo de uso de una aplicación. El bloqueo según los plazos responde al trabajo pendiente cuya fecha límite se acerca. Cada regla cubre una necesidad distinta; elige según tu problema real.",
+            "Por ejemplo, un ejercicio que debes entregar esta noche puede activar el bloqueo de Nonlate si está dentro del intervalo elegido. Un repaso con fecha para el próximo mes quizá no. No cambies una fecha de entrega real solo para provocar un bloqueo. Los eventos del calendario no activan el bloqueo."
+          ]
+        },
+        {
+          "id": "prepare-a-session",
+          "heading": "Prepara una sesión manejable",
+          "paragraphs": [
+            "Mantén accesibles la plataforma educativa, el autenticador y las herramientas de lectura. Si una aplicación que distrae también contiene mensajes importantes del curso, decide cómo consultarlos antes de bloquearla. Los nombres de los menús y los permisos varían según el dispositivo y la versión."
+          ],
+          "steps": [
+            "Define una acción concreta, como preparar el esquema de tres párrafos, en lugar de «estudiarlo todo».",
+            "Añade la tarea y su fecha límite real en Nonlate. Elige cuándo trabajar en Planner o Schedule; planificar no cambia el vencimiento.",
+            "Selecciona las aplicaciones que distraen y el intervalo de vencimiento, activa el bloqueo y sigue la configuración de Tiempo de uso en iPhone o Accesibilidad en Android.",
+            "Prueba una aplicación seleccionada cuando haya una tarea pendiente que cumpla los requisitos. Si puedes acceder inesperadamente, comprueba las pausas activas y los permisos."
+          ]
+        },
+        {
+          "id": "breaks-and-completion",
+          "heading": "Planifica pausas y revisa lo que terminaste",
+          "paragraphs": [
+            "Antes de empezar, elige un punto de parada: terminar una pregunta, revisar el esquema o trabajar durante un intervalo manejable. Las pausas temporizadas disponibles permiten acceder aunque queden tareas pendientes. Focus Lock, opcional, elimina el botón de pausa rápida del bloqueo, pero puedes iniciar una pausa desde Home después de comprobar las tareas próximas a vencer y hacer una pausa de reflexión.",
+            "Al terminar, revisa el trabajo y marca como completada la tarea correspondiente. Nonlate no verifica la entrega ni la calidad del trabajo. Otra tarea pendiente que cumpla los requisitos puede mantener el bloqueo. La interrupción es una invitación a volver al estudio, no una prueba de que hayas estudiado."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Puedo probarlo gratis?",
+          "answer": "El plan Free de Nonlate incluye tareas manuales y bloqueo básico de hasta tres aplicaciones que distraen. Las fuentes conectadas tienen límites de prueba y suscripción propios."
+        },
+        {
+          "question": "¿Bloqueará todas las aplicaciones durante toda la sesión?",
+          "answer": "No. Nonlate comprueba las aplicaciones seleccionadas, las tareas pendientes que cumplen los requisitos, el intervalo de vencimiento y las pausas disponibles. No es un bloqueo imposible de eludir ni una garantía de concentración."
+        },
+        {
+          "question": "¿Y si necesito el móvil para estudiar?",
+          "answer": "Bloquea solo las distracciones que elijas. Mantén disponibles los materiales y las herramientas esenciales y define una acción pequeña que facilite volver al trabajo."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Como bloquear aplicativos que distraem durante os estudos",
+      "description": "Organize uma sessão de estudo com menos distrações. Escolha o que bloquear, mantenha suas ferramentas disponíveis e conheça o bloqueio por prazos do Nonlate.",
+      "intro": "Você abre o celular para conferir uma atividade e acaba rolando o feed. Uma boa preparação interrompe esse desvio sem impedir o acesso às anotações, aos materiais e à comunicação essencial. Comece com uma parte específica do trabalho e os poucos aplicativos que costumam tirar sua atenção.",
+      "answer": "Para bloquear aplicativos durante os estudos, selecione as distrações, mantenha as ferramentas necessárias acessíveis e decida se precisa de um temporizador fixo ou de um bloqueio ligado a tarefas pendentes perto do prazo. O Nonlate usa tarefas elegíveis e uma janela de vencimento escolhida; criar uma sessão de estudo não ativa o bloqueio por si só.",
+      "sections": [
+        {
+          "id": "choose-the-rule",
+          "heading": "Escolha a regra adequada à sua sessão",
+          "paragraphs": [
+            "Um temporizador fixo serve para proteger uma sessão independentemente dos prazos. Um limite diário restringe o tempo de uso de um aplicativo. O bloqueio por prazos reage a trabalho pendente com vencimento próximo. São necessidades diferentes; escolha a regra que corresponda ao seu problema.",
+            "Por exemplo, uma atividade para entregar hoje à noite pode ativar o bloqueio do Nonlate se estiver dentro da janela escolhida. Uma revisão com prazo no mês seguinte talvez não. Não altere um prazo real de entrega apenas para forçar um bloqueio. Eventos de calendário não ativam o bloqueio."
+          ]
+        },
+        {
+          "id": "prepare-a-session",
+          "heading": "Prepare uma sessão que caiba na sua rotina",
+          "paragraphs": [
+            "Mantenha acessíveis a plataforma de ensino, o autenticador e as ferramentas de leitura. Se um aplicativo que distrai também recebe mensagens importantes do curso, decida como consultá-las antes de bloqueá-lo. Os nomes dos menus e as etapas de permissão variam conforme o aparelho e a versão."
+          ],
+          "steps": [
+            "Defina uma próxima ação concreta, como montar o esboço de três parágrafos, em vez de “estudar tudo”.",
+            "Adicione a tarefa e o prazo real no Nonlate. Escolha quando trabalhar no Planner ou Schedule; planejar não altera o vencimento.",
+            "Selecione os aplicativos que distraem e a janela de vencimento, ative o bloqueio e siga a configuração de Tempo de Uso no iPhone ou Acessibilidade no Android.",
+            "Teste um aplicativo selecionado enquanto houver uma tarefa pendente elegível. Se o acesso for permitido inesperadamente, confira as pausas ativas e as permissões."
+          ]
+        },
+        {
+          "id": "breaks-and-completion",
+          "heading": "Planeje pausas e confira o que concluiu",
+          "paragraphs": [
+            "Antes de começar, escolha um ponto de parada: terminar uma questão, revisar o esboço ou trabalhar por um intervalo viável. As pausas temporizadas disponíveis permitem acesso mesmo com tarefas pendentes. O Focus Lock opcional remove o botão de pausa rápida do bloqueador, mas ainda é possível iniciar uma pausa em Home após a verificação das tarefas próximas do prazo e uma pausa de reflexão.",
+            "Ao parar, revise o trabalho e marque a tarefa correspondente como concluída. O Nonlate não verifica o envio de atividades nem a qualidade do trabalho. Outra tarefa pendente elegível pode manter o bloqueio ativo. Encare a interrupção como um lembrete para voltar a estudar, não como prova de que você estudou."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso experimentar de graça?",
+          "answer": "O plano Free do Nonlate inclui tarefas manuais e bloqueio básico de até três aplicativos que distraem. Fontes conectadas têm limites próprios de teste e assinatura."
+        },
+        {
+          "question": "Ele bloqueia todos os aplicativos durante a sessão inteira?",
+          "answer": "Não. O Nonlate considera os aplicativos selecionados, as tarefas pendentes elegíveis, a janela de vencimento e as pausas disponíveis. Não é um bloqueio impossível de contornar nem uma garantia de concentração."
+        },
+        {
+          "question": "E se eu precisar do celular para estudar?",
+          "answer": "Bloqueie apenas as distrações que escolher. Mantenha os materiais e as ferramentas essenciais disponíveis e defina uma ação pequena para facilitar a volta ao trabalho."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Comment bloquer les applications qui distraient pendant les révisions",
+      "description": "Préparez une séance de travail avec moins de distractions. Choisissez quoi bloquer, gardez vos outils accessibles et découvrez le fonctionnement de Nonlate.",
+      "intro": "Vous ouvrez votre téléphone pour consulter un devoir, puis vous vous retrouvez à faire défiler les réseaux sociaux. Une bonne préparation interrompt ce détour tout en gardant vos notes, vos cours et vos communications essentielles accessibles. Commencez par un travail précis et les quelques applications qui détournent souvent votre attention.",
+      "answer": "Pour bloquer des applications pendant les révisions, sélectionnez les distractions, gardez vos outils nécessaires accessibles et choisissez entre un minuteur fixe et un blocage lié aux tâches inachevées proches de leur échéance. Nonlate utilise les tâches admissibles et une fenêtre d’échéance choisie ; programmer une séance ne déclenche pas à lui seul le blocage.",
+      "sections": [
+        {
+          "id": "choose-the-rule",
+          "heading": "Choisissez une règle adaptée à votre séance",
+          "paragraphs": [
+            "Un minuteur fixe convient à une séance à protéger quelles que soient les échéances. Une limite quotidienne restreint la durée d’utilisation d’une application. Le blocage selon les échéances réagit au travail inachevé bientôt dû. Ces règles répondent à des besoins différents : choisissez selon votre difficulté réelle.",
+            "Par exemple, un exercice à rendre ce soir peut déclencher le blocage de Nonlate s’il entre dans la fenêtre choisie. Une révision prévue pour le mois prochain peut ne pas y entrer. Ne modifiez pas une vraie date de remise uniquement pour déclencher un blocage. Les événements du calendrier ne déclenchent pas le blocage."
+          ]
+        },
+        {
+          "id": "prepare-a-session",
+          "heading": "Préparez une séance réaliste",
+          "paragraphs": [
+            "Gardez accessibles votre plateforme de cours, votre application d’authentification et vos outils de lecture. Si une application distrayante reçoit aussi des messages importants du cours, prévoyez comment les consulter avant de la bloquer. Les menus et les autorisations varient selon l’appareil et la version."
+          ],
+          "steps": [
+            "Définissez une prochaine action précise, par exemple préparer le plan de trois paragraphes, plutôt que « tout réviser ».",
+            "Ajoutez la tâche et sa véritable échéance dans Nonlate. Choisissez un créneau dans Planner ou Schedule ; la planification ne modifie pas l’échéance.",
+            "Sélectionnez les applications distrayantes et la fenêtre d’échéance, activez le blocage, puis suivez la configuration de Temps d’écran sur iPhone ou d’Accessibilité sur Android.",
+            "Testez une application sélectionnée lorsqu’une tâche inachevée remplit les conditions. Si l’accès reste possible sans raison apparente, vérifiez les pauses actives et les autorisations."
+          ]
+        },
+        {
+          "id": "breaks-and-completion",
+          "heading": "Prévoyez des pauses et vérifiez le travail réalisé",
+          "paragraphs": [
+            "Choisissez un point d’arrêt avant de commencer : finir une question, relire le plan ou travailler pendant une durée raisonnable. Les pauses minutées disponibles permettent l’accès même si des tâches restent dues. Focus Lock, facultatif, retire le bouton de pause rapide du bloqueur, mais une pause reste possible depuis Home après vérification des tâches dues et un temps de réflexion.",
+            "À l’arrêt, relisez le travail et marquez la tâche correspondante comme terminée. Nonlate ne vérifie ni la remise du devoir ni la qualité du travail. Une autre tâche inachevée admissible peut maintenir le blocage. Voyez cette interruption comme une invitation à revenir au travail, pas comme une preuve que vous avez étudié."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Puis-je essayer gratuitement ?",
+          "answer": "Le forfait Free de Nonlate comprend les tâches manuelles et le blocage de base de trois applications distrayantes au maximum. Les sources connectées ont leurs propres limites d’essai et d’abonnement."
+        },
+        {
+          "question": "Toutes les applications seront-elles bloquées pendant toute la séance ?",
+          "answer": "Non. Nonlate vérifie les applications sélectionnées, les tâches inachevées admissibles, la fenêtre d’échéance et les pauses disponibles. Ce n’est ni un verrouillage impossible à contourner ni une garantie de concentration."
+        },
+        {
+          "question": "Et si mon téléphone me sert à étudier ?",
+          "answer": "Bloquez uniquement les distractions choisies. Gardez les cours et les outils essentiels accessibles, puis définissez une petite action pour faciliter le retour au travail."
+        }
+      ]
+    },
+    "de": {
+      "title": "Ablenkende Apps beim Lernen blockieren: so geht’s",
+      "description": "Plane eine Lerneinheit mit weniger Handy-Ablenkung. Wähle passende Regeln, halte Lernwerkzeuge erreichbar und erfahre, wie Nonlate fällige Aufgaben berücksichtigt.",
+      "intro": "Du öffnest dein Handy wegen einer Aufgabe und landest beim Scrollen. Eine hilfreiche Lernumgebung unterbricht diesen Umweg, während Notizen, Kursmaterialien und wichtige Kommunikation erreichbar bleiben. Beginne mit einem konkreten Arbeitsschritt und den wenigen Apps, die dich regelmäßig ablenken.",
+      "answer": "Wähle zum Lernen die ablenkenden Apps aus, halte notwendige Werkzeuge erreichbar und entscheide zwischen einem festen Timer und einer Sperre für unerledigte, bald fällige Aufgaben. Nonlate berücksichtigt geeignete Aufgaben und ein gewähltes Fälligkeitsfenster; eine geplante Lerneinheit allein aktiviert keine Sperre.",
+      "sections": [
+        {
+          "id": "choose-the-rule",
+          "heading": "Wähle die passende Regel für deine Lerneinheit",
+          "paragraphs": [
+            "Ein fester Timer eignet sich, wenn du unabhängig von Abgabefristen eine Lerneinheit schützen möchtest. Ein tägliches Nutzungslimit begrenzt die Nutzungsdauer einer App. Eine fristabhängige Sperre reagiert auf unerledigte Arbeit mit nahendem Termin. Diese Regeln erfüllen unterschiedliche Zwecke; entscheide nach deinem tatsächlichen Problem.",
+            "Ein Arbeitsblatt für heute Abend kann beispielsweise eine Nonlate-Sperre auslösen, wenn es im gewählten Fälligkeitsfenster liegt. Eine Wiederholungsaufgabe für nächsten Monat möglicherweise nicht. Ändere keinen echten Abgabetermin, nur um eine Sperre zu erzwingen. Kalenderereignisse lösen keine Sperren aus."
+          ]
+        },
+        {
+          "id": "prepare-a-session",
+          "heading": "Bereite eine überschaubare Lerneinheit vor",
+          "paragraphs": [
+            "Lass Lernplattform, Authenticator und Lesewerkzeuge erreichbar. Wenn über eine ablenkende App auch wichtige Kursnachrichten eingehen, überlege vor dem Sperren, wie du sie prüfen kannst. Menünamen und Berechtigungsschritte unterscheiden sich je nach Gerät und App-Version."
+          ],
+          "steps": [
+            "Formuliere einen konkreten nächsten Schritt, etwa drei Absätze gliedern, statt „alles lernen“.",
+            "Lege die Aufgabe mit ihrem echten Termin in Nonlate an. Wähle eine Arbeitszeit in Planner oder Schedule; die Planung verschiebt den Termin nicht.",
+            "Wähle die ablenkenden Apps und das Fälligkeitsfenster, aktiviere die Sperre und folge der Einrichtung für Bildschirmzeit auf dem iPhone oder Bedienungshilfen auf Android.",
+            "Teste eine ausgewählte App, während eine passende unerledigte Aufgabe vorliegt. Prüfe bei unerwartetem Zugriff, ob eine Pause läuft oder Berechtigungen fehlen."
+          ]
+        },
+        {
+          "id": "breaks-and-completion",
+          "heading": "Plane Pausen und prüfe dein Ergebnis",
+          "paragraphs": [
+            "Lege vor Beginn einen Haltepunkt fest: eine Frage abschließen, die Gliederung prüfen oder eine überschaubare Zeit arbeiten. Verfügbare zeitlich begrenzte Pausen erlauben Zugriff trotz fälliger Aufgaben. Der optionale Focus Lock entfernt die Schnellpausen-Schaltfläche aus der Sperransicht. Eine Pause ist weiterhin über Home möglich, nachdem fällige Aufgaben geprüft wurden und eine kurze Reflexionspause verstrichen ist.",
+            "Prüfe danach dein Ergebnis und markiere die betreffende Aufgabe als erledigt. Nonlate kontrolliert weder die Abgabe noch die Qualität deiner Arbeit. Eine andere passende unerledigte Aufgabe kann die Sperre aufrechterhalten. Verstehe die Unterbrechung als Anstoß zum Weiterlernen, nicht als Nachweis geleisteter Arbeit."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kann ich das kostenlos ausprobieren?",
+          "answer": "Der Free-Tarif von Nonlate enthält manuelle Aufgaben und grundlegende Sperren für bis zu drei ablenkende Apps. Für verbundene Quellen gelten eigene Test- und Abonnementgrenzen."
+        },
+        {
+          "question": "Werden alle Apps während der gesamten Lerneinheit gesperrt?",
+          "answer": "Nein. Nonlate prüft ausgewählte Apps, passende unerledigte Aufgaben, das Fälligkeitsfenster und verfügbare Pausen. Es ist keine manipulationssichere Gerätesperre und garantiert keine Konzentration."
+        },
+        {
+          "question": "Was ist, wenn ich das Handy zum Lernen brauche?",
+          "answer": "Sperre nur die selbst gewählten Ablenkungen. Halte Kursmaterial und wichtige Werkzeuge erreichbar. Ein kleiner nächster Schritt erleichtert die Rückkehr zur Aufgabe."
+        }
+      ]
+    }
+  }
+}

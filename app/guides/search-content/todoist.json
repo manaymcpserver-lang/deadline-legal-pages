@@ -1,0 +1,355 @@
+{
+  "slug": "todoist-distraction-blocker",
+  "published": "2026-10-26",
+  "related": [
+    "canvas-assignment-planner",
+    "block-distracting-apps-until-tasks-are-done"
+  ],
+  "sources": [
+    {
+      "label": "Todoist: organize your work and life",
+      "url": "https://www.todoist.com/"
+    },
+    {
+      "label": "Nonlate plans and supported integrations",
+      "url": "https://nonlate.app/#plans"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Todoist distraction blocker: put due tasks before social apps",
+      "description": "Keep your task system in Todoist, bring supported work into Nonlate, and add deadline-aware blocking without retyping your whole list.",
+      "intro": "If you already trust Todoist with your tasks, rebuilding the same list inside a separate blocker creates another place to maintain.",
+      "answer": "Nonlate supports Todoist as a task source. Connect the account, check the imported tasks and dates, then choose distracting apps and a due-work window. Eligible unfinished due tasks can trigger blocking when you open a selected app. This is deadline-aware friction, with supported breaks, rather than a guarantee that every Todoist task must be finished first.",
+      "sections": [
+        {
+          "id": "keep-source",
+          "heading": "Keep Todoist as your task reference",
+          "paragraphs": [
+            "Continue organizing your projects and reviewing task details in Todoist. In Nonlate, check the supported task information you have imported instead of creating a second copy of every item.",
+            "Look at the date actually shown on the imported task. A planned workday, a reminder and a final deadline can mean different things in a task system; do not assume every source field maps to the same blocking condition. Test one ordinary dated task before relying on the connection for important work."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Build the smallest useful connected setup",
+          "paragraphs": [
+            "Follow Nonlate’s Todoist sign-in and authorization prompts."
+          ],
+          "steps": [
+            "Refresh Nonlate and compare a supported task’s title, date and unfinished status with Todoist.",
+            "Choose a realistic due-work window. A long backlog should not automatically turn into an all-day wall unless those tasks meet your chosen rules.",
+            "Select a few distracting apps, complete the platform permission steps and keep essential communication and work tools accessible.",
+            "Plan a manageable next action in Planner and Schedule. Picking when to work does not move the task’s due date."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "A client draft before an evening deadline",
+          "paragraphs": [
+            "Suppose a draft appears in Nonlate as unfinished and due at 6 p.m. Reserve time to write earlier in the day. Once the task falls inside your chosen due window, opening a selected social app can bring up the blocker and return the deadline to your attention.",
+            "Complete the actual work and check its status in your source workflow. Refresh Nonlate to confirm the updated imported state. Completing this draft removes one blocking reason, but another qualifying unfinished task can still trigger blocking. A calendar meeting alone never does."
+          ]
+        },
+        {
+          "id": "sync",
+          "heading": "When an update or completion seems stuck",
+          "paragraphs": [
+            "First compare both apps, refresh the connection and check account access and connectivity. Do not create duplicate tasks just to fix a delayed update. Sync timing depends on the provider, plan, permissions and the device’s background limits; an external change is not guaranteed to appear immediately.",
+            "On iPhone, blocking uses Screen Time shields. Android uses its required Accessibility permission and can show more task detail. An active timed break, a revoked permission or a task outside the due window can explain why a distraction opens. Optional Focus Lock changes break access; it does not make the system tamper-proof."
+          ]
+        },
+        {
+          "id": "plans",
+          "heading": "Separate free blocking from connected sync",
+          "paragraphs": [
+            "Free includes manual tasks and core blocking for up to three distracting apps.",
+            "The optional 30-day source trial allows one external source at a time, syncing on open or refresh, without an automatic charge. After it ends, syncing pauses unless an eligible paid plan provides source access; imported tasks remain available for local completion and blocking. Plus supports background sync when available, while Pro adds Live Sync for supported integrations within limits. Check current plans and localized store terms before subscribing. The source trial starts with the first successful connection."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does Todoist itself need to block my phone?",
+          "answer": "No. Todoist holds your task workflow; Nonlate provides its own supported app blocking after the source is connected and the necessary device permissions are granted."
+        },
+        {
+          "question": "Do I have to retype every task?",
+          "answer": "No. Use the supported imported tasks and check them against the source. Add manual tasks only when you intentionally need separate work in Nonlate."
+        },
+        {
+          "question": "Will finishing one task unlock all my apps?",
+          "answer": "Not necessarily. Other eligible unfinished tasks may remain, and blocking also depends on your settings, platform permissions and any active timed break."
+        }
+      ]
+    },
+    "es": {
+      "title": "Bloqueador de distracciones para Todoist: tus tareas antes que las redes",
+      "description": "Conserva tu sistema de tareas en Todoist, reúne trabajo compatible en Nonlate y añade bloqueo según los vencimientos sin volver a escribir toda tu lista.",
+      "intro": "Si ya confías tus tareas a Todoist, reconstruir la misma lista en otro bloqueador crea un lugar más que mantener.",
+      "answer": "Nonlate admite Todoist como fuente de tareas. Conecta la cuenta, comprueba las tareas y fechas importadas y elige las apps que te distraen y el intervalo de vencimiento. Las tareas pendientes que cumplen los criterios pueden activar el bloqueo al abrir una app seleccionada. Hay pausas compatibles; no se garantiza que debas terminar toda tu lista de Todoist primero.",
+      "sections": [
+        {
+          "id": "keep-source",
+          "heading": "Conserva Todoist como referencia",
+          "paragraphs": [
+            "Sigue organizando los proyectos y consultando los detalles de las tareas en Todoist. En Nonlate, revisa la información compatible que has importado en lugar de duplicar cada elemento.",
+            "Comprueba la fecha que aparece realmente en la tarea importada. Un día previsto de trabajo, un recordatorio y una fecha final pueden tener significados distintos; no supongas que todos los campos de origen se convierten en el mismo criterio de bloqueo. Prueba primero una tarea normal con fecha antes de depender de la conexión para trabajo importante."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Empieza con una conexión pequeña y útil",
+          "paragraphs": [
+            "Sigue las indicaciones de inicio de sesión y autorización de Todoist en Nonlate."
+          ],
+          "steps": [
+            "Actualiza Nonlate y compara el título, la fecha y el estado pendiente de una tarea compatible con Todoist.",
+            "Elige un intervalo de vencimiento realista. Una lista de atrasos no debería convertirse automáticamente en un bloqueo de todo el día salvo que las tareas cumplan las reglas elegidas.",
+            "Selecciona unas pocas apps que te distraen, concede los permisos de la plataforma y deja accesibles las herramientas esenciales de comunicación y trabajo.",
+            "Planifica un siguiente paso manejable en el Planificador y la Agenda. Elegir cuándo trabajar no cambia el vencimiento."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Un borrador para un cliente antes de la tarde",
+          "paragraphs": [
+            "Supongamos que Nonlate muestra un borrador pendiente con vencimiento a las seis de la tarde. Reserva tiempo para escribir antes. Cuando la tarea entre en el intervalo elegido, abrir una red social seleccionada puede mostrar el bloqueador y devolverte la atención al plazo.",
+            "Termina el trabajo real y comprueba el estado en tu flujo de origen. Actualiza Nonlate para confirmar el nuevo estado importado. Completar ese borrador elimina un motivo de bloqueo, pero otra tarea pendiente compatible puede seguir activándolo. Una reunión del calendario por sí sola nunca lo hace."
+          ]
+        },
+        {
+          "id": "sync",
+          "heading": "Si una actualización o tarea completada no se refleja",
+          "paragraphs": [
+            "Compara primero ambas apps, actualiza la conexión y revisa el acceso a la cuenta y a Internet. No crees duplicados para corregir una actualización retrasada. La sincronización depende del proveedor, el plan, los permisos y los límites en segundo plano del dispositivo; un cambio externo no aparece siempre al instante.",
+            "En iPhone se utilizan pantallas de bloqueo de Tiempo de uso. Android utiliza el permiso de Accesibilidad requerido y puede mostrar más detalles. Una pausa activa, un permiso retirado o una tarea fuera del intervalo explican por qué una distracción puede abrirse. Focus Lock cambia el acceso a las pausas; no vuelve inviolable el sistema."
+          ]
+        },
+        {
+          "id": "plans",
+          "heading": "Distingue el bloqueo gratuito de la sincronización",
+          "paragraphs": [
+            "Free incluye tareas manuales y bloqueo básico para hasta tres apps.",
+            "La prueba opcional de 30 días permite una fuente externa a la vez, sincronizada al abrir o actualizar, sin cobro automático. Al terminar, la sincronización se pausa salvo que un plan de pago compatible dé acceso; las tareas importadas siguen disponibles para completarlas localmente y para el bloqueo. Plus permite sincronización en segundo plano cuando está disponible; Pro añade Live Sync para integraciones compatibles, con límites. Consulta los planes y condiciones locales de la tienda. La prueba de fuentes comienza con la primera conexión realizada correctamente."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Todoist tiene que bloquear el teléfono?",
+          "answer": "No. Todoist conserva tu flujo de tareas; Nonlate proporciona su propio bloqueo compatible tras conectar la fuente y conceder los permisos necesarios en el dispositivo."
+        },
+        {
+          "question": "¿Tengo que volver a escribir cada tarea?",
+          "answer": "No. Usa las tareas importadas compatibles y compáralas con la fuente. Añade tareas manuales solo cuando quieras trabajo independiente en Nonlate."
+        },
+        {
+          "question": "¿Terminar una tarea desbloquea todas mis apps?",
+          "answer": "No necesariamente. Puede haber otras tareas pendientes que cumplan los criterios; también influyen los ajustes, los permisos y las pausas temporales activas."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Bloqueador de distrações para Todoist: tarefas antes das redes sociais",
+      "description": "Mantenha suas tarefas no Todoist, reúna trabalho compatível no Nonlate e adicione bloqueio por prazo sem digitar sua lista inteira novamente.",
+      "intro": "Se você já confia suas tarefas ao Todoist, refazer a mesma lista em outro bloqueador cria mais um lugar para manter atualizado.",
+      "answer": "O Nonlate oferece conexão com o Todoist como fonte de tarefas. Conecte a conta, confira as tarefas e datas importadas e escolha apps que distraem e um intervalo de prazo. Tarefas pendentes que atendem aos critérios podem ativar o bloqueio ao abrir um app selecionado. Há pausas compatíveis; não é uma garantia de que toda a lista do Todoist precise ser concluída primeiro.",
+      "sections": [
+        {
+          "id": "keep-source",
+          "heading": "Mantenha o Todoist como referência das tarefas",
+          "paragraphs": [
+            "Continue organizando projetos e consultando detalhes no Todoist. No Nonlate, confira as informações compatíveis importadas em vez de criar outra cópia de cada item.",
+            "Confira a data que realmente aparece na tarefa importada. Um dia planejado para trabalhar, um lembrete e um prazo final podem ter significados diferentes; não presuma que todos os campos da fonte viram a mesma condição de bloqueio. Teste uma tarefa comum com data antes de depender da conexão para trabalho importante."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Comece com uma conexão pequena e útil",
+          "paragraphs": [
+            "Siga as orientações de login e autorização do Todoist no Nonlate."
+          ],
+          "steps": [
+            "Atualize o Nonlate e compare o título, a data e o status pendente de uma tarefa compatível com o Todoist.",
+            "Escolha um intervalo de prazo realista. Uma lista de pendências não deve virar automaticamente uma barreira o dia inteiro, a menos que as tarefas atendam às suas regras.",
+            "Selecione alguns apps que distraem, conceda as permissões da plataforma e mantenha acessíveis as ferramentas essenciais de comunicação e trabalho.",
+            "Planeje um próximo passo viável no Planejador e na Agenda. Escolher quando trabalhar não altera o prazo da tarefa."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Um rascunho para o cliente antes do fim do dia",
+          "paragraphs": [
+            "Imagine que um rascunho apareça no Nonlate como pendente e com prazo às 18h. Reserve um horário mais cedo para escrever. Quando a tarefa entrar no intervalo escolhido, abrir uma rede social selecionada poderá mostrar o bloqueador e trazer sua atenção de volta ao prazo.",
+            "Conclua o trabalho real e confira o status no seu fluxo de origem. Atualize o Nonlate para confirmar o estado importado. Concluir esse rascunho remove um motivo de bloqueio, mas outra tarefa pendente que atenda aos critérios pode continuar acionando a barreira. Uma reunião no calendário, sozinha, nunca faz isso."
+          ]
+        },
+        {
+          "id": "sync",
+          "heading": "Se uma atualização ou conclusão não aparecer",
+          "paragraphs": [
+            "Compare os dois apps, atualize a conexão e confira o acesso à conta e à Internet. Não crie tarefas duplicadas para corrigir uma atualização atrasada. A sincronização depende do provedor, do plano, das permissões e dos limites de segundo plano do aparelho; uma mudança externa nem sempre aparece na hora.",
+            "No iPhone, o bloqueio usa telas do Tempo de Uso. O Android usa a permissão de Acessibilidade necessária e pode mostrar mais detalhes das tarefas. Uma pausa ativa, uma permissão revogada ou uma tarefa fora do intervalo pode explicar por que a distração abre. O Focus Lock altera o acesso às pausas; não torna o sistema impossível de contornar."
+          ]
+        },
+        {
+          "id": "plans",
+          "heading": "Separe o bloqueio gratuito da sincronização",
+          "paragraphs": [
+            "O Free inclui tarefas manuais e bloqueio básico para até três apps.",
+            "O teste opcional de 30 dias permite uma fonte externa por vez, sincronizada ao abrir ou atualizar, sem cobrança automática. Depois, a sincronização pausa sem um plano pago compatível; as tarefas importadas continuam disponíveis para conclusão local e bloqueio. O Plus oferece sincronização em segundo plano quando disponível; o Pro adiciona Live Sync para integrações compatíveis, dentro de limites. Confira os planos e os termos locais da loja antes de assinar. O teste de fontes começa na primeira conexão bem-sucedida."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "O próprio Todoist precisa bloquear meu celular?",
+          "answer": "Não. O Todoist mantém seu fluxo de tarefas; o Nonlate oferece seu próprio bloqueio compatível após conectar a fonte e receber as permissões necessárias no aparelho."
+        },
+        {
+          "question": "Preciso digitar todas as tarefas novamente?",
+          "answer": "Não. Use as tarefas compatíveis importadas e confira com a fonte. Adicione tarefas manuais apenas quando quiser trabalho separado no Nonlate."
+        },
+        {
+          "question": "Concluir uma tarefa libera todos os meus apps?",
+          "answer": "Não necessariamente. Outras tarefas pendentes podem atender aos critérios; o bloqueio também depende dos ajustes, das permissões e de qualquer pausa temporizada ativa."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bloquer les distractions avec Todoist : les tâches avant les réseaux",
+      "description": "Gardez votre organisation dans Todoist, retrouvez les tâches compatibles dans Nonlate et ajoutez un blocage selon les échéances sans ressaisir toute votre liste.",
+      "intro": "Si vous confiez déjà vos tâches à Todoist, reconstruire la même liste dans un bloqueur crée un endroit de plus à tenir à jour.",
+      "answer": "Nonlate prend en charge Todoist comme source de tâches. Connectez le compte, vérifiez les tâches et dates importées, puis choisissez les apps distrayantes et une fenêtre d’échéance. Des tâches inachevées admissibles peuvent déclencher le blocage à l’ouverture d’une app sélectionnée. Des pauses restent possibles ; ce n’est pas la garantie que toute la liste Todoist devra être terminée avant.",
+      "sections": [
+        {
+          "id": "keep-source",
+          "heading": "Gardez Todoist comme référence",
+          "paragraphs": [
+            "Continuez à organiser vos projets et à consulter les détails dans Todoist. Dans Nonlate, vérifiez les informations compatibles importées au lieu de créer une deuxième copie de chaque élément.",
+            "Regardez la date réellement affichée sur la tâche importée. Un jour prévu pour travailler, un rappel et une échéance finale peuvent avoir des significations différentes ; ne supposez pas que tous les champs d’origine deviennent le même critère de blocage. Testez une tâche datée ordinaire avant de dépendre de la connexion pour un travail important."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Commencez par une connexion simple et utile",
+          "paragraphs": [
+            "Suivez les demandes de connexion et d’autorisation Todoist dans Nonlate."
+          ],
+          "steps": [
+            "Actualisez Nonlate et comparez le titre, la date et l’état inachevé d’une tâche compatible avec Todoist.",
+            "Choisissez une fenêtre d’échéance réaliste. Une longue liste en retard ne devrait pas devenir automatiquement un mur toute la journée, sauf si les tâches répondent aux règles choisies.",
+            "Sélectionnez quelques apps distrayantes, accordez les autorisations de la plateforme et gardez les outils essentiels de communication et de travail accessibles.",
+            "Prévoyez une prochaine action réalisable dans le Planificateur et l’Agenda. Choisir quand travailler ne déplace pas l’échéance."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Un brouillon client à terminer avant le soir",
+          "paragraphs": [
+            "Supposons qu’un brouillon apparaisse dans Nonlate comme inachevé, avec une échéance à 18 heures. Réservez du temps plus tôt pour écrire. Quand la tâche entre dans votre fenêtre d’échéance, ouvrir un réseau social sélectionné peut afficher le bloqueur et vous rappeler le délai.",
+            "Terminez réellement le travail et vérifiez son état dans votre outil d’origine. Actualisez Nonlate pour confirmer l’état importé. Terminer ce brouillon retire une raison de blocage, mais une autre tâche inachevée admissible peut encore le déclencher. Une réunion du calendrier ne le déclenche jamais à elle seule."
+          ]
+        },
+        {
+          "id": "sync",
+          "heading": "Si une modification ou une tâche terminée tarde à apparaître",
+          "paragraphs": [
+            "Comparez les deux apps, actualisez la connexion et vérifiez l’accès au compte et à Internet. Ne créez pas de doublons pour corriger une mise à jour en retard. La synchronisation dépend du service, de la formule, des autorisations et des limites du téléphone en arrière-plan ; une modification externe n’apparaît pas forcément immédiatement.",
+            "Sur iPhone, le blocage utilise les écrans de Temps d’écran. Android utilise l’autorisation d’accessibilité nécessaire et peut montrer davantage de détails. Une pause active, une autorisation retirée ou une tâche hors de la fenêtre explique parfois l’accès à une distraction. Focus Lock modifie l’accès aux pauses ; il ne rend pas le système inviolable."
+          ]
+        },
+        {
+          "id": "plans",
+          "heading": "Distinguez le blocage gratuit de la synchronisation",
+          "paragraphs": [
+            "Free comprend les tâches manuelles et le blocage de base de trois apps au maximum.",
+            "L’essai facultatif de 30 jours permet une source externe à la fois, synchronisée à l’ouverture ou à l’actualisation, sans facturation automatique. Ensuite, la synchronisation est suspendue sans formule payante adaptée ; les tâches importées restent disponibles pour la fin locale du travail et le blocage. Plus permet la synchronisation en arrière-plan lorsqu’elle est disponible ; Pro ajoute Live Sync pour les intégrations compatibles, dans certaines limites. Consultez les formules et les conditions locales de la boutique avant de vous abonner. L’essai des sources commence lors de la première connexion réussie."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Todoist doit-il lui-même bloquer mon téléphone ?",
+          "answer": "Non. Todoist conserve votre organisation des tâches ; Nonlate fournit son propre blocage compatible après connexion de la source et autorisation sur l’appareil."
+        },
+        {
+          "question": "Faut-il ressaisir chaque tâche ?",
+          "answer": "Non. Utilisez les tâches compatibles importées et comparez-les avec la source. Ajoutez des tâches manuelles seulement si vous souhaitez un travail distinct dans Nonlate."
+        },
+        {
+          "question": "Terminer une tâche débloque-t-il toutes mes apps ?",
+          "answer": "Pas forcément. D’autres tâches inachevées peuvent répondre aux critères ; les réglages, les autorisations et les pauses minutées actives comptent aussi."
+        }
+      ]
+    },
+    "de": {
+      "title": "Ablenkungen mit Todoist blockieren: fällige Aufgaben vor Social Media",
+      "description": "Behalte deine Aufgaben in Todoist, übernimm unterstützte Arbeit in Nonlate und ergänze fälligkeitsabhängige App-Sperren, ohne die gesamte Liste erneut einzugeben.",
+      "intro": "Wenn du deine Aufgaben bereits in Todoist verwaltest, entsteht durch dieselbe Liste in einem zusätzlichen Blocker ein weiterer Pflegeaufwand.",
+      "answer": "Nonlate unterstützt Todoist als Aufgabenquelle. Verbinde das Konto, prüfe importierte Aufgaben und Termine und wähle ablenkende Apps sowie ein Fälligkeitsfenster. Passende unerledigte Aufgaben können beim Öffnen einer gewählten App die Sperre auslösen. Unterstützte Pausen bleiben möglich; es ist keine Garantie, dass zuerst die gesamte Todoist-Liste erledigt sein muss.",
+      "sections": [
+        {
+          "id": "keep-source",
+          "heading": "Behalte Todoist als Aufgabenreferenz",
+          "paragraphs": [
+            "Organisiere deine Projekte und prüfe die Aufgabendetails weiterhin in Todoist. Kontrolliere in Nonlate die unterstützten importierten Informationen, statt jeden Eintrag zu duplizieren.",
+            "Prüfe das Datum, das tatsächlich an der importierten Aufgabe steht. Ein geplanter Arbeitstag, eine Erinnerung und ein endgültiger Abgabetermin können Unterschiedliches bedeuten. Nimm nicht an, dass jedes Quellfeld dieselbe Sperrbedingung ergibt. Teste eine gewöhnliche datierte Aufgabe, bevor du dich bei wichtiger Arbeit auf die Verbindung verlässt."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Starte mit einer kleinen, hilfreichen Verbindung",
+          "paragraphs": [
+            "Folge den Todoist-Anmelde- und Autorisierungsschritten in Nonlate."
+          ],
+          "steps": [
+            "Aktualisiere Nonlate und vergleiche Titel, Datum und offenen Status einer unterstützten Aufgabe mit Todoist.",
+            "Wähle ein realistisches Fälligkeitsfenster. Ein langer Aufgabenrückstand sollte nur dann zur ganztägigen Sperre führen, wenn die Aufgaben deinen gewählten Regeln entsprechen.",
+            "Wähle wenige ablenkende Apps, erteile die Plattformberechtigungen und halte wichtige Kommunikations- und Arbeitswerkzeuge zugänglich.",
+            "Plane im Planer und Tagesplan einen machbaren nächsten Schritt. Der geplante Arbeitszeitpunkt verändert die Fälligkeit nicht."
+          ]
+        },
+        {
+          "id": "example",
+          "heading": "Ein Kundenentwurf vor dem Abendtermin",
+          "paragraphs": [
+            "Angenommen, ein Entwurf erscheint in Nonlate als unerledigt und um 18 Uhr fällig. Reserviere früher am Tag Zeit zum Schreiben. Sobald die Aufgabe im gewählten Fälligkeitsfenster liegt, kann das Öffnen einer ausgewählten Social-Media-App die Sperre zeigen und den Termin in Erinnerung rufen.",
+            "Erledige die tatsächliche Arbeit und prüfe den Status in deinem ursprünglichen Ablauf. Aktualisiere Nonlate, um den importierten Stand zu bestätigen. Der fertige Entwurf beseitigt einen Sperrgrund, aber eine weitere passende unerledigte Aufgabe kann weiterhin sperren. Ein Kalendertermin allein löst nie die Sperre aus."
+          ]
+        },
+        {
+          "id": "sync",
+          "heading": "Wenn Änderungen oder Erledigungen nicht erscheinen",
+          "paragraphs": [
+            "Vergleiche zuerst beide Apps, aktualisiere die Verbindung und prüfe Kontozugriff und Internetverbindung. Erstelle keine Duplikate, um eine verzögerte Aktualisierung zu beheben. Die Synchronisierung hängt vom Anbieter, Tarif, den Berechtigungen und den Hintergrundbeschränkungen des Geräts ab; externe Änderungen erscheinen nicht garantiert sofort.",
+            "Auf dem iPhone nutzt die Sperre Bildschirmzeit-Sperrbildschirme. Android verwendet die nötige Bedienungshilfen-Berechtigung und kann mehr Aufgabendetails zeigen. Eine aktive Pause, eine entzogene Berechtigung oder eine Aufgabe außerhalb des Fälligkeitsfensters kann erklären, warum eine Ablenkung aufgeht. Focus Lock verändert den Zugang zu Pausen, macht das System aber nicht manipulationssicher."
+          ]
+        },
+        {
+          "id": "plans",
+          "heading": "Kostenlose Sperren und Quellensynchronisierung unterscheiden",
+          "paragraphs": [
+            "Free umfasst manuelle Aufgaben und die grundlegende Sperre von bis zu drei ablenkenden Apps.",
+            "Der optionale 30-Tage-Test erlaubt jeweils eine externe Quelle mit Synchronisierung beim Öffnen oder Aktualisieren, ohne automatische Gebühr. Danach pausiert die Synchronisierung ohne passenden kostenpflichtigen Tarif; importierte Aufgaben bleiben für lokale Erledigung und Sperren verfügbar. Plus bietet Hintergrundsynchronisierung, wenn verfügbar; Pro ergänzt Live Sync für unterstützte Integrationen innerhalb von Grenzen. Prüfe vor einem Abonnement die aktuellen Tarife und örtlichen Store-Bedingungen. Der Quellentest beginnt mit der ersten erfolgreichen Verbindung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Muss Todoist selbst mein Handy sperren?",
+          "answer": "Nein. Todoist bleibt dein Aufgabensystem. Nonlate übernimmt die unterstützte App-Sperre, nachdem die Quelle verbunden und die nötigen Geräteberechtigungen erteilt wurden."
+        },
+        {
+          "question": "Muss ich jede Aufgabe neu eingeben?",
+          "answer": "Nein. Nutze die unterstützten importierten Aufgaben und vergleiche sie mit der Quelle. Ergänze manuelle Aufgaben nur, wenn du bewusst separate Arbeit in Nonlate möchtest."
+        },
+        {
+          "question": "Entsperrt eine erledigte Aufgabe alle Apps?",
+          "answer": "Nicht unbedingt. Andere passende unerledigte Aufgaben können übrig bleiben. Außerdem zählen Einstellungen, Plattformberechtigungen und aktive zeitlich begrenzte Pausen."
+        }
+      ]
+    }
+  }
+}

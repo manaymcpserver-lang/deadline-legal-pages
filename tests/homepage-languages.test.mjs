@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { searchGuideRoutes } from "../scripts/search-guide-registry.mjs";
 import { createHash } from "node:crypto";
 
 const root = new URL("../", import.meta.url);
@@ -127,7 +128,7 @@ test("homepage and guide language URLs share a complete sitemap", async () => {
   const xml = await read("out/sitemap.xml");
   const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
   assert.equal(new Set(urls).size, urls.length);
-  assert.equal(urls.length, 383);
+  assert.equal(urls.length, 383 + searchGuideRoutes.length);
   for (const locale of locales) assert.ok(urls.includes(`https://nonlate.app${pathFor(locale)}`));
 });
 
