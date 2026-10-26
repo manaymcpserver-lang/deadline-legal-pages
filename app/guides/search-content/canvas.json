@@ -122,57 +122,6 @@
         }
       ]
     },
-    "pt-BR": {
-      "title": "Planejador de atividades do Canvas: transforme prazos em um plano de estudo",
-      "description": "Organize atividades do Canvas junto com outras tarefas, planeje quando começar e entenda os limites do Nonlate ao conectar seus prazos.",
-      "intro": "O prazo no Canvas informa quando o trabalho deve ser entregue. Ele não reserva tempo para ler, escrever ou revisar. Um bom planejador relaciona o vencimento a uma pequena próxima ação e a uma sessão realista, principalmente quando várias disciplinas disputam a mesma noite.",
-      "answer": "Confira no Canvas as instruções e o seu prazo de entrega. No Nonlate, conecte o Canvas pela configuração compatível com sua conta, confira as tarefas importadas e planeje o trabalho junto com outros compromissos. Mantenha o Canvas como referência para os requisitos do curso e o status de entrega.",
-      "sections": [
-        {
-          "id": "check-the-source",
-          "heading": "Comece conferindo a atividade no Canvas",
-          "paragraphs": [
-            "Abra a atividade antes de organizá-la. Anote as instruções, o horário de entrega e qualquer período de disponibilidade separado. No Canvas, o prazo de entrega e as datas em que uma atividade fica disponível têm funções diferentes. Confira o prazo da sua própria atividade em vez de copiar a data de outro estudante.",
-            "Se o professor alterar os requisitos, verifique-os no Canvas. O planejador oferece uma visão prática, mas não substitui a fonte quando você precisa confirmar onde enviar o trabalho ou se uma entrega atrasada é aceita."
-          ]
-        },
-        {
-          "id": "make-the-plan",
-          "heading": "Transforme o prazo em um plano possível",
-          "paragraphs": [
-            "O Nonlate oferece suporte ao Canvas como fonte conectada, mas os dados disponíveis e as etapas de conexão dependem do serviço, das permissões e da versão do aplicativo. Siga as instruções do Nonlate sem presumir que todas as instituições usam o mesmo login. Se faltar uma tarefa, confira a fonte e a conexão antes de confiar na lista."
-          ],
-          "steps": [
-            "Conecte o Canvas pela configuração compatível do Nonlate e revise as tarefas exibidas. Confira os nomes e horários de entrega no Canvas.",
-            "Adicione uma tarefa manual para um trabalho que queira acompanhar separadamente, como uma leitura ou um esboço. Evite duplicar todas as atividades importadas.",
-            "Escolha uma próxima ação específica e reserve uma sessão realista no Planner ou Schedule. Deixe tempo para enviar o trabalho e conferir o resultado no Canvas.",
-            "Após alterações no Canvas, atualize o Nonlate e revise a tarefa novamente. A sincronização depende do provedor, plano, permissões e aparelho; atualizações instantâneas não são garantidas."
-          ]
-        },
-        {
-          "id": "protect-the-work",
-          "heading": "Proteja o horário de estudo sem confundir prazos e eventos",
-          "paragraphs": [
-            "Um evento de calendário pode lembrar você de uma aula ou sessão de estudo. Eventos de calendário não ativam o bloqueio do Nonlate. O bloqueio considera tarefas pendentes elegíveis e a janela de vencimento escolhida quando você abre um aplicativo selecionado. Apenas agendar uma atividade não altera o prazo nem inicia um bloqueio por tempo.",
-            "Ao terminar, confirme o envio no Canvas e confira o estado da tarefa no Nonlate. Não presuma que marcar uma tarefa como concluída em um planejador envia o trabalho ou atualiza o registro do curso. O Nonlate não verifica a qualidade nem o envio de uma atividade. Outras tarefas pendentes podem manter o bloqueio, e as pausas temporizadas compatíveis continuam disponíveis."
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "question": "Posso usar o planejador sem conectar o Canvas?",
-          "answer": "Sim. O plano Free do Nonlate inclui tarefas manuais e bloqueio básico de até três aplicativos que distraem. Você pode cadastrar o trabalho e conferir alterações no Canvas."
-        },
-        {
-          "question": "A sincronização com o Canvas é gratuita para sempre?",
-          "answer": "Conexões externas têm limites próprios. O teste opcional de 30 dias começa na primeira conexão bem-sucedida e permite uma fonte por vez. Não há cobrança automática. Ao terminar, a sincronização externa é pausada; as tarefas importadas continuam disponíveis para conclusão local e bloqueio. Para continuar sincronizando, é necessário um plano pago adequado."
-        },
-        {
-          "question": "O Nonlate envia minha atividade?",
-          "answer": "Não. Use o Canvas para enviar o trabalho e conferir os requisitos do curso. O Nonlate ajuda a organizar tarefas, planejar e interromper distrações selecionadas; ele não garante a conclusão."
-        }
-      ]
-    },
     "fr": {
       "title": "Planifier ses devoirs Canvas : transformer les échéances en séances de travail",
       "description": "Organisez vos devoirs Canvas avec vos autres tâches, prévoyez quand commencer et comprenez les possibilités et les limites de Nonlate.",
@@ -224,6 +173,261 @@
         }
       ]
     },
+    "hi": {
+      "title": "Canvas असाइनमेंट की योजना: अंतिम तिथियों से पढ़ाई का कार्यक्रम बनाएं",
+      "description": "Canvas असाइनमेंट को अन्य कामों के साथ व्यवस्थित करें, शुरू करने का समय तय करें और जुड़े स्रोतों की अंतिम तिथियों के लिए Nonlate की क्षमताएं और सीमाएं समझें।",
+      "intro": "Canvas की अंतिम तिथि बताती है कि काम कब जमा करना है। वह पढ़ने, मसौदा बनाने या संशोधन के लिए समय नहीं रखती। उपयोगी योजना अंतिम तिथि को छोटे अगले कदम और व्यावहारिक कार्य सत्र से जोड़ती है, खासकर जब कई विषयों को एक ही शाम चाहिए।",
+      "answer": "असाइनमेंट के निर्देश और अपनी जमा करने की समयसीमा Canvas में जांचें। Nonlate में अपने खाते के लिए समर्थित तरीके से Canvas जोड़ें, आयातित काम जांचें और अन्य जिम्मेदारियों के साथ योजना बनाएं। पाठ्यक्रम की आवश्यकताओं और जमा स्थिति का संदर्भ Canvas ही रखें।",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "पहले Canvas में असाइनमेंट जांचें",
+          "paragraphs": [
+            "व्यवस्थित करने से पहले असली असाइनमेंट खोलें। निर्देश, जमा समय और अलग उपलब्धता अवधि हो तो लिख लें। Canvas में अंतिम तिथि और उपलब्धता की तिथियों के उद्देश्य अलग हैं। दूसरे छात्र की तिथि नकल करने के बजाय अपने असाइनमेंट की समयसीमा जांचें।",
+            "शिक्षक आवश्यकताएं बदलें तो Canvas में सत्यापित करें। योजनाकार काम का उपयोगी दृश्य देता है, लेकिन कहां जमा करना है या देर से जमा स्वीकार होगा या नहीं, इसकी पुष्टि के लिए मूल स्रोत की जगह नहीं लेता।"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "अंतिम तिथि को लागू करने योग्य योजना बनाएं",
+          "paragraphs": [
+            "Nonlate, Canvas को जुड़े स्रोत के रूप में समर्थन देता है, लेकिन डेटा और जोड़ने के चरण सेवा, अनुमतियों और ऐप संस्करण पर निर्भर हैं। सभी संस्थानों की लॉगिन सेटिंग एक जैसी न मानें; Nonlate के निर्देश अपनाएं। काम गायब हो तो सूची पर भरोसा करने से पहले स्रोत और कनेक्शन जांचें।"
+          ],
+          "steps": [
+            "Nonlate के समर्थित सेटअप से Canvas जोड़ें और दिखाई देने वाले काम देखें। नाम और जमा समय Canvas से मिलाएं।",
+            "अलग से ट्रैक किए जाने वाले काम, जैसे पढ़ना या रूपरेखा बनाना, के लिए मैन्युअल काम जोड़ें। हर आयातित असाइनमेंट की नकल बनाने से बचें।",
+            "स्पष्ट अगला कदम चुनें और Planner या Schedule में व्यावहारिक कार्य सत्र रखें। Canvas में जमा करने और परिणाम जांचने का समय छोड़ें।",
+            "Canvas में बदलाव के बाद Nonlate रीफ्रेश करें और काम फिर जांचें। सिंक का समय प्रदाता, योजना, अनुमतियों और डिवाइस के अनुसार बदलता है; तत्काल अपडेट की गारंटी नहीं है।"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "अंतिम तिथि और कैलेंडर इवेंट में अंतर रखते हुए काम का समय बचाएं",
+          "paragraphs": [
+            "कैलेंडर इवेंट कक्षा या कार्य सत्र याद दिला सकता है। कैलेंडर इवेंट Nonlate ब्लॉकिंग शुरू नहीं करते। चुना गया ध्यान भटकाने वाला ऐप खुलने पर ब्लॉकिंग योग्य अधूरे काम और चुनी गई समयसीमा अवधि जांचती है। केवल असाइनमेंट शेड्यूल करने से उसकी अंतिम तिथि नहीं बदलती और समयबद्ध लॉक नहीं चलता।",
+            "काम के बाद Canvas में जमा होने की पुष्टि और Nonlate में स्थिति जांचें। योजनाकार में पूर्ण चिह्न लगाने से काम जमा या पाठ्यक्रम रिकॉर्ड अपडेट नहीं होता। Nonlate असाइनमेंट की गुणवत्ता या जमा होने की जांच नहीं करता। अन्य योग्य अधूरे काम ब्लॉकिंग जारी रख सकते हैं; समर्थित समयबद्ध ब्रेक उपलब्ध रहते हैं।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "क्या Canvas जोड़े बिना योजनाकार इस्तेमाल कर सकता हूं?",
+          "answer": "हां। Nonlate की Free योजना में मैन्युअल काम और अधिकतम तीन ध्यान भटकाने वाले ऐप की मूल ब्लॉकिंग शामिल है। आप काम खुद दर्ज करके बदलाव Canvas में देख सकते हैं।"
+        },
+        {
+          "question": "क्या Canvas सिंक हमेशा मुफ्त है?",
+          "answer": "बाहरी कनेक्शन की अलग सीमाएं हैं। वैकल्पिक 30-दिन का स्रोत परीक्षण पहले सफल कनेक्शन से शुरू होता है और एक समय में एक स्रोत देता है। अपने आप शुल्क नहीं लगता। अवधि समाप्त होने पर बाहरी सिंक रुकता है; आयातित काम स्थानीय पूर्णता और ब्लॉकिंग के लिए रहते हैं। सिंक जारी रखने के लिए उपयुक्त सशुल्क योजना चाहिए।"
+        },
+        {
+          "question": "क्या Nonlate मेरा असाइनमेंट जमा करेगा?",
+          "answer": "नहीं। जमा करने और पाठ्यक्रम की आवश्यकताएं जांचने के लिए Canvas इस्तेमाल करें। Nonlate काम व्यवस्थित करने, योजना बनाने और चुने हुए ध्यान भटकाव रोकने में मदद करता है; पूर्णता की गारंटी नहीं देता।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "تخطيط واجبات Canvas: من مواعيد التسليم إلى خطة دراسة",
+      "description": "نظّم واجبات Canvas مع مهامك الأخرى، وحدد وقت البدء، وافهم إمكانات Nonlate وحدوده عند ربط مواعيد التسليم.",
+      "intro": "يخبرك موعد Canvas بوقت تسليم العمل، لكنه لا يحجز وقتًا للقراءة أو المسودة أو المراجعة. تربط الخطة المفيدة الموعد بخطوة صغيرة تالية وجلسة عمل واقعية، خصوصًا عندما تتنافس عدة مقررات على الأمسية نفسها.",
+      "answer": "تحقق من التعليمات وموعد تسليمك في Canvas. في Nonlate، اربط Canvas بالإعداد المدعوم لحسابك، وراجع المهام المستوردة، وخطط للعمل إلى جانب التزاماتك الأخرى. أبقِ Canvas مرجعًا لمتطلبات المقرر وحالة التسليم.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ابدأ بفحص الواجب في Canvas",
+          "paragraphs": [
+            "افتح الواجب نفسه قبل تنظيمه. دوّن التعليمات ووقت التسليم وأي فترة إتاحة منفصلة. في Canvas، لموعد التسليم وتواريخ إتاحة الواجب وظيفتان مختلفتان. تحقق من موعد واجبك أنت بدل نسخ تاريخ طالب آخر.",
+            "إذا غيّر المدرس المتطلبات، فتحقق منها في Canvas. يوفر المخطط عرضًا عمليًا مفيدًا، لكنه لا يحل محل المصدر عند تأكيد مكان التسليم أو قبول التسليم المتأخر."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "حوّل الموعد إلى خطة قابلة للتنفيذ",
+          "paragraphs": [
+            "يدعم Nonlate استخدام Canvas كمصدر متصل، لكن البيانات وخطوات الربط تعتمد على الخدمة والأذونات وإصدار التطبيق. اتبع تعليمات Nonlate ولا تفترض أن جميع المؤسسات تستخدم إعدادات دخول متطابقة. إذا غابت مهمة، فافحص المصدر والاتصال قبل الاعتماد على القائمة."
+          ],
+          "steps": [
+            "اربط Canvas بإعداد Nonlate المدعوم وراجع المهام الظاهرة. قارن الأسماء وأوقات التسليم بما في Canvas.",
+            "أضف مهمة يدوية للعمل الذي تتبعه منفصلًا، مثل القراءة أو إعداد مخطط. تجنب إنشاء نسخة مكررة من كل واجب مستورد.",
+            "اختر خطوة تالية محددة واحجز جلسة واقعية في Planner أو Schedule. اترك وقتًا للتسليم والتحقق من النتيجة في Canvas.",
+            "بعد التغييرات في Canvas، حدّث Nonlate وراجع المهمة مجددًا. تتفاوت المزامنة حسب المزود والخطة والأذونات والجهاز؛ التحديث الفوري غير مضمون."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "احمِ وقت العمل مع التمييز بين المواعيد والأحداث",
+          "paragraphs": [
+            "قد يذكرك حدث تقويم بحصة أو جلسة عمل. أحداث التقويم لا تشغّل حظر Nonlate. عند فتح تطبيق مُشتّت محدد، يفحص الحظر المهام المؤهلة غير المكتملة ونافذة الاستحقاق المختارة. مجرد جدولة واجب لا يغيّر موعده ولا يفعّل قفلًا مؤقتًا.",
+            "بعد الانتهاء، أكد التسليم في Canvas وراجع حالة المهمة في Nonlate. وضع علامة الاكتمال في مخطط لا يرسل العمل ولا يحدّث سجل المقرر. لا يتحقق Nonlate من جودة الواجب أو تسليمه. قد تُبقي مهام مؤهلة أخرى غير مكتملة الحظر نشطًا، وتظل الاستراحات المؤقتة المدعومة متاحة."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "هل أستطيع استخدام المخطط دون ربط Canvas؟",
+          "answer": "نعم. تشمل خطة Free في Nonlate المهام اليدوية والحظر الأساسي لما يصل إلى ثلاثة تطبيقات مشتتة. يمكنك إدخال العمل بنفسك والتحقق من التغييرات في Canvas."
+        },
+        {
+          "question": "هل مزامنة Canvas مجانية إلى الأبد؟",
+          "answer": "للروابط الخارجية حدود منفصلة. تبدأ تجربة المصادر الاختيارية لمدة 30 يومًا عند أول اتصال ناجح، وتسمح بمصدر واحد في الوقت نفسه. لا توجد رسوم تلقائية. عند انتهائها تتوقف المزامنة الخارجية مؤقتًا؛ وتبقى المهام المستوردة للإكمال المحلي والحظر. تتطلب متابعة المزامنة خطة مدفوعة مناسبة."
+        },
+        {
+          "question": "هل يسلّم Nonlate واجبي؟",
+          "answer": "لا. استخدم Canvas للتسليم والتحقق من متطلبات المقرر. يساعد Nonlate في تنظيم المهام وتخطيط العمل ومقاطعة المشتتات المحددة، لكنه لا يضمن الإكمال."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "Canvas 作业规划：把截止日期变成学习计划",
+      "description": "把 Canvas 作业与其他任务一起整理，安排开始时间，并了解 Nonlate 处理已连接来源截止日期的能力与限制。",
+      "intro": "Canvas 截止日期告诉你何时必须提交作业，却不会为阅读、起草或修改留出时间。实用的作业计划会把截止日期与一个小的下一步行动及可行的学习时段联系起来，尤其是在多门课程争用同一个晚上的时候。",
+      "answer": "先在 Canvas 确认作业说明和自己的提交期限。在 Nonlate 中，按账户支持的设置方式连接 Canvas，核查导入的任务，再与其他安排一起规划。课程要求和提交状态仍应以 Canvas 为准。",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "先核查 Canvas 中的作业",
+          "paragraphs": [
+            "整理之前先打开实际作业。记下说明、提交时间以及可能另设的可访问时段。在 Canvas 中，截止日期和作业开放日期用途不同。核查自己作业显示的期限，不要照抄其他同学的日期。",
+            "如果教师更改要求，请到 Canvas 确认。规划工具提供方便的工作视图，但要确认提交位置或是否接受迟交时，不能用它代替原始来源。"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "把截止日期转化为可执行计划",
+          "paragraphs": [
+            "Nonlate 支持将 Canvas 作为连接来源，但可用数据和连接步骤取决于服务、权限及应用版本。请遵循 Nonlate 显示的说明，不要假定所有学校的登录设置都相同。如果缺少任务，依赖列表之前先检查来源和连接。"
+          ],
+          "steps": [
+            "使用 Nonlate 支持的方式连接 Canvas，查看出现的任务，并与 Canvas 核对名称和截止时间。",
+            "为需要单独追踪的工作添加手动任务，例如阅读或准备提纲。不要为每项导入作业都建立重复任务。",
+            "选择具体的下一步行动，在 Planner 或 Schedule 中安排可行的工作时段。留出在 Canvas 提交并检查结果的时间。",
+            "Canvas 内容变化后，刷新 Nonlate 并重新核查任务。同步时间因提供商、套餐、权限和设备而异，不保证即时更新。"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "保护工作时间，区分截止日期与日历事件",
+          "paragraphs": [
+            "日历事件可以提醒上课或工作时段。日历事件不会触发 Nonlate 的应用拦截。打开选定的干扰应用时，拦截功能会检查符合条件的未完成任务及选定的到期时间范围。仅仅安排作业不会改变截止日期，也不会启动定时锁定。",
+            "完成后，在 Canvas 确认提交，并在 Nonlate 查看任务状态。在规划工具中标记完成，不代表已提交作业或更新课程记录。Nonlate 不验证作业质量或提交情况。其他符合条件的未完成任务仍可能让拦截保持生效，支持的定时休息仍然可用。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "不连接 Canvas 也能使用规划功能吗？",
+          "answer": "可以。Nonlate 的 Free 套餐包含手动任务和最多三个干扰应用的基本拦截。你可以自行录入工作，并在 Canvas 查看变化。"
+        },
+        {
+          "question": "Canvas 同步会永久免费吗？",
+          "answer": "外部连接有单独的限制。可选的 30 天来源试用从首次成功连接时开始，一次允许一个来源，不会自动扣费。到期后外部同步暂停；导入任务仍可用于本地完成和拦截。继续同步需要适用的付费套餐。"
+        },
+        {
+          "question": "Nonlate 会替我提交作业吗？",
+          "answer": "不会。请使用 Canvas 提交作业及核查课程要求。Nonlate 帮助整理任务、规划工作并打断选定的干扰，但不保证完成。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Planejador de atividades do Canvas: transforme prazos em um plano de estudo",
+      "description": "Organize atividades do Canvas junto com outras tarefas, planeje quando começar e entenda os limites do Nonlate ao conectar seus prazos.",
+      "intro": "O prazo no Canvas informa quando o trabalho deve ser entregue. Ele não reserva tempo para ler, escrever ou revisar. Um bom planejador relaciona o vencimento a uma pequena próxima ação e a uma sessão realista, principalmente quando várias disciplinas disputam a mesma noite.",
+      "answer": "Confira no Canvas as instruções e o seu prazo de entrega. No Nonlate, conecte o Canvas pela configuração compatível com sua conta, confira as tarefas importadas e planeje o trabalho junto com outros compromissos. Mantenha o Canvas como referência para os requisitos do curso e o status de entrega.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Comece conferindo a atividade no Canvas",
+          "paragraphs": [
+            "Abra a atividade antes de organizá-la. Anote as instruções, o horário de entrega e qualquer período de disponibilidade separado. No Canvas, o prazo de entrega e as datas em que uma atividade fica disponível têm funções diferentes. Confira o prazo da sua própria atividade em vez de copiar a data de outro estudante.",
+            "Se o professor alterar os requisitos, verifique-os no Canvas. O planejador oferece uma visão prática, mas não substitui a fonte quando você precisa confirmar onde enviar o trabalho ou se uma entrega atrasada é aceita."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Transforme o prazo em um plano possível",
+          "paragraphs": [
+            "O Nonlate oferece suporte ao Canvas como fonte conectada, mas os dados disponíveis e as etapas de conexão dependem do serviço, das permissões e da versão do aplicativo. Siga as instruções do Nonlate sem presumir que todas as instituições usam o mesmo login. Se faltar uma tarefa, confira a fonte e a conexão antes de confiar na lista."
+          ],
+          "steps": [
+            "Conecte o Canvas pela configuração compatível do Nonlate e revise as tarefas exibidas. Confira os nomes e horários de entrega no Canvas.",
+            "Adicione uma tarefa manual para um trabalho que queira acompanhar separadamente, como uma leitura ou um esboço. Evite duplicar todas as atividades importadas.",
+            "Escolha uma próxima ação específica e reserve uma sessão realista no Planner ou Schedule. Deixe tempo para enviar o trabalho e conferir o resultado no Canvas.",
+            "Após alterações no Canvas, atualize o Nonlate e revise a tarefa novamente. A sincronização depende do provedor, plano, permissões e aparelho; atualizações instantâneas não são garantidas."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Proteja o horário de estudo sem confundir prazos e eventos",
+          "paragraphs": [
+            "Um evento de calendário pode lembrar você de uma aula ou sessão de estudo. Eventos de calendário não ativam o bloqueio do Nonlate. O bloqueio considera tarefas pendentes elegíveis e a janela de vencimento escolhida quando você abre um aplicativo selecionado. Apenas agendar uma atividade não altera o prazo nem inicia um bloqueio por tempo.",
+            "Ao terminar, confirme o envio no Canvas e confira o estado da tarefa no Nonlate. Não presuma que marcar uma tarefa como concluída em um planejador envia o trabalho ou atualiza o registro do curso. O Nonlate não verifica a qualidade nem o envio de uma atividade. Outras tarefas pendentes podem manter o bloqueio, e as pausas temporizadas compatíveis continuam disponíveis."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso usar o planejador sem conectar o Canvas?",
+          "answer": "Sim. O plano Free do Nonlate inclui tarefas manuais e bloqueio básico de até três aplicativos que distraem. Você pode cadastrar o trabalho e conferir alterações no Canvas."
+        },
+        {
+          "question": "A sincronização com o Canvas é gratuita para sempre?",
+          "answer": "Conexões externas têm limites próprios. O teste opcional de 30 dias começa na primeira conexão bem-sucedida e permite uma fonte por vez. Não há cobrança automática. Ao terminar, a sincronização externa é pausada; as tarefas importadas continuam disponíveis para conclusão local e bloqueio. Para continuar sincronizando, é necessário um plano pago adequado."
+        },
+        {
+          "question": "O Nonlate envia minha atividade?",
+          "answer": "Não. Use o Canvas para enviar o trabalho e conferir os requisitos do curso. O Nonlate ajuda a organizar tarefas, planejar e interromper distrações selecionadas; ele não garante a conclusão."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Planificador de trabalhos do Canvas: transforme prazos num plano de estudo",
+      "description": "Organize os trabalhos do Canvas com outras tarefas, planeie quando começar e compreenda as possibilidades e os limites do Nonlate com prazos ligados.",
+      "intro": "Uma data de entrega no Canvas indica quando deve submeter o trabalho. Não reserva tempo para ler, redigir ou rever. Um planificador útil liga o prazo a uma pequena ação seguinte e a uma sessão realista, sobretudo quando várias disciplinas disputam a mesma noite.",
+      "answer": "Confirme no Canvas as instruções e o seu prazo de entrega. No Nonlate, ligue o Canvas através da configuração suportada para a sua conta, verifique as tarefas importadas e planeie o trabalho com os restantes compromissos. O Canvas continua a ser a referência para os requisitos do curso e o estado da entrega.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Comece por verificar o trabalho no Canvas",
+          "paragraphs": [
+            "Abra o trabalho antes de o organizar. Anote as instruções, a hora limite e qualquer período de disponibilidade separado. No Canvas, a data de entrega e as datas de disponibilidade têm funções diferentes. Verifique o prazo do seu próprio trabalho, em vez de copiar a data de outro estudante.",
+            "Se o professor alterar os requisitos, confirme-os no Canvas. O planificador proporciona uma vista prática, mas não substitui a fonte para confirmar onde entregar ou se uma entrega tardia é aceite."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Transforme o prazo num plano realizável",
+          "paragraphs": [
+            "O Nonlate suporta o Canvas como fonte ligada, mas os dados e os passos de ligação dependem do serviço, das permissões e da versão. Siga as instruções do Nonlate sem presumir que todas as instituições têm definições de início de sessão iguais. Se faltar uma tarefa, verifique a fonte e a ligação antes de confiar na lista."
+          ],
+          "steps": [
+            "Ligue o Canvas pela configuração suportada do Nonlate e reveja as tarefas apresentadas. Compare os nomes e as horas de entrega com o Canvas.",
+            "Acrescente uma tarefa manual para trabalho que queira acompanhar separadamente, como ler ou preparar um esquema. Evite duplicar todos os trabalhos importados.",
+            "Escolha uma ação seguinte concreta e reserve uma sessão realista no Planner ou Schedule. Deixe tempo para entregar e verificar o resultado no Canvas.",
+            "Depois de alterações no Canvas, atualize o Nonlate e reveja a tarefa. A sincronização varia consoante o fornecedor, o plano, as permissões e o dispositivo; não se garantem atualizações imediatas."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Proteja o tempo de trabalho sem confundir prazos e eventos",
+          "paragraphs": [
+            "Um evento do calendário pode lembrar uma aula ou uma sessão de trabalho. Os eventos do calendário não ativam o bloqueio do Nonlate. O bloqueio verifica tarefas elegíveis por concluir e o intervalo de vencimento escolhido quando abre uma aplicação selecionada que distrai. Agendar um trabalho não altera o prazo nem ativa um bloqueio temporizado.",
+            "Ao terminar, confirme a entrega no Canvas e reveja o estado da tarefa no Nonlate. Marcar algo como concluído num planificador não significa que o trabalho foi entregue ou que o registo do curso foi atualizado. O Nonlate não verifica a qualidade nem a entrega. Outras tarefas elegíveis por concluir podem manter o bloqueio; as pausas temporizadas suportadas continuam disponíveis."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso usar o planificador sem ligar o Canvas?",
+          "answer": "Sim. O plano Free do Nonlate inclui tarefas manuais e bloqueio básico de até três aplicações que distraem. Pode introduzir o trabalho e verificar alterações no Canvas."
+        },
+        {
+          "question": "A sincronização do Canvas é gratuita para sempre?",
+          "answer": "As ligações externas têm limites próprios. A experiência opcional de 30 dias começa na primeira ligação bem-sucedida e permite uma fonte de cada vez. Não há cobrança automática. Ao terminar, a sincronização externa fica suspensa; as tarefas importadas continuam disponíveis para conclusão local e bloqueio. Continuar a sincronizar exige um plano pago adequado."
+        },
+        {
+          "question": "O Nonlate entrega o meu trabalho?",
+          "answer": "Não. Utilize o Canvas para entregar e verificar os requisitos do curso. O Nonlate ajuda a organizar tarefas, planear e interromper distrações selecionadas; não garante a conclusão."
+        }
+      ]
+    },
     "de": {
       "title": "Canvas-Aufgaben planen: aus Abgabeterminen einen Lernplan machen",
       "description": "Organisiere Canvas-Aufgaben neben anderen Aufgaben, plane deinen Arbeitsbeginn und erfahre, welche Möglichkeiten und Grenzen Nonlate bei verbundenen Terminen hat.",
@@ -272,6 +476,1944 @@
         {
           "question": "Reicht Nonlate meine Aufgabe ein?",
           "answer": "Nein. Nutze Canvas zum Einreichen und zur Prüfung der Kursanforderungen. Nonlate hilft beim Organisieren, Planen und Unterbrechen ausgewählter Ablenkungen; es garantiert keinen Abschluss."
+        }
+      ]
+    },
+    "ja": {
+      "title": "Canvas課題の計画：締め切りを学習予定に変える",
+      "description": "Canvasの課題をほかのタスクと整理し、取りかかる時間を計画しましょう。連携した期限に対するNonlateの機能と制限も説明します。",
+      "intro": "Canvasの締め切りは、いつまでに提出するかを示します。読む、下書きする、見直す時間を確保してくれるわけではありません。役立つ計画は、締め切りを小さな次の行動と無理のない作業時間に結び付けます。複数の授業の課題が同じ夜に重なるときには特に重要です。",
+      "answer": "課題の指示と自分の提出期限はCanvasで確認します。Nonlateでは、アカウントで利用できる対応手順でCanvasに接続し、取り込まれたタスクを確認して、ほかの予定と一緒に計画します。授業の要件や提出状況の確認元には引き続きCanvasを使ってください。",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "まずCanvasで課題を確認する",
+          "paragraphs": [
+            "整理する前に課題そのものを開きます。指示、提出時刻、別途設定された公開期間を記録しましょう。Canvasでは締め切りと課題の利用可能期間は別の役割を持ちます。ほかの学生の日付を写すのではなく、自分の課題に表示される期限を確認してください。",
+            "教員が要件を変更したらCanvasで確認します。計画ツールは作業の見通しに役立ちますが、提出先や期限後の提出が認められるかを確認するときに元の情報の代わりにはなりません。"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "締め切りを実行できる計画にする",
+          "paragraphs": [
+            "NonlateはCanvasとの連携に対応していますが、利用できるデータや接続手順はサービス、権限、アプリのバージョンによって異なります。すべての学校が同じログイン設定だと考えず、Nonlateの案内に従ってください。タスクが見つからない場合は、一覧に頼る前に元の情報と接続を確認します。"
+          ],
+          "steps": [
+            "Nonlateの対応手順でCanvasに接続し、表示されたタスクを確認します。名前と提出時刻をCanvasと照合してください。",
+            "読書や構成案の準備など、別に追跡する作業には手動タスクを追加します。取り込んだ課題をすべて重複登録しないようにしましょう。",
+            "具体的な次の行動を選び、PlannerまたはScheduleに無理のない作業時間を確保します。Canvasで提出し、結果を確認する時間も残します。",
+            "Canvasで変更があったらNonlateを更新し、タスクを再確認します。同期間隔は提供元、プラン、権限、端末によって異なり、即時の更新は保証されません。"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "期限と予定を区別して作業時間を守る",
+          "paragraphs": [
+            "カレンダーの予定は授業や作業時間を思い出すのに役立ちます。カレンダーの予定はNonlateのブロックを作動させません。選択した気が散るアプリを開いたとき、ブロック機能は対象となる未完了タスクと選択した期限範囲を確認します。課題の予定を入れるだけでは、締め切りの変更や時間指定のロックは起こりません。",
+            "終わったらCanvasで提出を確認し、Nonlateのタスク状態を確認します。計画ツールで完了にしても、課題が提出されたり授業の記録が更新されたりするわけではありません。Nonlateは課題の品質や提出を検証しません。別の対象タスクが未完了ならブロックが続く場合があり、対応する時間制限付きの休憩も引き続き利用できます。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvasに接続せずに計画できますか？",
+          "answer": "はい。NonlateのFreeプランには手動タスクと、最大3つの気が散るアプリの基本ブロックが含まれます。自分で作業を入力し、変更はCanvasで確認できます。"
+        },
+        {
+          "question": "Canvas同期はずっと無料ですか？",
+          "answer": "外部接続には別の制限があります。任意の30日間のソース試用は最初の接続成功時に始まり、同時に1つのソースを利用できます。自動課金はありません。終了すると外部同期は一時停止しますが、取り込んだタスクは端末内での完了操作やブロックに使えます。同期を続けるには適切な有料プランが必要です。"
+        },
+        {
+          "question": "Nonlateが課題を提出してくれますか？",
+          "answer": "いいえ。提出と授業の要件確認にはCanvasを使ってください。Nonlateはタスクの整理、作業計画、選択した気が散るアプリの中断を支援しますが、完了を保証しません。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Perencana tugas Canvas: ubah tenggat menjadi rencana belajar",
+      "description": "Atur tugas Canvas bersama pekerjaan lain, rencanakan waktu mulai, dan pahami kemampuan serta batasan Nonlate untuk tenggat dari sumber terhubung.",
+      "intro": "Tenggat Canvas memberi tahu kapan pekerjaan harus dikumpulkan. Tenggat tidak menyediakan waktu untuk membaca, menulis draf, atau merevisi. Perencana yang berguna menghubungkan tenggat dengan langkah kecil berikutnya dan sesi kerja yang realistis, terutama ketika beberapa mata kuliah memerlukan malam yang sama.",
+      "answer": "Gunakan Canvas untuk memastikan petunjuk tugas dan tenggat pengumpulan Anda. Di Nonlate, hubungkan Canvas melalui pengaturan yang didukung untuk akun Anda, periksa tugas yang diimpor, lalu rencanakan pekerjaan bersama kewajiban lain. Tetap gunakan Canvas sebagai acuan persyaratan kuliah dan status pengumpulan.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Awali dengan memeriksa tugas di Canvas",
+          "paragraphs": [
+            "Buka tugas aslinya sebelum mengaturnya. Catat petunjuk, jam pengumpulan, dan periode ketersediaan terpisah jika ada. Di Canvas, tenggat dan tanggal ketersediaan tugas memiliki fungsi berbeda. Periksa tenggat tugas Anda sendiri, bukan menyalin tanggal mahasiswa lain.",
+            "Jika pengajar mengubah persyaratan, verifikasikan di Canvas. Perencana memberi tampilan kerja yang berguna, tetapi tidak menggantikan sumber ketika Anda harus memastikan tempat pengumpulan atau apakah keterlambatan diterima."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Ubah tenggat menjadi rencana yang dapat dijalankan",
+          "paragraphs": [
+            "Nonlate mendukung Canvas sebagai sumber terhubung, tetapi data dan langkah koneksi bergantung pada layanan, izin, serta versi aplikasi. Ikuti petunjuk Nonlate, jangan berasumsi semua sekolah memiliki pengaturan masuk yang sama. Jika tugas hilang, periksa sumber dan koneksinya sebelum mengandalkan daftar."
+          ],
+          "steps": [
+            "Hubungkan Canvas dengan pengaturan Nonlate yang didukung dan tinjau tugas yang muncul. Bandingkan nama dan jam tenggat dengan Canvas.",
+            "Tambahkan tugas manual untuk pekerjaan yang perlu dilacak terpisah, seperti membaca atau menyusun kerangka. Hindari menggandakan setiap tugas yang diimpor.",
+            "Pilih langkah berikutnya yang spesifik dan sediakan sesi realistis di Planner atau Schedule. Sisakan waktu untuk mengumpulkan dan memeriksa hasil di Canvas.",
+            "Setelah ada perubahan di Canvas, muat ulang Nonlate dan tinjau tugas lagi. Waktu sinkronisasi bergantung pada penyedia, paket, izin, dan perangkat; pembaruan seketika tidak dijamin."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Lindungi waktu kerja tanpa mencampuradukkan tenggat dan acara",
+          "paragraphs": [
+            "Entri kalender dapat mengingatkan Anda tentang kelas atau sesi kerja. Acara kalender tidak memicu pemblokiran Nonlate. Saat aplikasi pengganggu yang dipilih dibuka, pemblokiran memeriksa tugas belum selesai yang memenuhi syarat dan rentang tenggat terpilih. Menjadwalkan tugas saja tidak mengubah tenggat atau mengaktifkan kunci berwaktu.",
+            "Setelah selesai, pastikan pengumpulan di Canvas dan tinjau status tugas di Nonlate. Menandai selesai di perencana tidak berarti pekerjaan dikumpulkan atau catatan kuliah diperbarui. Nonlate tidak memverifikasi mutu atau pengumpulan tugas. Tugas lain yang belum selesai dan memenuhi syarat dapat mempertahankan pemblokiran; jeda berwaktu yang didukung tetap tersedia."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bisakah perencana digunakan tanpa menghubungkan Canvas?",
+          "answer": "Ya. Paket Free Nonlate mencakup tugas manual dan pemblokiran dasar hingga tiga aplikasi pengganggu. Anda dapat memasukkan pekerjaan sendiri dan memeriksa perubahan di Canvas."
+        },
+        {
+          "question": "Apakah sinkronisasi Canvas gratis selamanya?",
+          "answer": "Koneksi eksternal memiliki batas tersendiri. Uji coba sumber opsional selama 30 hari dimulai pada koneksi pertama yang berhasil dan mengizinkan satu sumber pada satu waktu. Tidak ada tagihan otomatis. Setelah berakhir, sinkronisasi eksternal dijeda; tugas impor tetap tersedia untuk penyelesaian lokal dan pemblokiran. Melanjutkan sinkronisasi memerlukan paket berbayar yang sesuai."
+        },
+        {
+          "question": "Apakah Nonlate mengumpulkan tugas saya?",
+          "answer": "Tidak. Gunakan Canvas untuk mengumpulkan pekerjaan dan memeriksa persyaratan kuliah. Nonlate membantu mengatur tugas, merencanakan pekerjaan, dan menghentikan gangguan terpilih; aplikasi tidak menjamin penyelesaian."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Планирование заданий Canvas: от сроков к учебному плану",
+      "description": "Соберите задания Canvas вместе с другими делами, запланируйте начало и узнайте возможности и ограничения Nonlate при работе с подключёнными сроками.",
+      "intro": "Срок в Canvas сообщает, когда сдать работу. Он не выделяет время на чтение, черновик и исправления. Полезный план связывает срок с небольшим следующим шагом и реалистичным рабочим сеансом, особенно когда несколько курсов требуют одного вечера.",
+      "answer": "Уточните инструкции и свой срок сдачи в Canvas. В Nonlate подключите Canvas поддерживаемым для вашего аккаунта способом, проверьте импортированные задачи и запланируйте работу наряду с другими обязанностями. Canvas остаётся источником требований курса и статуса сдачи.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Сначала проверьте задание в Canvas",
+          "paragraphs": [
+            "Перед планированием откройте само задание. Запишите инструкции, время сдачи и отдельный период доступности, если он есть. В Canvas срок сдачи и даты доступности служат разным целям. Проверяйте срок собственного задания, а не копируйте дату другого студента.",
+            "Если преподаватель изменил требования, проверьте их в Canvas. Планировщик даёт удобный рабочий обзор, но не заменяет источник при уточнении места сдачи или принятия просроченной работы."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Превратите срок в выполнимый план",
+          "paragraphs": [
+            "Nonlate поддерживает Canvas как подключённый источник, но данные и шаги подключения зависят от сервиса, разрешений и версии приложения. Следуйте инструкциям Nonlate, не предполагая одинаковые настройки входа во всех учебных заведениях. Если задачи нет, проверьте источник и соединение, прежде чем полагаться на список."
+          ],
+          "steps": [
+            "Подключите Canvas поддерживаемым способом Nonlate и просмотрите появившиеся задачи. Сравните названия и сроки с Canvas.",
+            "Добавьте ручную задачу для отдельно отслеживаемой работы, например чтения или подготовки плана. Не дублируйте каждое импортированное задание.",
+            "Выберите конкретный следующий шаг и выделите реалистичный рабочий сеанс в Planner или Schedule. Оставьте время на сдачу и проверку результата в Canvas.",
+            "После изменений в Canvas обновите Nonlate и проверьте задачу снова. Синхронизация зависит от поставщика, тарифа, разрешений и устройства; мгновенное обновление не гарантируется."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Защитите рабочее время, различая сроки и события",
+          "paragraphs": [
+            "Событие календаря может напомнить о занятии или рабочем сеансе. События календаря не запускают блокировку Nonlate. При открытии выбранного отвлекающего приложения проверяются подходящие незавершённые задачи и выбранное окно сроков. Само планирование задания не меняет срок и не включает блокировку по таймеру.",
+            "Закончив, подтвердите сдачу в Canvas и проверьте состояние задачи в Nonlate. Отметка о завершении в планировщике не сдаёт работу и не обновляет запись курса. Nonlate не проверяет качество или факт сдачи. Другие подходящие незавершённые задачи могут сохранять блокировку; поддерживаемые перерывы по таймеру остаются доступны."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Можно пользоваться планировщиком без подключения Canvas?",
+          "answer": "Да. Тариф Free в Nonlate включает ручные задачи и базовую блокировку до трёх отвлекающих приложений. Вы можете вводить работу самостоятельно и проверять изменения в Canvas."
+        },
+        {
+          "question": "Синхронизация Canvas бесплатна навсегда?",
+          "answer": "У внешних подключений отдельные ограничения. Необязательный 30-дневный пробный период источников начинается с первого успешного подключения и разрешает один источник одновременно. Автоматического списания нет. По окончании внешняя синхронизация приостанавливается; импортированные задачи остаются для локального завершения и блокировки. Для продолжения синхронизации нужен подходящий платный тариф."
+        },
+        {
+          "question": "Nonlate сдаст моё задание?",
+          "answer": "Нет. Сдавайте работу и проверяйте требования в Canvas. Nonlate помогает организовать задачи, спланировать работу и прервать выбранные отвлечения; завершение не гарантируется."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Canvas 과제 계획: 마감일을 학습 계획으로 바꾸기",
+      "description": "Canvas 과제를 다른 할 일과 정리하고 시작 시간을 계획하며, 연결된 마감일을 다루는 Nonlate의 기능과 한계를 알아보세요.",
+      "intro": "Canvas 마감일은 과제를 언제 제출해야 하는지 알려 줍니다. 읽기, 초안 작성, 수정 시간을 확보해 주지는 않습니다. 유용한 계획은 마감일을 작은 다음 행동과 현실적인 작업 시간에 연결합니다. 여러 수업이 같은 저녁 시간을 필요로 할 때 특히 중요합니다.",
+      "answer": "과제 지침과 본인의 제출 마감일은 Canvas에서 확인하세요. Nonlate에서는 계정에 지원되는 설정으로 Canvas를 연결하고 가져온 할 일을 확인한 뒤 다른 일정과 함께 계획하세요. 수업 요구사항과 제출 상태의 기준은 계속 Canvas로 삼으세요.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "먼저 Canvas에서 과제를 확인하세요",
+          "paragraphs": [
+            "정리하기 전에 실제 과제를 여세요. 지침, 제출 시각, 별도로 설정된 공개 기간을 기록하세요. Canvas에서 마감일과 과제 이용 가능 기간은 서로 다른 목적을 갖습니다. 다른 학생의 날짜를 복사하지 말고 본인 과제에 표시된 마감일을 확인하세요.",
+            "교수자가 요구사항을 바꾸면 Canvas에서 확인하세요. 계획 도구는 유용한 작업 현황을 제공하지만, 제출 위치나 지각 제출 허용 여부를 확인할 때 원본을 대신할 수 없습니다."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "마감일을 실행 가능한 계획으로 바꾸세요",
+          "paragraphs": [
+            "Nonlate는 Canvas를 연결 소스로 지원하지만, 사용 가능한 데이터와 연결 단계는 서비스, 권한, 앱 버전에 따라 다릅니다. 모든 학교의 로그인 설정이 같다고 가정하지 말고 Nonlate 안내를 따르세요. 할 일이 없다면 목록에 의존하기 전에 소스와 연결을 확인하세요."
+          ],
+          "steps": [
+            "Nonlate에서 지원하는 설정으로 Canvas를 연결하고 나타나는 할 일을 검토하세요. 이름과 제출 시각을 Canvas와 비교하세요.",
+            "읽기나 개요 준비처럼 별도로 추적할 작업은 수동 할 일로 추가하세요. 가져온 모든 과제를 중복 등록하지 마세요.",
+            "구체적인 다음 행동을 정하고 Planner 또는 Schedule에서 현실적인 작업 시간을 확보하세요. Canvas에서 제출하고 결과를 확인할 시간도 남기세요.",
+            "Canvas에서 변경한 뒤에는 Nonlate를 새로 고치고 할 일을 다시 확인하세요. 동기화 시점은 제공업체, 요금제, 권한, 기기에 따라 다르며 즉시 업데이트를 보장하지 않습니다."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "마감일과 일정을 구분하며 작업 시간을 지키세요",
+          "paragraphs": [
+            "캘린더 일정은 수업이나 작업 시간을 상기시킬 수 있습니다. 캘린더 일정은 Nonlate 차단을 실행하지 않습니다. 선택한 방해 앱을 열면 차단 기능은 조건에 맞는 미완료 할 일과 선택한 마감 시간 범위를 확인합니다. 과제 일정을 잡는 것만으로 마감일이 바뀌거나 타이머 잠금이 시작되지는 않습니다.",
+            "마친 뒤 Canvas에서 제출을 확인하고 Nonlate에서 할 일 상태를 검토하세요. 계획 도구에서 완료로 표시해도 과제가 제출되거나 수업 기록이 갱신되지는 않습니다. Nonlate는 과제 품질이나 제출 여부를 검증하지 않습니다. 다른 미완료 할 일이 조건에 맞으면 차단이 계속될 수 있으며, 지원되는 시간 제한 휴식도 이용할 수 있습니다."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas 연결 없이 계획 도구를 사용할 수 있나요?",
+          "answer": "네. Nonlate Free 요금제에는 수동 할 일과 최대 세 개 방해 앱의 기본 차단이 포함됩니다. 작업을 직접 입력하고 Canvas에서 변경사항을 확인할 수 있습니다."
+        },
+        {
+          "question": "Canvas 동기화는 영원히 무료인가요?",
+          "answer": "외부 연결에는 별도의 제한이 있습니다. 선택형 30일 소스 체험은 첫 연결 성공 시 시작하며 한 번에 소스 하나를 허용합니다. 자동 청구는 없습니다. 만료되면 외부 동기화가 일시 중지되지만 가져온 할 일은 기기 내 완료 처리와 차단에 계속 사용할 수 있습니다. 동기화를 계속하려면 적절한 유료 요금제가 필요합니다."
+        },
+        {
+          "question": "Nonlate가 과제를 제출하나요?",
+          "answer": "아니요. 제출과 수업 요구사항 확인에는 Canvas를 사용하세요. Nonlate는 할 일 정리, 작업 계획, 선택한 방해 요소 중단을 돕지만 완료를 보장하지 않습니다."
+        }
+      ]
+    },
+    "it": {
+      "title": "Pianificare i compiti di Canvas: dalle scadenze a un piano di studio",
+      "description": "Organizza i compiti di Canvas insieme alle altre attività, decidi quando iniziare e scopri possibilità e limiti di Nonlate con le scadenze collegate.",
+      "intro": "Una scadenza in Canvas indica quando consegnare il lavoro. Non riserva tempo per leggere, scrivere o revisionare. Un buon pianificatore collega il termine a un piccolo passo successivo e a una sessione realistica, soprattutto quando più corsi occupano la stessa serata.",
+      "answer": "Conferma in Canvas le istruzioni e la tua scadenza. In Nonlate collega Canvas con la procedura supportata dal tuo account, controlla le attività importate e pianifica il lavoro insieme agli altri impegni. Mantieni Canvas come riferimento per i requisiti del corso e lo stato della consegna.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Controlla prima il compito in Canvas",
+          "paragraphs": [
+            "Apri il compito prima di organizzarlo. Annota istruzioni, ora limite e l’eventuale periodo di disponibilità distinto. In Canvas la scadenza e le date di disponibilità hanno funzioni diverse. Controlla il termine del tuo compito anziché copiare quello di un altro studente.",
+            "Se l’insegnante cambia i requisiti, verificali in Canvas. Il pianificatore offre una vista operativa utile, ma non sostituisce la fonte quando devi confermare dove consegnare o se sono accettate consegne in ritardo."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Trasforma la scadenza in un piano praticabile",
+          "paragraphs": [
+            "Nonlate supporta Canvas come fonte collegata, ma dati disponibili e procedura dipendono dal servizio, dai permessi e dalla versione dell’app. Segui le istruzioni di Nonlate senza presumere che ogni istituto abbia le stesse impostazioni di accesso. Se manca un’attività, controlla fonte e collegamento prima di affidarti all’elenco."
+          ],
+          "steps": [
+            "Collega Canvas con la procedura supportata da Nonlate e rivedi le attività visualizzate. Confronta nomi e orari con Canvas.",
+            "Aggiungi un’attività manuale per il lavoro da seguire separatamente, come una lettura o una scaletta. Evita di duplicare ogni compito importato.",
+            "Scegli un prossimo passo concreto e riserva una sessione realistica in Planner o Schedule. Lascia tempo per consegnare e verificare il risultato in Canvas.",
+            "Dopo modifiche in Canvas aggiorna Nonlate e ricontrolla l’attività. La sincronizzazione varia con fornitore, piano, permessi e dispositivo; gli aggiornamenti immediati non sono garantiti."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Proteggi il tempo di lavoro distinguendo scadenze ed eventi",
+          "paragraphs": [
+            "Un evento del calendario può ricordarti una lezione o una sessione. Gli eventi del calendario non attivano il blocco di Nonlate. All’apertura di un’app distraente selezionata, il blocco controlla invece le attività incompiute idonee e la finestra di scadenza scelta. Pianificare un compito non cambia il termine e non avvia un blocco a tempo.",
+            "Al termine conferma la consegna in Canvas e controlla lo stato in Nonlate. Contrassegnare un’attività come completata nel pianificatore non consegna il lavoro né aggiorna il registro del corso. Nonlate non verifica qualità o consegna. Altre attività incompiute idonee possono mantenere il blocco; restano disponibili le pause a tempo supportate."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso usare il pianificatore senza collegare Canvas?",
+          "answer": "Sì. Il piano Free di Nonlate include attività manuali e blocco di base per un massimo di tre app distraenti. Puoi inserire il lavoro e controllare le modifiche in Canvas."
+        },
+        {
+          "question": "La sincronizzazione Canvas è gratuita per sempre?",
+          "answer": "I collegamenti esterni hanno limiti separati. La prova facoltativa di 30 giorni inizia al primo collegamento riuscito e consente una fonte alla volta. Non comporta addebiti automatici. Alla scadenza la sincronizzazione esterna si sospende; le attività importate restano disponibili per completamento locale e blocco. Per continuare a sincronizzare serve un piano a pagamento adeguato."
+        },
+        {
+          "question": "Nonlate consegna il mio compito?",
+          "answer": "No. Usa Canvas per consegnare e verificare i requisiti del corso. Nonlate aiuta a organizzare, pianificare e interrompere le distrazioni selezionate; non garantisce il completamento."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Canvas ödev planlayıcısı: teslim tarihlerini çalışma planına dönüştürün",
+      "description": "Canvas ödevlerini diğer görevlerle düzenleyin, ne zaman başlayacağınızı planlayın ve bağlı teslim tarihlerinde Nonlate’in olanaklarıyla sınırlarını öğrenin.",
+      "intro": "Canvas teslim tarihi, çalışmanın ne zaman gönderilmesi gerektiğini söyler. Okuma, taslak hazırlama veya düzeltme için zaman ayırmaz. Yararlı bir plan, özellikle birkaç ders aynı akşamı gerektirdiğinde, tarihi küçük bir sonraki adımla ve gerçekçi çalışma oturumuyla ilişkilendirir.",
+      "answer": "Ödev yönergelerini ve kendi teslim tarihinizi Canvas’ta doğrulayın. Nonlate’te hesabınız için desteklenen kurulumla Canvas’ı bağlayın, içe aktarılan görevleri kontrol edin ve işi diğer yükümlülüklerle planlayın. Ders gereklilikleri ve teslim durumu için Canvas’ı referans tutun.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Önce ödevi Canvas’ta kontrol edin",
+          "paragraphs": [
+            "Düzenlemeden önce asıl ödevi açın. Yönergeleri, teslim saatini ve varsa ayrı erişilebilirlik süresini not edin. Canvas’ta teslim tarihi ile ödevin erişilebilir olduğu tarihler farklı amaçlara hizmet eder. Başka öğrencinin tarihini kopyalamak yerine kendi ödevinizin tarihini kontrol edin.",
+            "Öğretmen gereklilikleri değiştirirse Canvas’ta doğrulayın. Planlayıcı yararlı bir çalışma görünümüdür; nereye teslim edileceğini veya geç teslimin kabulünü doğrularken kaynağın yerine geçmez."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Teslim tarihini uygulanabilir plana dönüştürün",
+          "paragraphs": [
+            "Nonlate, Canvas’ı bağlı kaynak olarak destekler; ancak veri ve bağlantı adımları hizmete, izinlere ve uygulama sürümüne bağlıdır. Her okulun aynı giriş ayarlarını kullandığını varsaymadan Nonlate yönergelerini izleyin. Görev eksikse listeye güvenmeden önce kaynak ve bağlantıyı kontrol edin."
+          ],
+          "steps": [
+            "Canvas’ı desteklenen Nonlate kurulumuyla bağlayıp görünen görevleri inceleyin. Adları ve teslim saatlerini Canvas ile karşılaştırın.",
+            "Okuma veya ana hat hazırlama gibi ayrı izlemeniz gereken işler için elle görev ekleyin. Her içe aktarılmış ödevin kopyasını oluşturmayın.",
+            "Somut bir sonraki adım seçip Planner veya Schedule’da gerçekçi bir oturum ayırın. Canvas’ta teslim ve sonucu kontrol için zaman bırakın.",
+            "Canvas değişikliklerinden sonra Nonlate’i yenileyip görevi tekrar inceleyin. Eşitleme sağlayıcıya, plana, izinlere ve cihaza bağlıdır; anında güncelleme garanti edilmez."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Tarihleri olaylarla karıştırmadan çalışma zamanını koruyun",
+          "paragraphs": [
+            "Takvim etkinliği ders veya çalışma oturumunu hatırlatabilir. Takvim etkinlikleri Nonlate engellemesini tetiklemez. Seçilen dikkat dağıtıcı uygulama açıldığında engelleme, uygun tamamlanmamış görevleri ve seçili teslim tarihi aralığını kontrol eder. Ödevi yalnızca programlamak tarihi değiştirmez ve süreli kilit başlatmaz.",
+            "Bitirince Canvas’ta teslimi doğrulayıp Nonlate’te görev durumunu inceleyin. Planlayıcıda tamamlandı işaretlemek işi göndermez veya ders kaydını güncellemez. Nonlate, ödev kalitesini ya da teslimini doğrulamaz. Diğer uygun tamamlanmamış görevler engellemeyi sürdürebilir; desteklenen süreli molalar kullanılabilir kalır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas’ı bağlamadan planlayıcıyı kullanabilir miyim?",
+          "answer": "Evet. Nonlate Free planı, elle görevleri ve en çok üç dikkat dağıtıcı uygulama için temel engellemeyi içerir. İşi kendiniz girip değişiklikleri Canvas’ta kontrol edebilirsiniz."
+        },
+        {
+          "question": "Canvas eşitlemesi sonsuza dek ücretsiz mi?",
+          "answer": "Harici bağlantıların ayrı sınırları vardır. İsteğe bağlı 30 günlük kaynak denemesi ilk başarılı bağlantıyla başlar ve aynı anda tek kaynağa izin verir. Otomatik ücret alınmaz. Süre bitince harici eşitleme duraklar; içe aktarılan görevler yerel tamamlama ve engelleme için kalır. Eşitlemeyi sürdürmek uygun ücretli plan gerektirir."
+        },
+        {
+          "question": "Nonlate ödevimi teslim eder mi?",
+          "answer": "Hayır. Teslim ve ders gereklilikleri için Canvas’ı kullanın. Nonlate, görevleri düzenlemeye, işi planlamaya ve seçili dikkat dağıtıcıları kesmeye yardımcı olur; bitirmeyi garanti etmez."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Lập kế hoạch bài tập Canvas: từ hạn nộp đến kế hoạch học",
+      "description": "Sắp xếp bài tập Canvas cùng các việc khác, chọn lúc bắt đầu và hiểu khả năng cũng như giới hạn của Nonlate với hạn nộp được kết nối.",
+      "intro": "Hạn nộp trên Canvas cho biết khi nào phải nộp bài. Nó không dành sẵn thời gian đọc, viết nháp hay chỉnh sửa. Kế hoạch hữu ích nối hạn nộp với một bước nhỏ tiếp theo và buổi làm việc khả thi, nhất là khi nhiều môn cùng cần một buổi tối.",
+      "answer": "Dùng Canvas để xác nhận yêu cầu bài tập và hạn nộp của bạn. Trong Nonlate, kết nối Canvas bằng thiết lập được hỗ trợ cho tài khoản, kiểm tra việc đã nhập và lên kế hoạch cùng các nghĩa vụ khác. Giữ Canvas làm nguồn đối chiếu yêu cầu môn học và trạng thái nộp.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Trước tiên kiểm tra bài tập trong Canvas",
+          "paragraphs": [
+            "Mở bài tập thật trước khi sắp xếp. Ghi lại hướng dẫn, giờ nộp và khoảng thời gian được phép truy cập riêng nếu có. Trong Canvas, hạn nộp và ngày khả dụng có mục đích khác nhau. Kiểm tra hạn của chính bài tập bạn thay vì chép ngày của sinh viên khác.",
+            "Nếu giảng viên thay đổi yêu cầu, xác minh trong Canvas. Công cụ lập kế hoạch cho cái nhìn làm việc hữu ích nhưng không thay thế nguồn gốc khi cần xác nhận chỗ nộp hoặc việc chấp nhận nộp trễ."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Biến hạn nộp thành kế hoạch làm được",
+          "paragraphs": [
+            "Nonlate hỗ trợ Canvas làm nguồn kết nối, nhưng dữ liệu và bước kết nối phụ thuộc dịch vụ, quyền và phiên bản ứng dụng. Làm theo hướng dẫn Nonlate thay vì cho rằng trường nào cũng có thiết lập đăng nhập giống nhau. Nếu thiếu việc, kiểm tra nguồn và kết nối trước khi dựa vào danh sách."
+          ],
+          "steps": [
+            "Kết nối Canvas bằng thiết lập Nonlate được hỗ trợ rồi xem lại các việc xuất hiện. Đối chiếu tên và giờ nộp với Canvas.",
+            "Thêm việc thủ công cho phần cần theo dõi riêng như đọc tài liệu hoặc lập dàn ý. Tránh tạo bản sao của mọi bài tập đã nhập.",
+            "Chọn bước tiếp theo cụ thể và dành buổi làm việc khả thi trong Planner hoặc Schedule. Chừa thời gian nộp và kiểm tra kết quả trên Canvas.",
+            "Sau thay đổi trên Canvas, làm mới Nonlate và kiểm tra lại việc. Thời điểm đồng bộ tùy nhà cung cấp, gói, quyền và thiết bị; không bảo đảm cập nhật ngay lập tức."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Bảo vệ giờ làm mà không nhầm hạn nộp với sự kiện",
+          "paragraphs": [
+            "Sự kiện lịch có thể nhắc bạn về lớp học hoặc buổi làm việc. Sự kiện lịch không kích hoạt chặn trong Nonlate. Khi mở ứng dụng gây xao nhãng đã chọn, cơ chế chặn kiểm tra các việc chưa xong đủ điều kiện và khoảng hạn nộp đã chọn. Chỉ lên lịch bài tập không đổi hạn nộp hay bật khóa hẹn giờ.",
+            "Làm xong, xác nhận nộp trên Canvas và xem trạng thái việc trong Nonlate. Đánh dấu hoàn thành trong công cụ kế hoạch không nộp bài hay cập nhật hồ sơ môn học. Nonlate không xác minh chất lượng hoặc việc nộp bài. Các việc đủ điều kiện chưa xong khác có thể tiếp tục chặn; giờ nghỉ có hẹn giờ được hỗ trợ vẫn dùng được."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Tôi dùng công cụ kế hoạch mà không kết nối Canvas được không?",
+          "answer": "Có. Gói Free của Nonlate gồm việc thủ công và chặn cơ bản tối đa ba ứng dụng gây xao nhãng. Bạn có thể tự nhập việc và kiểm tra thay đổi trong Canvas."
+        },
+        {
+          "question": "Đồng bộ Canvas có miễn phí mãi mãi không?",
+          "answer": "Kết nối bên ngoài có giới hạn riêng. Dùng thử nguồn tùy chọn 30 ngày bắt đầu từ lần kết nối thành công đầu tiên và cho phép một nguồn tại một thời điểm. Không có phí tự động. Hết hạn, đồng bộ bên ngoài tạm dừng; việc đã nhập vẫn dùng để hoàn thành cục bộ và chặn. Muốn tiếp tục đồng bộ cần gói trả phí phù hợp."
+        },
+        {
+          "question": "Nonlate có nộp bài giúp tôi không?",
+          "answer": "Không. Dùng Canvas để nộp bài và kiểm tra yêu cầu môn học. Nonlate giúp tổ chức việc, lên kế hoạch và ngắt các yếu tố xao nhãng đã chọn; không bảo đảm hoàn thành."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Planowanie zadań z Canvas: od terminów do planu nauki",
+      "description": "Uporządkuj zadania z Canvas obok innych obowiązków, zaplanuj rozpoczęcie i poznaj możliwości oraz ograniczenia Nonlate przy połączonych terminach.",
+      "intro": "Termin w Canvas mówi, kiedy oddać pracę. Nie rezerwuje czasu na czytanie, pisanie ani poprawki. Przydatny plan łączy termin z małym następnym krokiem i realistyczną sesją pracy, szczególnie gdy kilka przedmiotów wymaga tego samego wieczoru.",
+      "answer": "Potwierdź instrukcje i własny termin oddania w Canvas. W Nonlate połącz Canvas obsługiwaną metodą dla swojego konta, sprawdź zaimportowane zadania i zaplanuj pracę obok innych zobowiązań. Canvas pozostaje źródłem wymagań kursu i statusu oddania.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Najpierw sprawdź zadanie w Canvas",
+          "paragraphs": [
+            "Otwórz właściwe zadanie przed planowaniem. Zapisz instrukcje, godzinę oddania i ewentualny osobny okres dostępności. Termin i daty dostępności w Canvas służą innym celom. Sprawdź termin własnego zadania zamiast kopiować datę innego studenta.",
+            "Gdy prowadzący zmieni wymagania, sprawdź je w Canvas. Planer daje przydatny widok pracy, ale nie zastępuje źródła przy ustalaniu miejsca oddania lub dopuszczalności spóźnionej pracy."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Zamień termin w wykonalny plan",
+          "paragraphs": [
+            "Nonlate obsługuje Canvas jako połączone źródło, lecz dostępne dane i kroki zależą od usługi, uprawnień i wersji aplikacji. Postępuj według instrukcji Nonlate; szkoły nie muszą mieć identycznych ustawień logowania. Jeśli zadania brakuje, sprawdź źródło i połączenie, zanim zaufasz liście."
+          ],
+          "steps": [
+            "Połącz Canvas obsługiwaną konfiguracją Nonlate i przejrzyj widoczne zadania. Porównaj nazwy i godziny oddania z Canvas.",
+            "Dodaj zadanie ręczne do pracy śledzonej osobno, np. czytania lub przygotowania konspektu. Nie duplikuj każdego zaimportowanego zadania.",
+            "Wybierz konkretny następny krok i zarezerwuj realistyczną sesję w Planner lub Schedule. Zostaw czas na oddanie i sprawdzenie wyniku w Canvas.",
+            "Po zmianach w Canvas odśwież Nonlate i ponownie sprawdź zadanie. Synchronizacja zależy od dostawcy, planu, uprawnień i urządzenia; natychmiastowe aktualizacje nie są gwarantowane."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Chroń czas pracy, odróżniając terminy od wydarzeń",
+          "paragraphs": [
+            "Wydarzenie kalendarza może przypomnieć o zajęciach lub sesji pracy. Wydarzenia kalendarza nie uruchamiają blokowania Nonlate. Po otwarciu wybranej rozpraszającej aplikacji blokada sprawdza odpowiednie nieukończone zadania i wybrane okno terminów. Samo zaplanowanie zadania nie zmienia terminu ani nie włącza blokady czasowej.",
+            "Po zakończeniu potwierdź oddanie w Canvas i sprawdź stan w Nonlate. Oznaczenie jako ukończone w planerze nie oddaje pracy ani nie aktualizuje dokumentacji kursu. Nonlate nie weryfikuje jakości ani oddania. Inne odpowiednie nieukończone zadania mogą podtrzymać blokadę; obsługiwane przerwy czasowe pozostają dostępne."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy mogę używać planera bez łączenia Canvas?",
+          "answer": "Tak. Plan Free Nonlate obejmuje zadania ręczne i podstawowe blokowanie do trzech rozpraszających aplikacji. Możesz wpisać pracę samodzielnie i sprawdzać zmiany w Canvas."
+        },
+        {
+          "question": "Czy synchronizacja Canvas jest bezpłatna na zawsze?",
+          "answer": "Połączenia zewnętrzne mają osobne limity. Opcjonalna 30-dniowa próba źródeł zaczyna się przy pierwszym udanym połączeniu i pozwala na jedno źródło naraz. Nie ma automatycznej opłaty. Po zakończeniu synchronizacja zewnętrzna jest wstrzymywana; zaimportowane zadania pozostają do lokalnego ukończenia i blokowania. Dalsza synchronizacja wymaga odpowiedniego płatnego planu."
+        },
+        {
+          "question": "Czy Nonlate odda moje zadanie?",
+          "answer": "Nie. Do oddawania i sprawdzania wymagań używaj Canvas. Nonlate pomaga organizować zadania, planować pracę i przerywać wybrane rozproszenia; nie gwarantuje ukończenia."
+        }
+      ]
+    },
+    "fa": {
+      "title": "برنامه‌ریزی تکالیف Canvas: از مهلت تحویل تا برنامهٔ مطالعه",
+      "description": "تکالیف Canvas را کنار کارهای دیگر مرتب کنید، زمان شروع را مشخص کنید و امکانات و محدودیت‌های Nonlate برای مهلت‌های منابع متصل را بشناسید.",
+      "intro": "مهلت Canvas می‌گوید کار چه زمانی باید تحویل شود؛ اما برای خواندن، پیش‌نویس و بازبینی زمان کنار نمی‌گذارد. برنامهٔ مفید مهلت را به گام کوچک بعدی و نوبت کاری واقع‌بینانه پیوند می‌دهد، به‌ویژه وقتی چند درس به یک شب نیاز دارند.",
+      "answer": "دستور تکلیف و مهلت خودتان را در Canvas تأیید کنید. در Nonlate، Canvas را با روش پشتیبانی‌شدهٔ حسابتان متصل کنید، کارهای واردشده را بررسی و در کنار تعهدات دیگر برنامه‌ریزی کنید. Canvas را مرجع الزامات درس و وضعیت تحویل نگه دارید.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ابتدا تکلیف را در Canvas بررسی کنید",
+          "paragraphs": [
+            "پیش از مرتب‌سازی خود تکلیف را باز کنید. دستورها، ساعت تحویل و هر دورهٔ دسترسی جداگانه را یادداشت کنید. در Canvas، مهلت تحویل و تاریخ‌های دسترسی هدف‌های متفاوتی دارند. به‌جای کپی تاریخ دانشجوی دیگر، مهلت تکلیف خودتان را بررسی کنید.",
+            "اگر مدرس الزامات را تغییر داد، در Canvas تأییدشان کنید. برنامه‌ریز نمای کاری مفیدی است، اما برای تأیید محل تحویل یا پذیرش تحویل دیرهنگام جای منبع اصلی را نمی‌گیرد."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "مهلت را به برنامه‌ای عملی تبدیل کنید",
+          "paragraphs": [
+            "Nonlate از Canvas به‌عنوان منبع متصل پشتیبانی می‌کند، اما داده‌ها و مراحل اتصال به سرویس، مجوزها و نسخهٔ برنامه بستگی دارد. دستورهای Nonlate را دنبال کنید و یکسان بودن تنظیمات ورود همهٔ مؤسسات را فرض نکنید. اگر کاری نیست، پیش از اعتماد به فهرست منبع و اتصال را بررسی کنید."
+          ],
+          "steps": [
+            "Canvas را با روش پشتیبانی‌شدهٔ Nonlate متصل و کارهای نمایش‌داده‌شده را بررسی کنید. نام‌ها و ساعت‌های تحویل را با Canvas تطبیق دهید.",
+            "برای کاری که جداگانه پیگیری می‌کنید، مانند خواندن یا آماده‌کردن طرح، کار دستی بیفزایید. از ساخت نسخهٔ تکراری هر تکلیف واردشده بپرهیزید.",
+            "گام بعدی مشخصی انتخاب و نوبت کاری واقع‌بینانه‌ای در Planner یا Schedule رزرو کنید. برای تحویل و بررسی نتیجه در Canvas وقت بگذارید.",
+            "پس از تغییرات Canvas، Nonlate را تازه‌سازی و کار را دوباره بررسی کنید. زمان همگام‌سازی به ارائه‌دهنده، طرح، مجوزها و دستگاه بستگی دارد؛ به‌روزرسانی فوری تضمین نمی‌شود."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "زمان کار را حفظ کنید و مهلت‌ها را با رویدادها اشتباه نگیرید",
+          "paragraphs": [
+            "رویداد تقویم می‌تواند کلاس یا نوبت کار را یادآوری کند. رویدادهای تقویم مسدودسازی Nonlate را فعال نمی‌کنند. هنگام باز شدن برنامهٔ حواس‌پرت‌کن منتخب، مسدودسازی کارهای واجد شرایط ناتمام و بازهٔ مهلت انتخاب‌شده را بررسی می‌کند. صرف زمان‌بندی تکلیف مهلت را تغییر نمی‌دهد و قفل زمان‌دار فعال نمی‌کند.",
+            "پس از پایان، تحویل را در Canvas تأیید و وضعیت کار را در Nonlate بررسی کنید. علامت‌زدن تکمیل در برنامه‌ریز کار را تحویل نمی‌دهد یا سابقهٔ درس را تغییر نمی‌دهد. Nonlate کیفیت یا تحویل تکلیف را تأیید نمی‌کند. کارهای واجد شرایط ناتمام دیگر ممکن است مسدودسازی را فعال نگه دارند؛ استراحت‌های زمان‌دار پشتیبانی‌شده همچنان در دسترس‌اند."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "می‌توانم بدون اتصال Canvas از برنامه‌ریز استفاده کنم؟",
+          "answer": "بله. طرح Free در Nonlate شامل کارهای دستی و مسدودسازی پایهٔ حداکثر سه برنامهٔ حواس‌پرت‌کن است. می‌توانید کار را خودتان وارد و تغییرات را در Canvas بررسی کنید."
+        },
+        {
+          "question": "همگام‌سازی Canvas برای همیشه رایگان است؟",
+          "answer": "اتصال‌های خارجی محدودیت‌های جداگانه دارند. آزمایش اختیاری 30 روزهٔ منابع با نخستین اتصال موفق شروع می‌شود و هر بار یک منبع را اجازه می‌دهد. هزینهٔ خودکار ندارد. با پایان آن، همگام‌سازی خارجی متوقف می‌شود؛ کارهای واردشده برای تکمیل محلی و مسدودسازی باقی می‌مانند. ادامهٔ همگام‌سازی طرح پولی مناسب می‌خواهد."
+        },
+        {
+          "question": "Nonlate تکلیفم را تحویل می‌دهد؟",
+          "answer": "خیر. برای تحویل و بررسی الزامات درس از Canvas استفاده کنید. Nonlate به مرتب‌سازی کارها، برنامه‌ریزی و قطع حواس‌پرتی‌های منتخب کمک می‌کند؛ تکمیل را تضمین نمی‌کند."
+        }
+      ]
+    },
+    "th": {
+      "title": "วางแผนงาน Canvas: เปลี่ยนกำหนดส่งเป็นแผนการเรียน",
+      "description": "จัดงาน Canvas ร่วมกับงานอื่น วางแผนเวลาเริ่ม และเข้าใจความสามารถกับข้อจำกัดของ Nonlate สำหรับกำหนดส่งจากแหล่งที่เชื่อมต่อ",
+      "intro": "กำหนดส่งใน Canvas บอกว่าต้องส่งงานเมื่อใด แต่ไม่ได้จองเวลาสำหรับอ่าน เขียนร่าง หรือแก้ไข แผนที่เป็นประโยชน์เชื่อมกำหนดส่งกับขั้นตอนเล็ก ๆ ถัดไปและช่วงทำงานที่เป็นไปได้ โดยเฉพาะเมื่อหลายวิชาต้องใช้ค่ำวันเดียวกัน",
+      "answer": "ตรวจคำสั่งงานและกำหนดส่งของคุณใน Canvas จากนั้นเชื่อม Canvas ใน Nonlate ด้วยวิธีที่รองรับบัญชี ตรวจงานที่นำเข้า และวางแผนร่วมกับภาระอื่น ให้ Canvas เป็นแหล่งอ้างอิงข้อกำหนดวิชาและสถานะการส่งเสมอ",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "เริ่มด้วยการตรวจงานใน Canvas",
+          "paragraphs": [
+            "เปิดงานจริงก่อนจัดแผน จดคำสั่ง เวลาส่ง และช่วงเวลาที่เปิดให้เข้าถึงแยกต่างหากหากมี ใน Canvas กำหนดส่งกับวันที่เปิดให้เข้าถึงมีหน้าที่ต่างกัน ตรวจวันที่ของงานคุณเองแทนการคัดลอกจากนักศึกษาคนอื่น",
+            "หากผู้สอนเปลี่ยนข้อกำหนด ให้ตรวจใน Canvas เครื่องมือวางแผนให้ภาพรวมการทำงานที่มีประโยชน์ แต่ไม่แทนต้นทางเมื่อต้องยืนยันว่าจะส่งที่ไหนหรือยอมรับงานล่าช้าหรือไม่"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "เปลี่ยนกำหนดส่งเป็นแผนที่ทำได้",
+          "paragraphs": [
+            "Nonlate รองรับ Canvas เป็นแหล่งที่เชื่อมต่อ แต่ข้อมูลและขั้นตอนเชื่อมขึ้นอยู่กับบริการ สิทธิ์ และเวอร์ชันแอป ทำตามคำแนะนำใน Nonlate โดยไม่สมมติว่าทุกโรงเรียนตั้งค่าลงชื่อเข้าใช้เหมือนกัน หากงานหาย ให้ตรวจต้นทางและการเชื่อมต่อก่อนเชื่อรายการ"
+          ],
+          "steps": [
+            "เชื่อม Canvas ด้วยการตั้งค่า Nonlate ที่รองรับและตรวจงานที่ปรากฏ เทียบชื่อกับเวลาส่งกับ Canvas",
+            "เพิ่มงานด้วยตนเองสำหรับส่วนที่ติดตามแยก เช่น การอ่านหรือเตรียมโครงร่าง อย่าสร้างสำเนาของงานนำเข้าทุกชิ้น",
+            "เลือกขั้นตอนถัดไปที่ชัดเจนและจองช่วงทำงานที่สมจริงใน Planner หรือ Schedule เผื่อเวลาส่งและตรวจผลใน Canvas",
+            "หลังมีการเปลี่ยนใน Canvas ให้รีเฟรช Nonlate และตรวจงานอีกครั้ง เวลาซิงค์ขึ้นกับผู้ให้บริการ แผน สิทธิ์ และอุปกรณ์ ไม่รับประกันการอัปเดตทันที"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "ปกป้องเวลาทำงานโดยแยกกำหนดส่งออกจากกิจกรรม",
+          "paragraphs": [
+            "กิจกรรมปฏิทินช่วยเตือนชั้นเรียนหรือช่วงทำงานได้ แต่กิจกรรมปฏิทินไม่กระตุ้นการบล็อกของ Nonlate เมื่อเปิดแอปที่รบกวนสมาธิซึ่งเลือกไว้ ระบบจะตรวจงานที่ยังไม่เสร็จและเข้าเงื่อนไขกับช่วงกำหนดส่งที่เลือก การจัดตารางงานเพียงอย่างเดียวไม่เปลี่ยนกำหนดส่งหรือเปิดล็อกแบบตั้งเวลา",
+            "เมื่อเสร็จให้ยืนยันการส่งใน Canvas และตรวจสถานะใน Nonlate การทำเครื่องหมายเสร็จในเครื่องมือวางแผนไม่ใช่การส่งงานหรืออัปเดตข้อมูลวิชา Nonlate ไม่ตรวจคุณภาพหรือการส่งงาน งานอื่นที่ยังไม่เสร็จและเข้าเงื่อนไขอาจทำให้ยังบล็อกอยู่ และยังใช้ช่วงพักแบบตั้งเวลาที่รองรับได้"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ใช้เครื่องมือวางแผนโดยไม่เชื่อม Canvas ได้ไหม?",
+          "answer": "ได้ แผน Free ของ Nonlate มีงานที่เพิ่มเองและการบล็อกพื้นฐานสำหรับแอปที่รบกวนสมาธิได้สูงสุดสามแอป คุณกรอกงานเองและตรวจการเปลี่ยนแปลงใน Canvas ได้"
+        },
+        {
+          "question": "การซิงค์ Canvas ฟรีตลอดไปหรือไม่?",
+          "answer": "การเชื่อมต่อภายนอกมีข้อจำกัดแยก การทดลองแหล่งข้อมูล 30 วันแบบเลือกใช้เริ่มเมื่อเชื่อมต่อสำเร็จครั้งแรก และใช้ได้ครั้งละหนึ่งแหล่ง ไม่มีการเรียกเก็บเงินอัตโนมัติ เมื่อหมดอายุการซิงค์ภายนอกจะหยุดชั่วคราว งานนำเข้ายังใช้ทำเครื่องหมายเสร็จในเครื่องและใช้บล็อกได้ การซิงค์ต่อจำเป็นต้องใช้แผนเสียเงินที่เหมาะสม"
+        },
+        {
+          "question": "Nonlate จะส่งงานให้ฉันไหม?",
+          "answer": "ไม่ ใช้ Canvas ส่งงานและตรวจข้อกำหนดวิชา Nonlate ช่วยจัดงาน วางแผน และขัดจังหวะแอปที่เลือกซึ่งรบกวนสมาธิ แต่ไม่รับประกันว่างานจะเสร็จ"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Canvas-opdrachten plannen: van deadlines naar een studieplan",
+      "description": "Organiseer Canvas-opdrachten naast andere taken, plan wanneer je begint en begrijp de mogelijkheden en grenzen van Nonlate bij gekoppelde deadlines.",
+      "intro": "Een Canvas-deadline vertelt wanneer je werk moet inleveren. Er wordt geen tijd vrijgehouden voor lezen, schrijven of nakijken. Een bruikbare planner verbindt de deadline met een kleine volgende stap en een haalbare werksessie, vooral als meerdere vakken dezelfde avond vragen.",
+      "answer": "Controleer instructies en jouw inleverdeadline in Canvas. Koppel Canvas in Nonlate via de ondersteunde instellingen voor je account, controleer geïmporteerde taken en plan het werk naast andere verplichtingen. Houd Canvas als referentie voor cursusvereisten en inleverstatus.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Controleer eerst de opdracht in Canvas",
+          "paragraphs": [
+            "Open de echte opdracht voordat je die organiseert. Noteer instructies, inlevertijd en een eventuele aparte beschikbaarheidsperiode. In Canvas hebben de deadline en beschikbaarheidsdatums verschillende doelen. Controleer de datum voor jouw opdracht in plaats van die van een medestudent over te nemen.",
+            "Controleer gewijzigde eisen van de docent in Canvas. Een planner biedt een handig werkoverzicht, maar vervangt de bron niet als je moet weten waar je inlevert of of te laat inleveren is toegestaan."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Maak van de deadline een uitvoerbaar plan",
+          "paragraphs": [
+            "Nonlate ondersteunt Canvas als gekoppelde bron, maar beschikbare gegevens en koppelstappen hangen af van dienst, toestemmingen en appversie. Volg de instructies in Nonlate; niet elke school heeft dezelfde aanmeldinstellingen. Ontbreekt een taak, controleer dan bron en verbinding voordat je op de lijst vertrouwt."
+          ],
+          "steps": [
+            "Koppel Canvas via de ondersteunde Nonlate-instellingen en bekijk de verschenen taken. Vergelijk namen en inlevertijden met Canvas.",
+            "Voeg een handmatige taak toe voor werk dat je apart wilt volgen, zoals lezen of een opzet maken. Dupliceer niet iedere geïmporteerde opdracht.",
+            "Kies een concrete volgende stap en reserveer een haalbare werksessie in Planner of Schedule. Houd tijd over voor inleveren en controleren in Canvas.",
+            "Vernieuw Nonlate na wijzigingen in Canvas en controleer de taak opnieuw. Synchronisatie verschilt per aanbieder, abonnement, toestemming en apparaat; onmiddellijke updates zijn niet gegarandeerd."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Bescherm werktijd en onderscheid deadlines van afspraken",
+          "paragraphs": [
+            "Een agenda-afspraak kan je herinneren aan les of een werksessie. Agenda-afspraken activeren de blokkering van Nonlate niet. Bij het openen van een geselecteerde afleidende app controleert de blokkering geschikte onafgeronde taken en het gekozen deadlinevenster. Een opdracht inplannen verandert de deadline niet en start geen tijdslot.",
+            "Bevestig na afloop de inlevering in Canvas en controleer de taakstatus in Nonlate. Iets afvinken in een planner levert je werk niet in en werkt het cursusdossier niet bij. Nonlate controleert kwaliteit of inlevering niet. Andere geschikte onafgeronde taken kunnen de blokkering actief houden; ondersteunde tijdgebonden pauzes blijven mogelijk."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan ik de planner gebruiken zonder Canvas te koppelen?",
+          "answer": "Ja. Nonlate Free bevat handmatige taken en basisblokkering voor maximaal drie afleidende apps. Je kunt werk zelf invoeren en wijzigingen in Canvas controleren."
+        },
+        {
+          "question": "Blijft Canvas-synchronisatie altijd gratis?",
+          "answer": "Externe verbindingen hebben aparte grenzen. De optionele bronproef van 30 dagen begint bij de eerste geslaagde verbinding en staat één bron tegelijk toe. Er worden geen automatische kosten gerekend. Na afloop pauzeert externe synchronisatie; geïmporteerde taken blijven beschikbaar voor lokaal afronden en blokkeren. Verder synchroniseren vereist een passend betaald abonnement."
+        },
+        {
+          "question": "Levert Nonlate mijn opdracht in?",
+          "answer": "Nee. Gebruik Canvas om in te leveren en cursusvereisten te controleren. Nonlate helpt taken organiseren, werk plannen en geselecteerde afleiding onderbreken; afronding is niet gegarandeerd."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Планування завдань Canvas: від термінів до навчального плану",
+      "description": "Упорядкуйте завдання Canvas разом з іншими справами, заплануйте початок і дізнайтеся можливості та обмеження Nonlate для підключених термінів.",
+      "intro": "Термін у Canvas повідомляє, коли здати роботу. Він не виділяє час на читання, чернетку чи виправлення. Корисний план поєднує термін із невеликим наступним кроком і реалістичним робочим сеансом, особливо коли кілька курсів потребують того самого вечора.",
+      "answer": "Уточніть інструкції та свій термін здачі в Canvas. У Nonlate підключіть Canvas підтримуваним для вашого облікового запису способом, перевірте імпортовані завдання й заплануйте роботу поряд з іншими обов’язками. Canvas залишається джерелом вимог курсу та стану здачі.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Спершу перевірте завдання в Canvas",
+          "paragraphs": [
+            "Перед плануванням відкрийте саме завдання. Запишіть інструкції, час здачі та окремий період доступності, якщо є. У Canvas термін здачі та дати доступності мають різне призначення. Перевіряйте термін свого завдання, а не копіюйте дату іншого студента.",
+            "Якщо викладач змінює вимоги, перевірте їх у Canvas. Планувальник дає зручний робочий огляд, але не замінює джерело, коли потрібно уточнити місце здачі чи прийнятність простроченої роботи."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Перетворіть термін на здійсненний план",
+          "paragraphs": [
+            "Nonlate підтримує Canvas як підключене джерело, проте дані й кроки залежать від сервісу, дозволів і версії застосунку. Дотримуйтеся інструкцій Nonlate, не припускаючи однакових налаштувань входу в усіх закладах. Якщо завдання відсутнє, перевірте джерело й з’єднання, перш ніж покладатися на список."
+          ],
+          "steps": [
+            "Підключіть Canvas підтримуваним способом Nonlate і перегляньте завдання. Порівняйте назви та час здачі з Canvas.",
+            "Додайте ручне завдання для роботи, яку відстежуєте окремо, наприклад читання чи підготовки плану. Не дублюйте кожне імпортоване завдання.",
+            "Оберіть конкретний наступний крок і виділіть реалістичний робочий сеанс у Planner або Schedule. Залиште час на здачу й перевірку результату в Canvas.",
+            "Після змін у Canvas оновіть Nonlate і перевірте завдання ще раз. Синхронізація залежить від постачальника, тарифу, дозволів і пристрою; миттєві оновлення не гарантовано."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Захистіть робочий час, розрізняючи терміни та події",
+          "paragraphs": [
+            "Подія календаря може нагадати про заняття чи робочий сеанс. Події календаря не запускають блокування Nonlate. Під час відкриття вибраного відволікального застосунку перевіряються відповідні незавершені завдання й вибране вікно термінів. Саме планування завдання не змінює термін і не запускає блокування за таймером.",
+            "Завершивши, підтвердьте здачу в Canvas і перевірте стан у Nonlate. Позначення виконання в планувальнику не здає роботу й не оновлює запис курсу. Nonlate не перевіряє якість або факт здачі. Інші відповідні незавершені завдання можуть зберігати блокування; підтримувані перерви за таймером залишаються доступними."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Чи можна користуватися планувальником без підключення Canvas?",
+          "answer": "Так. Тариф Free у Nonlate включає ручні завдання й базове блокування до трьох відволікальних застосунків. Ви можете вводити роботу самостійно й перевіряти зміни в Canvas."
+        },
+        {
+          "question": "Синхронізація Canvas безкоштовна назавжди?",
+          "answer": "Зовнішні підключення мають окремі обмеження. Необов’язковий 30-денний пробний період джерел починається з першого успішного підключення й дозволяє одне джерело одночасно. Автоматичного списання немає. Після завершення зовнішня синхронізація призупиняється; імпортовані завдання залишаються для локального виконання й блокування. Продовження синхронізації потребує відповідного платного тарифу."
+        },
+        {
+          "question": "Чи здасть Nonlate моє завдання?",
+          "answer": "Ні. Для здачі й перевірки вимог використовуйте Canvas. Nonlate допомагає впорядковувати завдання, планувати роботу й переривати вибрані відволікання; завершення не гарантується."
+        }
+      ]
+    },
+    "bn": {
+      "title": "Canvas অ্যাসাইনমেন্টের পরিকল্পনা: শেষ তারিখ থেকে পড়ার পরিকল্পনা",
+      "description": "Canvas অ্যাসাইনমেন্ট অন্য কাজের সঙ্গে সাজান, কখন শুরু করবেন ঠিক করুন এবং সংযুক্ত সময়সীমার ক্ষেত্রে Nonlate-এর ক্ষমতা ও সীমা জানুন।",
+      "intro": "Canvas-এর শেষ তারিখ বলে কখন কাজ জমা দিতে হবে। এটি পড়া, খসড়া লেখা বা সংশোধনের সময় রাখে না। কার্যকর পরিকল্পনা শেষ তারিখকে ছোট পরবর্তী পদক্ষেপ ও বাস্তবসম্মত কাজের সেশনের সঙ্গে যুক্ত করে, বিশেষত যখন কয়েকটি কোর্স একই সন্ধ্যা দাবি করে।",
+      "answer": "নির্দেশনা ও নিজের জমার সময়সীমা Canvas-এ নিশ্চিত করুন। Nonlate-এ আপনার অ্যাকাউন্টের সমর্থিত পদ্ধতিতে Canvas সংযুক্ত করুন, আমদানি করা কাজ দেখুন এবং অন্য দায়িত্বের সঙ্গে পরিকল্পনা করুন। কোর্সের শর্ত ও জমার অবস্থার উৎস হিসেবে Canvas রাখুন।",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "প্রথমে Canvas-এ অ্যাসাইনমেন্ট পরীক্ষা করুন",
+          "paragraphs": [
+            "সাজানোর আগে আসল অ্যাসাইনমেন্ট খুলুন। নির্দেশনা, জমার সময় ও আলাদা প্রাপ্যতার সময়কাল থাকলে লিখুন। Canvas-এ শেষ তারিখ এবং কখন কাজটি উন্মুক্ত থাকে তার তারিখের উদ্দেশ্য আলাদা। অন্য শিক্ষার্থীর তারিখ নকল না করে নিজের কাজের সময়সীমা দেখুন।",
+            "শিক্ষক শর্ত বদলালে Canvas-এ যাচাই করুন। পরিকল্পনাকারী কাজের কার্যকর দৃশ্য দেয়, কিন্তু কোথায় জমা দিতে হবে বা দেরিতে গ্রহণ করা হবে কি না, তা নিশ্চিত করার মূল উৎসের বিকল্প নয়।"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "শেষ তারিখকে বাস্তবায়নযোগ্য পরিকল্পনায় আনুন",
+          "paragraphs": [
+            "Nonlate সংযুক্ত উৎস হিসেবে Canvas সমর্থন করে, তবে তথ্য ও সংযোগের ধাপ পরিষেবা, অনুমতি এবং অ্যাপের সংস্করণের ওপর নির্ভর করে। সব প্রতিষ্ঠানের লগইন সেটিং এক মনে না করে Nonlate-এর নির্দেশনা মানুন। কাজ অনুপস্থিত হলে তালিকার ওপর নির্ভর করার আগে উৎস ও সংযোগ দেখুন।"
+          ],
+          "steps": [
+            "Nonlate-এর সমর্থিত সেটআপে Canvas যুক্ত করুন ও দেখা দেওয়া কাজ পর্যালোচনা করুন। নাম ও জমার সময় Canvas-এর সঙ্গে মিলিয়ে নিন।",
+            "আলাদাভাবে অনুসরণ করা কাজ, যেমন পড়া বা রূপরেখা তৈরি, হাতে যোগ করুন। প্রতিটি আমদানি করা অ্যাসাইনমেন্টের নকল করবেন না।",
+            "নির্দিষ্ট পরবর্তী পদক্ষেপ বেছে Planner বা Schedule-এ বাস্তবসম্মত সেশন রাখুন। Canvas-এ জমা ও ফল যাচাইয়ের সময় রাখুন।",
+            "Canvas-এ পরিবর্তনের পর Nonlate রিফ্রেশ করে কাজ আবার দেখুন। সিঙ্কের সময় প্রদানকারী, প্ল্যান, অনুমতি ও ডিভাইসের ওপর নির্ভর করে; তাৎক্ষণিক আপডেট নিশ্চিত নয়।"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "শেষ তারিখ ও ঘটনা আলাদা রেখে কাজের সময় রক্ষা করুন",
+          "paragraphs": [
+            "ক্যালেন্ডারের ঘটনা ক্লাস বা কাজের সেশন মনে করাতে পারে। ক্যালেন্ডারের ঘটনা Nonlate ব্লক চালু করে না। নির্বাচিত মনোযোগ নষ্টকারী অ্যাপ খুললে ব্লক ব্যবস্থা যোগ্য অসমাপ্ত কাজ ও নির্বাচিত সময়সীমার পরিসর যাচাই করে। শুধু অ্যাসাইনমেন্টের সময়সূচি করলে শেষ তারিখ বদলায় না বা সময়বদ্ধ লক চালু হয় না।",
+            "শেষ হলে Canvas-এ জমা নিশ্চিত এবং Nonlate-এ কাজের অবস্থা দেখুন। পরিকল্পনাকারীতে সম্পন্ন চিহ্ন দিলে কাজ জমা বা কোর্সের রেকর্ড আপডেট হয় না। Nonlate মান বা জমা যাচাই করে না। অন্য যোগ্য অসমাপ্ত কাজ ব্লক চালু রাখতে পারে; সমর্থিত সময়বদ্ধ বিরতি পাওয়া যায়।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas না জুড়েও পরিকল্পনাকারী ব্যবহার করা যায়?",
+          "answer": "হ্যাঁ। Nonlate-এর Free প্ল্যানে হাতে যোগ করা কাজ ও সর্বোচ্চ তিনটি মনোযোগ নষ্টকারী অ্যাপের মৌলিক ব্লক আছে। নিজে কাজ লিখে পরিবর্তন Canvas-এ দেখতে পারেন।"
+        },
+        {
+          "question": "Canvas সিঙ্ক কি চিরকাল বিনামূল্যে?",
+          "answer": "বাইরের সংযোগের আলাদা সীমা আছে। ঐচ্ছিক 30 দিনের উৎস ট্রায়াল প্রথম সফল সংযোগে শুরু হয় এবং একবারে একটি উৎস দেয়। স্বয়ংক্রিয় চার্জ নেই। মেয়াদ শেষে বাইরের সিঙ্ক থামে; আমদানি করা কাজ স্থানীয়ভাবে সম্পন্ন করা ও ব্লকের জন্য থাকে। সিঙ্ক চালাতে উপযুক্ত অর্থপ্রদত্ত প্ল্যান লাগে।"
+        },
+        {
+          "question": "Nonlate কি আমার অ্যাসাইনমেন্ট জমা দেবে?",
+          "answer": "না। জমা ও কোর্সের শর্ত যাচাইয়ে Canvas ব্যবহার করুন। Nonlate কাজ সাজানো, পরিকল্পনা ও নির্বাচিত মনোযোগের ব্যাঘাত থামাতে সাহায্য করে; শেষ করার নিশ্চয়তা দেয় না।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "Canvas اسائنمنٹ کی منصوبہ بندی: آخری تاریخوں سے مطالعے کا منصوبہ بنائیں",
+      "description": "Canvas اسائنمنٹس کو دوسرے کاموں کے ساتھ ترتیب دیں، شروع کرنے کا وقت طے کریں اور منسلک آخری تاریخوں کے لیے Nonlate کی صلاحیتیں اور حدود سمجھیں۔",
+      "intro": "Canvas کی آخری تاریخ بتاتی ہے کہ کام کب جمع کرانا ہے۔ یہ پڑھنے، مسودہ لکھنے یا نظرثانی کا وقت محفوظ نہیں کرتی۔ مفید منصوبہ آخری تاریخ کو چھوٹے اگلے قدم اور حقیقت پسندانہ کام کے دورانیے سے جوڑتا ہے، خصوصاً جب کئی مضامین کو ایک ہی شام درکار ہو۔",
+      "answer": "اسائنمنٹ کی ہدایات اور اپنی جمع کرانے کی تاریخ Canvas میں تصدیق کریں۔ Nonlate میں اپنے اکاؤنٹ کے معاون طریقے سے Canvas جوڑیں، درآمد شدہ کام دیکھیں اور دوسری ذمہ داریوں کے ساتھ منصوبہ بنائیں۔ کورس کی ضروریات اور جمع کرانے کی حیثیت کے لیے Canvas کو حوالہ رکھیں۔",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "پہلے Canvas میں اسائنمنٹ دیکھیں",
+          "paragraphs": [
+            "ترتیب دینے سے پہلے اصل اسائنمنٹ کھولیں۔ ہدایات، جمع کرانے کا وقت اور دستیابی کا الگ دورانیہ ہو تو نوٹ کریں۔ Canvas میں آخری تاریخ اور دستیابی کی تاریخوں کے مقاصد مختلف ہیں۔ دوسرے طالب علم کی تاریخ نقل کرنے کی بجائے اپنی اسائنمنٹ کی تاریخ دیکھیں۔",
+            "اگر استاد ضروریات بدلیں تو Canvas میں تصدیق کریں۔ منصوبہ ساز مفید عملی منظر دیتا ہے، لیکن کہاں جمع کرانا ہے یا دیر سے قبول ہوگا یا نہیں، یہ جاننے کے لیے اصل ماخذ کا متبادل نہیں۔"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "آخری تاریخ کو قابل عمل منصوبے میں بدلیں",
+          "paragraphs": [
+            "Nonlate، Canvas کو منسلک ماخذ کے طور پر معاونت دیتا ہے، مگر معلومات اور اتصال کے مراحل خدمت، اجازتوں اور ایپ ورژن پر منحصر ہیں۔ سب اداروں کی یکساں سائن ان ترتیبات فرض کرنے کے بجائے Nonlate کی ہدایات اپنائیں۔ کام غائب ہو تو فہرست پر بھروسا کرنے سے پہلے ماخذ اور اتصال دیکھیں۔"
+          ],
+          "steps": [
+            "Nonlate کے معاون طریقے سے Canvas جوڑیں اور ظاہر ہونے والے کام دیکھیں۔ نام اور آخری اوقات Canvas سے ملائیں۔",
+            "الگ نگرانی والے کام، جیسے پڑھنا یا خاکہ تیار کرنا، کے لیے دستی کام شامل کریں۔ ہر درآمد شدہ اسائنمنٹ کی نقل بنانے سے بچیں۔",
+            "واضح اگلا قدم منتخب کریں اور Planner یا Schedule میں حقیقت پسندانہ کام کا دورانیہ رکھیں۔ Canvas میں جمع کرانے اور نتیجہ دیکھنے کا وقت چھوڑیں۔",
+            "Canvas میں تبدیلی کے بعد Nonlate تازہ کریں اور کام دوبارہ دیکھیں۔ ہم وقت سازی فراہم کنندہ، منصوبے، اجازتوں اور آلے کے مطابق بدلتی ہے؛ فوری تازہ کاری کی ضمانت نہیں۔"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "کام کا وقت محفوظ رکھیں، آخری تاریخ اور تقریبات کو الگ سمجھیں",
+          "paragraphs": [
+            "کیلنڈر کی تقریب کلاس یا کام کی نشست یاد دلا سکتی ہے۔ کیلنڈر کی تقریبات Nonlate کی بندش نہیں چلاتیں۔ منتخب توجہ بٹانے والی ایپ کھلنے پر بندش موزوں نامکمل کام اور آخری تاریخ کا منتخب دائرہ دیکھتی ہے۔ صرف اسائنمنٹ کا شیڈول بنانا تاریخ نہیں بدلتا اور وقت مقررہ تالا نہیں چلاتا۔",
+            "مکمل ہونے کے بعد Canvas میں جمع ہونے کی تصدیق اور Nonlate میں کام کی حیثیت دیکھیں۔ منصوبہ ساز میں مکمل کا نشان کام جمع نہیں کراتا اور نہ کورس ریکارڈ بدلتا ہے۔ Nonlate معیار یا جمع کرانے کی تصدیق نہیں کرتا۔ دوسرے موزوں نامکمل کام بندش جاری رکھ سکتے ہیں؛ معاون مقررہ دورانیے کے وقفے دستیاب رہتے ہیں۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "کیا Canvas جوڑے بغیر منصوبہ ساز استعمال کر سکتا ہوں؟",
+          "answer": "ہاں۔ Nonlate کے Free منصوبے میں دستی کام اور زیادہ سے زیادہ تین توجہ بٹانے والی ایپس کی بنیادی بندش شامل ہے۔ آپ کام خود درج اور تبدیلیاں Canvas میں دیکھ سکتے ہیں۔"
+        },
+        {
+          "question": "کیا Canvas کی ہم وقت سازی ہمیشہ مفت ہے؟",
+          "answer": "بیرونی روابط کی الگ حدود ہیں۔ اختیاری 30 روزہ ماخذ آزمائش پہلے کامیاب اتصال سے شروع ہوتی ہے اور ایک وقت میں ایک ماخذ کی اجازت دیتی ہے۔ خودکار چارج نہیں ہوتا۔ اختتام پر بیرونی ہم وقت سازی رک جاتی ہے؛ درآمد شدہ کام مقامی تکمیل اور بندش کے لیے رہتے ہیں۔ ہم وقت سازی جاری رکھنے کے لیے مناسب ادائیگی والا منصوبہ چاہیے۔"
+        },
+        {
+          "question": "کیا Nonlate میری اسائنمنٹ جمع کرائے گا؟",
+          "answer": "نہیں۔ کام جمع کرانے اور کورس کی ضروریات دیکھنے کے لیے Canvas استعمال کریں۔ Nonlate کام ترتیب دینے، منصوبہ بنانے اور منتخب توجہ بٹانے والے عوامل روکنے میں مدد دیتا ہے؛ تکمیل کی ضمانت نہیں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "Canvas பணிகளைத் திட்டமிடுதல்: காலக்கெடுவை படிப்புத் திட்டமாக மாற்றுங்கள்",
+      "description": "Canvas பணிகளை மற்ற வேலைகளுடன் ஒழுங்குபடுத்தி, தொடங்கும் நேரத்தைத் திட்டமிட்டு, இணைக்கப்பட்ட காலக்கெடுக்களில் Nonlate-இன் திறன்களையும் வரம்புகளையும் அறியுங்கள்.",
+      "intro": "Canvas காலக்கெடு வேலையை எப்போது சமர்ப்பிக்க வேண்டும் என்று சொல்கிறது. வாசிக்க, வரைவு எழுத அல்லது திருத்த நேரம் ஒதுக்காது. பயனுள்ள திட்டம் காலக்கெடுவை சிறிய அடுத்த நடவடிக்கையுடனும் நடைமுறையான வேலை அமர்வுடனும் இணைக்கிறது; பல பாடங்களுக்கு ஒரே மாலை தேவைப்படும்போது இது முக்கியம்.",
+      "answer": "பணி வழிமுறைகளையும் உங்கள் சமர்ப்பிப்புக் காலக்கெடுவையும் Canvas-இல் உறுதிசெய்யுங்கள். Nonlate-இல் கணக்கிற்கு ஆதரிக்கப்படும் முறையில் Canvas-ஐ இணைத்து, இறக்குமதி பணிகளைச் சரிபார்த்து மற்ற பொறுப்புகளுடன் திட்டமிடுங்கள். பாடத் தேவைகளுக்கும் சமர்ப்பிப்பு நிலைக்கும் Canvas-ஐ ஆதாரமாக வைத்திருங்கள்.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "முதலில் Canvas-இல் பணியைச் சரிபாருங்கள்",
+          "paragraphs": [
+            "ஒழுங்குபடுத்தும் முன் உண்மையான பணியைத் திறக்கவும். வழிமுறைகள், சமர்ப்பிக்கும் நேரம் மற்றும் தனியான அணுகல் காலம் இருந்தால் குறிக்கவும். Canvas-இல் காலக்கெடுவும் பணி கிடைக்கும் தேதிகளும் வெவ்வேறு நோக்கங்களைக் கொண்டவை. மற்ற மாணவரின் தேதியை நகலெடுக்காமல் உங்கள் பணியின் காலக்கெடுவைப் பார்க்கவும்.",
+            "ஆசிரியர் தேவைகளை மாற்றினால் Canvas-இல் சரிபாருங்கள். திட்டமிடும் கருவி பயனுள்ள வேலைப் பார்வையைத் தருகிறது; ஆனால் எங்கே சமர்ப்பிப்பது அல்லது தாமதமாக ஏற்கப்படுமா என்பதற்கு மூல ஆதாரத்தை மாற்றாது."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "காலக்கெடுவை நடைமுறைத் திட்டமாக மாற்றுங்கள்",
+          "paragraphs": [
+            "Nonlate இணைக்கப்பட்ட ஆதாரமாக Canvas-ஐ ஆதரிக்கிறது; ஆனால் தரவும் இணைப்பு படிகளும் சேவை, அனுமதிகள், செயலி பதிப்பைப் பொறுத்தவை. எல்லா கல்வி நிறுவனங்களுக்கும் ஒரே உள்நுழைவு அமைப்பு என்று கருதாமல் Nonlate வழிமுறைகளைப் பின்பற்றுங்கள். பணி இல்லாவிட்டால் பட்டியலை நம்பும் முன் ஆதாரத்தையும் இணைப்பையும் சரிபாருங்கள்."
+          ],
+          "steps": [
+            "Nonlate ஆதரிக்கும் அமைப்பில் Canvas-ஐ இணைத்து தோன்றும் பணிகளைப் பாருங்கள். பெயர்களையும் சமர்ப்பிக்கும் நேரங்களையும் Canvas உடன் ஒப்பிடுங்கள்.",
+            "வாசித்தல் அல்லது குறிப்புவரைவு தயாரித்தல் போன்ற தனியே கண்காணிக்க வேண்டிய வேலைக்கு கைமுறைப் பணி சேர்க்கவும். ஒவ்வொரு இறக்குமதி பணியையும் நகலாக்க வேண்டாம்.",
+            "குறிப்பிட்ட அடுத்த நடவடிக்கையைத் தேர்ந்து Planner அல்லது Schedule-இல் நடைமுறையான வேலை அமர்வை ஒதுக்குங்கள். Canvas-இல் சமர்ப்பித்து முடிவைச் சரிபார்க்க நேரம் விடுங்கள்.",
+            "Canvas மாற்றங்களுக்குப் பிறகு Nonlate-ஐ புதுப்பித்து பணியை மீண்டும் பார்க்கவும். ஒத்திசைவு நேரம் வழங்குநர், திட்டம், அனுமதிகள், சாதனத்தைப் பொறுத்தது; உடனடி புதுப்பிப்புக்கு உத்தரவாதமில்லை."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "காலக்கெடுவையும் நிகழ்வுகளையும் வேறுபடுத்தி வேலை நேரத்தைக் காப்பாற்றுங்கள்",
+          "paragraphs": [
+            "நாள்காட்டி நிகழ்வு வகுப்பு அல்லது வேலை அமர்வை நினைவூட்டலாம். நாள்காட்டி நிகழ்வுகள் Nonlate தடுப்பைத் தூண்டாது. தேர்ந்தெடுத்த கவனச்சிதறல் செயலியைத் திறக்கும்போது தகுதியான முடிக்காத பணிகளையும் தேர்ந்தெடுத்த காலக்கெடு வரம்பையும் தடுப்பு சரிபார்க்கும். பணியை நேரமிடுவது மட்டும் காலக்கெடுவை மாற்றாது அல்லது நேரப் பூட்டை இயக்காது.",
+            "முடித்ததும் Canvas-இல் சமர்ப்பிப்பை உறுதிசெய்து Nonlate-இல் பணி நிலையைப் பாருங்கள். திட்டமிடும் கருவியில் முடிந்ததாகக் குறிப்பது வேலையைச் சமர்ப்பிக்காது அல்லது பாடப் பதிவை மாற்றாது. Nonlate பணி தரத்தையோ சமர்ப்பிப்பையோ சரிபார்க்காது. மற்ற தகுதியான முடிக்காத பணிகள் தடுப்பைத் தொடரச் செய்யலாம்; ஆதரிக்கப்படும் நேரமிட்ட இடைவெளிகள் தொடர்ந்து கிடைக்கும்."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas இணைக்காமல் திட்டமிடும் கருவியைப் பயன்படுத்தலாமா?",
+          "answer": "ஆம். Nonlate Free திட்டத்தில் கைமுறைப் பணிகளும் அதிகபட்சம் மூன்று கவனச்சிதறல் செயலிகளுக்கான அடிப்படைத் தடுப்பும் உள்ளன. வேலையை நீங்களே சேர்த்து மாற்றங்களை Canvas-இல் பார்க்கலாம்."
+        },
+        {
+          "question": "Canvas ஒத்திசைவு எப்போதும் இலவசமா?",
+          "answer": "வெளிப்புற இணைப்புகளுக்கு தனி வரம்புகள் உள்ளன. விருப்பமான 30 நாள் ஆதாரச் சோதனை முதல் வெற்றிகரமான இணைப்பில் தொடங்கி ஒரே நேரத்தில் ஒரு ஆதாரத்தை அனுமதிக்கிறது. தானியங்கிக் கட்டணம் இல்லை. காலம் முடிந்தால் வெளிப்புற ஒத்திசைவு இடைநிறுத்தப்படும்; இறக்குமதி பணிகள் உள்ளூரில் முடிக்கவும் தடுப்புக்கும் கிடைக்கும். தொடர்ந்து ஒத்திசைக்க உரிய கட்டணத் திட்டம் தேவை."
+        },
+        {
+          "question": "Nonlate என் பணியைச் சமர்ப்பிக்குமா?",
+          "answer": "இல்லை. சமர்ப்பிக்கவும் பாடத் தேவைகளைச் சரிபார்க்கவும் Canvas பயன்படுத்துங்கள். Nonlate பணிகளை ஒழுங்குபடுத்தவும் திட்டமிடவும் தேர்ந்தெடுத்த கவனச்சிதறல்களை நிறுத்தவும் உதவுகிறது; முடிப்பதை உறுதிசெய்யாது."
+        }
+      ]
+    },
+    "te": {
+      "title": "Canvas అసైన్‌మెంట్ ప్రణాళిక: గడువులను చదువు ప్రణాళికగా మార్చండి",
+      "description": "Canvas అసైన్‌మెంట్‌లను ఇతర పనులతో అమర్చండి, ఎప్పుడు ప్రారంభించాలో నిర్ణయించండి, అనుసంధాన గడువుల విషయంలో Nonlate సామర్థ్యాలు, పరిమితులు తెలుసుకోండి.",
+      "intro": "Canvas గడువు పనిని ఎప్పుడు సమర్పించాలో చెబుతుంది. అది చదవడం, చిత్తుప్రతి లేదా సవరణకు సమయం కేటాయించదు. ఉపయోగకరమైన ప్రణాళిక గడువును చిన్న తదుపరి చర్యతో, వాస్తవిక పని సెషన్‌తో కలుపుతుంది; పలు కోర్సులకు ఒకే సాయంత్రం అవసరమైనప్పుడు ఇది ముఖ్యం.",
+      "answer": "అసైన్‌మెంట్ సూచనలు, మీ సమర్పణ గడువును Canvasలో నిర్ధారించండి. Nonlateలో మీ ఖాతాకు మద్దతున్న విధానంతో Canvas కలిపి, దిగుమతి పనులను తనిఖీ చేసి ఇతర బాధ్యతలతో ప్రణాళిక చేయండి. కోర్సు అవసరాలు, సమర్పణ స్థితికి Canvasనే ఆధారంగా ఉంచండి.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ముందుగా Canvasలో అసైన్‌మెంట్ తనిఖీ చేయండి",
+          "paragraphs": [
+            "అమర్చే ముందు అసలు అసైన్‌మెంట్ తెరవండి. సూచనలు, సమర్పణ సమయం, విడి అందుబాటు వ్యవధి ఉంటే రాయండి. Canvasలో గడువు, ప‌ని అందుబాటు తేదీల ప్రయోజనాలు వేరు. మరో విద్యార్థి తేదీని కాపీ చేయకుండా మీ పని గడువు తనిఖీ చేయండి.",
+            "అధ్యాపకుడు అవసరాలు మార్చితే Canvasలో ధృవీకరించండి. ప్రణాళిక సాధనం ఉపయోగకరమైన పని దృశ్యం ఇస్తుంది, కానీ ఎక్కడ సమర్పించాలి లేదా ఆలస్య సమర్పణ ఆమోదమా అనే నిర్ధారణకు మూలాన్ని భర్తీ చేయదు."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "గడువును అమలు చేయగల ప్రణాళికగా మార్చండి",
+          "paragraphs": [
+            "Nonlate అనుసంధాన మూలంగా Canvasకు మద్దతిస్తుంది; అయితే డేటా, అనుసంధాన దశలు సేవ, అనుమతులు, యాప్ వెర్షన్‌పై ఆధారపడతాయి. అన్ని సంస్థల లాగిన్ సెట్టింగ్‌లు ఒకటే అనుకోకుండా Nonlate సూచనలు పాటించండి. పని లేకుంటే జాబితాపై ఆధారపడే ముందు మూలం, కనెక్షన్ తనిఖీ చేయండి."
+          ],
+          "steps": [
+            "Nonlate మద్దతున్న సెటప్‌తో Canvasను కలిపి కనిపించే పనులు చూడండి. పేర్లు, సమర్పణ సమయాలను Canvasతో పోల్చండి.",
+            "చదవడం లేదా రూపురేఖ తయారీ వంటి విడిగా గమనించాల్సిన పనికి మాన్యువల్ పని జోడించండి. ప్రతి దిగుమతి అసైన్‌మెంట్‌ను నకలు చేయవద్దు.",
+            "నిర్దిష్ట తదుపరి చర్య ఎంచుకొని Planner లేదా Scheduleలో వాస్తవిక పని సెషన్ కేటాయించండి. Canvasలో సమర్పణ, ఫలితం తనిఖీకి సమయం ఉంచండి.",
+            "Canvasలో మార్పుల తర్వాత Nonlate రిఫ్రెష్ చేసి పనిని మళ్లీ చూడండి. సింక్ సమయం ప్రొవైడర్, ప్లాన్, అనుమతులు, పరికరంపై ఆధారపడుతుంది; తక్షణ నవీకరణకు హామీ లేదు."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "గడువులు, ఈవెంట్‌లు వేరు ఉంచి పని సమయం కాపాడండి",
+          "paragraphs": [
+            "క్యాలెండర్ ఈవెంట్ తరగతి లేదా పని సెషన్ గుర్తుచేయవచ్చు. క్యాలెండర్ ఈవెంట్‌లు Nonlate నిరోధాన్ని ప్రారంభించవు. ఎంచుకున్న దృష్టి మళ్లించే యాప్ తెరిచినప్పుడు అర్హమైన అసంపూర్ణ పనులు, ఎంచుకున్న గడువు పరిధిని నిరోధం పరిశీలిస్తుంది. అసైన్‌మెంట్ షెడ్యూల్ మాత్రమే చేయడం గడువు మార్చదు లేదా సమయబద్ధ లాక్ ప్రారంభించదు.",
+            "పూర్తయ్యాక Canvasలో సమర్పణ నిర్ధారించి Nonlateలో పని స్థితి చూడండి. ప్రణాళికలో పూర్తిగా గుర్తించడం పనిని సమర్పించదు లేదా కోర్సు రికార్డు నవీకరించదు. Nonlate నాణ్యత లేదా సమర్పణ ధృవీకరించదు. ఇతర అర్హమైన అసంపూర్ణ పనులు నిరోధాన్ని కొనసాగించవచ్చు; మద్దతున్న సమయబద్ధ విరామాలు అందుబాటులో ఉంటాయి."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas కలపకుండా ప్రణాళిక సాధనం వాడవచ్చా?",
+          "answer": "అవును. Nonlate Free ప్లాన్‌లో మాన్యువల్ పనులు, గరిష్ఠంగా మూడు దృష్టి మళ్లించే యాప్‌ల ప్రాథమిక నిరోధం ఉన్నాయి. పని మీరే నమోదు చేసి మార్పులు Canvasలో చూడవచ్చు."
+        },
+        {
+          "question": "Canvas సింక్ ఎప్పటికీ ఉచితమా?",
+          "answer": "బాహ్య కనెక్షన్‌లకు వేరు పరిమితులు ఉన్నాయి. ఐచ్ఛిక 30 రోజుల మూల ట్రయల్ తొలి విజయవంతమైన కనెక్షన్‌తో మొదలై ఒకేసారి ఒక మూలాన్ని అనుమతిస్తుంది. ఆటోమేటిక్ ఛార్జ్ లేదు. గడువు ముగిస్తే బాహ్య సింక్ ఆగుతుంది; దిగుమతి పనులు స్థానిక పూర్తి, నిరోధానికి ఉంటాయి. సింక్ కొనసాగించడానికి సరైన చెల్లింపు ప్లాన్ అవసరం."
+        },
+        {
+          "question": "Nonlate నా అసైన్‌మెంట్ సమర్పిస్తుందా?",
+          "answer": "లేదు. సమర్పణ, కోర్సు అవసరాల తనిఖీకి Canvas వాడండి. Nonlate పనులు అమర్చడం, ప్రణాళిక, ఎంచుకున్న అంతరాయాలు ఆపడంలో సహాయపడుతుంది; పూర్తికి హామీ ఇవ్వదు."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "Canvas 作業規劃：把截止日期變成讀書計畫",
+      "description": "將 Canvas 作業與其他任務一起整理，安排開始時間，並了解 Nonlate 處理已連接來源截止日期的功能與限制。",
+      "intro": "Canvas 截止日期告訴你何時必須繳交作業，卻不會為閱讀、起草或修改保留時間。實用的作業計畫會將截止日期連結到一個小的下一步行動及可行的讀書時段，尤其當多門課程爭用同一個晚上時。",
+      "answer": "先在 Canvas 確認作業說明和自己的繳交期限。在 Nonlate 中，依帳戶支援的設定方式連接 Canvas，核對匯入的任務，再與其他行程一起規劃。課程要求和繳交狀態仍應以 Canvas 為準。",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "先檢查 Canvas 中的作業",
+          "paragraphs": [
+            "整理之前先開啟實際作業。記下說明、繳交時間，以及可能另設的開放期間。在 Canvas 中，截止日期與作業開放日期用途不同。請核對自己作業顯示的期限，不要照抄其他同學的日期。",
+            "若教師變更要求，請到 Canvas 確認。規劃工具提供方便的工作檢視，但要確認繳交位置或是否接受遲交時，不能取代原始來源。"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "將截止日期轉為可執行的計畫",
+          "paragraphs": [
+            "Nonlate 支援將 Canvas 作為連接來源，但可用資料與連接步驟取決於服務、權限和應用程式版本。請遵循 Nonlate 顯示的說明，不要假設每所學校的登入設定都相同。若缺少任務，在依賴清單前先檢查來源與連線。"
+          ],
+          "steps": [
+            "使用 Nonlate 支援的方式連接 Canvas，查看出現的任務，並與 Canvas 核對名稱和截止時間。",
+            "為需要獨立追蹤的工作新增手動任務，例如閱讀或準備大綱。不要替每項匯入作業建立重複任務。",
+            "選擇具體的下一步行動，在 Planner 或 Schedule 安排可行的工作時段。保留在 Canvas 繳交並檢查結果的時間。",
+            "Canvas 內容變更後，重新整理 Nonlate 並再次核對任務。同步時間因供應商、方案、權限和裝置而異，不保證即時更新。"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "保護工作時間，區分截止日期與行事曆活動",
+          "paragraphs": [
+            "行事曆活動可以提醒上課或工作時段。行事曆活動不會觸發 Nonlate 封鎖。開啟選定的干擾應用程式時，封鎖功能會檢查符合條件的未完成任務，以及選定的到期時間範圍。僅安排作業不會變更截止日期，也不會啟動計時鎖定。",
+            "完成後，在 Canvas 確認繳交，並在 Nonlate 查看任務狀態。在規劃工具標記完成，不代表已繳交作業或更新課程紀錄。Nonlate 不驗證作業品質或繳交情況。其他符合條件的未完成任務仍可能維持封鎖，支援的計時休息仍可使用。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "不連接 Canvas 也能使用規劃功能嗎？",
+          "answer": "可以。Nonlate 的 Free 方案包含手動任務與最多三個干擾應用程式的基本封鎖。你可以自行輸入工作，並在 Canvas 查看變更。"
+        },
+        {
+          "question": "Canvas 同步會永久免費嗎？",
+          "answer": "外部連線有個別限制。選用的 30 天來源試用從首次成功連接開始，一次允許一個來源，不會自動收費。到期後外部同步暫停；匯入任務仍可供本機完成與封鎖使用。繼續同步需要適用的付費方案。"
+        },
+        {
+          "question": "Nonlate 會替我繳交作業嗎？",
+          "answer": "不會。請使用 Canvas 繳交作業並核對課程要求。Nonlate 協助整理任務、規劃工作及中斷選定的干擾，但不保證完成。"
+        }
+      ]
+    },
+    "he": {
+      "title": "תכנון מטלות Canvas: ממועדי הגשה לתוכנית לימודים",
+      "description": "ארגנו מטלות Canvas לצד משימות אחרות, תכננו מתי להתחיל והבינו את האפשרויות והמגבלות של Nonlate לגבי מועדים ממקורות מחוברים.",
+      "intro": "מועד ב-Canvas אומר מתי צריך להגיש את העבודה. הוא אינו מקצה זמן לקריאה, כתיבת טיוטה או תיקונים. תוכנית שימושית מחברת את המועד לצעד קטן הבא ולזמן עבודה מציאותי, במיוחד כשכמה קורסים מתחרים על אותו ערב.",
+      "answer": "אמתו את ההנחיות ואת מועד ההגשה שלכם ב-Canvas. ב-Nonlate חברו את Canvas באמצעות ההגדרה הנתמכת בחשבונכם, בדקו משימות שיובאו ותכננו עבודה לצד התחייבויות אחרות. השאירו את Canvas כמקור לדרישות הקורס ולמצב ההגשה.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "בדקו תחילה את המטלה ב-Canvas",
+          "paragraphs": [
+            "פתחו את המטלה עצמה לפני ארגונה. רשמו הנחיות, שעת הגשה ותקופת זמינות נפרדת אם קיימת. ב-Canvas מועד ההגשה ותאריכי הזמינות ממלאים תפקידים שונים. בדקו את המועד המוצג למטלה שלכם במקום להעתיק תאריך של סטודנט אחר.",
+            "אם המרצה משנה את הדרישות, אמתו אותן ב-Canvas. המתכנן מציע תצוגת עבודה שימושית, אך אינו מחליף את המקור כשצריך לאשר היכן מגישים או אם הגשה מאוחרת מתקבלת."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "הפכו את המועד לתוכנית מעשית",
+          "paragraphs": [
+            "Nonlate תומך ב-Canvas כמקור מחובר, אך הנתונים ושלבי החיבור תלויים בשירות, בהרשאות ובגרסת היישום. פעלו לפי הוראות Nonlate בלי להניח שהגדרות הכניסה זהות בכל מוסד. אם משימה חסרה, בדקו את המקור והחיבור לפני הסתמכות על הרשימה."
+          ],
+          "steps": [
+            "חברו את Canvas דרך הגדרת Nonlate הנתמכת ובדקו את המשימות שמופיעות. השוו שמות ושעות הגשה מול Canvas.",
+            "הוסיפו משימה ידנית לעבודה שצריך לעקוב אחריה בנפרד, כמו קריאה או הכנת מתווה. הימנעו משכפול כל מטלה מיובאת.",
+            "בחרו צעד הבא מסוים והקצו זמן עבודה מציאותי ב-Planner או Schedule. השאירו זמן להגשה ולבדיקת התוצאה ב-Canvas.",
+            "אחרי שינויים ב-Canvas רעננו את Nonlate ובדקו שוב את המשימה. הסנכרון משתנה לפי הספק, המסלול, ההרשאות והמכשיר; עדכונים מיידיים אינם מובטחים."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "הגנו על זמן העבודה והבחינו בין מועדים לאירועים",
+          "paragraphs": [
+            "אירוע ביומן עשוי להזכיר שיעור או זמן עבודה. אירועי יומן אינם מפעילים חסימה ב-Nonlate. בפתיחת יישום מסיח שנבחר, החסימה בודקת משימות לא גמורות מתאימות ואת חלון המועדים שנבחר. עצם תזמון המטלה אינו משנה את מועדה ואינו מפעיל נעילה מתוזמנת.",
+            "בסיום אמתו את ההגשה ב-Canvas ובדקו את מצב המשימה ב-Nonlate. סימון השלמה במתכנן אינו מגיש את העבודה ואינו מעדכן את רישומי הקורס. Nonlate אינו מאמת את איכות המטלה או את הגשתה. משימות מתאימות אחרות שלא הושלמו עשויות להשאיר את החסימה פעילה; הפסקות מתוזמנות נתמכות נשארות זמינות."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "אפשר להשתמש במתכנן בלי לחבר את Canvas?",
+          "answer": "כן. מסלול Free של Nonlate כולל משימות ידניות וחסימה בסיסית של עד שלושה יישומים מסיחים. אפשר להזין עבודה בעצמכם ולבדוק שינויים ב-Canvas."
+        },
+        {
+          "question": "האם סנכרון Canvas חינם לתמיד?",
+          "answer": "לחיבורים חיצוניים יש מגבלות נפרדות. ניסיון המקורות האופציונלי ל-30 יום מתחיל בחיבור המוצלח הראשון ומאפשר מקור אחד בכל פעם. אין חיוב אוטומטי. עם סיומו הסנכרון החיצוני מושהה; משימות שיובאו נשארות זמינות להשלמה מקומית ולחסימה. המשך סנכרון מחייב מסלול בתשלום מתאים."
+        },
+        {
+          "question": "האם Nonlate יגיש את המטלה שלי?",
+          "answer": "לא. השתמשו ב-Canvas להגשה ולבדיקת דרישות הקורס. Nonlate עוזר בארגון, בתכנון עבודה ובקטיעת הסחות שנבחרו; הוא אינו מבטיח השלמה."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Tagaplano ng takdang-aralin sa Canvas: gawing plano sa pag-aaral ang mga deadline",
+      "description": "Ayusin ang mga takdang-aralin sa Canvas kasama ng ibang gawain, planuhin kung kailan magsisimula, at alamin ang kaya at hindi kaya ng Nonlate sa mga nakakonektang deadline.",
+      "intro": "Sinasabi ng deadline sa Canvas kung kailan dapat ipasa ang trabaho. Hindi ito naglalaan ng oras para magbasa, gumawa ng burador o magrebisa. Inuugnay ng kapaki-pakinabang na plano ang deadline sa maliit na susunod na hakbang at makatotohanang sesyon, lalo na kapag maraming asignatura ang nangangailangan ng parehong gabi.",
+      "answer": "Gamitin ang Canvas para tiyakin ang tagubilin at sarili mong deadline. Sa Nonlate, ikonekta ang Canvas gamit ang suportadong pag-setup para sa account mo, suriin ang na-import na gawain at planuhin ang trabaho kasama ng ibang obligasyon. Panatilihing sanggunian ang Canvas para sa kinakailangan sa kurso at katayuan ng pagpasa.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Suriin muna ang takdang-aralin sa Canvas",
+          "paragraphs": [
+            "Buksan ang mismong takdang-aralin bago ayusin ito. Itala ang tagubilin, oras ng pagpasa at anumang hiwalay na panahon ng availability. Magkaiba ang layunin ng deadline at mga petsa kung kailan bukas ang gawain sa Canvas. Tingnan ang deadline ng sarili mong takdang-aralin sa halip na kopyahin ang petsa ng ibang mag-aaral.",
+            "Kung baguhin ng guro ang mga kinakailangan, tiyakin ang mga ito sa Canvas. Kapaki-pakinabang na tanaw sa trabaho ang tagaplano, ngunit hindi nito pinapalitan ang pinagmulan kapag kailangang tiyakin kung saan magpapasa o kung tinatanggap ang huling pagpasa."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Gawing maisasagawang plano ang deadline",
+          "paragraphs": [
+            "Sinusuportahan ng Nonlate ang Canvas bilang nakakonektang pinagmulan, ngunit nakadepende sa serbisyo, pahintulot at bersyon ng app ang datos at mga hakbang. Sundin ang tagubilin ng Nonlate; huwag ipagpalagay na pare-pareho ang pag-sign in ng bawat paaralan. Kung may nawawalang gawain, suriin ang pinagmulan at koneksyon bago umasa sa listahan."
+          ],
+          "steps": [
+            "Ikonekta ang Canvas sa suportadong Nonlate setup at suriin ang lumabas na gawain. Ihambing ang mga pangalan at oras ng pagpasa sa Canvas.",
+            "Magdagdag ng manwal na gawain para sa trabahong hiwalay na sinusubaybayan, tulad ng pagbabasa o paghahanda ng balangkas. Iwasang doblehin ang bawat na-import na takdang-aralin.",
+            "Pumili ng tiyak na susunod na hakbang at maglaan ng makatotohanang sesyon sa Planner o Schedule. Magtira ng oras para magpasa at suriin ang resulta sa Canvas.",
+            "Pagkatapos ng pagbabago sa Canvas, i-refresh ang Nonlate at suriin muli ang gawain. Nag-iiba ang oras ng pag-sync ayon sa provider, plano, pahintulot at device; hindi garantisadong agad ang mga update."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Protektahan ang oras ng trabaho nang hindi ipinagkakamali ang deadline at event",
+          "paragraphs": [
+            "Maaaring magpaalala ng klase o sesyon ang event sa kalendaryo. Hindi nagpapagana ng pag-block ng Nonlate ang mga event sa kalendaryo. Kapag binuksan ang napiling nakagagambalang app, sinusuri ang mga kwalipikadong hindi tapos na gawain at napiling saklaw bago ang deadline. Ang pag-iskedyul lang ay hindi nagbabago ng deadline o nagpapagana ng timed lock.",
+            "Pagkatapos, tiyakin ang pagpasa sa Canvas at suriin ang katayuan sa Nonlate. Ang pagmarkang tapos sa tagaplano ay hindi nagpapasa ng trabaho o nag-a-update ng tala ng kurso. Hindi sinusuri ng Nonlate ang kalidad o pagpasa. Maaaring manatili ang pag-block dahil sa ibang kwalipikadong hindi tapos na gawain; magagamit pa rin ang mga suportadong timed break."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Magagamit ko ba ang tagaplano nang hindi ikinokonekta ang Canvas?",
+          "answer": "Oo. Kasama sa Free plan ng Nonlate ang manwal na gawain at pangunahing pag-block ng hanggang tatlong nakagagambalang app. Maaari mong ilagay ang trabaho at suriin ang pagbabago sa Canvas."
+        },
+        {
+          "question": "Libre ba ang Canvas sync magpakailanman?",
+          "answer": "May hiwalay na limitasyon ang panlabas na koneksyon. Nagsisimula ang opsyonal na 30-araw na source trial sa unang matagumpay na koneksyon at pinapayagan ang isang pinagmulan sa bawat pagkakataon. Walang awtomatikong singil. Pag-expire, humihinto muna ang panlabas na sync; nananatili ang na-import na gawain para tapusin nang lokal at para sa pag-block. Kailangan ng angkop na bayad na plano para magpatuloy ang sync."
+        },
+        {
+          "question": "Ipapasa ba ng Nonlate ang takdang-aralin ko?",
+          "answer": "Hindi. Gamitin ang Canvas para magpasa at tiyakin ang kinakailangan sa kurso. Tumutulong ang Nonlate sa pag-aayos, pagpaplano at pagputol ng napiling panggagambala; hindi nito ginagarantiya ang pagtatapos."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Plánování úkolů z Canvas: od termínů ke studijnímu plánu",
+      "description": "Uspořádejte úkoly z Canvas vedle dalších povinností, naplánujte začátek a poznejte možnosti i omezení Nonlate při práci s připojenými termíny.",
+      "intro": "Termín v Canvas říká, kdy musíte práci odevzdat. Nevyhradí čas na čtení, psaní ani úpravy. Užitečný plán propojí termín s malým dalším krokem a realistickou pracovní dobou, zvlášť když několik předmětů potřebuje tentýž večer.",
+      "answer": "V Canvas ověřte zadání a svůj termín odevzdání. V Nonlate připojte Canvas podporovaným postupem pro svůj účet, zkontrolujte importované úkoly a naplánujte práci vedle ostatních povinností. Canvas ponechte jako zdroj požadavků kurzu a stavu odevzdání.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Nejprve zkontrolujte zadání v Canvas",
+          "paragraphs": [
+            "Před plánováním otevřete skutečné zadání. Poznamenejte pokyny, čas odevzdání a případné samostatné období dostupnosti. Termín odevzdání a data dostupnosti mají v Canvas jiný účel. Ověřte termín vlastního zadání místo kopírování data jiného studenta.",
+            "Změní-li vyučující požadavky, ověřte je v Canvas. Plánovač nabízí užitečný pracovní přehled, ale nenahrazuje zdroj při ověřování místa odevzdání nebo přijetí opožděné práce."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Převeďte termín na proveditelný plán",
+          "paragraphs": [
+            "Nonlate podporuje Canvas jako připojený zdroj, ale dostupná data a postup závisí na službě, oprávněních a verzi aplikace. Řiďte se pokyny Nonlate; školy nemusí mít shodné přihlašování. Chybí-li úkol, před spoléháním na seznam ověřte zdroj a připojení."
+          ],
+          "steps": [
+            "Připojte Canvas podporovaným postupem Nonlate a projděte zobrazené úkoly. Porovnejte názvy a časy s Canvas.",
+            "Přidejte ruční úkol pro práci sledovanou zvlášť, například čtení nebo přípravu osnovy. Nekopírujte každé importované zadání.",
+            "Zvolte konkrétní další krok a vyhraďte realistickou pracovní dobu v Planner nebo Schedule. Nechte čas na odevzdání a kontrolu výsledku v Canvas.",
+            "Po změnách v Canvas aktualizujte Nonlate a úkol znovu zkontrolujte. Rychlost synchronizace závisí na poskytovateli, tarifu, oprávněních a zařízení; okamžité změny nejsou zaručeny."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Chraňte pracovní čas a rozlišujte termíny od událostí",
+          "paragraphs": [
+            "Událost v kalendáři připomene výuku nebo pracovní blok. Události kalendáře nespouštějí blokování Nonlate. Po otevření vybrané rušivé aplikace se místo toho kontrolují způsobilé nedokončené úkoly a zvolené časové okno před termínem. Samotné naplánování úkolu nemění termín ani nespouští časovaný zámek.",
+            "Po dokončení ověřte odevzdání v Canvas a stav úkolu v Nonlate. Označení za hotové v plánovači práci neodevzdá ani neaktualizuje záznam kurzu. Nonlate nekontroluje kvalitu ani odevzdání. Jiné způsobilé nedokončené úkoly mohou blokování udržet; podporované časované přestávky zůstávají dostupné."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mohu plánovač používat bez připojení Canvas?",
+          "answer": "Ano. Tarif Free v Nonlate zahrnuje ruční úkoly a základní blokování nejvýše tří rušivých aplikací. Práci můžete zadat sami a změny ověřovat v Canvas."
+        },
+        {
+          "question": "Je synchronizace Canvas navždy zdarma?",
+          "answer": "Externí připojení mají samostatné limity. Volitelná 30denní zkouška zdrojů začíná prvním úspěšným připojením a umožňuje jeden zdroj současně. Nic se automaticky neúčtuje. Po skončení se externí synchronizace pozastaví; importované úkoly zůstávají pro místní dokončení a blokování. Pokračování synchronizace vyžaduje vhodný placený tarif."
+        },
+        {
+          "question": "Odevzdá Nonlate můj úkol?",
+          "answer": "Ne. Pro odevzdání a ověření požadavků používejte Canvas. Nonlate pomáhá organizovat úkoly, plánovat práci a přerušovat vybraná rozptýlení; dokončení nezaručuje."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Planera Canvas-uppgifter: från inlämningsdatum till en studieplan",
+      "description": "Ordna Canvas-uppgifter tillsammans med andra uppgifter, planera när du börjar och förstå Nonlates möjligheter och begränsningar med anslutna tidsfrister.",
+      "intro": "Ett inlämningsdatum i Canvas talar om när arbetet ska lämnas in. Det avsätter ingen tid för läsning, skrivande eller bearbetning. En användbar plan kopplar tidsfristen till ett litet nästa steg och ett realistiskt arbetspass, särskilt när flera kurser konkurrerar om samma kväll.",
+      "answer": "Bekräfta instruktionerna och ditt inlämningsdatum i Canvas. Anslut Canvas i Nonlate via den inställning som stöds för ditt konto, kontrollera importerade uppgifter och planera arbetet bland dina andra åtaganden. Behåll Canvas som referens för kurskrav och inlämningsstatus.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Kontrollera först uppgiften i Canvas",
+          "paragraphs": [
+            "Öppna själva uppgiften innan du organiserar den. Anteckna instruktioner, sista klockslag och eventuell separat tillgänglighetsperiod. I Canvas fyller inlämningsdatum och tillgänglighetsdatum olika funktioner. Kontrollera datumet för din egen uppgift i stället för att kopiera en annan students datum.",
+            "Kontrollera ändrade krav från läraren i Canvas. En planerare ger en användbar arbetsöversikt men ersätter inte källan när du behöver bekräfta var något lämnas in eller om en sen inlämning godtas."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Gör tidsfristen till en genomförbar plan",
+          "paragraphs": [
+            "Nonlate stöder Canvas som ansluten källa, men tillgängliga data och anslutningssteg beror på tjänst, behörigheter och appversion. Följ Nonlates instruktioner utan att anta att alla skolor har samma inloggningsinställningar. Saknas en uppgift, kontrollera källa och anslutning innan du litar på listan."
+          ],
+          "steps": [
+            "Anslut Canvas via Nonlates stödda inställningar och granska uppgifterna som visas. Jämför namn och inlämningstider med Canvas.",
+            "Lägg till en manuell uppgift för arbete som du behöver följa separat, till exempel läsning eller en disposition. Undvik att duplicera varje importerad uppgift.",
+            "Välj ett konkret nästa steg och boka ett realistiskt arbetspass i Planner eller Schedule. Lämna tid för inlämning och kontroll av resultatet i Canvas.",
+            "Uppdatera Nonlate efter ändringar i Canvas och granska uppgiften igen. Synkronisering beror på leverantör, abonnemang, behörigheter och enhet; omedelbara uppdateringar garanteras inte."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Skydda arbetstiden utan att blanda ihop tidsfrister och händelser",
+          "paragraphs": [
+            "En kalenderhändelse kan påminna om en lektion eller ett arbetspass. Kalenderhändelser utlöser inte Nonlates blockering. När en vald distraherande app öppnas kontrolleras i stället kvalificerade ofärdiga uppgifter och det valda tidsfönstret före förfallodatum. Att schemalägga en uppgift ändrar inte dess tidsfrist och aktiverar inget tidsstyrt lås.",
+            "Bekräfta inlämningen i Canvas efteråt och granska uppgiftens status i Nonlate. Att markera något som klart i en planerare lämnar inte in arbetet och uppdaterar inte kursregistreringen. Nonlate kontrollerar varken kvalitet eller inlämning. Andra kvalificerade ofärdiga uppgifter kan hålla blockeringen aktiv; stödda tidsbegränsade pauser är fortfarande tillgängliga."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan jag använda planeraren utan att ansluta Canvas?",
+          "answer": "Ja. Nonlates Free-abonnemang omfattar manuella uppgifter och grundläggande blockering av upp till tre distraherande appar. Du kan lägga in arbetet själv och kontrollera ändringar i Canvas."
+        },
+        {
+          "question": "Är Canvas-synkronisering gratis för alltid?",
+          "answer": "Externa anslutningar har separata begränsningar. Det frivilliga 30-dagarstestet för källor börjar vid den första lyckade anslutningen och tillåter en källa åt gången. Ingen automatisk avgift tas ut. Efteråt pausas extern synkronisering; importerade uppgifter finns kvar för lokalt slutförande och blockering. Fortsatt synkronisering kräver ett lämpligt betalt abonnemang."
+        },
+        {
+          "question": "Lämnar Nonlate in min uppgift?",
+          "answer": "Nej. Använd Canvas för inlämning och kontroll av kurskrav. Nonlate hjälper dig att organisera uppgifter, planera arbete och avbryta valda distraktioner; det garanterar inte att arbetet blir klart."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Planificador de tasques de Canvas: dels terminis al pla d’estudi",
+      "description": "Organitza les tasques de Canvas amb altres pendents, decideix quan començar i entén les possibilitats i els límits de Nonlate amb terminis connectats.",
+      "intro": "Una data de lliurament de Canvas indica quan has d’enviar el treball. No reserva temps per llegir, redactar o revisar. Un planificador útil relaciona el termini amb una petita acció següent i una sessió realista, sobretot quan diverses assignatures competeixen pel mateix vespre.",
+      "answer": "Confirma a Canvas les instruccions i el teu termini. A Nonlate, connecta Canvas mitjançant la configuració compatible amb el teu compte, comprova les tasques importades i planifica el treball amb els altres compromisos. Mantén Canvas com a referència dels requisits del curs i de l’estat del lliurament.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Comença comprovant la tasca a Canvas",
+          "paragraphs": [
+            "Obre la tasca abans d’organitzar-la. Anota instruccions, hora límit i qualsevol període de disponibilitat separat. A Canvas, el termini i les dates de disponibilitat tenen funcions diferents. Comprova la data de la teva tasca en lloc de copiar la d’un altre estudiant.",
+            "Si el professor canvia els requisits, verifica’ls a Canvas. El planificador ofereix una vista de treball útil, però no substitueix la font per confirmar on lliurar o si s’accepten lliuraments tardans."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Converteix el termini en un pla viable",
+          "paragraphs": [
+            "Nonlate admet Canvas com a font connectada, però les dades i els passos de connexió depenen del servei, els permisos i la versió. Segueix les instruccions de Nonlate sense suposar que tots els centres tenen el mateix inici de sessió. Si falta una tasca, comprova la font i la connexió abans de confiar en la llista."
+          ],
+          "steps": [
+            "Connecta Canvas amb la configuració compatible de Nonlate i revisa les tasques mostrades. Compara noms i hores de lliurament amb Canvas.",
+            "Afegeix una tasca manual per al treball que vulguis seguir separadament, com una lectura o un esquema. Evita duplicar totes les tasques importades.",
+            "Tria una acció següent concreta i reserva una sessió realista a Planner o Schedule. Deixa temps per lliurar i comprovar el resultat a Canvas.",
+            "Després de canvis a Canvas, actualitza Nonlate i torna a revisar la tasca. La sincronització varia segons proveïdor, pla, permisos i dispositiu; les actualitzacions immediates no estan garantides."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Protegeix el temps de treball sense confondre terminis i esdeveniments",
+          "paragraphs": [
+            "Un esdeveniment del calendari pot recordar una classe o una sessió. Els esdeveniments del calendari no activen el bloqueig de Nonlate. En obrir una aplicació de distracció seleccionada, el bloqueig comprova tasques pendents elegibles i l’interval de venciment triat. Programar una tasca no canvia el termini ni activa un bloqueig temporitzat.",
+            "En acabar, confirma el lliurament a Canvas i revisa l’estat a Nonlate. Marcar una tasca com a completada al planificador no lliura el treball ni actualitza el registre del curs. Nonlate no verifica la qualitat ni el lliurament. Altres tasques pendents elegibles poden mantenir el bloqueig; les pauses temporitzades compatibles continuen disponibles."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Puc utilitzar el planificador sense connectar Canvas?",
+          "answer": "Sí. El pla Free de Nonlate inclou tasques manuals i bloqueig bàsic de fins a tres aplicacions de distracció. Pots introduir el treball i comprovar canvis a Canvas."
+        },
+        {
+          "question": "La sincronització de Canvas és gratuïta per sempre?",
+          "answer": "Les connexions externes tenen límits propis. La prova opcional de 30 dies comença amb la primera connexió correcta i permet una font alhora. No hi ha cap cobrament automàtic. En acabar, la sincronització externa es pausa; les tasques importades continuen disponibles per completar-les localment i activar el bloqueig. Continuar sincronitzant requereix un pla de pagament adequat."
+        },
+        {
+          "question": "Nonlate lliurarà la meva tasca?",
+          "answer": "No. Fes servir Canvas per lliurar i comprovar els requisits del curs. Nonlate ajuda a organitzar tasques, planificar i interrompre distraccions seleccionades; no garanteix acabar el treball."
+        }
+      ]
+    },
+    "da": {
+      "title": "Planlæg Canvas-opgaver: gør afleveringsfrister til en studieplan",
+      "description": "Organiser Canvas-opgaver sammen med andre opgaver, planlæg din start, og forstå muligheder og begrænsninger i Nonlate med tilknyttede frister.",
+      "intro": "En afleveringsfrist i Canvas fortæller, hvornår arbejdet skal indsendes. Den reserverer ikke tid til at læse, skrive eller rette. En nyttig opgaveplan forbinder fristen med et lille næste skridt og en realistisk arbejdssession, især når flere fag kræver samme aften.",
+      "answer": "Bekræft instruktioner og din afleveringsfrist i Canvas. Tilknyt Canvas i Nonlate med den understøttede opsætning for din konto, tjek importerede opgaver, og planlæg arbejdet sammen med dine øvrige forpligtelser. Brug fortsat Canvas som reference for kursuskrav og afleveringsstatus.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Tjek først opgaven i Canvas",
+          "paragraphs": [
+            "Åbn selve opgaven, før du organiserer den. Notér instruktioner, afleveringstid og en eventuel særskilt tilgængelighedsperiode. I Canvas har afleveringsfristen og tilgængelighedsdatoerne forskellige formål. Tjek fristen for din egen opgave i stedet for at kopiere en anden studerendes dato.",
+            "Hvis underviseren ændrer kravene, skal du kontrollere dem i Canvas. En planlægger giver et nyttigt arbejdsblik, men erstatter ikke kilden, når du skal bekræfte afleveringssted eller mulighed for sen aflevering."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Gør fristen til en realistisk plan",
+          "paragraphs": [
+            "Nonlate understøtter Canvas som tilknyttet kilde, men tilgængelige data og forbindelsestrin afhænger af tjeneste, tilladelser og appversion. Følg instruktionerne i Nonlate frem for at antage, at alle skoler har samme loginopsætning. Mangler en opgave, så tjek kilde og forbindelse, før du stoler på listen."
+          ],
+          "steps": [
+            "Tilknyt Canvas via den understøttede Nonlate-opsætning, og gennemgå de viste opgaver. Sammenlign navne og afleveringstider med Canvas.",
+            "Tilføj en manuel opgave til arbejde, du vil følge særskilt, som læsning eller en disposition. Undgå at oprette en kopi af hver importeret opgave.",
+            "Vælg et konkret næste skridt, og reserver en realistisk arbejdssession i Planner eller Schedule. Afsæt tid til aflevering og kontrol i Canvas.",
+            "Opdater Nonlate efter ændringer i Canvas, og gennemgå opgaven igen. Synkronisering afhænger af udbyder, abonnement, tilladelser og enhed; øjeblikkelige opdateringer er ikke garanteret."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Beskyt arbejdstiden uden at forveksle frister og begivenheder",
+          "paragraphs": [
+            "En kalenderbegivenhed kan minde om undervisning eller en arbejdssession. Kalenderbegivenheder udløser ikke Nonlate-blokering. Når en valgt distraherende app åbnes, kontrolleres i stedet kvalificerede ufærdige opgaver og det valgte fristvindue. At planlægge en opgave ændrer ikke dens frist og starter ikke en tidsbestemt lås.",
+            "Bekræft afleveringen i Canvas, når du er færdig, og tjek opgavens status i Nonlate. At markere noget som udført i en planlægger indsender ikke arbejdet og opdaterer ikke kursusregistreringen. Nonlate kontrollerer hverken kvalitet eller aflevering. Andre kvalificerede ufærdige opgaver kan holde blokeringen aktiv; understøttede tidsbestemte pauser er stadig mulige."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan jeg bruge planlæggeren uden at tilknytte Canvas?",
+          "answer": "Ja. Nonlates Free-abonnement omfatter manuelle opgaver og grundlæggende blokering af op til tre distraherende apps. Du kan selv indtaste arbejdet og tjekke ændringer i Canvas."
+        },
+        {
+          "question": "Er Canvas-synkronisering gratis for altid?",
+          "answer": "Eksterne forbindelser har særskilte grænser. Den valgfrie kildeprøve på 30 dage starter ved første vellykkede forbindelse og tillader én kilde ad gangen. Der sker ingen automatisk betaling. Ved udløb sættes ekstern synkronisering på pause; importerede opgaver forbliver tilgængelige til lokal færdiggørelse og blokering. Fortsat synkronisering kræver et passende betalt abonnement."
+        },
+        {
+          "question": "Afleverer Nonlate min opgave?",
+          "answer": "Nej. Brug Canvas til aflevering og kontrol af kursuskrav. Nonlate hjælper med at organisere opgaver, planlægge arbejde og afbryde valgte distraktioner; færdiggørelse garanteres ikke."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Canvas-tehtävien suunnittelu: määräajoista opiskelusuunnitelmaksi",
+      "description": "Järjestä Canvas-tehtävät muiden tehtävien rinnalle, suunnittele aloitus ja ymmärrä Nonlaten mahdollisuudet ja rajat yhdistettyjen määräaikojen kanssa.",
+      "intro": "Canvasin määräaika kertoo, milloin työ on palautettava. Se ei varaa aikaa lukemiselle, kirjoittamiselle tai tarkistamiselle. Hyödyllinen suunnitelma yhdistää määräajan pieneen seuraavaan tekoon ja realistiseen työrupeamaan, varsinkin kun useat kurssit kilpailevat samasta illasta.",
+      "answer": "Vahvista tehtävän ohjeet ja oma palautusaikasi Canvasissa. Yhdistä Canvas Nonlateen tilillesi tuetulla tavalla, tarkista tuodut tehtävät ja suunnittele työ muiden velvollisuuksien rinnalle. Pidä Canvas kurssivaatimusten ja palautustilan ensisijaisena lähteenä.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Tarkista ensin tehtävä Canvasissa",
+          "paragraphs": [
+            "Avaa varsinainen tehtävä ennen järjestämistä. Kirjaa ohjeet, palautuskellonaika ja mahdollinen erillinen saatavuusaika. Canvasissa määräajalla ja tehtävän saatavuuspäivillä on eri tarkoitus. Tarkista oman tehtäväsi määräaika sen sijaan, että kopioisit toisen opiskelijan päivämäärän.",
+            "Jos opettaja muuttaa vaatimuksia, tarkista ne Canvasissa. Suunnittelija tarjoaa hyödyllisen työnäkymän, mutta ei korvaa lähdettä, kun on varmistettava palautuspaikka tai myöhästyneen palautuksen hyväksyminen."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Muuta määräaika toteuttamiskelpoiseksi suunnitelmaksi",
+          "paragraphs": [
+            "Nonlate tukee Canvasia yhdistettynä lähteenä, mutta saatavilla olevat tiedot ja yhdistämisvaiheet riippuvat palvelusta, käyttöoikeuksista ja sovellusversiosta. Noudata Nonlaten ohjeita äläkä oleta kaikkien oppilaitosten kirjautumisasetuksia samoiksi. Jos tehtävä puuttuu, tarkista lähde ja yhteys ennen listaan luottamista."
+          ],
+          "steps": [
+            "Yhdistä Canvas Nonlaten tukemalla tavalla ja tarkista näkyvät tehtävät. Vertaa nimiä ja palautusaikoja Canvasiin.",
+            "Lisää käsin tehtävä erikseen seurattavalle työlle, kuten lukemiselle tai rungon tekemiselle. Vältä jokaisen tuodun tehtävän kopioimista.",
+            "Valitse konkreettinen seuraava teko ja varaa realistinen työrupeama Plannerissa tai Schedulessa. Jätä aikaa palautukselle ja tuloksen tarkistamiselle Canvasissa.",
+            "Päivitä Nonlate Canvasin muutosten jälkeen ja tarkista tehtävä uudelleen. Synkronoinnin ajoitus riippuu palveluntarjoajasta, tilauksesta, käyttöoikeuksista ja laitteesta; välittömiä päivityksiä ei taata."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Suojaa työaika sekoittamatta määräaikoja ja tapahtumia",
+          "paragraphs": [
+            "Kalenterimerkintä voi muistuttaa tunnista tai työrupeamasta. Kalenteritapahtumat eivät käynnistä Nonlaten estoa. Kun valittu häiritsevä sovellus avataan, esto tarkistaa sen sijaan soveltuvat keskeneräiset tehtävät ja valitun määräaikaikkunan. Pelkkä tehtävän aikatauluttaminen ei muuta sen määräaikaa eikä käynnistä ajastettua lukitusta.",
+            "Vahvista valmistuttuasi palautus Canvasissa ja tarkista tehtävän tila Nonlatessa. Valmiiksi merkitseminen suunnittelijassa ei palauta työtä eikä päivitä kurssin tietoja. Nonlate ei tarkista tehtävän laatua tai palautusta. Muut soveltuvat keskeneräiset tehtävät voivat pitää eston päällä; tuetut ajastetut tauot ovat edelleen käytettävissä."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Voinko käyttää suunnittelijaa yhdistämättä Canvasia?",
+          "answer": "Kyllä. Nonlaten Free-tilaus sisältää käsin lisättävät tehtävät ja peruseston enintään kolmelle häiritsevälle sovellukselle. Voit syöttää työn itse ja tarkistaa muutokset Canvasista."
+        },
+        {
+          "question": "Onko Canvas-synkronointi aina ilmaista?",
+          "answer": "Ulkoisilla yhteyksillä on omat rajansa. Valinnainen 30 päivän lähdekokeilu alkaa ensimmäisestä onnistuneesta yhteydestä ja sallii yhden lähteen kerrallaan. Automaattista veloitusta ei ole. Kokeilun loputtua ulkoinen synkronointi keskeytyy; tuodut tehtävät ovat yhä käytettävissä paikalliseen suorittamiseen ja estämiseen. Synkronoinnin jatkaminen edellyttää sopivaa maksullista tilausta."
+        },
+        {
+          "question": "Palauttaako Nonlate tehtäväni?",
+          "answer": "Ei. Käytä Canvasia palauttamiseen ja kurssivaatimusten tarkistamiseen. Nonlate auttaa järjestämään tehtäviä, suunnittelemaan työtä ja keskeyttämään valitut häiriötekijät; se ei takaa valmistumista."
+        }
+      ]
+    },
+    "el": {
+      "title": "Σχεδιασμός εργασιών Canvas: από τις προθεσμίες σε πρόγραμμα μελέτης",
+      "description": "Οργανώστε εργασίες Canvas μαζί με άλλες υποχρεώσεις, προγραμματίστε την έναρξη και κατανοήστε δυνατότητες και όρια του Nonlate για συνδεδεμένες προθεσμίες.",
+      "intro": "Η προθεσμία στο Canvas λέει πότε πρέπει να παραδοθεί η εργασία. Δεν δεσμεύει χρόνο για ανάγνωση, συγγραφή ή αναθεώρηση. Ένα χρήσιμο πλάνο συνδέει την προθεσμία με ένα μικρό επόμενο βήμα και μια ρεαλιστική συνεδρία εργασίας, ιδίως όταν πολλά μαθήματα διεκδικούν το ίδιο βράδυ.",
+      "answer": "Επιβεβαιώστε στο Canvas τις οδηγίες και τη δική σας προθεσμία. Στο Nonlate συνδέστε το Canvas με την υποστηριζόμενη ρύθμιση του λογαριασμού σας, ελέγξτε τις εισαγόμενες εργασίες και προγραμματίστε τις μαζί με άλλες δεσμεύσεις. Κρατήστε το Canvas ως αναφορά για απαιτήσεις μαθήματος και κατάσταση υποβολής.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Ελέγξτε πρώτα την εργασία στο Canvas",
+          "paragraphs": [
+            "Ανοίξτε την ίδια την εργασία πριν την οργανώσετε. Σημειώστε οδηγίες, ώρα παράδοσης και τυχόν χωριστή περίοδο διαθεσιμότητας. Η προθεσμία και οι ημερομηνίες διαθεσιμότητας στο Canvas εξυπηρετούν διαφορετικούς σκοπούς. Ελέγξτε τη δική σας προθεσμία αντί να αντιγράψετε άλλου φοιτητή.",
+            "Αν ο διδάσκων αλλάξει απαιτήσεις, επιβεβαιώστε τις στο Canvas. Το εργαλείο σχεδιασμού δίνει χρήσιμη εικόνα εργασίας, αλλά δεν αντικαθιστά την πηγή για τον τόπο υποβολής ή την αποδοχή εκπρόθεσμης εργασίας."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Μετατρέψτε την προθεσμία σε εφαρμόσιμο σχέδιο",
+          "paragraphs": [
+            "Το Nonlate υποστηρίζει το Canvas ως συνδεδεμένη πηγή, αλλά δεδομένα και βήματα σύνδεσης εξαρτώνται από υπηρεσία, δικαιώματα και έκδοση εφαρμογής. Ακολουθήστε τις οδηγίες Nonlate χωρίς να υποθέτετε ίδιες ρυθμίσεις σύνδεσης σε κάθε σχολή. Αν λείπει εργασία, ελέγξτε πηγή και σύνδεση πριν βασιστείτε στη λίστα."
+          ],
+          "steps": [
+            "Συνδέστε το Canvas με την υποστηριζόμενη ρύθμιση Nonlate και εξετάστε τις εργασίες. Συγκρίνετε ονόματα και ώρες παράδοσης με το Canvas.",
+            "Προσθέστε χειροκίνητη εργασία για δουλειά που παρακολουθείτε χωριστά, όπως ανάγνωση ή περίγραμμα. Αποφύγετε αντίγραφα κάθε εισαγόμενης εργασίας.",
+            "Επιλέξτε συγκεκριμένο επόμενο βήμα και δεσμεύστε ρεαλιστική συνεδρία στο Planner ή Schedule. Αφήστε χρόνο για υποβολή και έλεγχο αποτελέσματος στο Canvas.",
+            "Μετά από αλλαγές στο Canvas, ανανεώστε το Nonlate και ελέγξτε ξανά την εργασία. Ο συγχρονισμός εξαρτάται από πάροχο, πρόγραμμα, δικαιώματα και συσκευή· οι άμεσες ενημερώσεις δεν είναι εγγυημένες."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Προστατέψτε τον χρόνο εργασίας διακρίνοντας προθεσμίες και συμβάντα",
+          "paragraphs": [
+            "Ένα συμβάν ημερολογίου μπορεί να θυμίσει μάθημα ή συνεδρία. Τα συμβάντα ημερολογίου δεν ενεργοποιούν αποκλεισμό Nonlate. Όταν ανοίγει επιλεγμένη εφαρμογή περισπασμού, ο αποκλεισμός ελέγχει κατάλληλες ημιτελείς εργασίες και το επιλεγμένο χρονικό παράθυρο προθεσμίας. Ο απλός προγραμματισμός δεν αλλάζει προθεσμία ούτε ενεργοποιεί χρονικό κλείδωμα.",
+            "Όταν τελειώσετε, επιβεβαιώστε υποβολή στο Canvas και κατάσταση εργασίας στο Nonlate. Η σήμανση ολοκλήρωσης στον σχεδιαστή δεν υποβάλλει την εργασία ούτε ενημερώνει το αρχείο μαθήματος. Το Nonlate δεν επαληθεύει ποιότητα ή υποβολή. Άλλες κατάλληλες ημιτελείς εργασίες μπορεί να διατηρούν τον αποκλεισμό· τα υποστηριζόμενα χρονικά διαλείμματα παραμένουν διαθέσιμα."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Μπορώ να χρησιμοποιώ τον σχεδιαστή χωρίς σύνδεση Canvas;",
+          "answer": "Ναι. Το πρόγραμμα Free του Nonlate περιλαμβάνει χειροκίνητες εργασίες και βασικό αποκλεισμό έως τριών εφαρμογών περισπασμού. Μπορείτε να εισάγετε την εργασία και να ελέγχετε αλλαγές στο Canvas."
+        },
+        {
+          "question": "Είναι ο συγχρονισμός Canvas δωρεάν για πάντα;",
+          "answer": "Οι εξωτερικές συνδέσεις έχουν χωριστά όρια. Η προαιρετική δοκιμή πηγών 30 ημερών αρχίζει στην πρώτη επιτυχημένη σύνδεση και επιτρέπει μία πηγή κάθε φορά. Δεν υπάρχει αυτόματη χρέωση. Με τη λήξη παύει ο εξωτερικός συγχρονισμός· οι εισαγόμενες εργασίες παραμένουν για τοπική ολοκλήρωση και αποκλεισμό. Η συνέχιση συγχρονισμού απαιτεί κατάλληλο πληρωμένο πρόγραμμα."
+        },
+        {
+          "question": "Θα υποβάλει το Nonlate την εργασία μου;",
+          "answer": "Όχι. Χρησιμοποιήστε Canvas για υποβολή και έλεγχο απαιτήσεων. Το Nonlate βοηθά στην οργάνωση, στον προγραμματισμό και στη διακοπή επιλεγμένων περισπασμών· δεν εγγυάται ολοκλήρωση."
+        }
+      ]
+    },
+    "hu": {
+      "title": "Canvas-feladatok tervezése: határidőkből tanulási terv",
+      "description": "Rendezd Canvas-feladataidat más teendők mellé, tervezd meg a kezdést, és ismerd meg a Nonlate lehetőségeit és korlátait a kapcsolt határidőkkel.",
+      "intro": "A Canvas határideje megmondja, mikor kell beadni a munkát. Nem foglal időt olvasásra, írásra vagy javításra. A hasznos terv a határidőt egy kis következő lépéssel és reális munkaszakasszal kapcsolja össze, főleg ha több kurzus igényli ugyanazt az estét.",
+      "answer": "A Canvasban ellenőrizd a feladat utasításait és saját beadási határidődet. A Nonlate-ben fiókod támogatott beállításával csatlakoztasd a Canvast, ellenőrizd az importált feladatokat, és tervezd meg a munkát más kötelezettségeid mellett. A kurzuskövetelmények és beadási állapot forrása továbbra is a Canvas legyen.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Először ellenőrizd a feladatot a Canvasban",
+          "paragraphs": [
+            "A tervezés előtt nyisd meg a tényleges feladatot. Jegyezd fel az utasításokat, a beadási időt és az esetleges külön elérhetőségi időszakot. A Canvasban a határidő és az elérhetőségi dátumok eltérő célt szolgálnak. Más hallgató dátuma helyett a saját feladatod határidejét nézd.",
+            "Ha az oktató módosítja a követelményeket, ellenőrizd a Canvasban. A tervező hasznos munkanézetet nyújt, de nem helyettesíti a forrást, amikor a beadás helyét vagy a késedelmes beadás elfogadását kell tisztázni."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Alakítsd a határidőt megvalósítható tervvé",
+          "paragraphs": [
+            "A Nonlate támogatja a Canvast kapcsolt forrásként, de az adatok és a csatlakoztatás lépései a szolgáltatástól, engedélyektől és alkalmazásverziótól függnek. Kövesd a Nonlate útmutatását; nem minden iskola bejelentkezési beállítása azonos. Hiányzó feladat esetén ellenőrizd a forrást és a kapcsolatot, mielőtt a listára hagyatkozol."
+          ],
+          "steps": [
+            "Csatlakoztasd a Canvast a támogatott Nonlate-beállítással, és nézd át a megjelenő feladatokat. Hasonlítsd össze a neveket és határidőket a Canvasszal.",
+            "Az elkülönítve követendő munkához, például olvasáshoz vagy vázlatkészítéshez adj kézi feladatot. Ne készíts minden importált feladatról másolatot.",
+            "Válassz konkrét következő lépést, és foglalj reális munkaszakaszt a Planner vagy Schedule felületén. Hagyj időt beadásra és ellenőrzésre a Canvasban.",
+            "A Canvas módosításai után frissítsd a Nonlate-et és ellenőrizd újra a feladatot. A szinkronizálás szolgáltatótól, csomagtól, engedélyektől és eszköztől függ; azonnali frissítés nem garantált."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Védd a munkaidőt, és különböztesd meg a határidőket az eseményektől",
+          "paragraphs": [
+            "Egy naptáresemény emlékeztethet órára vagy munkaszakaszra. A naptáresemények nem indítanak Nonlate-blokkolást. Kiválasztott zavaró alkalmazás megnyitásakor a blokkolás a megfelelő befejezetlen feladatokat és a választott határidőablakot vizsgálja. A feladat ütemezése önmagában nem módosítja határidejét és nem indít időzített zárolást.",
+            "Befejezés után erősítsd meg a beadást a Canvasban és nézd át az állapotot a Nonlate-ben. A készre jelölés a tervezőben nem adja be a munkát és nem frissíti a kurzusnyilvántartást. A Nonlate nem ellenőrzi a minőséget vagy a beadást. Más megfelelő befejezetlen feladatok fenntarthatják a blokkolást; a támogatott időzített szünetek elérhetők maradnak."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Használhatom a tervezőt Canvas-kapcsolat nélkül?",
+          "answer": "Igen. A Nonlate Free csomagja kézi feladatokat és legfeljebb három zavaró alkalmazás alapblokkolását tartalmazza. A munkát magad is megadhatod, a változásokat a Canvasban ellenőrizheted."
+        },
+        {
+          "question": "Örökké ingyenes a Canvas-szinkronizálás?",
+          "answer": "A külső kapcsolatoknak külön korlátai vannak. Az opcionális 30 napos forráspróba az első sikeres csatlakozáskor kezdődik, és egyszerre egy forrást enged. Nincs automatikus díjterhelés. Lejáratkor a külső szinkronizálás szünetel; az importált feladatok helyi befejezéshez és blokkoláshoz megmaradnak. A további szinkronizáláshoz megfelelő fizetős csomag kell."
+        },
+        {
+          "question": "Beadja a Nonlate a feladatomat?",
+          "answer": "Nem. Beadásra és a kurzuskövetelmények ellenőrzésére a Canvast használd. A Nonlate segít rendezni és tervezni a munkát, megszakítani a kiválasztott zavarásokat; a befejezést nem garantálja."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Perancang tugasan Canvas: jadikan tarikh akhir sebagai pelan belajar",
+      "description": "Susun tugasan Canvas bersama tugas lain, rancang waktu bermula dan fahami kemampuan serta batasan Nonlate bagi tarikh akhir daripada sumber disambungkan.",
+      "intro": "Tarikh akhir Canvas memberitahu bila kerja perlu dihantar. Ia tidak memperuntukkan masa untuk membaca, menulis draf atau menyemak. Perancang yang berguna menghubungkan tarikh akhir dengan langkah kecil seterusnya dan sesi kerja yang realistik, terutama apabila beberapa kursus bersaing untuk malam yang sama.",
+      "answer": "Gunakan Canvas untuk mengesahkan arahan tugasan dan tarikh akhir anda. Dalam Nonlate, sambungkan Canvas melalui persediaan yang disokong untuk akaun anda, semak tugasan diimport dan rancang kerja bersama komitmen lain. Kekalkan Canvas sebagai rujukan keperluan kursus dan status penghantaran.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Mulakan dengan menyemak tugasan dalam Canvas",
+          "paragraphs": [
+            "Buka tugasan sebenar sebelum menyusunnya. Catat arahan, waktu akhir dan sebarang tempoh ketersediaan yang berasingan. Dalam Canvas, tarikh akhir dan tarikh ketersediaan tugasan mempunyai tujuan berlainan. Semak tarikh tugasan anda sendiri dan bukannya menyalin tarikh pelajar lain.",
+            "Jika pengajar mengubah keperluan, sahkannya dalam Canvas. Perancang memberikan paparan kerja yang berguna, tetapi tidak menggantikan sumber apabila anda perlu memastikan tempat penghantaran atau penerimaan penghantaran lewat."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Jadikan tarikh akhir sebagai pelan yang boleh dilaksanakan",
+          "paragraphs": [
+            "Nonlate menyokong Canvas sebagai sumber disambungkan, tetapi data tersedia dan langkah sambungan bergantung pada perkhidmatan, kebenaran serta versi aplikasi. Ikut arahan Nonlate tanpa menganggap semua institusi mempunyai tetapan log masuk yang sama. Jika tugasan tiada, semak sumber dan sambungan sebelum bergantung pada senarai."
+          ],
+          "steps": [
+            "Sambungkan Canvas melalui persediaan Nonlate yang disokong dan semak tugasan yang muncul. Bandingkan nama dan waktu akhir dengan Canvas.",
+            "Tambah tugas manual untuk kerja yang perlu dijejaki berasingan, seperti membaca atau menyediakan rangka. Elakkan menggandakan setiap tugasan diimport.",
+            "Pilih langkah seterusnya yang khusus dan peruntukkan sesi realistik dalam Planner atau Schedule. Tinggalkan masa untuk menghantar dan menyemak hasil dalam Canvas.",
+            "Selepas perubahan dalam Canvas, segarkan Nonlate dan semak tugasan semula. Masa penyegerakan berbeza mengikut penyedia, pelan, kebenaran dan peranti; kemas kini serta-merta tidak dijamin."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Lindungi masa kerja tanpa mengelirukan tarikh akhir dengan acara",
+          "paragraphs": [
+            "Entri kalendar boleh mengingatkan anda tentang kelas atau sesi kerja. Acara kalendar tidak mencetuskan sekatan Nonlate. Apabila aplikasi mengganggu yang dipilih dibuka, sekatan menyemak tugas belum selesai yang layak dan julat tarikh akhir terpilih. Menjadualkan tugasan sahaja tidak mengubah tarikh akhir atau mengaktifkan kunci bermasa.",
+            "Selepas selesai, sahkan penghantaran dalam Canvas dan semak status tugasan dalam Nonlate. Menandakan selesai dalam perancang tidak menghantar kerja atau mengemas kini rekod kursus. Nonlate tidak mengesahkan mutu atau penghantaran tugasan. Tugas lain yang belum selesai dan layak boleh mengekalkan sekatan; rehat bermasa yang disokong tetap tersedia."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bolehkah saya menggunakan perancang tanpa menyambungkan Canvas?",
+          "answer": "Ya. Pelan Free Nonlate merangkumi tugas manual dan sekatan asas bagi sehingga tiga aplikasi mengganggu. Anda boleh memasukkan kerja sendiri dan menyemak perubahan dalam Canvas."
+        },
+        {
+          "question": "Adakah penyegerakan Canvas percuma selama-lamanya?",
+          "answer": "Sambungan luaran mempunyai had berasingan. Percubaan sumber pilihan selama 30 hari bermula pada sambungan pertama yang berjaya dan membenarkan satu sumber pada satu masa. Tiada caj automatik. Apabila tamat, penyegerakan luaran dijeda; tugasan diimport kekal tersedia untuk diselesaikan secara setempat dan untuk sekatan. Penyegerakan berterusan memerlukan pelan berbayar yang sesuai."
+        },
+        {
+          "question": "Adakah Nonlate menghantar tugasan saya?",
+          "answer": "Tidak. Gunakan Canvas untuk menghantar kerja dan menyemak keperluan kursus. Nonlate membantu menyusun tugasan, merancang kerja dan menghentikan gangguan terpilih; ia tidak menjamin penyelesaian."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Planlegg Canvas-oppgaver: fra innleveringsfrister til en studieplan",
+      "description": "Organiser Canvas-oppgaver sammen med andre gjøremål, planlegg når du begynner, og forstå Nonlates muligheter og begrensninger med tilkoblede frister.",
+      "intro": "En Canvas-frist forteller når arbeidet må leveres. Den setter ikke av tid til lesing, skriving eller gjennomgang. En nyttig oppgaveplan knytter fristen til et lite neste steg og en realistisk arbeidsøkt, særlig når flere fag krever samme kveld.",
+      "answer": "Bekreft oppgaveinstruksjoner og din innleveringsfrist i Canvas. Koble til Canvas i Nonlate med oppsettet som støttes for kontoen din, kontroller importerte oppgaver, og planlegg arbeidet sammen med andre forpliktelser. Behold Canvas som referanse for kurskrav og innleveringsstatus.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Kontroller først oppgaven i Canvas",
+          "paragraphs": [
+            "Åpne selve oppgaven før du organiserer den. Noter instrukser, innleveringstid og en eventuell separat tilgjengelighetsperiode. I Canvas har innleveringsfristen og tilgjengelighetsdatoene ulike formål. Kontroller datoen for din egen oppgave fremfor å kopiere en annen students dato.",
+            "Hvis læreren endrer kravene, må du kontrollere dem i Canvas. En planlegger gir en nyttig arbeidsoversikt, men erstatter ikke kilden når du må bekrefte hvor du skal levere eller om sen levering godtas."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Gjør fristen til en gjennomførbar plan",
+          "paragraphs": [
+            "Nonlate støtter Canvas som tilkoblet kilde, men tilgjengelige data og tilkoblingstrinn avhenger av tjeneste, tillatelser og appversjon. Følg instruksjonene i Nonlate uten å anta at alle skoler har samme påloggingsoppsett. Mangler en oppgave, kontroller kilde og tilkobling før du stoler på listen."
+          ],
+          "steps": [
+            "Koble til Canvas med det støttede Nonlate-oppsettet og gjennomgå oppgavene som vises. Sammenlign navn og innleveringstider med Canvas.",
+            "Legg til en manuell oppgave for arbeid du vil følge separat, som lesing eller å lage en disposisjon. Unngå å duplisere hver importerte oppgave.",
+            "Velg et konkret neste steg og sett av en realistisk arbeidsøkt i Planner eller Schedule. La det være tid til innlevering og kontroll i Canvas.",
+            "Oppdater Nonlate etter endringer i Canvas, og gjennomgå oppgaven igjen. Synkronisering avhenger av leverandør, abonnement, tillatelser og enhet; umiddelbare oppdateringer er ikke garantert."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Beskytt arbeidstiden uten å blande frister og hendelser",
+          "paragraphs": [
+            "En kalenderhendelse kan minne deg om undervisning eller en arbeidsøkt. Kalenderhendelser utløser ikke Nonlate-blokkering. Når en valgt distraherende app åpnes, sjekker blokkeringen i stedet aktuelle uferdige oppgaver og det valgte fristvinduet. Å planlegge en oppgave endrer ikke fristen og aktiverer ingen tidsbestemt lås.",
+            "Bekreft innleveringen i Canvas når du er ferdig, og sjekk oppgavestatusen i Nonlate. Å markere noe som ferdig i en planlegger leverer ikke arbeidet og oppdaterer ikke kursregistreringen. Nonlate kontrollerer verken kvalitet eller innlevering. Andre aktuelle uferdige oppgaver kan holde blokkeringen aktiv; støttede tidsbestemte pauser er fortsatt tilgjengelige."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan jeg bruke planleggeren uten å koble til Canvas?",
+          "answer": "Ja. Nonlates Free-abonnement inkluderer manuelle oppgaver og grunnleggende blokkering av opptil tre distraherende apper. Du kan legge inn arbeidet selv og sjekke endringer i Canvas."
+        },
+        {
+          "question": "Er Canvas-synkronisering gratis for alltid?",
+          "answer": "Eksterne tilkoblinger har egne grenser. Den valgfrie kildeprøven på 30 dager starter ved første vellykkede tilkobling og tillater én kilde om gangen. Det skjer ingen automatisk belastning. Ved utløp pauses ekstern synkronisering; importerte oppgaver forblir tilgjengelige for lokal fullføring og blokkering. Videre synkronisering krever et passende betalt abonnement."
+        },
+        {
+          "question": "Leverer Nonlate oppgaven min?",
+          "answer": "Nei. Bruk Canvas til innlevering og kontroll av kurskrav. Nonlate hjelper med å organisere oppgaver, planlegge arbeid og avbryte valgte distraksjoner; det garanterer ikke fullføring."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Planificarea temelor din Canvas: de la termene la un plan de studiu",
+      "description": "Organizează temele din Canvas alături de alte sarcini, planifică începutul și înțelege posibilitățile și limitele Nonlate pentru termenele conectate.",
+      "intro": "Un termen din Canvas arată când trebuie predată lucrarea. Nu rezervă timp pentru lectură, redactare sau revizuire. Un plan util leagă termenul de un pas mic și o sesiune realistă, mai ales când mai multe cursuri solicită aceeași seară.",
+      "answer": "Confirmă instrucțiunile și propriul termen în Canvas. În Nonlate conectează Canvas prin configurarea acceptată pentru contul tău, verifică sarcinile importate și planifică lucrul alături de celelalte obligații. Păstrează Canvas ca referință pentru cerințele cursului și starea predării.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Verifică mai întâi tema în Canvas",
+          "paragraphs": [
+            "Deschide tema propriu-zisă înainte de organizare. Notează instrucțiunile, ora-limită și orice perioadă separată de disponibilitate. În Canvas, termenul și datele de disponibilitate au scopuri diferite. Verifică termenul propriei teme în loc să copiezi data altui student.",
+            "Dacă profesorul schimbă cerințele, verifică-le în Canvas. Planificatorul oferă o vedere de lucru utilă, dar nu înlocuiește sursa când trebuie confirmat locul predării sau acceptarea unei lucrări întârziate."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Transformă termenul într-un plan realizabil",
+          "paragraphs": [
+            "Nonlate acceptă Canvas ca sursă conectată, dar datele disponibile și pașii depind de serviciu, permisiuni și versiunea aplicației. Urmează instrucțiunile Nonlate fără să presupui că toate instituțiile au aceleași setări de autentificare. Dacă lipsește o sarcină, verifică sursa și conexiunea înainte să te bazezi pe listă."
+          ],
+          "steps": [
+            "Conectează Canvas prin configurarea acceptată de Nonlate și verifică sarcinile afișate. Compară numele și orele-limită cu Canvas.",
+            "Adaugă o sarcină manuală pentru lucrul urmărit separat, precum lectura sau pregătirea unei schițe. Evită duplicarea fiecărei teme importate.",
+            "Alege un pas următor concret și rezervă o sesiune realistă în Planner sau Schedule. Lasă timp pentru predare și verificarea rezultatului în Canvas.",
+            "După schimbări în Canvas, reîmprospătează Nonlate și verifică din nou sarcina. Sincronizarea variază după furnizor, plan, permisiuni și dispozitiv; actualizările instantanee nu sunt garantate."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Protejează timpul de lucru fără a confunda termenele și evenimentele",
+          "paragraphs": [
+            "Un eveniment din calendar poate aminti un curs sau o sesiune de lucru. Evenimentele din calendar nu declanșează blocarea Nonlate. La deschiderea unei aplicații distractive selectate se verifică sarcinile eligibile neterminate și intervalul de scadență ales. Simpla programare a temei nu schimbă termenul și nu activează o blocare temporizată.",
+            "La final confirmă predarea în Canvas și verifică starea în Nonlate. Marcarea drept finalizat în planificator nu predă lucrarea și nu actualizează evidența cursului. Nonlate nu verifică calitatea ori predarea. Alte sarcini eligibile neterminate pot menține blocarea; pauzele temporizate acceptate rămân disponibile."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Pot folosi planificatorul fără să conectez Canvas?",
+          "answer": "Da. Planul Free Nonlate include sarcini manuale și blocare de bază pentru maximum trei aplicații distractive. Poți introduce singur lucrul și verifica schimbările în Canvas."
+        },
+        {
+          "question": "Sincronizarea Canvas este gratuită pentru totdeauna?",
+          "answer": "Conexiunile externe au limite separate. Proba opțională de 30 de zile pentru surse începe la prima conexiune reușită și permite câte o sursă simultan. Nu există taxare automată. La expirare se suspendă sincronizarea externă; sarcinile importate rămân pentru finalizare locală și blocare. Continuarea sincronizării necesită un plan plătit adecvat."
+        },
+        {
+          "question": "Nonlate îmi predă tema?",
+          "answer": "Nu. Folosește Canvas pentru predare și verificarea cerințelor cursului. Nonlate ajută la organizare, planificare și întreruperea distragerilor selectate; nu garantează finalizarea."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Planiranje zadataka u Canvasu: od rokova do plana učenja",
+      "description": "Organizirajte Canvas zadatke uz ostale obveze, odredite kada početi i upoznajte mogućnosti i ograničenja aplikacije Nonlate s povezanim rokovima.",
+      "intro": "Rok u Canvasu govori kada treba predati rad. Ne osigurava vrijeme za čitanje, pisanje ili doradu. Koristan plan povezuje rok s malim sljedećim korakom i realnim radnim razdobljem, posebno kada više kolegija traži istu večer.",
+      "answer": "U Canvasu provjerite upute i svoj rok predaje. U Nonlateu povežite Canvas podržanim postupkom za svoj račun, provjerite uvezene zadatke i planirajte rad uz druge obveze. Canvas zadržite kao izvor zahtjeva kolegija i statusa predaje.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Najprije provjerite zadatak u Canvasu",
+          "paragraphs": [
+            "Prije organiziranja otvorite sam zadatak. Zabilježite upute, vrijeme predaje i eventualno zasebno razdoblje dostupnosti. Rok i datumi dostupnosti u Canvasu imaju različite svrhe. Provjerite rok svojeg zadatka umjesto da kopirate datum drugog studenta.",
+            "Promijeni li nastavnik zahtjeve, provjerite ih u Canvasu. Planer daje koristan radni pregled, ali ne zamjenjuje izvor kada trebate potvrditi mjesto predaje ili prihvaćanje zakašnjelog rada."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Pretvorite rok u izvediv plan",
+          "paragraphs": [
+            "Nonlate podržava Canvas kao povezani izvor, no dostupni podaci i koraci povezivanja ovise o usluzi, dozvolama i verziji aplikacije. Slijedite upute u Nonlateu bez pretpostavke da sve ustanove imaju jednaku prijavu. Nedostaje li zadatak, provjerite izvor i vezu prije oslanjanja na popis."
+          ],
+          "steps": [
+            "Povežite Canvas podržanim postupkom u Nonlateu i pregledajte prikazane zadatke. Usporedite nazive i vremena predaje s Canvasom.",
+            "Dodajte ručni zadatak za rad koji želite pratiti zasebno, poput čitanja ili pripreme nacrta. Nemojte duplicirati svaki uvezeni zadatak.",
+            "Odaberite konkretan sljedeći korak i rezervirajte realno vrijeme rada u Planner ili Schedule. Ostavite vrijeme za predaju i provjeru rezultata u Canvasu.",
+            "Nakon promjena u Canvasu osvježite Nonlate i ponovno pregledajte zadatak. Sinkronizacija ovisi o pružatelju, paketu, dozvolama i uređaju; trenutačna ažuriranja nisu zajamčena."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Zaštitite vrijeme rada bez miješanja rokova i događaja",
+          "paragraphs": [
+            "Kalendarski događaj može podsjetiti na nastavu ili rad. Kalendarski događaji ne pokreću blokiranje u Nonlateu. Kada otvorite odabranu ometajuću aplikaciju, provjeravaju se odgovarajući nedovršeni zadaci i odabrani prozor dospijeća. Samo zakazivanje zadatka ne mijenja rok niti uključuje vremensko zaključavanje.",
+            "Nakon završetka potvrdite predaju u Canvasu i pregledajte status zadatka u Nonlateu. Označavanje zadatka dovršenim u planeru ne predaje rad niti ažurira evidenciju kolegija. Nonlate ne provjerava kvalitetu ili predaju. Drugi odgovarajući nedovršeni zadaci mogu zadržati blokiranje; podržane vremenski ograničene stanke ostaju dostupne."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mogu li koristiti planer bez povezivanja Canvasa?",
+          "answer": "Da. Paket Free u Nonlateu uključuje ručne zadatke i osnovno blokiranje do tri ometajuće aplikacije. Rad možete unijeti sami i provjeravati promjene u Canvasu."
+        },
+        {
+          "question": "Je li sinkronizacija Canvasa zauvijek besplatna?",
+          "answer": "Vanjske veze imaju zasebna ograničenja. Neobvezno probno razdoblje izvora od 30 dana počinje prvom uspješnom vezom i dopušta jedan izvor odjednom. Nema automatske naplate. Nakon isteka vanjska sinkronizacija staje; uvezeni zadaci ostaju za lokalno dovršavanje i blokiranje. Nastavak sinkronizacije zahtijeva odgovarajući plaćeni paket."
+        },
+        {
+          "question": "Hoće li Nonlate predati moj zadatak?",
+          "answer": "Ne. Za predaju i provjeru zahtjeva koristite Canvas. Nonlate pomaže organizirati zadatke, planirati rad i prekidati odabrane smetnje; ne jamči dovršetak."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Plánovanie úloh z Canvas: z termínov k študijnému plánu",
+      "description": "Usporiadajte úlohy z Canvas spolu s ďalšími povinnosťami, naplánujte začiatok a spoznajte možnosti aj obmedzenia Nonlate pri pripojených termínoch.",
+      "intro": "Termín v Canvas hovorí, kedy musíte prácu odovzdať. Nevyhradí čas na čítanie, písanie ani úpravy. Užitočný plán prepojí termín s malým ďalším krokom a realistickým pracovným blokom, najmä keď viacero predmetov potrebuje ten istý večer.",
+      "answer": "V Canvas overte zadanie a vlastný termín odovzdania. V Nonlate pripojte Canvas podporovaným postupom pre svoj účet, skontrolujte importované úlohy a naplánujte prácu popri ďalších záväzkoch. Canvas zostáva zdrojom požiadaviek kurzu a stavu odovzdania.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Najprv skontrolujte zadanie v Canvas",
+          "paragraphs": [
+            "Pred plánovaním otvorte samotné zadanie. Zapíšte pokyny, čas odovzdania a prípadné samostatné obdobie dostupnosti. Termín a dátumy dostupnosti majú v Canvas odlišný účel. Overte termín vlastného zadania namiesto kopírovania dátumu iného študenta.",
+            "Ak vyučujúci zmení požiadavky, overte ich v Canvas. Plánovač poskytuje užitočný pracovný prehľad, ale nenahrádza zdroj pri zisťovaní miesta odovzdania alebo prijatia oneskorenej práce."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Premeňte termín na uskutočniteľný plán",
+          "paragraphs": [
+            "Nonlate podporuje Canvas ako pripojený zdroj, no dostupné údaje a kroky závisia od služby, oprávnení a verzie aplikácie. Riaďte sa pokynmi Nonlate; školy nemusia mať rovnaké prihlasovanie. Ak úloha chýba, pred spoliehaním sa na zoznam overte zdroj a pripojenie."
+          ],
+          "steps": [
+            "Pripojte Canvas podporovaným postupom Nonlate a prezrite zobrazené úlohy. Porovnajte názvy a časy s Canvas.",
+            "Pridajte ručnú úlohu pre prácu sledovanú samostatne, napríklad čítanie alebo prípravu osnovy. Nevytvárajte kópiu každého importovaného zadania.",
+            "Vyberte konkrétny ďalší krok a vyhraďte realistický pracovný blok v Planner alebo Schedule. Nechajte čas na odovzdanie a kontrolu výsledku v Canvas.",
+            "Po zmenách v Canvas obnovte Nonlate a úlohu znova skontrolujte. Synchronizácia závisí od poskytovateľa, programu, oprávnení a zariadenia; okamžité aktualizácie nie sú zaručené."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Chráňte čas práce bez zamieňania termínov a udalostí",
+          "paragraphs": [
+            "Udalosť kalendára môže pripomenúť vyučovanie alebo pracovný blok. Udalosti kalendára nespúšťajú blokovanie Nonlate. Pri otvorení vybranej rušivej aplikácie sa kontrolujú oprávnené nedokončené úlohy a zvolené časové okno pred termínom. Samotné naplánovanie úlohy nemení termín ani nezapína časovaný zámok.",
+            "Po dokončení potvrďte odovzdanie v Canvas a skontrolujte stav v Nonlate. Označenie úlohy za hotovú v plánovači prácu neodovzdá ani neaktualizuje záznam kurzu. Nonlate neoveruje kvalitu ani odovzdanie. Iné oprávnené nedokončené úlohy môžu blokovanie zachovať; podporované časované prestávky zostávajú dostupné."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Môžem plánovač používať bez pripojenia Canvas?",
+          "answer": "Áno. Program Free v Nonlate zahŕňa ručné úlohy a základné blokovanie najviac troch rušivých aplikácií. Prácu môžete zadať sami a zmeny overovať v Canvas."
+        },
+        {
+          "question": "Je synchronizácia Canvas navždy zadarmo?",
+          "answer": "Externé pripojenia majú vlastné limity. Voliteľná 30-dňová skúška zdrojov začína prvým úspešným pripojením a povoľuje jeden zdroj naraz. Neúčtuje sa automatický poplatok. Po skončení sa externá synchronizácia pozastaví; importované úlohy zostávajú na miestne dokončenie a blokovanie. Pokračovanie synchronizácie vyžaduje vhodný platený program."
+        },
+        {
+          "question": "Odovzdá Nonlate moju úlohu?",
+          "answer": "Nie. Na odovzdanie a kontrolu požiadaviek používajte Canvas. Nonlate pomáha organizovať úlohy, plánovať prácu a prerušovať vybrané rozptýlenia; dokončenie nezaručuje."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Načrtovanje nalog v Canvasu: od rokov do učnega načrta",
+      "description": "Uredite naloge iz Canvasa ob drugih opravilih, načrtujte začetek ter spoznajte možnosti in omejitve aplikacije Nonlate pri povezanih rokih.",
+      "intro": "Rok v Canvasu pove, kdaj morate oddati delo. Ne rezervira časa za branje, pisanje ali popravljanje. Uporaben načrt poveže rok z majhnim naslednjim korakom in izvedljivim delovnim obdobjem, zlasti ko več predmetov potrebuje isti večer.",
+      "answer": "V Canvasu potrdite navodila in svoj rok oddaje. V Nonlateu povežite Canvas s podprto nastavitvijo za račun, preverite uvožene naloge in načrtujte delo ob drugih obveznostih. Canvas naj ostane vir zahtev predmeta in stanja oddaje.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "Najprej preverite nalogo v Canvasu",
+          "paragraphs": [
+            "Pred urejanjem odprite dejansko nalogo. Zapišite navodila, uro oddaje in morebitno ločeno obdobje dostopnosti. Rok in datumi dostopnosti imajo v Canvasu različne namene. Preverite rok svoje naloge, namesto da kopirate datum drugega študenta.",
+            "Če učitelj spremeni zahteve, jih preverite v Canvasu. Načrtovalnik ponuja uporaben delovni pregled, vendar ne nadomesti vira, ko morate potrditi mesto oddaje ali sprejem prepozne oddaje."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "Spremenite rok v izvedljiv načrt",
+          "paragraphs": [
+            "Nonlate podpira Canvas kot povezan vir, vendar so podatki in koraki odvisni od storitve, dovoljenj ter različice aplikacije. Upoštevajte navodila Nonlate, ne predpostavljajte enakih prijavnih nastavitev vseh šol. Če naloga manjka, preverite vir in povezavo, preden se zanesete na seznam."
+          ],
+          "steps": [
+            "Povežite Canvas s podprto nastavitvijo Nonlate in preglejte prikazane naloge. Primerjajte imena in ure oddaje s Canvasom.",
+            "Dodajte ročno nalogo za delo, ki ga spremljate ločeno, denimo branje ali pripravo osnutka. Ne podvajajte vsake uvožene naloge.",
+            "Izberite konkreten naslednji korak in rezervirajte realno delovno obdobje v Planner ali Schedule. Pustite čas za oddajo in preverjanje rezultata v Canvasu.",
+            "Po spremembah v Canvasu osvežite Nonlate in ponovno preverite nalogo. Sinhronizacija je odvisna od ponudnika, paketa, dovoljenj in naprave; takojšnje posodobitve niso zagotovljene."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "Zaščitite delovni čas brez zamenjave rokov in dogodkov",
+          "paragraphs": [
+            "Koledarski dogodek vas lahko spomni na pouk ali delo. Koledarski dogodki ne sprožijo blokiranja Nonlate. Ob odprtju izbrane moteče aplikacije blokiranje preveri ustrezne nedokončane naloge in izbrano časovno okno pred rokom. Samo razporejanje naloge ne spremeni roka in ne zažene časovnega zaklepa.",
+            "Po koncu potrdite oddajo v Canvasu in preverite stanje v Nonlateu. Označevanje opravljenega v načrtovalniku ne odda dela in ne posodobi evidence predmeta. Nonlate ne preverja kakovosti ali oddaje. Druge ustrezne nedokončane naloge lahko ohranijo blokiranje; podprti časovno omejeni odmori ostajajo na voljo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Lahko uporabljam načrtovalnik brez povezave s Canvasom?",
+          "answer": "Da. Paket Free v Nonlateu vključuje ročne naloge in osnovno blokiranje do treh motečih aplikacij. Delo lahko vnesete sami in spremembe preverjate v Canvasu."
+        },
+        {
+          "question": "Je sinhronizacija Canvasa za vedno brezplačna?",
+          "answer": "Zunanje povezave imajo ločene omejitve. Izbirni 30-dnevni preizkus virov se začne s prvo uspešno povezavo in omogoča en vir hkrati. Samodejnega zaračunavanja ni. Po izteku se zunanja sinhronizacija ustavi; uvožene naloge ostanejo za lokalno dokončanje in blokiranje. Nadaljevanje sinhronizacije zahteva ustrezen plačljiv paket."
+        },
+        {
+          "question": "Bo Nonlate oddal mojo nalogo?",
+          "answer": "Ne. Za oddajo in preverjanje zahtev uporabljajte Canvas. Nonlate pomaga urejati naloge, načrtovati delo in prekiniti izbrane motnje; dokončanja ne zagotavlja."
+        }
+      ]
+    },
+    "gu": {
+      "title": "Canvas અસાઇનમેન્ટનું આયોજન: અંતિમ તારીખોમાંથી અભ્યાસ યોજના બનાવો",
+      "description": "Canvas અસાઇનમેન્ટને બીજા કામ સાથે ગોઠવો, ક્યારે શરૂ કરવું તે નક્કી કરો અને જોડાયેલા સ્ત્રોતની સમયમર્યાદા માટે Nonlateની ક્ષમતાઓ અને મર્યાદાઓ સમજો.",
+      "intro": "Canvasની અંતિમ તારીખ જણાવે છે કે કામ ક્યારે સોંપવું. તે વાંચવા, મુસદ્દો લખવા કે સુધારવા સમય રાખતી નથી. ઉપયોગી યોજના અંતિમ તારીખને નાના આગળના પગલા અને વાસ્તવિક કાર્ય સત્ર સાથે જોડે છે, ખાસ કરીને જ્યારે ઘણા વિષયોને એક જ સાંજની જરૂર હોય.",
+      "answer": "અસાઇનમેન્ટની સૂચનાઓ અને પોતાની સોંપવાની સમયમર્યાદા Canvasમાં ચકાસો. Nonlateમાં તમારા ખાતા માટે સમર્થિત ગોઠવણીથી Canvas જોડો, આયાત કરેલા કામ તપાસો અને બીજી જવાબદારીઓ સાથે આયોજન કરો. અભ્યાસક્રમની જરૂરિયાત અને સોંપણીની સ્થિતિ માટે Canvasને સંદર્ભ રાખો.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "પહેલા Canvasમાં અસાઇનમેન્ટ તપાસો",
+          "paragraphs": [
+            "ગોઠવતા પહેલાં અસલ અસાઇનમેન્ટ ખોલો. સૂચનાઓ, સોંપવાનો સમય અને અલગ ઉપલબ્ધતા સમયગાળો હોય તો નોંધો. Canvasમાં અંતિમ તારીખ અને ઉપલબ્ધતાની તારીખો અલગ હેતુ ધરાવે છે. બીજા વિદ્યાર્થીની તારીખ નકલ કરવાને બદલે પોતાના કામની સમયમર્યાદા જુઓ.",
+            "શિક્ષક જરૂરિયાતો બદલે તો Canvasમાં ખાતરી કરો. આયોજક કામનું ઉપયોગી દૃશ્ય આપે છે, પણ ક્યાં સોંપવું કે મોડું સ્વીકારાશે તે જાણવા મૂળ સ્ત્રોતની જગ્યા લેતો નથી."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "અંતિમ તારીખને અમલમાં મૂકી શકાય તેવી યોજનામાં ફેરવો",
+          "paragraphs": [
+            "Nonlate Canvasને જોડાયેલા સ્ત્રોત તરીકે સમર્થન આપે છે, પણ માહિતી અને જોડાણનાં પગલાં સેવા, પરવાનગી અને એપ આવૃત્તિ પર આધારિત છે. દરેક સંસ્થાની પ્રવેશ ગોઠવણી સરખી માની લેવાને બદલે Nonlateની સૂચના અનુસરો. કામ ન દેખાય તો યાદી પર આધાર રાખતા પહેલાં સ્ત્રોત અને જોડાણ તપાસો."
+          ],
+          "steps": [
+            "Nonlateની સમર્થિત ગોઠવણીથી Canvas જોડો અને દેખાતા કામ જુઓ. નામ અને સોંપવાના સમય Canvas સાથે સરખાવો.",
+            "અલગથી અનુસરવાના કામ, જેમ કે વાંચવું કે રૂપરેખા બનાવવી, માટે હાથેથી કાર્ય ઉમેરો. દરેક આયાત કરેલા અસાઇનમેન્ટની નકલ બનાવવાનું ટાળો.",
+            "ચોક્કસ આગળનું પગલું પસંદ કરી Planner અથવા Scheduleમાં વાસ્તવિક કાર્ય સત્ર રાખો. Canvasમાં સોંપવા અને પરિણામ તપાસવાનો સમય છોડો.",
+            "Canvasમાં ફેરફાર પછી Nonlate તાજું કરો અને કાર્ય ફરી તપાસો. સમન્વયનો સમય પ્રદાતા, યોજના, પરવાનગી અને ઉપકરણ પ્રમાણે બદલાય છે; તાત્કાલિક અપડેટની ખાતરી નથી."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "અંતિમ તારીખ અને ઘટના વચ્ચે ભેદ રાખીને કામનો સમય બચાવો",
+          "paragraphs": [
+            "કૅલેન્ડરની ઘટના વર્ગ કે કાર્ય સત્ર યાદ કરાવી શકે. કૅલેન્ડરની ઘટનાઓ Nonlateનું અવરોધન ચાલુ કરતી નથી. પસંદ કરેલી ધ્યાન ભટકાવતી એપ ખૂલે ત્યારે અવરોધન યોગ્ય અધૂરા કાર્ય અને પસંદ કરેલો સમયમર્યાદાનો ગાળો તપાસે છે. ફક્ત અસાઇનમેન્ટનું સમયપત્રક બનાવવાથી તારીખ બદલાતી નથી કે સમયબદ્ધ તાળું શરૂ થતું નથી.",
+            "કામ પૂરે Canvasમાં સોંપણીની ખાતરી અને Nonlateમાં સ્થિતિ તપાસો. આયોજકમાં પૂર્ણ ચિહ્ન કરવાથી કામ સોંપાતું નથી કે અભ્યાસક્રમનો રેકોર્ડ બદલાતો નથી. Nonlate ગુણવત્તા કે સોંપણી ચકાસતું નથી. બીજા યોગ્ય અધૂરા કાર્ય અવરોધન ચાલુ રાખી શકે; સમર્થિત સમયબદ્ધ વિરામ ઉપલબ્ધ રહે છે."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas જોડ્યા વિના આયોજક વાપરી શકું?",
+          "answer": "હા. Nonlateની Free યોજનામાં હાથેથી ઉમેરાતા કાર્ય અને વધુમાં વધુ ત્રણ ધ્યાન ભટકાવતી એપનું મૂળભૂત અવરોધન છે. કામ જાતે દાખલ કરી ફેરફારો Canvasમાં તપાસી શકો."
+        },
+        {
+          "question": "Canvas સમન્વય હંમેશાં મફત છે?",
+          "answer": "બાહ્ય જોડાણોની અલગ મર્યાદા છે. વૈકલ્પિક 30 દિવસની સ્ત્રોત અજમાયશ પ્રથમ સફળ જોડાણથી શરૂ થાય છે અને એક સમયે એક સ્ત્રોત આપે છે. આપમેળે શુલ્ક લાગતું નથી. સમય પૂરો થતાં બાહ્ય સમન્વય થોભે છે; આયાત કરેલા કાર્ય સ્થાનિક પૂર્ણતા અને અવરોધન માટે રહે છે. સમન્વય ચાલુ રાખવા યોગ્ય ચૂકવણીવાળી યોજના જોઈએ."
+        },
+        {
+          "question": "Nonlate મારું અસાઇનમેન્ટ સોંપશે?",
+          "answer": "ના. સોંપવા અને અભ્યાસક્રમની જરૂરિયાત ચકાસવા Canvas વાપરો. Nonlate કાર્ય ગોઠવવા, આયોજન અને પસંદ કરેલા વિક્ષેપ રોકવામાં મદદ કરે છે; પૂર્ણતાની ખાતરી આપતું નથી."
+        }
+      ]
+    },
+    "kn": {
+      "title": "Canvas ಅಸೈನ್‌ಮೆಂಟ್ ಯೋಜನೆ: ಗಡುವಿನಿಂದ ಅಧ್ಯಯನ ಯೋಜನೆಗೆ",
+      "description": "Canvas ಅಸೈನ್‌ಮೆಂಟ್‌ಗಳನ್ನು ಇತರ ಕೆಲಸಗಳ ಜೊತೆ ಜೋಡಿಸಿ, ಆರಂಭದ ಸಮಯ ನಿಗದಿಪಡಿಸಿ ಮತ್ತು ಸಂಪರ್ಕಿತ ಗಡುವುಗಳಿಗೆ Nonlate ಸಾಮರ್ಥ್ಯ ಹಾಗೂ ಮಿತಿಗಳನ್ನು ತಿಳಿಯಿರಿ.",
+      "intro": "Canvas ಗಡುವು ಕೆಲಸವನ್ನು ಯಾವಾಗ ಸಲ್ಲಿಸಬೇಕೆಂದು ಹೇಳುತ್ತದೆ. ಓದಲು, ಕರಡು ಬರೆಯಲು ಅಥವಾ ತಿದ್ದಲು ಸಮಯ ಕಾಯ್ದಿರಿಸುವುದಿಲ್ಲ. ಉಪಯುಕ್ತ ಯೋಜನೆ ಗಡುವನ್ನು ಸಣ್ಣ ಮುಂದಿನ ಹೆಜ್ಜೆ ಮತ್ತು ವಾಸ್ತವಿಕ ಕೆಲಸದ ಅವಧಿಗೆ ಜೋಡಿಸುತ್ತದೆ; ಹಲವು ವಿಷಯಗಳಿಗೆ ಒಂದೇ ಸಂಜೆ ಬೇಕಾದಾಗ ಇದು ಮುಖ್ಯ.",
+      "answer": "ಅಸೈನ್‌ಮೆಂಟ್ ಸೂಚನೆ ಹಾಗೂ ನಿಮ್ಮ ಸಲ್ಲಿಕೆ ಗಡುವನ್ನು Canvasನಲ್ಲಿ ಖಚಿತಪಡಿಸಿ. Nonlateನಲ್ಲಿ ಖಾತೆಗೆ ಬೆಂಬಲಿತ ವಿಧಾನದಿಂದ Canvas ಸಂಪರ್ಕಿಸಿ, ಆಮದು ಕೆಲಸ ಪರಿಶೀಲಿಸಿ ಇತರ ಬಾಧ್ಯತೆಗಳೊಂದಿಗೆ ಯೋಜಿಸಿ. ಪಠ್ಯಕ್ರಮದ ಅಗತ್ಯಗಳು ಮತ್ತು ಸಲ್ಲಿಕೆ ಸ್ಥಿತಿಗೆ Canvasನೇ ಆಧಾರವಾಗಿರಲಿ.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ಮೊದಲು Canvasನಲ್ಲಿ ಅಸೈನ್‌ಮೆಂಟ್ ಪರಿಶೀಲಿಸಿ",
+          "paragraphs": [
+            "ಜೋಡಿಸುವ ಮೊದಲು ಮೂಲ ಅಸೈನ್‌ಮೆಂಟ್ ತೆರೆಯಿರಿ. ಸೂಚನೆಗಳು, ಸಲ್ಲಿಕೆ ಸಮಯ ಮತ್ತು ಪ್ರತ್ಯೇಕ ಲಭ್ಯತೆ ಅವಧಿ ಇದ್ದರೆ ದಾಖಲಿಸಿ. Canvasನಲ್ಲಿ ಗಡುವು ಮತ್ತು ಲಭ್ಯತೆಯ ದಿನಾಂಕಗಳ ಉದ್ದೇಶಗಳು ಬೇರೆ. ಮತ್ತೊಬ್ಬ ವಿದ್ಯಾರ್ಥಿಯ ದಿನಾಂಕ ನಕಲಿಸದೆ ನಿಮ್ಮ ಅಸೈನ್‌ಮೆಂಟ್ ಗಡುವು ನೋಡಿ.",
+            "ಶಿಕ್ಷಕರು ಅಗತ್ಯ ಬದಲಿಸಿದರೆ Canvasನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ. ಯೋಜನಾ ಸಾಧನ ಉಪಯುಕ್ತ ಕೆಲಸದ ನೋಟ ನೀಡುತ್ತದೆ; ಆದರೆ ಎಲ್ಲಿ ಸಲ್ಲಿಸಬೇಕು ಅಥವಾ ತಡವಾದ ಸಲ್ಲಿಕೆ ಸ್ವೀಕಾರವೇ ಎಂಬುದಕ್ಕೆ ಮೂಲವನ್ನು ಬದಲಿಸುವುದಿಲ್ಲ."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "ಗಡುವನ್ನು ಸಾಧ್ಯವಾದ ಯೋಜನೆಯಾಗಿ ಮಾಡಿ",
+          "paragraphs": [
+            "Nonlate ಸಂಪರ್ಕಿತ ಮೂಲವಾಗಿ Canvas ಬೆಂಬಲಿಸುತ್ತದೆ; ಆದರೆ ಮಾಹಿತಿ ಮತ್ತು ಸಂಪರ್ಕ ಹಂತಗಳು ಸೇವೆ, ಅನುಮತಿ ಹಾಗೂ ಆ್ಯಪ್ ಆವೃತ್ತಿಯ ಮೇಲೆ ಅವಲಂಬಿತ. ಎಲ್ಲ ಸಂಸ್ಥೆಗಳ ಪ್ರವೇಶ ಸೆಟ್ಟಿಂಗ್ ಒಂದೇ ಎಂದು ಊಹಿಸದೆ Nonlate ಸೂಚನೆ ಪಾಲಿಸಿ. ಕೆಲಸ ಕಾಣದಿದ್ದರೆ ಪಟ್ಟಿಯನ್ನು ನಂಬುವ ಮೊದಲು ಮೂಲ ಮತ್ತು ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ."
+          ],
+          "steps": [
+            "Nonlate ಬೆಂಬಲಿತ ವಿಧಾನದಲ್ಲಿ Canvas ಸಂಪರ್ಕಿಸಿ ಕಾಣುವ ಕೆಲಸಗಳನ್ನು ನೋಡಿ. ಹೆಸರು ಹಾಗೂ ಸಲ್ಲಿಕೆ ಸಮಯ Canvas ಜೊತೆಗೆ ಹೋಲಿಸಿ.",
+            "ಓದುವಿಕೆ ಅಥವಾ ರೂಪರೇಖೆ ತಯಾರಿಯಂತಹ ಪ್ರತ್ಯೇಕವಾಗಿ ಗಮನಿಸಬೇಕಾದ ಕೆಲಸಕ್ಕೆ ಹಸ್ತಚಾಲಿತ ಕಾರ್ಯ ಸೇರಿಸಿ. ಪ್ರತಿ ಆಮದು ಅಸೈನ್‌ಮೆಂಟ್ ನಕಲು ಮಾಡಬೇಡಿ.",
+            "ಸ್ಪಷ್ಟ ಮುಂದಿನ ಹೆಜ್ಜೆ ಆಯ್ದು Planner ಅಥವಾ Scheduleನಲ್ಲಿ ವಾಸ್ತವಿಕ ಕೆಲಸದ ಅವಧಿ ಕಾಯ್ದಿರಿಸಿ. Canvasನಲ್ಲಿ ಸಲ್ಲಿಕೆ ಮತ್ತು ಫಲ ಪರಿಶೀಲನೆಗೆ ಸಮಯ ಬಿಡಿ.",
+            "Canvas ಬದಲಾವಣೆಯ ನಂತರ Nonlate ರಿಫ್ರೆಶ್ ಮಾಡಿ ಮತ್ತೆ ಕಾರ್ಯ ನೋಡಿ. ಸಿಂಕ್ ಸಮಯ ಪೂರೈಕೆದಾರ, ಯೋಜನೆ, ಅನುಮತಿ ಮತ್ತು ಸಾಧನದ ಮೇಲೆ ಅವಲಂಬಿತ; ತಕ್ಷಣದ ನವೀಕರಣ ಖಚಿತವಲ್ಲ."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "ಗಡುವು ಮತ್ತು ಘಟನೆಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಕೆಲಸದ ಸಮಯ ಕಾಪಾಡಿ",
+          "paragraphs": [
+            "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆ ತರಗತಿ ಅಥವಾ ಕೆಲಸದ ಅವಧಿ ನೆನಪಿಸಬಹುದು. ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆಗಳು Nonlate ನಿರ್ಬಂಧ ಆರಂಭಿಸುವುದಿಲ್ಲ. ಆಯ್ದ ಗಮನಭಂಗದ ಆ್ಯಪ್ ತೆರೆದಾಗ ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸ ಮತ್ತು ಆಯ್ದ ಗಡುವಿನ ವ್ಯಾಪ್ತಿಯನ್ನು ನಿರ್ಬಂಧ ಪರಿಶೀಲಿಸುತ್ತದೆ. ಅಸೈನ್‌ಮೆಂಟ್ ನಿಗದಿಪಡಿಸುವುದಷ್ಟೇ ಗಡುವು ಬದಲಿಸದು ಅಥವಾ ಸಮಯಬದ್ಧ ಲಾಕ್ ಆರಂಭಿಸದು.",
+            "ಮುಗಿದಾಗ Canvasನಲ್ಲಿ ಸಲ್ಲಿಕೆ ಖಚಿತಪಡಿಸಿ Nonlateನಲ್ಲಿ ಸ್ಥಿತಿ ಪರಿಶೀಲಿಸಿ. ಯೋಜನೆಯಲ್ಲಿ ಪೂರ್ಣ ಎಂದು ಗುರುತಿಸುವುದು ಕೆಲಸ ಸಲ್ಲಿಸುವುದಿಲ್ಲ ಅಥವಾ ಕೋರ್ಸ್ ದಾಖಲೆ ನವೀಕರಿಸುವುದಿಲ್ಲ. Nonlate ಗುಣಮಟ್ಟ ಅಥವಾ ಸಲ್ಲಿಕೆ ದೃಢೀಕರಿಸುವುದಿಲ್ಲ. ಇತರ ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸಗಳು ನಿರ್ಬಂಧ ಮುಂದುವರಿಸಬಹುದು; ಬೆಂಬಲಿತ ಸಮಯಬದ್ಧ ವಿರಾಮಗಳು ಲಭ್ಯವಾಗುತ್ತವೆ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas ಸಂಪರ್ಕಿಸದೆ ಯೋಜನಾ ಸಾಧನ ಬಳಸಬಹುದೇ?",
+          "answer": "ಹೌದು. Nonlate Free ಯೋಜನೆಯಲ್ಲಿ ಹಸ್ತಚಾಲಿತ ಕಾರ್ಯ ಮತ್ತು ಗರಿಷ್ಠ ಮೂರು ಗಮನಭಂಗದ ಆ್ಯಪ್‌ಗಳ ಮೂಲ ನಿರ್ಬಂಧ ಇದೆ. ಕೆಲಸ ನೀವೇ ದಾಖಲಿಸಿ ಬದಲಾವಣೆ Canvasನಲ್ಲಿ ನೋಡಬಹುದು."
+        },
+        {
+          "question": "Canvas ಸಿಂಕ್ ಎಂದಿಗೂ ಉಚಿತವೇ?",
+          "answer": "ಬಾಹ್ಯ ಸಂಪರ್ಕಗಳಿಗೆ ಪ್ರತ್ಯೇಕ ಮಿತಿಗಳಿವೆ. ಐಚ್ಛಿಕ 30 ದಿನಗಳ ಮೂಲ ಪ್ರಯೋಗ ಮೊದಲ ಯಶಸ್ವಿ ಸಂಪರ್ಕದಿಂದ ಆರಂಭವಾಗಿ ಒಮ್ಮೆ ಒಂದು ಮೂಲ ಅನುಮತಿಸುತ್ತದೆ. ಸ್ವಯಂಚಾಲಿತ ಶುಲ್ಕವಿಲ್ಲ. ಮುಗಿದಾಗ ಬಾಹ್ಯ ಸಿಂಕ್ ನಿಲ್ಲುತ್ತದೆ; ಆಮದು ಕೆಲಸ ಸ್ಥಳೀಯ ಪೂರ್ಣತೆ ಮತ್ತು ನಿರ್ಬಂಧಕ್ಕೆ ಉಳಿಯುತ್ತದೆ. ಸಿಂಕ್ ಮುಂದುವರಿಸಲು ಸೂಕ್ತ ಪಾವತಿ ಯೋಜನೆ ಬೇಕು."
+        },
+        {
+          "question": "Nonlate ನನ್ನ ಅಸೈನ್‌ಮೆಂಟ್ ಸಲ್ಲಿಸುತ್ತದೆಯೇ?",
+          "answer": "ಇಲ್ಲ. ಸಲ್ಲಿಕೆ ಮತ್ತು ಕೋರ್ಸ್ ಅಗತ್ಯಗಳ ಪರಿಶೀಲನೆಗೆ Canvas ಬಳಸಿ. Nonlate ಕೆಲಸ ಜೋಡಿಸಲು, ಯೋಜಿಸಲು ಮತ್ತು ಆಯ್ದ ಅಡ್ಡಿ ತಡೆಯಲು ಸಹಾಯಮಾಡುತ್ತದೆ; ಪೂರ್ಣತೆಗೆ ಖಾತರಿ ನೀಡುವುದಿಲ್ಲ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "Canvas അസൈൻമെന്റ് ആസൂത്രണം: സമയപരിധിയിൽനിന്ന് പഠനപദ്ധതിയിലേക്ക്",
+      "description": "Canvas അസൈൻമെന്റുകൾ മറ്റു ജോലികൾക്കൊപ്പം ക്രമീകരിച്ച്, തുടങ്ങുന്ന സമയം നിശ്ചയിച്ച്, ബന്ധിപ്പിച്ച സമയപരിധികളിൽ Nonlate-ന്റെ കഴിവുകളും പരിമിതികളും മനസ്സിലാക്കൂ.",
+      "intro": "Canvas സമയപരിധി ജോലി എപ്പോൾ സമർപ്പിക്കണമെന്ന് പറയുന്നു. വായനയ്ക്കോ കരടിനോ തിരുത്തലിനോ സമയം മാറ്റിവയ്ക്കുന്നില്ല. ഉപകാരപ്രദമായ പദ്ധതി സമയപരിധിയെ ചെറിയ അടുത്ത നടപടിയുമായും പ്രായോഗിക ജോലിസമയവുമായും ബന്ധിപ്പിക്കുന്നു; പല വിഷയങ്ങൾക്കും ഒരേ വൈകുന്നേരം വേണ്ടിവരുമ്പോൾ പ്രത്യേകിച്ച്.",
+      "answer": "അസൈൻമെന്റ് നിർദേശങ്ങളും നിങ്ങളുടെ സമർപ്പണ സമയപരിധിയും Canvas-ൽ ഉറപ്പാക്കൂ. Nonlate-ൽ അക്കൗണ്ടിനു പിന്തുണയുള്ള രീതിയിൽ Canvas ബന്ധിപ്പിച്ച്, ഇറക്കുമതി ജോലികൾ പരിശോധിച്ച് മറ്റു ഉത്തരവാദിത്വങ്ങൾക്കൊപ്പം ആസൂത്രണം ചെയ്യൂ. കോഴ്സ് ആവശ്യങ്ങൾക്കും സമർപ്പണ നിലയ്ക്കും Canvas തന്നെ ആധാരമാക്കൂ.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ആദ്യം Canvas-ൽ അസൈൻമെന്റ് പരിശോധിക്കൂ",
+          "paragraphs": [
+            "ക്രമീകരിക്കുന്നതിനുമുമ്പ് യഥാർഥ അസൈൻമെന്റ് തുറക്കൂ. നിർദേശങ്ങൾ, സമർപ്പണ സമയം, വേറിട്ട ലഭ്യതാകാലം ഉണ്ടെങ്കിൽ അതും കുറിക്കൂ. Canvas-ൽ സമയപരിധിക്കും ലഭ്യതാദിനങ്ങൾക്കും വ്യത്യസ്ത ലക്ഷ്യങ്ങളാണ്. മറ്റൊരു വിദ്യാർഥിയുടെ തീയതി പകർത്താതെ സ്വന്തം ജോലിയുടെ സമയപരിധി പരിശോധിക്കൂ.",
+            "അധ്യാപകൻ ആവശ്യങ്ങൾ മാറ്റിയാൽ Canvas-ൽ സ്ഥിരീകരിക്കൂ. ആസൂത്രണ ഉപകരണം സഹായകരമായ ജോലിക്കാഴ്ച നൽകും; എന്നാൽ എവിടെ സമർപ്പിക്കണം, വൈകിയ സമർപ്പണം സ്വീകരിക്കുമോ എന്നിവയ്ക്ക് മൂലസ്രോതസ്സിനു പകരമല്ല."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "സമയപരിധിയെ നടപ്പാക്കാവുന്ന പദ്ധതിയാക്കൂ",
+          "paragraphs": [
+            "Nonlate ബന്ധിപ്പിച്ച സ്രോതസ്സായി Canvas പിന്തുണയ്ക്കുന്നു; പക്ഷേ ഡാറ്റയും ബന്ധിപ്പിക്കൽ ഘട്ടങ്ങളും സേവനം, അനുമതികൾ, ആപ്പ് പതിപ്പ് എന്നിവയെ ആശ്രയിക്കും. എല്ലാ സ്ഥാപനങ്ങൾക്കും ഒരേ പ്രവേശനക്രമമാണെന്ന് കരുതാതെ Nonlate നിർദേശങ്ങൾ പാലിക്കൂ. ജോലി കാണുന്നില്ലെങ്കിൽ പട്ടികയെ ആശ്രയിക്കുന്നതിനുമുമ്പ് സ്രോതസ്സും ബന്ധവും പരിശോധിക്കൂ."
+          ],
+          "steps": [
+            "Nonlate പിന്തുണയുള്ള ക്രമീകരണത്തിലൂടെ Canvas ബന്ധിപ്പിച്ച് കാണുന്ന ജോലികൾ നോക്കൂ. പേരുകളും സമർപ്പണ സമയങ്ങളും Canvas-മായി താരതമ്യം ചെയ്യൂ.",
+            "വായനയോ രൂപരേഖ തയ്യാറാക്കലോ പോലെയുള്ള പ്രത്യേകം പിന്തുടരേണ്ട ജോലിക്ക് സ്വമേധയാ ടാസ്‌ക് ചേർക്കൂ. ഓരോ ഇറക്കുമതി അസൈൻമെന്റിന്റെയും പകർപ്പ് ഉണ്ടാക്കരുത്.",
+            "വ്യക്തമായ അടുത്ത നടപടി തിരഞ്ഞെടുത്ത് Planner അല്ലെങ്കിൽ Schedule-ൽ പ്രായോഗിക ജോലിസമയം മാറ്റിവയ്ക്കൂ. Canvas-ൽ സമർപ്പിക്കാനും ഫലം പരിശോധിക്കാനും സമയം വിടൂ.",
+            "Canvas മാറ്റങ്ങൾക്കുശേഷം Nonlate പുതുക്കി ജോലി വീണ്ടും പരിശോധിക്കൂ. സമന്വയ സമയം ദാതാവ്, പ്ലാൻ, അനുമതികൾ, ഉപകരണം എന്നിവയെ ആശ്രയിക്കും; തൽക്ഷണ പുതുക്കൽ ഉറപ്പില്ല."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "സമയപരിധിയും ഇവന്റുകളും വേർതിരിച്ച് ജോലിസമയം സംരക്ഷിക്കൂ",
+          "paragraphs": [
+            "കലണ്ടർ ഇവന്റ് ക്ലാസോ ജോലിസമയമോ ഓർമ്മിപ്പിക്കാം. കലണ്ടർ ഇവന്റുകൾ Nonlate തടയൽ ആരംഭിക്കില്ല. തിരഞ്ഞെടുത്ത ശ്രദ്ധതിരിക്കുന്ന ആപ്പ് തുറക്കുമ്പോൾ യോഗ്യമായ പൂർത്തിയാകാത്ത ജോലികളും തിരഞ്ഞെടുത്ത സമയപരിധി പരിധിയും തടയൽ പരിശോധിക്കും. അസൈൻമെന്റ് സമയമിടുന്നതുമാത്രം സമയപരിധി മാറ്റുകയോ സമയബന്ധിത ലോക്ക് ആരംഭിക്കുകയോ ചെയ്യില്ല.",
+            "പൂർത്തിയായാൽ Canvas-ൽ സമർപ്പണം ഉറപ്പാക്കി Nonlate-ൽ ജോലിസ്ഥിതി നോക്കൂ. ആസൂത്രണ ഉപകരണത്തിൽ പൂർത്തിയായതായി അടയാളപ്പെടുത്തുന്നത് ജോലി സമർപ്പിക്കുകയോ കോഴ്സ് രേഖ പുതുക്കുകയോ ചെയ്യില്ല. Nonlate ഗുണനിലവാരമോ സമർപ്പണമോ പരിശോധിക്കില്ല. മറ്റു യോഗ്യമായ പൂർത്തിയാകാത്ത ജോലികൾ തടയൽ തുടരാൻ കാരണമാകാം; പിന്തുണയുള്ള സമയബന്ധിത ഇടവേളകൾ ലഭ്യമായിരിക്കും."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas ബന്ധിപ്പിക്കാതെ ആസൂത്രണ ഉപകരണം ഉപയോഗിക്കാമോ?",
+          "answer": "അതെ. Nonlate Free പ്ലാനിൽ സ്വയം ചേർക്കുന്ന ജോലികളും പരമാവധി മൂന്ന് ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകളുടെ അടിസ്ഥാന തടയലും ഉൾപ്പെടുന്നു. ജോലി സ്വയം നൽകി മാറ്റങ്ങൾ Canvas-ൽ പരിശോധിക്കാം."
+        },
+        {
+          "question": "Canvas സമന്വയം എന്നും സൗജന്യമാണോ?",
+          "answer": "ബാഹ്യ ബന്ധങ്ങൾക്ക് വേറിട്ട പരിധികളുണ്ട്. ഐച്ഛിക 30 ദിവസത്തെ സ്രോതസ്സ് പരീക്ഷണം ആദ്യ വിജയകരമായ ബന്ധത്തിൽ തുടങ്ങി ഒരേസമയം ഒരു സ്രോതസ്സ് അനുവദിക്കുന്നു. സ്വയമേവ പണം ഈടാക്കില്ല. കാലം കഴിഞ്ഞാൽ ബാഹ്യ സമന്വയം നിർത്തിവയ്ക്കും; ഇറക്കുമതി ജോലികൾ പ്രാദേശിക പൂർത്തീകരണത്തിനും തടയലിനും ശേഷിക്കും. സമന്വയം തുടരാൻ അനുയോജ്യമായ പണമടച്ച പ്ലാൻ വേണം."
+        },
+        {
+          "question": "Nonlate എന്റെ അസൈൻമെന്റ് സമർപ്പിക്കുമോ?",
+          "answer": "ഇല്ല. സമർപ്പണത്തിനും കോഴ്സ് ആവശ്യങ്ങൾ പരിശോധിക്കാനും Canvas ഉപയോഗിക്കൂ. Nonlate ജോലികൾ ക്രമീകരിക്കാനും ആസൂത്രണം ചെയ്യാനും തിരഞ്ഞെടുത്ത ശ്രദ്ധാഭംഗം തടയാനും സഹായിക്കുന്നു; പൂർത്തീകരണം ഉറപ്പുനൽകുന്നില്ല."
+        }
+      ]
+    },
+    "mr": {
+      "title": "Canvas असाइनमेंटचे नियोजन: अंतिम तारखांपासून अभ्यासाचा आराखडा",
+      "description": "Canvas असाइनमेंट इतर कामांसोबत मांडून सुरू करण्याची वेळ ठरवा आणि जोडलेल्या मुदतींबाबत Nonlateच्या क्षमता व मर्यादा समजून घ्या.",
+      "intro": "Canvasची अंतिम तारीख काम कधी सादर करायचे ते सांगते. ती वाचन, मसुदा किंवा दुरुस्तीचा वेळ राखत नाही. उपयुक्त योजना मुदत लहान पुढील कृतीशी आणि वास्तववादी कार्यसत्राशी जोडते, विशेषतः अनेक विषयांना एकच संध्याकाळ हवी असताना.",
+      "answer": "असाइनमेंटच्या सूचना आणि स्वतःची सादरीकरणाची मुदत Canvasमध्ये तपासा. Nonlateमध्ये खात्यासाठी समर्थित पद्धतीने Canvas जोडा, आयात केलेली कामे तपासा आणि इतर जबाबदाऱ्यांसोबत नियोजन करा. अभ्यासक्रमाच्या अटी आणि सादरीकरणाच्या स्थितीसाठी Canvasच संदर्भ ठेवा.",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "प्रथम Canvasमध्ये असाइनमेंट तपासा",
+          "paragraphs": [
+            "नियोजनाआधी मूळ असाइनमेंट उघडा. सूचना, सादरीकरणाची वेळ आणि वेगळा उपलब्धता कालावधी असल्यास नोंदवा. Canvasमध्ये अंतिम तारीख आणि उपलब्धतेच्या तारखांचे उद्देश वेगळे असतात. दुसऱ्या विद्यार्थ्याची तारीख घेण्याऐवजी स्वतःच्या कामाची मुदत पहा.",
+            "शिक्षकांनी अटी बदलल्यास Canvasमध्ये पडताळा. नियोजक कामाचे उपयुक्त चित्र देतो, पण कुठे सादर करायचे किंवा उशिरा स्वीकारले जाईल का हे ठरवताना मूळ स्रोताची जागा घेत नाही."
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "मुदतीचे करता येण्याजोग्या योजनेत रूपांतर करा",
+          "paragraphs": [
+            "Nonlate Canvasला जोडलेला स्रोत म्हणून समर्थन देते, पण माहिती व जोडणीची पावले सेवा, परवानग्या आणि ॲप आवृत्तीवर अवलंबून असतात. प्रत्येक संस्थेच्या प्रवेश सेटिंग्ज सारख्या मानू नका; Nonlateच्या सूचना पाळा. काम दिसत नसल्यास यादीवर विसंबण्याआधी स्रोत आणि जोडणी तपासा."
+          ],
+          "steps": [
+            "Nonlateच्या समर्थित पद्धतीने Canvas जोडून दिसणारी कामे पहा. नावे व सादरीकरणाच्या वेळा Canvasशी जुळवा.",
+            "वाचन किंवा रूपरेषा बनवणे यांसारखे स्वतंत्रपणे पाहायचे काम हाताने जोडा. प्रत्येक आयात केलेल्या असाइनमेंटची प्रत तयार करू नका.",
+            "ठोस पुढील कृती निवडून Planner किंवा Scheduleमध्ये वास्तववादी कार्यसत्र राखा. Canvasमध्ये सादरीकरण व निकाल तपासण्यासाठी वेळ ठेवा.",
+            "Canvasमधील बदलांनंतर Nonlate रिफ्रेश करून काम पुन्हा तपासा. समक्रमण प्रदाता, योजना, परवानग्या आणि उपकरणानुसार बदलते; त्वरित अपडेटची हमी नाही."
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "मुदती आणि घटना वेगळ्या ठेवून कामाचा वेळ जपा",
+          "paragraphs": [
+            "कॅलेंडर घटना वर्ग किंवा कार्यसत्राची आठवण करून देऊ शकते. कॅलेंडर घटना Nonlateचे अवरोधन सुरू करत नाहीत. निवडलेले लक्ष विचलित करणारे ॲप उघडल्यावर अवरोधन पात्र अपूर्ण कामे आणि निवडलेली मुदतीची खिडकी तपासते. फक्त असाइनमेंटचे वेळापत्रक केल्याने अंतिम तारीख बदलत नाही किंवा वेळबद्ध लॉक सुरू होत नाही.",
+            "काम झाल्यावर Canvasमध्ये सादरीकरणाची खात्री करून Nonlateमध्ये स्थिती पहा. नियोजकात पूर्ण खूण केल्याने काम सादर होत नाही किंवा अभ्यासक्रम नोंद बदलत नाही. Nonlate गुणवत्ता किंवा सादरीकरण पडताळत नाही. इतर पात्र अपूर्ण कामे अवरोधन चालू ठेवू शकतात; समर्थित वेळबद्ध विश्रांती उपलब्ध राहते."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas न जोडता नियोजक वापरता येईल?",
+          "answer": "हो. Nonlateच्या Free योजनेत हाताने घातलेली कामे आणि कमाल तीन लक्ष विचलित करणाऱ्या ॲपचे मूलभूत अवरोधन आहे. काम स्वतः भरून बदल Canvasमध्ये तपासू शकता."
+        },
+        {
+          "question": "Canvas समक्रमण कायम मोफत आहे का?",
+          "answer": "बाह्य जोडण्यांना स्वतंत्र मर्यादा आहेत. पर्यायी 30 दिवसांची स्रोत चाचणी पहिल्या यशस्वी जोडणीपासून सुरू होते आणि एकावेळी एक स्रोत देते. स्वयंचलित शुल्क लागत नाही. मुदत संपल्यावर बाह्य समक्रमण थांबते; आयात केलेली कामे स्थानिक पूर्णता आणि अवरोधनासाठी राहतात. समक्रमण चालू ठेवण्यासाठी योग्य सशुल्क योजना लागते."
+        },
+        {
+          "question": "Nonlate माझे असाइनमेंट सादर करेल का?",
+          "answer": "नाही. सादरीकरण आणि अभ्यासक्रमाच्या अटी तपासण्यासाठी Canvas वापरा. Nonlate काम मांडणे, नियोजन आणि निवडलेले व्यत्यय थांबवण्यात मदत करते; पूर्णतेची हमी देत नाही."
+        }
+      ]
+    },
+    "or": {
+      "title": "Canvas ଅସାଇନମେଣ୍ଟ ଯୋଜନା: ଶେଷ ତାରିଖରୁ ପଢ଼ା ଯୋଜନା",
+      "description": "Canvas ଅସାଇନମେଣ୍ଟକୁ ଅନ୍ୟ କାମ ସହ ସଜାନ୍ତୁ, ଆରମ୍ଭ ସମୟ ଧାର୍ଯ୍ୟ କରନ୍ତୁ ଏବଂ ସଂଯୁକ୍ତ ସମୟସୀମା ପାଇଁ Nonlateର ସୁବିଧା ଓ ସୀମା ବୁଝନ୍ତୁ।",
+      "intro": "Canvasର ଶେଷ ତାରିଖ କାମ କେବେ ଦାଖଲ କରିବାକୁ ହେବ କୁହେ। ଏହା ପଢ଼ିବା, ଖସଡ଼ା କିମ୍ବା ସଂଶୋଧନର ସମୟ ରଖେନାହିଁ। ଉପଯୋଗୀ ଯୋଜନା ସମୟସୀମାକୁ ଛୋଟ ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ ଓ ବାସ୍ତବ କାର୍ଯ୍ୟ ଅଧିବେଶନ ସହ ଯୋଡ଼େ, ବିଶେଷକରି ଅନେକ ବିଷୟକୁ ସେହି ସନ୍ଧ୍ୟା ଦରକାର ଥିଲେ।",
+      "answer": "ଅସାଇନମେଣ୍ଟ ନିର୍ଦ୍ଦେଶ ଓ ନିଜ ଦାଖଲ ସମୟସୀମା Canvasରେ ଯାଞ୍ଚ କରନ୍ତୁ। Nonlateରେ ଖାତା ପାଇଁ ସମର୍ଥିତ ପ୍ରକ୍ରିୟାରେ Canvas ଯୋଡ଼ନ୍ତୁ, ଆମଦାନି କାମ ଯାଞ୍ଚ କରି ଅନ୍ୟ ଦାୟିତ୍ୱ ସହ ଯୋଜନା କରନ୍ତୁ। ପାଠ୍ୟକ୍ରମ ଆବଶ୍ୟକତା ଓ ଦାଖଲ ସ୍ଥିତି ପାଇଁ Canvasକୁ ଉତ୍ସ ରଖନ୍ତୁ।",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ପ୍ରଥମେ Canvasରେ ଅସାଇନମେଣ୍ଟ ଯାଞ୍ଚ କରନ୍ତୁ",
+          "paragraphs": [
+            "ସଜାଇବା ପୂର୍ବରୁ ପ୍ରକୃତ ଅସାଇନମେଣ୍ଟ ଖୋଲନ୍ତୁ। ନିର୍ଦ୍ଦେଶ, ଦାଖଲ ସମୟ ଓ ଅଲଗା ଉପଲବ୍ଧତା ଅବଧି ଥିଲେ ଲେଖନ୍ତୁ। Canvasରେ ଶେଷ ତାରିଖ ଏବଂ ଉପଲବ୍ଧତା ତାରିଖର ଉଦ୍ଦେଶ୍ୟ ଭିନ୍ନ। ଅନ୍ୟ ଛାତ୍ରଙ୍କ ତାରିଖ ନକଲ ନକରି ନିଜ କାମର ସମୟସୀମା ଦେଖନ୍ତୁ।",
+            "ଶିକ୍ଷକ ଆବଶ୍ୟକତା ବଦଳାଇଲେ Canvasରେ ନିଶ୍ଚିତ କରନ୍ତୁ। ଯୋଜନାକାରୀ ଉପଯୋଗୀ କାର୍ଯ୍ୟ ଦୃଶ୍ୟ ଦିଏ, କିନ୍ତୁ କେଉଁଠି ଦାଖଲ କରିବେ କିମ୍ବା ବିଳମ୍ବ ଗ୍ରହଣ ହେବ କି ଜାଣିବା ପାଇଁ ମୂଳ ଉତ୍ସର ବିକଳ୍ପ ନୁହେଁ।"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "ସମୟସୀମାକୁ କାର୍ଯ୍ୟକ୍ଷମ ଯୋଜନା କରନ୍ତୁ",
+          "paragraphs": [
+            "Nonlate ସଂଯୁକ୍ତ ଉତ୍ସ ଭାବେ Canvas ସମର୍ଥନ କରେ, କିନ୍ତୁ ତଥ୍ୟ ଓ ସଂଯୋଗ ପଦକ୍ଷେପ ସେବା, ଅନୁମତି ଓ ଆପ୍ ସଂସ୍କରଣ ଉପରେ ନିର୍ଭର। ସବୁ ସଂସ୍ଥାର ଲଗଇନ ସମାନ ଭାବିବା ବଦଳେ Nonlateର ନିର୍ଦ୍ଦେଶ ମାନନ୍ତୁ। କାମ ନଥିଲେ ତାଲିକାରେ ଭରସା ପୂର୍ବରୁ ଉତ୍ସ ଓ ସଂଯୋଗ ଦେଖନ୍ତୁ।"
+          ],
+          "steps": [
+            "Nonlateର ସମର୍ଥିତ ପ୍ରକ୍ରିୟାରେ Canvas ଯୋଡ଼ି ଦେଖାଯାଉଥିବା କାମ ଯାଞ୍ଚ କରନ୍ତୁ। ନାମ ଓ ଦାଖଲ ସମୟ Canvas ସହ ମେଳାନ୍ତୁ।",
+            "ପଢ଼ିବା କିମ୍ବା ରୂପରେଖା ପ୍ରସ୍ତୁତି ଭଳି ଅଲଗା ଟ୍ରାକ୍ କରିବା କାମ ହାତରେ ଯୋଡ଼ନ୍ତୁ। ପ୍ରତ୍ୟେକ ଆମଦାନି ଅସାଇନମେଣ୍ଟର ନକଲ କରନ୍ତୁ ନାହିଁ।",
+            "ନିର୍ଦ୍ଦିଷ୍ଟ ପରବର୍ତ୍ତୀ କାମ ବାଛି Planner କିମ୍ବା Scheduleରେ ବାସ୍ତବ କାର୍ଯ୍ୟ ଅଧିବେଶନ ରଖନ୍ତୁ। Canvasରେ ଦାଖଲ ଓ ଫଳ ଯାଞ୍ଚ ପାଇଁ ସମୟ ଛାଡ଼ନ୍ତୁ।",
+            "Canvasରେ ପରିବର୍ତ୍ତନ ପରେ Nonlate ରିଫ୍ରେଶ କରି କାମ ପୁଣି ଦେଖନ୍ତୁ। ସିଙ୍କ୍ ସମୟ ପ୍ରଦାନକାରୀ, ପ୍ଲାନ୍, ଅନୁମତି ଓ ଡିଭାଇସ୍ ଅନୁସାରେ ବଦଳେ; ତତ୍କ୍ଷଣାତ୍ ଅପଡେଟ୍ ନିଶ୍ଚିତ ନୁହେଁ।"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "ସମୟସୀମା ଓ ଘଟଣାକୁ ଅଲଗା ରଖି କାମର ସମୟ ସୁରକ୍ଷିତ କରନ୍ତୁ",
+          "paragraphs": [
+            "କ୍ୟାଲେଣ୍ଡର ଘଟଣା କ୍ଲାସ୍ କିମ୍ବା କାର୍ଯ୍ୟ ଅଧିବେଶନ ମନେ ପକାଇପାରେ। କ୍ୟାଲେଣ୍ଡର ଘଟଣା Nonlate ବ୍ଲକ୍ ଚାଲୁ କରେନାହିଁ। ବଛା ବିକ୍ଷେପକାରୀ ଆପ୍ ଖୋଲିଲେ ବ୍ଲକ୍ ଯୋଗ୍ୟ ଅସମାପ୍ତ କାମ ଓ ବଛା ସମୟସୀମା ପରିସର ଯାଞ୍ଚ କରେ। କେବଳ ଅସାଇନମେଣ୍ଟ ସୂଚୀ କଲେ ଶେଷ ତାରିଖ ବଦଳେନାହିଁ କି ସମୟବଦ୍ଧ ଲକ୍ ଚାଲେନାହିଁ।",
+            "ସରିଲେ Canvasରେ ଦାଖଲ ନିଶ୍ଚିତ କରି Nonlateରେ ସ୍ଥିତି ଦେଖନ୍ତୁ। ଯୋଜନାକାରୀରେ ସମ୍ପୂର୍ଣ୍ଣ ଚିହ୍ନ କଲେ କାମ ଦାଖଲ କିମ୍ବା କୋର୍ସ ରେକର୍ଡ ଅପଡେଟ୍ ହୁଏନାହିଁ। Nonlate ମାନ କିମ୍ବା ଦାଖଲ ଯାଞ୍ଚ କରେନାହିଁ। ଅନ୍ୟ ଯୋଗ୍ୟ ଅସମାପ୍ତ କାମ ବ୍ଲକ୍ ଚାଲୁ ରଖିପାରେ; ସମର୍ଥିତ ସମୟବଦ୍ଧ ବିରତି ଉପଲବ୍ଧ ରହେ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas ନଯୋଡ଼ି ଯୋଜନାକାରୀ ବ୍ୟବହାର କରିପାରିବି?",
+          "answer": "ହଁ। Nonlateର Free ପ୍ଲାନ୍‌ରେ ହାତରେ ଯୋଡ଼ା କାମ ଓ ସର୍ବାଧିକ ତିନି ବିକ୍ଷେପକାରୀ ଆପ୍‌ର ମୌଳିକ ବ୍ଲକ୍ ଅଛି। କାମ ନିଜେ ଭରି ପରିବର୍ତ୍ତନ Canvasରେ ଦେଖିପାରିବେ।"
+        },
+        {
+          "question": "Canvas ସିଙ୍କ୍ ସବୁଦିନ ମାଗଣା କି?",
+          "answer": "ବାହ୍ୟ ସଂଯୋଗର ଅଲଗା ସୀମା ଅଛି। ଇଚ୍ଛାଧୀନ 30 ଦିନର ଉତ୍ସ ପରୀକ୍ଷା ପ୍ରଥମ ସଫଳ ସଂଯୋଗରୁ ଆରମ୍ଭ ହୁଏ ଏବଂ ଏକାଥରେ ଗୋଟିଏ ଉତ୍ସ ଦିଏ। ସ୍ୱୟଂଚାଳିତ ଦେୟ ନାହିଁ। ଅବଧି ସରିଲେ ବାହ୍ୟ ସିଙ୍କ୍ ଥାମେ; ଆମଦାନି କାମ ସ୍ଥାନୀୟ ସମାପ୍ତି ଓ ବ୍ଲକ୍ ପାଇଁ ରହେ। ସିଙ୍କ୍ ଜାରି ପାଇଁ ଉପଯୁକ୍ତ ଦେୟଯୁକ୍ତ ପ୍ଲାନ୍ ଦରକାର।"
+        },
+        {
+          "question": "Nonlate ମୋ ଅସାଇନମେଣ୍ଟ ଦାଖଲ କରିବ କି?",
+          "answer": "ନା। ଦାଖଲ ଓ କୋର୍ସ ଆବଶ୍ୟକତା ଯାଞ୍ଚ ପାଇଁ Canvas ବ୍ୟବହାର କରନ୍ତୁ। Nonlate କାମ ସଜାଇବା, ଯୋଜନା ଓ ବଛା ବିକ୍ଷେପ ରୋକିବାରେ ସାହାଯ୍ୟ କରେ; ସମାପ୍ତି ନିଶ୍ଚିତ କରେନାହିଁ।"
+        }
+      ]
+    },
+    "pa": {
+      "title": "Canvas ਅਸਾਈਨਮੈਂਟ ਦੀ ਯੋਜਨਾ: ਆਖ਼ਰੀ ਤਾਰੀਖਾਂ ਤੋਂ ਪੜ੍ਹਾਈ ਦਾ ਪ੍ਰੋਗਰਾਮ",
+      "description": "Canvas ਅਸਾਈਨਮੈਂਟਾਂ ਨੂੰ ਹੋਰ ਕੰਮਾਂ ਨਾਲ ਸਜਾਓ, ਸ਼ੁਰੂ ਕਰਨ ਦਾ ਸਮਾਂ ਤੈਅ ਕਰੋ ਅਤੇ ਜੁੜੀਆਂ ਮਿਆਦਾਂ ਲਈ Nonlate ਦੀਆਂ ਸਮਰੱਥਾਵਾਂ ਤੇ ਹੱਦਾਂ ਸਮਝੋ।",
+      "intro": "Canvas ਦੀ ਆਖ਼ਰੀ ਤਾਰੀਖ ਦੱਸਦੀ ਹੈ ਕਿ ਕੰਮ ਕਦੋਂ ਜਮ੍ਹਾਂ ਕਰਨਾ ਹੈ। ਇਹ ਪੜ੍ਹਨ, ਖਰੜਾ ਲਿਖਣ ਜਾਂ ਸੋਧ ਲਈ ਸਮਾਂ ਨਹੀਂ ਰੱਖਦੀ। ਲਾਭਕਾਰੀ ਯੋਜਨਾ ਮਿਆਦ ਨੂੰ ਛੋਟੇ ਅਗਲੇ ਕਦਮ ਅਤੇ ਹਕੀਕਤੀ ਕੰਮ-ਸੈਸ਼ਨ ਨਾਲ ਜੋੜਦੀ ਹੈ, ਖ਼ਾਸ ਕਰਕੇ ਜਦੋਂ ਕਈ ਵਿਸ਼ਿਆਂ ਨੂੰ ਇੱਕੋ ਸ਼ਾਮ ਚਾਹੀਦੀ ਹੋਵੇ।",
+      "answer": "ਅਸਾਈਨਮੈਂਟ ਦੀਆਂ ਹਦਾਇਤਾਂ ਤੇ ਆਪਣੀ ਜਮ੍ਹਾਂ ਮਿਆਦ Canvas ਵਿੱਚ ਪੱਕੀਆਂ ਕਰੋ। Nonlate ਵਿੱਚ ਖਾਤੇ ਲਈ ਸਮਰਥਿਤ ਤਰੀਕੇ ਨਾਲ Canvas ਜੋੜੋ, ਆਯਾਤ ਕੀਤੇ ਕੰਮ ਵੇਖੋ ਅਤੇ ਹੋਰ ਜ਼ਿੰਮੇਵਾਰੀਆਂ ਨਾਲ ਯੋਜਨਾ ਬਣਾਓ। ਕੋਰਸ ਦੀਆਂ ਲੋੜਾਂ ਅਤੇ ਜਮ੍ਹਾਂ ਸਥਿਤੀ ਲਈ Canvas ਨੂੰ ਹਵਾਲਾ ਰੱਖੋ।",
+      "sections": [
+        {
+          "id": "check-the-source",
+          "heading": "ਪਹਿਲਾਂ Canvas ਵਿੱਚ ਅਸਾਈਨਮੈਂਟ ਵੇਖੋ",
+          "paragraphs": [
+            "ਯੋਜਨਾ ਤੋਂ ਪਹਿਲਾਂ ਅਸਲ ਅਸਾਈਨਮੈਂਟ ਖੋਲ੍ਹੋ। ਹਦਾਇਤਾਂ, ਜਮ੍ਹਾਂ ਸਮਾਂ ਅਤੇ ਵੱਖਰਾ ਉਪਲਬਧਤਾ ਸਮਾਂ ਹੋਵੇ ਤਾਂ ਲਿਖੋ। Canvas ਵਿੱਚ ਆਖ਼ਰੀ ਤਾਰੀਖ ਅਤੇ ਉਪਲਬਧਤਾ ਤਾਰੀਖਾਂ ਦੇ ਮਕਸਦ ਵੱਖਰੇ ਹਨ। ਕਿਸੇ ਹੋਰ ਵਿਦਿਆਰਥੀ ਦੀ ਤਾਰੀਖ ਨਕਲ ਕਰਨ ਦੀ ਥਾਂ ਆਪਣੀ ਅਸਾਈਨਮੈਂਟ ਦੀ ਮਿਆਦ ਵੇਖੋ।",
+            "ਅਧਿਆਪਕ ਲੋੜਾਂ ਬਦਲੇ ਤਾਂ Canvas ਵਿੱਚ ਪੁਸ਼ਟੀ ਕਰੋ। ਯੋਜਨਾਕਾਰ ਲਾਭਕਾਰੀ ਕੰਮ-ਦ੍ਰਿਸ਼ ਦਿੰਦਾ ਹੈ, ਪਰ ਕਿੱਥੇ ਜਮ੍ਹਾਂ ਕਰਨਾ ਜਾਂ ਦੇਰੀ ਨਾਲ ਕਬੂਲ ਹੋਵੇਗਾ, ਇਹ ਜਾਣਨ ਲਈ ਅਸਲ ਸਰੋਤ ਦੀ ਥਾਂ ਨਹੀਂ ਲੈਂਦਾ।"
+          ]
+        },
+        {
+          "id": "make-the-plan",
+          "heading": "ਆਖ਼ਰੀ ਤਾਰੀਖ ਨੂੰ ਅਮਲੀ ਯੋਜਨਾ ਬਣਾਓ",
+          "paragraphs": [
+            "Nonlate Canvas ਨੂੰ ਜੁੜੇ ਸਰੋਤ ਵਜੋਂ ਸਮਰਥਨ ਦਿੰਦਾ ਹੈ, ਪਰ ਜਾਣਕਾਰੀ ਤੇ ਜੋੜਨ ਦੇ ਪੜਾਅ ਸੇਵਾ, ਇਜਾਜ਼ਤਾਂ ਅਤੇ ਐਪ ਵਰਜਨ 'ਤੇ ਨਿਰਭਰ ਹਨ। ਹਰ ਸੰਸਥਾ ਦੀ ਲੌਗਇਨ ਸੈਟਿੰਗ ਇੱਕੋ ਨਾ ਮੰਨੋ; Nonlate ਦੀਆਂ ਹਦਾਇਤਾਂ ਮੰਨੋ। ਕੰਮ ਗੁੰਮ ਹੋਵੇ ਤਾਂ ਸੂਚੀ 'ਤੇ ਭਰੋਸੇ ਤੋਂ ਪਹਿਲਾਂ ਸਰੋਤ ਤੇ ਕਨੈਕਸ਼ਨ ਵੇਖੋ।"
+          ],
+          "steps": [
+            "Nonlate ਦੀ ਸਮਰਥਿਤ ਸੈਟਿੰਗ ਨਾਲ Canvas ਜੋੜੋ ਅਤੇ ਦਿਸਦੇ ਕੰਮ ਜਾਂਚੋ। ਨਾਮ ਤੇ ਜਮ੍ਹਾਂ ਸਮੇਂ Canvas ਨਾਲ ਮਿਲਾਓ।",
+            "ਅਲੱਗ ਪਾਲਣਾ ਵਾਲੇ ਕੰਮ, ਜਿਵੇਂ ਪੜ੍ਹਨਾ ਜਾਂ ਰੂਪਰੇਖਾ ਬਣਾਉਣਾ, ਲਈ ਹੱਥੀਂ ਕੰਮ ਜੋੜੋ। ਹਰ ਆਯਾਤ ਅਸਾਈਨਮੈਂਟ ਦੀ ਨਕਲ ਨਾ ਬਣਾਓ।",
+            "ਸਪਸ਼ਟ ਅਗਲਾ ਕਦਮ ਚੁਣ ਕੇ Planner ਜਾਂ Schedule ਵਿੱਚ ਹਕੀਕਤੀ ਕੰਮ-ਸੈਸ਼ਨ ਰੱਖੋ। Canvas ਵਿੱਚ ਜਮ੍ਹਾਂ ਕਰਨ ਅਤੇ ਨਤੀਜਾ ਵੇਖਣ ਲਈ ਸਮਾਂ ਛੱਡੋ।",
+            "Canvas ਵਿੱਚ ਤਬਦੀਲੀ ਮਗਰੋਂ Nonlate ਤਾਜ਼ਾ ਕਰਕੇ ਕੰਮ ਮੁੜ ਵੇਖੋ। ਸਿੰਕ ਦਾ ਸਮਾਂ ਪ੍ਰਦਾਤਾ, ਪਲਾਨ, ਇਜਾਜ਼ਤਾਂ ਅਤੇ ਡਿਵਾਈਸ ਅਨੁਸਾਰ ਬਦਲਦਾ ਹੈ; ਤੁਰੰਤ ਅਪਡੇਟ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ।"
+          ]
+        },
+        {
+          "id": "protect-the-work",
+          "heading": "ਆਖ਼ਰੀ ਤਾਰੀਖਾਂ ਅਤੇ ਸਮਾਗਮ ਵੱਖ ਰੱਖ ਕੇ ਕੰਮ ਦਾ ਸਮਾਂ ਬਚਾਓ",
+          "paragraphs": [
+            "ਕੈਲੰਡਰ ਸਮਾਗਮ ਕਲਾਸ ਜਾਂ ਕੰਮ-ਸੈਸ਼ਨ ਯਾਦ ਕਰਵਾ ਸਕਦਾ ਹੈ। ਕੈਲੰਡਰ ਸਮਾਗਮ Nonlate ਦੀ ਰੋਕ ਚਾਲੂ ਨਹੀਂ ਕਰਦੇ। ਚੁਣਿਆ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲਾ ਐਪ ਖੁੱਲ੍ਹਣ 'ਤੇ ਰੋਕ ਯੋਗ ਅਧੂਰੇ ਕੰਮ ਅਤੇ ਚੁਣਿਆ ਮਿਆਦ-ਦਾਇਰਾ ਜਾਂਚਦੀ ਹੈ। ਸਿਰਫ਼ ਅਸਾਈਨਮੈਂਟ ਤਹਿ ਕਰਨ ਨਾਲ ਆਖ਼ਰੀ ਤਾਰੀਖ ਨਹੀਂ ਬਦਲਦੀ ਜਾਂ ਸਮਾਂਬੱਧ ਲੌਕ ਨਹੀਂ ਚਲਦਾ।",
+            "ਮੁਕੰਮਲ ਹੋਣ 'ਤੇ Canvas ਵਿੱਚ ਜਮ੍ਹਾਂ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਅਤੇ Nonlate ਵਿੱਚ ਸਥਿਤੀ ਵੇਖੋ। ਯੋਜਨਾਕਾਰ ਵਿੱਚ ਪੂਰਾ ਨਿਸ਼ਾਨ ਲਾਉਣ ਨਾਲ ਕੰਮ ਜਮ੍ਹਾਂ ਜਾਂ ਕੋਰਸ ਰਿਕਾਰਡ ਅਪਡੇਟ ਨਹੀਂ ਹੁੰਦਾ। Nonlate ਗੁਣਵੱਤਾ ਜਾਂ ਜਮ੍ਹਾਂ ਹੋਣਾ ਨਹੀਂ ਜਾਂਚਦਾ। ਹੋਰ ਯੋਗ ਅਧੂਰੇ ਕੰਮ ਰੋਕ ਚਾਲੂ ਰੱਖ ਸਕਦੇ ਹਨ; ਸਮਰਥਿਤ ਸਮਾਂਬੱਧ ਵਿਰਾਮ ਉਪਲਬਧ ਰਹਿੰਦੇ ਹਨ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ਕੀ Canvas ਜੋੜੇ ਬਿਨਾਂ ਯੋਜਨਾਕਾਰ ਵਰਤ ਸਕਦਾ ਹਾਂ?",
+          "answer": "ਹਾਂ। Nonlate ਦੇ Free ਪਲਾਨ ਵਿੱਚ ਹੱਥੀਂ ਕੰਮ ਅਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਤਿੰਨ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੇ ਐਪਾਂ ਦੀ ਬੁਨਿਆਦੀ ਰੋਕ ਹੈ। ਕੰਮ ਆਪ ਭਰ ਕੇ ਤਬਦੀਲੀਆਂ Canvas ਵਿੱਚ ਵੇਖ ਸਕਦੇ ਹੋ।"
+        },
+        {
+          "question": "ਕੀ Canvas ਸਿੰਕ ਹਮੇਸ਼ਾਂ ਮੁਫ਼ਤ ਹੈ?",
+          "answer": "ਬਾਹਰੀ ਕਨੈਕਸ਼ਨਾਂ ਦੀਆਂ ਵੱਖ ਹੱਦਾਂ ਹਨ। ਚੋਣਵਾਂ 30 ਦਿਨਾਂ ਦਾ ਸਰੋਤ ਟ੍ਰਾਇਲ ਪਹਿਲੇ ਸਫਲ ਕਨੈਕਸ਼ਨ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇੱਕ ਵੇਲੇ ਇੱਕ ਸਰੋਤ ਦਿੰਦਾ ਹੈ। ਆਪਣੇ ਆਪ ਚਾਰਜ ਨਹੀਂ ਲੱਗਦਾ। ਮਿਆਦ ਮੁੱਕਣ 'ਤੇ ਬਾਹਰੀ ਸਿੰਕ ਰੁਕਦਾ ਹੈ; ਆਯਾਤ ਕੰਮ ਸਥਾਨਕ ਪੂਰਤੀ ਅਤੇ ਰੋਕ ਲਈ ਰਹਿੰਦੇ ਹਨ। ਸਿੰਕ ਜਾਰੀ ਰੱਖਣ ਲਈ ਢੁਕਵਾਂ ਭੁਗਤਾਨੀ ਪਲਾਨ ਚਾਹੀਦਾ ਹੈ।"
+        },
+        {
+          "question": "ਕੀ Nonlate ਮੇਰੀ ਅਸਾਈਨਮੈਂਟ ਜਮ੍ਹਾਂ ਕਰੇਗਾ?",
+          "answer": "ਨਹੀਂ। ਜਮ੍ਹਾਂ ਕਰਨ ਤੇ ਕੋਰਸ ਦੀਆਂ ਲੋੜਾਂ ਜਾਂਚਣ ਲਈ Canvas ਵਰਤੋ। Nonlate ਕੰਮ ਸਜਾਉਣ, ਯੋਜਨਾ ਅਤੇ ਚੁਣੇ ਧਿਆਨ ਭਟਕਾਅ ਰੋਕਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ; ਪੂਰਤੀ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ।"
         }
       ]
     }

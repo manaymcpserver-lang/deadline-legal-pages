@@ -17,13 +17,8 @@ g = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(g)
 DATA = ROOT / "app/guides/search-content"
 ORIGIN = "https://nonlate.app"
-UI = {
-    "en": {"answer": "The short answer", "toc": "In this guide", "faq": "Common questions", "related": "Related guides", "sources": "Further reading", "read": "Read the guide", "home": "Home", "guides": "Guides", "language": "Language", "disclosure": "Published by the maker of Nonlate. This guide explains our product, not an independent comparison.", "translation": "AI-assisted translation reviewed in this session; not native-speaker certification.", "app": "Download Nonlate on the App Store", "play": "Get Nonlate on Google Play", "plans": "Plans and source-trial details", "back": "All guides"},
-    "es": {"answer": "Respuesta breve", "toc": "En esta guía", "faq": "Preguntas frecuentes", "related": "Guías relacionadas", "sources": "Más información", "read": "Leer la guía", "home": "Inicio", "guides": "Guías", "language": "Idioma", "disclosure": "Publicada por el creador de Nonlate. Esta guía explica nuestro producto; no es una comparación independiente.", "translation": "Traducción asistida por IA y revisada en esta sesión; no certificada por un hablante nativo.", "app": "Descargar Nonlate en App Store", "play": "Obtener Nonlate en Google Play", "plans": "Planes y detalles de la prueba de fuentes", "back": "Todas las guías"},
-    "pt-BR": {"answer": "Resposta rápida", "toc": "Neste guia", "faq": "Perguntas frequentes", "related": "Guias relacionados", "sources": "Saiba mais", "read": "Ler o guia", "home": "Início", "guides": "Guias", "language": "Idioma", "disclosure": "Publicado pelo criador do Nonlate. Este guia explica nosso produto; não é uma comparação independente.", "translation": "Tradução assistida por IA e revisada nesta sessão; sem certificação de falante nativo.", "app": "Baixe o Nonlate na App Store", "play": "Instale o Nonlate pelo Google Play", "plans": "Planos e detalhes do teste de fontes", "back": "Todos os guias"},
-    "fr": {"answer": "La réponse en bref", "toc": "Dans ce guide", "faq": "Questions fréquentes", "related": "Guides associés", "sources": "Pour aller plus loin", "read": "Lire le guide", "home": "Accueil", "guides": "Guides", "language": "Langue", "disclosure": "Publié par le créateur de Nonlate. Ce guide présente notre produit ; il ne s’agit pas d’un comparatif indépendant.", "translation": "Traduction assistée par IA et relue pendant cette session ; sans certification par un locuteur natif.", "app": "Télécharger Nonlate sur l’App Store", "play": "Obtenir Nonlate sur Google Play", "plans": "Offres et conditions de l’essai des sources", "back": "Tous les guides"},
-    "de": {"answer": "Die kurze Antwort", "toc": "In diesem Leitfaden", "faq": "Häufige Fragen", "related": "Weitere Anleitungen", "sources": "Weiterführende Informationen", "read": "Anleitung lesen", "home": "Startseite", "guides": "Anleitungen", "language": "Sprache", "disclosure": "Vom Anbieter von Nonlate veröffentlicht. Diese Anleitung erklärt unser Produkt und ist kein unabhängiger Vergleich.", "translation": "KI-gestützte Übersetzung mit Prüfung in dieser Sitzung; keine muttersprachliche Zertifizierung.", "app": "Nonlate im App Store laden", "play": "Nonlate bei Google Play herunterladen", "plans": "Tarife und Testbedingungen für Quellen", "back": "Alle Anleitungen"},
-}
+UI = json.loads((ROOT / "app/guides/search-ui.json").read_text())
+SHARED_TERMS = {"Nonlate", "Canvas", "Google Classroom", "Todoist", "Plus", "Pro", "Focus Lock", "iPhone", "iOS", "Android", "App Store", "Google Play", "Live Sync", "Screen Time", "Planner", "Schedule", "Home", "FAQ"}
 
 
 def esc(value):
@@ -32,6 +27,10 @@ def esc(value):
 
 def route(locale, slug=""):
     return f'/guides/{"" if locale == "en" else locale + "/"}{slug + "/" if slug else ""}'
+
+
+def hreflang(locale):
+    return "tl" if locale == "fil" else locale
 
 
 def fragment(markup):
@@ -54,12 +53,19 @@ def static_shell(tree, locale, remove_alternates=False):
 
 
 def language_menu(guide, locale, css="guide-languages"):
-    links = "".join(f'<a href="{route(code, guide["slug"])}" lang="{code}" hreflang="{code}"' + (' aria-current="page"' if code == locale else '') + f'>{esc(g.NATIVE[code])}</a>' for code in guide["locales"])
+    links = "".join(f'<a href="{route(code, guide["slug"])}" lang="{code}" hreflang="{hreflang(code)}"' + (' aria-current="page"' if code == locale else '') + f'>{esc(g.NATIVE[code])}</a>' for code in guide["locales"])
     return f'<details class="{css}"><summary>{UI[locale]["language"]} · {esc(g.NATIVE[locale])}</summary><nav aria-label="{UI[locale]["language"]}">{links}</nav></details>'
 
 
 def load_guides():
     reviews = json.loads((DATA / "reviews.json").read_text())
+    if set(UI) != set(g.LOCALES):
+        raise ValueError("Guide interface must cover every supported website language")
+    for code, labels in UI.items():
+        if set(labels) != set(UI["en"]) or any(not isinstance(value, str) or not value.strip() for value in labels.values()):
+            raise ValueError(f"Incomplete guide interface: {code}")
+    if reviews.get("uiSha256") != hashlib.sha256((ROOT / "app/guides/search-ui.json").read_bytes()).hexdigest():
+        raise ValueError("Guide interface changed; review localized labels before publication")
     guides = []
     for path in sorted(DATA.glob("*.json")):
         if path.name == "reviews.json":
@@ -71,8 +77,8 @@ def load_guides():
         guide = json.loads(path.read_text())
         if not re.fullmatch(r"[a-z]+(?:-[a-z]+)*", guide["slug"]):
             raise ValueError("Invalid guide slug")
-        if set(guide["locales"]) != set(review["locales"]) or "en" not in guide["locales"]:
-            raise ValueError("Reviewed locale set differs")
+        if set(guide["locales"]) != set(g.LOCALES) or set(review["locales"]) != set(g.LOCALES):
+            raise ValueError(f"Every guide must cover all {len(g.LOCALES)} supported languages: {path.name}")
         baseline = guide["locales"]["en"]
         for code, copy in guide["locales"].items():
             if code not in UI or set(copy) != set(baseline):
@@ -97,6 +103,17 @@ def load_guides():
                     for child in value:
                         check(child)
             check(copy)
+            if code != "en":
+                def prose(value):
+                    if isinstance(value, str):
+                        return [value]
+                    if isinstance(value, list):
+                        return [s for child in value for s in prose(child)]
+                    return [s for key in sorted(value) if key != "id" for s in prose(value[key])]
+                original, translated = prose(baseline), prose(copy)
+                unchanged = [a for a, b in zip(original, translated) if a == b and a not in SHARED_TERMS and re.search(r"[A-Za-z]", a) and not re.match(r"^(?:https?://|mailto:)", a)]
+                if unchanged:
+                    raise ValueError(f"Untranslated article copy: {code}: {unchanged[0]}")
         guides.append(guide)
     if not guides or len({guide["slug"] for guide in guides}) != len(guides):
         raise ValueError("Missing or duplicate search guides")
@@ -121,8 +138,8 @@ def article_markup(guide, locale, all_guides):
     parts.append(f'<nav id="related" class="guide-toc" aria-label="{ui["related"]}"><h2>{ui["related"]}</h2><ul>')
     related = [other for other in all_guides if other["slug"] != guide["slug"]]
     for other in related:
-        target = locale if locale in other["locales"] else "en"
-        parts.append(f'<li><a href="{route(target, other["slug"])}" hreflang="{target}">{esc(other["locales"][target]["title"])}</a></li>')
+        target = locale
+        parts.append(f'<li><a href="{route(target, other["slug"])}" hreflang="{hreflang(target)}">{esc(other["locales"][target]["title"])}</a></li>')
     # Link the already-established pillar guide in the current language.
     pillar = ROOT / "translations/guides" / f"{locale}.json"
     title = "How to block distracting apps until your tasks are done"
@@ -132,12 +149,13 @@ def article_markup(guide, locale, all_guides):
     if guide.get("sources"):
         parts.append(f'<section id="sources" class="guide-notes"><h2>{ui["sources"]}</h2><ul>')
         # Source titles retain their original language, explicitly labelled.
-        parts.extend(f'<li><a href="{esc(s["url"])}" lang="en" hreflang="en">{esc(s["label"])}</a></li>' for s in guide["sources"])
+        parts.extend(f'<li><a href="{esc(s["url"])}" lang="en" hreflang="en" dir="ltr">{esc(s["label"])}</a></li>' for s in guide["sources"])
         parts.append('</ul></section>')
     parts.append('</article>')
     if locale != "en":
         parts.append(f'<p class="guide-translation-note">{ui["translation"]} <a href="{route("en", guide["slug"])}" hreflang="en" lang="en">English</a></p>')
-    parts.append(f'<a class="guide-back" href="{route(locale)}">← {ui["back"]}</a>')
+    arrow = "→" if locale in g.RTL else "←"
+    parts.append(f'<a class="guide-back" href="{route(locale)}">{arrow} {ui["back"]}</a>')
     return ''.join(parts)
 
 
@@ -171,7 +189,7 @@ def build_article(guide, locale, all_guides):
             node.children = replacement.children
     head = next(n for n in g.descendants(tree) if n.tag == "head")
     for target in [*guide["locales"], "x-default"]:
-        head.children.append(g.Node("link", [("rel", "alternate"), ("hreflang", target), ("href", ORIGIN + route("en" if target == "x-default" else target, guide["slug"]))]))
+        head.children.append(g.Node("link", [("rel", "alternate"), ("hreflang", hreflang(target)), ("href", ORIGIN + route("en" if target == "x-default" else target, guide["slug"]))]))
     graph = [{"@type": "Article", "headline": t["title"], "description": t["description"], "mainEntityOfPage": canonical, "datePublished": guide["published"], "dateModified": guide["published"], "inLanguage": locale, "author": {"@type": "Organization", "name": "Nonlate", "url": ORIGIN + "/"}, "publisher": {"@type": "Organization", "name": "Nonlate"}, "image": ORIGIN + "/og-launch-2026-10.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": ui["home"], "item": ORIGIN + ("/" if locale == "en" else f"/{locale}/")}, {"@type": "ListItem", "position": 2, "name": ui["guides"], "item": ORIGIN + route(locale)}, {"@type": "ListItem", "position": 3, "name": t["title"], "item": canonical}]}]
     schema = g.Node("script", [("type", "application/ld+json")])
     schema.children = [g.Node(text=json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False).replace("<", "\\u003c"))]
@@ -194,10 +212,11 @@ def main():
         main_node = next(n for n in g.descendants(tree) if n.tag == "main")
         cards = []
         for guide in guides:
-            target = locale if locale in guide["locales"] else "en"
+            target = locale
             t, ui = guide["locales"][target], UI[target]
-            label = ui["read"] if target == locale else "Read in English"
-            cards.append(f'<article class="guide-card" lang="{target}" dir="ltr" data-search-guide="{guide["slug"]}"><h2><a href="{route(target, guide["slug"])}" hreflang="{target}">{esc(t["title"])}</a></h2><p>{esc(t["description"])}</p><p class="guide-byline">Nonlate · <time datetime="{guide["published"]}">{guide["published"]}</time></p><a class="guide-read-link" href="{route(target, guide["slug"])}" hreflang="{target}">{label} ↗</a></article>')
+            label = ui["read"]
+            direction = "rtl" if target in g.RTL else "ltr"
+            cards.append(f'<article class="guide-card" lang="{target}" dir="{direction}" data-search-guide="{guide["slug"]}"><h2><a href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{esc(t["title"])}</a></h2><p>{esc(t["description"])}</p><p class="guide-byline">Nonlate · <time datetime="{guide["published"]}">{guide["published"]}</time></p><a class="guide-read-link" href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{label} ↗</a></article>')
         main_node.children.extend(fragment('<div class="guides-list search-guides">' + ''.join(cards) + '</div>'))
         index.write_text(g.render(tree))
     sitemap = ROOT / "out/sitemap.xml"
