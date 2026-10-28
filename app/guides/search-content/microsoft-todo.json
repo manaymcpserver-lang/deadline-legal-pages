@@ -1,0 +1,2186 @@
+{
+  "slug": "microsoft-to-do-distraction-blocker",
+  "published": "2026-10-27",
+  "related": [
+    "todoist-distraction-blocker",
+    "block-distracting-apps-until-tasks-are-done"
+  ],
+  "sources": [
+    {
+      "label": "Microsoft: My Day and suggestions",
+      "url": "https://support.microsoft.com/en-us/todo/my-day-and-suggestions"
+    },
+    {
+      "label": "Microsoft: due dates and reminders",
+      "url": "https://support.microsoft.com/en-us/todo/add-due-dates-and-reminders-in-microsoft-to-do"
+    },
+    {
+      "label": "Nonlate: supported sources and plans",
+      "url": "https://nonlate.app/#integrations"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Microsoft To Do distraction blocker: turn due tasks into a focus boundary",
+      "description": "Connect supported Microsoft To Do tasks to Nonlate, distinguish My Day from due dates, and test deadline-aware app blocking without duplicating your lists.",
+      "intro": "A list can tell you what matters while your phone offers something easier. If Microsoft To Do already holds your work, a second manually maintained list creates more administration. Start with one dated task and check the connection before trusting it with an important deadline.",
+      "answer": "Nonlate supports Microsoft To Do as a source. Connect the correct account, inspect imported dates and unfinished status, then choose distracting apps and a due-work window. Eligible unfinished tasks can trigger blocking when you open a selected app. Calendar events do not trigger blocking.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "My Day, reminders and deadlines serve different purposes",
+          "paragraphs": [
+            "My Day selects what you want to work on today. Microsoft To Do also has separate due-date and reminder controls. Adding an item to My Day is not proof that Nonlate received a due date. Check the actual imported task rather than assuming every source field has the same meaning.",
+            "For example, prepare a report today even if it is due Friday. Keep the real deadline, plan a work session separately, and check how Nonlate displays the date. Planning a session does not move the deadline or start a timed lock."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Test a small connected workflow",
+          "paragraphs": [
+            "Follow the Microsoft To Do connection offered in Nonlate. Account type, permissions, app version and organization settings can affect access; do not assume every work or school account behaves identically."
+          ],
+          "steps": [
+            "Connect the intended Microsoft account, refresh, and compare one supported task with its original title, date and status. Avoid duplicating every item manually.",
+            "Choose a due-work window and a few distracting apps. Grant the required device permissions while keeping essential communication and work tools accessible.",
+            "Finish the real work, check the task in Microsoft To Do, and refresh Nonlate to confirm its imported state. Another eligible unfinished task may still trigger blocking."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "If an update or a block behaves unexpectedly",
+          "paragraphs": [
+            "Check the account, connectivity, permissions and imported date before changing your task list. Sync timing varies with provider, plan and device background limits; source changes are not guaranteed to arrive immediately.",
+            "Supported timed breaks remain available. A revoked permission, an active break or a task outside the due window can explain an app opening. Blocking adds friction; it does not verify work quality or guarantee completion."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Does My Day itself control blocking?",
+          "answer": "No. Review eligible unfinished due tasks in Nonlate and your chosen window. Do not treat My Day membership, a reminder or a calendar meeting as the blocking rule."
+        },
+        {
+          "question": "Can I try this without paying?",
+          "answer": "Free includes manual tasks and core blocking for up to three distracting apps. The optional 30-day source trial begins with the first successful connection, allows one source at a time and has no automatic charge. Afterward, sync pauses without eligible paid access; imported tasks remain available for local completion and blocking."
+        }
+      ]
+    },
+    "es": {
+      "title": "Bloqueador de distracciones para Microsoft To Do: tus tareas antes que las apps",
+      "description": "Conecta tareas compatibles de Microsoft To Do con Nonlate, distingue Mi día del vencimiento y prueba el bloqueo sin duplicar tus listas.",
+      "intro": "Una lista muestra lo importante, pero el teléfono ofrece distracciones. Si ya organizas el trabajo en Microsoft To Do, mantener otra lista añade esfuerzo. Prueba primero una tarea con fecha antes de depender de la conexión para una entrega importante.",
+      "answer": "Nonlate admite Microsoft To Do como fuente. Conecta la cuenta correcta, comprueba las fechas y el estado pendiente importados y elige apps y un intervalo de vencimiento. Las tareas pendientes que cumplen los criterios pueden activar el bloqueo al abrir una app seleccionada. Los eventos del calendario no lo activan.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Mi día, recordatorios y vencimientos son distintos",
+          "paragraphs": [
+            "Mi día reúne lo que quieres hacer hoy. Microsoft To Do tiene controles separados para vencimientos y recordatorios. Añadir algo a Mi día no demuestra que Nonlate haya recibido una fecha de vencimiento. Revisa la tarea importada; los campos no tienen necesariamente el mismo significado.",
+            "Por ejemplo, prepara hoy un informe que vence el viernes. Conserva el plazo real, planifica una sesión aparte y comprueba la fecha en Nonlate. Planificar no cambia el vencimiento ni inicia un bloqueo temporizado."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Prueba un flujo conectado pequeño",
+          "paragraphs": [
+            "Sigue la conexión de Microsoft To Do ofrecida en Nonlate. El tipo de cuenta, los permisos, la versión y las restricciones de la organización pueden afectar al acceso; no todas las cuentas laborales o educativas funcionan igual."
+          ],
+          "steps": [
+            "Conecta la cuenta prevista, actualiza y compara el título, la fecha y el estado de una tarea compatible con el original. Evita duplicar todo manualmente.",
+            "Elige un intervalo de vencimiento y unas pocas apps. Concede los permisos necesarios y mantén accesibles las herramientas esenciales de trabajo y comunicación.",
+            "Termina el trabajo real, comprueba la tarea en Microsoft To Do y actualiza Nonlate para confirmar el estado importado. Otra tarea pendiente compatible puede seguir activando el bloqueo."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Si la actualización o el bloqueo no responde como esperabas",
+          "paragraphs": [
+            "Revisa cuenta, conexión, permisos y fecha importada antes de cambiar la lista. La sincronización depende del proveedor, el plan y los límites de segundo plano; los cambios no aparecen siempre al instante.",
+            "Las pausas temporizadas compatibles siguen disponibles. Un permiso retirado, una pausa activa o una tarea fuera del intervalo pueden explicar que una app se abra. El bloqueo añade fricción; no verifica la calidad ni garantiza terminar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Mi día controla por sí mismo el bloqueo?",
+          "answer": "No. Revisa en Nonlate las tareas pendientes compatibles y el intervalo elegido. Estar en Mi día, tener un recordatorio o una reunión no constituye la regla de bloqueo."
+        },
+        {
+          "question": "¿Puedo probarlo sin pagar?",
+          "answer": "Free incluye tareas manuales y bloqueo básico de hasta tres apps. La prueba opcional de fuentes dura 30 días desde la primera conexión correcta, permite una fuente a la vez y no cobra automáticamente. Después se pausa la sincronización sin acceso de pago compatible; las tareas importadas siguen disponibles para completarlas localmente y para el bloqueo."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bloqueur de distractions pour Microsoft To Do : les tâches avant les applications",
+      "description": "Connectez les tâches compatibles de Microsoft To Do à Nonlate, distinguez Ma journée des échéances et testez le blocage sans recopier vos listes.",
+      "intro": "Une liste rappelle les priorités, mais le téléphone propose des distractions. Si Microsoft To Do organise déjà votre travail, entretenir une deuxième liste ajoute des efforts. Testez une tâche datée avant de confier une échéance importante à la connexion.",
+      "answer": "Nonlate accepte Microsoft To Do comme source. Connectez le bon compte, vérifiez dates et état inachevé importés, puis choisissez les applications et la fenêtre d’échéance. Les tâches inachevées admissibles peuvent déclencher le blocage à l’ouverture d’une application sélectionnée. Les événements du calendrier ne le déclenchent pas.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Ma journée, rappels et échéances ont des rôles différents",
+          "paragraphs": [
+            "Ma journée sélectionne ce que vous voulez faire aujourd’hui. Microsoft To Do distingue date d’échéance et rappel. Ajouter une tâche à Ma journée ne prouve pas que Nonlate a reçu une échéance. Vérifiez la tâche importée sans supposer que tous les champs ont le même sens.",
+            "Par exemple, préparez aujourd’hui un rapport attendu vendredi. Gardez la vraie échéance, prévoyez une séance séparée et vérifiez la date dans Nonlate. Planifier ne modifie pas l’échéance et ne démarre pas un verrouillage minuté."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Testez une connexion simple",
+          "paragraphs": [
+            "Suivez la connexion Microsoft To Do proposée dans Nonlate. Type de compte, autorisations, version et règles de l’organisation peuvent limiter l’accès ; les comptes professionnels ou scolaires ne fonctionnent pas tous pareil."
+          ],
+          "steps": [
+            "Connectez le compte prévu, actualisez et comparez titre, date et état d’une tâche compatible à l’original. Évitez de tout recopier.",
+            "Choisissez une fenêtre d’échéance et quelques applications distrayantes. Accordez les autorisations nécessaires en gardant vos outils essentiels de travail et de communication accessibles.",
+            "Terminez réellement le travail, vérifiez la tâche dans Microsoft To Do et actualisez Nonlate pour confirmer l’état importé. Une autre tâche inachevée admissible peut maintenir le blocage."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Si la mise à jour ou le blocage surprend",
+          "paragraphs": [
+            "Vérifiez compte, connexion, autorisations et date importée avant de modifier la liste. La synchronisation dépend du fournisseur, de l’offre et des limites en arrière-plan ; les changements ne sont pas toujours immédiats.",
+            "Les pauses minutées compatibles restent disponibles. Une autorisation retirée, une pause active ou une tâche hors fenêtre peuvent expliquer l’ouverture d’une application. Le blocage crée un obstacle, sans vérifier la qualité du travail ni garantir son achèvement."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ma journée commande-t-elle directement le blocage ?",
+          "answer": "Non. Vérifiez les tâches inachevées admissibles et la fenêtre choisie dans Nonlate. Ma journée, un rappel ou une réunion ne constituent pas la règle de blocage."
+        },
+        {
+          "question": "Puis-je essayer sans payer ?",
+          "answer": "Free comprend les tâches manuelles et le blocage de base de trois applications maximum. L’essai facultatif des sources dure 30 jours dès la première connexion réussie, accepte une source à la fois et ne facture pas automatiquement. Ensuite, sans accès payant admissible, la synchronisation s’arrête ; les tâches importées restent utilisables pour l’achèvement local et le blocage."
+        }
+      ]
+    },
+    "hi": {
+      "title": "Microsoft To Do के साथ ध्यान भटकाने वाले ऐप रोकें: पहले काम पूरे करें",
+      "description": "Microsoft To Do के समर्थित काम Nonlate से जोड़ें, मेरा दिन और अंतिम तारीख का अंतर समझें और दोहरी सूची के बिना ब्लॉकिंग जाँचें।",
+      "intro": "सूची प्राथमिकताएँ बताती है, लेकिन फ़ोन ध्यान भटकाता है। अगर Microsoft To Do पहले से काम व्यवस्थित करता है, तो दूसरी सूची सँभालना अतिरिक्त बोझ है। महत्वपूर्ण समय-सीमा के लिए भरोसा करने से पहले तारीख वाला एक काम जाँचें।",
+      "answer": "Nonlate स्रोत के रूप में Microsoft To Do का समर्थन करता है। सही खाता जोड़ें, आयातित तारीख और अधूरी स्थिति जाँचें, फिर ऐप और देय काम की समय-सीमा चुनें। योग्य अधूरे काम चयनित ऐप खोलने पर ब्लॉकिंग सक्रिय कर सकते हैं। कैलेंडर इवेंट ऐसा नहीं करते।",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "मेरा दिन, रिमाइंडर और अंतिम तारीख अलग हैं",
+          "paragraphs": [
+            "मेरा दिन आज करना चाहने वाले काम चुनता है। देय तारीख और रिमाइंडर अलग सेटिंग हैं। मेरा दिन में जोड़ने का अर्थ नहीं कि Nonlate को देय तारीख मिली। आयातित काम जाँचें; स्रोत के सभी फ़ील्ड का एक अर्थ नहीं होता।",
+            "जैसे शुक्रवार को देय रिपोर्ट आज तैयार करें। असली अंतिम तारीख बनाए रखें, अलग कार्य-सत्र की योजना बनाएँ और Nonlate में तारीख देखें। योजना तारीख नहीं बदलती और समयबद्ध लॉक शुरू नहीं करती।"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "छोटा जुड़ा हुआ कार्यप्रवाह जाँचें",
+          "paragraphs": [
+            "Nonlate में उपलब्ध Microsoft To Do कनेक्शन का पालन करें। खाता प्रकार, अनुमतियाँ, संस्करण और संगठन के नियम पहुँच बदल सकते हैं; कार्यालय या स्कूल खाते अलग काम कर सकते हैं।"
+          ],
+          "steps": [
+            "सही खाता जोड़कर रीफ़्रेश करें और एक समर्थित काम का शीर्षक, तारीख और स्थिति मूल से मिलाएँ। हर चीज़ हाथ से दोबारा न लिखें।",
+            "देय काम की समय-सीमा और कुछ ध्यान भटकाने वाले ऐप चुनें। ज़रूरी डिवाइस अनुमतियाँ दें, मगर आवश्यक काम और संपर्क के साधन खुले रखें।",
+            "असली काम पूरा करें, Microsoft To Do में कार्य जाँचें और आयातित स्थिति की पुष्टि के लिए Nonlate रीफ़्रेश करें। अन्य योग्य अधूरा काम अब भी ब्लॉकिंग कर सकता है।"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "अपडेट या ब्लॉकिंग अपेक्षा से अलग हो तो",
+          "paragraphs": [
+            "सूची बदलने से पहले खाता, कनेक्शन, अनुमतियाँ और आयातित तारीख जाँचें। सिंक प्रदाता, प्लान और डिवाइस की बैकग्राउंड सीमाओं पर निर्भर है; बदलाव तुरंत दिखना तय नहीं।",
+            "समर्थित समयबद्ध ब्रेक उपलब्ध रहते हैं। हटाई गई अनुमति, सक्रिय ब्रेक या सीमा से बाहर कार्य ऐप खुलने का कारण हो सकते हैं। ब्लॉकिंग रुकावट बनाती है; काम की गुणवत्ता नहीं जाँचती और पूरा होने की गारंटी नहीं देती।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "क्या मेरा दिन सीधे ब्लॉकिंग नियंत्रित करता है?",
+          "answer": "नहीं। Nonlate में योग्य अधूरे देय काम और चुनी सीमा जाँचें। मेरा दिन में होना, रिमाइंडर या कैलेंडर मीटिंग ब्लॉकिंग का नियम नहीं है।"
+        },
+        {
+          "question": "क्या बिना भुगतान आज़मा सकता हूँ?",
+          "answer": "Free में मैन्युअल काम और तीन ऐप तक बुनियादी ब्लॉकिंग है। वैकल्पिक 30-दिन का स्रोत परीक्षण पहले सफल कनेक्शन से शुरू होता है, एक समय में एक स्रोत देता है और स्वतः शुल्क नहीं लेता। बाद में योग्य सशुल्क पहुँच न होने पर सिंक रुकता है; आयातित काम स्थानीय पूर्णता और ब्लॉकिंग के लिए रहते हैं।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "حظر المشتتات مع Microsoft To Do: أنجز المهام قبل فتح التطبيقات",
+      "description": "اربط مهام Microsoft To Do المدعومة بتطبيق Nonlate، وميّز «يومي» عن مواعيد الاستحقاق، وجرّب الحظر دون تكرار القوائم.",
+      "intro": "توضح القائمة أولوياتك، لكن الهاتف يقدم مشتتات. إذا كنت ترتب عملك في Microsoft To Do، فصيانة قائمة ثانية تزيد العبء. اختبر مهمة واحدة مؤرخة قبل الاعتماد على الربط في موعد مهم.",
+      "answer": "يدعم Nonlate استخدام Microsoft To Do كمصدر. اربط الحساب الصحيح، وراجع التواريخ وحالة عدم الاكتمال المستوردة، ثم اختر التطبيقات ونطاق الاستحقاق. قد تُفعّل المهام غير المكتملة المؤهلة الحظر عند فتح تطبيق مختار. أحداث التقويم لا تُفعّل الحظر.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "«يومي» والتذكيرات ومواعيد الاستحقاق أشياء مختلفة",
+          "paragraphs": [
+            "يحدد «يومي» ما تريد العمل عليه اليوم. للموعد والتذكير إعدادات منفصلة. إضافة مهمة إلى «يومي» لا تثبت أن Nonlate استلم موعد استحقاق. راجع المهمة المستوردة ولا تفترض تطابق معاني حقول المصدر.",
+            "مثلاً، جهّز اليوم تقريراً يستحق الجمعة. احتفظ بالموعد الحقيقي، وخطط لجلسة عمل منفصلة، وراجع التاريخ في Nonlate. التخطيط لا يغير الموعد ولا يبدأ قفلاً مؤقتاً."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "اختبر سير عمل متصلاً وبسيطاً",
+          "paragraphs": [
+            "اتبع الربط مع Microsoft To Do المتاح في Nonlate. يؤثر نوع الحساب والأذونات والإصدار وسياسات المؤسسة في الوصول؛ وقد تختلف حسابات العمل أو المدرسة."
+          ],
+          "steps": [
+            "اربط الحساب المقصود وحدّث البيانات، ثم قارن عنوان مهمة مدعومة وتاريخها وحالتها بالأصل. تجنب نسخ كل شيء يدوياً.",
+            "اختر نطاق استحقاق وبضعة تطبيقات مشتتة. امنح أذونات الجهاز المطلوبة مع إبقاء أدوات العمل والتواصل الضرورية متاحة.",
+            "أنجز العمل الفعلي، وراجع المهمة في Microsoft To Do، وحدّث Nonlate لتأكيد الحالة المستوردة. قد تبقى مهمة أخرى غير مكتملة ومؤهلة سبباً للحظر."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "إذا لم يعمل التحديث أو الحظر كما توقعت",
+          "paragraphs": [
+            "راجع الحساب والاتصال والأذونات والتاريخ المستورد قبل تغيير القائمة. تعتمد المزامنة على المزود والخطة وقيود عمل الجهاز في الخلفية؛ ولا يُضمن وصول التغييرات فوراً.",
+            "تبقى الاستراحات المؤقتة المدعومة متاحة. قد يفسر سحب إذن أو استراحة نشطة أو مهمة خارج النطاق فتح التطبيق. يضيف الحظر عائقاً؛ لكنه لا يتحقق من جودة العمل ولا يضمن إنجازه."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "هل يتحكم «يومي» وحده في الحظر؟",
+          "answer": "لا. راجع المهام المستحقة غير المكتملة والمؤهلة والنطاق المختار في Nonlate. الوجود في «يومي» أو التذكير أو اجتماع التقويم ليس قاعدة الحظر."
+        },
+        {
+          "question": "هل يمكنني التجربة دون دفع؟",
+          "answer": "تشمل Free المهام اليدوية والحظر الأساسي لما يصل إلى ثلاثة تطبيقات. تبدأ تجربة المصادر الاختيارية لمدة 30 يوماً عند أول ربط ناجح، وتسمح بمصدر واحد في كل مرة، دون خصم تلقائي. بعدها تتوقف المزامنة دون وصول مدفوع مؤهل؛ وتبقى المهام المستوردة متاحة للإكمال المحلي والحظر."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "Microsoft To Do 防分心指南：先处理到期任务，再打开应用",
+      "description": "将受支持的 Microsoft To Do 任务连接到 Nonlate，区分“我的一天”和截止日期，无需复制清单即可测试应用拦截。",
+      "intro": "清单列出了重点，手机却不断提供分心的机会。如果你已经用 Microsoft To Do 安排工作，再维护一份清单会增加负担。先用一个带日期的任务测试连接，再用于重要的截止事项。",
+      "answer": "Nonlate 支持将 Microsoft To Do 作为来源。连接正确账户，检查导入的日期和未完成状态，再选择应用与到期时间范围。打开所选应用时，符合条件的未完成任务可能触发拦截。日历事件不会触发拦截。",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "“我的一天”、提醒和截止日期各有用途",
+          "paragraphs": [
+            "“我的一天”用于选择今天想做的事情。截止日期和提醒分别设置。把任务加入“我的一天”，不代表 Nonlate 已收到截止日期。请检查实际导入的任务，不要假设所有来源字段含义相同。",
+            "例如，今天准备一份周五到期的报告。保留真实期限，另外安排工作时段，并检查 Nonlate 显示的日期。安排工作不会改变截止日期，也不会启动定时锁定。"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "先测试一个简单的连接流程",
+          "paragraphs": [
+            "按照 Nonlate 提供的 Microsoft To Do 连接步骤操作。账户类型、权限、应用版本和组织设置都可能影响访问；工作或学校账户的表现未必相同。"
+          ],
+          "steps": [
+            "连接目标 Microsoft 账户并刷新，将一个受支持任务的标题、日期和状态与原始任务比较。不要手动复制整个清单。",
+            "选择到期时间范围和少量容易分心的应用。授予所需设备权限，同时保留必要的工作和通信工具。",
+            "真正完成工作，在 Microsoft To Do 检查任务，再刷新 Nonlate 确认导入状态。其他符合条件的未完成任务仍可能触发拦截。"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "更新或拦截不符合预期时",
+          "paragraphs": [
+            "修改清单前，先检查账户、网络、权限和导入日期。同步速度取决于服务商、方案与设备后台限制；来源变化不保证立即显示。",
+            "受支持的定时休息仍可使用。权限被撤销、休息正在进行，或任务不在时间范围内，都可能解释应用为何能打开。拦截提供阻力，但不会验证工作质量，也不保证完成。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "“我的一天”本身会控制拦截吗？",
+          "answer": "不会。请在 Nonlate 检查符合条件的未完成到期任务及所选范围。“我的一天”中的归属、提醒或日历会议都不是拦截规则。"
+        },
+        {
+          "question": "可以不付费试用吗？",
+          "answer": "Free 包含手动任务和最多三个应用的基础拦截。可选的来源试用从首次成功连接起持续 30 天，同时允许一个来源，不会自动收费。之后如果没有符合条件的付费访问，同步会暂停；已导入任务仍可在本地完成并用于拦截。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Bloqueador de distrações para Microsoft To Do: tarefas antes dos aplicativos",
+      "description": "Conecte tarefas compatíveis do Microsoft To Do ao Nonlate, diferencie Meu Dia dos prazos e teste o bloqueio sem duplicar listas.",
+      "intro": "Uma lista mostra prioridades, mas o celular oferece distrações. Se o Microsoft To Do já organiza seu trabalho, manter outra lista dá mais trabalho. Teste primeiro uma tarefa com data antes de confiar na conexão para um prazo importante.",
+      "answer": "O Nonlate aceita Microsoft To Do como fonte. Conecte a conta correta, confira datas e estado pendente importados e escolha aplicativos e uma janela de vencimento. Tarefas pendentes elegíveis podem acionar o bloqueio ao abrir um aplicativo selecionado. Eventos de calendário não acionam bloqueios.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Meu Dia, lembretes e prazos são diferentes",
+          "paragraphs": [
+            "Meu Dia seleciona o que você quer fazer hoje. Datas de vencimento e lembretes têm controles separados. Adicionar algo ao Meu Dia não comprova que o Nonlate recebeu um vencimento. Confira a tarefa importada; nem todos os campos têm o mesmo significado.",
+            "Por exemplo, prepare hoje um relatório com prazo na sexta-feira. Preserve o prazo real, planeje uma sessão separada e confira a data no Nonlate. Planejar não muda o vencimento nem inicia um bloqueio com duração definida."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Teste uma conexão simples",
+          "paragraphs": [
+            "Siga a conexão do Microsoft To Do oferecida no Nonlate. Tipo de conta, permissões, versão e regras da organização afetam o acesso; contas profissionais ou escolares podem funcionar de formas diferentes."
+          ],
+          "steps": [
+            "Conecte a conta desejada, atualize e compare título, data e estado de uma tarefa compatível com o original. Evite copiar tudo manualmente.",
+            "Escolha uma janela de vencimento e poucos aplicativos. Conceda as permissões necessárias, mantendo ferramentas essenciais de trabalho e comunicação acessíveis.",
+            "Conclua o trabalho de verdade, confira a tarefa no Microsoft To Do e atualize o Nonlate para confirmar o estado importado. Outra tarefa pendente elegível ainda pode acionar o bloqueio."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Se a atualização ou o bloqueio surpreender",
+          "paragraphs": [
+            "Confira conta, conexão, permissões e data importada antes de alterar a lista. A sincronização depende do provedor, plano e limites de segundo plano do aparelho; mudanças não aparecem necessariamente na hora.",
+            "As pausas temporizadas compatíveis continuam disponíveis. Uma permissão revogada, pausa ativa ou tarefa fora da janela pode explicar a abertura de um aplicativo. O bloqueio cria uma barreira; não verifica a qualidade nem garante a conclusão."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Meu Dia controla o bloqueio sozinho?",
+          "answer": "Não. Confira no Nonlate as tarefas pendentes elegíveis e a janela escolhida. Estar no Meu Dia, ter um lembrete ou uma reunião não constitui a regra de bloqueio."
+        },
+        {
+          "question": "Posso experimentar sem pagar?",
+          "answer": "Free inclui tarefas manuais e bloqueio básico de até três aplicativos. O teste opcional de fontes dura 30 dias desde a primeira conexão bem-sucedida, permite uma fonte por vez e não cobra automaticamente. Depois, a sincronização pausa sem acesso pago elegível; as tarefas importadas continuam disponíveis para conclusão local e bloqueio."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Bloqueador de distrações para Microsoft To Do: tarefas antes das aplicações",
+      "description": "Ligue tarefas compatíveis do Microsoft To Do ao Nonlate, distinga O Meu Dia dos prazos e teste o bloqueio sem duplicar listas.",
+      "intro": "Uma lista mostra prioridades, mas o telemóvel oferece distrações. Se o Microsoft To Do já organiza o seu trabalho, manter outra lista aumenta o esforço. Teste uma tarefa datada antes de confiar na ligação para um prazo importante.",
+      "answer": "O Nonlate aceita Microsoft To Do como fonte. Ligue a conta certa, confirme datas e estado pendente importados e escolha aplicações e uma janela de vencimento. Tarefas pendentes elegíveis podem ativar o bloqueio ao abrir uma aplicação selecionada. Eventos do calendário não o ativam.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "O Meu Dia, lembretes e prazos são distintos",
+          "paragraphs": [
+            "O Meu Dia reúne o que pretende fazer hoje. Prazos e lembretes têm controlos separados. Adicionar uma tarefa a O Meu Dia não prova que o Nonlate recebeu um prazo. Confirme a tarefa importada; os campos podem ter significados diferentes.",
+            "Por exemplo, prepare hoje um relatório para sexta-feira. Preserve o prazo real, planeie uma sessão separadamente e confirme a data no Nonlate. Planear não altera o prazo nem inicia um bloqueio temporizado."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Teste uma ligação simples",
+          "paragraphs": [
+            "Siga a ligação ao Microsoft To Do oferecida no Nonlate. Tipo de conta, permissões, versão e regras da organização afetam o acesso; as contas profissionais ou escolares podem funcionar de forma diferente."
+          ],
+          "steps": [
+            "Ligue a conta pretendida, atualize e compare título, data e estado de uma tarefa compatível com o original. Evite copiar tudo manualmente.",
+            "Escolha uma janela de vencimento e poucas aplicações. Conceda as permissões necessárias, mantendo ferramentas essenciais de trabalho e comunicação acessíveis.",
+            "Termine o trabalho real, confirme a tarefa no Microsoft To Do e atualize o Nonlate para verificar o estado importado. Outra tarefa pendente elegível pode continuar a ativar o bloqueio."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Se a atualização ou o bloqueio surpreender",
+          "paragraphs": [
+            "Confirme conta, ligação, permissões e data importada antes de alterar a lista. A sincronização depende do fornecedor, plano e limites de segundo plano do dispositivo; as alterações não aparecem necessariamente de imediato.",
+            "As pausas temporizadas compatíveis continuam disponíveis. Uma permissão retirada, pausa ativa ou tarefa fora da janela pode explicar a abertura de uma aplicação. O bloqueio cria uma barreira; não verifica a qualidade nem garante a conclusão."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "O Meu Dia controla o bloqueio por si só?",
+          "answer": "Não. Confirme no Nonlate as tarefas pendentes elegíveis e a janela escolhida. Estar em O Meu Dia, ter um lembrete ou uma reunião não constitui a regra de bloqueio."
+        },
+        {
+          "question": "Posso experimentar sem pagar?",
+          "answer": "Free inclui tarefas manuais e bloqueio básico de até três aplicações. O teste opcional de fontes dura 30 dias desde a primeira ligação bem-sucedida, permite uma fonte de cada vez e não cobra automaticamente. Depois, a sincronização pausa sem acesso pago elegível; as tarefas importadas continuam disponíveis para conclusão local e bloqueio."
+        }
+      ]
+    },
+    "de": {
+      "title": "Microsoft To Do mit Ablenkungssperre: fällige Aufgaben vor sozialen Apps",
+      "description": "Verbinde unterstützte Microsoft-To-Do-Aufgaben mit Nonlate, unterscheide Mein Tag von Fälligkeiten und teste die Sperre ohne doppelte Listen.",
+      "intro": "Deine Liste zeigt Prioritäten, dein Handy bietet Ablenkung. Wenn Microsoft To Do deine Arbeit bereits organisiert, bedeutet eine zweite gepflegte Liste mehr Aufwand. Teste zuerst eine datierte Aufgabe, bevor du dich bei wichtigen Fristen auf die Verbindung verlässt.",
+      "answer": "Nonlate unterstützt Microsoft To Do als Quelle. Verbinde das richtige Konto, prüfe importierte Daten und den unerledigten Status und wähle Apps sowie ein Fälligkeitsfenster. Passende unerledigte Aufgaben können beim Öffnen einer ausgewählten App die Sperre auslösen. Kalendertermine lösen sie nicht aus.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Mein Tag, Erinnerungen und Fälligkeiten unterscheiden sich",
+          "paragraphs": [
+            "Mein Tag enthält die Arbeit, die du heute angehen möchtest. Fälligkeitsdatum und Erinnerung sind separate Einstellungen. Ein Eintrag in Mein Tag beweist nicht, dass Nonlate ein Fälligkeitsdatum erhalten hat. Prüfe die importierte Aufgabe, statt alle Quellfelder gleichzusetzen.",
+            "Bereite etwa heute einen Bericht vor, der Freitag fällig ist. Behalte die echte Frist, plane die Arbeit separat und prüfe das Datum in Nonlate. Eine Arbeitssitzung zu planen verschiebt keine Frist und startet keine zeitgesteuerte Sperre."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Teste einen kleinen verbundenen Ablauf",
+          "paragraphs": [
+            "Folge der Microsoft-To-Do-Verbindung in Nonlate. Kontotyp, Berechtigungen, App-Version und Organisationsregeln können den Zugriff beeinflussen; Arbeits- und Schulkonten funktionieren nicht immer gleich."
+          ],
+          "steps": [
+            "Verbinde das vorgesehene Konto, aktualisiere und vergleiche Titel, Datum und Status einer unterstützten Aufgabe mit dem Original. Kopiere nicht jede Aufgabe manuell.",
+            "Wähle ein Fälligkeitsfenster und wenige ablenkende Apps. Erteile nötige Geräteberechtigungen und halte wichtige Arbeits- und Kommunikationsmittel zugänglich.",
+            "Erledige die tatsächliche Arbeit, prüfe die Aufgabe in Microsoft To Do und aktualisiere Nonlate, um den importierten Status zu bestätigen. Weitere passende unerledigte Aufgaben können weiterhin sperren."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Wenn Aktualisierung oder Sperre unerwartet reagieren",
+          "paragraphs": [
+            "Prüfe Konto, Verbindung, Berechtigungen und importiertes Datum, bevor du die Liste änderst. Synchronisierung hängt von Anbieter, Tarif und Hintergrundgrenzen des Geräts ab; Änderungen erscheinen nicht garantiert sofort.",
+            "Unterstützte zeitlich begrenzte Pausen bleiben verfügbar. Entzogene Berechtigungen, eine aktive Pause oder Aufgaben außerhalb des Fensters können das Öffnen erklären. Die Sperre schafft eine Hürde, prüft jedoch keine Arbeitsqualität und garantiert keine Fertigstellung."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Steuert Mein Tag allein die Sperre?",
+          "answer": "Nein. Prüfe passende unerledigte fällige Aufgaben und dein Fenster in Nonlate. Mein Tag, eine Erinnerung oder ein Kalendertermin ersetzen die Sperrregel nicht."
+        },
+        {
+          "question": "Kann ich es kostenlos ausprobieren?",
+          "answer": "Free bietet manuelle Aufgaben und die grundlegende Sperre für bis zu drei Apps. Der optionale 30-Tage-Quellentest beginnt mit der ersten erfolgreichen Verbindung, erlaubt eine Quelle gleichzeitig und berechnet nichts automatisch. Danach pausiert die Synchronisierung ohne passenden kostenpflichtigen Zugang; importierte Aufgaben bleiben lokal abschließbar und für die Sperre verfügbar."
+        }
+      ]
+    },
+    "ja": {
+      "title": "Microsoft To Doとアプリ制限：期限のあるタスクを先に進める",
+      "description": "Microsoft To Doの対応タスクをNonlateに接続し、「今日の予定」と期限を区別して、リストを複製せずアプリ制限を試します。",
+      "intro": "リストで優先順位が分かっていても、スマートフォンには誘惑があります。Microsoft To Doですでに仕事を整理しているなら、別のリストの管理は負担です。重要な期限で頼る前に、日付のあるタスクを一つ試しましょう。",
+      "answer": "NonlateはMicrosoft To Doをソースとしてサポートします。正しいアカウントを接続し、読み込まれた日付と未完了状態を確認して、対象アプリと期限の対象範囲を選びます。条件に合う未完了タスクは、選択したアプリを開く際に制限を作動させることがあります。カレンダーの予定は作動条件ではありません。",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "「今日の予定」、通知、期限は別のもの",
+          "paragraphs": [
+            "「今日の予定」は今日取り組みたい作業を選ぶ機能です。期限と通知は別々に設定します。「今日の予定」に入れただけではNonlateが期限を受け取ったとは限りません。読み込まれたタスクを確認し、すべての項目が同じ意味だと思わないでください。",
+            "例えば、金曜日が期限の報告書を今日準備します。実際の期限を保ち、作業時間は別に計画してNonlateの日付を確認します。計画しても期限は変わらず、時間指定のロックも始まりません。"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "小さな接続フローで確認する",
+          "paragraphs": [
+            "Nonlateに表示されるMicrosoft To Doの接続手順に従います。アカウントの種類、権限、バージョン、組織の設定によって利用可否は異なります。職場や学校のアカウントがすべて同じとは限りません。"
+          ],
+          "steps": [
+            "目的のアカウントを接続して更新し、対応タスク一つの名前、日付、状態を元のタスクと比較します。すべてを手入力で複製しないようにします。",
+            "期限の対象範囲と、気を取られるアプリを少数選びます。必要な端末権限を許可し、重要な仕事や連絡の手段は使える状態にしておきます。",
+            "実際の作業を終え、Microsoft To Doでタスクを確認し、Nonlateを更新して読み込み後の状態を確かめます。別の対象未完了タスクがあれば制限は続くことがあります。"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "更新や制限が予想と違う場合",
+          "paragraphs": [
+            "リストを変更する前に、アカウント、接続、権限、読み込まれた日付を確認します。同期速度はサービス、プラン、端末のバックグラウンド制限に左右され、変更が即座に反映される保証はありません。",
+            "対応する時間制の休憩は引き続き利用できます。権限の解除、休憩中、範囲外のタスクは、アプリが開く理由になり得ます。制限は行動のハードルを作るもので、仕事の質の確認や完了の保証はしません。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "「今日の予定」自体が制限を決めますか？",
+          "answer": "いいえ。Nonlateの対象となる期限付き未完了タスクと選択範囲を確認してください。「今日の予定」への追加、通知、カレンダーの会議は制限ルールではありません。"
+        },
+        {
+          "question": "無料で試せますか？",
+          "answer": "Freeには手入力タスクと最大3アプリの基本制限が含まれます。任意の30日間ソース試用は最初の接続成功時に始まり、同時に1ソースを利用でき、自動課金はありません。その後は対象の有料利用権がないと同期が停止しますが、読み込み済みタスクは端末内での完了と制限に使えます。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Pemblokir gangguan untuk Microsoft To Do: tugas sebelum aplikasi",
+      "description": "Hubungkan tugas Microsoft To Do yang didukung ke Nonlate, bedakan Hari Saya dari tenggat, dan uji pemblokiran tanpa menggandakan daftar.",
+      "intro": "Daftar menunjukkan prioritas, tetapi ponsel menawarkan gangguan. Jika Microsoft To Do sudah mengatur pekerjaan, daftar kedua menambah perawatan. Uji satu tugas bertanggal sebelum mengandalkan koneksi untuk tenggat penting.",
+      "answer": "Nonlate mendukung Microsoft To Do sebagai sumber. Hubungkan akun yang benar, periksa tanggal dan status belum selesai yang diimpor, lalu pilih aplikasi dan rentang tenggat. Tugas belum selesai yang memenuhi syarat dapat memicu blokir saat aplikasi pilihan dibuka. Acara kalender tidak memicu blokir.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Hari Saya, pengingat, dan tenggat berbeda",
+          "paragraphs": [
+            "Hari Saya memilih pekerjaan yang ingin dilakukan hari ini. Tenggat dan pengingat memiliki pengaturan terpisah. Menambah tugas ke Hari Saya bukan bukti Nonlate menerima tenggat. Periksa tugas impor; tidak semua kolom sumber bermakna sama.",
+            "Misalnya, siapkan hari ini laporan yang jatuh tempo Jumat. Pertahankan tenggat asli, rencanakan sesi kerja terpisah, dan periksa tanggal di Nonlate. Perencanaan tidak mengubah tenggat atau memulai kunci berwaktu."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Uji alur terhubung yang sederhana",
+          "paragraphs": [
+            "Ikuti koneksi Microsoft To Do di Nonlate. Jenis akun, izin, versi, dan aturan organisasi memengaruhi akses; akun kerja atau sekolah dapat berbeda."
+          ],
+          "steps": [
+            "Hubungkan akun tujuan, segarkan, lalu bandingkan judul, tanggal, dan status satu tugas yang didukung dengan aslinya. Jangan menyalin semuanya secara manual.",
+            "Pilih rentang tenggat dan beberapa aplikasi pengganggu. Berikan izin perangkat yang dibutuhkan, sambil menjaga alat kerja dan komunikasi penting tetap tersedia.",
+            "Selesaikan pekerjaan sebenarnya, periksa tugas di Microsoft To Do, lalu segarkan Nonlate untuk memastikan status impor. Tugas belum selesai lain yang memenuhi syarat masih dapat memblokir."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Jika pembaruan atau blokir tidak sesuai harapan",
+          "paragraphs": [
+            "Periksa akun, koneksi, izin, dan tanggal impor sebelum mengubah daftar. Sinkronisasi bergantung pada penyedia, paket, dan batas latar belakang perangkat; perubahan tidak dijamin langsung muncul.",
+            "Jeda berwaktu yang didukung tetap tersedia. Izin dicabut, jeda aktif, atau tugas di luar rentang dapat menjelaskan aplikasi yang terbuka. Blokir memberi hambatan; bukan pemeriksaan mutu atau jaminan selesai."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Apakah Hari Saya langsung mengendalikan blokir?",
+          "answer": "Tidak. Periksa tugas belum selesai bertenggat yang memenuhi syarat dan rentang pilihan di Nonlate. Keanggotaan Hari Saya, pengingat, atau rapat kalender bukan aturan blokir."
+        },
+        {
+          "question": "Bisakah mencoba tanpa membayar?",
+          "answer": "Free mencakup tugas manual dan blokir dasar hingga tiga aplikasi. Uji sumber opsional 30 hari dimulai saat koneksi pertama berhasil, mengizinkan satu sumber sekaligus, tanpa tagihan otomatis. Setelahnya sinkronisasi berhenti tanpa akses berbayar yang memenuhi syarat; tugas impor tetap tersedia untuk penyelesaian lokal dan pemblokiran."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Блокировка отвлекающих приложений с Microsoft To Do: сначала задачи",
+      "description": "Подключите поддерживаемые задачи Microsoft To Do к Nonlate, отличайте «Мой день» от сроков и проверьте блокировку без дублирования списков.",
+      "intro": "Список показывает приоритеты, но телефон предлагает отвлечься. Если Microsoft To Do уже организует работу, второй список требует лишнего ухода. Проверьте одну задачу с датой, прежде чем доверять подключению важный срок.",
+      "answer": "Nonlate поддерживает Microsoft To Do как источник. Подключите нужный аккаунт, проверьте импортированные даты и незавершённое состояние, выберите приложения и окно сроков. Подходящие незавершённые задачи могут вызвать блокировку при открытии выбранного приложения. События календаря её не вызывают.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "«Мой день», напоминания и сроки различаются",
+          "paragraphs": [
+            "«Мой день» выбирает работу на сегодня. Срок и напоминание настраиваются отдельно. Добавление задачи в «Мой день» не доказывает, что Nonlate получил срок. Проверьте импортированную задачу: поля источника не обязательно означают одно и то же.",
+            "Например, сегодня подготовьте отчёт со сроком в пятницу. Сохраните настоящий срок, отдельно запланируйте работу и проверьте дату в Nonlate. Планирование не переносит срок и не запускает блокировку по таймеру."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Проверьте небольшой связанный процесс",
+          "paragraphs": [
+            "Следуйте подключению Microsoft To Do в Nonlate. Тип аккаунта, разрешения, версия и правила организации влияют на доступ; рабочие и учебные аккаунты могут различаться."
+          ],
+          "steps": [
+            "Подключите нужный аккаунт, обновите и сравните название, дату и статус одной поддерживаемой задачи с оригиналом. Не копируйте всё вручную.",
+            "Выберите окно сроков и несколько отвлекающих приложений. Выдайте необходимые разрешения устройства, сохранив доступ к важным рабочим инструментам и связи.",
+            "Выполните настоящую работу, проверьте задачу в Microsoft To Do и обновите Nonlate для подтверждения импортированного статуса. Другая подходящая незавершённая задача может продолжить блокировку."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Если обновление или блокировка работают неожиданно",
+          "paragraphs": [
+            "Перед изменением списка проверьте аккаунт, соединение, разрешения и импортированную дату. Синхронизация зависит от поставщика, тарифа и фоновых ограничений; изменения не всегда приходят сразу.",
+            "Поддерживаемые перерывы с таймером остаются доступны. Отозванное разрешение, активный перерыв или задача вне окна могут объяснить открытие приложения. Блокировка создаёт препятствие, но не проверяет качество работы и не гарантирует выполнение."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "«Мой день» сам управляет блокировкой?",
+          "answer": "Нет. Проверьте в Nonlate подходящие незавершённые задачи со сроком и выбранное окно. «Мой день», напоминание или встреча не являются правилом блокировки."
+        },
+        {
+          "question": "Можно попробовать бесплатно?",
+          "answer": "Free включает ручные задачи и базовую блокировку до трёх приложений. Необязательная 30-дневная проба источников начинается при первом успешном подключении, допускает один источник одновременно и не списывает деньги автоматически. Затем без подходящего платного доступа синхронизация приостанавливается; импортированные задачи остаются для локального завершения и блокировки."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Microsoft To Do와 방해 앱 차단: 먼저 기한 있는 작업부터",
+      "description": "Microsoft To Do의 지원 작업을 Nonlate에 연결하고 오늘 할 일과 마감일을 구분해, 목록을 복제하지 않고 차단을 시험하세요.",
+      "intro": "목록은 우선순위를 알려 주지만 휴대폰은 다른 유혹을 줍니다. 이미 Microsoft To Do로 일을 정리한다면 두 번째 목록은 관리 부담입니다. 중요한 마감에 의존하기 전에 날짜가 있는 작업 하나로 연결을 시험하세요.",
+      "answer": "Nonlate는 Microsoft To Do를 소스로 지원합니다. 올바른 계정을 연결하고 가져온 날짜와 미완료 상태를 확인한 뒤 앱과 기한 범위를 선택하세요. 조건에 맞는 미완료 작업은 선택한 앱을 열 때 차단을 유발할 수 있습니다. 캘린더 일정은 차단을 유발하지 않습니다.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "오늘 할 일, 알림, 마감일은 서로 다릅니다",
+          "paragraphs": [
+            "오늘 할 일은 오늘 처리하고 싶은 일을 선택하는 기능입니다. 기한과 알림은 별도로 설정됩니다. 오늘 할 일에 추가했다고 Nonlate가 기한을 받았다는 뜻은 아닙니다. 가져온 작업을 확인하고 모든 원본 필드의 의미가 같다고 가정하지 마세요.",
+            "예를 들어 금요일 마감 보고서를 오늘 준비하세요. 실제 기한은 유지하고 작업 시간을 별도로 계획한 뒤 Nonlate의 날짜를 확인하세요. 계획은 기한을 바꾸거나 시간제 잠금을 시작하지 않습니다."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "작은 연결 흐름부터 시험하세요",
+          "paragraphs": [
+            "Nonlate에 제공되는 Microsoft To Do 연결 절차를 따르세요. 계정 종류, 권한, 버전, 조직 설정이 접근에 영향을 주며 직장이나 학교 계정이 모두 같지는 않습니다."
+          ],
+          "steps": [
+            "원하는 계정을 연결하고 새로고침한 뒤, 지원 작업 하나의 제목·날짜·상태를 원본과 비교하세요. 모든 항목을 수동으로 복제하지 마세요.",
+            "기한 범위와 방해되는 앱 몇 개를 선택하세요. 필요한 기기 권한을 허용하되 필수 업무·연락 도구는 사용할 수 있게 두세요.",
+            "실제 일을 마치고 Microsoft To Do에서 작업을 확인한 뒤 Nonlate를 새로고침해 가져온 상태를 확인하세요. 다른 적격 미완료 작업은 계속 차단을 유발할 수 있습니다."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "업데이트나 차단이 예상과 다를 때",
+          "paragraphs": [
+            "목록을 바꾸기 전 계정, 연결, 권한, 가져온 날짜를 확인하세요. 동기화는 제공업체, 요금제, 기기 백그라운드 제한에 따라 달라지며 변경 사항의 즉시 반영은 보장되지 않습니다.",
+            "지원되는 시간제 휴식은 계속 이용할 수 있습니다. 취소된 권한, 진행 중인 휴식, 범위 밖의 작업은 앱이 열리는 이유일 수 있습니다. 차단은 진입 장벽을 만들 뿐 작업 품질을 검증하거나 완료를 보장하지 않습니다."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "오늘 할 일이 직접 차단을 제어하나요?",
+          "answer": "아니요. Nonlate에서 조건에 맞는 기한 있는 미완료 작업과 선택 범위를 확인하세요. 오늘 할 일 포함 여부, 알림, 캘린더 회의는 차단 규칙이 아닙니다."
+        },
+        {
+          "question": "무료로 시험할 수 있나요?",
+          "answer": "Free에는 수동 작업과 최대 3개 앱의 기본 차단이 포함됩니다. 선택형 30일 소스 체험은 첫 연결 성공 시 시작되고 한 번에 소스 하나를 허용하며 자동 결제되지 않습니다. 이후 적격 유료 이용 권한이 없으면 동기화가 중지되지만 가져온 작업은 로컬 완료와 차단에 계속 사용할 수 있습니다."
+        }
+      ]
+    },
+    "it": {
+      "title": "Blocco delle distrazioni per Microsoft To Do: prima le attività, poi le app",
+      "description": "Collega le attività compatibili di Microsoft To Do a Nonlate, distingui La mia giornata dalle scadenze e prova il blocco senza duplicare elenchi.",
+      "intro": "Un elenco mostra le priorità, ma il telefono offre distrazioni. Se Microsoft To Do organizza già il lavoro, mantenere un secondo elenco richiede più impegno. Prova una singola attività datata prima di affidare una scadenza importante alla connessione.",
+      "answer": "Nonlate supporta Microsoft To Do come origine. Collega l’account corretto, verifica date e stato incompleto importati, poi scegli app e intervallo di scadenza. Le attività incomplete idonee possono attivare il blocco aprendo un’app selezionata. Gli eventi del calendario non lo attivano.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "La mia giornata, promemoria e scadenze sono diversi",
+          "paragraphs": [
+            "La mia giornata raccoglie ciò che vuoi fare oggi. Data di scadenza e promemoria sono controlli separati. Aggiungere un elemento a La mia giornata non dimostra che Nonlate abbia ricevuto una scadenza. Controlla l’attività importata senza equiparare tutti i campi.",
+            "Per esempio, prepara oggi una relazione da consegnare venerdì. Mantieni la scadenza reale, pianifica una sessione separata e verifica la data in Nonlate. Pianificare non cambia la scadenza né avvia un blocco a tempo."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Prova un collegamento semplice",
+          "paragraphs": [
+            "Segui la connessione Microsoft To Do proposta da Nonlate. Tipo di account, autorizzazioni, versione e regole dell’organizzazione possono influire sull’accesso; gli account di lavoro o scuola non funzionano tutti allo stesso modo."
+          ],
+          "steps": [
+            "Collega l’account desiderato, aggiorna e confronta titolo, data e stato di un’attività compatibile con l’originale. Evita di ricopiare tutto manualmente.",
+            "Scegli un intervallo di scadenza e poche app. Concedi le autorizzazioni necessarie mantenendo accessibili gli strumenti essenziali di lavoro e comunicazione.",
+            "Termina il lavoro reale, verifica l’attività in Microsoft To Do e aggiorna Nonlate per confermare lo stato importato. Un’altra attività incompleta idonea può mantenere il blocco."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Se aggiornamenti o blocco sorprendono",
+          "paragraphs": [
+            "Controlla account, connessione, autorizzazioni e data importata prima di modificare l’elenco. La sincronizzazione dipende da fornitore, piano e limiti in background; le modifiche non arrivano sempre subito.",
+            "Le pause a tempo compatibili restano disponibili. Un’autorizzazione revocata, una pausa attiva o un’attività fuori intervallo possono spiegare l’apertura di un’app. Il blocco crea un ostacolo; non verifica la qualità né garantisce il completamento."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "La mia giornata controlla direttamente il blocco?",
+          "answer": "No. Controlla in Nonlate le attività incomplete idonee e l’intervallo scelto. La mia giornata, un promemoria o una riunione non costituiscono la regola di blocco."
+        },
+        {
+          "question": "Posso provare senza pagare?",
+          "answer": "Free comprende attività manuali e blocco di base di massimo tre app. La prova facoltativa delle origini dura 30 giorni dalla prima connessione riuscita, consente un’origine alla volta e non addebita automaticamente. Poi la sincronizzazione si sospende senza accesso a pagamento idoneo; le attività importate restano disponibili per completamento locale e blocco."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Microsoft To Do için dikkat dağıtan uygulama engelleyici: önce görevler",
+      "description": "Desteklenen Microsoft To Do görevlerini Nonlate’e bağlayın, Günüm ile son tarihleri ayırın ve listeleri çoğaltmadan engellemeyi deneyin.",
+      "intro": "Liste öncelikleri gösterir, telefon ise dikkatinizi dağıtır. İşinizi zaten Microsoft To Do düzenliyorsa ikinci bir liste ek bakım gerektirir. Önemli bir son tarihte bağlantıya güvenmeden önce tarihli tek bir görevi deneyin.",
+      "answer": "Nonlate kaynak olarak Microsoft To Do’yu destekler. Doğru hesabı bağlayın, aktarılan tarihleri ve tamamlanmamış durumu kontrol edin; uygulamalar ve son tarih aralığı seçin. Uygun tamamlanmamış görevler, seçili uygulamayı açarken engellemeyi tetikleyebilir. Takvim etkinlikleri tetiklemez.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Günüm, hatırlatıcılar ve son tarihler farklıdır",
+          "paragraphs": [
+            "Günüm bugün yapmak istediğiniz işleri seçer. Son tarih ve hatırlatıcı ayrı ayarlardır. Günüm’e eklemek, Nonlate’in son tarih aldığı anlamına gelmez. Aktarılan görevi kontrol edin; kaynak alanlarının anlamı aynı olmayabilir.",
+            "Örneğin cuma teslim edilecek raporu bugün hazırlayın. Gerçek son tarihi koruyun, çalışma oturumunu ayrıca planlayın ve Nonlate’te tarihi kontrol edin. Planlama son tarihi değiştirmez veya süreli kilit başlatmaz."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Küçük bir bağlı iş akışını deneyin",
+          "paragraphs": [
+            "Nonlate’te sunulan Microsoft To Do bağlantısını izleyin. Hesap türü, izinler, sürüm ve kurum kuralları erişimi etkiler; iş veya okul hesapları farklı çalışabilir."
+          ],
+          "steps": [
+            "İstediğiniz hesabı bağlayıp yenileyin; desteklenen bir görevin başlığını, tarihini ve durumunu aslıyla karşılaştırın. Her şeyi elle kopyalamayın.",
+            "Bir son tarih aralığı ve birkaç dikkat dağıtan uygulama seçin. Gerekli cihaz izinlerini verin, temel iş ve iletişim araçlarını erişilebilir bırakın.",
+            "Gerçek işi bitirin, Microsoft To Do’da görevi kontrol edin ve aktarılan durumu doğrulamak için Nonlate’i yenileyin. Uygun başka bir tamamlanmamış görev hâlâ engelleyebilir."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Güncelleme veya engelleme beklenmedik davranırsa",
+          "paragraphs": [
+            "Listeyi değiştirmeden hesap, bağlantı, izinler ve aktarılan tarihi kontrol edin. Eşitleme sağlayıcıya, plana ve arka plan sınırlarına bağlıdır; değişiklikler hemen gelmeyebilir.",
+            "Desteklenen süreli molalar kullanılabilir. İptal edilmiş izin, etkin mola veya aralık dışındaki görev uygulamanın açılmasını açıklayabilir. Engelleme bir engel oluşturur; iş kalitesini doğrulamaz veya bitirmeyi garanti etmez."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Günüm engellemeyi doğrudan kontrol eder mi?",
+          "answer": "Hayır. Nonlate’te uygun tamamlanmamış tarihli görevleri ve seçtiğiniz aralığı inceleyin. Günüm, hatırlatıcı veya takvim toplantısı engelleme kuralı değildir."
+        },
+        {
+          "question": "Ücretsiz deneyebilir miyim?",
+          "answer": "Free, elle eklenen görevleri ve en fazla üç uygulamanın temel engellemesini içerir. İsteğe bağlı 30 günlük kaynak denemesi ilk başarılı bağlantıyla başlar, aynı anda tek kaynağa izin verir ve otomatik ücret almaz. Sonrasında uygun ücretli erişim yoksa eşitleme durur; aktarılan görevler yerel tamamlama ve engelleme için kalır."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Chặn xao nhãng với Microsoft To Do: làm việc trước khi mở ứng dụng",
+      "description": "Kết nối tác vụ Microsoft To Do được hỗ trợ với Nonlate, phân biệt Ngày của Tôi với hạn chót và thử chặn mà không sao chép danh sách.",
+      "intro": "Danh sách cho biết ưu tiên, nhưng điện thoại lại gây xao nhãng. Nếu Microsoft To Do đã quản lý công việc, thêm danh sách thứ hai sẽ tốn công duy trì. Hãy thử một tác vụ có ngày trước khi dựa vào kết nối cho hạn chót quan trọng.",
+      "answer": "Nonlate hỗ trợ Microsoft To Do làm nguồn. Kết nối đúng tài khoản, kiểm tra ngày và trạng thái chưa xong đã nhập, rồi chọn ứng dụng và khoảng thời hạn. Tác vụ chưa xong đủ điều kiện có thể kích hoạt chặn khi mở ứng dụng được chọn. Sự kiện lịch không kích hoạt chặn.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Ngày của Tôi, lời nhắc và hạn chót khác nhau",
+          "paragraphs": [
+            "Ngày của Tôi chọn việc bạn muốn làm hôm nay. Hạn chót và lời nhắc có cài đặt riêng. Thêm tác vụ vào Ngày của Tôi không chứng minh Nonlate đã nhận hạn chót. Kiểm tra tác vụ đã nhập; các trường nguồn không nhất thiết cùng nghĩa.",
+            "Ví dụ, hôm nay chuẩn bị báo cáo đến hạn thứ Sáu. Giữ hạn thực, lập buổi làm việc riêng và kiểm tra ngày trong Nonlate. Lập kế hoạch không đổi hạn chót hay bắt đầu khóa hẹn giờ."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Thử quy trình kết nối nhỏ",
+          "paragraphs": [
+            "Làm theo kết nối Microsoft To Do trong Nonlate. Loại tài khoản, quyền, phiên bản và quy định tổ chức ảnh hưởng quyền truy cập; tài khoản công việc hay trường học có thể khác nhau."
+          ],
+          "steps": [
+            "Kết nối tài khoản mong muốn, làm mới rồi so sánh tiêu đề, ngày và trạng thái một tác vụ được hỗ trợ với bản gốc. Đừng sao chép mọi thứ bằng tay.",
+            "Chọn khoảng thời hạn và vài ứng dụng gây xao nhãng. Cấp quyền thiết bị cần thiết, giữ công cụ làm việc và liên lạc thiết yếu có thể sử dụng.",
+            "Hoàn tất công việc thực, kiểm tra tác vụ trong Microsoft To Do và làm mới Nonlate để xác nhận trạng thái đã nhập. Tác vụ chưa xong khác đủ điều kiện vẫn có thể gây chặn."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Khi cập nhật hoặc chặn không như mong đợi",
+          "paragraphs": [
+            "Kiểm tra tài khoản, kết nối, quyền và ngày đã nhập trước khi sửa danh sách. Đồng bộ tùy nhà cung cấp, gói và giới hạn nền của thiết bị; thay đổi không bảo đảm xuất hiện ngay.",
+            "Các khoảng nghỉ có hẹn giờ được hỗ trợ vẫn dùng được. Quyền bị thu hồi, đang nghỉ hoặc tác vụ ngoài khoảng có thể giải thích vì sao ứng dụng mở. Chặn tạo rào cản; không kiểm tra chất lượng hay bảo đảm hoàn thành."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ngày của Tôi có trực tiếp điều khiển chặn không?",
+          "answer": "Không. Kiểm tra tác vụ chưa xong đến hạn đủ điều kiện và khoảng đã chọn trong Nonlate. Ngày của Tôi, lời nhắc hay cuộc họp lịch không phải quy tắc chặn."
+        },
+        {
+          "question": "Có thể thử miễn phí không?",
+          "answer": "Free gồm tác vụ thủ công và chặn cơ bản tối đa ba ứng dụng. Dùng thử nguồn tùy chọn 30 ngày bắt đầu từ kết nối thành công đầu tiên, cho phép một nguồn mỗi lúc và không tự động thu phí. Sau đó đồng bộ tạm dừng nếu không có quyền trả phí phù hợp; tác vụ đã nhập vẫn dùng để hoàn tất cục bộ và chặn."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Blokowanie rozpraszaczy z Microsoft To Do: zadania przed aplikacjami",
+      "description": "Połącz obsługiwane zadania Microsoft To Do z Nonlate, odróżnij Mój dzień od terminów i sprawdź blokowanie bez dublowania list.",
+      "intro": "Lista pokazuje priorytety, ale telefon proponuje rozrywkę. Jeśli pracę organizujesz już w Microsoft To Do, druga lista wymaga dodatkowej obsługi. Najpierw przetestuj jedno zadanie z datą, zanim powierzysz połączeniu ważny termin.",
+      "answer": "Nonlate obsługuje Microsoft To Do jako źródło. Połącz właściwe konto, sprawdź zaimportowane daty i stan niewykonania, a następnie wybierz aplikacje i okno terminów. Kwalifikujące się niewykonane zadania mogą uruchamiać blokadę przy otwieraniu wybranej aplikacji. Wydarzenia kalendarza jej nie uruchamiają.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Mój dzień, przypomnienia i terminy mają różne role",
+          "paragraphs": [
+            "Mój dzień wybiera pracę na dziś. Termin i przypomnienie mają osobne ustawienia. Dodanie zadania do Mój dzień nie dowodzi, że Nonlate otrzymał termin. Sprawdź zaimportowane zadanie; pola źródła nie muszą znaczyć tego samego.",
+            "Na przykład przygotuj dziś raport z terminem na piątek. Zachowaj prawdziwy termin, zaplanuj osobną sesję pracy i sprawdź datę w Nonlate. Planowanie nie przesuwa terminu ani nie uruchamia blokady czasowej."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Przetestuj mały połączony przepływ pracy",
+          "paragraphs": [
+            "Skorzystaj z połączenia Microsoft To Do w Nonlate. Typ konta, uprawnienia, wersja i zasady organizacji wpływają na dostęp; konta służbowe lub szkolne mogą działać inaczej."
+          ],
+          "steps": [
+            "Połącz właściwe konto, odśwież i porównaj tytuł, datę oraz stan jednego obsługiwanego zadania z oryginałem. Nie przepisuj wszystkiego ręcznie.",
+            "Wybierz okno terminów i kilka rozpraszających aplikacji. Nadaj wymagane uprawnienia urządzenia, zachowując dostęp do niezbędnych narzędzi pracy i komunikacji.",
+            "Wykonaj rzeczywistą pracę, sprawdź zadanie w Microsoft To Do i odśwież Nonlate, by potwierdzić zaimportowany stan. Inne kwalifikujące się niewykonane zadanie nadal może blokować."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Gdy aktualizacja lub blokada zaskakuje",
+          "paragraphs": [
+            "Przed zmianą listy sprawdź konto, połączenie, uprawnienia i zaimportowaną datę. Synchronizacja zależy od dostawcy, planu i ograniczeń pracy w tle; zmiany nie zawsze pojawiają się natychmiast.",
+            "Obsługiwane przerwy czasowe pozostają dostępne. Cofnięte uprawnienie, aktywna przerwa lub zadanie poza oknem mogą wyjaśniać otwarcie aplikacji. Blokada tworzy przeszkodę; nie ocenia jakości pracy ani nie gwarantuje wykonania."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy Mój dzień sam steruje blokadą?",
+          "answer": "Nie. Sprawdź w Nonlate kwalifikujące się niewykonane zadania z terminem i wybrane okno. Mój dzień, przypomnienie lub spotkanie nie stanowią reguły blokowania."
+        },
+        {
+          "question": "Czy mogę wypróbować bez opłat?",
+          "answer": "Free obejmuje zadania ręczne i podstawowe blokowanie do trzech aplikacji. Opcjonalny 30-dniowy test źródeł zaczyna się przy pierwszym udanym połączeniu, pozwala na jedno źródło naraz i nie nalicza opłat automatycznie. Później synchronizacja zatrzymuje się bez odpowiedniego płatnego dostępu; zaimportowane zadania pozostają dostępne do lokalnego kończenia i blokowania."
+        }
+      ]
+    },
+    "fa": {
+      "title": "مسدودسازی حواس‌پرتی با Microsoft To Do: اول کار، بعد برنامه‌ها",
+      "description": "کارهای پشتیبانی‌شدهٔ Microsoft To Do را به Nonlate وصل کنید، «روز من» را از موعد جدا بدانید و بدون فهرست تکراری مسدودسازی را بیازمایید.",
+      "intro": "فهرست اولویت‌ها را نشان می‌دهد اما تلفن حواس را پرت می‌کند. اگر کارتان را در Microsoft To Do مدیریت می‌کنید، فهرست دوم نگهداری بیشتری می‌خواهد. پیش از اتکا به اتصال برای موعد مهم، یک کار تاریخ‌دار را آزمایش کنید.",
+      "answer": "Nonlate از Microsoft To Do به‌عنوان منبع پشتیبانی می‌کند. حساب درست را وصل کنید، تاریخ‌ها و وضعیت ناتمام واردشده را بررسی و برنامه‌ها و بازهٔ موعد را انتخاب کنید. کارهای ناتمام واجد شرایط ممکن است هنگام بازکردن برنامهٔ انتخابی مسدودسازی را فعال کنند. رویدادهای تقویم چنین اثری ندارند.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "«روز من»، یادآور و موعد متفاوت‌اند",
+          "paragraphs": [
+            "«روز من» کارهای موردنظر برای امروز را انتخاب می‌کند. موعد و یادآور تنظیمات جدا دارند. افزودن به «روز من» ثابت نمی‌کند Nonlate موعدی دریافت کرده است. کار واردشده را بررسی کنید؛ معنای همهٔ فیلدهای منبع یکسان نیست.",
+            "مثلاً امروز گزارشی با موعد جمعه را آماده کنید. موعد واقعی را نگه دارید، جلسهٔ کار را جدا برنامه‌ریزی کنید و تاریخ Nonlate را بررسی کنید. برنامه‌ریزی موعد را تغییر نمی‌دهد و قفل زمان‌دار را شروع نمی‌کند."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "یک جریان متصل کوچک را آزمایش کنید",
+          "paragraphs": [
+            "اتصال Microsoft To Do ارائه‌شده در Nonlate را دنبال کنید. نوع حساب، مجوزها، نسخه و قواعد سازمان بر دسترسی اثر می‌گذارند؛ حساب‌های کاری یا تحصیلی ممکن است متفاوت باشند."
+          ],
+          "steps": [
+            "حساب موردنظر را وصل و تازه‌سازی کنید؛ عنوان، تاریخ و وضعیت یک کار پشتیبانی‌شده را با اصل مقایسه کنید. همه‌چیز را دستی تکرار نکنید.",
+            "بازهٔ موعد و چند برنامهٔ حواس‌پرت‌کن را انتخاب کنید. مجوزهای لازم دستگاه را بدهید و ابزارهای ضروری کار و ارتباط را در دسترس بگذارید.",
+            "کار واقعی را تمام کنید، آن را در Microsoft To Do بررسی و Nonlate را برای تأیید وضعیت واردشده تازه‌سازی کنید. کار ناتمام واجد شرایط دیگری همچنان می‌تواند موجب مسدودسازی شود."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "اگر به‌روزرسانی یا مسدودسازی غیرمنتظره بود",
+          "paragraphs": [
+            "پیش از تغییر فهرست، حساب، اتصال، مجوزها و تاریخ واردشده را بررسی کنید. همگام‌سازی به ارائه‌دهنده، طرح و محدودیت‌های پس‌زمینه وابسته است؛ رسیدن فوری تغییرات تضمین نمی‌شود.",
+            "استراحت‌های زمان‌دار پشتیبانی‌شده همچنان در دسترس‌اند. مجوز لغوشده، استراحت فعال یا کار خارج از بازه ممکن است بازشدن برنامه را توضیح دهد. مسدودسازی مانع ایجاد می‌کند؛ کیفیت کار را نمی‌سنجد و اتمام را تضمین نمی‌کند."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "آیا «روز من» مستقیماً مسدودسازی را کنترل می‌کند؟",
+          "answer": "خیر. کارهای ناتمام موعددار واجد شرایط و بازهٔ انتخابی را در Nonlate بررسی کنید. حضور در «روز من»، یادآور یا جلسهٔ تقویم قانون مسدودسازی نیست."
+        },
+        {
+          "question": "آیا می‌توانم رایگان امتحان کنم؟",
+          "answer": "Free کارهای دستی و مسدودسازی پایهٔ حداکثر سه برنامه را دارد. آزمایش اختیاری ۳۰روزهٔ منابع با نخستین اتصال موفق شروع می‌شود، هم‌زمان یک منبع می‌پذیرد و هزینهٔ خودکار ندارد. سپس بدون دسترسی پولی واجد شرایط، همگام‌سازی متوقف می‌شود؛ کارهای واردشده برای تکمیل محلی و مسدودسازی باقی می‌مانند."
+        }
+      ]
+    },
+    "th": {
+      "title": "บล็อกสิ่งรบกวนร่วมกับ Microsoft To Do: ทำงานก่อนเปิดแอป",
+      "description": "เชื่อมงาน Microsoft To Do ที่รองรับกับ Nonlate แยกวันของฉันออกจากวันครบกำหนด และทดสอบการบล็อกโดยไม่ต้องทำรายการซ้ำ",
+      "intro": "รายการบอกลำดับความสำคัญ แต่มือถือมีสิ่งล่อใจ หากใช้ Microsoft To Do จัดงานอยู่แล้ว รายการอีกชุดจะเพิ่มภาระดูแล ลองงานที่มีวันที่หนึ่งงานก่อนพึ่งการเชื่อมต่อกับกำหนดส่งสำคัญ",
+      "answer": "Nonlate รองรับ Microsoft To Do เป็นแหล่งข้อมูล เชื่อมบัญชีให้ถูก ตรวจวันที่และสถานะยังไม่เสร็จที่นำเข้า แล้วเลือกแอปกับช่วงงานครบกำหนด งานค้างที่เข้าเงื่อนไขอาจกระตุ้นการบล็อกเมื่อเปิดแอปที่เลือก กิจกรรมปฏิทินไม่กระตุ้นการบล็อก",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "วันของฉัน การเตือน และวันครบกำหนดต่างกัน",
+          "paragraphs": [
+            "วันของฉันเลือกงานที่อยากทำวันนี้ วันครบกำหนดกับการเตือนตั้งค่าแยกกัน การเพิ่มงานในวันของฉันไม่ได้พิสูจน์ว่า Nonlate ได้รับวันครบกำหนด ตรวจงานที่นำเข้า อย่าคิดว่าทุกช่องข้อมูลมีความหมายเหมือนกัน",
+            "เช่น เตรียมรายงานวันนี้แม้ส่งวันศุกร์ เก็บกำหนดจริง วางแผนเวลาทำงานแยก และตรวจวันที่ใน Nonlate การวางแผนไม่เลื่อนกำหนดและไม่เริ่มล็อกแบบจับเวลา"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "ทดสอบขั้นตอนเชื่อมต่อเล็ก ๆ",
+          "paragraphs": [
+            "ทำตามการเชื่อม Microsoft To Do ที่มีใน Nonlate ประเภทบัญชี สิทธิ์ เวอร์ชันและกฎองค์กรอาจจำกัดการเข้าถึง บัญชีงานหรือโรงเรียนไม่ได้ทำงานเหมือนกันทั้งหมด"
+          ],
+          "steps": [
+            "เชื่อมบัญชีที่ต้องการ รีเฟรช แล้วเทียบชื่อ วันที่และสถานะของงานที่รองรับหนึ่งงานกับต้นฉบับ ไม่ต้องคัดลอกทุกงานด้วยมือ",
+            "เลือกช่วงงานครบกำหนดและแอปรบกวนไม่กี่แอป ให้สิทธิ์อุปกรณ์ที่จำเป็น โดยเก็บเครื่องมือทำงานและติดต่อสำคัญให้ใช้ได้",
+            "ทำงานจริงให้เสร็จ ตรวจงานใน Microsoft To Do แล้วรีเฟรช Nonlate เพื่อยืนยันสถานะนำเข้า งานค้างอื่นที่เข้าเงื่อนไขยังอาจทำให้บล็อกอยู่"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "เมื่อการอัปเดตหรือบล็อกไม่เป็นตามคาด",
+          "paragraphs": [
+            "ตรวจบัญชี อินเทอร์เน็ต สิทธิ์และวันที่นำเข้าก่อนแก้รายการ การซิงค์ขึ้นกับผู้ให้บริการ แผนและข้อจำกัดเบื้องหลังของอุปกรณ์ ไม่รับประกันว่าการเปลี่ยนแปลงจะแสดงทันที",
+            "ยังใช้ช่วงพักแบบจับเวลาที่รองรับได้ การถอนสิทธิ์ การพักที่ยังทำงาน หรืองานนอกช่วงอาจอธิบายว่าทำไมเปิดแอปได้ การบล็อกเพิ่มอุปสรรค ไม่ตรวจคุณภาพงานหรือรับประกันว่าจะทำเสร็จ"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "วันของฉันควบคุมการบล็อกโดยตรงหรือไม่?",
+          "answer": "ไม่ ตรวจงานค้างที่มีวันครบกำหนดและเข้าเงื่อนไขพร้อมช่วงที่เลือกใน Nonlate การอยู่ในวันของฉัน การเตือนหรือประชุมในปฏิทินไม่ใช่กฎบล็อก"
+        },
+        {
+          "question": "ลองโดยไม่จ่ายเงินได้ไหม?",
+          "answer": "Free มีงานเพิ่มเองและบล็อกพื้นฐานได้สูงสุดสามแอป การทดลองแหล่งข้อมูล 30 วันแบบเลือกใช้เริ่มเมื่อเชื่อมสำเร็จครั้งแรก ใช้ทีละหนึ่งแหล่ง และไม่เรียกเก็บเงินอัตโนมัติ หลังจากนั้นหากไม่มีสิทธิ์แบบชำระเงินที่รองรับ การซิงค์จะหยุด แต่งานที่นำเข้ายังคงใช้ทำเสร็จในเครื่องและใช้บล็อกได้"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Microsoft To Do met afleidingsblokkade: taken vóór sociale apps",
+      "description": "Koppel ondersteunde Microsoft To Do-taken aan Nonlate, onderscheid Mijn dag van deadlines en test blokkeren zonder dubbele lijsten.",
+      "intro": "Je lijst toont prioriteiten, maar je telefoon biedt afleiding. Als Microsoft To Do je werk al organiseert, vraagt een tweede lijst extra onderhoud. Test eerst één taak met datum voordat je bij een belangrijke deadline op de koppeling vertrouwt.",
+      "answer": "Nonlate ondersteunt Microsoft To Do als bron. Koppel het juiste account, controleer geïmporteerde datums en openstaande status en kies apps en een vervalvenster. Geschikte onvoltooide taken kunnen blokkeren wanneer je een gekozen app opent. Agenda-afspraken veroorzaken geen blokkade.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Mijn dag, herinneringen en deadlines verschillen",
+          "paragraphs": [
+            "Mijn dag bevat wat je vandaag wilt doen. Vervaldatums en herinneringen hebben aparte instellingen. Toevoegen aan Mijn dag bewijst niet dat Nonlate een vervaldatum ontving. Bekijk de geïmporteerde taak; bronvelden betekenen niet automatisch hetzelfde.",
+            "Bereid bijvoorbeeld vandaag een rapport voor dat vrijdag af moet. Behoud de echte deadline, plan apart een werksessie en controleer de datum in Nonlate. Plannen verplaatst de deadline niet en start geen tijdslot voor blokkering."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Test een kleine gekoppelde werkwijze",
+          "paragraphs": [
+            "Volg de Microsoft To Do-koppeling in Nonlate. Accounttype, rechten, appversie en organisatiebeleid beïnvloeden toegang; werk- en schoolaccounts werken niet allemaal hetzelfde."
+          ],
+          "steps": [
+            "Koppel het bedoelde account, vernieuw en vergelijk titel, datum en status van één ondersteunde taak met het origineel. Kopieer niet alles handmatig.",
+            "Kies een vervalvenster en enkele afleidende apps. Geef benodigde apparaatrechten en houd essentiële werk- en communicatiemiddelen bereikbaar.",
+            "Rond het echte werk af, controleer de taak in Microsoft To Do en vernieuw Nonlate om de geïmporteerde status te bevestigen. Een andere geschikte openstaande taak kan nog blokkeren."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Als synchronisatie of blokkeren onverwacht werkt",
+          "paragraphs": [
+            "Controleer account, verbinding, rechten en geïmporteerde datum voordat je de lijst verandert. Synchronisatie hangt af van aanbieder, abonnement en achtergrondbeperkingen; wijzigingen komen niet gegarandeerd direct door.",
+            "Ondersteunde tijdelijke pauzes blijven beschikbaar. Ingetrokken rechten, een actieve pauze of een taak buiten het venster kunnen verklaren waarom een app opent. Blokkeren vormt een drempel; het controleert geen werkkwaliteit en garandeert geen voltooiing."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bepaalt Mijn dag zelf de blokkade?",
+          "answer": "Nee. Controleer geschikte onvoltooide vervallende taken en je venster in Nonlate. Mijn dag, een herinnering of een vergadering is geen blokkeerregel."
+        },
+        {
+          "question": "Kan ik het gratis proberen?",
+          "answer": "Free bevat handmatige taken en basisblokkering voor maximaal drie apps. De optionele bronproef duurt 30 dagen vanaf de eerste geslaagde koppeling, staat één bron tegelijk toe en rekent niet automatisch af. Daarna pauzeert synchronisatie zonder geschikt betaald toegangsniveau; geïmporteerde taken blijven lokaal afvinkbaar en bruikbaar voor blokkering."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Блокування відволікальних застосунків із Microsoft To Do: спочатку завдання",
+      "description": "Підключіть підтримувані завдання Microsoft To Do до Nonlate, відрізняйте «Мій день» від термінів і перевірте блокування без дублювання списків.",
+      "intro": "Список показує пріоритети, але телефон пропонує відволіктися. Якщо Microsoft To Do вже впорядковує роботу, другий список потребує зайвого догляду. Перевірте одне датоване завдання, перш ніж покладатися на підключення для важливого терміну.",
+      "answer": "Nonlate підтримує Microsoft To Do як джерело. Підключіть потрібний обліковий запис, перевірте імпортовані дати й незавершений стан, виберіть застосунки та вікно термінів. Відповідні незавершені завдання можуть викликати блокування при відкритті вибраного застосунку. Події календаря його не викликають.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "«Мій день», нагадування й терміни різняться",
+          "paragraphs": [
+            "«Мій день» вибирає роботу на сьогодні. Термін і нагадування налаштовуються окремо. Додавання до «Мій день» не доводить, що Nonlate отримав термін. Перевірте імпортоване завдання: поля джерела не обов’язково означають те саме.",
+            "Наприклад, сьогодні підготуйте звіт із терміном у п’ятницю. Збережіть справжній термін, окремо заплануйте роботу й перевірте дату в Nonlate. Планування не переносить термін і не запускає часовий замок."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Перевірте невеликий пов’язаний процес",
+          "paragraphs": [
+            "Дотримуйтеся підключення Microsoft To Do в Nonlate. Тип облікового запису, дозволи, версія та правила організації впливають на доступ; робочі й навчальні записи можуть відрізнятися."
+          ],
+          "steps": [
+            "Підключіть потрібний запис, оновіть і порівняйте назву, дату та стан одного підтримуваного завдання з оригіналом. Не копіюйте все вручну.",
+            "Виберіть вікно термінів і кілька відволікальних застосунків. Надайте необхідні дозволи пристрою, зберігши доступ до важливих робочих інструментів і зв’язку.",
+            "Виконайте справжню роботу, перевірте завдання в Microsoft To Do та оновіть Nonlate для підтвердження імпортованого стану. Інше відповідне незавершене завдання може й далі блокувати."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Якщо оновлення чи блокування працює неочікувано",
+          "paragraphs": [
+            "Перед зміною списку перевірте обліковий запис, з’єднання, дозволи та імпортовану дату. Синхронізація залежить від постачальника, тарифу й фонових обмежень; зміни не завжди надходять негайно.",
+            "Підтримувані перерви з таймером залишаються доступними. Скасований дозвіл, активна перерва чи завдання поза вікном можуть пояснити відкриття застосунку. Блокування створює перешкоду, але не перевіряє якість і не гарантує завершення."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Чи «Мій день» сам керує блокуванням?",
+          "answer": "Ні. Перевірте в Nonlate відповідні незавершені завдання з терміном і вибране вікно. «Мій день», нагадування або зустріч не є правилом блокування."
+        },
+        {
+          "question": "Чи можна спробувати безкоштовно?",
+          "answer": "Free включає ручні завдання й базове блокування до трьох застосунків. Необов’язкова 30-денна проба джерел починається з першого успішного підключення, дозволяє одне джерело одночасно та не стягує плату автоматично. Далі без відповідного платного доступу синхронізація призупиняється; імпортовані завдання залишаються для локального завершення й блокування."
+        }
+      ]
+    },
+    "bn": {
+      "title": "Microsoft To Do দিয়ে মনোযোগ নষ্ট করা অ্যাপ বন্ধ রাখুন: আগে কাজ",
+      "description": "Microsoft To Do-এর সমর্থিত কাজ Nonlate-এ যুক্ত করুন, আমার দিন ও শেষ তারিখ আলাদা করুন এবং তালিকা নকল না করে ব্লকিং পরীক্ষা করুন।",
+      "intro": "তালিকা অগ্রাধিকার দেখায়, কিন্তু ফোন মনোযোগ সরায়। Microsoft To Do-তেই কাজ গোছানো থাকলে দ্বিতীয় তালিকা বাড়তি রক্ষণাবেক্ষণ। গুরুত্বপূর্ণ সময়সীমার জন্য ভরসার আগে তারিখসহ একটি কাজ পরীক্ষা করুন।",
+      "answer": "Nonlate উৎস হিসেবে Microsoft To Do সমর্থন করে। সঠিক অ্যাকাউন্ট যুক্ত করে আমদানি করা তারিখ ও অসম্পূর্ণ অবস্থা দেখুন, তারপর অ্যাপ ও নির্ধারিত সময়ের পরিসর বাছুন। উপযুক্ত অসম্পূর্ণ কাজ নির্বাচিত অ্যাপ খোলার সময় ব্লকিং চালু করতে পারে। ক্যালেন্ডার ইভেন্ট তা করে না।",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "আমার দিন, অনুস্মারক ও শেষ তারিখ আলাদা",
+          "paragraphs": [
+            "আমার দিন আজ করতে চান এমন কাজ বেছে নেয়। শেষ তারিখ ও অনুস্মারকের সেটিং আলাদা। আমার দিনে যোগ করলেই Nonlate শেষ তারিখ পেয়েছে প্রমাণ হয় না। আমদানি করা কাজ দেখুন; উৎসের সব ঘরের অর্থ এক নয়।",
+            "যেমন শুক্রবারের মধ্যে জমা দেওয়ার রিপোর্ট আজ তৈরি করুন। প্রকৃত সময়সীমা রাখুন, আলাদা কাজের সময় ঠিক করুন এবং Nonlate-এ তারিখ দেখুন। পরিকল্পনা সময়সীমা বদলায় না বা সময়বদ্ধ লক চালু করে না।"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "ছোট সংযুক্ত কর্মপ্রবাহ পরীক্ষা করুন",
+          "paragraphs": [
+            "Nonlate-এর Microsoft To Do সংযোগ অনুসরণ করুন। অ্যাকাউন্টের ধরন, অনুমতি, সংস্করণ ও প্রতিষ্ঠানের নিয়ম প্রবেশাধিকার বদলায়; অফিস বা স্কুল অ্যাকাউন্ট ভিন্ন হতে পারে।"
+          ],
+          "steps": [
+            "চাইছেন এমন অ্যাকাউন্ট যুক্ত করে রিফ্রেশ করুন; সমর্থিত একটি কাজের শিরোনাম, তারিখ ও অবস্থা মূলের সঙ্গে মেলান। সব হাতে নকল করবেন না।",
+            "সময়সীমার পরিসর ও কয়েকটি বিভ্রান্তিকর অ্যাপ বাছুন। প্রয়োজনীয় ডিভাইস অনুমতি দিন, জরুরি কাজ ও যোগাযোগের সরঞ্জাম চালু রাখুন।",
+            "আসল কাজ শেষ করে Microsoft To Do-তে দেখুন এবং আমদানি করা অবস্থা নিশ্চিত করতে Nonlate রিফ্রেশ করুন। অন্য উপযুক্ত অসম্পূর্ণ কাজ তখনো ব্লক করতে পারে।"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "আপডেট বা ব্লকিং অপ্রত্যাশিত হলে",
+          "paragraphs": [
+            "তালিকা বদলানোর আগে অ্যাকাউন্ট, সংযোগ, অনুমতি ও আমদানি করা তারিখ দেখুন। সিঙ্ক নির্ভর করে প্রদানকারী, প্ল্যান ও ডিভাইসের পটভূমি সীমার ওপর; পরিবর্তন সঙ্গে সঙ্গে আসার নিশ্চয়তা নেই।",
+            "সমর্থিত সময়বদ্ধ বিরতি পাওয়া যায়। সরানো অনুমতি, চলমান বিরতি বা পরিসরের বাইরের কাজ অ্যাপ খোলার কারণ হতে পারে। ব্লকিং বাধা তৈরি করে; কাজের মান যাচাই বা শেষ করার নিশ্চয়তা দেয় না।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "আমার দিন কি সরাসরি ব্লকিং নিয়ন্ত্রণ করে?",
+          "answer": "না। Nonlate-এ উপযুক্ত অসম্পূর্ণ নির্ধারিত কাজ ও নির্বাচিত পরিসর দেখুন। আমার দিনে থাকা, অনুস্মারক বা ক্যালেন্ডার মিটিং ব্লকিংয়ের নিয়ম নয়।"
+        },
+        {
+          "question": "বিনা খরচে পরীক্ষা করা যায়?",
+          "answer": "Free-তে হাতে যোগ করা কাজ ও সর্বোচ্চ তিনটি অ্যাপের মৌলিক ব্লকিং আছে। ঐচ্ছিক ৩০ দিনের উৎস পরীক্ষা প্রথম সফল সংযোগে শুরু হয়, একসঙ্গে একটি উৎস দেয় এবং স্বয়ংক্রিয় চার্জ নেই। পরে উপযুক্ত অর্থপ্রদত্ত প্রবেশাধিকার না থাকলে সিঙ্ক থামে; আমদানি করা কাজ স্থানীয়ভাবে শেষ করা ও ব্লকিংয়ের জন্য থাকে।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "Microsoft To Do کے ساتھ توجہ بٹانے والی ایپس روکیں: پہلے کام",
+      "description": "Microsoft To Do کے معاون کام Nonlate سے جوڑیں، میرا دن اور آخری تاریخ میں فرق سمجھیں اور فہرست نقل کیے بغیر بلاکنگ آزمائیں۔",
+      "intro": "فہرست ترجیحات دکھاتی ہے، مگر فون توجہ بٹاتا ہے۔ اگر Microsoft To Do پہلے ہی کام سنبھالتا ہے تو دوسری فہرست اضافی دیکھ بھال مانگتی ہے۔ اہم آخری تاریخ کے لیے بھروسا کرنے سے پہلے ایک تاریخ والا کام آزمائیں۔",
+      "answer": "Nonlate بطور ماخذ Microsoft To Do کو سپورٹ کرتا ہے۔ درست اکاؤنٹ جوڑیں، درآمد شدہ تاریخ اور نامکمل حالت دیکھیں، پھر ایپس اور مقررہ تاریخ کی حد منتخب کریں۔ موزوں نامکمل کام منتخب ایپ کھولنے پر بلاکنگ چلا سکتے ہیں۔ کیلنڈر واقعات بلاکنگ نہیں چلاتے۔",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "میرا دن، یاددہانیاں اور آخری تاریخ الگ ہیں",
+          "paragraphs": [
+            "میرا دن آج کرنے کے کام چنتا ہے۔ آخری تاریخ اور یاددہانی الگ سیٹنگز ہیں۔ میرا دن میں شامل کرنے سے ثابت نہیں ہوتا کہ Nonlate کو آخری تاریخ ملی۔ درآمد شدہ کام دیکھیں؛ ماخذ کے تمام خانے ایک ہی مطلب نہیں رکھتے۔",
+            "مثلاً جمعے کو واجب رپورٹ آج تیار کریں۔ اصل آخری تاریخ برقرار رکھیں، الگ کام کا وقت بنائیں اور Nonlate میں تاریخ دیکھیں۔ منصوبہ بندی تاریخ نہیں بدلتی اور وقت بند لاک شروع نہیں کرتی۔"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "چھوٹا مربوط طریقۂ کار آزمائیں",
+          "paragraphs": [
+            "Nonlate میں موجود Microsoft To Do کنکشن کی ہدایات اپنائیں۔ اکاؤنٹ کی قسم، اجازتیں، ورژن اور ادارے کے قواعد رسائی بدل سکتے ہیں؛ دفتری یا تعلیمی اکاؤنٹس مختلف ہو سکتے ہیں۔"
+          ],
+          "steps": [
+            "مطلوبہ اکاؤنٹ جوڑ کر ریفریش کریں اور ایک معاون کام کا عنوان، تاریخ اور حالت اصل سے ملائیں۔ سب کچھ دستی طور پر نقل نہ کریں۔",
+            "تاریخ کی حد اور چند توجہ بٹانے والی ایپس چنیں۔ ضروری ڈیوائس اجازتیں دیں، لیکن اہم کام اور رابطے کے اوزار قابل رسائی رکھیں۔",
+            "اصل کام مکمل کریں، Microsoft To Do میں اسے دیکھیں اور درآمد شدہ حالت کی تصدیق کے لیے Nonlate ریفریش کریں۔ کوئی دوسرا موزوں نامکمل کام اب بھی بلاک کر سکتا ہے۔"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "اگر اپ ڈیٹ یا بلاکنگ توقع کے خلاف ہو",
+          "paragraphs": [
+            "فہرست بدلنے سے پہلے اکاؤنٹ، کنکشن، اجازتیں اور درآمد شدہ تاریخ دیکھیں۔ سنک فراہم کنندہ، پلان اور پس منظر کی پابندیوں پر منحصر ہے؛ تبدیلی فوراً پہنچنا یقینی نہیں۔",
+            "معاون وقت بند وقفے دستیاب رہتے ہیں۔ واپس لی گئی اجازت، فعال وقفہ یا حد سے باہر کام ایپ کھلنے کی وجہ ہو سکتے ہیں۔ بلاکنگ رکاوٹ بناتی ہے؛ کام کا معیار نہیں جانچتی اور تکمیل کی ضمانت نہیں دیتی۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "کیا میرا دن براہ راست بلاکنگ چلاتا ہے؟",
+          "answer": "نہیں۔ Nonlate میں موزوں نامکمل تاریخ والے کام اور منتخب حد دیکھیں۔ میرا دن، یاددہانی یا کیلنڈر میٹنگ بلاکنگ کا اصول نہیں۔"
+        },
+        {
+          "question": "کیا بغیر ادائیگی آزما سکتا ہوں؟",
+          "answer": "Free میں دستی کام اور زیادہ سے زیادہ تین ایپس کی بنیادی بلاکنگ ہے۔ اختیاری 30 روزہ ماخذ آزمائش پہلی کامیاب کنکشن سے شروع، ایک وقت میں ایک ماخذ کی اجازت اور خودکار چارج کے بغیر ہے۔ بعد میں موزوں بامعاوضہ رسائی نہ ہو تو سنک رک جاتا ہے؛ درآمد شدہ کام مقامی تکمیل اور بلاکنگ کے لیے رہتے ہیں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "Microsoft To Do உடன் கவனச்சிதறல் செயலிகளைத் தடுக்கவும்: முதலில் பணிகள்",
+      "description": "Microsoft To Do-வின் ஆதரிக்கப்படும் பணிகளை Nonlate உடன் இணைத்து, எனது நாள் மற்றும் காலக்கெடுவை வேறுபடுத்தி, இரட்டைப் பட்டியல் இல்லாமல் தடுப்பைச் சோதிக்கவும்.",
+      "intro": "பட்டியல் முன்னுரிமையைக் காட்டினாலும் கைப்பேசி கவனத்தைச் சிதறடிக்கலாம். Microsoft To Do-வில் வேலை ஏற்கெனவே இருந்தால் மற்றொரு பட்டியல் பராமரிப்பை அதிகரிக்கும். முக்கியக் காலக்கெடுவுக்கு நம்பும் முன் தேதியுள்ள ஒரு பணியைச் சோதிக்கவும்.",
+      "answer": "Nonlate, Microsoft To Do-ஐ ஆதாரமாக ஆதரிக்கிறது. சரியான கணக்கை இணைத்து, இறக்குமதி தேதிகளையும் முடியாத நிலையையும் சரிபார்த்து, செயலிகளையும் காலக்கெடு வரம்பையும் தேர்ந்தெடுக்கவும். தகுதியான முடியாத பணிகள் தேர்ந்தெடுத்த செயலியைத் திறக்கும்போது தடுப்பை இயக்கலாம். நாள்காட்டி நிகழ்வுகள் தடுப்பை இயக்காது.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "எனது நாள், நினைவூட்டல், காலக்கெடு வெவ்வேறானவை",
+          "paragraphs": [
+            "எனது நாள் இன்று செய்ய விரும்பும் பணிகளைத் தேர்ந்தெடுக்கிறது. காலக்கெடு மற்றும் நினைவூட்டலுக்குத் தனி அமைப்புகள் உள்ளன. எனது நாளில் சேர்ப்பது Nonlate காலக்கெடுவைப் பெற்றதற்குச் சான்றல்ல. இறக்குமதிப் பணியைப் பார்க்கவும்; அனைத்து ஆதாரப் புலங்களின் பொருளும் ஒன்றல்ல.",
+            "உதாரணமாக வெள்ளிக்கிழமைக்குள் முடிக்க வேண்டிய அறிக்கையை இன்று தயாரிக்கவும். உண்மையான காலக்கெடுவை வைத்துக்கொண்டு, வேலை நேரத்தைத் தனியாகத் திட்டமிட்டு Nonlate தேதியைப் பார்க்கவும். திட்டமிடுதல் காலக்கெடுவை மாற்றாது அல்லது நேரப் பூட்டைத் தொடங்காது."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "சிறிய இணைந்த பணிமுறையைச் சோதிக்கவும்",
+          "paragraphs": [
+            "Nonlate-இல் வழங்கப்படும் Microsoft To Do இணைப்பைப் பின்பற்றவும். கணக்கு வகை, அனுமதிகள், பதிப்பு, நிறுவன விதிகள் அணுகலைப் பாதிக்கும்; வேலை அல்லது பள்ளிக் கணக்குகள் வேறுபடலாம்."
+          ],
+          "steps": [
+            "விரும்பிய கணக்கை இணைத்து புதுப்பித்து, ஆதரிக்கப்படும் ஒரு பணியின் தலைப்பு, தேதி, நிலையை அசலுடன் ஒப்பிடவும். அனைத்தையும் கைமுறையாக நகலெடுக்க வேண்டாம்.",
+            "காலக்கெடு வரம்பையும் சில கவனச்சிதறல் செயலிகளையும் தேர்ந்தெடுக்கவும். தேவையான சாதன அனுமதிகளை வழங்கி, முக்கிய வேலை மற்றும் தொடர்புக் கருவிகளை அணுகக்கூடியவையாக வைத்திருக்கவும்.",
+            "உண்மையான வேலையை முடித்து Microsoft To Do-வில் சரிபார்த்து, இறக்குமதி நிலையை உறுதிப்படுத்த Nonlate-ஐ புதுப்பிக்கவும். மற்றொரு தகுதியான முடியாத பணி தொடர்ந்து தடுக்கலாம்."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "புதுப்பிப்பு அல்லது தடுப்பு எதிர்பாராதபடி நடந்தால்",
+          "paragraphs": [
+            "பட்டியலை மாற்றும் முன் கணக்கு, இணைப்பு, அனுமதிகள் மற்றும் இறக்குமதி தேதியைப் பார்க்கவும். ஒத்திசைவு வழங்குநர், திட்டம், சாதனப் பின்னணி வரம்புகளைச் சார்ந்தது; மாற்றங்கள் உடனே வரும் உத்தரவாதமில்லை.",
+            "ஆதரிக்கப்படும் நேர இடைவேளைகள் தொடர்ந்து கிடைக்கும். திரும்பப் பெற்ற அனுமதி, செயலில் உள்ள இடைவேளை அல்லது வரம்புக்கு வெளியான பணி செயலி திறப்பதை விளக்கலாம். தடுப்பு தடங்கலை உருவாக்குகிறது; வேலைத் தரத்தைச் சரிபார்க்காது, முடிப்பதை உறுதிசெய்யாது."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "எனது நாள் நேரடியாகத் தடுப்பைக் கட்டுப்படுத்துமா?",
+          "answer": "இல்லை. Nonlate-இல் தகுதியான முடியாத காலக்கெடுப் பணிகளையும் தேர்ந்தெடுத்த வரம்பையும் பார்க்கவும். எனது நாள் உறுப்பினர் நிலை, நினைவூட்டல் அல்லது நாள்காட்டிக் கூட்டம் தடுப்பு விதியல்ல."
+        },
+        {
+          "question": "கட்டணம் இல்லாமல் முயற்சிக்கலாமா?",
+          "answer": "Free-இல் கைமுறைப் பணிகளும் அதிகபட்சம் மூன்று செயலிகளுக்கான அடிப்படைத் தடுப்பும் உள்ளன. விருப்ப 30 நாள் ஆதாரச் சோதனை முதல் வெற்றிகரமான இணைப்பில் தொடங்கி, ஒரே நேரத்தில் ஓர் ஆதாரத்தை அனுமதிக்கும்; தானியங்கிக் கட்டணம் இல்லை. பிறகு தகுதியான கட்டண அணுகல் இல்லாவிட்டால் ஒத்திசைவு நிற்கும்; இறக்குமதிப் பணிகள் உள்ளூரில் முடிக்கவும் தடுக்கவும் தொடரும்."
+        }
+      ]
+    },
+    "te": {
+      "title": "Microsoft To Doతో దృష్టి మళ్లించే యాప్‌లను నిరోధించండి: ముందు పనులు",
+      "description": "Microsoft To Do మద్దతు ఉన్న పనులను Nonlateకు కలిపి, నా రోజు, గడువులను వేరుగా గుర్తించి, నకిలీ జాబితా లేకుండా నిరోధాన్ని పరీక్షించండి.",
+      "intro": "జాబితా ప్రాధాన్యతలు చూపుతుంది, కానీ ఫోన్ దృష్టి మళ్లిస్తుంది. Microsoft To Doలో పని ఇప్పటికే ఉంటే రెండో జాబితా అదనపు నిర్వహణ. ముఖ్యమైన గడువుకు నమ్మే ముందు తేదీ ఉన్న ఒక పనితో పరీక్షించండి.",
+      "answer": "Nonlate మూలంగా Microsoft To Doకు మద్దతిస్తుంది. సరైన ఖాతాను కలిపి దిగుమతి తేదీలు, అసంపూర్తి స్థితి చూసి, యాప్‌లు, గడువు పరిధి ఎంచుకోండి. అర్హమైన అసంపూర్తి పనులు ఎంచుకున్న యాప్ తెరిచేటప్పుడు నిరోధాన్ని ప్రారంభించవచ్చు. క్యాలెండర్ ఈవెంట్‌లు అలా చేయవు.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "నా రోజు, రిమైండర్‌లు, గడువులు వేరు",
+          "paragraphs": [
+            "నా రోజు ఇవాళ చేయాలనుకునే పనులను ఎంచుకుంటుంది. గడువు, రిమైండర్‌కు వేర్వేరు సెట్టింగ్‌లు ఉంటాయి. నా రోజులో చేర్చడమే Nonlateకు గడువు అందిందనడానికి రుజువు కాదు. దిగుమతి పని చూడండి; అన్ని మూల ఫీల్డ్‌ల అర్థం ఒకటి కాదు.",
+            "ఉదాహరణకు శుక్రవారం గడువున్న నివేదికను ఇవాళ సిద్ధం చేయండి. అసలు గడువు అలాగే ఉంచి, పని సమయాన్ని విడిగా ప్రణాళిక చేసి Nonlate తేదీ చూడండి. ప్రణాళిక గడువును మార్చదు లేదా సమయబద్ధ లాక్ ప్రారంభించదు."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "చిన్న అనుసంధాన పని విధానం పరీక్షించండి",
+          "paragraphs": [
+            "Nonlateలోని Microsoft To Do కనెక్షన్‌ను అనుసరించండి. ఖాతా రకం, అనుమతులు, వెర్షన్, సంస్థ నియమాలు ప్రవేశాన్ని ప్రభావితం చేస్తాయి; కార్యాలయ లేదా పాఠశాల ఖాతాలు భిన్నంగా ఉండవచ్చు."
+          ],
+          "steps": [
+            "కావలసిన ఖాతాను కలిపి రిఫ్రెష్ చేసి, మద్దతున్న ఒక పని శీర్షిక, తేదీ, స్థితిని అసలుతో పోల్చండి. అన్నింటినీ చేతితో నకలు చేయవద్దు.",
+            "గడువు పరిధి, కొన్ని దృష్టి మళ్లించే యాప్‌లు ఎంచుకోండి. అవసరమైన పరికర అనుమతులు ఇచ్చి, ముఖ్యమైన పని, సమాచార సాధనాలు అందుబాటులో ఉంచండి.",
+            "నిజమైన పని పూర్తి చేసి Microsoft To Doలో చూడండి; దిగుమతి స్థితిని నిర్ధారించడానికి Nonlate రిఫ్రెష్ చేయండి. మరో అర్హమైన అసంపూర్తి పని ఇంకా నిరోధించవచ్చు."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "నవీకరణ లేదా నిరోధం ఊహించినట్లు లేకపోతే",
+          "paragraphs": [
+            "జాబితా మార్చేముందు ఖాతా, కనెక్షన్, అనుమతులు, దిగుమతి తేదీ చూడండి. సమకాలీకరణ ప్రొవైడర్, ప్లాన్, పరికర నేపథ్య పరిమితులపై ఆధారపడుతుంది; మార్పులు వెంటనే వస్తాయని హామీ లేదు.",
+            "మద్దతున్న సమయబద్ధ విరామాలు అందుబాటులో ఉంటాయి. తొలగించిన అనుమతి, నడుస్తున్న విరామం లేదా పరిధి బయట పని యాప్ తెరుచుకోవడానికి కారణం కావచ్చు. నిరోధం అడ్డంకి పెడుతుంది; నాణ్యత తనిఖీ లేదా పూర్తి హామీ ఇవ్వదు."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "నా రోజు నేరుగా నిరోధాన్ని నియంత్రిస్తుందా?",
+          "answer": "లేదు. Nonlateలో అర్హమైన అసంపూర్తి గడువు పనులు, ఎంచుకున్న పరిధి చూడండి. నా రోజులో ఉండటం, రిమైండర్ లేదా క్యాలెండర్ సమావేశం నిరోధ నియమం కాదు."
+        },
+        {
+          "question": "చెల్లించకుండా ప్రయత్నించవచ్చా?",
+          "answer": "Freeలో చేతితో చేర్చిన పనులు, గరిష్ఠంగా మూడు యాప్‌ల ప్రాథమిక నిరోధం ఉంటాయి. ఐచ్ఛిక 30 రోజుల మూల పరీక్ష మొదటి విజయవంతమైన కనెక్షన్‌తో మొదలై, ఒకేసారి ఒక మూలాన్ని అనుమతిస్తుంది; ఆటోమేటిక్ ఛార్జీ లేదు. తర్వాత అర్హమైన చెల్లింపు ప్రవేశం లేకపోతే సమకాలీకరణ ఆగుతుంది; దిగుమతి పనులు స్థానికంగా పూర్తి చేయడానికి, నిరోధించడానికి ఉంటాయి."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "Microsoft To Do 防分心指南：先處理到期任務，再開啟應用程式",
+      "description": "將支援的 Microsoft To Do 任務連接到 Nonlate，區分「我的一天」與截止日期，不必複製清單即可測試應用程式封鎖。",
+      "intro": "清單列出重點，手機卻不斷提供分心的機會。如果你已用 Microsoft To Do 安排工作，再維護一份清單會增加負擔。先用一項有日期的任務測試連線，再用於重要期限。",
+      "answer": "Nonlate 支援以 Microsoft To Do 作為來源。連接正確帳戶，檢查匯入的日期與未完成狀態，再選擇應用程式及到期時間範圍。開啟所選應用程式時，符合條件的未完成任務可能觸發封鎖。行事曆事件不會觸發封鎖。",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "「我的一天」、提醒和截止日期各有用途",
+          "paragraphs": [
+            "「我的一天」用來選擇今天想做的事情。截止日期和提醒分別設定。加入「我的一天」不代表 Nonlate 已收到截止日期。請檢查實際匯入的任務，不要假設所有來源欄位意義相同。",
+            "例如，今天準備一份週五到期的報告。保留真實期限，另外安排工作時段，並檢查 Nonlate 顯示的日期。規劃工作不會改變期限，也不會啟動定時鎖定。"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "先測試簡單的連線流程",
+          "paragraphs": [
+            "依照 Nonlate 提供的 Microsoft To Do 連線步驟操作。帳戶類型、權限、版本與組織設定都可能影響存取；工作或學校帳戶的運作未必相同。"
+          ],
+          "steps": [
+            "連接目標 Microsoft 帳戶並重新整理，將一項支援任務的標題、日期和狀態與原始任務比較。不要手動複製整份清單。",
+            "選擇到期時間範圍和少量容易分心的應用程式。授予必要裝置權限，同時保留重要工作與通訊工具。",
+            "真正完成工作，在 Microsoft To Do 檢查任務，再重新整理 Nonlate 確認匯入狀態。其他符合條件的未完成任務仍可能觸發封鎖。"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "更新或封鎖不符預期時",
+          "paragraphs": [
+            "修改清單前，先檢查帳戶、網路、權限及匯入日期。同步速度取決於服務商、方案與裝置背景限制；來源變更不保證立即顯示。",
+            "支援的定時休息仍可使用。權限遭撤銷、正在休息或任務不在範圍內，都可能解釋為何能開啟應用程式。封鎖增加阻力，但不驗證工作品質，也不保證完成。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "「我的一天」本身會控制封鎖嗎？",
+          "answer": "不會。請在 Nonlate 檢查符合條件的未完成到期任務及所選範圍。「我的一天」的歸屬、提醒或行事曆會議都不是封鎖規則。"
+        },
+        {
+          "question": "可以免費試用嗎？",
+          "answer": "Free 包含手動任務與最多三個應用程式的基本封鎖。選用來源試用從首次成功連線起持續 30 天，同時允許一個來源，不會自動收費。之後若無符合條件的付費存取，同步會暫停；已匯入任務仍可在本機完成並用於封鎖。"
+        }
+      ]
+    },
+    "he": {
+      "title": "חסימת הסחות דעת עם Microsoft To Do: קודם המשימות, אחר כך האפליקציות",
+      "description": "חברו משימות נתמכות של Microsoft To Do ל-Nonlate, הבדילו בין היום שלי למועדי יעד ובדקו חסימה בלי לשכפל רשימות.",
+      "intro": "הרשימה מציגה סדר עדיפויות, אבל הטלפון מציע הסחות. אם Microsoft To Do כבר מארגן את העבודה, רשימה שנייה מוסיפה תחזוקה. בדקו משימה אחת עם תאריך לפני שתסמכו על החיבור למועד חשוב.",
+      "answer": "Nonlate תומך ב-Microsoft To Do כמקור. חברו את החשבון הנכון, בדקו תאריכים ומצב לא הושלם שיובאו, ובחרו אפליקציות וחלון מועדים. משימות לא גמורות מתאימות עשויות להפעיל חסימה בפתיחת אפליקציה שנבחרה. אירועי יומן אינם מפעילים חסימה.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "היום שלי, תזכורות ומועדי יעד הם דברים שונים",
+          "paragraphs": [
+            "היום שלי בוחר במה תרצו לעבוד היום. מועד יעד ותזכורת מוגדרים בנפרד. הוספה להיום שלי אינה מוכיחה ש-Nonlate קיבל מועד יעד. בדקו את המשימה שיובאה; לא לכל שדות המקור אותה משמעות.",
+            "למשל, הכינו היום דוח שמועדו ביום שישי. שמרו את המועד האמיתי, תכננו זמן עבודה נפרד ובדקו את התאריך ב-Nonlate. תכנון אינו משנה מועד ואינו מתחיל נעילה מתוזמנת."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "בדקו תהליך מחובר קטן",
+          "paragraphs": [
+            "עקבו אחר חיבור Microsoft To Do המוצע ב-Nonlate. סוג החשבון, הרשאות, גרסה ומדיניות הארגון משפיעים על הגישה; חשבונות עבודה או לימודים עשויים להתנהג אחרת."
+          ],
+          "steps": [
+            "חברו את החשבון הרצוי, רעננו והשוו שם, תאריך ומצב של משימה נתמכת אחת למקור. אל תעתיקו הכול ידנית.",
+            "בחרו חלון מועדים וכמה אפליקציות מסיחות. תנו את הרשאות המכשיר הנדרשות והשאירו כלי עבודה ותקשורת חיוניים זמינים.",
+            "סיימו את העבודה עצמה, בדקו את המשימה ב-Microsoft To Do ורעננו את Nonlate לאישור המצב שיובא. משימה לא גמורה מתאימה נוספת עדיין יכולה לחסום."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "אם העדכון או החסימה מפתיעים",
+          "paragraphs": [
+            "לפני שינוי הרשימה בדקו חשבון, חיבור, הרשאות ותאריך מיובא. הסנכרון תלוי בספק, בתוכנית ובמגבלות רקע; שינויים אינם מובטחים להופיע מיד.",
+            "הפסקות מתוזמנות נתמכות נשארות זמינות. הרשאה שבוטלה, הפסקה פעילה או משימה מחוץ לחלון עשויות להסביר פתיחת אפליקציה. החסימה יוצרת מכשול; היא אינה בודקת איכות עבודה או מבטיחה סיום."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "האם היום שלי שולט ישירות בחסימה?",
+          "answer": "לא. בדקו ב-Nonlate משימות לא גמורות מתאימות עם מועד ואת החלון שנבחר. היום שלי, תזכורת או פגישה ביומן אינם כלל החסימה."
+        },
+        {
+          "question": "אפשר לנסות בלי לשלם?",
+          "answer": "Free כולל משימות ידניות וחסימה בסיסית של עד שלוש אפליקציות. ניסיון המקורות האופציונלי ל-30 יום מתחיל בחיבור המוצלח הראשון, מאפשר מקור אחד בכל פעם ואינו מחייב אוטומטית. לאחר מכן הסנכרון מושהה ללא גישה בתשלום מתאימה; משימות שיובאו נשארות להשלמה מקומית ולחסימה."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Pangharang sa distraksiyon para sa Microsoft To Do: gawain bago mga app",
+      "description": "Ikonekta ang suportadong Microsoft To Do na gawain sa Nonlate, ihiwalay ang Aking Araw sa takdang petsa, at subukan ang pagharang nang walang dobleng listahan.",
+      "intro": "Ipinapakita ng listahan ang prayoridad, pero nag-aalok ng distraksiyon ang telepono. Kung nasa Microsoft To Do na ang trabaho, dagdag na pag-aalaga ang ikalawang listahan. Subukan muna ang isang gawaing may petsa bago umasa sa koneksiyon para sa mahalagang takdang oras.",
+      "answer": "Sinusuportahan ng Nonlate ang Microsoft To Do bilang pinagmulan. Ikonekta ang tamang account, tingnan ang na-import na petsa at hindi tapos na katayuan, at pumili ng mga app at saklaw ng takdang petsa. Maaaring mag-trigger ng pagharang ang kwalipikadong hindi tapos na gawain kapag binuksan ang napiling app. Hindi ito tine-trigger ng mga event sa kalendaryo.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Magkaiba ang Aking Araw, paalala at takdang petsa",
+          "paragraphs": [
+            "Pinipili ng Aking Araw ang gusto mong gawin ngayon. Magkahiwalay ang takdang petsa at paalala. Hindi patunay ang pagdagdag sa Aking Araw na nakatanggap ng takdang petsa ang Nonlate. Suriin ang na-import na gawain; maaaring magkaiba ang kahulugan ng mga field.",
+            "Halimbawa, ihanda ngayon ang ulat na dapat matapos sa Biyernes. Panatilihin ang tunay na takdang petsa, magplano ng hiwalay na oras ng trabaho at tingnan ang petsa sa Nonlate. Hindi binabago ng pagpaplano ang takdang petsa o nagsisimula ng kandadong may timer."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Subukan ang maliit na konektadong daloy",
+          "paragraphs": [
+            "Sundin ang koneksiyon ng Microsoft To Do sa Nonlate. Nakaaapekto sa akses ang uri ng account, pahintulot, bersiyon at tuntunin ng organisasyon; maaaring magkaiba ang account sa trabaho o paaralan."
+          ],
+          "steps": [
+            "Ikonekta ang nais na account, i-refresh at ihambing ang pamagat, petsa at katayuan ng isang suportadong gawain sa orihinal. Huwag kopyahin ang lahat nang mano-mano.",
+            "Pumili ng saklaw at ilang nakaaabalang app. Ibigay ang kailangang pahintulot ng device habang nananatiling naa-access ang mahahalagang gamit sa trabaho at komunikasyon.",
+            "Tapusin ang tunay na trabaho, tingnan ang gawain sa Microsoft To Do at i-refresh ang Nonlate upang tiyakin ang na-import na katayuan. Maaari pa ring humarang ang ibang kwalipikadong hindi tapos na gawain."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Kung hindi inaasahan ang update o pagharang",
+          "paragraphs": [
+            "Suriin ang account, koneksiyon, pahintulot at na-import na petsa bago baguhin ang listahan. Nakasalalay ang sync sa provider, plano at limitasyon sa background; hindi garantisadong agad ang pagbabago.",
+            "Magagamit pa rin ang suportadong pahingang may timer. Maaaring maipaliwanag ng binawing pahintulot, aktibong pahinga o gawaing labas sa saklaw kung bakit nabubuksan ang app. Nagdadagdag ng hadlang ang pagharang; hindi nito sinusuri ang kalidad o ginagarantiyang matatapos."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Direkta bang kumokontrol ang Aking Araw sa pagharang?",
+          "answer": "Hindi. Suriin sa Nonlate ang kwalipikadong hindi tapos na gawaing may takdang petsa at napiling saklaw. Hindi tuntunin ng pagharang ang Aking Araw, paalala o pulong sa kalendaryo."
+        },
+        {
+          "question": "Maaari bang subukan nang libre?",
+          "answer": "Kasama sa Free ang manu-manong gawain at pangunahing pagharang sa hanggang tatlong app. Nagsisimula ang opsiyonal na 30-araw na pagsubok sa pinagmulan sa unang matagumpay na koneksiyon, isang pinagmulan lamang sa bawat pagkakataon at walang awtomatikong singil. Pagkatapos, hihinto ang sync kung walang angkop na bayad na akses; mananatili ang na-import na gawain para sa lokal na pagtatapos at pagharang."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Microsoft To Do a blokování rozptýlení: úkoly před aplikacemi",
+      "description": "Propojte podporované úkoly Microsoft To Do s Nonlate, rozlište Můj den od termínů a vyzkoušejte blokování bez dvojích seznamů.",
+      "intro": "Seznam ukazuje priority, telefon však nabízí rozptýlení. Pokud už práci organizujete v Microsoft To Do, druhý seznam přidává údržbu. Než se na propojení spolehnete u důležitého termínu, otestujte jeden úkol s datem.",
+      "answer": "Nonlate podporuje Microsoft To Do jako zdroj. Připojte správný účet, ověřte importovaná data a nedokončený stav a vyberte aplikace i okno splatnosti. Způsobilé nedokončené úkoly mohou při otevření vybrané aplikace spustit blokování. Události kalendáře ho nespouštějí.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Můj den, připomenutí a termíny nejsou totéž",
+          "paragraphs": [
+            "Můj den vybírá práci na dnešek. Termín splnění a připomenutí mají samostatné nastavení. Zařazení do Můj den nedokazuje, že Nonlate obdržel termín. Zkontrolujte importovaný úkol; zdrojová pole nemusí znamenat totéž.",
+            "Například dnes připravte zprávu s termínem v pátek. Zachovejte skutečný termín, naplánujte práci zvlášť a ověřte datum v Nonlate. Plánování termín neposouvá ani nespouští časový zámek."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Vyzkoušejte jednoduché propojení",
+          "paragraphs": [
+            "Postupujte podle připojení Microsoft To Do v Nonlate. Typ účtu, oprávnění, verze aplikace a pravidla organizace ovlivňují přístup; pracovní a školní účty se mohou lišit."
+          ],
+          "steps": [
+            "Připojte zamýšlený účet, obnovte a porovnejte název, datum a stav jednoho podporovaného úkolu s originálem. Nekopírujte vše ručně.",
+            "Vyberte okno splatnosti a několik rušivých aplikací. Udělte potřebná oprávnění a ponechte dostupné důležité pracovní a komunikační nástroje.",
+            "Dokončete skutečnou práci, ověřte úkol v Microsoft To Do a obnovte Nonlate pro potvrzení importovaného stavu. Jiný způsobilý nedokončený úkol může dál blokovat."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Pokud aktualizace nebo blokování překvapí",
+          "paragraphs": [
+            "Před změnou seznamu zkontrolujte účet, připojení, oprávnění a importované datum. Synchronizace závisí na poskytovateli, tarifu a omezeních na pozadí; změny nemusí dorazit ihned.",
+            "Podporované časované přestávky zůstávají dostupné. Odvolané oprávnění, aktivní přestávka nebo úkol mimo okno mohou vysvětlit otevření aplikace. Blokování vytváří překážku; neověřuje kvalitu ani nezaručuje dokončení."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Řídí Můj den blokování přímo?",
+          "answer": "Ne. V Nonlate ověřte způsobilé nedokončené úkoly s termínem a zvolené okno. Můj den, připomenutí ani schůzka nejsou pravidlem blokování."
+        },
+        {
+          "question": "Mohu to vyzkoušet zdarma?",
+          "answer": "Free zahrnuje ruční úkoly a základní blokování až tří aplikací. Volitelná 30denní zkouška zdrojů začíná prvním úspěšným připojením, dovoluje jeden zdroj současně a nic automaticky neúčtuje. Poté se synchronizace bez vhodného placeného přístupu pozastaví; importované úkoly zůstávají pro místní dokončení a blokování."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Microsoft To Do med distraktionsblockering: uppgifter före appar",
+      "description": "Anslut uppgifter från Microsoft To Do till Nonlate, skilj Min dag från förfallodatum och testa blockering utan dubbla listor.",
+      "intro": "Listan visar prioriteringar, men mobilen erbjuder distraktioner. Om Microsoft To Do redan organiserar arbetet kräver en extra lista mer underhåll. Testa en daterad uppgift innan du förlitar dig på anslutningen för en viktig deadline.",
+      "answer": "Nonlate stöder Microsoft To Do som källa. Anslut rätt konto, kontrollera importerade datum och ofärdig status och välj appar och ett förfallofönster. Lämpliga oavslutade uppgifter kan utlösa blockering när en vald app öppnas. Kalenderhändelser utlöser inte blockering.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Min dag, påminnelser och förfallodatum skiljer sig",
+          "paragraphs": [
+            "Min dag väljer vad du vill göra i dag. Förfallodatum och påminnelser har separata inställningar. En uppgift i Min dag bevisar inte att Nonlate fått ett förfallodatum. Kontrollera den importerade uppgiften; alla fält betyder inte samma sak.",
+            "Förbered exempelvis i dag en rapport som ska vara klar på fredag. Behåll den riktiga tidsfristen, planera ett separat arbetspass och kontrollera datumet i Nonlate. Planering ändrar inte förfallodatum och startar inte ett tidsstyrt lås."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Testa en enkel ansluten rutin",
+          "paragraphs": [
+            "Följ Microsoft To Do-anslutningen i Nonlate. Kontotyp, behörigheter, appversion och organisationens regler påverkar åtkomst; arbets- och skolkonton fungerar inte alltid likadant."
+          ],
+          "steps": [
+            "Anslut avsett konto, uppdatera och jämför titel, datum och status för en stödd uppgift med originalet. Undvik att kopiera allt manuellt.",
+            "Välj ett förfallofönster och några distraherande appar. Ge nödvändiga enhetsbehörigheter och håll viktiga arbets- och kommunikationsverktyg tillgängliga.",
+            "Slutför själva arbetet, kontrollera uppgiften i Microsoft To Do och uppdatera Nonlate för att bekräfta importerad status. En annan lämplig ofärdig uppgift kan fortfarande blockera."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Om uppdatering eller blockering överraskar",
+          "paragraphs": [
+            "Kontrollera konto, uppkoppling, behörigheter och importerat datum innan du ändrar listan. Synkronisering beror på leverantör, abonnemang och bakgrundsbegränsningar; ändringar kommer inte alltid omedelbart.",
+            "Tidsbegränsade pauser som stöds finns kvar. Indragen behörighet, aktiv paus eller uppgift utanför fönstret kan förklara varför en app öppnas. Blockering skapar motstånd; den bedömer inte kvalitet eller garanterar slutförande."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Styr Min dag blockeringen direkt?",
+          "answer": "Nej. Kontrollera lämpliga ofärdiga uppgifter med förfallodatum och valt fönster i Nonlate. Min dag, en påminnelse eller ett möte är ingen blockeringsregel."
+        },
+        {
+          "question": "Kan jag prova utan att betala?",
+          "answer": "Free ger manuella uppgifter och grundblockering för upp till tre appar. Den frivilliga 30-dagars källprovningen börjar vid första lyckade anslutningen, tillåter en källa åt gången och debiteras inte automatiskt. Sedan pausas synkronisering utan behörig betald åtkomst; importerade uppgifter finns kvar för lokal slutföring och blockering."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Bloquejador de distraccions per a Microsoft To Do: tasques abans que aplicacions",
+      "description": "Connecta tasques compatibles de Microsoft To Do a Nonlate, distingeix El meu dia dels venciments i prova el bloqueig sense duplicar llistes.",
+      "intro": "La llista mostra prioritats, però el mòbil ofereix distraccions. Si Microsoft To Do ja organitza la feina, mantenir una altra llista afegeix esforç. Prova una tasca amb data abans de confiar en la connexió per a un termini important.",
+      "answer": "Nonlate admet Microsoft To Do com a font. Connecta el compte correcte, comprova dates i estat pendent importats i tria aplicacions i un interval de venciment. Les tasques pendents elegibles poden activar el bloqueig en obrir una aplicació seleccionada. Els esdeveniments del calendari no l’activen.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "El meu dia, recordatoris i venciments són diferents",
+          "paragraphs": [
+            "El meu dia selecciona què vols fer avui. Els venciments i recordatoris tenen controls separats. Afegir-hi una tasca no demostra que Nonlate hagi rebut un venciment. Comprova la tasca importada; els camps poden tenir significats diferents.",
+            "Per exemple, prepara avui un informe que venç divendres. Conserva el termini real, planifica una sessió separada i comprova la data a Nonlate. Planificar no canvia el venciment ni inicia un bloqueig temporitzat."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Prova una connexió senzilla",
+          "paragraphs": [
+            "Segueix la connexió de Microsoft To Do a Nonlate. Tipus de compte, permisos, versió i normes de l’organització afecten l’accés; els comptes laborals o educatius poden funcionar diferent."
+          ],
+          "steps": [
+            "Connecta el compte previst, actualitza i compara títol, data i estat d’una tasca compatible amb l’original. Evita copiar-ho tot manualment.",
+            "Tria un interval de venciment i poques aplicacions. Concedeix els permisos necessaris i mantén accessibles les eines essencials de feina i comunicació.",
+            "Acaba la feina real, comprova la tasca a Microsoft To Do i actualitza Nonlate per confirmar l’estat importat. Una altra tasca pendent elegible pot continuar bloquejant."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Si l’actualització o el bloqueig sorprèn",
+          "paragraphs": [
+            "Comprova compte, connexió, permisos i data importada abans de canviar la llista. La sincronització depèn del proveïdor, pla i límits de segon pla; els canvis no sempre arriben immediatament.",
+            "Les pauses temporitzades compatibles continuen disponibles. Un permís retirat, una pausa activa o una tasca fora de l’interval poden explicar que una aplicació s’obri. El bloqueig crea una barrera; no verifica la qualitat ni garanteix acabar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "El meu dia controla directament el bloqueig?",
+          "answer": "No. Revisa a Nonlate les tasques pendents elegibles i l’interval triat. El meu dia, un recordatori o una reunió no són la regla de bloqueig."
+        },
+        {
+          "question": "Ho puc provar sense pagar?",
+          "answer": "Free inclou tasques manuals i bloqueig bàsic de fins a tres aplicacions. La prova opcional de fonts dura 30 dies des de la primera connexió correcta, permet una font alhora i no cobra automàticament. Després, sense accés de pagament elegible, la sincronització s’atura; les tasques importades continuen disponibles per completar-les localment i bloquejar."
+        }
+      ]
+    },
+    "da": {
+      "title": "Microsoft To Do med distraktionsblokering: opgaver før apps",
+      "description": "Forbind understøttede Microsoft To Do-opgaver med Nonlate, skeln mellem Min dag og frister, og test blokering uden dobbelte lister.",
+      "intro": "Listen viser prioriteter, men telefonen tilbyder distraktioner. Organiserer Microsoft To Do allerede dit arbejde, kræver en ekstra liste mere vedligeholdelse. Test én dateret opgave, før du stoler på forbindelsen ved en vigtig frist.",
+      "answer": "Nonlate understøtter Microsoft To Do som kilde. Forbind den rette konto, kontrollér importerede datoer og uafsluttet status, og vælg apps og et forfaldsvindue. Relevante uafsluttede opgaver kan udløse blokering, når en valgt app åbnes. Kalenderbegivenheder udløser ikke blokering.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Min dag, påmindelser og frister er forskellige",
+          "paragraphs": [
+            "Min dag samler det, du vil arbejde på i dag. Forfaldsdato og påmindelse er separate indstillinger. En opgave i Min dag beviser ikke, at Nonlate har modtaget en forfaldsdato. Kontrollér den importerede opgave; felter betyder ikke nødvendigvis det samme.",
+            "Forbered eksempelvis i dag en rapport med frist fredag. Behold den rigtige frist, planlæg en separat arbejdssession, og kontrollér datoen i Nonlate. Planlægning ændrer ikke fristen og starter ikke en tidsbestemt lås."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Test en enkel forbundet arbejdsgang",
+          "paragraphs": [
+            "Følg Microsoft To Do-forbindelsen i Nonlate. Kontotype, tilladelser, appversion og organisationens regler påvirker adgang; arbejds- og skolekonti fungerer ikke altid ens."
+          ],
+          "steps": [
+            "Forbind den ønskede konto, opdatér, og sammenlign titel, dato og status for én understøttet opgave med originalen. Undgå at kopiere alt manuelt.",
+            "Vælg et forfaldsvindue og få distraherende apps. Giv nødvendige enhedstilladelser, og behold adgang til vigtige arbejds- og kommunikationsværktøjer.",
+            "Færdiggør selve arbejdet, kontrollér opgaven i Microsoft To Do, og opdatér Nonlate for at bekræfte importeret status. En anden relevant uafsluttet opgave kan stadig blokere."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Hvis opdatering eller blokering overrasker",
+          "paragraphs": [
+            "Kontrollér konto, forbindelse, tilladelser og importeret dato, før du ændrer listen. Synkronisering afhænger af udbyder, abonnement og baggrundsgrænser; ændringer kommer ikke altid straks.",
+            "Understøttede tidsbegrænsede pauser er stadig tilgængelige. Tilbagekaldte tilladelser, aktiv pause eller en opgave uden for vinduet kan forklare, at en app åbnes. Blokering skaber en barriere; den vurderer ikke kvalitet eller garanterer færdiggørelse."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Styrer Min dag blokeringen direkte?",
+          "answer": "Nej. Kontrollér relevante uafsluttede opgaver med forfaldsdato og dit valgte vindue i Nonlate. Min dag, en påmindelse eller et møde er ikke en blokeringsregel."
+        },
+        {
+          "question": "Kan jeg prøve uden at betale?",
+          "answer": "Free inkluderer manuelle opgaver og grundblokering af op til tre apps. Den valgfrie kildeprøve varer 30 dage fra første vellykkede forbindelse, tillader én kilde ad gangen og opkræver ikke automatisk betaling. Derefter pauses synkronisering uden kvalificeret betalt adgang; importerede opgaver forbliver tilgængelige til lokal afslutning og blokering."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Microsoft To Do ja häiriösovellusten esto: tehtävät ennen sovelluksia",
+      "description": "Yhdistä tuetut Microsoft To Do -tehtävät Nonlateen, erota Oma päivä määräajoista ja kokeile estoa ilman päällekkäisiä listoja.",
+      "intro": "Lista näyttää tärkeän työn, mutta puhelin tarjoaa häiriöitä. Jos Microsoft To Do jo järjestää työsi, toinen lista lisää ylläpitoa. Kokeile ensin yhtä päivättyä tehtävää ennen tärkeän määräajan varaan luottamista.",
+      "answer": "Nonlate tukee Microsoft To Do -lähdettä. Yhdistä oikea tili, tarkista tuodut päivämäärät ja keskeneräisyys sekä valitse sovellukset ja määräaikaikkuna. Ehdot täyttävät keskeneräiset tehtävät voivat käynnistää eston valittua sovellusta avattaessa. Kalenteritapahtumat eivät käynnistä estoa.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Oma päivä, muistutukset ja määräajat eroavat toisistaan",
+          "paragraphs": [
+            "Oma päivä kokoaa tänään tehtävän työn. Määräpäivälle ja muistutukselle on erilliset asetukset. Oma päivä -merkintä ei todista, että Nonlate vastaanotti määräpäivän. Tarkista tuotu tehtävä; kenttien merkitys ei ole aina sama.",
+            "Valmistele esimerkiksi tänään raporttia, jonka määräpäivä on perjantai. Säilytä oikea määräaika, suunnittele erillinen työjakso ja tarkista päivä Nonlatessa. Suunnittelu ei siirrä määräaikaa eikä käynnistä ajastettua lukitusta."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Kokeile pientä yhdistettyä työnkulkua",
+          "paragraphs": [
+            "Noudata Nonlaten Microsoft To Do -yhdistämisohjeita. Tilin tyyppi, käyttöoikeudet, sovellusversio ja organisaation säännöt vaikuttavat käyttöön; työ- ja koulutilit voivat toimia eri tavoin."
+          ],
+          "steps": [
+            "Yhdistä haluttu tili, päivitä ja vertaa tuetun tehtävän nimeä, päivää ja tilaa alkuperäiseen. Vältä kaiken kopioimista käsin.",
+            "Valitse määräaikaikkuna ja muutama häiritsevä sovellus. Anna tarvittavat laiteoikeudet ja pidä tärkeät työ- ja viestintävälineet käytettävissä.",
+            "Tee varsinainen työ, tarkista tehtävä Microsoft To Dossa ja päivitä Nonlate vahvistaaksesi tuodun tilan. Toinen ehdot täyttävä keskeneräinen tehtävä voi yhä aiheuttaa eston."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Jos päivitys tai esto yllättää",
+          "paragraphs": [
+            "Tarkista tili, yhteys, oikeudet ja tuotu päivä ennen listan muuttamista. Synkronointi riippuu palveluntarjoajasta, tilauksesta ja taustarajoituksista; muutokset eivät välttämättä näy heti.",
+            "Tuetut määräaikaiset tauot ovat edelleen käytettävissä. Poistettu oikeus, aktiivinen tauko tai ikkunan ulkopuolinen tehtävä voi selittää sovelluksen avautumisen. Esto luo kynnyksen; se ei tarkista työn laatua eikä takaa valmistumista."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ohjaako Oma päivä itsessään estoa?",
+          "answer": "Ei. Tarkista Nonlatesta ehdot täyttävät keskeneräiset erääntyvät tehtävät ja valittu ikkuna. Oma päivä, muistutus tai kalenterikokous ei ole estosääntö."
+        },
+        {
+          "question": "Voinko kokeilla maksutta?",
+          "answer": "Free sisältää käsin lisättävät tehtävät ja enintään kolmen sovelluksen peruseston. Valinnainen 30 päivän lähdekokeilu alkaa ensimmäisestä onnistuneesta yhdistämisestä, sallii yhden lähteen kerrallaan eikä veloita automaattisesti. Sen jälkeen synkronointi keskeytyy ilman soveltuvaa maksullista käyttöoikeutta; tuotuja tehtäviä voi edelleen kuitata paikallisesti ja käyttää estoon."
+        }
+      ]
+    },
+    "el": {
+      "title": "Αποκλεισμός περισπασμών με Microsoft To Do: οι εργασίες πριν από τις εφαρμογές",
+      "description": "Συνδέστε υποστηριζόμενες εργασίες Microsoft To Do στο Nonlate, ξεχωρίστε την Ημέρα μου από τις προθεσμίες και δοκιμάστε τον αποκλεισμό χωρίς διπλές λίστες.",
+      "intro": "Η λίστα δείχνει προτεραιότητες, αλλά το κινητό προσφέρει περισπασμούς. Αν το Microsoft To Do οργανώνει ήδη τη δουλειά σας, μια δεύτερη λίστα αυξάνει τη συντήρηση. Δοκιμάστε μία εργασία με ημερομηνία πριν βασιστείτε στη σύνδεση για σημαντική προθεσμία.",
+      "answer": "Το Nonlate υποστηρίζει το Microsoft To Do ως πηγή. Συνδέστε τον σωστό λογαριασμό, ελέγξτε εισαγόμενες ημερομηνίες και εκκρεμή κατάσταση και επιλέξτε εφαρμογές και παράθυρο προθεσμιών. Κατάλληλες ανολοκλήρωτες εργασίες μπορούν να ενεργοποιήσουν αποκλεισμό όταν ανοίγετε επιλεγμένη εφαρμογή. Τα συμβάντα ημερολογίου δεν τον ενεργοποιούν.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Η Ημέρα μου, οι υπενθυμίσεις και οι προθεσμίες διαφέρουν",
+          "paragraphs": [
+            "Η Ημέρα μου επιλέγει τι θέλετε να κάνετε σήμερα. Προθεσμία και υπενθύμιση έχουν χωριστές ρυθμίσεις. Η προσθήκη εκεί δεν αποδεικνύει ότι το Nonlate έλαβε προθεσμία. Ελέγξτε την εισαγόμενη εργασία· τα πεδία δεν σημαίνουν απαραίτητα το ίδιο.",
+            "Για παράδειγμα, προετοιμάστε σήμερα μια αναφορά για την Παρασκευή. Κρατήστε την πραγματική προθεσμία, σχεδιάστε ξεχωριστή περίοδο εργασίας και ελέγξτε την ημερομηνία στο Nonlate. Ο σχεδιασμός δεν μετακινεί την προθεσμία ούτε ξεκινά χρονικό κλείδωμα."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Δοκιμάστε μια απλή συνδεδεμένη ροή",
+          "paragraphs": [
+            "Ακολουθήστε τη σύνδεση Microsoft To Do στο Nonlate. Τύπος λογαριασμού, άδειες, έκδοση και κανόνες οργανισμού επηρεάζουν την πρόσβαση· εταιρικοί ή σχολικοί λογαριασμοί μπορεί να διαφέρουν."
+          ],
+          "steps": [
+            "Συνδέστε τον επιθυμητό λογαριασμό, ανανεώστε και συγκρίνετε τίτλο, ημερομηνία και κατάσταση μιας υποστηριζόμενης εργασίας με το πρωτότυπο. Μην αντιγράφετε τα πάντα χειροκίνητα.",
+            "Επιλέξτε παράθυρο προθεσμιών και λίγες εφαρμογές. Δώστε τις απαραίτητες άδειες συσκευής, διατηρώντας διαθέσιμα βασικά εργαλεία εργασίας και επικοινωνίας.",
+            "Ολοκληρώστε την πραγματική δουλειά, ελέγξτε την εργασία στο Microsoft To Do και ανανεώστε το Nonlate για επιβεβαίωση της εισαγόμενης κατάστασης. Άλλη κατάλληλη ανολοκλήρωτη εργασία μπορεί ακόμη να αποκλείει."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Αν η ενημέρωση ή ο αποκλεισμός εκπλήσσει",
+          "paragraphs": [
+            "Πριν αλλάξετε τη λίστα, ελέγξτε λογαριασμό, σύνδεση, άδειες και εισαγόμενη ημερομηνία. Ο συγχρονισμός εξαρτάται από πάροχο, πρόγραμμα και περιορισμούς παρασκηνίου· οι αλλαγές δεν φτάνουν απαραίτητα αμέσως.",
+            "Τα υποστηριζόμενα χρονικά διαλείμματα παραμένουν διαθέσιμα. Ανακλημένη άδεια, ενεργό διάλειμμα ή εργασία εκτός παραθύρου μπορεί να εξηγεί το άνοιγμα εφαρμογής. Ο αποκλεισμός προσθέτει εμπόδιο· δεν ελέγχει ποιότητα ούτε εγγυάται ολοκλήρωση."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ελέγχει η Ημέρα μου απευθείας τον αποκλεισμό;",
+          "answer": "Όχι. Ελέγξτε στο Nonlate κατάλληλες ανολοκλήρωτες εργασίες με προθεσμία και το επιλεγμένο παράθυρο. Η Ημέρα μου, μια υπενθύμιση ή συνάντηση δεν αποτελούν κανόνα αποκλεισμού."
+        },
+        {
+          "question": "Μπορώ να δοκιμάσω δωρεάν;",
+          "answer": "Το Free περιλαμβάνει χειροκίνητες εργασίες και βασικό αποκλεισμό έως τριών εφαρμογών. Η προαιρετική δοκιμή πηγών 30 ημερών ξεκινά με την πρώτη επιτυχημένη σύνδεση, επιτρέπει μία πηγή κάθε φορά και δεν χρεώνει αυτόματα. Έπειτα ο συγχρονισμός παύει χωρίς κατάλληλη πληρωμένη πρόσβαση· οι εισαγόμενες εργασίες παραμένουν για τοπική ολοκλήρωση και αποκλεισμό."
+        }
+      ]
+    },
+    "hu": {
+      "title": "Microsoft To Do és figyelemelterelő alkalmazások blokkolása: előbb a feladatok",
+      "description": "Kapcsold a támogatott Microsoft To Do-feladatokat a Nonlate-hez, különítsd el a Mai napot a határidőktől, és próbáld ki a blokkolást dupla listák nélkül.",
+      "intro": "A lista mutatja a prioritásokat, a telefon viszont elterel. Ha már a Microsoft To Do szervezi a munkádat, egy második lista több karbantartást jelent. Fontos határidő előtt tesztelj egyetlen dátumos feladatot.",
+      "answer": "A Nonlate támogatja a Microsoft To Do-forrást. Kapcsold a megfelelő fiókot, ellenőrizd az importált dátumokat és befejezetlen állapotot, majd válassz alkalmazásokat és esedékességi időablakot. A megfelelő befejezetlen feladatok blokkolhatnak egy kiválasztott alkalmazás megnyitásakor. Naptáresemények nem váltanak ki blokkolást.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "A Mai nap, az emlékeztetők és a határidők eltérnek",
+          "paragraphs": [
+            "A Mai nap a ma elvégezni kívánt munkát gyűjti. A határidő és az emlékeztető külön beállítás. A Mai napba helyezés nem bizonyítja, hogy a Nonlate határidőt kapott. Ellenőrizd az importált feladatot; a mezők jelentése eltérhet.",
+            "Például ma készíts elő egy pénteken esedékes jelentést. Tartsd meg az igazi határidőt, külön tervezz munkaszakaszt, és ellenőrizd a dátumot a Nonlate-ben. A tervezés nem tolja el a határidőt és nem indít időzített zárolást."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Tesztelj egyszerű összekapcsolt munkafolyamatot",
+          "paragraphs": [
+            "Kövesd a Nonlate Microsoft To Do-csatlakoztatását. A fióktípus, jogosultságok, verzió és szervezeti szabályok befolyásolják a hozzáférést; munkahelyi vagy iskolai fiókok eltérhetnek."
+          ],
+          "steps": [
+            "Kapcsold a kívánt fiókot, frissíts, és vesd össze egy támogatott feladat címét, dátumát és állapotát az eredetivel. Ne másolj át mindent kézzel.",
+            "Válassz időablakot és néhány zavaró alkalmazást. Add meg a szükséges eszközengedélyeket, a fontos munka- és kommunikációs eszközök maradjanak elérhetők.",
+            "Végezd el a valódi munkát, ellenőrizd a feladatot a Microsoft To Do-ban, és frissítsd a Nonlate-et az importált állapot megerősítéséhez. Más megfelelő befejezetlen feladat még blokkolhat."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Ha a frissítés vagy blokkolás meglepő",
+          "paragraphs": [
+            "A lista módosítása előtt ellenőrizd a fiókot, kapcsolatot, engedélyeket és importált dátumot. A szinkron szolgáltatótól, csomagtól és háttérkorlátoktól függ; a változások nem feltétlenül azonnaliak.",
+            "A támogatott időzített szünetek elérhetők maradnak. Visszavont engedély, aktív szünet vagy időablakon kívüli feladat magyarázhatja az alkalmazás megnyitását. A blokkolás akadályt képez; nem ellenőrzi a minőséget és nem garantálja a befejezést."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "A Mai nap közvetlenül vezérli a blokkolást?",
+          "answer": "Nem. Ellenőrizd a Nonlate-ben a megfelelő befejezetlen esedékes feladatokat és a választott időablakot. A Mai nap, emlékeztető vagy értekezlet nem blokkolási szabály."
+        },
+        {
+          "question": "Kipróbálhatom fizetés nélkül?",
+          "answer": "A Free kézi feladatokat és legfeljebb három alkalmazás alapblokkolását adja. Az opcionális 30 napos forráspróba az első sikeres csatlakoztatással indul, egyszerre egy forrást enged, automatikus díj nélkül. Utána megfelelő fizetős hozzáférés hiányában a szinkron szünetel; az importált feladatok helyi befejezésre és blokkolásra megmaradnak."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Penyekat gangguan untuk Microsoft To Do: tugasan sebelum aplikasi",
+      "description": "Sambungkan tugasan Microsoft To Do yang disokong ke Nonlate, bezakan Hari Saya daripada tarikh akhir dan uji sekatan tanpa menduakan senarai.",
+      "intro": "Senarai menunjukkan keutamaan, tetapi telefon menawarkan gangguan. Jika Microsoft To Do sudah mengatur kerja, senarai kedua menambah penyelenggaraan. Uji satu tugasan bertarikh sebelum bergantung pada sambungan untuk tarikh akhir penting.",
+      "answer": "Nonlate menyokong Microsoft To Do sebagai sumber. Sambungkan akaun betul, semak tarikh dan status belum selesai yang diimport, kemudian pilih aplikasi dan julat tarikh akhir. Tugasan belum selesai yang layak boleh mencetuskan sekatan apabila aplikasi pilihan dibuka. Acara kalendar tidak mencetuskannya.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Hari Saya, peringatan dan tarikh akhir berbeza",
+          "paragraphs": [
+            "Hari Saya memilih kerja yang mahu dibuat hari ini. Tarikh akhir dan peringatan mempunyai tetapan berasingan. Menambah tugasan ke Hari Saya bukan bukti Nonlate menerima tarikh akhir. Semak tugasan diimport; medan sumber tidak semestinya sama makna.",
+            "Contohnya, sediakan hari ini laporan yang perlu siap Jumaat. Kekalkan tarikh akhir sebenar, rancang sesi kerja berasingan dan semak tarikh dalam Nonlate. Perancangan tidak mengubah tarikh akhir atau memulakan kunci bermasa."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Uji aliran bersambung yang ringkas",
+          "paragraphs": [
+            "Ikuti sambungan Microsoft To Do dalam Nonlate. Jenis akaun, kebenaran, versi dan peraturan organisasi mempengaruhi akses; akaun kerja atau sekolah mungkin berbeza."
+          ],
+          "steps": [
+            "Sambungkan akaun dikehendaki, muat semula dan bandingkan tajuk, tarikh serta status satu tugasan yang disokong dengan asal. Jangan salin semuanya secara manual.",
+            "Pilih julat tarikh akhir dan beberapa aplikasi mengganggu. Beri kebenaran peranti yang diperlukan, sambil mengekalkan akses kepada alat kerja dan komunikasi penting.",
+            "Siapkan kerja sebenar, semak tugasan dalam Microsoft To Do dan muat semula Nonlate untuk mengesahkan status diimport. Tugasan belum selesai lain yang layak masih boleh menyekat."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Jika kemas kini atau sekatan tidak dijangka",
+          "paragraphs": [
+            "Semak akaun, sambungan, kebenaran dan tarikh diimport sebelum mengubah senarai. Penyegerakan bergantung pada penyedia, pelan dan had latar peranti; perubahan tidak dijamin muncul serta-merta.",
+            "Rehat bermasa yang disokong masih tersedia. Kebenaran ditarik balik, rehat aktif atau tugasan di luar julat boleh menjelaskan aplikasi yang terbuka. Sekatan menambah halangan; tidak menilai mutu atau menjamin siap."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Adakah Hari Saya mengawal sekatan secara langsung?",
+          "answer": "Tidak. Semak tugasan belum selesai bertarikh yang layak dan julat pilihan dalam Nonlate. Hari Saya, peringatan atau mesyuarat kalendar bukan peraturan sekatan."
+        },
+        {
+          "question": "Bolehkah saya cuba tanpa membayar?",
+          "answer": "Free merangkumi tugasan manual dan sekatan asas sehingga tiga aplikasi. Percubaan sumber pilihan 30 hari bermula pada sambungan pertama berjaya, membenarkan satu sumber pada satu masa dan tiada caj automatik. Selepas itu penyegerakan dijeda tanpa akses berbayar yang layak; tugasan diimport kekal untuk penyelesaian setempat dan sekatan."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Microsoft To Do med distraksjonsblokkering: oppgaver før apper",
+      "description": "Koble støttede Microsoft To Do-oppgaver til Nonlate, skill Min dag fra frister og test blokkering uten doble lister.",
+      "intro": "Listen viser prioriteringer, men telefonen tilbyr distraksjoner. Bruker du allerede Microsoft To Do, krever en ekstra liste mer vedlikehold. Test én datert oppgave før du stoler på forbindelsen ved en viktig frist.",
+      "answer": "Nonlate støtter Microsoft To Do som kilde. Koble riktig konto, kontroller importerte datoer og uferdig status, og velg apper og et forfallsvindu. Kvalifiserte uferdige oppgaver kan utløse blokkering når en valgt app åpnes. Kalenderhendelser gjør ikke det.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Min dag, påminnelser og frister er ulike",
+          "paragraphs": [
+            "Min dag samler det du vil gjøre i dag. Forfallsdato og påminnelse har separate innstillinger. En oppgave i Min dag beviser ikke at Nonlate har mottatt en frist. Sjekk importert oppgave; feltene betyr ikke nødvendigvis det samme.",
+            "Forbered for eksempel en rapport i dag som skal leveres fredag. Behold den virkelige fristen, planlegg en egen arbeidsøkt og sjekk datoen i Nonlate. Planlegging flytter ikke fristen og starter ikke en tidsstyrt lås."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Test en enkel tilkoblet arbeidsflyt",
+          "paragraphs": [
+            "Følg Microsoft To Do-tilkoblingen i Nonlate. Kontotype, tillatelser, appversjon og organisasjonens regler påvirker tilgang; jobb- og skolekontoer kan fungere ulikt."
+          ],
+          "steps": [
+            "Koble ønsket konto, oppdater og sammenlign tittel, dato og status for én støttet oppgave med originalen. Unngå å kopiere alt manuelt.",
+            "Velg et forfallsvindu og noen distraherende apper. Gi nødvendige enhetstillatelser og behold tilgang til viktige arbeids- og kommunikasjonsverktøy.",
+            "Fullfør selve arbeidet, sjekk oppgaven i Microsoft To Do og oppdater Nonlate for å bekrefte importert status. Andre kvalifiserte uferdige oppgaver kan fortsatt blokkere."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Hvis oppdatering eller blokkering overrasker",
+          "paragraphs": [
+            "Sjekk konto, forbindelse, tillatelser og importert dato før du endrer listen. Synkronisering avhenger av leverandør, abonnement og bakgrunnsgrenser; endringer kommer ikke alltid straks.",
+            "Støttede tidsbegrensede pauser er fortsatt tilgjengelige. Fjernet tillatelse, aktiv pause eller en oppgave utenfor vinduet kan forklare at en app åpnes. Blokkering skaper en terskel; den vurderer ikke kvalitet eller garanterer fullføring."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Styrer Min dag blokkeringen direkte?",
+          "answer": "Nei. Sjekk kvalifiserte uferdige oppgaver med frist og valgt vindu i Nonlate. Min dag, en påminnelse eller et møte er ingen blokkeringsregel."
+        },
+        {
+          "question": "Kan jeg prøve gratis?",
+          "answer": "Free gir manuelle oppgaver og grunnleggende blokkering av opptil tre apper. Den valgfrie 30-dagers kildeprøven starter ved første vellykkede tilkobling, tillater én kilde om gangen og belastes ikke automatisk. Deretter pauses synkronisering uten kvalifisert betalt tilgang; importerte oppgaver kan fortsatt fullføres lokalt og brukes til blokkering."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Microsoft To Do cu blocarea distragerilor: sarcini înaintea aplicațiilor",
+      "description": "Conectează sarcinile compatibile Microsoft To Do la Nonlate, distinge Ziua mea de termene și testează blocarea fără liste duplicate.",
+      "intro": "Lista arată prioritățile, dar telefonul oferă distrageri. Dacă Microsoft To Do îți organizează deja munca, o a doua listă cere întreținere suplimentară. Testează o sarcină datată înainte să te bazezi pe conexiune pentru un termen important.",
+      "answer": "Nonlate acceptă Microsoft To Do ca sursă. Conectează contul corect, verifică datele importate și starea nefinalizată, apoi alege aplicații și o fereastră de scadență. Sarcinile nefinalizate eligibile pot declanșa blocarea la deschiderea unei aplicații selectate. Evenimentele din calendar nu o declanșează.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Ziua mea, mementourile și termenele sunt diferite",
+          "paragraphs": [
+            "Ziua mea selectează ce vrei să faci astăzi. Scadența și mementoul au controale separate. Adăugarea unei sarcini aici nu dovedește că Nonlate a primit o scadență. Verifică sarcina importată; câmpurile nu înseamnă neapărat același lucru.",
+            "De exemplu, pregătește azi un raport cu termen vineri. Păstrează termenul real, planifică separat o sesiune și verifică data în Nonlate. Planificarea nu schimbă termenul și nu pornește o blocare temporizată."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Testează un flux conectat simplu",
+          "paragraphs": [
+            "Urmează conexiunea Microsoft To Do din Nonlate. Tipul contului, permisiunile, versiunea și regulile organizației afectează accesul; conturile de serviciu sau școală pot funcționa diferit."
+          ],
+          "steps": [
+            "Conectează contul dorit, reîmprospătează și compară titlul, data și starea unei sarcini compatibile cu originalul. Evită să copiezi totul manual.",
+            "Alege o fereastră de scadență și câteva aplicații. Acordă permisiunile necesare, păstrând accesul la instrumentele esențiale de lucru și comunicare.",
+            "Termină munca reală, verifică sarcina în Microsoft To Do și reîmprospătează Nonlate pentru a confirma starea importată. O altă sarcină nefinalizată eligibilă poate bloca în continuare."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Dacă actualizarea sau blocarea surprinde",
+          "paragraphs": [
+            "Verifică contul, conexiunea, permisiunile și data importată înainte să modifici lista. Sincronizarea depinde de furnizor, abonament și limitele de fundal; schimbările nu apar garantat imediat.",
+            "Pauzele temporizate acceptate rămân disponibile. O permisiune revocată, o pauză activă sau o sarcină în afara ferestrei pot explica deschiderea unei aplicații. Blocarea creează un obstacol; nu verifică calitatea și nu garantează finalizarea."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ziua mea controlează direct blocarea?",
+          "answer": "Nu. Verifică în Nonlate sarcinile nefinalizate eligibile și fereastra aleasă. Ziua mea, un memento sau o ședință nu reprezintă regula de blocare."
+        },
+        {
+          "question": "Pot încerca fără să plătesc?",
+          "answer": "Free include sarcini manuale și blocarea de bază pentru maximum trei aplicații. Proba opțională a surselor durează 30 de zile de la prima conexiune reușită, permite o sursă simultan și nu taxează automat. Apoi sincronizarea se oprește fără acces plătit eligibil; sarcinile importate rămân disponibile pentru finalizare locală și blocare."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Microsoft To Do s blokiranjem ometanja: zadaci prije aplikacija",
+      "description": "Povežite podržane zadatke Microsoft To Do s Nonlateom, razlikujte Moj dan od rokova i isprobajte blokiranje bez dvostrukih popisa.",
+      "intro": "Popis pokazuje prioritete, ali telefon nudi ometanja. Ako Microsoft To Do već organizira posao, drugi popis traži više održavanja. Isprobajte jedan zadatak s datumom prije oslanjanja na vezu za važan rok.",
+      "answer": "Nonlate podržava Microsoft To Do kao izvor. Povežite pravi račun, provjerite uvezene datume i nedovršeni status te odaberite aplikacije i prozor dospijeća. Odgovarajući nedovršeni zadaci mogu pokrenuti blokiranje pri otvaranju odabrane aplikacije. Događaji kalendara ga ne pokreću.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Moj dan, podsjetnici i rokovi razlikuju se",
+          "paragraphs": [
+            "Moj dan odabire posao za danas. Rok i podsjetnik imaju zasebne postavke. Dodavanje u Moj dan ne dokazuje da je Nonlate primio rok. Provjerite uvezeni zadatak; polja izvora ne znače nužno isto.",
+            "Primjerice, danas pripremite izvješće s rokom u petak. Zadržite stvarni rok, zasebno planirajte radnu sesiju i provjerite datum u Nonlateu. Planiranje ne mijenja rok niti pokreće vremenski zaključanu blokadu."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Isprobajte jednostavan povezani tijek rada",
+          "paragraphs": [
+            "Slijedite povezivanje Microsoft To Do u Nonlateu. Vrsta računa, dopuštenja, verzija i pravila organizacije utječu na pristup; poslovni i školski računi mogu se razlikovati."
+          ],
+          "steps": [
+            "Povežite željeni račun, osvježite i usporedite naslov, datum i status jednog podržanog zadatka s izvornikom. Ne prepisujte sve ručno.",
+            "Odaberite prozor dospijeća i nekoliko ometajućih aplikacija. Dajte potrebna dopuštenja te zadržite pristup važnim radnim i komunikacijskim alatima.",
+            "Dovršite stvarni posao, provjerite zadatak u Microsoft To Do i osvježite Nonlate radi potvrde uvezenog statusa. Drugi odgovarajući nedovršeni zadatak i dalje može blokirati."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Ako ažuriranje ili blokiranje iznenadi",
+          "paragraphs": [
+            "Prije izmjene popisa provjerite račun, vezu, dopuštenja i uvezeni datum. Sinkronizacija ovisi o pružatelju, paketu i pozadinskim ograničenjima; promjene ne dolaze uvijek odmah.",
+            "Podržane vremenski ograničene stanke ostaju dostupne. Opozvano dopuštenje, aktivna stanka ili zadatak izvan prozora mogu objasniti otvaranje aplikacije. Blokiranje stvara prepreku; ne provjerava kvalitetu niti jamči dovršetak."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Upravlja li Moj dan izravno blokiranjem?",
+          "answer": "Ne. U Nonlateu provjerite odgovarajuće nedovršene zadatke s rokom i odabrani prozor. Moj dan, podsjetnik ili sastanak nisu pravilo blokiranja."
+        },
+        {
+          "question": "Mogu li isprobati besplatno?",
+          "answer": "Free uključuje ručne zadatke i osnovno blokiranje do tri aplikacije. Neobvezno 30-dnevno isprobavanje izvora počinje prvim uspješnim povezivanjem, dopušta jedan izvor odjednom i ne naplaćuje automatski. Zatim se sinkronizacija bez odgovarajućeg plaćenog pristupa zaustavlja; uvezeni zadaci ostaju za lokalni dovršetak i blokiranje."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Microsoft To Do a blokovanie rozptýlenia: úlohy pred aplikáciami",
+      "description": "Prepojte podporované úlohy Microsoft To Do s Nonlate, odlíšte Môj deň od termínov a skúste blokovanie bez dvojitých zoznamov.",
+      "intro": "Zoznam ukazuje priority, telefón však ponúka rozptýlenie. Ak už prácu organizujete v Microsoft To Do, druhý zoznam pridáva údržbu. Pred dôležitým termínom najprv otestujte jednu úlohu s dátumom.",
+      "answer": "Nonlate podporuje Microsoft To Do ako zdroj. Pripojte správny účet, skontrolujte importované dátumy a nedokončený stav a vyberte aplikácie aj okno splatnosti. Spôsobilé nedokončené úlohy môžu pri otvorení vybranej aplikácie spustiť blokovanie. Udalosti kalendára ho nespúšťajú.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Môj deň, pripomenutia a termíny sa líšia",
+          "paragraphs": [
+            "Môj deň vyberá prácu na dnes. Termín a pripomenutie majú samostatné nastavenia. Zaradenie do Môj deň nedokazuje, že Nonlate prijal termín. Skontrolujte importovanú úlohu; zdrojové polia nemusia znamenať to isté.",
+            "Napríklad dnes pripravte správu s termínom v piatok. Zachovajte skutočný termín, naplánujte prácu zvlášť a overte dátum v Nonlate. Plánovanie neposúva termín ani nespúšťa časový zámok."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Vyskúšajte jednoduché prepojenie",
+          "paragraphs": [
+            "Postupujte podľa pripojenia Microsoft To Do v Nonlate. Typ účtu, oprávnenia, verzia a pravidlá organizácie ovplyvňujú prístup; pracovné a školské účty sa môžu líšiť."
+          ],
+          "steps": [
+            "Pripojte zamýšľaný účet, obnovte a porovnajte názov, dátum a stav jednej podporovanej úlohy s originálom. Nekopírujte všetko ručne.",
+            "Vyberte okno splatnosti a niekoľko rušivých aplikácií. Udeľte potrebné oprávnenia a ponechajte dostupné základné pracovné a komunikačné nástroje.",
+            "Dokončite skutočnú prácu, overte úlohu v Microsoft To Do a obnovte Nonlate na potvrdenie importovaného stavu. Iná spôsobilá nedokončená úloha môže ďalej blokovať."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Ak aktualizácia alebo blokovanie prekvapí",
+          "paragraphs": [
+            "Pred zmenou zoznamu skontrolujte účet, pripojenie, oprávnenia a importovaný dátum. Synchronizácia závisí od poskytovateľa, programu a obmedzení na pozadí; zmeny nemusia prísť ihneď.",
+            "Podporované časované prestávky zostávajú dostupné. Odobraté oprávnenie, aktívna prestávka alebo úloha mimo okna môžu vysvetliť otvorenie aplikácie. Blokovanie vytvára prekážku; neoveruje kvalitu ani nezaručuje dokončenie."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Riadi Môj deň blokovanie priamo?",
+          "answer": "Nie. V Nonlate overte spôsobilé nedokončené úlohy s termínom a vybrané okno. Môj deň, pripomenutie ani schôdzka nie sú pravidlom blokovania."
+        },
+        {
+          "question": "Môžem to skúsiť zadarmo?",
+          "answer": "Free zahŕňa ručné úlohy a základné blokovanie najviac troch aplikácií. Voliteľná 30-dňová skúška zdrojov začína prvým úspešným pripojením, povoľuje jeden zdroj naraz a nič automaticky neúčtuje. Potom sa synchronizácia bez vhodného plateného prístupu pozastaví; importované úlohy zostávajú na miestne dokončenie a blokovanie."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Microsoft To Do z blokiranjem motenj: naloge pred aplikacijami",
+      "description": "Povežite podprte naloge Microsoft To Do z Nonlate, ločite Moj dan od rokov in preizkusite blokiranje brez podvojenih seznamov.",
+      "intro": "Seznam pokaže prednostne naloge, telefon pa ponuja motnje. Če delo že urejate v Microsoft To Do, dodaten seznam zahteva več vzdrževanja. Pred pomembnim rokom najprej preizkusite eno nalogo z datumom.",
+      "answer": "Nonlate podpira Microsoft To Do kot vir. Povežite pravi račun, preverite uvožene datume in nedokončano stanje ter izberite aplikacije in okno zapadlosti. Ustrezne nedokončane naloge lahko ob odprtju izbrane aplikacije sprožijo blokiranje. Koledarski dogodki ga ne sprožijo.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "Moj dan, opomniki in roki se razlikujejo",
+          "paragraphs": [
+            "Moj dan izbere delo za danes. Rok in opomnik imata ločeni nastavitvi. Vpis v Moj dan ne dokazuje, da je Nonlate prejel rok. Preverite uvoženo nalogo; vsa polja vira nimajo nujno istega pomena.",
+            "Na primer danes pripravite poročilo z rokom v petek. Ohranite pravi rok, delo načrtujte posebej in preverite datum v Nonlate. Načrtovanje ne premakne roka in ne zažene časovnega zaklepa."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "Preizkusite preprosto povezano delo",
+          "paragraphs": [
+            "Sledite povezavi Microsoft To Do v Nonlate. Vrsta računa, dovoljenja, različica in pravila organizacije vplivajo na dostop; službeni in šolski računi se lahko razlikujejo."
+          ],
+          "steps": [
+            "Povežite želeni račun, osvežite in primerjajte naslov, datum ter stanje ene podprte naloge z izvirnikom. Ne prepisujte vsega ročno.",
+            "Izberite okno zapadlosti in nekaj motečih aplikacij. Dodelite potrebna dovoljenja in ohranite dostop do nujnih delovnih ter komunikacijskih orodij.",
+            "Dokončajte dejansko delo, preverite nalogo v Microsoft To Do in osvežite Nonlate za potrditev uvoženega stanja. Druga ustrezna nedokončana naloga lahko še vedno blokira."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "Če posodobitev ali blokiranje preseneti",
+          "paragraphs": [
+            "Pred spreminjanjem seznama preverite račun, povezavo, dovoljenja in uvoženi datum. Sinhronizacija je odvisna od ponudnika, paketa in omejitev ozadja; spremembe niso nujno takojšnje.",
+            "Podprti časovno omejeni odmori ostajajo na voljo. Preklicano dovoljenje, aktiven odmor ali naloga zunaj okna lahko pojasnijo odprtje aplikacije. Blokiranje ustvarja oviro; ne preverja kakovosti in ne zagotavlja dokončanja."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ali Moj dan neposredno določa blokiranje?",
+          "answer": "Ne. V Nonlate preverite ustrezne nedokončane naloge z rokom in izbrano okno. Moj dan, opomnik ali sestanek niso pravilo blokiranja."
+        },
+        {
+          "question": "Ali lahko preizkusim brez plačila?",
+          "answer": "Free vključuje ročne naloge in osnovno blokiranje do treh aplikacij. Izbirni 30-dnevni preizkus virov se začne s prvo uspešno povezavo, dovoljuje en vir naenkrat in ne zaračuna samodejno. Nato se sinhronizacija brez ustreznega plačanega dostopa ustavi; uvožene naloge ostanejo za lokalno dokončanje in blokiranje."
+        }
+      ]
+    },
+    "gu": {
+      "title": "Microsoft To Do સાથે ધ્યાન ભટકાવતી ઍપ રોકો: પહેલાં કામ",
+      "description": "Microsoft To Doનાં સમર્થિત કામ Nonlate સાથે જોડો, મારો દિવસ અને અંતિમ તારીખ અલગ સમજો અને બેવડી યાદી વગર બ્લોકિંગ અજમાવો.",
+      "intro": "યાદી પ્રાથમિકતા બતાવે છે, પણ ફોન ધ્યાન ભટકાવે છે. Microsoft To Do પહેલેથી કામ ગોઠવતું હોય તો બીજી યાદી વધારાની જાળવણી છે. અગત્યની મુદત માટે આધાર રાખતાં પહેલાં તારીખવાળું એક કામ તપાસો.",
+      "answer": "Nonlate સ્રોત તરીકે Microsoft To Doને સમર્થન આપે છે. સાચું ખાતું જોડો, આયાત કરેલી તારીખ અને અધૂરી સ્થિતિ તપાસો, પછી ઍપ અને નિયત કામની સમયમર્યાદા પસંદ કરો. લાયક અધૂરાં કામ પસંદ કરેલી ઍપ ખોલતાં બ્લોકિંગ શરૂ કરી શકે છે. કૅલેન્ડર ઇવેન્ટ તેમ કરતા નથી.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "મારો દિવસ, રિમાઇન્ડર અને અંતિમ તારીખ અલગ છે",
+          "paragraphs": [
+            "મારો દિવસ આજે કરવા માંગતાં કામ પસંદ કરે છે. નિયત તારીખ અને રિમાઇન્ડરની સેટિંગ અલગ છે. મારો દિવસમાં ઉમેરવાથી Nonlateને નિયત તારીખ મળી હોવાનું સાબિત થતું નથી. આયાત કરેલું કામ તપાસો; સ્રોતનાં બધાં ક્ષેત્રનો અર્થ સરખો નથી.",
+            "ઉદાહરણ તરીકે, શુક્રવારે આપવાનો અહેવાલ આજે તૈયાર કરો. સાચી મુદત રાખો, કામનો સમય અલગ ગોઠવો અને Nonlateમાં તારીખ તપાસો. આયોજન તારીખ બદલતું નથી કે સમયબદ્ધ લૉક શરૂ કરતું નથી."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "નાનો જોડાયેલો કાર્યપ્રવાહ તપાસો",
+          "paragraphs": [
+            "Nonlateમાં મળતા Microsoft To Do જોડાણનાં પગલાં અનુસરો. ખાતાનો પ્રકાર, પરવાનગીઓ, આવૃત્તિ અને સંસ્થાના નિયમો પ્રવેશ બદલી શકે છે; કામ કે શાળાનાં ખાતાં અલગ હોઈ શકે છે."
+          ],
+          "steps": [
+            "ઇચ્છિત ખાતું જોડીને રિફ્રેશ કરો અને એક સમર્થિત કામનું શીર્ષક, તારીખ અને સ્થિતિ મૂળ સાથે સરખાવો. બધું હાથથી નકલ ન કરો.",
+            "નિયત કામની સમયમર્યાદા અને થોડી ધ્યાન ભટકાવતી ઍપ પસંદ કરો. જરૂરી ઉપકરણ પરવાનગીઓ આપો, પણ મહત્વનાં કામ અને સંપર્કનાં સાધનો ઉપલબ્ધ રાખો.",
+            "ખરેખર કામ પૂરું કરો, Microsoft To Doમાં તપાસો અને આયાત સ્થિતિની ખાતરી કરવા Nonlate રિફ્રેશ કરો. બીજું લાયક અધૂરું કામ હજી બ્લોક કરી શકે છે."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "અપડેટ કે બ્લોકિંગ અપેક્ષા પ્રમાણે ન હોય ત્યારે",
+          "paragraphs": [
+            "યાદી બદલતાં પહેલાં ખાતું, જોડાણ, પરવાનગીઓ અને આયાત તારીખ તપાસો. સિંક પ્રદાતા, પ્લાન અને પૃષ્ઠભૂમિ મર્યાદાઓ પર આધારિત છે; ફેરફાર તરત દેખાવાની ખાતરી નથી.",
+            "સમર્થિત સમયબદ્ધ વિરામ ઉપલબ્ધ રહે છે. પાછી ખેંચાયેલી પરવાનગી, ચાલુ વિરામ કે મર્યાદા બહારનું કામ ઍપ ખૂલવાનું કારણ હોઈ શકે છે. બ્લોકિંગ અડચણ ઊભી કરે છે; ગુણવત્તા તપાસતું નથી કે પૂર્ણતાની ખાતરી આપતું નથી."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "શું મારો દિવસ સીધું બ્લોકિંગ ચલાવે છે?",
+          "answer": "ના. Nonlateમાં લાયક અધૂરાં નિયત કામ અને પસંદ કરેલી મર્યાદા તપાસો. મારો દિવસ, રિમાઇન્ડર કે કૅલેન્ડર મીટિંગ બ્લોકિંગનો નિયમ નથી."
+        },
+        {
+          "question": "પૈસા આપ્યા વગર અજમાવી શકું?",
+          "answer": "Freeમાં જાતે ઉમેરેલાં કામ અને વધુમાં વધુ ત્રણ ઍપનું મૂળભૂત બ્લોકિંગ છે. વૈકલ્પિક ૩૦ દિવસની સ્રોત અજમાયશ પ્રથમ સફળ જોડાણથી શરૂ થાય છે, એક સમયે એક સ્રોત આપે છે અને આપોઆપ ચાર્જ નથી. પછી લાયક ચૂકવેલ પ્રવેશ વગર સિંક અટકે છે; આયાત કામ સ્થાનિક પૂર્ણતા અને બ્લોકિંગ માટે રહે છે."
+        }
+      ]
+    },
+    "kn": {
+      "title": "Microsoft To Do ಜೊತೆ ಗಮನಭಂಗದ ಆ್ಯಪ್ ತಡೆಯಿರಿ: ಮೊದಲು ಕೆಲಸಗಳು",
+      "description": "Microsoft To Doಯ ಬೆಂಬಲಿತ ಕೆಲಸಗಳನ್ನು Nonlateಗೆ ಜೋಡಿಸಿ, ನನ್ನ ದಿನ ಮತ್ತು ಗಡುವನ್ನು ಬೇರ್ಪಡಿಸಿ, ನಕಲಿ ಪಟ್ಟಿಯಿಲ್ಲದೆ ತಡೆಯುವಿಕೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ.",
+      "intro": "ಪಟ್ಟಿ ಆದ್ಯತೆ ತೋರಿಸುತ್ತದೆ, ಆದರೆ ಫೋನ್ ಗಮನ ಸೆಳೆಯುತ್ತದೆ. Microsoft To Do ಈಗಾಗಲೇ ಕೆಲಸ ಆಯೋಜಿಸುತ್ತಿದ್ದರೆ ಎರಡನೇ ಪಟ್ಟಿಯು ಹೆಚ್ಚುವರಿ ನಿರ್ವಹಣೆ. ಮುಖ್ಯ ಗಡುವಿಗೆ ನಂಬುವ ಮೊದಲು ದಿನಾಂಕವಿರುವ ಒಂದು ಕೆಲಸ ಪರೀಕ್ಷಿಸಿ.",
+      "answer": "Nonlate ಮೂಲವಾಗಿ Microsoft To Do ಬೆಂಬಲಿಸುತ್ತದೆ. ಸರಿಯಾದ ಖಾತೆ ಜೋಡಿಸಿ, ಆಮದು ದಿನಾಂಕ ಮತ್ತು ಅಪೂರ್ಣ ಸ್ಥಿತಿ ಪರಿಶೀಲಿಸಿ, ಆ್ಯಪ್ ಹಾಗೂ ಗಡುವಿನ ವ್ಯಾಪ್ತಿ ಆಯ್ಕೆಮಾಡಿ. ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸಗಳು ಆಯ್ದ ಆ್ಯಪ್ ತೆರೆಯುವಾಗ ತಡೆ ಉಂಟುಮಾಡಬಹುದು. ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆಗಳು ತಡೆ ಉಂಟುಮಾಡುವುದಿಲ್ಲ.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "ನನ್ನ ದಿನ, ಜ್ಞಾಪನೆ ಮತ್ತು ಗಡುವು ಬೇರೆ",
+          "paragraphs": [
+            "ನನ್ನ ದಿನ ಇಂದು ಮಾಡಬಯಸುವ ಕೆಲಸ ಆರಿಸುತ್ತದೆ. ಗಡುವು ಮತ್ತು ಜ್ಞಾಪನೆಗೆ ಪ್ರತ್ಯೇಕ ಸೆಟ್ಟಿಂಗ್ ಇವೆ. ನನ್ನ ದಿನಕ್ಕೆ ಸೇರಿಸುವುದರಿಂದ Nonlateಗೆ ಗಡುವು ಸಿಕ್ಕಿದೆ ಎಂದು ಸಾಬೀತಾಗುವುದಿಲ್ಲ. ಆಮದು ಕೆಲಸ ಪರಿಶೀಲಿಸಿ; ಎಲ್ಲ ಮೂಲ ಕ್ಷೇತ್ರಗಳ ಅರ್ಥ ಒಂದೇ ಅಲ್ಲ.",
+            "ಉದಾಹರಣೆಗೆ ಶುಕ್ರವಾರ ಗಡುವಿರುವ ವರದಿಯನ್ನು ಇಂದು ಸಿದ್ಧಪಡಿಸಿ. ನಿಜವಾದ ಗಡುವು ಉಳಿಸಿ, ಕೆಲಸದ ಸಮಯ ಪ್ರತ್ಯೇಕವಾಗಿ ಯೋಜಿಸಿ ಮತ್ತು Nonlate ದಿನಾಂಕ ನೋಡಿ. ಯೋಜನೆ ಗಡುವು ಬದಲಿಸುವುದಿಲ್ಲ ಅಥವಾ ಸಮಯದ ಲಾಕ್ ಆರಂಭಿಸುವುದಿಲ್ಲ."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "ಚಿಕ್ಕ ಸಂಪರ್ಕಿತ ಕೆಲಸದ ಕ್ರಮ ಪರೀಕ್ಷಿಸಿ",
+          "paragraphs": [
+            "Nonlateನಲ್ಲಿ ಒದಗಿಸಿದ Microsoft To Do ಸಂಪರ್ಕ ಅನುಸರಿಸಿ. ಖಾತೆ ಪ್ರಕಾರ, ಅನುಮತಿ, ಆವೃತ್ತಿ ಮತ್ತು ಸಂಸ್ಥೆ ನಿಯಮ ಪ್ರವೇಶವನ್ನು ಬದಲಿಸಬಹುದು; ಕೆಲಸ ಅಥವಾ ಶಾಲೆ ಖಾತೆಗಳು ವಿಭಿನ್ನವಾಗಬಹುದು."
+          ],
+          "steps": [
+            "ಬೇಕಾದ ಖಾತೆ ಜೋಡಿಸಿ ರಿಫ್ರೆಶ್ ಮಾಡಿ; ಬೆಂಬಲಿತ ಒಂದು ಕೆಲಸದ ಶೀರ್ಷಿಕೆ, ದಿನಾಂಕ ಮತ್ತು ಸ್ಥಿತಿ ಮೂಲದೊಂದಿಗೆ ಹೋಲಿಸಿ. ಎಲ್ಲವನ್ನೂ ಕೈಯಾರೆ ನಕಲಿಸಬೇಡಿ.",
+            "ಗಡುವಿನ ವ್ಯಾಪ್ತಿ ಮತ್ತು ಕೆಲವು ಗಮನಭಂಗದ ಆ್ಯಪ್ ಆರಿಸಿ. ಅಗತ್ಯ ಸಾಧನ ಅನುಮತಿ ನೀಡಿ, ಮುಖ್ಯ ಕೆಲಸ ಮತ್ತು ಸಂವಹನ ಸಾಧನಗಳನ್ನು ಲಭ್ಯವಾಗಿಡಿ.",
+            "ನಿಜವಾದ ಕೆಲಸ ಮುಗಿಸಿ Microsoft To Doನಲ್ಲಿ ನೋಡಿ; ಆಮದು ಸ್ಥಿತಿ ಖಚಿತಪಡಿಸಲು Nonlate ರಿಫ್ರೆಶ್ ಮಾಡಿ. ಮತ್ತೊಂದು ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸ ಇನ್ನೂ ತಡೆಯಬಹುದು."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "ನವೀಕರಣ ಅಥವಾ ತಡೆ ನಿರೀಕ್ಷೆಯಂತಿಲ್ಲದಿದ್ದರೆ",
+          "paragraphs": [
+            "ಪಟ್ಟಿ ಬದಲಿಸುವ ಮೊದಲು ಖಾತೆ, ಸಂಪರ್ಕ, ಅನುಮತಿ ಮತ್ತು ಆಮದು ದಿನಾಂಕ ನೋಡಿ. ಸಿಂಕ್ ಪೂರೈಕೆದಾರ, ಯೋಜನೆ ಮತ್ತು ಹಿನ್ನೆಲೆ ಮಿತಿಗಳ ಮೇಲೆ ಅವಲಂಬಿತ; ಬದಲಾವಣೆ ತಕ್ಷಣ ಬರುವ ಖಾತರಿಯಿಲ್ಲ.",
+            "ಬೆಂಬಲಿತ ಸಮಯದ ವಿರಾಮಗಳು ಲಭ್ಯವಾಗಿರುತ್ತವೆ. ಹಿಂತೆಗೆದ ಅನುಮತಿ, ಸಕ್ರಿಯ ವಿರಾಮ ಅಥವಾ ವ್ಯಾಪ್ತಿ ಹೊರಗಿನ ಕೆಲಸ ಆ್ಯಪ್ ತೆರೆಯಲು ಕಾರಣವಾಗಬಹುದು. ತಡೆ ಅಡಚಣೆ ಸೃಷ್ಟಿಸುತ್ತದೆ; ಕೆಲಸದ ಗುಣಮಟ್ಟ ಪರೀಕ್ಷಿಸುವುದಿಲ್ಲ ಅಥವಾ ಪೂರ್ಣಗೊಳಿಸುವ ಖಾತರಿ ನೀಡುವುದಿಲ್ಲ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ನನ್ನ ದಿನ ನೇರವಾಗಿ ತಡೆಯುವಿಕೆ ನಿಯಂತ್ರಿಸುತ್ತದೆಯೇ?",
+          "answer": "ಇಲ್ಲ. Nonlateನಲ್ಲಿ ಅರ್ಹ ಅಪೂರ್ಣ ಗಡುವಿನ ಕೆಲಸ ಮತ್ತು ಆಯ್ದ ವ್ಯಾಪ್ತಿ ನೋಡಿ. ನನ್ನ ದಿನದಲ್ಲಿ ಇರುವುದು, ಜ್ಞಾಪನೆ ಅಥವಾ ಕ್ಯಾಲೆಂಡರ್ ಸಭೆ ತಡೆ ನಿಯಮವಲ್ಲ."
+        },
+        {
+          "question": "ಹಣ ಕೊಡದೆ ಪ್ರಯತ್ನಿಸಬಹುದೇ?",
+          "answer": "Freeನಲ್ಲಿ ಕೈಯಾರೆ ಸೇರಿಸಿದ ಕೆಲಸಗಳು ಮತ್ತು ಗರಿಷ್ಠ ಮೂರು ಆ್ಯಪ್‌ಗಳ ಮೂಲ ತಡೆ ಇದೆ. ಐಚ್ಛಿಕ 30 ದಿನದ ಮೂಲ ಪ್ರಯೋಗ ಮೊದಲ ಯಶಸ್ವಿ ಸಂಪರ್ಕದಿಂದ ಆರಂಭವಾಗಿ, ಒಂದೇ ಸಮಯದಲ್ಲಿ ಒಂದು ಮೂಲ ಅನುಮತಿಸುತ್ತದೆ; ಸ್ವಯಂಚಾಲಿತ ಶುಲ್ಕವಿಲ್ಲ. ನಂತರ ಅರ್ಹ ಪಾವತಿ ಪ್ರವೇಶವಿಲ್ಲದೆ ಸಿಂಕ್ ನಿಲ್ಲುತ್ತದೆ; ಆಮದು ಕೆಲಸಗಳು ಸ್ಥಳೀಯ ಪೂರ್ಣತೆ ಮತ್ತು ತಡೆಗೆ ಉಳಿಯುತ್ತವೆ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "Microsoft To Do ഉപയോഗിച്ച് ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകൾ തടയാം: ആദ്യം ജോലികൾ",
+      "description": "Microsoft To Doയിലെ പിന്തുണയുള്ള ജോലികൾ Nonlate-ലേക്ക് ബന്ധിപ്പിച്ച്, എന്റെ ദിവസം, അവസാന തീയതി എന്നിവ വേർതിരിച്ച്, ഇരട്ടപ്പട്ടികയില്ലാതെ തടയൽ പരീക്ഷിക്കൂ.",
+      "intro": "പട്ടിക മുൻഗണന കാണിക്കും, പക്ഷേ ഫോൺ ശ്രദ്ധ തിരിക്കും. Microsoft To Doയിൽ ജോലി ക്രമീകരിച്ചിട്ടുണ്ടെങ്കിൽ രണ്ടാമത്തെ പട്ടിക അധിക പരിപാലനമാണ്. പ്രധാന സമയപരിധിക്ക് ആശ്രയിക്കുന്നതിന് മുമ്പ് തീയതിയുള്ള ഒരു ജോലി പരിശോധിക്കൂ.",
+      "answer": "Nonlate, Microsoft To Doയെ ഉറവിടമായി പിന്തുണയ്ക്കുന്നു. ശരിയായ അക്കൗണ്ട് ബന്ധിപ്പിച്ച് ഇറക്കുമതി തീയതിയും പൂർത്തിയാകാത്ത നിലയും നോക്കുക; ആപ്പുകളും അവസാന തീയതി പരിധിയും തിരഞ്ഞെടുക്കുക. യോഗ്യമായ അപൂർണ്ണ ജോലികൾ തിരഞ്ഞെടുത്ത ആപ്പ് തുറക്കുമ്പോൾ തടയൽ സജീവമാക്കാം. കലണ്ടർ സംഭവങ്ങൾ തടയൽ സജീവമാക്കില്ല.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "എന്റെ ദിവസം, ഓർമ്മപ്പെടുത്തൽ, അവസാന തീയതി എന്നിവ വ്യത്യസ്തമാണ്",
+          "paragraphs": [
+            "എന്റെ ദിവസം ഇന്ന് ചെയ്യാനാഗ്രഹിക്കുന്ന ജോലി തിരഞ്ഞെടുക്കുന്നു. അവസാന തീയതിക്കും ഓർമ്മപ്പെടുത്തലിനും വേറെ ക്രമീകരണങ്ങളുണ്ട്. എന്റെ ദിവസത്തിൽ ചേർത്താൽ Nonlate-ന് അവസാന തീയതി ലഭിച്ചു എന്നതിന് തെളിവല്ല. ഇറക്കുമതി ജോലി പരിശോധിക്കൂ; എല്ലാ ഉറവിട ഫീൽഡുകളുടെയും അർത്ഥം ഒന്നല്ല.",
+            "ഉദാഹരണത്തിന് വെള്ളിയാഴ്ച അവസാന തീയതിയുള്ള റിപ്പോർട്ട് ഇന്ന് തയ്യാറാക്കൂ. യഥാർത്ഥ സമയപരിധി നിലനിർത്തി, ജോലി സമയം വേറെ ആസൂത്രണം ചെയ്ത് Nonlateയിലെ തീയതി നോക്കൂ. ആസൂത്രണം അവസാന തീയതി മാറ്റുകയോ സമയബന്ധിത ലോക്ക് തുടങ്ങുകയോ ചെയ്യില്ല."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "ചെറിയ ബന്ധിപ്പിച്ച പ്രവർത്തനരീതി പരിശോധിക്കൂ",
+          "paragraphs": [
+            "Nonlateയിലെ Microsoft To Do ബന്ധിപ്പിക്കൽ പിന്തുടരൂ. അക്കൗണ്ട് തരം, അനുമതികൾ, പതിപ്പ്, സ്ഥാപനനിയമങ്ങൾ എന്നിവ പ്രവേശനത്തെ ബാധിക്കും; ജോലി അല്ലെങ്കിൽ സ്കൂൾ അക്കൗണ്ടുകൾ വ്യത്യസ്തമാകാം."
+          ],
+          "steps": [
+            "ആവശ്യമായ അക്കൗണ്ട് ബന്ധിപ്പിച്ച് പുതുക്കൂ; പിന്തുണയുള്ള ഒരു ജോലിയുടെ ശീർഷകം, തീയതി, നില എന്നിവ മൂലവുമായി താരതമ്യം ചെയ്യൂ. എല്ലാം കൈകൊണ്ട് പകർത്തരുത്.",
+            "അവസാന തീയതി പരിധിയും കുറച്ച് ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകളും തിരഞ്ഞെടുക്കൂ. വേണ്ട ഉപകരണ അനുമതികൾ നൽകി പ്രധാന ജോലി, ആശയവിനിമയ ഉപകരണങ്ങൾ ലഭ്യമാക്കൂ.",
+            "യഥാർത്ഥ ജോലി പൂർത്തിയാക്കി Microsoft To Doയിൽ പരിശോധിച്ച്, ഇറക്കുമതി നില ഉറപ്പിക്കാൻ Nonlate പുതുക്കൂ. മറ്റൊരു യോഗ്യമായ അപൂർണ്ണ ജോലി ഇപ്പോഴും തടയാം."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "പുതുക്കലോ തടയലോ പ്രതീക്ഷിച്ചപോലെയല്ലെങ്കിൽ",
+          "paragraphs": [
+            "പട്ടിക മാറ്റുന്നതിന് മുമ്പ് അക്കൗണ്ട്, ബന്ധം, അനുമതി, ഇറക്കുമതി തീയതി എന്നിവ നോക്കൂ. സമന്വയം ദാതാവ്, പ്ലാൻ, പശ്ചാത്തല പരിധികൾ എന്നിവയെ ആശ്രയിക്കുന്നു; മാറ്റങ്ങൾ ഉടൻ വരുമെന്ന് ഉറപ്പില്ല.",
+            "പിന്തുണയുള്ള സമയബന്ധിത ഇടവേളകൾ ലഭ്യമാണ്. പിൻവലിച്ച അനുമതി, സജീവ ഇടവേള അല്ലെങ്കിൽ പരിധിക്ക് പുറത്തുള്ള ജോലി ആപ്പ് തുറക്കാൻ കാരണമാകാം. തടയൽ ഒരു തടസ്സം സൃഷ്ടിക്കുന്നു; ഗുണനിലവാരം പരിശോധിക്കുകയോ പൂർത്തീകരണം ഉറപ്പാക്കുകയോ ചെയ്യുന്നില്ല."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "എന്റെ ദിവസം നേരിട്ട് തടയൽ നിയന്ത്രിക്കുമോ?",
+          "answer": "ഇല്ല. Nonlateയിലെ യോഗ്യമായ അപൂർണ്ണ, അവസാന തീയതിയുള്ള ജോലികളും തിരഞ്ഞെടുത്ത പരിധിയും നോക്കൂ. എന്റെ ദിവസം, ഓർമ്മപ്പെടുത്തൽ അല്ലെങ്കിൽ കലണ്ടർ യോഗം തടയൽ നിയമമല്ല."
+        },
+        {
+          "question": "പണം നൽകാതെ പരീക്ഷിക്കാമോ?",
+          "answer": "Freeയിൽ കൈകൊണ്ട് ചേർക്കുന്ന ജോലികളും പരമാവധി മൂന്ന് ആപ്പുകളുടെ അടിസ്ഥാന തടയലുമുണ്ട്. ഐച്ഛിക 30 ദിവസത്തെ ഉറവിടപരീക്ഷണം ആദ്യ വിജയകരമായ ബന്ധിപ്പിക്കലിൽ തുടങ്ങി, ഒരേസമയം ഒരു ഉറവിടം അനുവദിക്കുന്നു; സ്വയമേവ പണം ഈടാക്കില്ല. പിന്നീട് യോഗ്യമായ പണമടച്ച പ്രവേശനമില്ലെങ്കിൽ സമന്വയം നിൽക്കും; ഇറക്കുമതി ജോലികൾ പ്രാദേശിക പൂർത്തീകരണത്തിനും തടയലിനും തുടരും."
+        }
+      ]
+    },
+    "mr": {
+      "title": "Microsoft To Do सोबत लक्ष विचलित करणारे अॅप रोखा: आधी कामे",
+      "description": "Microsoft To Do मधील समर्थित कामे Nonlate शी जोडा, माझा दिवस आणि अंतिम तारीख वेगळी समजा व दुहेरी यादीशिवाय ब्लॉकिंग तपासा.",
+      "intro": "यादी प्राधान्य दाखवते, पण फोन लक्ष विचलित करतो. Microsoft To Do आधीच कामे सांभाळत असेल तर दुसरी यादी अतिरिक्त देखभाल वाढवते. महत्त्वाच्या मुदतीसाठी विसंबण्याआधी तारीख असलेले एक काम तपासा.",
+      "answer": "Nonlate स्रोत म्हणून Microsoft To Do समर्थित करतो. योग्य खाते जोडा, आयात केलेल्या तारखा व अपूर्ण स्थिती तपासा, मग अॅप आणि देय कामांची वेळमर्यादा निवडा. पात्र अपूर्ण कामे निवडलेले अॅप उघडताना ब्लॉकिंग सुरू करू शकतात. दिनदर्शिकेतील कार्यक्रम तसे करत नाहीत.",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "माझा दिवस, स्मरणपत्रे आणि मुदती वेगळ्या आहेत",
+          "paragraphs": [
+            "माझा दिवस आज करायची कामे निवडतो. देय तारीख आणि स्मरणपत्र स्वतंत्र सेटिंग आहेत. माझा दिवस मध्ये जोडल्याने Nonlate ला देय तारीख मिळाल्याचे सिद्ध होत नाही. आयात केलेले काम पाहा; सर्व स्रोत क्षेत्रांचा अर्थ एकच नसतो.",
+            "उदा., शुक्रवारी देय अहवाल आज तयार करा. खरी मुदत ठेवा, वेगळे कामाचे सत्र आखा आणि Nonlate मधील तारीख तपासा. नियोजन मुदत बदलत नाही किंवा वेळबद्ध लॉक सुरू करत नाही."
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "छोटा जोडलेला कार्यप्रवाह तपासा",
+          "paragraphs": [
+            "Nonlate मधील Microsoft To Do जोडणीचे निर्देश पाळा. खाते प्रकार, परवानग्या, आवृत्ती व संस्थेचे नियम प्रवेश बदलतात; कामाची किंवा शाळेची खाती वेगळी असू शकतात."
+          ],
+          "steps": [
+            "हवे असलेले खाते जोडून रीफ्रेश करा; समर्थित एका कामाचे शीर्षक, तारीख व स्थिती मूळाशी जुळवा. सर्व काही हाताने नक्कल करू नका.",
+            "देय कामांची वेळमर्यादा व काही विचलित करणारे अॅप निवडा. आवश्यक उपकरण परवानग्या द्या, पण महत्त्वाची कामाची व संपर्काची साधने उपलब्ध ठेवा.",
+            "खरे काम पूर्ण करा, Microsoft To Do मध्ये तपासा आणि आयात स्थितीची खात्री करण्यासाठी Nonlate रीफ्रेश करा. दुसरे पात्र अपूर्ण काम अजूनही ब्लॉक करू शकते."
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "अद्यतन किंवा ब्लॉकिंग अपेक्षेप्रमाणे नसल्यास",
+          "paragraphs": [
+            "यादी बदलण्याआधी खाते, जोडणी, परवानग्या व आयात तारीख तपासा. सिंक प्रदाता, योजना व पार्श्वभूमी मर्यादांवर अवलंबून आहे; बदल लगेच दिसतीलच असे नाही.",
+            "समर्थित वेळबद्ध विश्रांती उपलब्ध राहतात. काढलेली परवानगी, सक्रिय विश्रांती किंवा मर्यादेबाहेरचे काम अॅप उघडण्याचे कारण असू शकते. ब्लॉकिंग अडथळा निर्माण करते; गुणवत्तेची तपासणी किंवा पूर्णतेची हमी देत नाही."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "माझा दिवस थेट ब्लॉकिंग नियंत्रित करतो का?",
+          "answer": "नाही. Nonlate मधील पात्र अपूर्ण देय कामे व निवडलेली मर्यादा तपासा. माझा दिवस, स्मरणपत्र किंवा दिनदर्शिकेतील बैठक ब्लॉकिंगचा नियम नाही."
+        },
+        {
+          "question": "पैसे न देता वापरून पाहता येईल का?",
+          "answer": "Free मध्ये हाताने जोडलेली कामे व जास्तीत जास्त तीन अॅपचे मूलभूत ब्लॉकिंग आहे. ऐच्छिक ३० दिवसांची स्रोत चाचणी पहिल्या यशस्वी जोडणीपासून सुरू होते, एकावेळी एक स्रोत देते व आपोआप शुल्क घेत नाही. त्यानंतर पात्र सशुल्क प्रवेशाशिवाय सिंक थांबतो; आयात कामे स्थानिक पूर्णता व ब्लॉकिंगसाठी राहतात."
+        }
+      ]
+    },
+    "or": {
+      "title": "Microsoft To Do ସହ ଧ୍ୟାନ ଭଙ୍ଗକାରୀ ଆପ୍ ରୋକନ୍ତୁ: ପ୍ରଥମେ କାମ",
+      "description": "Microsoft To Doର ସମର୍ଥିତ କାମ Nonlate ସହ ଯୋଡ଼ନ୍ତୁ, ମୋ ଦିନ ଓ ଶେଷ ତାରିଖକୁ ଅଲଗା ବୁଝନ୍ତୁ ଏବଂ ଦ୍ୱିତୀୟ ତାଲିକା ବିନା ଅବରୋଧ ପରୀକ୍ଷା କରନ୍ତୁ।",
+      "intro": "ତାଲିକା ପ୍ରାଥମିକତା ଦେଖାଏ, କିନ୍ତୁ ଫୋନ୍ ଧ୍ୟାନ ଭଙ୍ଗ କରେ। Microsoft To Doରେ କାମ ସଜାଇଥିଲେ ଦ୍ୱିତୀୟ ତାଲିକା ଅଧିକ ରକ୍ଷଣାବେକ୍ଷଣ ମାଗେ। ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସମୟସୀମା ପାଇଁ ଭରସା ପୂର୍ବରୁ ତାରିଖ ଥିବା ଗୋଟିଏ କାମ ପରୀକ୍ଷା କରନ୍ତୁ।",
+      "answer": "Nonlate ଉତ୍ସ ଭାବେ Microsoft To Doକୁ ସମର୍ଥନ କରେ। ଠିକ୍ ଖାତା ଯୋଡ଼ି ଆମଦାନି ତାରିଖ ଓ ଅସମ୍ପୂର୍ଣ୍ଣ ସ୍ଥିତି ଦେଖନ୍ତୁ, ତାପରେ ଆପ୍ ଓ ଧାର୍ଯ୍ୟ କାମର ସମୟ ପରିସର ବାଛନ୍ତୁ। ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ କାମ ବଛା ଆପ୍ ଖୋଲିଲେ ଅବରୋଧ ଚାଲୁ କରିପାରେ। କ୍ୟାଲେଣ୍ଡର ଘଟଣା ତାହା କରେନାହିଁ।",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "ମୋ ଦିନ, ସ୍ମାରକ ଓ ଶେଷ ତାରିଖ ଭିନ୍ନ",
+          "paragraphs": [
+            "ମୋ ଦିନ ଆଜି କରିବାକୁ ଚାହୁଁଥିବା କାମ ବାଛେ। ଶେଷ ତାରିଖ ଓ ସ୍ମାରକର ସେଟିଂ ଅଲଗା। ମୋ ଦିନରେ ଯୋଡ଼ିଲେ Nonlate ଶେଷ ତାରିଖ ପାଇଛି ବୋଲି ପ୍ରମାଣ ହୁଏନାହିଁ। ଆମଦାନି କାମ ଦେଖନ୍ତୁ; ସମସ୍ତ ଉତ୍ସ କ୍ଷେତ୍ରର ଅର୍ଥ ଏକ ନୁହେଁ।",
+            "ଯେପରି ଶୁକ୍ରବାର ଦେବାକୁ ଥିବା ରିପୋର୍ଟ ଆଜି ପ୍ରସ୍ତୁତ କରନ୍ତୁ। ପ୍ରକୃତ ସମୟସୀମା ରଖି କାମର ସମୟ ଅଲଗା ଯୋଜନା କରନ୍ତୁ ଓ Nonlateର ତାରିଖ ଦେଖନ୍ତୁ। ଯୋଜନା ଶେଷ ତାରିଖ ବଦଳାଏ ନାହିଁ କିମ୍ବା ସମୟବଦ୍ଧ ଲକ୍ ଆରମ୍ଭ କରେନାହିଁ।"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "ଛୋଟ ସଂଯୁକ୍ତ କାର୍ଯ୍ୟପ୍ରବାହ ପରୀକ୍ଷା କରନ୍ତୁ",
+          "paragraphs": [
+            "Nonlateର Microsoft To Do ସଂଯୋଗ ଅନୁସରଣ କରନ୍ତୁ। ଖାତା ପ୍ରକାର, ଅନୁମତି, ସଂସ୍କରଣ ଓ ସଂସ୍ଥା ନିୟମ ପ୍ରବେଶକୁ ବଦଳାଇପାରେ; କାମ କିମ୍ବା ବିଦ୍ୟାଳୟ ଖାତା ଭିନ୍ନ ହୋଇପାରେ।"
+          ],
+          "steps": [
+            "ଚାହିଁଥିବା ଖାତା ଯୋଡ଼ି ରିଫ୍ରେଶ୍ କରନ୍ତୁ ଏବଂ ଗୋଟିଏ ସମର୍ଥିତ କାମର ଶୀର୍ଷକ, ତାରିଖ ଓ ସ୍ଥିତି ମୂଳ ସହ ମେଳାନ୍ତୁ। ସବୁ ହାତରେ ନକଲ କରନ୍ତୁ ନାହିଁ।",
+            "ସମୟ ପରିସର ଓ କିଛି ଧ୍ୟାନ ଭଙ୍ଗକାରୀ ଆପ୍ ବାଛନ୍ତୁ। ଆବଶ୍ୟକ ଉପକରଣ ଅନୁମତି ଦିଅନ୍ତୁ, କିନ୍ତୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କାମ ଓ ଯୋଗାଯୋଗ ସାଧନ ଉପଲବ୍ଧ ରଖନ୍ତୁ।",
+            "ପ୍ରକୃତ କାମ ସାରି Microsoft To Doରେ ଦେଖନ୍ତୁ ଓ ଆମଦାନି ସ୍ଥିତି ନିଶ୍ଚିତ କରିବାକୁ Nonlate ରିଫ୍ରେଶ୍ କରନ୍ତୁ। ଅନ୍ୟ ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ କାମ ଏବେବି ଅବରୋଧ କରିପାରେ।"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "ଅଦ୍ୟତନ କିମ୍ବା ଅବରୋଧ ଆଶା ଅନୁଯାୟୀ ନହେଲେ",
+          "paragraphs": [
+            "ତାଲିକା ବଦଳାଇବା ପୂର୍ବରୁ ଖାତା, ସଂଯୋଗ, ଅନୁମତି ଓ ଆମଦାନି ତାରିଖ ଦେଖନ୍ତୁ। ସିଙ୍କ ପ୍ରଦାନକାରୀ, ପ୍ଲାନ୍ ଓ ପୃଷ୍ଠଭୂମି ସୀମା ଉପରେ ନିର୍ଭରଶୀଳ; ପରିବର୍ତ୍ତନ ତୁରନ୍ତ ଆସିବା ନିଶ୍ଚିତ ନୁହେଁ।",
+            "ସମର୍ଥିତ ସମୟବଦ୍ଧ ବିରତି ଉପଲବ୍ଧ ରହେ। ହଟାଯାଇଥିବା ଅନୁମତି, ଚାଲୁ ବିରତି କିମ୍ବା ପରିସର ବାହାର କାମ ଆପ୍ ଖୋଲିବାର କାରଣ ହୋଇପାରେ। ଅବରୋଧ ବାଧା ସୃଷ୍ଟି କରେ; କାମର ଗୁଣ ଯାଞ୍ଚ କିମ୍ବା ସମ୍ପୂର୍ଣ୍ଣତାର ଗ୍ୟାରେଣ୍ଟି ଦିଏନାହିଁ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ମୋ ଦିନ ସିଧାସଳଖ ଅବରୋଧ ନିୟନ୍ତ୍ରଣ କରେ କି?",
+          "answer": "ନା। Nonlateରେ ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ ଧାର୍ଯ୍ୟ କାମ ଓ ବଛା ପରିସର ଦେଖନ୍ତୁ। ମୋ ଦିନରେ ରହିବା, ସ୍ମାରକ କିମ୍ବା କ୍ୟାଲେଣ୍ଡର ବୈଠକ ଅବରୋଧର ନିୟମ ନୁହେଁ।"
+        },
+        {
+          "question": "ଟଙ୍କା ନଦେଇ ପରୀକ୍ଷା କରିପାରିବି କି?",
+          "answer": "Freeରେ ନିଜେ ଯୋଡ଼ା କାମ ଓ ସର୍ବାଧିକ ତିନି ଆପ୍‌ର ମୌଳିକ ଅବରୋଧ ଅଛି। ଇଚ୍ଛାଧୀନ ୩୦ ଦିନର ଉତ୍ସ ପରୀକ୍ଷା ପ୍ରଥମ ସଫଳ ସଂଯୋଗରୁ ଆରମ୍ଭ ହୁଏ, ଏକ ସମୟରେ ଗୋଟିଏ ଉତ୍ସ ଦିଏ ଓ ସ୍ୱୟଂଚାଳିତ ଚାର୍ଜ ନାହିଁ। ପରେ ଯୋଗ୍ୟ ଦେୟ ପ୍ରବେଶ ବିନା ସିଙ୍କ ଥାମେ; ଆମଦାନି କାମ ସ୍ଥାନୀୟ ସମ୍ପୂର୍ଣ୍ଣତା ଓ ଅବରୋଧ ପାଇଁ ରହେ।"
+        }
+      ]
+    },
+    "pa": {
+      "title": "Microsoft To Do ਨਾਲ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਰੋਕੋ: ਪਹਿਲਾਂ ਕੰਮ",
+      "description": "Microsoft To Do ਦੇ ਸਮਰਥਿਤ ਕੰਮ Nonlate ਨਾਲ ਜੋੜੋ, ਮੇਰਾ ਦਿਨ ਅਤੇ ਆਖਰੀ ਤਾਰੀਖ ਵੱਖ ਸਮਝੋ ਅਤੇ ਦੁਹਰੀ ਸੂਚੀ ਬਿਨਾਂ ਬਲਾਕਿੰਗ ਪਰਖੋ।",
+      "intro": "ਸੂਚੀ ਤਰਜੀਹਾਂ ਦਿਖਾਉਂਦੀ ਹੈ, ਪਰ ਫ਼ੋਨ ਧਿਆਨ ਭਟਕਾਉਂਦਾ ਹੈ। ਜੇ Microsoft To Do ਪਹਿਲਾਂ ਹੀ ਕੰਮ ਸੰਭਾਲਦਾ ਹੈ ਤਾਂ ਦੂਜੀ ਸੂਚੀ ਵਾਧੂ ਸੰਭਾਲ ਮੰਗਦੀ ਹੈ। ਮਹੱਤਵਪੂਰਨ ਮਿਆਦ ਲਈ ਭਰੋਸੇ ਤੋਂ ਪਹਿਲਾਂ ਤਾਰੀਖ ਵਾਲਾ ਇੱਕ ਕੰਮ ਪਰਖੋ।",
+      "answer": "Nonlate ਸਰੋਤ ਵਜੋਂ Microsoft To Do ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ। ਸਹੀ ਖਾਤਾ ਜੋੜੋ, ਆਯਾਤ ਤਾਰੀਖ ਅਤੇ ਅਧੂਰੀ ਹਾਲਤ ਵੇਖੋ, ਫਿਰ ਐਪਾਂ ਅਤੇ ਨਿਯਤ ਕੰਮ ਦੀ ਸਮਾਂ-ਹੱਦ ਚੁਣੋ। ਯੋਗ ਅਧੂਰੇ ਕੰਮ ਚੁਣੀ ਐਪ ਖੋਲ੍ਹਣ ਵੇਲੇ ਬਲਾਕਿੰਗ ਚਾਲੂ ਕਰ ਸਕਦੇ ਹਨ। ਕੈਲੰਡਰ ਸਮਾਗਮ ਅਜਿਹਾ ਨਹੀਂ ਕਰਦੇ।",
+      "sections": [
+        {
+          "id": "dates",
+          "heading": "ਮੇਰਾ ਦਿਨ, ਯਾਦ-ਸੂਚਨਾਵਾਂ ਅਤੇ ਆਖਰੀ ਤਾਰੀਖ ਵੱਖ ਹਨ",
+          "paragraphs": [
+            "ਮੇਰਾ ਦਿਨ ਅੱਜ ਕਰਨ ਵਾਲੇ ਕੰਮ ਚੁਣਦਾ ਹੈ। ਨਿਯਤ ਤਾਰੀਖ ਅਤੇ ਯਾਦ-ਸੂਚਨਾ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵੱਖ ਹਨ। ਮੇਰਾ ਦਿਨ ਵਿੱਚ ਜੋੜਨਾ ਇਹ ਸਾਬਤ ਨਹੀਂ ਕਰਦਾ ਕਿ Nonlate ਨੂੰ ਨਿਯਤ ਤਾਰੀਖ ਮਿਲੀ। ਆਯਾਤ ਕੰਮ ਵੇਖੋ; ਸਰੋਤ ਦੇ ਸਾਰੇ ਖੇਤਰਾਂ ਦਾ ਅਰਥ ਇੱਕ ਨਹੀਂ ਹੁੰਦਾ।",
+            "ਮਿਸਾਲ ਲਈ ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਦੇਣ ਵਾਲੀ ਰਿਪੋਰਟ ਅੱਜ ਤਿਆਰ ਕਰੋ। ਅਸਲੀ ਮਿਆਦ ਰੱਖੋ, ਕੰਮ ਦਾ ਸਮਾਂ ਵੱਖ ਯੋਜੋ ਅਤੇ Nonlate ਦੀ ਤਾਰੀਖ ਵੇਖੋ। ਯੋਜਨਾ ਮਿਆਦ ਨਹੀਂ ਬਦਲਦੀ ਜਾਂ ਸਮੇਂ ਵਾਲਾ ਲਾਕ ਸ਼ੁਰੂ ਨਹੀਂ ਕਰਦੀ।"
+          ]
+        },
+        {
+          "id": "connect",
+          "heading": "ਛੋਟਾ ਜੁੜਿਆ ਕਾਰਜ-ਪ੍ਰਵਾਹ ਪਰਖੋ",
+          "paragraphs": [
+            "Nonlate ਵਿੱਚ ਦਿੱਤਾ Microsoft To Do ਕਨੈਕਸ਼ਨ ਅਪਣਾਓ। ਖਾਤੇ ਦੀ ਕਿਸਮ, ਇਜਾਜ਼ਤਾਂ, ਵਰਜਨ ਅਤੇ ਸੰਸਥਾ ਦੇ ਨਿਯਮ ਪਹੁੰਚ ਬਦਲ ਸਕਦੇ ਹਨ; ਕੰਮ ਜਾਂ ਸਕੂਲ ਖਾਤੇ ਵੱਖ ਹੋ ਸਕਦੇ ਹਨ।"
+          ],
+          "steps": [
+            "ਚਾਹੀਦਾ ਖਾਤਾ ਜੋੜ ਕੇ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ ਅਤੇ ਇੱਕ ਸਮਰਥਿਤ ਕੰਮ ਦਾ ਸਿਰਲੇਖ, ਤਾਰੀਖ ਤੇ ਹਾਲਤ ਅਸਲ ਨਾਲ ਮਿਲਾਓ। ਸਭ ਕੁਝ ਹੱਥੀਂ ਨਕਲ ਨਾ ਕਰੋ।",
+            "ਨਿਯਤ ਕੰਮ ਦੀ ਸਮਾਂ-ਹੱਦ ਅਤੇ ਕੁਝ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਚੁਣੋ। ਲੋੜੀਂਦੀਆਂ ਡਿਵਾਈਸ ਇਜਾਜ਼ਤਾਂ ਦਿਓ ਪਰ ਜ਼ਰੂਰੀ ਕੰਮ ਤੇ ਸੰਪਰਕ ਦੇ ਸਾਧਨ ਉਪਲਬਧ ਰੱਖੋ।",
+            "ਅਸਲੀ ਕੰਮ ਪੂਰਾ ਕਰੋ, Microsoft To Do ਵਿੱਚ ਵੇਖੋ ਅਤੇ ਆਯਾਤ ਹਾਲਤ ਪੱਕੀ ਕਰਨ ਲਈ Nonlate ਰਿਫ੍ਰੈਸ਼ ਕਰੋ। ਹੋਰ ਯੋਗ ਅਧੂਰਾ ਕੰਮ ਹਾਲੇ ਵੀ ਬਲਾਕ ਕਰ ਸਕਦਾ ਹੈ।"
+          ]
+        },
+        {
+          "id": "check",
+          "heading": "ਜੇ ਅਪਡੇਟ ਜਾਂ ਬਲਾਕਿੰਗ ਉਮੀਦ ਅਨੁਸਾਰ ਨਾ ਹੋਵੇ",
+          "paragraphs": [
+            "ਸੂਚੀ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਖਾਤਾ, ਕਨੈਕਸ਼ਨ, ਇਜਾਜ਼ਤਾਂ ਅਤੇ ਆਯਾਤ ਤਾਰੀਖ ਵੇਖੋ। ਸਿੰਕ ਪ੍ਰਦਾਤਾ, ਪਲਾਨ ਅਤੇ ਪਿਛੋਕੜ ਹੱਦਾਂ ਉੱਤੇ ਨਿਰਭਰ ਹੈ; ਤਬਦੀਲੀ ਤੁਰੰਤ ਆਉਣਾ ਪੱਕਾ ਨਹੀਂ।",
+            "ਸਮਰਥਿਤ ਸਮੇਂ ਵਾਲੇ ਵਿਰਾਮ ਉਪਲਬਧ ਰਹਿੰਦੇ ਹਨ। ਵਾਪਸ ਲਈ ਇਜਾਜ਼ਤ, ਚੱਲਦਾ ਵਿਰਾਮ ਜਾਂ ਹੱਦ ਤੋਂ ਬਾਹਰ ਕੰਮ ਐਪ ਖੁੱਲ੍ਹਣ ਦਾ ਕਾਰਨ ਹੋ ਸਕਦੇ ਹਨ। ਬਲਾਕਿੰਗ ਰੁਕਾਵਟ ਬਣਾਉਂਦੀ ਹੈ; ਗੁਣਵੱਤਾ ਨਹੀਂ ਜਾਂਚਦੀ ਅਤੇ ਪੂਰਾ ਹੋਣ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦਿੰਦੀ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ਕੀ ਮੇਰਾ ਦਿਨ ਸਿੱਧਾ ਬਲਾਕਿੰਗ ਚਲਾਉਂਦਾ ਹੈ?",
+          "answer": "ਨਹੀਂ। Nonlate ਵਿੱਚ ਯੋਗ ਅਧੂਰੇ ਨਿਯਤ ਕੰਮ ਅਤੇ ਚੁਣੀ ਹੱਦ ਵੇਖੋ। ਮੇਰਾ ਦਿਨ ਵਿੱਚ ਹੋਣਾ, ਯਾਦ-ਸੂਚਨਾ ਜਾਂ ਕੈਲੰਡਰ ਮੀਟਿੰਗ ਬਲਾਕਿੰਗ ਦਾ ਨਿਯਮ ਨਹੀਂ।"
+        },
+        {
+          "question": "ਕੀ ਬਿਨਾਂ ਭੁਗਤਾਨ ਅਜ਼ਮਾ ਸਕਦਾ ਹਾਂ?",
+          "answer": "Free ਵਿੱਚ ਹੱਥੀਂ ਜੋੜੇ ਕੰਮ ਅਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਤਿੰਨ ਐਪਾਂ ਦੀ ਮੁੱਢਲੀ ਬਲਾਕਿੰਗ ਹੈ। ਚੋਣਵੀਂ 30 ਦਿਨਾਂ ਦੀ ਸਰੋਤ ਪਰਖ ਪਹਿਲੇ ਸਫਲ ਕਨੈਕਸ਼ਨ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਇੱਕ ਵੇਲੇ ਇੱਕ ਸਰੋਤ ਦਿੰਦੀ ਹੈ ਅਤੇ ਆਪਣੇ ਆਪ ਚਾਰਜ ਨਹੀਂ ਲੈਂਦੀ। ਬਾਅਦ ਵਿੱਚ ਯੋਗ ਭੁਗਤਾਨੀ ਪਹੁੰਚ ਬਿਨਾਂ ਸਿੰਕ ਰੁਕਦਾ ਹੈ; ਆਯਾਤ ਕੰਮ ਸਥਾਨਕ ਪੂਰਤੀ ਅਤੇ ਬਲਾਕਿੰਗ ਲਈ ਰਹਿੰਦੇ ਹਨ।"
+        }
+      ]
+    }
+  }
+}

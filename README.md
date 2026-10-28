@@ -2,15 +2,19 @@
 
 Production source for [nonlate.app](https://nonlate.app/). The site is a static Next.js export deployed by GitHub Actions to GitHub Pages.
 
-The October 26 search-intent batch adds four practical workflows: studying with
-fewer distracting apps, Canvas assignments, Google Classroom assignments, and
-Todoist with distraction blocking. All four now have complete copy in every one
-of the 47 supported website language variants, for 188 article pages and 571
-canonical sitemap URLs. Every
-guide index links to matching-language articles. The initial five-language batch
-was expanded at the user’s request; future guides must cover all 47 languages.
-Research evidence and the remaining keyword map are recorded in
-`research/search-intents-2026-10-26.json`; observations are not search volumes.
+The October 26 batch covers studying, Canvas, Google Classroom and Todoist.
+The October 27 batch adds Google Tasks, Microsoft To Do and a checklist for
+choosing an app blocker for 2027. These seven guides have complete copy in all
+47 supported website language variants: 329 article pages and 712 canonical
+sitemap URLs across the site. Every guide index links to matching-language
+articles. Future guides must cover all 47 languages.
+Research evidence is recorded in `research/search-intents-2026-10-26.json`,
+`research/search-strategy-2026-10-27.json` and the provider research files;
+observations are qualitative, not measured search volumes or ranking forecasts.
+The 2027 guide is a forward-planning checklist published October 27, 2026,
+based on currently verified features. It does not claim future testing or an
+independent award. Future-dated publication metadata and date-swapped monthly
+copies are not used. No third-party publishing is part of this release.
 
 `app/guides/search-content/` holds the article data and a hash-pinned review
 record. The build rejects changed or incomplete copy until its review record is

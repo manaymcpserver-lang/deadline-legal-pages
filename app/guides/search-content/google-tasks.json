@@ -1,0 +1,2331 @@
+{
+  "slug": "google-tasks-distraction-blocker",
+  "published": "2026-10-27",
+  "related": [
+    "todoist-distraction-blocker",
+    "block-distracting-apps-until-tasks-are-done"
+  ],
+  "sources": [
+    {
+      "label": "Google Tasks: task dates and API limitations",
+      "url": "https://developers.google.com/workspace/tasks/reference/rest/v1/tasks"
+    },
+    {
+      "label": "Google: managing repeating tasks",
+      "url": "https://support.google.com/tasks/answer/12132599?hl=en"
+    },
+    {
+      "label": "Google: creating and managing tasks in Calendar",
+      "url": "https://support.google.com/calendar/answer/9901136?hl=en"
+    },
+    {
+      "label": "Nonlate: supported integrations and plans",
+      "url": "https://nonlate.app/#integrations"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Google Tasks distraction blocker: put your due work first",
+      "description": "Connect Google Tasks to Nonlate, check imported dates and add app blocking around eligible unfinished work. Understand calendar and recurring-task limits.",
+      "intro": "You capture a task from Gmail, see it in Google Calendar and still open social media instead of starting. Another reminder may be easy to dismiss. A task-aware blocker adds a pause at the moment you open a selected distracting app, using the work that is actually due.",
+      "answer": "Nonlate supports Google Tasks as a connected source. Authorize the connection, refresh and compare an imported task with Google Tasks. Choose distracting apps and a due-work window. Eligible unfinished tasks can trigger blocking when you open a selected app; calendar events do not.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Check the imported date before trusting the blocker",
+          "paragraphs": [
+            "A work session, a reminder and a real deadline are different. Google’s public Tasks API exposes a scheduled day, not the task’s deadline, and does not preserve the time of day. Do not assume a precise time or deadline shown in Google Calendar transfers unchanged. Check the real deadline separately and the date Nonlate actually displays. Test an ordinary task before depending on the connection for important work."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Connect one task and test the whole workflow",
+          "paragraphs": [
+            "Keep Google Tasks as your reference for task details. Start small instead of duplicating every list inside a second app."
+          ],
+          "steps": [
+            "Connect Google Tasks through Nonlate’s supported sign-in flow. Check that you chose the Google account containing the relevant task list.",
+            "Refresh Nonlate and compare the imported title, date and completion state. Check access and permissions if the task is missing.",
+            "Choose a manageable due-work window and a few distracting apps. Complete the device permission setup and keep essential tools accessible.",
+            "Finish the real work, check its completion in Google Tasks and refresh Nonlate. Another eligible unfinished task can still keep blocking active."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Review recurring work after each occurrence",
+          "paragraphs": [
+            "Google Tasks supports repeating tasks, but do not assume every future occurrence or recurrence setting transfers to another app. After completing one occurrence, check what appears next in Google Tasks and Nonlate. If an update is delayed, refresh before creating duplicates. Sync timing depends on the provider, plan, permissions and device; immediate updates are not guaranteed."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Will a Google Calendar focus session block apps?",
+          "answer": "Calendar events do not trigger Nonlate blocking. Schedule a realistic work session separately; scheduling does not move the task deadline. Blocking depends on eligible unfinished tasks, your due window and device permissions. Supported timed breaks remain available."
+        },
+        {
+          "question": "Can I use this without a paid subscription?",
+          "answer": "Free includes manual tasks and core blocking for up to three distracting apps. The optional 30-day source trial starts with the first successful connection, allows one source at a time and has no automatic charge. Afterwards, external syncing pauses without eligible paid access; imported tasks remain usable for local completion and blocking."
+        },
+        {
+          "question": "Does connecting tasks guarantee I will finish them?",
+          "answer": "No. Nonlate interrupts selected distractions; it does not verify work quality or guarantee completion. Keep source details accurate and review your plan when deadlines change."
+        }
+      ]
+    },
+    "es": {
+      "title": "Bloqueador de distracciones para Google Tasks: primero tus tareas pendientes",
+      "description": "Conecta Google Tasks a Nonlate, revisa las fechas importadas y bloquea apps según las tareas pendientes que cumplan los criterios. Conoce los límites de calendarios y repeticiones.",
+      "intro": "Guardas una tarea desde Gmail, la ves en Google Calendar y aun así abres las redes en vez de empezar. Es fácil descartar otro recordatorio. Un bloqueador basado en tareas introduce una pausa al abrir una app que te distrae, según el trabajo que realmente vence.",
+      "answer": "Nonlate admite Google Tasks como fuente conectada. Autoriza la conexión, actualiza y compara una tarea importada con Google Tasks. Elige las apps y un intervalo de vencimiento. Las tareas pendientes que cumplan los criterios pueden activar el bloqueo al abrir una app seleccionada; los eventos del calendario no.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Revisa la fecha importada antes de confiar en el bloqueo",
+          "paragraphs": [
+            "Una sesión de trabajo, un recordatorio y una fecha límite real son cosas distintas. La API pública de Google Tasks ofrece el día programado, no la fecha límite de la tarea, y no conserva la hora. No supongas que una hora o fecha límite de Google Calendar se transferirá intacta. Comprueba por separado el plazo real y la fecha que muestra Nonlate. Prueba una tarea normal antes de depender de la conexión para trabajo importante."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Conecta una tarea y prueba todo el proceso",
+          "paragraphs": [
+            "Conserva Google Tasks como referencia para los detalles. Empieza con poco en vez de duplicar todas las listas en otra app."
+          ],
+          "steps": [
+            "Conecta Google Tasks mediante el inicio de sesión compatible de Nonlate. Comprueba que elegiste la cuenta de Google con la lista correspondiente.",
+            "Actualiza Nonlate y compara el título, la fecha y el estado de la tarea importada. Si falta, revisa el acceso y los permisos.",
+            "Elige un intervalo de vencimiento manejable y unas pocas apps que te distraigan. Configura los permisos del dispositivo y conserva el acceso a las herramientas esenciales.",
+            "Termina el trabajo real, comprueba su finalización en Google Tasks y actualiza Nonlate. Otra tarea pendiente que cumpla los criterios puede mantener el bloqueo."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Revisa las tareas recurrentes después de cada repetición",
+          "paragraphs": [
+            "Google Tasks admite tareas recurrentes, pero no des por hecho que todas las repeticiones futuras o sus ajustes pasan a otra app. Tras completar una, revisa qué aparece después en Google Tasks y Nonlate. Si una actualización tarda, actualiza antes de crear duplicados. La sincronización depende del proveedor, plan, permisos y dispositivo; no se garantiza que sea inmediata."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Una sesión de concentración de Google Calendar bloqueará apps?",
+          "answer": "Los eventos del calendario no activan el bloqueo de Nonlate. Programa una sesión de trabajo realista por separado; esto no cambia el vencimiento de la tarea. El bloqueo depende de las tareas pendientes elegibles, del intervalo y de los permisos. Las pausas temporizadas compatibles siguen disponibles."
+        },
+        {
+          "question": "¿Puedo usarlo sin una suscripción de pago?",
+          "answer": "Free incluye tareas manuales y bloqueo básico de hasta tres apps. La prueba opcional de fuentes durante 30 días empieza con la primera conexión correcta, permite una fuente a la vez y no cobra automáticamente. Después, la sincronización externa se pausa sin acceso de pago compatible; las tareas importadas siguen disponibles para completarlas localmente y activar el bloqueo."
+        },
+        {
+          "question": "¿Conectar tareas garantiza que las terminaré?",
+          "answer": "No. Nonlate interrumpe las distracciones seleccionadas; no verifica la calidad ni garantiza la finalización. Mantén correctos los datos de origen y revisa el plan si cambian los plazos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bloqueur de distractions pour Google Tasks : les tâches à échéance d’abord",
+      "description": "Connectez Google Tasks à Nonlate, vérifiez les dates importées et bloquez des applications selon les tâches inachevées admissibles. Comprenez les limites des calendriers et répétitions.",
+      "intro": "Vous créez une tâche depuis Gmail, la retrouvez dans Google Calendar, puis ouvrez les réseaux sociaux au lieu de commencer. Un rappel supplémentaire se ferme facilement. Un bloqueur lié aux tâches introduit une pause à l’ouverture d’une application choisie, selon le travail réellement arrivé à échéance.",
+      "answer": "Nonlate accepte Google Tasks comme source connectée. Autorisez la connexion, actualisez et comparez une tâche importée avec Google Tasks. Choisissez les applications et une fenêtre d’échéance. Les tâches inachevées admissibles peuvent déclencher le blocage à l’ouverture d’une application choisie ; les événements du calendrier ne le déclenchent pas.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Vérifiez la date importée avant de compter sur le blocage",
+          "paragraphs": [
+            "Une séance de travail, un rappel et une véritable échéance sont différents. L’API publique de Google Tasks fournit le jour planifié, pas la date limite de la tâche, et ne conserve pas l’heure. Ne supposez pas qu’une heure précise ou une échéance de Google Calendar sera transférée telle quelle. Vérifiez séparément la véritable échéance et la date affichée dans Nonlate. Testez une tâche ordinaire avant de compter sur la connexion pour du travail important."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Connectez une tâche et testez tout le parcours",
+          "paragraphs": [
+            "Gardez Google Tasks comme référence pour les détails. Commencez simplement au lieu de recopier toutes vos listes dans une seconde application."
+          ],
+          "steps": [
+            "Connectez Google Tasks avec la procédure de connexion prise en charge par Nonlate. Vérifiez que le compte Google choisi contient la liste concernée.",
+            "Actualisez Nonlate et comparez le titre, la date et l’état d’achèvement importés. Si la tâche manque, vérifiez l’accès et les autorisations.",
+            "Choisissez une fenêtre d’échéance raisonnable et quelques applications distrayantes. Configurez les autorisations du téléphone et laissez les outils essentiels accessibles.",
+            "Terminez le vrai travail, vérifiez son achèvement dans Google Tasks, puis actualisez Nonlate. Une autre tâche inachevée admissible peut maintenir le blocage."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Revérifiez le travail récurrent après chaque occurrence",
+          "paragraphs": [
+            "Google Tasks gère les tâches répétées, mais toutes les occurrences futures et tous les paramètres ne passent pas forcément dans une autre application. Après en avoir terminé une, vérifiez la suivante dans Google Tasks et Nonlate. Si la mise à jour tarde, actualisez avant de créer des doublons. La synchronisation dépend du fournisseur, du forfait, des autorisations et de l’appareil ; elle n’est pas garantie instantanée."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Une séance de concentration Google Calendar bloque-t-elle les applications ?",
+          "answer": "Les événements du calendrier ne déclenchent pas le blocage Nonlate. Planifiez séparément une séance réaliste ; la planification ne déplace pas l’échéance. Le blocage dépend des tâches inachevées admissibles, de la fenêtre choisie et des autorisations. Les pauses minutées prises en charge restent disponibles."
+        },
+        {
+          "question": "Puis-je l’utiliser sans abonnement payant ?",
+          "answer": "Free comprend les tâches manuelles et le blocage de base de trois applications au maximum. L’essai facultatif de source dure 30 jours dès la première connexion réussie, autorise une source à la fois et ne facture rien automatiquement. Ensuite, sans accès payant admissible, la synchronisation externe s’arrête ; les tâches importées restent utilisables pour l’achèvement local et le blocage."
+        },
+        {
+          "question": "Connecter les tâches garantit-il que je les terminerai ?",
+          "answer": "Non. Nonlate interrompt les distractions choisies ; il ne vérifie pas la qualité du travail et ne garantit pas son achèvement. Gardez les informations sources exactes et revoyez votre plan lorsque les échéances changent."
+        }
+      ]
+    },
+    "hi": {
+      "title": "Google Tasks के लिए ध्यान भटकाने वाले ऐप रोकें: पहले तय समय वाला काम",
+      "description": "Google Tasks को Nonlate से जोड़ें, आयातित तारीखें जाँचें और योग्य अधूरे काम के आधार पर ऐप रोकें। कैलेंडर और दोहराए जाने वाले काम की सीमाएँ समझें।",
+      "intro": "आप Gmail से कोई काम जोड़ते हैं, उसे Google Calendar में देखते हैं, फिर भी शुरू करने के बजाय सोशल मीडिया खोल लेते हैं। एक और सूचना भी आसानी से हट जाती है। काम पर आधारित अवरोधक चुना हुआ ध्यान भटकाने वाला ऐप खोलते समय रुकने का अवसर देता है, उस काम के आधार पर जिसका समय सच में आ गया है।",
+      "answer": "Nonlate में Google Tasks को स्रोत के रूप में जोड़ सकते हैं। अनुमति दें, ताज़ा करें और आयातित काम को Google Tasks से मिलाएँ। ऐप और समय-सीमा का दायरा चुनें। योग्य अधूरे काम चुने गए ऐप को खोलने पर रोक लगा सकते हैं; कैलेंडर की घटनाएँ ऐसा नहीं करतीं।",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "रोक पर भरोसा करने से पहले आयातित तारीख जाँचें",
+          "paragraphs": [
+            "काम का सत्र, याद दिलाने वाली सूचना और असली अंतिम तारीख अलग बातें हैं। Google Tasks का सार्वजनिक API निर्धारित दिन देता है, काम की असली अंतिम तारीख नहीं, और दिन का समय सुरक्षित नहीं रखता। Google Calendar का सटीक समय या अंतिम तारीख ज्यों की त्यों आएगी, ऐसा न मानें। असली अंतिम तारीख अलग से जाँचें और Nonlate में दिखाई गई तारीख देखें। जरूरी काम के लिए भरोसा करने से पहले साधारण काम पर परीक्षण करें।"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "एक काम जोड़कर पूरा क्रम जाँचें",
+          "paragraphs": [
+            "काम के विवरण के लिए Google Tasks को संदर्भ बनाए रखें। सभी सूचियाँ दूसरे ऐप में दोहराने के बजाय छोटे स्तर से शुरू करें।"
+          ],
+          "steps": [
+            "Nonlate की समर्थित साइन-इन प्रक्रिया से Google Tasks जोड़ें। पुष्टि करें कि चुने गए Google खाते में संबंधित सूची है।",
+            "Nonlate ताज़ा करें और आयातित शीर्षक, तारीख तथा पूरा होने की स्थिति मिलाएँ। काम न दिखे तो पहुँच और अनुमतियाँ जाँचें।",
+            "संभालने योग्य देय-समय दायरा और कुछ भटकाने वाले ऐप चुनें। उपकरण की अनुमतियाँ पूरी करें और जरूरी साधन उपलब्ध रखें।",
+            "असली काम पूरा करें, Google Tasks में उसकी स्थिति जाँचें और Nonlate ताज़ा करें। दूसरा योग्य अधूरा काम रोक जारी रख सकता है।"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "हर बार पूरा करने के बाद दोहराए जाने वाले काम जाँचें",
+          "paragraphs": [
+            "Google Tasks दोहराए जाने वाले काम का समर्थन करता है, लेकिन भविष्य की सभी आवृत्तियाँ या सेटिंग दूसरे ऐप में आएँगी, ऐसा न मानें। एक बार पूरा करने के बाद दोनों ऐप में अगला काम देखें। अपडेट देर से आए तो प्रतिलिपि बनाने से पहले ताज़ा करें। समन्वयन प्रदाता, योजना, अनुमतियों और उपकरण पर निर्भर है; तत्काल अपडेट की गारंटी नहीं है।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "क्या Google Calendar का ध्यान सत्र ऐप रोकेगा?",
+          "answer": "कैलेंडर की घटनाएँ Nonlate की रोक शुरू नहीं करतीं। व्यावहारिक काम का सत्र अलग तय करें; समय तय करने से काम की अंतिम तारीख नहीं बदलती। रोक योग्य अधूरे काम, चुने दायरे और उपकरण अनुमतियों पर निर्भर है। समर्थित समयबद्ध विराम उपलब्ध रहते हैं।"
+        },
+        {
+          "question": "क्या बिना सशुल्क सदस्यता इस्तेमाल कर सकता हूँ?",
+          "answer": "Free में हाथ से जोड़े काम और अधिकतम तीन भटकाने वाले ऐप की मूल रोक मिलती है। वैकल्पिक 30-दिन स्रोत परीक्षण पहले सफल कनेक्शन से शुरू होता है, एक समय में एक स्रोत देता है और अपने आप शुल्क नहीं लेता। इसके बाद योग्य सशुल्क पहुँच न हो तो बाहरी समन्वयन रुकता है; आयातित काम स्थानीय रूप से पूरा करने और रोक लगाने के लिए उपलब्ध रहते हैं।"
+        },
+        {
+          "question": "क्या काम जोड़ने से उसे पूरा करना निश्चित है?",
+          "answer": "नहीं। Nonlate चुने गए विकर्षण रोकता है; काम की गुणवत्ता जाँचता या पूरा होने की गारंटी नहीं देता। स्रोत का विवरण सही रखें और अंतिम तारीख बदलने पर योजना दोबारा देखें।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "حظر التطبيقات المشتتة مع Google Tasks: المهام المستحقة أولاً",
+      "description": "اربط Google Tasks بـ Nonlate، وراجع التواريخ المستوردة، واحظر التطبيقات وفق المهام غير المكتملة المؤهلة. تعرّف على حدود التقويم والمهام المتكررة.",
+      "intro": "تضيف مهمة من Gmail، وتراها في Google Calendar، ثم تفتح شبكات التواصل بدلاً من البدء. وقد تتجاهل تذكيراً إضافياً بسهولة. يضيف الحظر المرتبط بالمهام لحظة توقف عند فتح تطبيق مشتت اخترته، استناداً إلى العمل الذي حان موعده فعلاً.",
+      "answer": "يدعم Nonlate خدمة Google Tasks كمصدر متصل. اسمح بالاتصال، وحدّث البيانات، وقارن مهمة مستوردة بأصلها. اختر التطبيقات ونطاق الاستحقاق. يمكن للمهام غير المكتملة المؤهلة تفعيل الحظر عند فتح تطبيق مختار؛ أما أحداث التقويم فلا تفعّله.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "راجع التاريخ المستورد قبل الاعتماد على الحظر",
+          "paragraphs": [
+            "جلسة العمل والتذكير والموعد النهائي الحقيقي أشياء مختلفة. توفّر واجهة Google Tasks العامة اليوم المجدول، لا الموعد النهائي للمهمة، ولا تحتفظ بوقت اليوم. لا تفترض أن ساعة دقيقة أو موعداً نهائياً في Google Calendar سينتقل كما هو. تحقق من الموعد النهائي الحقيقي بشكل منفصل ومن التاريخ الذي يعرضه Nonlate فعلياً. اختبر مهمة عادية قبل الاعتماد على الاتصال لعمل مهم."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "اربط مهمة واحدة واختبر سير العمل كاملاً",
+          "paragraphs": [
+            "اجعل Google Tasks مرجع تفاصيل المهام. ابدأ ببساطة بدلاً من تكرار جميع القوائم في تطبيق ثانٍ."
+          ],
+          "steps": [
+            "اربط Google Tasks عبر تسجيل الدخول المدعوم في Nonlate. تأكد من اختيار حساب Google الذي يحتوي على القائمة المعنية.",
+            "حدّث Nonlate وقارن العنوان والتاريخ وحالة الإنجاز المستوردة. إن غابت المهمة، فتحقق من صلاحية الوصول والأذونات.",
+            "اختر نطاق استحقاق مناسباً وبعض التطبيقات المشتتة. أكمل إعداد أذونات الجهاز وأبقِ الأدوات الضرورية متاحة.",
+            "أنجز العمل الفعلي، وتحقق من حالته في Google Tasks، ثم حدّث Nonlate. قد تُبقي مهمة أخرى غير مكتملة ومؤهلة الحظر فعالاً."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "راجع العمل المتكرر بعد كل مرة",
+          "paragraphs": [
+            "يدعم Google Tasks تكرار المهام، لكن لا تفترض انتقال كل المرات المستقبلية أو إعدادات التكرار إلى تطبيق آخر. بعد إنجاز مرة، راجع ما يظهر تالياً في التطبيقين. إن تأخر التحديث، حدّث قبل إنشاء نسخ مكررة. تعتمد المزامنة على المزوّد والخطة والأذونات والجهاز، ولا تُضمن التحديثات الفورية."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "هل تحظر جلسة تركيز في Google Calendar التطبيقات؟",
+          "answer": "لا تفعّل أحداث التقويم حظر Nonlate. خصّص جلسة عمل واقعية بشكل منفصل؛ فالجدولة لا تغيّر موعد المهمة. يعتمد الحظر على المهام غير المكتملة المؤهلة ونطاق الاستحقاق وأذونات الجهاز. تبقى الاستراحات المؤقتة المدعومة متاحة."
+        },
+        {
+          "question": "هل أستطيع استخدامه دون اشتراك مدفوع؟",
+          "answer": "تتضمن Free المهام اليدوية والحظر الأساسي لما يصل إلى ثلاثة تطبيقات مشتتة. تبدأ تجربة المصادر الاختيارية لمدة 30 يوماً مع أول اتصال ناجح، وتسمح بمصدر واحد في كل مرة دون رسوم تلقائية. بعدها تتوقف المزامنة الخارجية إن لم يتوفر وصول مدفوع مؤهل؛ وتبقى المهام المستوردة متاحة للإنجاز المحلي والحظر."
+        },
+        {
+          "question": "هل يضمن ربط المهام إنجازها؟",
+          "answer": "لا. يقاطع Nonlate المشتتات المختارة، لكنه لا يتحقق من جودة العمل ولا يضمن إنجازه. حافظ على دقة تفاصيل المصدر وراجع خطتك عند تغيّر المواعيد."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "Google Tasks 分心应用拦截：先处理到期任务",
+      "description": "将 Google Tasks 连接到 Nonlate，核对导入日期，并根据符合条件的未完成任务拦截应用。了解日历和重复任务的限制。",
+      "intro": "你从 Gmail 添加任务，在 Google Calendar 中看到它，却仍然打开社交媒体而没有开始工作。新的提醒也可能被随手关闭。基于任务的拦截工具，会根据真正到期的工作，在你打开所选分心应用时让你停一下。",
+      "answer": "Nonlate 支持将 Google Tasks 作为连接来源。授权连接、刷新，并与 Google Tasks 核对导入任务。选择分心应用和到期时间范围。符合条件的未完成任务可以在你打开所选应用时触发拦截；日历事件不会触发。",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "依赖拦截前，先核对导入日期",
+          "paragraphs": [
+            "工作时段、提醒和真正的截止日期并不相同。Google Tasks 的公开 API 提供的是安排执行的日期，而非任务的截止日期，也不保留具体时刻。不要假定 Google Calendar 显示的准确时间或截止日期会原样传入。请另行核对真正的截止日期，并检查 Nonlate 实际显示的日期。先用普通任务测试，再将连接用于重要工作。"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "连接一个任务，测试完整流程",
+          "paragraphs": [
+            "保留 Google Tasks 作为任务详情的依据。先从少量任务开始，不必把所有列表重复建到另一个应用。"
+          ],
+          "steps": [
+            "通过 Nonlate 支持的登录流程连接 Google Tasks。确认所选 Google 账号包含相关任务列表。",
+            "刷新 Nonlate，比较导入的标题、日期和完成状态。若缺少任务，检查访问权限和授权。",
+            "选择合理的到期时间范围和少量分心应用。完成设备权限设置，并保持必要工具可用。",
+            "完成实际工作，在 Google Tasks 中核实完成状态，再刷新 Nonlate。其他符合条件的未完成任务仍可能维持拦截。"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "每次完成后，检查重复任务",
+          "paragraphs": [
+            "Google Tasks 支持重复任务，但不要假定所有未来次数和重复设置都会传入其他应用。完成一次后，检查 Google Tasks 和 Nonlate 接下来显示什么。若更新延迟，先刷新再考虑新建，避免重复。同步速度取决于提供商、套餐、权限和设备，不保证即时更新。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar 的专注时段会拦截应用吗？",
+          "answer": "日历事件不会触发 Nonlate 拦截。请另行安排合理的工作时段；排期不会改变任务截止日期。拦截取决于符合条件的未完成任务、到期范围和设备权限。受支持的定时休息仍可使用。"
+        },
+        {
+          "question": "不订阅付费套餐也能使用吗？",
+          "answer": "Free 包含手动任务和最多三个分心应用的基础拦截。可选的 30 天来源试用从首次成功连接开始，每次允许一个来源，不会自动收费。之后若没有符合条件的付费权限，外部同步将暂停；已导入任务仍可在本地完成并用于拦截。"
+        },
+        {
+          "question": "连接任务能保证我完成工作吗？",
+          "answer": "不能。Nonlate 会打断所选分心行为，但不会核验工作质量，也不保证完成。请保持来源详情准确，并在期限变化时重新检查计划。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Bloqueador de distrações para Google Tasks: suas tarefas com prazo primeiro",
+      "description": "Conecte Google Tasks ao Nonlate, confira as datas importadas e bloqueie apps conforme tarefas pendentes elegíveis. Entenda os limites de eventos e tarefas recorrentes.",
+      "intro": "Você salva uma tarefa pelo Gmail, encontra no Google Calendar e ainda abre as redes sociais em vez de começar. É fácil dispensar mais um lembrete. Um bloqueador baseado em tarefas cria uma pausa quando você abre um app escolhido, considerando o trabalho que realmente está no prazo definido.",
+      "answer": "O Nonlate aceita Google Tasks como fonte conectada. Autorize a conexão, atualize e compare uma tarefa importada com Google Tasks. Escolha os apps e uma janela de vencimento. Tarefas pendentes elegíveis podem ativar o bloqueio ao abrir um app selecionado; eventos de calendário não.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Confira a data importada antes de confiar no bloqueio",
+          "paragraphs": [
+            "Uma sessão de trabalho, um lembrete e um prazo real são coisas diferentes. A API pública do Google Tasks fornece o dia agendado, não o prazo final da tarefa, e não preserva o horário. Não presuma que um horário ou prazo do Google Calendar será transferido sem alterações. Confira separadamente o prazo real e a data que o Nonlate exibe. Teste uma tarefa comum antes de depender da conexão para trabalho importante."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Conecte uma tarefa e teste o fluxo completo",
+          "paragraphs": [
+            "Mantenha Google Tasks como referência para os detalhes. Comece com pouco, em vez de duplicar todas as listas em outro app."
+          ],
+          "steps": [
+            "Conecte Google Tasks pelo processo de login compatível do Nonlate. Confira se escolheu a conta Google que contém a lista relevante.",
+            "Atualize o Nonlate e compare o título, a data e o estado de conclusão importados. Se a tarefa não aparecer, confira o acesso e as permissões.",
+            "Escolha uma janela de vencimento viável e poucos apps que distraem. Configure as permissões do dispositivo e mantenha as ferramentas essenciais acessíveis.",
+            "Termine o trabalho real, confira a conclusão no Google Tasks e atualize o Nonlate. Outra tarefa pendente elegível ainda pode manter o bloqueio."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Revise o trabalho recorrente depois de cada ocorrência",
+          "paragraphs": [
+            "Google Tasks permite tarefas recorrentes, mas não presuma que todas as ocorrências futuras ou configurações serão transferidas para outro app. Ao concluir uma, confira o que aparece em seguida no Google Tasks e no Nonlate. Se uma atualização demorar, atualize antes de criar duplicatas. A sincronização depende do provedor, plano, permissões e dispositivo; atualizações imediatas não são garantidas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Uma sessão de foco no Google Calendar bloqueia apps?",
+          "answer": "Eventos de calendário não ativam o bloqueio do Nonlate. Agende uma sessão de trabalho realista separadamente; isso não muda o prazo da tarefa. O bloqueio depende das tarefas pendentes elegíveis, da janela escolhida e das permissões. As pausas cronometradas compatíveis continuam disponíveis."
+        },
+        {
+          "question": "Posso usar sem assinatura paga?",
+          "answer": "Free inclui tarefas manuais e bloqueio básico de até três apps. O teste opcional de fontes de 30 dias começa na primeira conexão bem-sucedida, permite uma fonte por vez e não gera cobrança automática. Depois, a sincronização externa pausa sem acesso pago elegível; as tarefas importadas continuam disponíveis para conclusão local e bloqueio."
+        },
+        {
+          "question": "Conectar tarefas garante que vou terminá-las?",
+          "answer": "Não. O Nonlate interrompe distrações selecionadas; não verifica a qualidade do trabalho nem garante sua conclusão. Mantenha os dados da fonte corretos e revise o plano quando os prazos mudarem."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Bloqueador de distrações para Google Tasks: primeiro as tarefas com prazo",
+      "description": "Ligue Google Tasks ao Nonlate, confirme as datas importadas e bloqueie aplicações consoante as tarefas pendentes elegíveis. Conheça os limites dos eventos e das repetições.",
+      "intro": "Guarda uma tarefa através do Gmail, vê-a no Google Calendar e acaba por abrir as redes sociais em vez de começar. É fácil ignorar mais um lembrete. Um bloqueador baseado em tarefas introduz uma pausa ao abrir uma aplicação escolhida, tendo em conta o trabalho cujo prazo realmente se aproxima.",
+      "answer": "O Nonlate aceita Google Tasks como fonte ligada. Autorize a ligação, atualize e compare uma tarefa importada com Google Tasks. Escolha as aplicações e uma janela de vencimento. As tarefas pendentes elegíveis podem ativar o bloqueio ao abrir uma aplicação selecionada; os eventos do calendário não.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Confirme a data importada antes de confiar no bloqueio",
+          "paragraphs": [
+            "Uma sessão de trabalho, um lembrete e um prazo real são coisas diferentes. A API pública do Google Tasks disponibiliza o dia agendado, não o prazo final da tarefa, e não preserva a hora. Não pressuponha que uma hora ou prazo do Google Calendar será transferido sem alterações. Confirme separadamente o prazo real e a data mostrada no Nonlate. Teste uma tarefa corrente antes de depender da ligação para trabalho importante."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Ligue uma tarefa e teste todo o processo",
+          "paragraphs": [
+            "Mantenha Google Tasks como referência para os detalhes. Comece com pouco, em vez de duplicar todas as listas noutra aplicação."
+          ],
+          "steps": [
+            "Ligue Google Tasks através do início de sessão suportado pelo Nonlate. Confirme que escolheu a conta Google com a lista relevante.",
+            "Atualize o Nonlate e compare o título, a data e o estado de conclusão importados. Se a tarefa não aparecer, verifique o acesso e as permissões.",
+            "Escolha uma janela de vencimento viável e algumas aplicações que distraem. Configure as permissões do dispositivo e mantenha acessíveis as ferramentas essenciais.",
+            "Termine o trabalho efetivo, confirme a conclusão no Google Tasks e atualize o Nonlate. Outra tarefa pendente elegível poderá manter o bloqueio."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Reveja as tarefas recorrentes após cada ocorrência",
+          "paragraphs": [
+            "Google Tasks permite tarefas recorrentes, mas nem todas as ocorrências futuras ou definições passam necessariamente para outra aplicação. Depois de concluir uma, confirme o que aparece a seguir no Google Tasks e no Nonlate. Se uma atualização demorar, atualize antes de criar duplicados. A sincronização depende do fornecedor, plano, permissões e dispositivo; não são garantidas atualizações imediatas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Uma sessão de concentração do Google Calendar bloqueia aplicações?",
+          "answer": "Os eventos do calendário não ativam o bloqueio do Nonlate. Marque separadamente uma sessão de trabalho realista; isso não altera o prazo da tarefa. O bloqueio depende das tarefas pendentes elegíveis, da janela escolhida e das permissões. As pausas temporizadas suportadas continuam disponíveis."
+        },
+        {
+          "question": "Posso utilizar sem uma subscrição paga?",
+          "answer": "Free inclui tarefas manuais e bloqueio básico de até três aplicações. A experiência opcional de fontes durante 30 dias começa na primeira ligação bem-sucedida, permite uma fonte de cada vez e não tem cobrança automática. Depois, sem acesso pago elegível, a sincronização externa fica em pausa; as tarefas importadas continuam disponíveis para conclusão local e bloqueio."
+        },
+        {
+          "question": "Ligar tarefas garante que as vou concluir?",
+          "answer": "Não. O Nonlate interrompe as distrações selecionadas; não verifica a qualidade do trabalho nem garante a conclusão. Mantenha corretos os dados da fonte e reveja o plano quando os prazos mudarem."
+        }
+      ]
+    },
+    "de": {
+      "title": "Ablenkungsblocker für Google Tasks: fällige Aufgaben zuerst",
+      "description": "Verbinde Google Tasks mit Nonlate, prüfe importierte Termine und blockiere Apps anhand passender unerledigter Aufgaben. Erfahre, welche Grenzen Kalender und Wiederholungen haben.",
+      "intro": "Du erfasst eine Aufgabe aus Gmail, siehst sie in Google Calendar und öffnest trotzdem soziale Medien, statt anzufangen. Eine weitere Erinnerung lässt sich leicht wegklicken. Ein aufgabenbezogener Blocker schafft beim Öffnen einer ausgewählten Ablenkungs-App eine Pause und berücksichtigt dabei tatsächlich fällige Arbeit.",
+      "answer": "Nonlate unterstützt Google Tasks als verbundene Quelle. Erlaube die Verbindung, aktualisiere und vergleiche eine importierte Aufgabe mit Google Tasks. Wähle Apps und einen Fälligkeitszeitraum. Passende unerledigte Aufgaben können beim Öffnen einer ausgewählten App die Sperre auslösen; Kalenderereignisse können das nicht.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Prüfe das importierte Datum, bevor du dich auf die Sperre verlässt",
+          "paragraphs": [
+            "Eine Arbeitseinheit, eine Erinnerung und eine tatsächliche Frist sind verschieden. Die öffentliche Google-Tasks-API liefert den geplanten Tag, nicht die eigentliche Aufgabenfrist, und bewahrt keine Uhrzeit. Gehe nicht davon aus, dass eine genaue Zeit oder Frist aus Google Calendar unverändert übertragen wird. Prüfe die tatsächliche Frist separat und das in Nonlate angezeigte Datum. Teste eine gewöhnliche Aufgabe, bevor du die Verbindung für wichtige Arbeit nutzt."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Verbinde eine Aufgabe und teste den gesamten Ablauf",
+          "paragraphs": [
+            "Behalte Google Tasks als Referenz für Aufgabendetails. Beginne klein, statt sämtliche Listen in einer zweiten App zu duplizieren."
+          ],
+          "steps": [
+            "Verbinde Google Tasks über den unterstützten Anmeldeablauf von Nonlate. Prüfe, ob du das Google-Konto mit der betreffenden Aufgabenliste gewählt hast.",
+            "Aktualisiere Nonlate und vergleiche importierten Titel, Datum und Erledigungsstatus. Prüfe bei fehlenden Aufgaben Zugriff und Berechtigungen.",
+            "Wähle einen überschaubaren Fälligkeitszeitraum und wenige ablenkende Apps. Richte die Geräteberechtigungen ein und halte wichtige Werkzeuge zugänglich.",
+            "Erledige die tatsächliche Arbeit, prüfe den Abschluss in Google Tasks und aktualisiere Nonlate. Eine weitere passende unerledigte Aufgabe kann die Sperre aufrechterhalten."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Prüfe wiederkehrende Arbeit nach jedem Durchlauf",
+          "paragraphs": [
+            "Google Tasks unterstützt Wiederholungen, aber nicht unbedingt werden alle zukünftigen Vorkommen und Einstellungen in eine andere App übertragen. Prüfe nach dem Abschluss, was als Nächstes in Google Tasks und Nonlate erscheint. Aktualisiere bei Verzögerungen, bevor du Duplikate erstellst. Die Synchronisierung hängt von Anbieter, Tarif, Berechtigungen und Gerät ab; sofortige Aktualisierungen sind nicht garantiert."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Sperrt eine Fokuszeit in Google Calendar meine Apps?",
+          "answer": "Kalenderereignisse lösen keine Nonlate-Sperre aus. Plane eine realistische Arbeitseinheit separat; das verschiebt die Aufgabenfrist nicht. Die Sperre hängt von passenden unerledigten Aufgaben, deinem Zeitraum und Geräteberechtigungen ab. Unterstützte zeitlich begrenzte Pausen bleiben verfügbar."
+        },
+        {
+          "question": "Geht das ohne kostenpflichtiges Abo?",
+          "answer": "Free enthält manuelle Aufgaben und grundlegende Sperren für bis zu drei ablenkende Apps. Der optionale 30-tägige Quellentest beginnt mit der ersten erfolgreichen Verbindung, erlaubt eine Quelle gleichzeitig und berechnet nichts automatisch. Danach pausiert die externe Synchronisierung ohne passenden kostenpflichtigen Zugang; importierte Aufgaben bleiben für lokale Erledigung und Sperren nutzbar."
+        },
+        {
+          "question": "Garantiert das Verbinden, dass ich meine Aufgaben erledige?",
+          "answer": "Nein. Nonlate unterbricht ausgewählte Ablenkungen; es prüft weder die Arbeitsqualität noch garantiert es die Erledigung. Halte die Quelldaten korrekt und überarbeite deinen Plan, wenn Fristen sich ändern."
+        }
+      ]
+    },
+    "ja": {
+      "title": "Google Tasks連携の集中支援：期限のあるタスクを先に",
+      "description": "Google TasksをNonlateに接続し、取り込んだ日付を確認して、条件に合う未完了タスクに応じてアプリをブロック。カレンダーと繰り返しの制限も解説します。",
+      "intro": "Gmailからタスクを作り、Google Calendarで確認しても、着手せずにSNSを開いてしまうことがあります。追加の通知も簡単に閉じられます。タスク連動のブロックは、本当に期限が来ている作業に基づき、選んだアプリを開く瞬間に立ち止まるきっかけを作ります。",
+      "answer": "NonlateはGoogle Tasksを接続元としてサポートしています。接続を許可して更新し、取り込んだタスクをGoogle Tasksと照合します。対象アプリと期限の対象範囲を選ぶと、条件に合う未完了タスクがアプリを開いた際のブロックにつながります。カレンダーの予定は対象外です。",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "ブロックに頼る前に取り込んだ日付を確認",
+          "paragraphs": [
+            "作業時間、通知、実際の締め切りは別の情報です。Google Tasksの公開APIが提供するのは実行予定日であり、タスクの締め切りではなく、時刻も保持されません。Google Calendarの正確な時刻や締め切りがそのまま移るとは考えないでください。実際の締め切りを別途確認し、Nonlateが表示する日付も確認します。重要な仕事に頼る前に通常のタスクで試しましょう。"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "タスクを一つ接続して一連の動作を試す",
+          "paragraphs": [
+            "詳細はGoogle Tasksを基準にします。すべてのリストを別のアプリに複製せず、少数から始めましょう。"
+          ],
+          "steps": [
+            "Nonlateが提供するログイン手順でGoogle Tasksを接続します。対象リストが入っているGoogleアカウントを選んだか確認します。",
+            "Nonlateを更新し、取り込んだ件名、日付、完了状態を照合します。表示されなければアクセス権限を確認します。",
+            "無理のない期限範囲と少数の気が散るアプリを選びます。端末の権限設定を済ませ、必要なツールは使えるようにします。",
+            "実際の作業を終え、Google Tasksで完了状態を確かめてNonlateを更新します。別の対象タスクが未完了なら、ブロックが続くことがあります。"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "繰り返しタスクは完了のたびに確認する",
+          "paragraphs": [
+            "Google Tasksは繰り返しに対応しますが、将来の全回分や繰り返し設定が他のアプリに移るとは限りません。一回分を終えたら、両アプリで次の表示を確認します。更新が遅いときは重複を作る前に更新してください。同期の速度は提供元、プラン、権限、端末に左右され、即時反映は保証されません。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendarの集中時間でアプリはブロックされますか？",
+          "answer": "カレンダーの予定はNonlateのブロックを発動させません。現実的な作業時間は別に確保し、予定を組んでもタスクの期限は変わらないと理解してください。ブロックは対象の未完了タスク、期限範囲、端末権限に基づきます。対応する時間制の休憩は利用できます。"
+        },
+        {
+          "question": "有料契約なしでも使えますか？",
+          "answer": "Freeには手入力タスクと最大三つのアプリの基本ブロックが含まれます。任意の30日間ソース試用は最初の接続成功時に始まり、一度に一つのソースを使え、自動課金はありません。終了後は対象の有料権限がなければ外部同期が停止しますが、取り込み済みタスクは端末内の完了操作やブロックに使えます。"
+        },
+        {
+          "question": "接続すれば必ずタスクが終わりますか？",
+          "answer": "いいえ。Nonlateは選んだ気晴らしを中断しますが、作業の質を検証したり完了を保証したりはしません。元の情報を正確に保ち、期限変更時に計画を見直しましょう。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Pemblokir gangguan untuk Google Tasks: dahulukan tugas yang jatuh tempo",
+      "description": "Hubungkan Google Tasks ke Nonlate, periksa tanggal impor dan blokir aplikasi berdasarkan tugas belum selesai yang memenuhi syarat. Pahami batas kalender dan pengulangan.",
+      "intro": "Anda membuat tugas dari Gmail, melihatnya di Google Calendar, tetapi tetap membuka media sosial alih-alih mulai bekerja. Pengingat tambahan juga mudah ditutup. Pemblokir berbasis tugas memberi jeda saat membuka aplikasi pengganggu pilihan, sesuai pekerjaan yang benar-benar jatuh tempo.",
+      "answer": "Nonlate mendukung Google Tasks sebagai sumber terhubung. Izinkan koneksi, segarkan, lalu bandingkan tugas impor dengan Google Tasks. Pilih aplikasi dan rentang jatuh tempo. Tugas belum selesai yang memenuhi syarat dapat memicu pemblokiran saat aplikasi pilihan dibuka; acara kalender tidak.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Periksa tanggal impor sebelum mengandalkan pemblokir",
+          "paragraphs": [
+            "Sesi kerja, pengingat dan tenggat sebenarnya berbeda. API publik Google Tasks menyediakan hari terjadwal, bukan tenggat tugas, dan tidak mempertahankan jamnya. Jangan anggap jam tepat atau tenggat di Google Calendar berpindah tanpa perubahan. Periksa tenggat sebenarnya secara terpisah dan tanggal yang ditampilkan Nonlate. Uji tugas biasa sebelum mengandalkan koneksi untuk pekerjaan penting."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Hubungkan satu tugas dan uji seluruh alur",
+          "paragraphs": [
+            "Gunakan Google Tasks sebagai acuan detail tugas. Mulai sedikit daripada menyalin semua daftar ke aplikasi kedua."
+          ],
+          "steps": [
+            "Hubungkan Google Tasks melalui alur masuk yang didukung Nonlate. Pastikan akun Google yang dipilih berisi daftar terkait.",
+            "Segarkan Nonlate dan bandingkan judul, tanggal serta status penyelesaian. Jika tugas tidak muncul, periksa akses dan izin.",
+            "Pilih rentang jatuh tempo yang wajar dan beberapa aplikasi pengganggu. Selesaikan pengaturan izin perangkat dan biarkan alat penting tetap dapat diakses.",
+            "Selesaikan pekerjaan sebenarnya, periksa statusnya di Google Tasks lalu segarkan Nonlate. Tugas lain yang belum selesai dan memenuhi syarat masih dapat mempertahankan blokir."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Tinjau tugas berulang setelah setiap penyelesaian",
+          "paragraphs": [
+            "Google Tasks mendukung pengulangan, tetapi jangan anggap semua kemunculan mendatang atau setelannya berpindah ke aplikasi lain. Setelah menyelesaikan satu, periksa apa yang muncul berikutnya di kedua aplikasi. Jika pembaruan terlambat, segarkan sebelum membuat duplikat. Sinkronisasi bergantung pada penyedia, paket, izin dan perangkat; pembaruan langsung tidak dijamin."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Apakah sesi fokus Google Calendar memblokir aplikasi?",
+          "answer": "Acara kalender tidak memicu blokir Nonlate. Jadwalkan sesi kerja yang realistis secara terpisah; penjadwalan tidak mengubah tenggat tugas. Blokir bergantung pada tugas belum selesai yang memenuhi syarat, rentang dan izin perangkat. Jeda berbatas waktu yang didukung tetap tersedia."
+        },
+        {
+          "question": "Bisakah digunakan tanpa langganan berbayar?",
+          "answer": "Free mencakup tugas manual dan pemblokiran dasar hingga tiga aplikasi pengganggu. Uji coba sumber opsional 30 hari dimulai pada koneksi pertama yang berhasil, mengizinkan satu sumber sekaligus dan tidak menagih otomatis. Setelahnya, sinkronisasi eksternal berhenti tanpa akses berbayar yang memenuhi syarat; tugas impor tetap bisa diselesaikan secara lokal dan dipakai untuk blokir."
+        },
+        {
+          "question": "Apakah menghubungkan tugas menjamin saya menyelesaikannya?",
+          "answer": "Tidak. Nonlate menginterupsi gangguan pilihan; tidak memverifikasi kualitas atau menjamin penyelesaian. Jaga keakuratan detail sumber dan tinjau rencana saat tenggat berubah."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Блокировка отвлекающих приложений с Google Tasks: сначала срочные задачи",
+      "description": "Подключите Google Tasks к Nonlate, проверьте импортированные даты и блокируйте приложения по подходящим незавершённым задачам. Узнайте об ограничениях календаря и повторений.",
+      "intro": "Вы создаёте задачу из Gmail, видите её в Google Calendar, но вместо начала работы открываете соцсети. Очередное напоминание легко закрыть. Блокировка на основе задач помогает остановиться при открытии выбранного приложения, учитывая работу, срок которой действительно подошёл.",
+      "answer": "Nonlate поддерживает Google Tasks как подключённый источник. Разрешите подключение, обновите данные и сравните импортированную задачу с оригиналом. Выберите приложения и диапазон сроков. Подходящие незавершённые задачи могут вызвать блокировку при открытии выбранного приложения; события календаря — нет.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Проверьте импортированную дату, прежде чем полагаться на блокировку",
+          "paragraphs": [
+            "Рабочий сеанс, напоминание и реальный крайний срок — разные данные. Публичный API Google Tasks передаёт запланированный день, а не крайний срок задачи, и не сохраняет время суток. Не ожидайте точного переноса времени или крайнего срока из Google Calendar. Отдельно проверьте реальный срок и дату, показанную в Nonlate. Испытайте обычную задачу, прежде чем полагаться на подключение для важной работы."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Подключите одну задачу и проверьте весь процесс",
+          "paragraphs": [
+            "Сверяйте подробности с Google Tasks. Начните с малого вместо копирования всех списков во второе приложение."
+          ],
+          "steps": [
+            "Подключите Google Tasks через поддерживаемый вход в Nonlate. Убедитесь, что выбрали аккаунт Google с нужным списком.",
+            "Обновите Nonlate и сравните название, дату и статус выполнения. Если задачи нет, проверьте доступ и разрешения.",
+            "Выберите разумный диапазон сроков и несколько отвлекающих приложений. Настройте разрешения устройства и оставьте необходимые инструменты доступными.",
+            "Выполните реальную работу, проверьте её завершение в Google Tasks и обновите Nonlate. Другая подходящая незавершённая задача может сохранить блокировку."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Проверяйте повторяющиеся задачи после каждого выполнения",
+          "paragraphs": [
+            "Google Tasks поддерживает повторения, но не все будущие экземпляры и настройки обязательно передаются другому приложению. После выполнения проверьте, что появляется следующим в обоих приложениях. Если обновление задерживается, обновите данные до создания дубликатов. Скорость синхронизации зависит от сервиса, тарифа, разрешений и устройства; мгновенное обновление не гарантируется."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Блокирует ли приложения сеанс сосредоточения в Google Calendar?",
+          "answer": "События календаря не запускают блокировку Nonlate. Отдельно запланируйте реалистичный рабочий сеанс; это не переносит срок задачи. Блокировка зависит от подходящих незавершённых задач, выбранного диапазона и разрешений устройства. Поддерживаемые перерывы с таймером остаются доступны."
+        },
+        {
+          "question": "Можно пользоваться без платной подписки?",
+          "answer": "Free включает ручные задачи и основную блокировку до трёх отвлекающих приложений. Необязательная 30-дневная проба источников начинается с первого успешного подключения, допускает один источник одновременно и не списывает деньги автоматически. Затем без подходящего платного доступа внешняя синхронизация приостанавливается; импортированные задачи остаются доступны для локального завершения и блокировки."
+        },
+        {
+          "question": "Гарантирует ли подключение, что я закончу задачи?",
+          "answer": "Нет. Nonlate прерывает выбранные отвлечения, но не проверяет качество работы и не гарантирует завершение. Поддерживайте актуальность исходных данных и пересматривайте план при изменении сроков."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Google Tasks 방해 앱 차단: 마감 업무부터 처리하기",
+      "description": "Google Tasks를 Nonlate에 연결하고 가져온 날짜를 확인해, 조건에 맞는 미완료 업무에 따라 앱을 차단하세요. 캘린더와 반복 작업의 한계도 알아봅니다.",
+      "intro": "Gmail에서 할 일을 만들고 Google Calendar에서 확인했지만 시작하는 대신 소셜 앱을 열기도 합니다. 알림 하나를 더 받아도 쉽게 넘길 수 있습니다. 작업 기반 차단은 실제 마감 업무를 바탕으로, 선택한 방해 앱을 여는 순간 잠시 멈추게 합니다.",
+      "answer": "Nonlate는 Google Tasks를 연결 소스로 지원합니다. 연결을 승인하고 새로고침한 뒤 가져온 작업을 Google Tasks와 비교하세요. 방해 앱과 마감 범위를 선택하면 조건에 맞는 미완료 작업이 앱을 열 때 차단을 유발할 수 있습니다. 캘린더 일정은 차단을 유발하지 않습니다.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "차단에 의존하기 전에 가져온 날짜 확인하기",
+          "paragraphs": [
+            "작업 시간, 알림, 실제 마감일은 서로 다릅니다. Google Tasks 공개 API는 작업의 실제 마감일이 아닌 예정된 날짜를 제공하며 시각도 보존하지 않습니다. Google Calendar의 정확한 시간이나 마감일이 그대로 전달된다고 가정하지 마세요. 실제 마감일을 따로 확인하고 Nonlate가 표시하는 날짜도 살펴보세요. 중요한 업무에 의존하기 전에 일반 작업으로 테스트하세요."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "작업 하나를 연결해 전체 과정 테스트하기",
+          "paragraphs": [
+            "작업 세부 정보는 Google Tasks를 기준으로 유지하세요. 모든 목록을 다른 앱에 복제하기보다 작게 시작하세요."
+          ],
+          "steps": [
+            "Nonlate가 지원하는 로그인 절차로 Google Tasks를 연결하세요. 관련 작업 목록이 있는 Google 계정을 선택했는지 확인하세요.",
+            "Nonlate를 새로고침하고 가져온 제목, 날짜, 완료 상태를 비교하세요. 작업이 없으면 접근 권한과 승인을 확인하세요.",
+            "감당할 수 있는 마감 범위와 소수의 방해 앱을 선택하세요. 기기 권한을 설정하고 필수 도구에는 계속 접근할 수 있게 하세요.",
+            "실제 업무를 끝내고 Google Tasks에서 완료 상태를 확인한 뒤 Nonlate를 새로고침하세요. 다른 적격 미완료 작업 때문에 차단이 계속될 수 있습니다."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "반복 작업은 매회 완료 후 확인하기",
+          "paragraphs": [
+            "Google Tasks는 반복 작업을 지원하지만 미래의 모든 회차나 반복 설정이 다른 앱에 전달되지는 않을 수 있습니다. 한 회차를 끝낸 후 두 앱에서 다음 작업을 확인하세요. 업데이트가 늦으면 중복을 만들기 전에 새로고침하세요. 동기화는 제공업체, 요금제, 권한, 기기에 따라 달라지며 즉시 반영을 보장하지 않습니다."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar 집중 시간이 앱을 차단하나요?",
+          "answer": "캘린더 일정은 Nonlate 차단을 유발하지 않습니다. 현실적인 작업 시간을 따로 예약하세요. 일정을 잡아도 작업 마감일은 바뀌지 않습니다. 차단은 적격 미완료 작업, 마감 범위, 기기 권한에 따라 달라집니다. 지원되는 시간제 휴식은 계속 사용할 수 있습니다."
+        },
+        {
+          "question": "유료 구독 없이 사용할 수 있나요?",
+          "answer": "Free에는 수동 작업과 방해 앱 최대 세 개의 기본 차단이 포함됩니다. 선택형 30일 소스 체험은 첫 연결 성공 시 시작되며, 한 번에 소스 하나를 사용하고 자동 결제가 없습니다. 이후 적격 유료 이용 권한이 없으면 외부 동기화가 중단되지만, 가져온 작업은 로컬 완료 처리와 차단에 계속 쓸 수 있습니다."
+        },
+        {
+          "question": "작업을 연결하면 반드시 끝낼 수 있나요?",
+          "answer": "아니요. Nonlate는 선택한 방해 요소를 중단하지만 업무 품질을 검증하거나 완료를 보장하지는 않습니다. 원본 정보를 정확하게 유지하고 마감일이 바뀌면 계획을 검토하세요."
+        }
+      ]
+    },
+    "it": {
+      "title": "Bloccare le distrazioni con Google Tasks: prima le attività in scadenza",
+      "description": "Collega Google Tasks a Nonlate, verifica le date importate e blocca le app in base alle attività incomplete idonee. Scopri i limiti di calendario e ricorrenze.",
+      "intro": "Crei un’attività da Gmail, la vedi in Google Calendar, ma apri i social invece di iniziare. Un altro promemoria si ignora facilmente. Un blocco legato alle attività introduce una pausa quando apri un’app distraente scelta, in base al lavoro davvero in scadenza.",
+      "answer": "Nonlate supporta Google Tasks come fonte collegata. Autorizza il collegamento, aggiorna e confronta un’attività importata con Google Tasks. Scegli app e intervallo di scadenza. Le attività incomplete idonee possono attivare il blocco all’apertura di un’app scelta; gli eventi del calendario no.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Controlla la data importata prima di affidarti al blocco",
+          "paragraphs": [
+            "Una sessione di lavoro, un promemoria e una scadenza reale sono cose diverse. L’API pubblica di Google Tasks fornisce il giorno pianificato, non la scadenza effettiva dell’attività, e non conserva l’ora. Non presumere che un orario o una scadenza di Google Calendar passi senza modifiche. Controlla separatamente la scadenza reale e la data mostrata da Nonlate. Prova un’attività normale prima di affidarti al collegamento per lavoro importante."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Collega un’attività e prova l’intero percorso",
+          "paragraphs": [
+            "Mantieni Google Tasks come riferimento per i dettagli. Inizia con poco anziché duplicare tutte le liste in un’altra app."
+          ],
+          "steps": [
+            "Collega Google Tasks attraverso l’accesso supportato da Nonlate. Verifica di scegliere l’account Google con la lista corretta.",
+            "Aggiorna Nonlate e confronta titolo, data e stato di completamento importati. Se l’attività manca, controlla accesso e autorizzazioni.",
+            "Scegli un intervallo di scadenza gestibile e poche app distraenti. Configura i permessi del dispositivo e lascia accessibili gli strumenti essenziali.",
+            "Termina il lavoro reale, verificane il completamento in Google Tasks e aggiorna Nonlate. Un’altra attività incompleta idonea può mantenere attivo il blocco."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Ricontrolla le attività ricorrenti dopo ogni occorrenza",
+          "paragraphs": [
+            "Google Tasks supporta le ripetizioni, ma non tutte le occorrenze future o impostazioni passano necessariamente a un’altra app. Dopo averne completata una, controlla cosa appare dopo nei due servizi. Se l’aggiornamento tarda, aggiorna prima di creare duplicati. La sincronizzazione dipende da fornitore, piano, permessi e dispositivo; non è garantita come immediata."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Una sessione di concentrazione in Google Calendar blocca le app?",
+          "answer": "Gli eventi del calendario non attivano il blocco di Nonlate. Pianifica separatamente una sessione realistica; questo non sposta la scadenza. Il blocco dipende dalle attività incomplete idonee, dall’intervallo e dai permessi. Le pause temporizzate supportate restano disponibili."
+        },
+        {
+          "question": "Posso usarlo senza abbonamento a pagamento?",
+          "answer": "Free include attività manuali e blocco di base fino a tre app distraenti. La prova facoltativa delle fonti dura 30 giorni dalla prima connessione riuscita, permette una fonte alla volta e non comporta addebiti automatici. Poi, senza accesso a pagamento idoneo, la sincronizzazione esterna si ferma; le attività importate restano utilizzabili per completamento locale e blocco."
+        },
+        {
+          "question": "Collegare le attività garantisce che le finirò?",
+          "answer": "No. Nonlate interrompe le distrazioni selezionate; non verifica la qualità né garantisce il completamento. Mantieni corretti i dettagli della fonte e rivedi il piano quando cambiano le scadenze."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Google Tasks için dikkat dağıtıcı uygulama engelleyici: önce yaklaşan işler",
+      "description": "Google Tasks’ı Nonlate’e bağlayın, içe aktarılan tarihleri kontrol edin ve uygun tamamlanmamış işlere göre uygulamaları engelleyin. Takvim ve tekrarlama sınırlarını öğrenin.",
+      "intro": "Gmail’den bir görev oluşturup Google Calendar’da görürsünüz, ama başlamak yerine sosyal medyayı açarsınız. Yeni bir hatırlatıcıyı da kolayca kapatabilirsiniz. Göreve dayalı engelleme, gerçekten zamanı gelen işe göre seçtiğiniz dikkat dağıtıcı uygulamayı açarken duraklamanızı sağlar.",
+      "answer": "Nonlate, Google Tasks’ı bağlı kaynak olarak destekler. Bağlantıyı yetkilendirin, yenileyin ve aktarılan bir görevi Google Tasks ile karşılaştırın. Uygulamaları ve vade aralığını seçin. Uygun tamamlanmamış görevler seçilen uygulama açıldığında engellemeyi tetikleyebilir; takvim etkinlikleri tetiklemez.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Engellemeye güvenmeden önce aktarılan tarihi kontrol edin",
+          "paragraphs": [
+            "Çalışma oturumu, hatırlatıcı ve gerçek son tarih farklıdır. Google Tasks’ın herkese açık API’si görevin gerçek son tarihini değil planlanan günü sunar ve gün içindeki saati korumaz. Google Calendar’daki kesin saatin veya son tarihin aynen aktarılacağını varsaymayın. Gerçek son tarihi ayrı, Nonlate’in gösterdiği tarihi de ayrıca kontrol edin. Önemli işlerde bağlantıya güvenmeden önce sıradan bir görevle deneyin."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Bir görevi bağlayıp tüm akışı deneyin",
+          "paragraphs": [
+            "Görev ayrıntılarında Google Tasks’ı referans alın. Bütün listeleri ikinci bir uygulamaya kopyalamak yerine küçük başlayın."
+          ],
+          "steps": [
+            "Google Tasks’ı Nonlate’in desteklediği oturum açma akışıyla bağlayın. İlgili görev listesini içeren Google hesabını seçtiğinizi kontrol edin.",
+            "Nonlate’i yenileyerek aktarılan başlığı, tarihi ve tamamlanma durumunu karşılaştırın. Görev yoksa erişimi ve izinleri kontrol edin.",
+            "Yönetilebilir bir vade aralığı ve birkaç dikkat dağıtıcı uygulama seçin. Cihaz izinlerini ayarlayın ve gerekli araçları erişilebilir tutun.",
+            "Gerçek işi bitirin, Google Tasks’ta tamamlandığını kontrol edin ve Nonlate’i yenileyin. Başka uygun tamamlanmamış görev engellemeyi sürdürebilir."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Tekrarlanan işi her tamamlayıştan sonra gözden geçirin",
+          "paragraphs": [
+            "Google Tasks tekrarlanan görevleri destekler, ancak gelecekteki her tekrarın veya ayarın başka uygulamaya aktarılacağını varsaymayın. Bir tekrarı tamamlayınca iki uygulamada sırada ne olduğunu kontrol edin. Güncelleme gecikirse kopya oluşturmadan önce yenileyin. Eşitleme sağlayıcıya, plana, izinlere ve cihaza bağlıdır; anında güncelleme garanti değildir."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar odak oturumu uygulamaları engeller mi?",
+          "answer": "Takvim etkinlikleri Nonlate engellemesini tetiklemez. Gerçekçi çalışma oturumunu ayrı planlayın; planlama görevin son tarihini değiştirmez. Engelleme uygun tamamlanmamış görevlere, vade aralığına ve cihaz izinlerine bağlıdır. Desteklenen süreli molalar kullanılabilir."
+        },
+        {
+          "question": "Ücretli abonelik olmadan kullanabilir miyim?",
+          "answer": "Free, elle girilen görevler ve en fazla üç dikkat dağıtıcı uygulama için temel engelleme içerir. İsteğe bağlı 30 günlük kaynak denemesi ilk başarılı bağlantıda başlar, aynı anda bir kaynağa izin verir ve otomatik ücret almaz. Sonrasında uygun ücretli erişim yoksa dış eşitleme durur; aktarılan görevler yerel tamamlama ve engellemede kullanılabilir."
+        },
+        {
+          "question": "Görevleri bağlamak bitirmemi garanti eder mi?",
+          "answer": "Hayır. Nonlate seçilen dikkat dağıtıcıları keser; iş kalitesini doğrulamaz veya tamamlamayı garanti etmez. Kaynak ayrıntılarını doğru tutun ve tarihler değişince planınızı gözden geçirin."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Chặn ứng dụng gây xao nhãng với Google Tasks: ưu tiên việc đến hạn",
+      "description": "Kết nối Google Tasks với Nonlate, kiểm tra ngày đã nhập và chặn ứng dụng theo việc chưa hoàn thành đủ điều kiện. Hiểu giới hạn của lịch và việc lặp lại.",
+      "intro": "Bạn tạo việc từ Gmail, thấy trong Google Calendar nhưng vẫn mở mạng xã hội thay vì bắt đầu. Một lời nhắc nữa cũng dễ bị bỏ qua. Công cụ chặn theo nhiệm vụ tạo khoảng dừng khi bạn mở ứng dụng gây xao nhãng đã chọn, dựa trên việc thực sự đến hạn.",
+      "answer": "Nonlate hỗ trợ Google Tasks làm nguồn kết nối. Cấp quyền, làm mới và đối chiếu một việc đã nhập với Google Tasks. Chọn ứng dụng và khoảng thời gian đến hạn. Việc chưa hoàn thành đủ điều kiện có thể kích hoạt chặn khi mở ứng dụng đã chọn; sự kiện lịch thì không.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Kiểm tra ngày đã nhập trước khi dựa vào bộ chặn",
+          "paragraphs": [
+            "Buổi làm việc, lời nhắc và hạn chót thực sự là những thông tin khác nhau. API công khai của Google Tasks cung cấp ngày dự kiến làm, không phải hạn chót của nhiệm vụ, và không giữ giờ trong ngày. Đừng cho rằng giờ chính xác hay hạn chót trong Google Calendar sẽ chuyển nguyên vẹn. Kiểm tra hạn chót thật riêng biệt và ngày Nonlate hiển thị. Thử việc thông thường trước khi dựa vào kết nối cho công việc quan trọng."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Kết nối một việc và thử toàn bộ quy trình",
+          "paragraphs": [
+            "Giữ Google Tasks làm nơi tham chiếu chi tiết. Bắt đầu nhỏ thay vì sao chép mọi danh sách sang ứng dụng thứ hai."
+          ],
+          "steps": [
+            "Kết nối Google Tasks qua quy trình đăng nhập được Nonlate hỗ trợ. Kiểm tra đã chọn tài khoản Google chứa danh sách liên quan.",
+            "Làm mới Nonlate và đối chiếu tiêu đề, ngày cùng trạng thái hoàn thành. Nếu thiếu việc, kiểm tra quyền truy cập và các quyền đã cấp.",
+            "Chọn khoảng đến hạn vừa sức và vài ứng dụng gây xao nhãng. Hoàn tất quyền trên thiết bị và giữ công cụ thiết yếu có thể truy cập.",
+            "Hoàn thành công việc thật, kiểm tra trạng thái trong Google Tasks rồi làm mới Nonlate. Việc khác chưa hoàn thành và đủ điều kiện vẫn có thể duy trì chặn."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Kiểm tra việc lặp lại sau mỗi lần hoàn thành",
+          "paragraphs": [
+            "Google Tasks hỗ trợ việc lặp lại, nhưng không phải mọi lần trong tương lai hoặc thiết lập lặp đều được chuyển sang ứng dụng khác. Sau khi xong một lần, xem việc xuất hiện tiếp theo trong cả hai ứng dụng. Nếu cập nhật chậm, làm mới trước khi tạo bản trùng. Đồng bộ tùy nhà cung cấp, gói, quyền và thiết bị; không bảo đảm tức thời."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Phiên tập trung Google Calendar có chặn ứng dụng không?",
+          "answer": "Sự kiện lịch không kích hoạt chặn Nonlate. Hãy lên lịch buổi làm việc khả thi riêng; lên lịch không đổi hạn chót của nhiệm vụ. Chặn tùy việc chưa hoàn thành đủ điều kiện, khoảng đến hạn và quyền thiết bị. Các giờ nghỉ có hẹn giờ được hỗ trợ vẫn dùng được."
+        },
+        {
+          "question": "Có dùng được mà không đăng ký trả phí không?",
+          "answer": "Free gồm việc nhập thủ công và chặn cơ bản tối đa ba ứng dụng. Dùng thử nguồn tùy chọn 30 ngày bắt đầu từ kết nối thành công đầu tiên, cho phép một nguồn mỗi lúc và không tự động thu phí. Sau đó, đồng bộ bên ngoài tạm dừng nếu không có quyền trả phí phù hợp; việc đã nhập vẫn dùng để hoàn thành cục bộ và chặn."
+        },
+        {
+          "question": "Kết nối việc có bảo đảm tôi hoàn thành không?",
+          "answer": "Không. Nonlate ngắt các yếu tố gây xao nhãng đã chọn, không xác minh chất lượng hay bảo đảm hoàn thành. Giữ thông tin nguồn chính xác và xem lại kế hoạch khi hạn thay đổi."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Blokowanie rozpraszających aplikacji z Google Tasks: najpierw pilne zadania",
+      "description": "Połącz Google Tasks z Nonlate, sprawdź importowane daty i blokuj aplikacje na podstawie kwalifikujących się nieukończonych zadań. Poznaj ograniczenia kalendarza i powtórzeń.",
+      "intro": "Dodajesz zadanie z Gmaila, widzisz je w Google Calendar, a mimo to otwierasz media społecznościowe zamiast zacząć. Kolejne przypomnienie łatwo zignorować. Blokada oparta na zadaniach zatrzymuje Cię na chwilę przy otwieraniu wybranej aplikacji, uwzględniając pracę, której termin rzeczywiście nadchodzi.",
+      "answer": "Nonlate obsługuje Google Tasks jako połączone źródło. Zezwól na połączenie, odśwież i porównaj zaimportowane zadanie z Google Tasks. Wybierz aplikacje i okno terminów. Pasujące nieukończone zadania mogą uruchomić blokadę przy otwieraniu wybranej aplikacji; wydarzenia kalendarza nie.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Sprawdź importowaną datę, zanim zaufasz blokadzie",
+          "paragraphs": [
+            "Sesja pracy, przypomnienie i rzeczywisty termin końcowy to różne dane. Publiczne API Google Tasks przekazuje zaplanowany dzień, a nie ostateczny termin zadania, i nie zachowuje godziny. Nie zakładaj, że dokładna godzina lub termin z Google Calendar przeniesie się bez zmian. Osobno sprawdź rzeczywisty termin i datę wyświetlaną w Nonlate. Przetestuj zwykłe zadanie przed wykorzystaniem połączenia do ważnej pracy."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Połącz jedno zadanie i sprawdź cały proces",
+          "paragraphs": [
+            "Traktuj Google Tasks jako źródło szczegółów. Zacznij od małej liczby zadań zamiast kopiować wszystkie listy do drugiej aplikacji."
+          ],
+          "steps": [
+            "Połącz Google Tasks przez obsługiwane logowanie Nonlate. Sprawdź, czy wybrane konto Google zawiera właściwą listę.",
+            "Odśwież Nonlate i porównaj tytuł, datę oraz stan ukończenia. Jeśli zadania brakuje, sprawdź dostęp i uprawnienia.",
+            "Wybierz rozsądne okno terminów i kilka rozpraszających aplikacji. Skonfiguruj uprawnienia urządzenia i zachowaj dostęp do niezbędnych narzędzi.",
+            "Wykonaj rzeczywistą pracę, sprawdź ukończenie w Google Tasks i odśwież Nonlate. Inne pasujące nieukończone zadanie może utrzymać blokadę."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Sprawdzaj zadania cykliczne po każdym wykonaniu",
+          "paragraphs": [
+            "Google Tasks obsługuje zadania cykliczne, ale nie wszystkie przyszłe wystąpienia i ustawienia muszą trafić do innej aplikacji. Po wykonaniu jednego sprawdź, co pojawia się dalej w obu aplikacjach. Przy opóźnieniu odśwież przed tworzeniem duplikatów. Synchronizacja zależy od dostawcy, planu, uprawnień i urządzenia; natychmiastowe aktualizacje nie są gwarantowane."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy sesja skupienia w Google Calendar blokuje aplikacje?",
+          "answer": "Wydarzenia kalendarza nie uruchamiają blokady Nonlate. Osobno zaplanuj realistyczny czas pracy; planowanie nie przesuwa terminu zadania. Blokada zależy od odpowiednich nieukończonych zadań, okna terminów i uprawnień. Obsługiwane przerwy czasowe pozostają dostępne."
+        },
+        {
+          "question": "Czy mogę korzystać bez płatnej subskrypcji?",
+          "answer": "Free obejmuje zadania ręczne i podstawową blokadę maksymalnie trzech aplikacji. Opcjonalny 30-dniowy okres próbny źródeł zaczyna się przy pierwszym udanym połączeniu, pozwala na jedno źródło naraz i nie pobiera automatycznie opłat. Później synchronizacja zewnętrzna zostaje wstrzymana bez odpowiedniego płatnego dostępu; importowane zadania pozostają dostępne do lokalnego ukończenia i blokowania."
+        },
+        {
+          "question": "Czy połączenie zadań gwarantuje ich ukończenie?",
+          "answer": "Nie. Nonlate przerywa wybrane rozproszenia; nie sprawdza jakości pracy ani nie gwarantuje ukończenia. Dbaj o poprawne dane źródłowe i zmieniaj plan, gdy zmieniają się terminy."
+        }
+      ]
+    },
+    "fa": {
+      "title": "مسدودکردن حواس‌پرتی با Google Tasks: اول کارهای سررسیددار",
+      "description": "Google Tasks را به Nonlate وصل کنید، تاریخ‌های واردشده را بررسی و برنامه‌ها را بر اساس کارهای ناتمام واجد شرایط مسدود کنید. محدودیت‌های تقویم و تکرار را بشناسید.",
+      "intro": "کاری را از Gmail می‌سازید و در Google Calendar می‌بینید، اما به‌جای شروع شبکه اجتماعی را باز می‌کنید. یادآوری دیگری هم به‌آسانی بسته می‌شود. مسدودسازی مبتنی بر کار هنگام بازکردن برنامه انتخابی مکثی ایجاد می‌کند، بر اساس کاری که واقعاً موعدش رسیده است.",
+      "answer": "Nonlate از Google Tasks به‌عنوان منبع متصل پشتیبانی می‌کند. اتصال را مجاز کنید، تازه‌سازی کنید و یک کار واردشده را با اصلش مقایسه کنید. برنامه‌ها و بازه سررسید را انتخاب کنید. کارهای ناتمام واجد شرایط هنگام بازکردن برنامه انتخابی می‌توانند مسدودسازی را فعال کنند؛ رویدادهای تقویم نه.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "پیش از اتکا به مسدودسازی، تاریخ واردشده را بررسی کنید",
+          "paragraphs": [
+            "جلسه کار، یادآور و مهلت واقعی متفاوت‌اند. API عمومی Google Tasks روز برنامه‌ریزی‌شده را ارائه می‌کند، نه مهلت نهایی کار، و ساعت را حفظ نمی‌کند. فرض نکنید ساعت دقیق یا مهلت Google Calendar بی‌تغییر منتقل می‌شود. مهلت واقعی را جداگانه و تاریخ نمایش‌داده‌شده در Nonlate را نیز بررسی کنید. پیش از اتکا به اتصال برای کار مهم، یک کار معمولی را آزمایش کنید."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "یک کار وصل کنید و کل روند را بیازمایید",
+          "paragraphs": [
+            "Google Tasks را مرجع جزئیات نگه دارید. به‌جای کپی همه فهرست‌ها در برنامه دوم، کوچک شروع کنید."
+          ],
+          "steps": [
+            "از مسیر ورود پشتیبانی‌شده Nonlate به Google Tasks وصل شوید. بررسی کنید حساب Google انتخابی فهرست مربوط را دارد.",
+            "Nonlate را تازه‌سازی و عنوان، تاریخ و وضعیت تکمیل را مقایسه کنید. اگر کار نیست، دسترسی و مجوزها را بررسی کنید.",
+            "بازه سررسید قابل‌مدیریت و چند برنامه حواس‌پرت‌کن انتخاب کنید. مجوزهای دستگاه را تنظیم و ابزارهای ضروری را در دسترس نگه دارید.",
+            "کار واقعی را تمام کنید، تکمیلش را در Google Tasks بررسی و Nonlate را تازه‌سازی کنید. کار ناتمام واجد شرایط دیگری ممکن است مسدودسازی را نگه دارد."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "کار تکرارشونده را پس از هر بار تکمیل بازبینی کنید",
+          "paragraphs": [
+            "Google Tasks تکرار را پشتیبانی می‌کند، اما فرض نکنید همه نوبت‌های آینده یا تنظیمات به برنامه دیگر منتقل می‌شوند. پس از تکمیل یک نوبت، مورد بعدی را در هر دو برنامه بررسی کنید. اگر به‌روزرسانی دیر شد، پیش از ساخت نسخه تکراری تازه‌سازی کنید. همگام‌سازی به ارائه‌دهنده، طرح، مجوزها و دستگاه بستگی دارد؛ فوری‌بودن تضمین نیست."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "آیا جلسه تمرکز Google Calendar برنامه‌ها را مسدود می‌کند؟",
+          "answer": "رویدادهای تقویم مسدودسازی Nonlate را فعال نمی‌کنند. جلسه کار واقع‌بینانه را جدا برنامه‌ریزی کنید؛ زمان‌بندی مهلت کار را جابه‌جا نمی‌کند. مسدودسازی به کارهای ناتمام واجد شرایط، بازه و مجوزها بستگی دارد. استراحت‌های زمان‌دار پشتیبانی‌شده همچنان قابل‌استفاده‌اند."
+        },
+        {
+          "question": "بدون اشتراک پولی هم می‌توانم استفاده کنم؟",
+          "answer": "Free شامل کارهای دستی و مسدودسازی پایه تا سه برنامه است. آزمایش اختیاری ۳۰روزه منابع با نخستین اتصال موفق آغاز می‌شود، هر بار یک منبع می‌پذیرد و هزینه خودکار ندارد. سپس بدون دسترسی پولی واجد شرایط، همگام‌سازی خارجی متوقف می‌شود؛ کارهای واردشده برای تکمیل محلی و مسدودسازی می‌مانند."
+        },
+        {
+          "question": "آیا وصل‌کردن کارها تکمیلشان را تضمین می‌کند؟",
+          "answer": "خیر. Nonlate حواس‌پرتی‌های انتخابی را قطع می‌کند؛ کیفیت کار را نمی‌سنجد و تکمیل را تضمین نمی‌کند. جزئیات منبع را دقیق نگه دارید و با تغییر مهلت‌ها برنامه را بازبینی کنید."
+        }
+      ]
+    },
+    "th": {
+      "title": "บล็อกสิ่งรบกวนด้วย Google Tasks: ทำงานที่ถึงกำหนดก่อน",
+      "description": "เชื่อม Google Tasks กับ Nonlate ตรวจวันที่นำเข้า แล้วบล็อกแอปตามงานที่ยังไม่เสร็จและเข้าเงื่อนไข พร้อมเข้าใจข้อจำกัดของปฏิทินและงานที่ทำซ้ำ",
+      "intro": "คุณสร้างงานจาก Gmail เห็นใน Google Calendar แต่กลับเปิดโซเชียลแทนเริ่มทำงาน การแจ้งเตือนเพิ่มอีกครั้งก็อาจถูกปิดทิ้งได้ง่าย ตัวบล็อกที่อิงงานช่วยให้หยุดคิดขณะเปิดแอปที่เลือก โดยพิจารณางานที่ถึงกำหนดจริง",
+      "answer": "Nonlate รองรับ Google Tasks เป็นแหล่งข้อมูลที่เชื่อมต่อ อนุญาตการเชื่อมต่อ รีเฟรช และเทียบงานที่นำเข้ากับต้นทาง เลือกแอปกับช่วงกำหนดส่ง งานที่ยังไม่เสร็จและเข้าเงื่อนไขอาจเรียกการบล็อกเมื่อเปิดแอปที่เลือก แต่กิจกรรมปฏิทินจะไม่เรียกการบล็อก",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "ตรวจวันที่นำเข้าก่อนพึ่งพาตัวบล็อก",
+          "paragraphs": [
+            "ช่วงทำงาน การเตือน และกำหนดส่งจริงเป็นคนละอย่าง API สาธารณะของ Google Tasks ให้วันที่วางแผนจะทำ ไม่ใช่กำหนดส่งของงาน และไม่เก็บเวลาในวันนั้น อย่าคิดว่าเวลาที่แน่นอนหรือกำหนดส่งใน Google Calendar จะส่งต่อมาเหมือนเดิม ตรวจสอบกำหนดส่งจริงแยกต่างหากและวันที่ Nonlate แสดง ทดสอบกับงานทั่วไปก่อนพึ่งพาการเชื่อมต่อสำหรับงานสำคัญ"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "เชื่อมงานหนึ่งรายการและทดสอบทั้งกระบวนการ",
+          "paragraphs": [
+            "ใช้ Google Tasks เป็นแหล่งอ้างอิงรายละเอียด เริ่มจากน้อย ๆ แทนการคัดลอกทุกลิสต์ไปอีกแอป"
+          ],
+          "steps": [
+            "เชื่อม Google Tasks ผ่านขั้นตอนลงชื่อเข้าใช้ที่ Nonlate รองรับ ตรวจว่าบัญชี Google ที่เลือกมีลิสต์งานที่ต้องการ",
+            "รีเฟรช Nonlate แล้วเทียบชื่อ วันที่ และสถานะเสร็จ หากไม่พบงาน ให้ตรวจการเข้าถึงและสิทธิ์",
+            "เลือกช่วงกำหนดส่งที่จัดการไหวและแอปรบกวนเพียงไม่กี่แอป ตั้งค่าสิทธิ์อุปกรณ์ให้ครบและคงการเข้าถึงเครื่องมือจำเป็น",
+            "ทำงานจริงให้เสร็จ ตรวจสถานะใน Google Tasks แล้วรีเฟรช Nonlate งานอื่นที่ยังไม่เสร็จและเข้าเงื่อนไขอาจทำให้ยังคงบล็อกอยู่"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ตรวจงานที่ทำซ้ำหลังเสร็จแต่ละครั้ง",
+          "paragraphs": [
+            "Google Tasks รองรับงานที่ทำซ้ำ แต่อย่าคิดว่าทุกครั้งในอนาคตหรือค่าการทำซ้ำจะส่งต่อไปอีกแอป หลังทำเสร็จหนึ่งครั้ง ให้ดูรายการถัดไปในทั้งสองแอป หากอัปเดตช้า ให้รีเฟรชก่อนสร้างรายการซ้ำ การซิงค์ขึ้นอยู่กับผู้ให้บริการ แผน สิทธิ์ และอุปกรณ์ ไม่รับประกันว่าอัปเดตทันที"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ช่วงโฟกัสใน Google Calendar จะบล็อกแอปไหม?",
+          "answer": "กิจกรรมปฏิทินไม่เรียกการบล็อกของ Nonlate จัดช่วงทำงานที่เป็นจริงได้แยกต่างหาก การจัดตารางไม่เปลี่ยนกำหนดส่งงาน การบล็อกขึ้นกับงานค้างที่เข้าเงื่อนไข ช่วงกำหนดส่ง และสิทธิ์อุปกรณ์ ยังใช้ช่วงพักแบบจับเวลาที่รองรับได้"
+        },
+        {
+          "question": "ใช้โดยไม่สมัครสมาชิกแบบเสียเงินได้ไหม?",
+          "answer": "Free มีงานที่เพิ่มเองและการบล็อกพื้นฐานสูงสุดสามแอป การทดลองแหล่งข้อมูล 30 วันแบบเลือกได้เริ่มเมื่อเชื่อมต่อสำเร็จครั้งแรก ใช้ได้ครั้งละหนึ่งแหล่งและไม่คิดเงินอัตโนมัติ หลังจากนั้น การซิงค์ภายนอกจะหยุดหากไม่มีสิทธิ์แบบชำระเงินที่รองรับ แต่งานที่นำเข้าแล้วยังทำเครื่องหมายเสร็จในเครื่องและใช้บล็อกได้"
+        },
+        {
+          "question": "เชื่อมงานแล้วรับประกันว่าจะทำเสร็จไหม?",
+          "answer": "ไม่ Nonlate ขัดจังหวะสิ่งรบกวนที่เลือก แต่ไม่ตรวจคุณภาพหรือรับประกันการทำงานเสร็จ รักษาข้อมูลต้นทางให้ถูกต้องและทบทวนแผนเมื่อกำหนดส่งเปลี่ยน"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Afleidingsblokkering voor Google Tasks: eerst je werk met een deadline",
+      "description": "Koppel Google Tasks aan Nonlate, controleer geïmporteerde datums en blokkeer apps op basis van passende openstaande taken. Ontdek de grenzen van agenda’s en herhalingen.",
+      "intro": "Je maakt een taak vanuit Gmail, ziet die in Google Calendar en opent toch sociale media in plaats van te beginnen. Nog een herinnering klik je gemakkelijk weg. Een taakgestuurde blokkering laat je bij het openen van een gekozen afleidende app even stilstaan bij werk dat echt aan de beurt is.",
+      "answer": "Nonlate ondersteunt Google Tasks als gekoppelde bron. Geef toestemming, vernieuw en vergelijk een geïmporteerde taak met Google Tasks. Kies apps en een termijnvenster. Passende onvoltooide taken kunnen een blokkering activeren als je een gekozen app opent; agenda-afspraken niet.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Controleer de geïmporteerde datum voordat je op de blokkering vertrouwt",
+          "paragraphs": [
+            "Een werksessie, herinnering en werkelijke deadline zijn verschillend. De openbare Google Tasks-API geeft de geplande dag, niet de echte taakdeadline, en bewaart geen tijdstip. Verwacht niet dat een exacte tijd of deadline uit Google Calendar ongewijzigd overkomt. Controleer de echte deadline apart en bekijk de datum die Nonlate toont. Test een gewone taak voordat je de koppeling voor belangrijk werk gebruikt."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Koppel één taak en test de hele werkwijze",
+          "paragraphs": [
+            "Houd Google Tasks als naslag voor taakdetails. Begin klein in plaats van alle lijsten in een tweede app te kopiëren."
+          ],
+          "steps": [
+            "Koppel Google Tasks via de ondersteunde aanmeldstappen in Nonlate. Controleer of je het Google-account met de juiste takenlijst kiest.",
+            "Vernieuw Nonlate en vergelijk titel, datum en voltooiingsstatus. Ontbreekt de taak, controleer dan toegang en machtigingen.",
+            "Kies een beheersbaar termijnvenster en enkele afleidende apps. Stel apparaatmachtigingen in en houd essentiële hulpmiddelen bereikbaar.",
+            "Maak het echte werk af, controleer de voltooiing in Google Tasks en vernieuw Nonlate. Een andere passende openstaande taak kan de blokkering actief houden."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Controleer herhalende taken na elke uitvoering",
+          "paragraphs": [
+            "Google Tasks ondersteunt herhalingen, maar niet noodzakelijk gaan alle toekomstige uitvoeringen en instellingen mee naar een andere app. Controleer na voltooiing wat daarna in beide apps verschijnt. Vernieuw bij vertraging voordat je duplicaten maakt. Synchronisatie hangt af van aanbieder, abonnement, machtigingen en apparaat; directe updates zijn niet gegarandeerd."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blokkeert een focussessie in Google Calendar apps?",
+          "answer": "Agenda-afspraken activeren geen Nonlate-blokkering. Plan apart een haalbare werksessie; plannen verschuift de taakdeadline niet. Blokkeren hangt af van passende openstaande taken, je termijnvenster en apparaatmachtigingen. Ondersteunde getimede pauzes blijven beschikbaar."
+        },
+        {
+          "question": "Kan ik dit zonder betaald abonnement gebruiken?",
+          "answer": "Free bevat handmatige taken en basisblokkering voor maximaal drie afleidende apps. De optionele bronproef van 30 dagen begint bij de eerste geslaagde koppeling, staat één bron tegelijk toe en brengt niets automatisch in rekening. Daarna pauzeert externe synchronisatie zonder passend betaald toegangsrecht; geïmporteerde taken blijven bruikbaar voor lokale voltooiing en blokkering."
+        },
+        {
+          "question": "Garandeert koppelen dat ik taken afmaak?",
+          "answer": "Nee. Nonlate onderbreekt gekozen afleiding; het controleert geen werkkwaliteit en garandeert geen voltooiing. Houd brongegevens correct en herzie je planning als deadlines veranderen."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Блокування відволікань із Google Tasks: спочатку термінові завдання",
+      "description": "Підключіть Google Tasks до Nonlate, перевірте імпортовані дати й блокуйте застосунки за відповідними незавершеними завданнями. Дізнайтеся про обмеження календаря та повторень.",
+      "intro": "Ви створюєте завдання з Gmail, бачите його в Google Calendar, але замість роботи відкриваєте соцмережі. Чергове нагадування легко закрити. Блокування на основі завдань допомагає зупинитися під час відкриття вибраного застосунку, враховуючи роботу, строк якої справді настав.",
+      "answer": "Nonlate підтримує Google Tasks як підключене джерело. Дозвольте підключення, оновіть дані та порівняйте імпортоване завдання з оригіналом. Виберіть застосунки й діапазон строків. Відповідні незавершені завдання можуть запускати блокування під час відкриття вибраного застосунку; події календаря — ні.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Перевірте імпортовану дату, перш ніж покладатися на блокування",
+          "paragraphs": [
+            "Робочий сеанс, нагадування та справжній кінцевий строк — різні дані. Публічний API Google Tasks передає запланований день, а не кінцевий строк завдання, і не зберігає час доби. Не очікуйте незмінного перенесення точного часу чи строку з Google Calendar. Окремо перевірте справжній строк і дату, показану в Nonlate. Протестуйте звичайне завдання перед використанням підключення для важливої роботи."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Підключіть одне завдання й перевірте весь процес",
+          "paragraphs": [
+            "Звіряйте подробиці з Google Tasks. Почніть із малого замість дублювання всіх списків у другому застосунку."
+          ],
+          "steps": [
+            "Підключіть Google Tasks через підтримуваний вхід Nonlate. Переконайтеся, що вибрали обліковий запис Google із потрібним списком.",
+            "Оновіть Nonlate та порівняйте назву, дату й стан виконання. Якщо завдання немає, перевірте доступ і дозволи.",
+            "Виберіть посильний діапазон строків і кілька застосунків, що відволікають. Налаштуйте дозволи пристрою та залиште потрібні інструменти доступними.",
+            "Виконайте справжню роботу, перевірте завершення в Google Tasks і оновіть Nonlate. Інше відповідне незавершене завдання може підтримувати блокування."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Перевіряйте повторювані завдання після кожного виконання",
+          "paragraphs": [
+            "Google Tasks підтримує повторення, проте не всі майбутні екземпляри та налаштування обов’язково передаються іншому застосунку. Після виконання перевірте, що з’являється далі в обох застосунках. Якщо оновлення затримується, оновіть дані до створення дублікатів. Синхронізація залежить від сервісу, плану, дозволів і пристрою; миттєве оновлення не гарантоване."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Чи блокує застосунки сеанс зосередження в Google Calendar?",
+          "answer": "Події календаря не запускають блокування Nonlate. Окремо заплануйте реалістичний робочий сеанс; це не змінює строк завдання. Блокування залежить від відповідних незавершених завдань, вибраного діапазону та дозволів пристрою. Підтримувані перерви з таймером залишаються доступними."
+        },
+        {
+          "question": "Чи можна користуватися без платної підписки?",
+          "answer": "Free включає ручні завдання й базове блокування до трьох застосунків. Необов’язковий 30-денний пробний період джерел починається з першого успішного підключення, дозволяє одне джерело за раз і не стягує оплату автоматично. Потім без відповідного платного доступу зовнішня синхронізація призупиняється; імпортовані завдання залишаються для локального завершення й блокування."
+        },
+        {
+          "question": "Чи гарантує підключення завершення завдань?",
+          "answer": "Ні. Nonlate перериває вибрані відволікання, але не перевіряє якість роботи й не гарантує завершення. Підтримуйте точність даних джерела та переглядайте план зі зміною строків."
+        }
+      ]
+    },
+    "bn": {
+      "title": "Google Tasks দিয়ে মনোযোগ নষ্টকারী অ্যাপ আটকান: আগে নির্ধারিত কাজ",
+      "description": "Google Tasks-কে Nonlate-এর সঙ্গে যুক্ত করুন, আমদানি করা তারিখ যাচাই করুন এবং যোগ্য অসমাপ্ত কাজ অনুযায়ী অ্যাপ আটকান। ক্যালেন্ডার ও পুনরাবৃত্ত কাজের সীমা জানুন।",
+      "intro": "Gmail থেকে কাজ তৈরি করলেন, Google Calendar-এ দেখলেন, তবুও শুরু না করে সামাজিক মাধ্যম খুললেন। আরেকটি মনে করানোর বার্তাও সহজে বন্ধ করা যায়। কাজভিত্তিক বাধা নির্বাচিত অ্যাপ খোলার সময় থামতে সাহায্য করে, সত্যিই সময় হয়ে আসা কাজ অনুযায়ী।",
+      "answer": "Nonlate সংযুক্ত উৎস হিসেবে Google Tasks সমর্থন করে। সংযোগের অনুমতি দিন, রিফ্রেশ করুন এবং আমদানি করা কাজটি মূলটির সঙ্গে মেলান। অ্যাপ ও নির্ধারিত সময়ের পরিসর বাছুন। যোগ্য অসমাপ্ত কাজ নির্বাচিত অ্যাপ খোলার সময় বাধা চালু করতে পারে; ক্যালেন্ডারের ঘটনা পারে না।",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "বাধার ওপর নির্ভর করার আগে আমদানি করা তারিখ যাচাই করুন",
+          "paragraphs": [
+            "কাজের সেশন, স্মারক ও প্রকৃত শেষ সময় আলাদা। Google Tasks-এর প্রকাশ্য API নির্ধারিত কাজের দিন দেয়, কাজের প্রকৃত শেষ তারিখ নয়, এবং দিনের সময় রাখে না। Google Calendar-এর সঠিক সময় বা শেষ তারিখ অপরিবর্তিত আসবে ধরে নেবেন না। প্রকৃত শেষ সময় আলাদা করে যাচাই করুন এবং Nonlate-এ দেখানো তারিখ দেখুন। গুরুত্বপূর্ণ কাজে নির্ভর করার আগে সাধারণ কাজ দিয়ে পরীক্ষা করুন।"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "একটি কাজ যুক্ত করে পুরো প্রক্রিয়া পরীক্ষা করুন",
+          "paragraphs": [
+            "কাজের বিস্তারিতের জন্য Google Tasks-কে ভিত্তি রাখুন। সব তালিকা দ্বিতীয় অ্যাপে নকল না করে অল্প দিয়ে শুরু করুন।"
+          ],
+          "steps": [
+            "Nonlate-এর সমর্থিত সাইন-ইন পদ্ধতিতে Google Tasks যুক্ত করুন। নির্বাচিত Google অ্যাকাউন্টে সংশ্লিষ্ট তালিকা আছে কি না দেখুন।",
+            "Nonlate রিফ্রেশ করে শিরোনাম, তারিখ ও সম্পন্ন হওয়ার অবস্থা মেলান। কাজ না থাকলে প্রবেশাধিকার ও অনুমতি যাচাই করুন।",
+            "সামলানো যায় এমন সময়সীমার পরিসর এবং কয়েকটি মনোযোগ নষ্টকারী অ্যাপ বাছুন। ডিভাইসের অনুমতি সেট করুন এবং জরুরি সরঞ্জাম ব্যবহারযোগ্য রাখুন।",
+            "আসল কাজ শেষ করুন, Google Tasks-এ সম্পন্ন হওয়া দেখুন এবং Nonlate রিফ্রেশ করুন। অন্য যোগ্য অসমাপ্ত কাজ বাধা চালু রাখতে পারে।"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "প্রতিবার শেষ করার পরে পুনরাবৃত্ত কাজ যাচাই করুন",
+          "paragraphs": [
+            "Google Tasks পুনরাবৃত্ত কাজ সমর্থন করে, কিন্তু ভবিষ্যতের সব পুনরাবৃত্তি বা সেটিং অন্য অ্যাপে আসবে ধরে নেবেন না। একবার শেষ করার পরে দুই অ্যাপে পরের কাজ দেখুন। আপডেট দেরি হলে নকল তৈরির আগে রিফ্রেশ করুন। সমন্বয় সেবাদাতা, পরিকল্পনা, অনুমতি ও ডিভাইসের ওপর নির্ভর করে; তাৎক্ষণিক আপডেট নিশ্চিত নয়।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar-এর মনোযোগ সেশন কি অ্যাপ আটকাবে?",
+          "answer": "ক্যালেন্ডারের ঘটনা Nonlate-এর বাধা চালু করে না। বাস্তবসম্মত কাজের সেশন আলাদা নির্ধারণ করুন; সময়সূচি করলে কাজের শেষ তারিখ বদলায় না। বাধা যোগ্য অসমাপ্ত কাজ, নির্বাচিত পরিসর ও ডিভাইসের অনুমতির ওপর নির্ভর করে। সমর্থিত নির্দিষ্ট সময়ের বিরতি চালু থাকে।"
+        },
+        {
+          "question": "টাকা দিয়ে সদস্যতা না নিয়েও ব্যবহার করা যাবে?",
+          "answer": "Free-তে হাতে যোগ করা কাজ ও সর্বোচ্চ তিনটি অ্যাপের মৌলিক বাধা আছে। ঐচ্ছিক ৩০ দিনের উৎস পরীক্ষা প্রথম সফল সংযোগ থেকে শুরু হয়, একবারে একটি উৎস দেয় এবং স্বয়ংক্রিয় টাকা কাটে না। পরে যোগ্য অর্থপ্রদত্ত সুবিধা না থাকলে বাহ্যিক সমন্বয় থামে; আমদানি করা কাজ স্থানীয়ভাবে শেষ করা ও বাধার কাজে ব্যবহার করা যায়।"
+        },
+        {
+          "question": "কাজ যুক্ত করলে শেষ করব, এমন নিশ্চয়তা আছে?",
+          "answer": "না। Nonlate নির্বাচিত মনোযোগ নষ্টকারী কার্যকলাপ থামায়; কাজের মান যাচাই বা শেষ করার নিশ্চয়তা দেয় না। উৎসের তথ্য সঠিক রাখুন এবং সময়সীমা বদলালে পরিকল্পনা পর্যালোচনা করুন।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "Google Tasks کے ساتھ توجہ بھٹکانے والی ایپس روکیں: پہلے مقررہ کام",
+      "description": "Google Tasks کو Nonlate سے جوڑیں، درآمد شدہ تاریخیں جانچیں اور موزوں نامکمل کاموں کے مطابق ایپس روکیں۔ کیلنڈر اور بار بار آنے والے کاموں کی حدود سمجھیں۔",
+      "intro": "آپ Gmail سے کام بناتے ہیں، اسے Google Calendar میں دیکھتے ہیں، مگر شروع کرنے کے بجائے سوشل میڈیا کھول لیتے ہیں۔ ایک اور یاد دہانی بھی آسانی سے بند ہو جاتی ہے۔ کام پر مبنی رکاوٹ منتخب ایپ کھولتے وقت توقف دیتی ہے، اس کام کے مطابق جس کا وقت واقعی آ گیا ہے۔",
+      "answer": "Nonlate، Google Tasks کو منسلک ماخذ کے طور پر قبول کرتا ہے۔ اجازت دیں، تازہ کریں اور درآمد شدہ کام اصل سے ملائیں۔ ایپس اور مقررہ وقت کا دائرہ منتخب کریں۔ موزوں نامکمل کام منتخب ایپ کھولنے پر پابندی چلا سکتے ہیں؛ کیلنڈر کے واقعات نہیں۔",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "پابندی پر بھروسا کرنے سے پہلے درآمد شدہ تاریخ جانچیں",
+          "paragraphs": [
+            "کام کا سیشن، یاد دہانی اور حقیقی آخری تاریخ الگ باتیں ہیں۔ Google Tasks کا عوامی API کام کا طے شدہ دن دیتا ہے، حقیقی آخری تاریخ نہیں، اور دن کا وقت محفوظ نہیں رکھتا۔ Google Calendar کا درست وقت یا آخری تاریخ جوں کی توں منتقل ہونا فرض نہ کریں۔ اصل آخری تاریخ الگ جانچیں اور Nonlate کی دکھائی تاریخ بھی دیکھیں۔ اہم کام میں بھروسا کرنے سے پہلے عام کام آزمائیں۔"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ایک کام جوڑ کر پورا طریقہ آزمائیں",
+          "paragraphs": [
+            "تفصیلات کے لیے Google Tasks کو حوالہ رکھیں۔ تمام فہرستیں دوسری ایپ میں نقل کرنے کے بجائے تھوڑے سے شروع کریں۔"
+          ],
+          "steps": [
+            "Nonlate کے معاون سائن اِن طریقے سے Google Tasks جوڑیں۔ دیکھیں منتخب Google اکاؤنٹ میں متعلقہ فہرست موجود ہے۔",
+            "Nonlate تازہ کریں اور عنوان، تاریخ اور تکمیل کی حالت ملائیں۔ کام غائب ہو تو رسائی اور اجازتیں جانچیں۔",
+            "قابلِ انتظام زمانی دائرہ اور چند بھٹکانے والی ایپس چنیں۔ آلے کی اجازتیں ترتیب دیں اور ضروری اوزار دستیاب رکھیں۔",
+            "اصل کام ختم کریں، Google Tasks میں تکمیل دیکھیں اور Nonlate تازہ کریں۔ دوسرا موزوں نامکمل کام پابندی جاری رکھ سکتا ہے۔"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ہر تکمیل کے بعد دہرائے جانے والے کام دیکھیں",
+          "paragraphs": [
+            "Google Tasks تکراری کاموں کی سہولت دیتا ہے، مگر تمام آئندہ باریں یا ترتیبات دوسری ایپ میں منتقل ہونا فرض نہ کریں۔ ایک بار مکمل ہونے پر دونوں ایپس میں اگلا کام دیکھیں۔ اپ ڈیٹ دیر سے ہو تو نقل بنانے سے پہلے تازہ کریں۔ ہم وقت سازی فراہم کنندہ، منصوبے، اجازتوں اور آلے پر منحصر ہے؛ فوری اپ ڈیٹ کی ضمانت نہیں۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "کیا Google Calendar کا توجہ سیشن ایپس روکے گا؟",
+          "answer": "کیلنڈر کے واقعات Nonlate کی پابندی شروع نہیں کرتے۔ حقیقت پسندانہ کام کا سیشن الگ طے کریں؛ شیڈول بنانے سے آخری تاریخ نہیں بدلتی۔ پابندی موزوں نامکمل کاموں، زمانی دائرے اور اجازتوں پر منحصر ہے۔ معاون محدود مدت کے وقفے دستیاب رہتے ہیں۔"
+        },
+        {
+          "question": "کیا ادا شدہ رکنیت کے بغیر استعمال ہو سکتا ہے؟",
+          "answer": "Free میں دستی کام اور زیادہ سے زیادہ تین ایپس کی بنیادی پابندی ہے۔ اختیاری 30 روزہ ماخذ آزمائش پہلے کامیاب رابطے پر شروع ہوتی ہے، ایک وقت میں ایک ماخذ دیتی ہے اور خودکار رقم نہیں لیتی۔ بعد میں موزوں ادا شدہ رسائی کے بغیر بیرونی ہم وقت سازی رک جاتی ہے؛ درآمد شدہ کام مقامی تکمیل اور پابندی کے لیے رہتے ہیں۔"
+        },
+        {
+          "question": "کیا کام جوڑنے سے مکمل کرنا یقینی ہے؟",
+          "answer": "نہیں۔ Nonlate منتخب توجہ بھٹکانے والی سرگرمی روکتا ہے؛ کام کا معیار نہیں جانچتا یا تکمیل کی ضمانت نہیں دیتا۔ ماخذ کی تفصیلات درست رکھیں اور تاریخیں بدلنے پر منصوبہ دیکھیں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "Google Tasks உடன் கவனச்சிதறல் செயலிகளைத் தடுக்கவும்: முதலில் கெடு வரும் வேலை",
+      "description": "Google Tasks-ஐ Nonlate உடன் இணைத்து, இறக்குமதி தேதிகளைச் சரிபார்த்து, தகுதியான முடிக்காத வேலைகளின் அடிப்படையில் செயலிகளைத் தடுக்கவும். நாட்காட்டி, தொடர் பணிகளின் வரம்புகளை அறியவும்.",
+      "intro": "Gmail-இல் பணி உருவாக்கி Google Calendar-இல் பார்த்தும், தொடங்குவதற்குப் பதிலாக சமூக ஊடகத்தைத் திறக்கலாம். இன்னொரு நினைவூட்டலையும் எளிதில் மூடலாம். பணி சார்ந்த தடுப்பு, உண்மையில் கெடு நெருங்கும் வேலையைக் கொண்டு தேர்ந்தெடுத்த செயலியைத் திறக்கும்போது சிறிது நிறுத்துகிறது.",
+      "answer": "Nonlate, Google Tasks-ஐ இணைக்கப்பட்ட மூலமாக ஆதரிக்கிறது. இணைப்பை அனுமதித்து, புதுப்பித்து, இறக்குமதி செய்த பணியை மூலத்துடன் ஒப்பிடவும். செயலிகளையும் கெடு காலவரம்பையும் தேர்ந்தெடுக்கவும். தகுதியான முடிக்காத பணிகள் தேர்ந்த செயலியைத் திறக்கும்போது தடுப்பைத் தூண்டலாம்; நாட்காட்டி நிகழ்வுகள் தூண்டாது.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "தடுப்பை நம்புவதற்கு முன் இறக்குமதி தேதியைச் சரிபார்க்கவும்",
+          "paragraphs": [
+            "வேலை நேரம், நினைவூட்டல், உண்மையான இறுதிக்கெடு வெவ்வேறானவை. Google Tasks பொது API திட்டமிட்ட செயல் நாளைத் தருகிறது; பணியின் இறுதிக்கெடுவை அல்ல. நாளின் நேரத்தையும் பாதுகாக்காது. Google Calendar நேரமோ கெடுவோ மாறாமல் வரும் எனக் கருத வேண்டாம். உண்மையான கெடுவைத் தனியாகச் சரிபார்த்து, Nonlate காட்டும் தேதியையும் பார்க்கவும். முக்கிய வேலைக்கு நம்பும் முன் சாதாரண பணியில் சோதிக்கவும்."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ஒரு பணியை இணைத்து முழுச் செயல்முறையையும் சோதிக்கவும்",
+          "paragraphs": [
+            "விவரங்களுக்கு Google Tasks-ஐ அடிப்படையாக வைத்திருங்கள். எல்லாப் பட்டியல்களையும் மற்றொரு செயலியில் நகலெடுக்காமல் சிறிய அளவில் தொடங்குங்கள்."
+          ],
+          "steps": [
+            "Nonlate ஆதரிக்கும் உள்நுழைவு முறையில் Google Tasks-ஐ இணைக்கவும். தொடர்புடைய பட்டியல் உள்ள Google கணக்கைத் தேர்ந்ததைக் காணவும்.",
+            "Nonlate-ஐ புதுப்பித்து தலைப்பு, தேதி, முடிவு நிலையை ஒப்பிடவும். பணி இல்லையெனில் அணுகலையும் அனுமதிகளையும் சரிபார்க்கவும்.",
+            "கையாளக்கூடிய கெடு வரம்பையும் சில கவனச்சிதறல் செயலிகளையும் தேர்ந்தெடுக்கவும். சாதன அனுமதிகளை அமைத்து, அவசியமான கருவிகளை அணுகக்கூடியதாக வைக்கவும்.",
+            "உண்மையான வேலையை முடித்து, Google Tasks-இல் முடிவைச் சரிபார்த்து Nonlate-ஐ புதுப்பிக்கவும். வேறொரு தகுதியான முடிக்காத பணி தடுப்பைத் தொடரலாம்."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ஒவ்வொரு முடிவிற்குப் பிறகும் தொடர் பணியை மதிப்பாய்வு செய்யவும்",
+          "paragraphs": [
+            "Google Tasks தொடர் பணிகளை ஆதரிக்கிறது; ஆனால் எதிர்கால எல்லா நிகழ்வுகளும் அமைப்புகளும் மற்றொரு செயலிக்கு வரும் என நினைக்க வேண்டாம். ஒன்றை முடித்ததும் இரு செயலிகளிலும் அடுத்ததைப் பார்க்கவும். புதுப்பிப்பு தாமதமானால் நகல் உருவாக்கும் முன் புதுப்பிக்கவும். ஒத்திசைவு வழங்குநர், திட்டம், அனுமதி, சாதனத்தைப் பொறுத்தது; உடனடி மாற்றத்திற்கு உத்தரவாதமில்லை."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar கவன நேரம் செயலிகளைத் தடுக்குமா?",
+          "answer": "நாட்காட்டி நிகழ்வுகள் Nonlate தடுப்பைத் தூண்டாது. நடைமுறைக்கு ஏற்ற வேலை நேரத்தைத் தனியாகத் திட்டமிடவும்; அட்டவணை அமைப்பதால் கெடு மாறாது. தடுப்பு தகுதியான முடிக்காத பணிகள், கெடு வரம்பு, அனுமதிகளைப் பொறுத்தது. ஆதரிக்கப்படும் நேரமிட்ட இடைவேளைகள் கிடைக்கும்."
+        },
+        {
+          "question": "கட்டணச் சந்தா இல்லாமல் பயன்படுத்தலாமா?",
+          "answer": "Free-இல் கைமுறை பணிகளும் அதிகபட்சம் மூன்று செயலிகளுக்கான அடிப்படைத் தடுப்பும் உள்ளன. விருப்பமான 30 நாள் மூலச் சோதனை முதல் வெற்றிகரமான இணைப்பில் தொடங்கி, ஒரே நேரத்தில் ஒரு மூலத்தை அனுமதிக்கும்; தானாகக் கட்டணம் இல்லை. பின்னர் தகுந்த கட்டண அணுகல் இல்லையெனில் வெளி ஒத்திசைவு நிற்கும்; இறக்குமதி பணிகளைச் சாதனத்தில் முடிக்கவும் தடுப்பிற்குப் பயன்படுத்தவும் முடியும்."
+        },
+        {
+          "question": "பணிகளை இணைத்தால் அவற்றை முடிப்பது உறுதியா?",
+          "answer": "இல்லை. Nonlate தேர்ந்த கவனச்சிதறல்களை இடைநிறுத்தும்; வேலைத் தரத்தைச் சோதிக்கவோ முடிப்பதற்கு உத்தரவாதம் தரவோ இல்லை. மூல விவரங்களைச் சரியாக வைத்து, கெடு மாறும்போது திட்டத்தை மதிப்பாய்வு செய்யவும்."
+        }
+      ]
+    },
+    "te": {
+      "title": "Google Tasksతో దృష్టి మళ్లించే యాప్‌ల నిరోధం: ముందు గడువు వచ్చే పని",
+      "description": "Google Tasksను Nonlateకు కలిపి, దిగుమతి తేదీలు తనిఖీ చేసి, అర్హమైన అసంపూర్తి పనుల ఆధారంగా యాప్‌లను నిరోధించండి. క్యాలెండర్, పునరావృత పనుల పరిమితులు తెలుసుకోండి.",
+      "intro": "Gmail నుంచి పని సృష్టించి Google Calendarలో చూసినా, మొదలుపెట్టకుండా సామాజిక మాధ్యమం తెరవవచ్చు. మరో గుర్తింపునూ సులభంగా మూసేయవచ్చు. పనుల ఆధారిత నిరోధం నిజంగా గడువు వచ్చే పనిని బట్టి, ఎంచుకున్న యాప్ తెరిచే సమయంలో కాసేపు ఆపుతుంది.",
+      "answer": "Nonlate అనుసంధాన మూలంగా Google Tasksకు మద్దతిస్తుంది. అనుమతి ఇచ్చి, తాజాకరించి, దిగుమతి పనిని మూలంతో పోల్చండి. యాప్‌లు, గడువు పరిధిని ఎంచుకోండి. అర్హమైన అసంపూర్తి పనులు ఎంచుకున్న యాప్ తెరిచినప్పుడు నిరోధం కలిగించవచ్చు; క్యాలెండర్ ఈవెంట్‌లు కాదు.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "నిరోధంపై ఆధారపడే ముందు దిగుమతి తేదీ తనిఖీ చేయండి",
+          "paragraphs": [
+            "పని సెషన్, గుర్తింపు, అసలు చివరి గడువు వేర్వేరు. Google Tasks పబ్లిక్ API పని చేయడానికి ప్రణాళిక చేసిన రోజును ఇస్తుంది, పని చివరి గడువును కాదు; సమయాన్నీ నిలుపుకోదు. Google Calendarలోని ఖచ్చిత సమయం లేదా గడువు యథాతథంగా వస్తుందని అనుకోకండి. అసలు గడువును విడిగా తనిఖీ చేసి Nonlate చూపే తేదీనీ చూడండి. ముఖ్య పనికి ఆధారపడే ముందు సాధారణ పనితో పరీక్షించండి."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ఒక పని అనుసంధానించి మొత్తం ప్రక్రియ పరీక్షించండి",
+          "paragraphs": [
+            "వివరాలకు Google Tasksనే ఆధారంగా ఉంచండి. అన్ని జాబితాలను రెండో యాప్‌లో నకలు చేయకుండా చిన్నగా మొదలుపెట్టండి."
+          ],
+          "steps": [
+            "Nonlate మద్దతిచ్చే సైన్-ఇన్ ద్వారా Google Tasksను కలపండి. సంబంధిత జాబితా ఉన్న Google ఖాతా ఎంచుకున్నారో చూడండి.",
+            "Nonlateను తాజాకరించి శీర్షిక, తేదీ, పూర్తయిన స్థితిని పోల్చండి. పని కనిపించకపోతే ప్రవేశ హక్కులు, అనుమతులు చూడండి.",
+            "నిర్వహించగల గడువు పరిధిని, కొన్ని దృష్టి మళ్లించే యాప్‌లను ఎంచుకోండి. పరికర అనుమతులు అమర్చి, అవసరమైన సాధనాలను అందుబాటులో ఉంచండి.",
+            "అసలు పని పూర్తిచేసి Google Tasksలో స్థితి చూసి Nonlateను తాజాకరించండి. మరో అర్హమైన అసంపూర్తి పని నిరోధాన్ని కొనసాగించవచ్చు."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ప్రతి పూర్తి తర్వాత పునరావృత పనిని సమీక్షించండి",
+          "paragraphs": [
+            "Google Tasks పునరావృత పనులకు మద్దతిస్తుంది, కానీ భవిష్యత్తు అన్ని సార్లు లేదా సెట్టింగ్‌లు మరో యాప్‌కు వస్తాయని అనుకోకండి. ఒకటి పూర్తయ్యాక రెండు యాప్‌లలో తదుపరిది చూడండి. అప్‌డేట్ ఆలస్యమైతే నకలు సృష్టించే ముందు తాజాకరించండి. సమకాలీకరణ ప్రొవైడర్, ప్లాన్, అనుమతులు, పరికరంపై ఆధారపడి ఉంటుంది; తక్షణ మార్పుకు హామీ లేదు."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar ఏకాగ్రత సెషన్ యాప్‌లను నిరోధిస్తుందా?",
+          "answer": "క్యాలెండర్ ఈవెంట్‌లు Nonlate నిరోధాన్ని ప్రారంభించవు. సాధ్యమైన పని సమయాన్ని వేరుగా ప్రణాళిక చేయండి; షెడ్యూల్ వల్ల గడువు మారదు. నిరోధం అర్హమైన అసంపూర్తి పనులు, గడువు పరిధి, పరికర అనుమతులపై ఆధారపడుతుంది. మద్దతున్న సమయ పరిమిత విరామాలు అందుబాటులో ఉంటాయి."
+        },
+        {
+          "question": "చెల్లింపు చందా లేకుండానే వాడవచ్చా?",
+          "answer": "Freeలో చేతితో చేర్చే పనులు, మూడు యాప్‌ల వరకు ప్రాథమిక నిరోధం ఉంటాయి. ఐచ్ఛిక 30 రోజుల మూల పరీక్ష మొదటి విజయవంతమైన కనెక్షన్‌తో మొదలై, ఒక్కోసారి ఒక మూలాన్ని అనుమతిస్తుంది; ఆటోమేటిక్ ఛార్జీ లేదు. తర్వాత అర్హమైన చెల్లింపు ప్రవేశం లేకుంటే బాహ్య సమకాలీకరణ ఆగుతుంది; దిగుమతి పనులు స్థానిక పూర్తి, నిరోధానికి మిగులుతాయి."
+        },
+        {
+          "question": "పనులు కలిపితే పూర్తిచేస్తానని హామీ ఉందా?",
+          "answer": "లేదు. Nonlate ఎంచుకున్న దృష్టి మళ్లింపులను అడ్డుకుంటుంది; పని నాణ్యతను తనిఖీ చేయదు లేదా పూర్తి హామీ ఇవ్వదు. మూల వివరాలు సరిగ్గా ఉంచి, గడువులు మారితే ప్రణాళికను సమీక్షించండి."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "Google Tasks 分心應用程式封鎖：先處理到期任務",
+      "description": "將 Google Tasks 連接到 Nonlate，核對匯入日期，並依符合條件的未完成任務封鎖應用程式。了解行事曆和重複任務的限制。",
+      "intro": "你從 Gmail 新增任務，在 Google Calendar 中看見它，卻仍開啟社群媒體而沒有開始工作。新的提醒也可能隨手關閉。以任務為依據的封鎖工具，會根據真正到期的工作，在你開啟選定的分心應用程式時讓你暫停一下。",
+      "answer": "Nonlate 支援將 Google Tasks 作為連接來源。授權連接、重新整理，並與 Google Tasks 核對匯入任務。選擇分心應用程式及到期時間範圍。符合條件的未完成任務可在開啟選定應用程式時觸發封鎖；行事曆活動不會。",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "依賴封鎖之前，先核對匯入日期",
+          "paragraphs": [
+            "工作時段、提醒與真正的截止日期並不相同。Google Tasks 的公開 API 提供的是安排執行的日期，而非任務的截止日期，也不保留確切時刻。不要假定 Google Calendar 顯示的準確時間或期限會原樣傳入。請另行核對真正的截止日期，並檢查 Nonlate 實際顯示的日期。先以普通任務測試，再將連接用於重要工作。"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "連接一項任務，測試完整流程",
+          "paragraphs": [
+            "保留 Google Tasks 作為任務詳細資料的依據。先從少量任務開始，不必將所有清單重建在另一個應用程式。"
+          ],
+          "steps": [
+            "透過 Nonlate 支援的登入流程連接 Google Tasks。確認選擇的 Google 帳戶包含相關任務清單。",
+            "重新整理 Nonlate，比較匯入的標題、日期和完成狀態。若缺少任務，檢查存取權限與授權。",
+            "選擇合理的到期時間範圍與少量分心應用程式。完成裝置權限設定，並保持必要工具可用。",
+            "完成實際工作，在 Google Tasks 核實完成狀態，再重新整理 Nonlate。其他符合條件的未完成任務仍可能維持封鎖。"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "每次完成後，檢查重複任務",
+          "paragraphs": [
+            "Google Tasks 支援重複任務，但不要假定所有未來次數與重複設定都會傳入其他應用程式。完成一次後，檢查 Google Tasks 與 Nonlate 接著顯示什麼。若更新延遲，先重新整理以免建立重複項目。同步速度取決於供應商、方案、權限與裝置，不保證即時更新。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar 的專注時段會封鎖應用程式嗎？",
+          "answer": "行事曆活動不會觸發 Nonlate 封鎖。請另行安排實際可行的工作時段；排程不會改變任務期限。封鎖取決於符合條件的未完成任務、到期範圍和裝置權限。受支援的計時休息仍可使用。"
+        },
+        {
+          "question": "沒有付費訂閱也能使用嗎？",
+          "answer": "Free 包含手動任務與最多三個分心應用程式的基本封鎖。可選的 30 天來源試用從首次成功連接開始，每次允許一個來源，不會自動收費。之後若沒有符合條件的付費權限，外部同步會暫停；已匯入任務仍可在本機完成並用於封鎖。"
+        },
+        {
+          "question": "連接任務能保證我完成工作嗎？",
+          "answer": "不能。Nonlate 會打斷選定的分心行為，但不會核驗工作品質，也不保證完成。請保持來源資料正確，並在期限改變時重新檢查計畫。"
+        }
+      ]
+    },
+    "he": {
+      "title": "חסימת הסחות דעת עם Google Tasks: קודם המשימות שהגיע זמנן",
+      "description": "חברו את Google Tasks ל־Nonlate, בדקו תאריכים שיובאו וחסמו אפליקציות לפי משימות מתאימות שטרם הושלמו. הכירו את מגבלות היומן והמשימות החוזרות.",
+      "intro": "אתם יוצרים משימה מתוך Gmail, רואים אותה ב־Google Calendar, ובכל זאת פותחים רשת חברתית במקום להתחיל. קל לסגור גם תזכורת נוספת. חסימה לפי משימות יוצרת עצירה כשפותחים אפליקציה מסיחה שנבחרה, בהתאם לעבודה שבאמת הגיע זמנה.",
+      "answer": "Nonlate תומך ב־Google Tasks כמקור מחובר. אשרו את החיבור, רעננו והשוו משימה שיובאה למקור. בחרו אפליקציות וחלון מועדים. משימות מתאימות שלא הושלמו עשויות להפעיל חסימה בפתיחת אפליקציה נבחרת; אירועי יומן לא.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "בדקו את התאריך שיובא לפני שמסתמכים על החסימה",
+          "paragraphs": [
+            "זמן עבודה, תזכורת ומועד אחרון אמיתי הם נתונים שונים. ה־API הציבורי של Google Tasks מספק יום מתוכנן, לא את המועד האחרון של המשימה, ואינו משמר שעה ביום. אל תניחו ששעה מדויקת או מועד אחרון ב־Google Calendar יועברו ללא שינוי. בדקו בנפרד את המועד האמיתי ואת התאריך שמציג Nonlate. נסו משימה רגילה לפני הסתמכות על החיבור לעבודה חשובה."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "חברו משימה אחת ובדקו את כל התהליך",
+          "paragraphs": [
+            "שמרו את Google Tasks כנקודת הייחוס לפרטים. התחילו בקטן במקום לשכפל את כל הרשימות באפליקציה נוספת."
+          ],
+          "steps": [
+            "חברו את Google Tasks דרך תהליך ההתחברות הנתמך ב־Nonlate. ודאו שבחרתם את חשבון Google המכיל את הרשימה הרלוונטית.",
+            "רעננו את Nonlate והשוו כותרת, תאריך ומצב השלמה. אם המשימה חסרה, בדקו גישה והרשאות.",
+            "בחרו חלון מועדים סביר וכמה אפליקציות מסיחות. הגדירו הרשאות במכשיר והשאירו כלים חיוניים זמינים.",
+            "סיימו את העבודה עצמה, בדקו השלמה ב־Google Tasks ורעננו את Nonlate. משימה מתאימה נוספת שטרם הושלמה עשויה להשאיר את החסימה פעילה."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "בדקו משימות חוזרות אחרי כל השלמה",
+          "paragraphs": [
+            "Google Tasks תומך בחזרות, אבל לא כל המופעים העתידיים וההגדרות בהכרח עוברים לאפליקציה אחרת. לאחר השלמת מופע אחד, בדקו מה מופיע אחריו בשתי האפליקציות. אם עדכון מתעכב, רעננו לפני יצירת כפילויות. הסנכרון תלוי בספק, בתוכנית, בהרשאות ובמכשיר; עדכון מיידי אינו מובטח."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "האם זמן ריכוז ב־Google Calendar חוסם אפליקציות?",
+          "answer": "אירועי יומן אינם מפעילים חסימה ב־Nonlate. תכננו בנפרד זמן עבודה מציאותי; התזמון אינו משנה את מועד המשימה. החסימה תלויה במשימות מתאימות שלא הושלמו, בחלון המועדים ובהרשאות. הפסקות מתוזמנות נתמכות נשארות זמינות."
+        },
+        {
+          "question": "האם אפשר להשתמש בלי מינוי בתשלום?",
+          "answer": "Free כולל משימות ידניות וחסימה בסיסית של עד שלוש אפליקציות. ניסיון המקורות האופציונלי ל־30 יום מתחיל בחיבור המוצלח הראשון, מאפשר מקור אחד בכל פעם וללא חיוב אוטומטי. אחריו, בלי גישה מתאימה בתשלום, סנכרון חיצוני מושהה; משימות שיובאו נשארות להשלמה מקומית ולחסימה."
+        },
+        {
+          "question": "האם חיבור משימות מבטיח שאסיים אותן?",
+          "answer": "לא. Nonlate עוצר הסחות שנבחרו; הוא אינו בודק איכות או מבטיח השלמה. שמרו פרטי מקור מדויקים ובדקו מחדש את התוכנית כשמועדים משתנים."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Pangharang ng distraksiyon para sa Google Tasks: unahin ang takdang gawain",
+      "description": "Ikonekta ang Google Tasks sa Nonlate, suriin ang na-import na petsa at harangin ang apps ayon sa angkop na hindi pa tapos na gawain. Alamin ang limitasyon ng kalendaryo at pag-uulit.",
+      "intro": "Gumagawa ka ng gawain mula sa Gmail, nakikita ito sa Google Calendar, pero nagbubukas pa rin ng social media sa halip na magsimula. Madaling isara ang isa pang paalala. Ang pagharang batay sa gawain ay nagbibigay ng sandaling paghinto sa pagbukas ng napiling app, ayon sa trabahong talagang takda na.",
+      "answer": "Sinusuportahan ng Nonlate ang Google Tasks bilang konektadong pinagmulan. Pahintulutan ang koneksiyon, i-refresh at ihambing ang isang na-import na gawain sa Google Tasks. Piliin ang apps at saklaw ng takdang oras. Ang angkop na hindi pa tapos na gawain ay maaaring magpasimula ng pagharang sa pagbukas ng napiling app; hindi ang mga kaganapan sa kalendaryo.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Suriin ang na-import na petsa bago umasa sa pagharang",
+          "paragraphs": [
+            "Magkaiba ang oras ng trabaho, paalala at tunay na deadline. Ang pampublikong API ng Google Tasks ay nagbibigay ng araw na nakaiskedyul, hindi ng deadline ng gawain, at hindi pinapanatili ang oras. Huwag ipagpalagay na eksaktong lilipat ang oras o deadline mula sa Google Calendar. Suriin nang hiwalay ang tunay na deadline at ang petsang ipinapakita ng Nonlate. Subukan muna ang ordinaryong gawain bago umasa sa koneksiyon para sa mahalagang trabaho."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Ikonekta ang isang gawain at subukan ang buong proseso",
+          "paragraphs": [
+            "Gawing batayan ang Google Tasks para sa mga detalye. Magsimula nang kaunti sa halip na kopyahin ang lahat ng listahan sa ikalawang app."
+          ],
+          "steps": [
+            "Ikonekta ang Google Tasks gamit ang suportadong pag-sign in ng Nonlate. Tiyaking napili ang Google account na may kaugnay na listahan.",
+            "I-refresh ang Nonlate at ihambing ang pamagat, petsa at katayuan ng pagkumpleto. Kung wala ang gawain, suriin ang access at mga pahintulot.",
+            "Pumili ng makatwirang saklaw ng takdang oras at ilang nakakaabalang app. Kumpletuhin ang pahintulot ng device at panatilihing naaabot ang mahahalagang kasangkapan.",
+            "Tapusin ang tunay na trabaho, suriin ang pagkumpleto sa Google Tasks at i-refresh ang Nonlate. Maaari pa ring magpatuloy ang harang dahil sa ibang angkop na hindi tapos na gawain."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Suriin ang umuulit na gawain pagkatapos ng bawat pagkumpleto",
+          "paragraphs": [
+            "May umuulit na gawain sa Google Tasks, ngunit huwag ipagpalagay na lahat ng susunod na pag-ulit o setting ay lilipat sa ibang app. Pagkatapos ng isa, suriin ang susunod sa dalawang app. Kung nahuhuli ang update, i-refresh bago gumawa ng duplicate. Nakasalalay ang pag-sync sa provider, plano, pahintulot at device; walang garantiyang agad ang update."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Magha-harang ba ng apps ang focus session sa Google Calendar?",
+          "answer": "Hindi nagpapasimula ng Nonlate blocking ang mga kaganapan sa kalendaryo. Magtakda ng makatotohanang oras ng trabaho nang hiwalay; hindi nito binabago ang deadline. Nakasalalay ang harang sa angkop na hindi tapos na gawain, saklaw at pahintulot. Nananatili ang suportadong may-oras na pahinga."
+        },
+        {
+          "question": "Magagamit ba nang walang bayad na subscription?",
+          "answer": "Kasama sa Free ang manu-manong gawain at pangunahing pagharang sa hanggang tatlong app. Ang opsyonal na 30-araw na pagsubok sa pinagmulan ay nagsisimula sa unang matagumpay na koneksiyon, nagpapahintulot ng isang pinagmulan sa bawat pagkakataon at walang awtomatikong singil. Pagkatapos, hihinto ang panlabas na pag-sync kung walang angkop na bayad na access; magagamit pa ang na-import na gawain sa lokal na pagkumpleto at pagharang."
+        },
+        {
+          "question": "Garantisado bang matatapos ko ang mga nakakonektang gawain?",
+          "answer": "Hindi. Pinuputol ng Nonlate ang napiling distraksiyon; hindi nito sinusuri ang kalidad o ginagarantiya ang pagkumpleto. Panatilihing tama ang detalye sa pinagmulan at baguhin ang plano kapag nagbago ang deadline."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Blokování rušivých aplikací s Google Tasks: nejdříve úkoly s termínem",
+      "description": "Propojte Google Tasks s Nonlate, ověřte importovaná data a blokujte aplikace podle odpovídajících nedokončených úkolů. Poznejte omezení kalendáře a opakování.",
+      "intro": "Vytvoříte úkol z Gmailu, vidíte ho v Google Calendar, ale místo práce otevřete sociální síť. Další připomenutí snadno zavřete. Blokování podle úkolů vás na chvíli zastaví při otevření vybrané rušivé aplikace a zohlední práci, jejíž termín skutečně nastal.",
+      "answer": "Nonlate podporuje Google Tasks jako připojený zdroj. Povolte propojení, obnovte data a porovnejte importovaný úkol s Google Tasks. Vyberte aplikace a časové okno splatnosti. Odpovídající nedokončené úkoly mohou při otevření vybrané aplikace spustit blokování; události kalendáře nikoli.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Než se na blokování spolehnete, ověřte importované datum",
+          "paragraphs": [
+            "Pracovní blok, připomenutí a skutečný konečný termín jsou různé údaje. Veřejné API Google Tasks poskytuje naplánovaný den, nikoli skutečný termín úkolu, a nezachovává čas. Nepředpokládejte přesný přenos hodiny či termínu z Google Calendar. Zvlášť ověřte skutečný termín a datum zobrazené v Nonlate. Vyzkoušejte běžný úkol, než propojení využijete pro důležitou práci."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Připojte jeden úkol a vyzkoušejte celý postup",
+          "paragraphs": [
+            "Podrobnosti ověřujte v Google Tasks. Začněte v malém místo kopírování všech seznamů do druhé aplikace."
+          ],
+          "steps": [
+            "Připojte Google Tasks podporovaným přihlášením v Nonlate. Ověřte, že jste vybrali účet Google s příslušným seznamem.",
+            "Obnovte Nonlate a porovnejte název, datum a stav dokončení. Pokud úkol chybí, zkontrolujte přístup a oprávnění.",
+            "Vyberte zvládnutelné okno splatnosti a několik rušivých aplikací. Nastavte oprávnění zařízení a ponechte potřebné nástroje dostupné.",
+            "Dokončete skutečnou práci, ověřte dokončení v Google Tasks a obnovte Nonlate. Další odpovídající nedokončený úkol může blokování udržovat."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Opakované úkoly kontrolujte po každém dokončení",
+          "paragraphs": [
+            "Google Tasks podporuje opakování, ale ne všechny budoucí výskyty a nastavení se nutně přenesou jinam. Po dokončení jednoho zkontrolujte, co se objeví jako další v obou aplikacích. Při zpoždění obnovte data před vytvořením kopie. Synchronizace závisí na poskytovateli, tarifu, oprávněních a zařízení; okamžité aktualizace nejsou zaručené."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Zablokuje aplikace čas na soustředění v Google Calendar?",
+          "answer": "Události kalendáře blokování Nonlate nespouštějí. Reálný pracovní blok naplánujte zvlášť; plánování termín úkolu neposouvá. Blokování závisí na odpovídajících nedokončených úkolech, okně a oprávněních. Podporované časované přestávky zůstávají dostupné."
+        },
+        {
+          "question": "Mohu to používat bez placeného předplatného?",
+          "answer": "Free obsahuje ruční úkoly a základní blokování až tří aplikací. Volitelná 30denní zkouška zdrojů začíná prvním úspěšným připojením, povoluje jeden zdroj současně a nic automaticky neúčtuje. Poté se bez odpovídajícího placeného přístupu externí synchronizace pozastaví; importované úkoly zůstanou pro místní dokončení a blokování."
+        },
+        {
+          "question": "Zaručuje propojení, že úkoly dokončím?",
+          "answer": "Ne. Nonlate přerušuje vybraná rozptýlení; neověřuje kvalitu práce ani nezaručuje dokončení. Udržujte zdrojové údaje správné a při změně termínů upravte plán."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Blockera distraktioner med Google Tasks: gör förfallande uppgifter först",
+      "description": "Koppla Google Tasks till Nonlate, kontrollera importerade datum och blockera appar efter relevanta ofärdiga uppgifter. Förstå begränsningarna för kalender och återkommande arbete.",
+      "intro": "Du skapar en uppgift från Gmail, ser den i Google Calendar men öppnar ändå sociala medier i stället för att börja. Ännu en påminnelse är lätt att stänga. Uppgiftsbaserad blockering skapar en paus när du öppnar en vald distraherande app, utifrån arbete som faktiskt förfaller.",
+      "answer": "Nonlate stöder Google Tasks som ansluten källa. Godkänn anslutningen, uppdatera och jämför en importerad uppgift med Google Tasks. Välj appar och ett förfallofönster. Relevanta ofärdiga uppgifter kan utlösa blockering när en vald app öppnas; kalenderhändelser gör det inte.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Kontrollera det importerade datumet innan du litar på blockeringen",
+          "paragraphs": [
+            "Ett arbetspass, en påminnelse och en verklig tidsfrist är olika saker. Google Tasks offentliga API ger den planerade dagen, inte uppgiftens faktiska tidsfrist, och bevarar inte klockslaget. Utgå inte från att exakt tid eller tidsfrist i Google Calendar överförs oförändrad. Kontrollera den verkliga tidsfristen separat och datumet som Nonlate visar. Testa en vanlig uppgift innan du använder anslutningen för viktigt arbete."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Anslut en uppgift och testa hela flödet",
+          "paragraphs": [
+            "Behåll Google Tasks som referens för detaljer. Börja smått i stället för att kopiera alla listor till en andra app."
+          ],
+          "steps": [
+            "Anslut Google Tasks med Nonlates stödda inloggning. Kontrollera att valt Google-konto innehåller rätt lista.",
+            "Uppdatera Nonlate och jämför titel, datum och slutförandestatus. Saknas uppgiften, kontrollera åtkomst och behörigheter.",
+            "Välj ett hanterbart förfallofönster och några distraherande appar. Ordna enhetsbehörigheter och håll nödvändiga verktyg tillgängliga.",
+            "Gör det faktiska arbetet, kontrollera slutförandet i Google Tasks och uppdatera Nonlate. En annan relevant ofärdig uppgift kan hålla blockeringen aktiv."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Granska återkommande arbete efter varje tillfälle",
+          "paragraphs": [
+            "Google Tasks stöder återkommande uppgifter, men alla framtida tillfällen och inställningar överförs inte nödvändigtvis till andra appar. Kontrollera vad som kommer härnäst i båda apparna efter avslut. Uppdatera vid fördröjning innan du skapar dubbletter. Synkning beror på leverantör, abonnemang, behörigheter och enhet; omedelbara uppdateringar garanteras inte."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blockerar ett fokuspass i Google Calendar appar?",
+          "answer": "Kalenderhändelser utlöser inte Nonlates blockering. Planera ett realistiskt arbetspass separat; planering flyttar inte tidsfristen. Blockering beror på relevanta ofärdiga uppgifter, förfallofönster och behörigheter. Stödda tidsbegränsade pauser finns kvar."
+        },
+        {
+          "question": "Kan jag använda det utan betalabonnemang?",
+          "answer": "Free innehåller manuella uppgifter och grundblockering för upp till tre distraherande appar. Det valfria källprovet på 30 dagar börjar vid första lyckade anslutningen, tillåter en källa åt gången och debiterar inget automatiskt. Därefter pausas extern synkning utan lämplig betald åtkomst; importerade uppgifter kan fortfarande slutföras lokalt och användas för blockering."
+        },
+        {
+          "question": "Garanterar anslutningen att jag gör klart uppgifterna?",
+          "answer": "Nej. Nonlate avbryter valda distraktioner; det kontrollerar inte kvalitet eller garanterar slutförande. Håll källinformationen korrekt och se över planen när tidsfrister ändras."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Bloquejador de distraccions per a Google Tasks: primer les tasques amb termini",
+      "description": "Connecta Google Tasks a Nonlate, comprova les dates importades i bloqueja aplicacions segons les tasques pendents elegibles. Coneix els límits del calendari i les repeticions.",
+      "intro": "Crees una tasca des de Gmail, la veus a Google Calendar, però obres les xarxes en lloc de començar. Un altre recordatori també es pot descartar fàcilment. Un bloqueig basat en tasques introdueix una pausa quan obres una aplicació triada, segons la feina que realment venç.",
+      "answer": "Nonlate admet Google Tasks com a font connectada. Autoritza la connexió, actualitza i compara una tasca importada amb Google Tasks. Tria aplicacions i un interval de venciment. Les tasques pendents elegibles poden activar el bloqueig en obrir una aplicació seleccionada; els esdeveniments del calendari no.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Comprova la data importada abans de confiar en el bloqueig",
+          "paragraphs": [
+            "Una sessió de feina, un recordatori i un termini real són diferents. L’API pública de Google Tasks ofereix el dia programat, no el termini final de la tasca, i no conserva l’hora. No pressuposis que una hora o termini de Google Calendar passarà intacte. Comprova separadament el termini real i la data que mostra Nonlate. Prova una tasca normal abans de dependre de la connexió per a feina important."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Connecta una tasca i prova tot el procés",
+          "paragraphs": [
+            "Mantén Google Tasks com a referència dels detalls. Comença amb poc en lloc de duplicar totes les llistes en una altra aplicació."
+          ],
+          "steps": [
+            "Connecta Google Tasks mitjançant l’inici de sessió compatible de Nonlate. Confirma que has triat el compte de Google amb la llista pertinent.",
+            "Actualitza Nonlate i compara el títol, la data i l’estat de compleció importats. Si falta la tasca, comprova l’accés i els permisos.",
+            "Tria un interval de venciment assumible i poques aplicacions que distreguin. Configura els permisos del dispositiu i mantén accessibles les eines essencials.",
+            "Acaba la feina real, comprova que consta com a completada a Google Tasks i actualitza Nonlate. Una altra tasca pendent elegible pot mantenir el bloqueig."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Revisa les tasques recurrents després de cada repetició",
+          "paragraphs": [
+            "Google Tasks admet repeticions, però no totes les ocurrències futures ni els ajustos passen necessàriament a una altra aplicació. Després de completar-ne una, comprova què apareix després a totes dues. Si l’actualització tarda, actualitza abans de crear duplicats. La sincronització depèn del proveïdor, pla, permisos i dispositiu; no es garanteixen canvis immediats."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Una sessió de concentració de Google Calendar bloqueja aplicacions?",
+          "answer": "Els esdeveniments del calendari no activen el bloqueig de Nonlate. Programa una sessió realista per separat; això no mou el termini de la tasca. El bloqueig depèn de les tasques pendents elegibles, de l’interval i dels permisos. Les pauses temporitzades compatibles continuen disponibles."
+        },
+        {
+          "question": "Ho puc utilitzar sense subscripció de pagament?",
+          "answer": "Free inclou tasques manuals i bloqueig bàsic de fins a tres aplicacions. La prova opcional de fonts de 30 dies comença amb la primera connexió correcta, permet una font alhora i no cobra automàticament. Després, sense accés de pagament elegible, la sincronització externa es pausa; les tasques importades continuen disponibles per completar-les localment i bloquejar."
+        },
+        {
+          "question": "Connectar les tasques garanteix que les acabaré?",
+          "answer": "No. Nonlate interromp les distraccions seleccionades; no verifica la qualitat ni garanteix l’acabament. Mantén correctes les dades d’origen i revisa el pla si canvien els terminis."
+        }
+      ]
+    },
+    "da": {
+      "title": "Blokér distraktioner med Google Tasks: først opgaver med frist",
+      "description": "Forbind Google Tasks med Nonlate, tjek importerede datoer og blokér apps ud fra relevante ufærdige opgaver. Forstå grænserne for kalender og gentagelser.",
+      "intro": "Du opretter en opgave fra Gmail, ser den i Google Calendar, men åbner sociale medier i stedet for at begynde. Endnu en påmindelse er let at lukke. Opgavebaseret blokering giver en pause, når du åbner en valgt distraherende app, ud fra arbejde, der faktisk nærmer sig sin frist.",
+      "answer": "Nonlate understøtter Google Tasks som tilsluttet kilde. Godkend forbindelsen, opdatér og sammenlign en importeret opgave med Google Tasks. Vælg apps og et fristvindue. Relevante ufærdige opgaver kan udløse blokering ved åbning af en valgt app; kalenderbegivenheder gør ikke.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Tjek den importerede dato, før du stoler på blokeringen",
+          "paragraphs": [
+            "Et arbejdsforløb, en påmindelse og en faktisk frist er forskellige ting. Google Tasks’ offentlige API giver den planlagte dag, ikke opgavens egentlige frist, og bevarer ikke klokkeslættet. Antag ikke, at præcis tid eller frist fra Google Calendar overføres uændret. Kontrollér den reelle frist særskilt og datoen i Nonlate. Afprøv en almindelig opgave, før du bruger forbindelsen til vigtigt arbejde."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Tilslut én opgave og afprøv hele forløbet",
+          "paragraphs": [
+            "Behold Google Tasks som reference for detaljer. Begynd småt i stedet for at kopiere alle lister til en anden app."
+          ],
+          "steps": [
+            "Tilslut Google Tasks gennem Nonlates understøttede login. Tjek, at den valgte Google-konto indeholder den relevante liste.",
+            "Opdatér Nonlate og sammenlign titel, dato og fuldførelsesstatus. Mangler opgaven, så tjek adgang og tilladelser.",
+            "Vælg et overskueligt fristvindue og få distraherende apps. Opsæt enhedstilladelser og behold adgang til vigtige værktøjer.",
+            "Gør det rigtige arbejde færdigt, tjek fuldførelsen i Google Tasks og opdatér Nonlate. En anden relevant ufærdig opgave kan fastholde blokeringen."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Tjek gentagne opgaver efter hver gennemførelse",
+          "paragraphs": [
+            "Google Tasks understøtter gentagelser, men alle fremtidige forekomster og indstillinger overføres ikke nødvendigvis til en anden app. Tjek næste opgave i begge apps efter gennemførelse. Opdatér ved forsinkelse, før du laver dubletter. Synkronisering afhænger af udbyder, abonnement, tilladelser og enhed; øjeblikkelige opdateringer garanteres ikke."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blokerer en fokussession i Google Calendar apps?",
+          "answer": "Kalenderbegivenheder udløser ikke Nonlate-blokering. Planlæg et realistisk arbejdsforløb særskilt; planlægning flytter ikke opgavens frist. Blokering afhænger af relevante ufærdige opgaver, fristvinduet og tilladelser. Understøttede tidsbestemte pauser er stadig tilgængelige."
+        },
+        {
+          "question": "Kan jeg bruge det uden et betalt abonnement?",
+          "answer": "Free omfatter manuelle opgaver og grundblokering af op til tre apps. Den valgfrie 30-dages kildeprøve starter ved første vellykkede forbindelse, tillader én kilde ad gangen og opkræver ikke automatisk betaling. Derefter sættes ekstern synkronisering på pause uden passende betalt adgang; importerede opgaver kan stadig fuldføres lokalt og bruges til blokering."
+        },
+        {
+          "question": "Garanterer forbindelsen, at jeg får opgaverne lavet?",
+          "answer": "Nej. Nonlate afbryder valgte distraktioner; det kontrollerer ikke arbejdskvalitet eller garanterer fuldførelse. Hold kildedetaljer korrekte og revidér planen, når frister ændres."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Google Tasks ja häiriösovellusten esto: erääntyvät tehtävät ensin",
+      "description": "Yhdistä Google Tasks Nonlateen, tarkista tuodut päivämäärät ja estä sovelluksia sopivien keskeneräisten tehtävien perusteella. Tutustu kalenterin ja toistojen rajoihin.",
+      "intro": "Luot tehtävän Gmailista, näet sen Google Calendarissa ja avaat silti somen työn aloittamisen sijaan. Uudenkin muistutuksen voi helposti sulkea. Tehtäväperusteinen esto pysäyttää hetkeksi valitun häiriösovelluksen avaamisen yhteydessä sen työn perusteella, joka oikeasti erääntyy.",
+      "answer": "Nonlate tukee Google Tasksia yhdistettynä lähteenä. Salli yhteys, päivitä ja vertaa tuotua tehtävää Google Tasksiin. Valitse sovellukset ja erääntymisikkuna. Sopivat keskeneräiset tehtävät voivat käynnistää eston valitun sovelluksen avautuessa; kalenteritapahtumat eivät.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Tarkista tuotu päivämäärä ennen estoon luottamista",
+          "paragraphs": [
+            "Työjakso, muistutus ja todellinen määräaika ovat eri asioita. Google Tasksin julkinen API antaa suunnitellun päivän, ei tehtävän todellista määräaikaa, eikä säilytä kellonaikaa. Älä oleta Google Calendarin tarkan ajan tai määräajan siirtyvän muuttumattomana. Tarkista todellinen määräaika erikseen ja Nonlaten näyttämä päivämäärä. Kokeile tavallista tehtävää ennen yhteyden käyttöä tärkeään työhön."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Yhdistä yksi tehtävä ja testaa koko työnkulku",
+          "paragraphs": [
+            "Pidä Google Tasks tehtävän tietojen vertailukohtana. Aloita pienesti kaikkien listojen kopioimisen sijaan."
+          ],
+          "steps": [
+            "Yhdistä Google Tasks Nonlaten tukemalla kirjautumisella. Tarkista, että valittu Google-tili sisältää oikean tehtävälistan.",
+            "Päivitä Nonlate ja vertaa otsikkoa, päivämäärää ja valmistumistilaa. Jos tehtävä puuttuu, tarkista käyttöoikeudet ja pääsy.",
+            "Valitse hallittava erääntymisikkuna ja muutama häiritsevä sovellus. Määritä laitteen oikeudet ja pidä tarpeelliset työkalut käytettävissä.",
+            "Tee varsinainen työ, tarkista valmistuminen Google Tasksissa ja päivitä Nonlate. Toinen sopiva keskeneräinen tehtävä voi pitää eston voimassa."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Tarkista toistuvat tehtävät jokaisen suorituksen jälkeen",
+          "paragraphs": [
+            "Google Tasks tukee toistoja, mutta kaikki tulevat esiintymät tai asetukset eivät välttämättä siirry toiseen sovellukseen. Tarkista seuraava tehtävä molemmissa sovelluksissa suorituksen jälkeen. Päivitä viiveen ilmetessä ennen kaksoiskappaleen luomista. Synkronointi riippuu palveluntarjoajasta, tilauksesta, oikeuksista ja laitteesta; välittömiä päivityksiä ei taata."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Estääkö Google Calendarin keskittymisjakso sovelluksia?",
+          "answer": "Kalenteritapahtumat eivät käynnistä Nonlaten estoa. Varaa realistinen työjakso erikseen; aikataulutus ei siirrä tehtävän määräaikaa. Esto riippuu sopivista keskeneräisistä tehtävistä, erääntymisikkunasta ja laitteen oikeuksista. Tuetut ajastetut tauot ovat edelleen käytettävissä."
+        },
+        {
+          "question": "Voinko käyttää tätä ilman maksullista tilausta?",
+          "answer": "Free sisältää käsin lisättävät tehtävät ja enintään kolmen sovelluksen peruseston. Valinnainen 30 päivän lähdekokeilu alkaa ensimmäisestä onnistuneesta yhdistämisestä, sallii yhden lähteen kerrallaan eikä veloita automaattisesti. Sen jälkeen ulkoinen synkronointi keskeytyy ilman sopivaa maksullista käyttöoikeutta; tuotuja tehtäviä voi edelleen merkitä valmiiksi paikallisesti ja käyttää estoon."
+        },
+        {
+          "question": "Takaako yhdistäminen tehtävien valmistumisen?",
+          "answer": "Ei. Nonlate keskeyttää valitut häiriöt; se ei tarkista työn laatua eikä takaa valmistumista. Pidä lähdetiedot oikein ja tarkista suunnitelma määräaikojen muuttuessa."
+        }
+      ]
+    },
+    "el": {
+      "title": "Αποκλεισμός περισπασμών με το Google Tasks: πρώτα οι εργασίες που λήγουν",
+      "description": "Συνδέστε το Google Tasks στο Nonlate, ελέγξτε τις εισαγόμενες ημερομηνίες και αποκλείστε εφαρμογές βάσει κατάλληλων εκκρεμών εργασιών. Μάθετε τα όρια ημερολογίου και επαναλήψεων.",
+      "intro": "Δημιουργείτε εργασία από το Gmail, τη βλέπετε στο Google Calendar, αλλά ανοίγετε κοινωνικά δίκτυα αντί να ξεκινήσετε. Μια ακόμη υπενθύμιση κλείνει εύκολα. Ο αποκλεισμός βάσει εργασιών προσφέρει μια παύση όταν ανοίγετε επιλεγμένη εφαρμογή, με βάση δουλειά που πράγματι πλησιάζει στη λήξη της.",
+      "answer": "Το Nonlate υποστηρίζει το Google Tasks ως συνδεδεμένη πηγή. Εγκρίνετε τη σύνδεση, ανανεώστε και συγκρίνετε μια εισαγόμενη εργασία με το πρωτότυπο. Επιλέξτε εφαρμογές και χρονικό παράθυρο λήξης. Οι κατάλληλες ημιτελείς εργασίες μπορούν να ενεργοποιήσουν αποκλεισμό όταν ανοίγει επιλεγμένη εφαρμογή· τα συμβάντα ημερολογίου όχι.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Ελέγξτε την εισαγόμενη ημερομηνία πριν βασιστείτε στον αποκλεισμό",
+          "paragraphs": [
+            "Μια περίοδος εργασίας, μια υπενθύμιση και η πραγματική προθεσμία διαφέρουν. Το δημόσιο API του Google Tasks δίνει την προγραμματισμένη ημέρα, όχι την προθεσμία της εργασίας, και δεν διατηρεί την ώρα. Μην υποθέτετε αμετάβλητη μεταφορά ακριβούς ώρας ή προθεσμίας από το Google Calendar. Ελέγξτε χωριστά την πραγματική προθεσμία και την ημερομηνία στο Nonlate. Δοκιμάστε μια απλή εργασία πριν βασιστείτε στη σύνδεση για σημαντική δουλειά."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Συνδέστε μία εργασία και δοκιμάστε όλη τη διαδικασία",
+          "paragraphs": [
+            "Κρατήστε το Google Tasks ως αναφορά για λεπτομέρειες. Ξεκινήστε με λίγα αντί να αντιγράψετε όλες τις λίστες σε δεύτερη εφαρμογή."
+          ],
+          "steps": [
+            "Συνδέστε το Google Tasks μέσω της υποστηριζόμενης σύνδεσης του Nonlate. Βεβαιωθείτε ότι ο λογαριασμός Google περιέχει τη σχετική λίστα.",
+            "Ανανεώστε το Nonlate και συγκρίνετε τίτλο, ημερομηνία και κατάσταση ολοκλήρωσης. Αν λείπει η εργασία, ελέγξτε πρόσβαση και δικαιώματα.",
+            "Επιλέξτε διαχειρίσιμο παράθυρο λήξης και λίγες εφαρμογές περισπασμού. Ρυθμίστε τα δικαιώματα συσκευής και κρατήστε προσβάσιμα τα απαραίτητα εργαλεία.",
+            "Ολοκληρώστε την πραγματική δουλειά, ελέγξτε την ολοκλήρωση στο Google Tasks και ανανεώστε το Nonlate. Άλλη κατάλληλη εκκρεμής εργασία μπορεί να διατηρεί τον αποκλεισμό."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Ελέγχετε τις επαναλαμβανόμενες εργασίες μετά από κάθε ολοκλήρωση",
+          "paragraphs": [
+            "Το Google Tasks υποστηρίζει επαναλήψεις, αλλά δεν μεταφέρονται απαραίτητα όλες οι μελλοντικές εμφανίσεις ή ρυθμίσεις σε άλλη εφαρμογή. Μετά από μία ολοκλήρωση, ελέγξτε τι εμφανίζεται στη συνέχεια και στις δύο. Αν καθυστερεί ενημέρωση, ανανεώστε πριν δημιουργήσετε διπλότυπα. Ο συγχρονισμός εξαρτάται από πάροχο, πλάνο, δικαιώματα και συσκευή· δεν εγγυάται άμεσες ενημερώσεις."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Μια συνεδρία συγκέντρωσης στο Google Calendar αποκλείει εφαρμογές;",
+          "answer": "Τα συμβάντα ημερολογίου δεν ενεργοποιούν αποκλεισμό Nonlate. Προγραμματίστε χωριστά ρεαλιστικό χρόνο εργασίας· ο προγραμματισμός δεν αλλάζει την προθεσμία. Ο αποκλεισμός εξαρτάται από κατάλληλες εκκρεμείς εργασίες, παράθυρο λήξης και δικαιώματα. Τα υποστηριζόμενα χρονομετρημένα διαλείμματα παραμένουν διαθέσιμα."
+        },
+        {
+          "question": "Μπορώ να το χρησιμοποιώ χωρίς πληρωμένη συνδρομή;",
+          "answer": "Το Free περιλαμβάνει χειροκίνητες εργασίες και βασικό αποκλεισμό έως τριών εφαρμογών. Η προαιρετική δοκιμή πηγών 30 ημερών αρχίζει με την πρώτη επιτυχημένη σύνδεση, επιτρέπει μία πηγή κάθε φορά και δεν χρεώνει αυτόματα. Έπειτα, χωρίς κατάλληλη πληρωμένη πρόσβαση, ο εξωτερικός συγχρονισμός παύει· οι εισαγόμενες εργασίες παραμένουν για τοπική ολοκλήρωση και αποκλεισμό."
+        },
+        {
+          "question": "Η σύνδεση εγγυάται ότι θα ολοκληρώσω τις εργασίες;",
+          "answer": "Όχι. Το Nonlate διακόπτει επιλεγμένους περισπασμούς· δεν ελέγχει ποιότητα ούτε εγγυάται ολοκλήρωση. Διατηρείτε σωστά τα στοιχεία πηγής και αναθεωρείτε το πλάνο όταν αλλάζουν προθεσμίες."
+        }
+      ]
+    },
+    "hu": {
+      "title": "Figyelemelterelő appok blokkolása Google Tasks alapján: előbb a határidős munka",
+      "description": "Kapcsold össze a Google Tasks és Nonlate appokat, ellenőrizd az importált dátumokat, és blokkolj a megfelelő befejezetlen feladatok alapján. Ismerd meg a naptár és ismétlések korlátait.",
+      "intro": "Felveszel egy feladatot a Gmailből, látod a Google Calendarban, mégis közösségi médiát nyitsz meg munka helyett. Egy újabb emlékeztetőt is könnyű bezárni. A feladatalapú blokkolás a valóban esedékes munka alapján megállásra késztet a kiválasztott zavaró app megnyitásakor.",
+      "answer": "A Nonlate támogatja a Google Tasks forráskapcsolatot. Engedélyezd, frissíts, és hasonlíts össze egy importált feladatot az eredetivel. Válassz appokat és esedékességi időablakot. A megfelelő befejezetlen feladatok blokkolást válthatnak ki a kijelölt app megnyitásakor; a naptáresemények nem.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Ellenőrizd az importált dátumot, mielőtt a blokkolásra hagyatkozol",
+          "paragraphs": [
+            "A munkaszakasz, emlékeztető és tényleges határidő különböző adat. A Google Tasks nyilvános API-ja a tervezett napot adja meg, nem a feladat valódi határidejét, és az időpontot sem őrzi meg. Ne feltételezd a Google Calendar pontos idejének vagy határidejének változatlan átvitelét. Ellenőrizd külön a valódi határidőt és a Nonlate dátumát. Próbálj ki egy egyszerű feladatot, mielőtt fontos munkában hagyatkozol a kapcsolatra."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Kapcsolj egy feladatot, és próbáld ki a teljes folyamatot",
+          "paragraphs": [
+            "A részleteknél maradjon a Google Tasks a viszonyítási alap. Kezdj kicsiben az összes lista átmásolása helyett."
+          ],
+          "steps": [
+            "Kapcsold össze a Google Tasksot a Nonlate támogatott bejelentkezésével. Ellenőrizd, hogy a kiválasztott Google-fiók tartalmazza a megfelelő listát.",
+            "Frissítsd a Nonlate-et, és hasonlítsd össze a címet, dátumot és készültséget. Hiányzó feladatnál ellenőrizd a hozzáférést és engedélyeket.",
+            "Válassz kezelhető esedékességi időablakot és néhány zavaró appot. Állítsd be az eszközengedélyeket, és tartsd elérhetően a szükséges eszközöket.",
+            "Végezd el a tényleges munkát, ellenőrizd a befejezést a Google Tasksban, és frissítsd a Nonlate-et. Másik megfelelő befejezetlen feladat fenntarthatja a blokkolást."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Minden alkalom után ellenőrizd az ismétlődő munkát",
+          "paragraphs": [
+            "A Google Tasks támogat ismétléseket, de nem feltétlenül kerül át minden jövőbeli előfordulás és beállítás más appba. Egy alkalom befejezése után nézd meg a következőt mindkét appban. Késő frissítésnél előbb frissíts, ne készíts rögtön másolatot. A szinkron a szolgáltatótól, csomagtól, engedélyektől és eszköztől függ; azonnalisága nem garantált."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blokkol appokat egy Google Calendar-fókuszidő?",
+          "answer": "A naptáresemények nem indítják el a Nonlate blokkolását. Tervezz külön reális munkaszakaszt; az ütemezés nem tolja el a határidőt. A blokkolás a megfelelő befejezetlen feladatoktól, időablaktól és engedélyektől függ. A támogatott időzített szünetek elérhetők maradnak."
+        },
+        {
+          "question": "Használható fizetős előfizetés nélkül?",
+          "answer": "A Free kézi feladatokat és legfeljebb három app alapblokkolását tartalmazza. Az opcionális 30 napos forráspróba az első sikeres kapcsolattal indul, egyszerre egy forrást enged, és nem terhel automatikus díjat. Utána megfelelő fizetős hozzáférés nélkül a külső szinkron szünetel; az importált feladatok helyben befejezhetők és blokkolásra használhatók."
+        },
+        {
+          "question": "Garantálja a kapcsolás a feladatok elvégzését?",
+          "answer": "Nem. A Nonlate megszakítja a választott figyelemeltereléseket; nem ellenőrzi a munka minőségét és nem garantál befejezést. Tartsd pontosan a forrásadatokat, és változó határidőknél nézd át a tervet."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Penyekat gangguan untuk Google Tasks: dahulukan tugas yang sampai tempoh",
+      "description": "Sambungkan Google Tasks ke Nonlate, semak tarikh import dan sekat aplikasi mengikut tugas belum selesai yang layak. Fahami had kalendar dan pengulangan.",
+      "intro": "Anda mencipta tugas daripada Gmail, melihatnya dalam Google Calendar tetapi masih membuka media sosial daripada mula bekerja. Peringatan tambahan juga mudah ditutup. Sekatan berasaskan tugas memberi jeda ketika membuka aplikasi pengganggu terpilih, mengikut kerja yang benar-benar sampai tempoh.",
+      "answer": "Nonlate menyokong Google Tasks sebagai sumber bersambung. Benarkan sambungan, segar semula dan bandingkan tugas import dengan Google Tasks. Pilih aplikasi dan julat tempoh akhir. Tugas belum selesai yang layak boleh mencetuskan sekatan ketika aplikasi dipilih dibuka; acara kalendar tidak.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Semak tarikh import sebelum bergantung pada sekatan",
+          "paragraphs": [
+            "Sesi kerja, peringatan dan tarikh akhir sebenar berbeza. API awam Google Tasks memberikan hari yang dijadualkan, bukan tarikh akhir tugas, dan tidak mengekalkan waktu. Jangan anggap waktu tepat atau tarikh akhir dalam Google Calendar dipindahkan tanpa perubahan. Semak tarikh akhir sebenar secara berasingan dan tarikh yang Nonlate paparkan. Uji tugas biasa sebelum bergantung pada sambungan untuk kerja penting."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Sambungkan satu tugas dan uji seluruh aliran",
+          "paragraphs": [
+            "Jadikan Google Tasks rujukan butiran tugas. Mulakan sedikit daripada menyalin semua senarai ke aplikasi kedua."
+          ],
+          "steps": [
+            "Sambungkan Google Tasks melalui log masuk yang disokong Nonlate. Pastikan akaun Google dipilih mengandungi senarai berkaitan.",
+            "Segar semula Nonlate dan bandingkan tajuk, tarikh serta status siap. Jika tugas tiada, semak akses dan kebenaran.",
+            "Pilih julat tempoh akhir yang munasabah dan beberapa aplikasi pengganggu. Lengkapkan kebenaran peranti dan biarkan alat penting boleh dicapai.",
+            "Selesaikan kerja sebenar, semak statusnya dalam Google Tasks dan segar semula Nonlate. Tugas lain yang belum selesai dan layak masih boleh mengekalkan sekatan."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Semak kerja berulang selepas setiap penyelesaian",
+          "paragraphs": [
+            "Google Tasks menyokong pengulangan, tetapi jangan anggap semua kejadian masa depan atau tetapan akan dipindah ke aplikasi lain. Selepas satu selesai, semak tugas seterusnya dalam kedua-dua aplikasi. Jika kemas kini lambat, segar semula sebelum membuat pendua. Penyegerakan bergantung pada penyedia, pelan, kebenaran dan peranti; kemas kini serta-merta tidak dijamin."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Adakah sesi fokus Google Calendar menyekat aplikasi?",
+          "answer": "Acara kalendar tidak mencetuskan sekatan Nonlate. Jadualkan sesi kerja realistik secara berasingan; penjadualan tidak mengubah tarikh akhir tugas. Sekatan bergantung pada tugas belum selesai yang layak, julat dan kebenaran peranti. Rehat bermasa yang disokong masih tersedia."
+        },
+        {
+          "question": "Bolehkah guna tanpa langganan berbayar?",
+          "answer": "Free merangkumi tugas manual dan sekatan asas sehingga tiga aplikasi. Percubaan sumber pilihan selama 30 hari bermula dengan sambungan pertama yang berjaya, membenarkan satu sumber pada satu masa dan tiada caj automatik. Selepas itu, penyegerakan luaran berhenti tanpa akses berbayar yang layak; tugas import masih boleh diselesaikan secara setempat dan digunakan untuk sekatan."
+        },
+        {
+          "question": "Adakah menyambung tugas menjamin saya menyiapkannya?",
+          "answer": "Tidak. Nonlate mengganggu distraksi terpilih; ia tidak menyemak mutu kerja atau menjamin penyelesaian. Kekalkan butiran sumber tepat dan semak pelan apabila tarikh akhir berubah."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Blokker distraksjoner med Google Tasks: først oppgaver som forfaller",
+      "description": "Koble Google Tasks til Nonlate, kontroller importerte datoer og blokker apper etter aktuelle uferdige oppgaver. Forstå begrensningene for kalender og gjentakelser.",
+      "intro": "Du oppretter en oppgave fra Gmail, ser den i Google Calendar, men åpner sosiale medier i stedet for å starte. Enda en påminnelse er lett å lukke. Oppgavebasert blokkering gir en pause når du åpner en valgt distraherende app, basert på arbeid som faktisk forfaller.",
+      "answer": "Nonlate støtter Google Tasks som tilkoblet kilde. Godkjenn forbindelsen, oppdater og sammenlign en importert oppgave med Google Tasks. Velg apper og et forfallsvindu. Aktuelle uferdige oppgaver kan utløse blokkering når en valgt app åpnes; kalenderhendelser gjør ikke det.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Kontroller importert dato før du stoler på blokkeringen",
+          "paragraphs": [
+            "En arbeidsøkt, en påminnelse og en faktisk frist er ulike ting. Google Tasks’ offentlige API gir den planlagte dagen, ikke oppgavens egentlige frist, og bevarer ikke klokkeslettet. Ikke anta at nøyaktig tid eller frist fra Google Calendar overføres uendret. Kontroller den reelle fristen separat og datoen i Nonlate. Test en vanlig oppgave før du bruker forbindelsen til viktig arbeid."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Koble til én oppgave og test hele arbeidsflyten",
+          "paragraphs": [
+            "Behold Google Tasks som referanse for detaljer. Start smått i stedet for å kopiere alle lister til en annen app."
+          ],
+          "steps": [
+            "Koble Google Tasks til gjennom Nonlates støttede pålogging. Kontroller at valgt Google-konto inneholder den relevante listen.",
+            "Oppdater Nonlate og sammenlign tittel, dato og fullføringsstatus. Mangler oppgaven, kontroller tilgang og tillatelser.",
+            "Velg et håndterbart forfallsvindu og noen få distraherende apper. Sett opp enhetstillatelser og hold nødvendige verktøy tilgjengelige.",
+            "Gjør det virkelige arbeidet ferdig, kontroller fullføringen i Google Tasks og oppdater Nonlate. En annen aktuell uferdig oppgave kan opprettholde blokkeringen."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Se over gjentakende arbeid etter hver fullføring",
+          "paragraphs": [
+            "Google Tasks støtter gjentakelser, men ikke alle fremtidige forekomster eller innstillinger overføres nødvendigvis til andre apper. Kontroller neste oppgave i begge apper etter fullføring. Oppdater ved forsinkelser før du lager duplikater. Synkronisering avhenger av leverandør, abonnement, tillatelser og enhet; øyeblikkelige oppdateringer garanteres ikke."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blokkerer en fokusøkt i Google Calendar apper?",
+          "answer": "Kalenderhendelser utløser ikke Nonlate-blokkering. Planlegg en realistisk arbeidsøkt separat; planlegging flytter ikke oppgavens frist. Blokkering avhenger av aktuelle uferdige oppgaver, forfallsvinduet og tillatelser. Støttede tidsavgrensede pauser er fortsatt tilgjengelige."
+        },
+        {
+          "question": "Kan jeg bruke det uten et betalt abonnement?",
+          "answer": "Free inkluderer manuelle oppgaver og grunnleggende blokkering av opptil tre apper. Den valgfrie kildeprøven på 30 dager starter ved første vellykkede tilkobling, tillater én kilde om gangen og belaster ingenting automatisk. Etterpå stanses ekstern synkronisering uten egnet betalt tilgang; importerte oppgaver kan fortsatt fullføres lokalt og brukes til blokkering."
+        },
+        {
+          "question": "Garanterer tilkobling at jeg fullfører oppgavene?",
+          "answer": "Nei. Nonlate avbryter valgte distraksjoner; det kontrollerer ikke kvalitet eller garanterer fullføring. Hold kildeopplysningene korrekte og vurder planen på nytt når frister endres."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Blocarea distragerilor cu Google Tasks: întâi sarcinile scadente",
+      "description": "Conectează Google Tasks la Nonlate, verifică datele importate și blochează aplicații după sarcinile nefinalizate eligibile. Înțelege limitele calendarului și repetărilor.",
+      "intro": "Creezi o sarcină din Gmail, o vezi în Google Calendar, dar deschizi rețelele sociale în loc să începi. Încă un memento poate fi închis ușor. Blocarea bazată pe sarcini introduce o pauză la deschiderea unei aplicații alese, în funcție de munca ce ajunge realmente la termen.",
+      "answer": "Nonlate acceptă Google Tasks ca sursă conectată. Autorizează conexiunea, reîmprospătează și compară o sarcină importată cu originalul. Alege aplicații și un interval de scadență. Sarcinile nefinalizate eligibile pot declanșa blocarea când deschizi o aplicație aleasă; evenimentele din calendar nu.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Verifică data importată înainte să te bazezi pe blocare",
+          "paragraphs": [
+            "O sesiune de lucru, un memento și termenul real sunt informații diferite. API-ul public Google Tasks oferă ziua planificată, nu termenul final al sarcinii, și nu păstrează ora. Nu presupune că ora exactă sau termenul din Google Calendar se transferă neschimbat. Verifică separat termenul real și data afișată în Nonlate. Testează o sarcină obișnuită înainte să folosești conexiunea pentru muncă importantă."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Conectează o sarcină și testează întregul flux",
+          "paragraphs": [
+            "Păstrează Google Tasks ca referință pentru detalii. Începe cu puțin în loc să copiezi toate listele într-o a doua aplicație."
+          ],
+          "steps": [
+            "Conectează Google Tasks prin autentificarea acceptată de Nonlate. Verifică dacă ai ales contul Google cu lista relevantă.",
+            "Reîmprospătează Nonlate și compară titlul, data și starea de finalizare. Dacă sarcina lipsește, verifică accesul și permisiunile.",
+            "Alege un interval de scadență gestionabil și câteva aplicații care distrag. Configurează permisiunile dispozitivului și păstrează accesibile instrumentele esențiale.",
+            "Termină munca reală, verifică finalizarea în Google Tasks și reîmprospătează Nonlate. O altă sarcină nefinalizată eligibilă poate menține blocarea."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Revizuiește sarcinile recurente după fiecare finalizare",
+          "paragraphs": [
+            "Google Tasks acceptă sarcini recurente, dar nu toate aparițiile viitoare sau setările trec neapărat în altă aplicație. După finalizarea uneia, verifică ce urmează în ambele aplicații. Dacă actualizarea întârzie, reîmprospătează înainte de a crea duplicate. Sincronizarea depinde de furnizor, plan, permisiuni și dispozitiv; actualizarea imediată nu este garantată."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "O sesiune de concentrare Google Calendar blochează aplicații?",
+          "answer": "Evenimentele calendarului nu declanșează blocarea Nonlate. Programează separat o sesiune realistă; programarea nu schimbă termenul sarcinii. Blocarea depinde de sarcinile nefinalizate eligibile, interval și permisiuni. Pauzele temporizate acceptate rămân disponibile."
+        },
+        {
+          "question": "Pot folosi fără abonament plătit?",
+          "answer": "Free include sarcini manuale și blocare de bază pentru maximum trei aplicații. Proba opțională de surse de 30 de zile începe la prima conexiune reușită, permite o sursă simultan și nu taxează automat. Apoi, fără acces plătit eligibil, sincronizarea externă se oprește; sarcinile importate rămân utilizabile pentru finalizare locală și blocare."
+        },
+        {
+          "question": "Conectarea garantează că voi termina sarcinile?",
+          "answer": "Nu. Nonlate întrerupe distragerile selectate; nu verifică calitatea muncii și nu garantează finalizarea. Menține corecte detaliile sursei și revizuiește planul când termenele se schimbă."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Blokiranje ometajućih aplikacija uz Google Tasks: prvo zadaci s rokom",
+      "description": "Povežite Google Tasks s Nonlateom, provjerite uvezene datume i blokirajte aplikacije prema odgovarajućim nedovršenim zadacima. Upoznajte ograničenja kalendara i ponavljanja.",
+      "intro": "Izradite zadatak iz Gmaila, vidite ga u Google Calendaru, ali umjesto rada otvorite društvene mreže. Još jedan podsjetnik lako zatvorite. Blokiranje prema zadacima uvodi zastoj pri otvaranju odabrane ometajuće aplikacije, prema poslu čiji rok doista dolazi.",
+      "answer": "Nonlate podržava Google Tasks kao povezani izvor. Odobrite povezivanje, osvježite i usporedite uvezeni zadatak s izvornikom. Odaberite aplikacije i vremenski raspon dospijeća. Odgovarajući nedovršeni zadaci mogu pokrenuti blokiranje pri otvaranju odabrane aplikacije; događaji u kalendaru ne mogu.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Provjerite uvezeni datum prije oslanjanja na blokiranje",
+          "paragraphs": [
+            "Radni termin, podsjetnik i stvarni krajnji rok različiti su podaci. Javni API Google Tasksa daje planirani dan, a ne krajnji rok zadatka, i ne čuva sat. Ne pretpostavljajte neizmijenjen prijenos točnog vremena ili roka iz Google Calendara. Zasebno provjerite stvarni rok i datum koji Nonlate prikazuje. Isprobajte običan zadatak prije oslanjanja na vezu za važan posao."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Povežite jedan zadatak i isprobajte cijeli postupak",
+          "paragraphs": [
+            "Zadržite Google Tasks kao referencu za detalje. Počnite s malo umjesto kopiranja svih popisa u drugu aplikaciju."
+          ],
+          "steps": [
+            "Povežite Google Tasks podržanom prijavom u Nonlateu. Provjerite sadrži li odabrani Google račun odgovarajući popis.",
+            "Osvježite Nonlate i usporedite naslov, datum i stanje dovršenosti. Ako zadatak nedostaje, provjerite pristup i dopuštenja.",
+            "Odaberite izvediv raspon dospijeća i nekoliko ometajućih aplikacija. Postavite dopuštenja uređaja i ostavite ključne alate dostupnima.",
+            "Dovršite stvarni posao, provjerite dovršenost u Google Tasksu i osvježite Nonlate. Drugi odgovarajući nedovršeni zadatak može održati blokiranje."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Provjeravajte ponavljajuće zadatke nakon svakog dovršetka",
+          "paragraphs": [
+            "Google Tasks podržava ponavljanja, ali ne prenose se nužno sva buduća pojavljivanja ni postavke u drugu aplikaciju. Nakon dovršetka jednoga provjerite sljedeći u obje aplikacije. Pri kašnjenju osvježite prije izrade duplikata. Sinkronizacija ovisi o pružatelju, planu, dopuštenjima i uređaju; trenutačna ažuriranja nisu zajamčena."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blokira li vrijeme za fokus u Google Calendaru aplikacije?",
+          "answer": "Kalendarski događaji ne pokreću blokiranje u Nonlateu. Zasebno planirajte realan radni termin; planiranje ne pomiče rok zadatka. Blokiranje ovisi o odgovarajućim nedovršenim zadacima, rasponu i dopuštenjima. Podržane vremenski ograničene pauze ostaju dostupne."
+        },
+        {
+          "question": "Mogu li koristiti bez plaćene pretplate?",
+          "answer": "Free uključuje ručne zadatke i osnovno blokiranje do tri aplikacije. Neobavezna 30-dnevna proba izvora počinje prvim uspješnim povezivanjem, dopušta jedan izvor istodobno i ne naplaćuje automatski. Nakon toga vanjska se sinkronizacija zaustavlja bez odgovarajućeg plaćenog pristupa; uvezeni zadaci ostaju za lokalno dovršavanje i blokiranje."
+        },
+        {
+          "question": "Jamči li povezivanje da ću dovršiti zadatke?",
+          "answer": "Ne. Nonlate prekida odabrana ometanja; ne provjerava kvalitetu rada niti jamči dovršetak. Održavajte izvorne podatke točnima i pregledajte plan kad se rokovi promijene."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Blokovanie rušivých aplikácií s Google Tasks: najskôr úlohy s termínom",
+      "description": "Prepojte Google Tasks s Nonlate, overte importované dátumy a blokujte aplikácie podľa vyhovujúcich nedokončených úloh. Spoznajte obmedzenia kalendára a opakovaní.",
+      "intro": "Vytvoríte úlohu z Gmailu, vidíte ju v Google Calendar, no namiesto práce otvoríte sociálnu sieť. Ďalšie pripomenutie ľahko zavriete. Blokovanie podľa úloh vás na chvíľu zastaví pri otvorení vybranej rušivej aplikácie a zohľadní prácu, ktorej termín naozaj nastal.",
+      "answer": "Nonlate podporuje Google Tasks ako pripojený zdroj. Povoľte spojenie, obnovte údaje a porovnajte importovanú úlohu s Google Tasks. Vyberte aplikácie a okno splatnosti. Vyhovujúce nedokončené úlohy môžu pri otvorení vybranej aplikácie spustiť blokovanie; udalosti kalendára nie.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Pred spoľahnutím sa na blokovanie overte importovaný dátum",
+          "paragraphs": [
+            "Pracovný blok, pripomenutie a skutočný konečný termín sú rôzne údaje. Verejné API Google Tasks poskytuje naplánovaný deň, nie skutočný termín úlohy, a nezachováva čas. Nepredpokladajte presný prenos hodiny či termínu z Google Calendar. Osobitne overte skutočný termín a dátum v Nonlate. Vyskúšajte bežnú úlohu pred použitím prepojenia na dôležitú prácu."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Pripojte jednu úlohu a otestujte celý postup",
+          "paragraphs": [
+            "Podrobnosti overujte v Google Tasks. Začnite v malom namiesto kopírovania všetkých zoznamov do druhej aplikácie."
+          ],
+          "steps": [
+            "Pripojte Google Tasks cez podporované prihlásenie Nonlate. Skontrolujte, že ste vybrali účet Google s príslušným zoznamom.",
+            "Obnovte Nonlate a porovnajte názov, dátum a stav dokončenia. Ak úloha chýba, overte prístup a oprávnenia.",
+            "Vyberte zvládnuteľné okno splatnosti a niekoľko rušivých aplikácií. Nastavte oprávnenia zariadenia a ponechajte potrebné nástroje dostupné.",
+            "Dokončite skutočnú prácu, overte dokončenie v Google Tasks a obnovte Nonlate. Ďalšia vyhovujúca nedokončená úloha môže blokovanie udržiavať."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Opakované úlohy kontrolujte po každom dokončení",
+          "paragraphs": [
+            "Google Tasks podporuje opakovania, ale nie všetky budúce výskyty a nastavenia sa nevyhnutne prenesú inam. Po dokončení jedného skontrolujte ďalší v oboch aplikáciách. Pri oneskorení obnovte údaje pred vytvorením duplikátu. Synchronizácia závisí od poskytovateľa, plánu, oprávnení a zariadenia; okamžité aktualizácie nie sú zaručené."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Zablokuje aplikácie čas na sústredenie v Google Calendar?",
+          "answer": "Udalosti kalendára blokovanie Nonlate nespúšťajú. Reálny pracovný blok naplánujte samostatne; plánovanie neposúva termín úlohy. Blokovanie závisí od vyhovujúcich nedokončených úloh, okna a oprávnení. Podporované časované prestávky zostávajú dostupné."
+        },
+        {
+          "question": "Môžem to používať bez plateného predplatného?",
+          "answer": "Free zahŕňa ručné úlohy a základné blokovanie najviac troch aplikácií. Voliteľná 30-dňová skúška zdrojov začína prvým úspešným pripojením, umožňuje jeden zdroj naraz a nič automaticky neúčtuje. Potom sa bez vhodného plateného prístupu externá synchronizácia pozastaví; importované úlohy zostanú na miestne dokončenie a blokovanie."
+        },
+        {
+          "question": "Zaručuje pripojenie, že úlohy dokončím?",
+          "answer": "Nie. Nonlate prerušuje vybrané rozptýlenia; neoveruje kvalitu práce ani nezaručuje dokončenie. Udržujte zdrojové údaje správne a pri zmene termínov upravte plán."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Blokiranje motečih aplikacij z Google Tasks: najprej naloge z rokom",
+      "description": "Povežite Google Tasks z Nonlate, preverite uvožene datume in blokirajte aplikacije glede na ustrezne nedokončane naloge. Spoznajte omejitve koledarja in ponavljanja.",
+      "intro": "Ustvarite nalogo iz Gmaila, jo vidite v Google Calendar, vendar namesto dela odprete družbena omrežja. Še en opomnik zlahka zaprete. Blokiranje na podlagi nalog vas za hip ustavi pri odpiranju izbrane moteče aplikacije glede na delo, ki mu rok dejansko prihaja.",
+      "answer": "Nonlate podpira Google Tasks kot povezani vir. Dovolite povezavo, osvežite in primerjajte uvoženo nalogo z izvirnikom. Izberite aplikacije in časovno okno zapadlosti. Ustrezne nedokončane naloge lahko ob odpiranju izbrane aplikacije sprožijo blokiranje; koledarski dogodki ne.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "Preverite uvoženi datum, preden se zanesete na blokiranje",
+          "paragraphs": [
+            "Delovni termin, opomnik in dejanski končni rok so različni podatki. Javni API Google Tasks poda načrtovani dan, ne dejanskega roka naloge, in ne ohrani ure. Ne predpostavljajte nespremenjenega prenosa točne ure ali roka iz Google Calendar. Ločeno preverite dejanski rok in datum v Nonlate. Preizkusite navadno nalogo pred uporabo povezave za pomembno delo."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "Povežite eno nalogo in preizkusite celoten postopek",
+          "paragraphs": [
+            "Podrobnosti preverjajte v Google Tasks. Začnite z majhnim obsegom namesto kopiranja vseh seznamov v drugo aplikacijo."
+          ],
+          "steps": [
+            "Povežite Google Tasks s podprto prijavo v Nonlate. Preverite, ali izbrani račun Google vsebuje ustrezni seznam.",
+            "Osvežite Nonlate in primerjajte naslov, datum ter stanje dokončanja. Če naloge ni, preverite dostop in dovoljenja.",
+            "Izberite obvladljivo okno zapadlosti in nekaj motečih aplikacij. Nastavite dovoljenja naprave in ohranite dostop do nujnih orodij.",
+            "Opravite dejansko delo, preverite dokončanje v Google Tasks in osvežite Nonlate. Druga ustrezna nedokončana naloga lahko ohrani blokiranje."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "Ponavljajoče se naloge preverite po vsaki izvedbi",
+          "paragraphs": [
+            "Google Tasks podpira ponovitve, vendar se vse prihodnje pojavitve in nastavitve ne prenesejo nujno v drugo aplikacijo. Po dokončanju preverite naslednjo v obeh aplikacijah. Ob zamudi osvežite pred ustvarjanjem dvojnikov. Sinhronizacija je odvisna od ponudnika, paketa, dovoljenj in naprave; takojšnje posodobitve niso zagotovljene."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ali čas za osredotočenje v Google Calendar blokira aplikacije?",
+          "answer": "Koledarski dogodki ne sprožijo blokiranja Nonlate. Ločeno načrtujte realen delovni termin; načrtovanje ne premakne roka naloge. Blokiranje je odvisno od ustreznih nedokončanih nalog, okna in dovoljenj. Podprti časovno omejeni odmori ostanejo na voljo."
+        },
+        {
+          "question": "Ali lahko uporabljam brez plačljive naročnine?",
+          "answer": "Free vključuje ročne naloge in osnovno blokiranje do treh aplikacij. Izbirni 30-dnevni preizkus virov se začne ob prvi uspešni povezavi, omogoča en vir hkrati in ne zaračunava samodejno. Nato se zunanja sinhronizacija brez ustreznega plačljivega dostopa ustavi; uvožene naloge ostanejo za lokalno dokončanje in blokiranje."
+        },
+        {
+          "question": "Ali povezava zagotavlja dokončanje nalog?",
+          "answer": "Ne. Nonlate prekine izbrane motnje; ne preverja kakovosti dela in ne zagotavlja dokončanja. Ohranite pravilne izvorne podatke in preverite načrt ob spremembi rokov."
+        }
+      ]
+    },
+    "gu": {
+      "title": "Google Tasks સાથે ધ્યાન ભટકાવતી ઍપ રોકો: પહેલાં મુદતવાળું કામ",
+      "description": "Google Tasksને Nonlate સાથે જોડો, આયાત કરેલી તારીખો તપાસો અને યોગ્ય અધૂરા કામના આધારે ઍપ રોકો. કૅલેન્ડર અને વારંવાર થતા કામની મર્યાદા જાણો.",
+      "intro": "તમે Gmailમાંથી કામ બનાવો, Google Calendarમાં જુઓ, છતાં શરૂ કરવાને બદલે સોશિયલ મીડિયા ખોલો છો. વધુ એક યાદ અપાવતી સૂચના પણ સહેલાઈથી બંધ થાય છે. કામ આધારિત અવરોધ પસંદ કરેલી ઍપ ખોલતી વખતે થોભાવે છે, ખરેખર જે કામનો સમય આવ્યો હોય તેના આધારે.",
+      "answer": "Nonlate જોડાયેલા સ્રોત તરીકે Google Tasksને સમર્થન આપે છે. જોડાણની મંજૂરી આપો, તાજું કરો અને આયાત કરેલું કામ મૂળ સાથે સરખાવો. ઍપ અને મુદતની સમયમર્યાદા પસંદ કરો. યોગ્ય અધૂરાં કામ પસંદ કરેલી ઍપ ખોલતી વખતે અવરોધ શરૂ કરી શકે છે; કૅલેન્ડરની ઘટનાઓ નહીં.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "અવરોધ પર ભરોસો કરતાં પહેલાં આયાતની તારીખ તપાસો",
+          "paragraphs": [
+            "કાર્યસત્ર, યાદ અપાવતી સૂચના અને સાચી અંતિમ મુદત અલગ છે. Google Tasksનું જાહેર API કામ માટે ગોઠવેલો દિવસ આપે છે, કામની અંતિમ મુદત નહીં, અને દિવસનો સમય સાચવતું નથી. Google Calendarનો ચોક્કસ સમય કે મુદત બદલાયા વગર આવશે એવું ન માનો. સાચી મુદત અલગથી અને Nonlateની તારીખ પણ તપાસો. મહત્વના કામ માટે જોડાણ પર ભરોસો કરતાં પહેલાં સામાન્ય કામ અજમાવો."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "એક કામ જોડીને આખી પ્રક્રિયા તપાસો",
+          "paragraphs": [
+            "કામની વિગતો માટે Google Tasksને સંદર્ભ રાખો. બધી યાદીઓ બીજી ઍપમાં નકલ કરવાને બદલે થોડાથી શરૂ કરો."
+          ],
+          "steps": [
+            "Nonlateની સમર્થિત સાઇન-ઇન પ્રક્રિયાથી Google Tasks જોડો. સંબંધિત યાદી ધરાવતું Google ખાતું પસંદ થયું છે તે તપાસો.",
+            "Nonlate તાજું કરીને શીર્ષક, તારીખ અને પૂર્ણ થયાની સ્થિતિ સરખાવો. કામ ન દેખાય તો ઍક્સેસ અને પરવાનગીઓ તપાસો.",
+            "સંભાળી શકાય તેવી મુદતની સમયમર્યાદા અને થોડી ધ્યાન ભટકાવતી ઍપ પસંદ કરો. ઉપકરણની પરવાનગીઓ ગોઠવો અને જરૂરી સાધનો ઉપલબ્ધ રાખો.",
+            "વાસ્તવિક કામ પૂરું કરો, Google Tasksમાં પૂર્ણતા તપાસો અને Nonlate તાજું કરો. બીજું યોગ્ય અધૂરું કામ અવરોધ ચાલુ રાખી શકે છે."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "દરેક પૂર્ણતા પછી પુનરાવર્તિત કામ તપાસો",
+          "paragraphs": [
+            "Google Tasks પુનરાવર્તિત કામ સમર્થિત કરે છે, પરંતુ ભવિષ્યનાં બધાં પુનરાવર્તન કે સેટિંગ બીજી ઍપમાં આવશે એવું ન માનો. એક વાર પૂરું થયા પછી બંને ઍપમાં આગળનું જુઓ. અપડેટ મોડું હોય તો નકલ બનાવતાં પહેલાં તાજું કરો. સમન્વય પ્રદાતા, પ્લાન, પરવાનગી અને ઉપકરણ પર આધારિત છે; તાત્કાલિક અપડેટની ખાતરી નથી."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "શું Google Calendarનું એકાગ્રતા સત્ર ઍપ રોકશે?",
+          "answer": "કૅલેન્ડરની ઘટનાઓ Nonlate અવરોધ શરૂ કરતી નથી. વાસ્તવિક કાર્યસત્ર અલગ ગોઠવો; સમયપત્રક બનાવવાથી કામની મુદત બદલાતી નથી. અવરોધ યોગ્ય અધૂરાં કામ, સમયમર્યાદા અને પરવાનગી પર આધારિત છે. સમર્થિત સમયબદ્ધ વિરામ ઉપલબ્ધ રહે છે."
+        },
+        {
+          "question": "શું ચૂકવેલ સબ્સ્ક્રિપ્શન વગર વાપરી શકાય?",
+          "answer": "Freeમાં હાથેથી ઉમેરેલાં કામ અને વધુમાં વધુ ત્રણ ઍપનો મૂળભૂત અવરોધ છે. વૈકલ્પિક 30 દિવસની સ્રોત અજમાયશ પ્રથમ સફળ જોડાણથી શરૂ થાય છે, એક સમયે એક સ્રોત આપે છે અને આપમેળે ચાર્જ લેતી નથી. પછી યોગ્ય ચૂકવેલ ઍક્સેસ વગર બાહ્ય સમન્વય અટકે છે; આયાત કરેલાં કામ સ્થાનિક પૂર્ણતા અને અવરોધ માટે રહે છે."
+        },
+        {
+          "question": "કામ જોડવાથી તેને પૂરું કરવાની ખાતરી છે?",
+          "answer": "ના. Nonlate પસંદ કરેલી ખલેલ અટકાવે છે; કામની ગુણવત્તા તપાસતું કે પૂર્ણતાની ખાતરી આપતું નથી. સ્રોતની વિગતો સાચી રાખો અને મુદતો બદલાય ત્યારે યોજના તપાસો."
+        }
+      ]
+    },
+    "kn": {
+      "title": "Google Tasks ಜೊತೆಗೆ ಗಮನ ಬೇರೆಡೆ ಸೆಳೆಯುವ ಆ್ಯಪ್ ತಡೆ: ಮೊದಲು ಗಡುವಿನ ಕೆಲಸ",
+      "description": "Google Tasks ಅನ್ನು Nonlateಗೆ ಜೋಡಿಸಿ, ಆಮದು ದಿನಾಂಕಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸಗಳ ಆಧಾರದಲ್ಲಿ ಆ್ಯಪ್ ತಡೆಯಿರಿ. ಕ್ಯಾಲೆಂಡರ್ ಮತ್ತು ಪುನರಾವರ್ತನೆಯ ಮಿತಿಗಳನ್ನು ತಿಳಿಯಿರಿ.",
+      "intro": "Gmailನಿಂದ ಕೆಲಸ ರಚಿಸಿ Google Calendarನಲ್ಲಿ ನೋಡಿದರೂ, ಪ್ರಾರಂಭಿಸುವ ಬದಲು ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ ತೆರೆಯಬಹುದು. ಮತ್ತೊಂದು ಜ್ಞಾಪನೆಯನ್ನೂ ಸುಲಭವಾಗಿ ಮುಚ್ಚಬಹುದು. ಕೆಲಸ ಆಧಾರಿತ ತಡೆ ಆಯ್ದ ಆ್ಯಪ್ ತೆರೆಯುವಾಗ, ನಿಜವಾಗಿ ಗಡುವು ಬಂದ ಕೆಲಸಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಕ್ಷಣ ನಿಲ್ಲಿಸುತ್ತದೆ.",
+      "answer": "Nonlate ಸಂಪರ್ಕಿತ ಮೂಲವಾಗಿ Google Tasks ಅನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ. ಸಂಪರ್ಕಕ್ಕೆ ಅನುಮತಿ ನೀಡಿ, ನವೀಕರಿಸಿ ಮತ್ತು ಆಮದು ಕೆಲಸವನ್ನು ಮೂಲದೊಂದಿಗೆ ಹೋಲಿಸಿ. ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಗಡುವಿನ ವ್ಯಾಪ್ತಿ ಆಯ್ಕೆಮಾಡಿ. ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸಗಳು ಆಯ್ದ ಆ್ಯಪ್ ತೆರೆಯುವಾಗ ತಡೆ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು; ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆಗಳು ಅಲ್ಲ.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "ತಡೆಯನ್ನು ನಂಬುವ ಮೊದಲು ಆಮದು ದಿನಾಂಕ ಪರಿಶೀಲಿಸಿ",
+          "paragraphs": [
+            "ಕೆಲಸದ ಅವಧಿ, ಜ್ಞಾಪನೆ ಮತ್ತು ನಿಜವಾದ ಕೊನೆಯ ಗಡುವು ಬೇರೆ. Google Tasks ಸಾರ್ವಜನಿಕ API ಯೋಜಿಸಿದ ದಿನ ನೀಡುತ್ತದೆ, ಕೆಲಸದ ಕೊನೆಯ ಗಡುವನ್ನಲ್ಲ; ದಿನದ ಸಮಯವನ್ನೂ ಉಳಿಸುವುದಿಲ್ಲ. Google Calendarನ ನಿಖರ ಸಮಯ ಅಥವಾ ಗಡುವು ಬದಲಾವಣೆಯಿಲ್ಲದೆ ಬರುತ್ತದೆ ಎಂದು ಊಹಿಸಬೇಡಿ. ನಿಜವಾದ ಗಡುವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಮತ್ತು Nonlate ತೋರಿಸುವ ದಿನಾಂಕವನ್ನೂ ಪರಿಶೀಲಿಸಿ. ಮುಖ್ಯ ಕೆಲಸಕ್ಕೆ ಸಂಪರ್ಕ ನಂಬುವ ಮೊದಲು ಸಾಮಾನ್ಯ ಕೆಲಸದಿಂದ ಪರೀಕ್ಷಿಸಿ."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ಒಂದು ಕೆಲಸ ಜೋಡಿಸಿ ಸಂಪೂರ್ಣ ಕ್ರಮ ಪರೀಕ್ಷಿಸಿ",
+          "paragraphs": [
+            "ವಿವರಗಳಿಗೆ Google Tasks ಅನ್ನು ಆಧಾರವಾಗಿಡಿ. ಎಲ್ಲ ಪಟ್ಟಿಗಳನ್ನು ಎರಡನೇ ಆ್ಯಪ್‌ಗೆ ನಕಲು ಮಾಡುವ ಬದಲು ಸಣ್ಣದಾಗಿ ಆರಂಭಿಸಿ."
+          ],
+          "steps": [
+            "Nonlate ಬೆಂಬಲಿಸುವ ಸೈನ್-ಇನ್ ಮೂಲಕ Google Tasks ಜೋಡಿಸಿ. ಸಂಬಂಧಿತ ಪಟ್ಟಿ ಇರುವ Google ಖಾತೆ ಆಯ್ದಿರುವುದನ್ನು ಖಚಿತಪಡಿಸಿ.",
+            "Nonlate ನವೀಕರಿಸಿ ಶೀರ್ಷಿಕೆ, ದಿನಾಂಕ ಮತ್ತು ಪೂರ್ಣಗೊಂಡ ಸ್ಥಿತಿ ಹೋಲಿಸಿ. ಕೆಲಸ ಕಾಣದಿದ್ದರೆ ಪ್ರವೇಶ ಮತ್ತು ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+            "ನಿಭಾಯಿಸಬಹುದಾದ ಗಡುವಿನ ವ್ಯಾಪ್ತಿ ಮತ್ತು ಕೆಲವು ಗಮನಸೆಳೆಯುವ ಆ್ಯಪ್ ಆಯ್ಕೆಮಾಡಿ. ಸಾಧನ ಅನುಮತಿಗಳನ್ನು ಹೊಂದಿಸಿ ಅಗತ್ಯ ಸಾಧನಗಳು ಲಭ್ಯವಾಗಿರಲಿ.",
+            "ನಿಜವಾದ ಕೆಲಸ ಮುಗಿಸಿ, Google Tasksನಲ್ಲಿ ಪೂರ್ಣತೆ ನೋಡಿ Nonlate ನವೀಕರಿಸಿ. ಮತ್ತೊಂದು ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸ ತಡೆಯನ್ನು ಮುಂದುವರಿಸಬಹುದು."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ಪ್ರತಿ ಪೂರ್ಣತೆಯ ನಂತರ ಪುನರಾವರ್ತಿತ ಕೆಲಸ ಪರಿಶೀಲಿಸಿ",
+          "paragraphs": [
+            "Google Tasks ಪುನರಾವರ್ತಿತ ಕೆಲಸ ಬೆಂಬಲಿಸುತ್ತದೆ, ಆದರೆ ಭವಿಷ್ಯದ ಎಲ್ಲ ಸಂದರ್ಭಗಳು ಅಥವಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತೊಂದು ಆ್ಯಪ್‌ಗೆ ಬರುತ್ತವೆ ಎಂದು ಊಹಿಸಬೇಡಿ. ಒಂದನ್ನು ಮುಗಿಸಿದ ನಂತರ ಎರಡೂ ಆ್ಯಪ್‌ಗಳಲ್ಲಿ ಮುಂದಿನದು ನೋಡಿ. ಅಪ್‌ಡೇಟ್ ತಡವಾದರೆ ನಕಲು ರಚಿಸುವ ಮೊದಲು ನವೀಕರಿಸಿ. ಸಿಂಕ್ ಪೂರೈಕೆದಾರ, ಪ್ಲಾನ್, ಅನುಮತಿ ಮತ್ತು ಸಾಧನವನ್ನು ಅವಲಂಬಿಸುತ್ತದೆ; ತಕ್ಷಣದ ಅಪ್‌ಡೇಟ್ ಖಾತ್ರಿ ಇಲ್ಲ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar ಏಕಾಗ್ರತಾ ಅವಧಿ ಆ್ಯಪ್ ತಡೆಯುತ್ತದೆಯೇ?",
+          "answer": "ಕ್ಯಾಲೆಂಡರ್ ಘಟನೆಗಳು Nonlate ತಡೆಯನ್ನು ಆರಂಭಿಸುವುದಿಲ್ಲ. ವಾಸ್ತವಿಕ ಕೆಲಸದ ಅವಧಿಯನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಯೋಜಿಸಿ; ವೇಳಾಪಟ್ಟಿ ಕೆಲಸದ ಗಡುವು ಬದಲಿಸುವುದಿಲ್ಲ. ತಡೆ ಅರ್ಹ ಅಪೂರ್ಣ ಕೆಲಸಗಳು, ವ್ಯಾಪ್ತಿ ಮತ್ತು ಅನುಮತಿಗಳ ಮೇಲೆ ಅವಲಂಬಿತ. ಬೆಂಬಲಿತ ಸಮಯಮಿತಿಯ ವಿರಾಮಗಳು ಲಭ್ಯವಿರುತ್ತವೆ."
+        },
+        {
+          "question": "ಪಾವತಿ ಚಂದಾ ಇಲ್ಲದೆ ಬಳಸಬಹುದೇ?",
+          "answer": "Freeನಲ್ಲಿ ಕೈಯಾರೆ ಸೇರಿಸುವ ಕೆಲಸ ಮತ್ತು ಮೂರು ಆ್ಯಪ್‌ವರೆಗೆ ಮೂಲ ತಡೆ ಇದೆ. ಐಚ್ಛಿಕ 30 ದಿನದ ಮೂಲ ಪ್ರಯೋಗ ಮೊದಲ ಯಶಸ್ವಿ ಸಂಪರ್ಕದಿಂದ ಆರಂಭಿಸಿ, ಒಂದೇ ಬಾರಿ ಒಂದು ಮೂಲ ಅನುಮತಿಸುತ್ತದೆ; ಸ್ವಯಂಚಾಲಿತ ಶುಲ್ಕ ಇಲ್ಲ. ನಂತರ ಅರ್ಹ ಪಾವತಿ ಪ್ರವೇಶ ಇಲ್ಲದಿದ್ದರೆ ಬಾಹ್ಯ ಸಿಂಕ್ ನಿಲ್ಲುತ್ತದೆ; ಆಮದು ಕೆಲಸಗಳು ಸ್ಥಳೀಯ ಪೂರ್ಣತೆ ಮತ್ತು ತಡೆಗೆ ಉಳಿಯುತ್ತವೆ."
+        },
+        {
+          "question": "ಕೆಲಸಗಳನ್ನು ಜೋಡಿಸಿದರೆ ಮುಗಿಸುವುದು ಖಚಿತವೇ?",
+          "answer": "ಇಲ್ಲ. Nonlate ಆಯ್ದ ಗಮನಭಂಗಗಳನ್ನು ತಡೆಯುತ್ತದೆ; ಕೆಲಸದ ಗುಣಮಟ್ಟ ಪರಿಶೀಲಿಸುವುದಿಲ್ಲ ಅಥವಾ ಪೂರ್ಣತೆ ಖಾತ್ರಿ ನೀಡುವುದಿಲ್ಲ. ಮೂಲ ವಿವರಗಳನ್ನು ಸರಿಯಾಗಿಟ್ಟು ಗಡುವು ಬದಲಾದಾಗ ಯೋಜನೆ ಪರಿಶೀಲಿಸಿ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "Google Tasks ഉപയോഗിച്ച് ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകൾ തടയുക: ആദ്യം സമയപരിധിയുള്ള ജോലി",
+      "description": "Google Tasks നെ Nonlate-മായി ബന്ധിപ്പിച്ച് ഇറക്കുമതി തീയതികൾ പരിശോധിക്കുക. യോഗ്യമായ പൂർത്തിയാകാത്ത ജോലികളെ അടിസ്ഥാനമാക്കി ആപ്പുകൾ തടയുക; കലണ്ടർ, ആവർത്തനം എന്നിവയുടെ പരിധി അറിയുക.",
+      "intro": "Gmailൽ നിന്ന് ജോലി സൃഷ്ടിച്ച് Google Calendarൽ കണ്ടിട്ടും തുടങ്ങുന്നതിനു പകരം സോഷ്യൽ മീഡിയ തുറക്കാം. മറ്റൊരു ഓർമ്മപ്പെടുത്തലും എളുപ്പം അടയ്ക്കാം. ജോലിയെ അടിസ്ഥാനമാക്കിയുള്ള തടയൽ, യഥാർത്ഥത്തിൽ സമയമായ ജോലിയനുസരിച്ച് തിരഞ്ഞെടുത്ത ആപ്പ് തുറക്കുമ്പോൾ ഒരു ഇടവേള നൽകുന്നു.",
+      "answer": "ബന്ധിപ്പിച്ച ഉറവിടമായി Google Tasks നെ Nonlate പിന്തുണയ്ക്കുന്നു. അനുമതി നൽകി പുതുക്കി ഇറക്കുമതി ജോലി മൂലവുമായി താരതമ്യം ചെയ്യുക. ആപ്പുകളും സമയപരിധിയുടെ പരിധിയും തിരഞ്ഞെടുക്കുക. യോഗ്യമായ പൂർത്തിയാകാത്ത ജോലികൾ തിരഞ്ഞെടുത്ത ആപ്പ് തുറക്കുമ്പോൾ തടയൽ സജീവമാക്കാം; കലണ്ടർ പരിപാടികൾക്ക് കഴിയില്ല.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "തടയലിനെ ആശ്രയിക്കും മുമ്പ് ഇറക്കുമതി തീയതി പരിശോധിക്കുക",
+          "paragraphs": [
+            "ജോലിസമയം, ഓർമ്മപ്പെടുത്തൽ, യഥാർത്ഥ അവസാന തീയതി എന്നിവ വ്യത്യസ്തമാണ്. Google Tasks പൊതു API ആസൂത്രണം ചെയ്ത ദിവസം നൽകുന്നു, ജോലിയുടെ അവസാന തീയതിയല്ല; ദിവസത്തിലെ സമയവും നിലനിർത്തില്ല. Google Calendarലെ കൃത്യ സമയമോ അവസാന തീയതിയോ മാറ്റമില്ലാതെ വരുമെന്ന് കരുതരുത്. യഥാർത്ഥ അവസാന തീയതി വേറെയും Nonlate കാണിക്കുന്ന തീയതിയും പരിശോധിക്കുക. പ്രധാന ജോലിക്ക് ബന്ധിപ്പിക്കലിനെ ആശ്രയിക്കും മുമ്പ് സാധാരണ ജോലിയിൽ പരീക്ഷിക്കുക."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ഒരു ജോലി ബന്ധിപ്പിച്ച് മുഴുവൻ പ്രക്രിയയും പരീക്ഷിക്കുക",
+          "paragraphs": [
+            "വിശദാംശങ്ങൾക്ക് Google Tasks നെ ആധാരമാക്കുക. എല്ലാ പട്ടികകളും രണ്ടാമത്തെ ആപ്പിൽ പകർത്താതെ ചെറിയ തോതിൽ തുടങ്ങുക."
+          ],
+          "steps": [
+            "Nonlate പിന്തുണയ്ക്കുന്ന സൈൻ-ഇൻ വഴി Google Tasks ബന്ധിപ്പിക്കുക. ബന്ധപ്പെട്ട പട്ടികയുള്ള Google അക്കൗണ്ട് തിരഞ്ഞെടുത്തോ എന്ന് പരിശോധിക്കുക.",
+            "Nonlate പുതുക്കി തലക്കെട്ട്, തീയതി, പൂർത്തീകരണ നില താരതമ്യം ചെയ്യുക. ജോലി കാണാനില്ലെങ്കിൽ പ്രവേശനവും അനുമതികളും പരിശോധിക്കുക.",
+            "കൈകാര്യം ചെയ്യാവുന്ന സമയപരിധിയും ഏതാനും ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകളും തിരഞ്ഞെടുക്കുക. ഉപകരണാനുമതികൾ സജ്ജമാക്കി ആവശ്യമായ ഉപകരണങ്ങൾ ലഭ്യമാക്കുക.",
+            "യഥാർത്ഥ ജോലി പൂർത്തിയാക്കി Google Tasksൽ സ്ഥിതി പരിശോധിച്ച് Nonlate പുതുക്കുക. മറ്റൊരു യോഗ്യമായ പൂർത്തിയാകാത്ത ജോലി തടയൽ തുടരാൻ കാരണമാകാം."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ഓരോ പൂർത്തീകരണത്തിനുശേഷവും ആവർത്തിക്കുന്ന ജോലി പരിശോധിക്കുക",
+          "paragraphs": [
+            "Google Tasks ആവർത്തിക്കുന്ന ജോലികളെ പിന്തുണയ്ക്കുന്നു. എന്നാൽ ഭാവിയിലെ എല്ലാ തവണകളും ക്രമീകരണങ്ങളും മറ്റൊരു ആപ്പിലേക്കു വരുമെന്ന് കരുതരുത്. ഒന്ന് പൂർത്തിയാക്കിയ ശേഷം രണ്ടിടത്തും അടുത്തത് പരിശോധിക്കുക. അപ്‌ഡേറ്റ് വൈകിയാൽ പകർപ്പ് ഉണ്ടാക്കും മുമ്പ് പുതുക്കുക. സമന്വയം സേവനദാതാവ്, പ്ലാൻ, അനുമതി, ഉപകരണം എന്നിവയെ ആശ്രയിക്കുന്നു; ഉടനടി മാറ്റത്തിന് ഉറപ്പില്ല."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar ശ്രദ്ധാസമയം ആപ്പുകൾ തടയുമോ?",
+          "answer": "കലണ്ടർ പരിപാടികൾ Nonlate തടയൽ ആരംഭിക്കില്ല. പ്രായോഗികമായ ജോലിസമയം വേറെ ക്രമീകരിക്കുക; ഷെഡ്യൂൾ ചെയ്യുന്നത് അവസാന തീയതി മാറ്റില്ല. തടയൽ യോഗ്യമായ പൂർത്തിയാകാത്ത ജോലികൾ, സമയപരിധി, അനുമതികൾ എന്നിവയെ ആശ്രയിക്കുന്നു. പിന്തുണയ്ക്കുന്ന നിശ്ചിതസമയ ഇടവേളകൾ ലഭ്യമാണ്."
+        },
+        {
+          "question": "പണം നൽകിയുള്ള സബ്സ്ക്രിപ്ഷൻ ഇല്ലാതെ ഉപയോഗിക്കാമോ?",
+          "answer": "Freeൽ കൈകൊണ്ട് ചേർക്കുന്ന ജോലികളും മൂന്ന് ആപ്പുകൾവരെ അടിസ്ഥാന തടയലും ഉൾപ്പെടുന്നു. ഐച്ഛിക 30 ദിവസത്തെ ഉറവിട പരീക്ഷണം ആദ്യ വിജയകരമായ ബന്ധിപ്പിക്കലിൽ തുടങ്ങും; ഒരേസമയം ഒരു ഉറവിടം അനുവദിക്കും, സ്വയമേവ പണം ഈടാക്കില്ല. ശേഷം യോഗ്യമായ പണമടച്ചുള്ള പ്രവേശനമില്ലെങ്കിൽ ബാഹ്യ സമന്വയം നിൽക്കും; ഇറക്കുമതി ജോലികൾ പ്രാദേശിക പൂർത്തീകരണത്തിനും തടയലിനും തുടരും."
+        },
+        {
+          "question": "ജോലികൾ ബന്ധിപ്പിച്ചാൽ പൂർത്തിയാകുമെന്ന് ഉറപ്പാണോ?",
+          "answer": "അല്ല. Nonlate തിരഞ്ഞെടുത്ത ശ്രദ്ധഭംഗങ്ങൾ തടസ്സപ്പെടുത്തുന്നു; ജോലിയുടെ നിലവാരം പരിശോധിക്കുകയോ പൂർത്തീകരണം ഉറപ്പാക്കുകയോ ഇല്ല. ഉറവിട വിവരങ്ങൾ കൃത്യമാക്കി സമയപരിധി മാറുമ്പോൾ പദ്ധതി പരിശോധിക്കുക."
+        }
+      ]
+    },
+    "mr": {
+      "title": "Google Tasks सोबत लक्ष विचलित करणारी ॲप थांबवा: आधी मुदतीचे काम",
+      "description": "Google Tasks ला Nonlate शी जोडा, आयात केलेल्या तारखा तपासा आणि पात्र अपूर्ण कामांनुसार ॲप रोखा. दिनदर्शिका व पुनरावृत्तीच्या मर्यादा जाणून घ्या.",
+      "intro": "तुम्ही Gmail मधून काम तयार करता, Google Calendar मध्ये पाहता, तरी सुरुवात करण्याऐवजी समाजमाध्यम उघडता. आणखी एक स्मरणसूचनाही सहज बंद होते. कामावर आधारित अडथळा निवडलेले ॲप उघडताना थांबवतो, खरोखर वेळ आलेल्या कामाच्या आधारे.",
+      "answer": "Nonlate जोडलेला स्रोत म्हणून Google Tasks ला समर्थन देते. जोडणीला परवानगी द्या, ताजे करा आणि आयात केलेले काम मूळाशी ताडा. ॲप आणि मुदतीचा कालावधी निवडा. पात्र अपूर्ण कामे निवडलेले ॲप उघडताना अडथळा सुरू करू शकतात; दिनदर्शिकेतील घटना नाही.",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "अडथळ्यावर विश्वास ठेवण्याआधी आयात तारीख तपासा",
+          "paragraphs": [
+            "कामाचे सत्र, स्मरणपत्र आणि खरी अंतिम मुदत वेगवेगळी आहेत. Google Tasks चे सार्वजनिक API नियोजित दिवस देते, कामाची अंतिम मुदत नव्हे, आणि दिवसातील वेळ जपत नाही. Google Calendar मधील अचूक वेळ किंवा मुदत तशीच येईल असे मानू नका. खरी मुदत स्वतंत्रपणे आणि Nonlate मधील तारीखही तपासा. महत्त्वाच्या कामासाठी जोडणीवर अवलंबून राहण्याआधी सामान्य काम तपासा."
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "एक काम जोडून संपूर्ण प्रक्रिया तपासा",
+          "paragraphs": [
+            "तपशिलांसाठी Google Tasks ला आधार ठेवा. सर्व याद्या दुसऱ्या ॲपमध्ये नकलण्याऐवजी छोट्या प्रमाणात सुरुवात करा."
+          ],
+          "steps": [
+            "Nonlate च्या समर्थित साइन-इन प्रक्रियेने Google Tasks जोडा. संबंधित यादी असलेले Google खाते निवडले आहे का तपासा.",
+            "Nonlate ताजे करा आणि शीर्षक, तारीख व पूर्णतेची स्थिती ताडा. काम नसल्यास प्रवेश व परवानग्या तपासा.",
+            "सांभाळता येणारा मुदतीचा कालावधी आणि काही विचलित करणारी ॲप निवडा. उपकरणाच्या परवानग्या लावा आणि आवश्यक साधने उपलब्ध ठेवा.",
+            "प्रत्यक्ष काम पूर्ण करा, Google Tasks मध्ये पूर्णता तपासा आणि Nonlate ताजे करा. दुसरे पात्र अपूर्ण काम अडथळा चालू ठेवू शकते."
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "प्रत्येक पूर्णतेनंतर आवर्ती काम तपासा",
+          "paragraphs": [
+            "Google Tasks आवर्ती कामांना समर्थन देते; पण भविष्यातील सर्व आवृत्त्या किंवा सेटिंग दुसऱ्या ॲपमध्ये येतील असे मानू नका. एकदा पूर्ण केल्यावर दोन्ही ॲपमध्ये पुढचे काम पाहा. अपडेट उशिरा असल्यास नक्कल बनवण्याआधी ताजे करा. समक्रमण प्रदाता, योजना, परवानग्या व उपकरणावर अवलंबून असते; तात्काळ अपडेटची हमी नाही."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendar चे एकाग्रता सत्र ॲप रोखेल का?",
+          "answer": "दिनदर्शिकेतील घटना Nonlate अडथळा सुरू करत नाहीत. वास्तववादी कामाचे सत्र वेगळे ठरवा; वेळापत्रक आखल्याने कामाची मुदत बदलत नाही. अडथळा पात्र अपूर्ण कामे, कालावधी आणि परवानग्यांवर अवलंबून असतो. समर्थित ठरावीक वेळेचे विराम उपलब्ध राहतात."
+        },
+        {
+          "question": "पैसे देऊन सदस्यता न घेता वापरता येईल का?",
+          "answer": "Free मध्ये हाताने जोडलेली कामे आणि जास्तीत जास्त तीन ॲपसाठी मूलभूत अडथळा आहे. ऐच्छिक 30 दिवसांची स्रोत चाचणी पहिल्या यशस्वी जोडणीपासून सुरू होते, एकावेळी एक स्रोत देते आणि आपोआप शुल्क घेत नाही. नंतर पात्र सशुल्क प्रवेश नसल्यास बाह्य समक्रमण थांबते; आयात कामे स्थानिक पूर्णता व अडथळ्यासाठी राहतात."
+        },
+        {
+          "question": "काम जोडले की पूर्ण करणार याची हमी आहे का?",
+          "answer": "नाही. Nonlate निवडलेले विचलन थांबवते; कामाचा दर्जा तपासत किंवा पूर्णतेची हमी देत नाही. स्रोत तपशील अचूक ठेवा आणि मुदती बदलल्यास योजना तपासा."
+        }
+      ]
+    },
+    "or": {
+      "title": "Google Tasks ସହ ଧ୍ୟାନ ଭଙ୍ଗକାରୀ ଆପ୍ ଅଟକାନ୍ତୁ: ପ୍ରଥମେ ସମୟସୀମାର କାମ",
+      "description": "Google Tasksକୁ Nonlate ସହ ଯୋଡ଼ନ୍ତୁ, ଆମଦାନି ତାରିଖ ଯାଞ୍ଚ କରନ୍ତୁ ଓ ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ କାମ ଅନୁସାରେ ଆପ୍ ଅଟକାନ୍ତୁ। କ୍ୟାଲେଣ୍ଡର ଓ ପୁନରାବୃତ୍ତିର ସୀମା ଜାଣନ୍ତୁ।",
+      "intro": "Gmailରୁ କାମ ତିଆରି କରି Google Calendarରେ ଦେଖିଲେ ମଧ୍ୟ ଆରମ୍ଭ ବଦଳରେ ସାମାଜିକ ମାଧ୍ୟମ ଖୋଲିପାରନ୍ତି। ଆଉ ଏକ ସ୍ମାରକ ମଧ୍ୟ ସହଜରେ ବନ୍ଦ ହୋଇଯାଏ। କାମ ଆଧାରିତ ଅବରୋଧ ନିର୍ବାଚିତ ଆପ୍ ଖୋଲିବାବେଳେ ଟିକେ ଅଟକାଏ, ପ୍ରକୃତରେ ସମୟ ଆସିଥିବା କାମ ଅନୁସାରେ।",
+      "answer": "Nonlate ସଂଯୁକ୍ତ ଉତ୍ସ ଭାବେ Google Tasksକୁ ସମର୍ଥନ କରେ। ସଂଯୋଗ ଅନୁମତି ଦେଇ ରିଫ୍ରେଶ କରନ୍ତୁ ଓ ଆମଦାନି କାମକୁ ମୂଳ ସହ ମିଳାନ୍ତୁ। ଆପ୍ ଓ ଦେୟ ସମୟ ପରିସର ବାଛନ୍ତୁ। ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ କାମ ନିର୍ବାଚିତ ଆପ୍ ଖୋଲିବାବେଳେ ଅବରୋଧ ଚାଲୁ କରିପାରେ; କ୍ୟାଲେଣ୍ଡର ଘଟଣା ନୁହେଁ।",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "ଅବରୋଧକୁ ଭରସା କରିବା ପୂର୍ବରୁ ଆମଦାନି ତାରିଖ ଯାଞ୍ଚ କରନ୍ତୁ",
+          "paragraphs": [
+            "କାମର ସମୟ, ସ୍ମାରକ ଓ ପ୍ରକୃତ ଶେଷ ସମୟସୀମା ଭିନ୍ନ। Google Tasksର ସାର୍ବଜନୀନ API ଯୋଜନା କରା ଦିନ ଦିଏ, କାମର ଶେଷ ସମୟସୀମା ନୁହେଁ, ଏବଂ ଦିନର ସମୟ ରଖେନାହିଁ। Google Calendarର ସଠିକ୍ ସମୟ କିମ୍ବା ସମୟସୀମା ଅପରିବର୍ତ୍ତିତ ଆସିବ ବୋଲି ଭାବନ୍ତୁ ନାହିଁ। ପ୍ରକୃତ ସମୟସୀମା ଅଲଗା ଓ Nonlateର ତାରିଖ ମଧ୍ୟ ଯାଞ୍ଚ କରନ୍ତୁ। ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କାମ ପୂର୍ବରୁ ସାଧାରଣ କାମରେ ପରୀକ୍ଷା କରନ୍ତୁ।"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ଗୋଟିଏ କାମ ଯୋଡ଼ି ସମଗ୍ର ପ୍ରକ୍ରିୟା ପରୀକ୍ଷା କରନ୍ତୁ",
+          "paragraphs": [
+            "ବିବରଣୀ ପାଇଁ Google Tasksକୁ ଆଧାର ରଖନ୍ତୁ। ସବୁ ତାଲିକା ଦ୍ୱିତୀୟ ଆପ୍‌ରେ ନକଲ ନକରି ଅଳ୍ପରୁ ଆରମ୍ଭ କରନ୍ତୁ।"
+          ],
+          "steps": [
+            "Nonlateର ସମର୍ଥିତ ସାଇନ୍-ଇନ୍ ଦ୍ୱାରା Google Tasks ଯୋଡ଼ନ୍ତୁ। ସମ୍ପୃକ୍ତ ତାଲିକା ଥିବା Google ଖାତା ବାଛିଛନ୍ତି କି ଦେଖନ୍ତୁ।",
+            "Nonlate ରିଫ୍ରେଶ କରି ଶୀର୍ଷକ, ତାରିଖ ଓ ସମ୍ପୂର୍ଣ୍ଣ ସ୍ଥିତି ମିଳାନ୍ତୁ। କାମ ନଥିଲେ ପ୍ରବେଶ ଓ ଅନୁମତି ଦେଖନ୍ତୁ।",
+            "ସମ୍ଭାଳିପାରିବା ସମୟ ପରିସର ଓ କିଛି ଧ୍ୟାନ ଭଙ୍ଗକାରୀ ଆପ୍ ବାଛନ୍ତୁ। ଉପକରଣ ଅନୁମତି ସଜାଡ଼ନ୍ତୁ ଓ ଆବଶ୍ୟକ ସାଧନ ଉପଲବ୍ଧ ରଖନ୍ତୁ।",
+            "ପ୍ରକୃତ କାମ ଶେଷ କରି Google Tasksରେ ସମ୍ପୂର୍ଣ୍ଣତା ଦେଖନ୍ତୁ ଓ Nonlate ରିଫ୍ରେଶ କରନ୍ତୁ। ଅନ୍ୟ ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ କାମ ଅବରୋଧ ଜାରି ରଖିପାରେ।"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ପ୍ରତିଥର ଶେଷ ପରେ ପୁନରାବୃତ୍ତ କାମ ଯାଞ୍ଚ କରନ୍ତୁ",
+          "paragraphs": [
+            "Google Tasks ପୁନରାବୃତ୍ତ କାମ ସମର୍ଥନ କରେ, କିନ୍ତୁ ଭବିଷ୍ୟତର ସବୁଥର କିମ୍ବା ସେଟିଂ ଅନ୍ୟ ଆପ୍‌କୁ ଆସିବ ବୋଲି ଭାବନ୍ତୁ ନାହିଁ। ଥରେ ଶେଷ ହେଲେ ଦୁଇ ଆପ୍‌ରେ ପରବର୍ତ୍ତୀଟି ଦେଖନ୍ତୁ। ଅପଡେଟ୍ ବିଳମ୍ବ ହେଲେ ନକଲ ତିଆରି ପୂର୍ବରୁ ରିଫ୍ରେଶ କରନ୍ତୁ। ସିଙ୍କ୍ ପ୍ରଦାନକାରୀ, ଯୋଜନା, ଅନୁମତି ଓ ଉପକରଣ ଉପରେ ନିର୍ଭର କରେ; ତୁରନ୍ତ ଅପଡେଟ୍ ନିଶ୍ଚିତ ନୁହେଁ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Google Calendarର ଏକାଗ୍ରତା ସମୟ ଆପ୍ ଅଟକାଇବ କି?",
+          "answer": "କ୍ୟାଲେଣ୍ଡର ଘଟଣା Nonlate ଅବରୋଧ ଆରମ୍ଭ କରେନାହିଁ। ବାସ୍ତବସମ୍ମତ କାମ ସମୟ ଅଲଗା ଯୋଜନା କରନ୍ତୁ; ସମୟସୂଚୀ କଲେ କାମର ଶେଷ ତାରିଖ ବଦଳେନାହିଁ। ଅବରୋଧ ଯୋଗ୍ୟ ଅସମ୍ପୂର୍ଣ୍ଣ କାମ, ସମୟ ପରିସର ଓ ଅନୁମତି ଉପରେ ନିର୍ଭରଶୀଳ। ସମର୍ଥିତ ନିର୍ଦ୍ଦିଷ୍ଟ ସମୟର ବିରତି ମିଳିଥାଏ।"
+        },
+        {
+          "question": "ଦେୟ ସଦସ୍ୟତା ବିନା ବ୍ୟବହାର କରିପାରିବି କି?",
+          "answer": "Freeରେ ନିଜେ ଯୋଡ଼ା କାମ ଓ ସର୍ବାଧିକ ତିନି ଆପ୍‌ର ମୂଳ ଅବରୋଧ ଅଛି। ଇଚ୍ଛାଧୀନ 30 ଦିନର ଉତ୍ସ ପରୀକ୍ଷା ପ୍ରଥମ ସଫଳ ସଂଯୋଗରୁ ଆରମ୍ଭ, ଏକଥରେ ଗୋଟିଏ ଉତ୍ସ ଦିଏ ଓ ସ୍ୱୟଂଚାଳିତ ଶୁଳ୍କ ନାହିଁ। ପରେ ଯୋଗ୍ୟ ଦେୟ ପ୍ରବେଶ ନଥିଲେ ବାହ୍ୟ ସିଙ୍କ୍ ଅଟକେ; ଆମଦାନି କାମ ସ୍ଥାନୀୟ ସମ୍ପୂର୍ଣ୍ଣତା ଓ ଅବରୋଧ ପାଇଁ ରହେ।"
+        },
+        {
+          "question": "କାମ ଯୋଡ଼ିଲେ ଶେଷ କରିବା ନିଶ୍ଚିତ କି?",
+          "answer": "ନା। Nonlate ନିର୍ବାଚିତ ବିଚଳନ ଅଟକାଏ; କାମର ମାନ ଯାଞ୍ଚ କିମ୍ବା ସମ୍ପୂର୍ଣ୍ଣତା ନିଶ୍ଚିତ କରେନାହିଁ। ଉତ୍ସ ବିବରଣୀ ସଠିକ୍ ରଖନ୍ତୁ ଓ ସମୟସୀମା ବଦଳିଲେ ଯୋଜନା ଦେଖନ୍ତୁ।"
+        }
+      ]
+    },
+    "pa": {
+      "title": "Google Tasks ਨਾਲ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਰੋਕੋ: ਪਹਿਲਾਂ ਮਿਆਦ ਵਾਲਾ ਕੰਮ",
+      "description": "Google Tasks ਨੂੰ Nonlate ਨਾਲ ਜੋੜੋ, ਆਯਾਤ ਕੀਤੀਆਂ ਤਾਰੀਖਾਂ ਜਾਂਚੋ ਅਤੇ ਯੋਗ ਅਧੂਰੇ ਕੰਮਾਂ ਮੁਤਾਬਕ ਐਪਾਂ ਰੋਕੋ। ਕੈਲੰਡਰ ਅਤੇ ਦੁਹਰਾਏ ਜਾਂਦੇ ਕੰਮਾਂ ਦੀਆਂ ਹੱਦਾਂ ਜਾਣੋ।",
+      "intro": "ਤੁਸੀਂ Gmail ਤੋਂ ਕੰਮ ਬਣਾਉਂਦੇ ਹੋ, Google Calendar ਵਿੱਚ ਵੇਖਦੇ ਹੋ, ਫਿਰ ਵੀ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਥਾਂ ਸੋਸ਼ਲ ਮੀਡੀਆ ਖੋਲ੍ਹ ਲੈਂਦੇ ਹੋ। ਇੱਕ ਹੋਰ ਯਾਦ-ਸੂਚਨਾ ਵੀ ਆਸਾਨੀ ਨਾਲ ਬੰਦ ਹੋ ਜਾਂਦੀ ਹੈ। ਕੰਮ-ਆਧਾਰਿਤ ਰੋਕ ਚੁਣੀ ਐਪ ਖੋਲ੍ਹਣ ਵੇਲੇ ਠਹਿਰਾਉਂਦੀ ਹੈ, ਉਸ ਕੰਮ ਮੁਤਾਬਕ ਜਿਸ ਦਾ ਸਮਾਂ ਸੱਚਮੁੱਚ ਆ ਗਿਆ ਹੈ।",
+      "answer": "Nonlate ਜੁੜੇ ਸਰੋਤ ਵਜੋਂ Google Tasks ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ। ਜੋੜਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ, ਤਾਜ਼ਾ ਕਰੋ ਅਤੇ ਆਯਾਤ ਕੰਮ ਮੂਲ ਨਾਲ ਮਿਲਾਓ। ਐਪਾਂ ਅਤੇ ਮਿਆਦ ਦਾ ਸਮਾਂ-ਦਾਇਰਾ ਚੁਣੋ। ਯੋਗ ਅਧੂਰੇ ਕੰਮ ਚੁਣੀ ਐਪ ਖੋਲ੍ਹਣ ਉੱਤੇ ਰੋਕ ਚਲਾ ਸਕਦੇ ਹਨ; ਕੈਲੰਡਰ ਦੀਆਂ ਘਟਨਾਵਾਂ ਨਹੀਂ।",
+      "sections": [
+        {
+          "id": "check-dates",
+          "heading": "ਰੋਕ ਉੱਤੇ ਭਰੋਸਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਯਾਤ ਤਾਰੀਖ ਜਾਂਚੋ",
+          "paragraphs": [
+            "ਕੰਮ ਦਾ ਸੈਸ਼ਨ, ਯਾਦ-ਸੂਚਨਾ ਅਤੇ ਅਸਲ ਆਖ਼ਰੀ ਮਿਆਦ ਵੱਖ ਹਨ। Google Tasks ਦਾ ਜਨਤਕ API ਤੈਅ ਕੀਤਾ ਦਿਨ ਦਿੰਦਾ ਹੈ, ਕੰਮ ਦੀ ਆਖ਼ਰੀ ਮਿਆਦ ਨਹੀਂ, ਅਤੇ ਦਿਨ ਦਾ ਸਮਾਂ ਨਹੀਂ ਰੱਖਦਾ। Google Calendar ਦਾ ਸਹੀ ਸਮਾਂ ਜਾਂ ਮਿਆਦ ਜਿਉਂ ਦੀ ਤਿਉਂ ਆਵੇਗੀ, ਇਹ ਨਾ ਮੰਨੋ। ਅਸਲ ਮਿਆਦ ਵੱਖਰੀ ਅਤੇ Nonlate ਦੀ ਦਿਖਾਈ ਤਾਰੀਖ ਵੀ ਜਾਂਚੋ। ਜ਼ਰੂਰੀ ਕੰਮ ਲਈ ਜੋੜ ਉੱਤੇ ਭਰੋਸੇ ਤੋਂ ਪਹਿਲਾਂ ਆਮ ਕੰਮ ਪਰਖੋ।"
+          ]
+        },
+        {
+          "id": "connect-and-test",
+          "heading": "ਇੱਕ ਕੰਮ ਜੋੜ ਕੇ ਸਾਰੀ ਪ੍ਰਕਿਰਿਆ ਪਰਖੋ",
+          "paragraphs": [
+            "ਵੇਰਵਿਆਂ ਲਈ Google Tasks ਨੂੰ ਹਵਾਲਾ ਰੱਖੋ। ਸਾਰੀਆਂ ਸੂਚੀਆਂ ਦੂਜੀ ਐਪ ਵਿੱਚ ਨਕਲ ਕਰਨ ਦੀ ਥਾਂ ਥੋੜ੍ਹੇ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ।"
+          ],
+          "steps": [
+            "Nonlate ਦੇ ਸਮਰਥਿਤ ਸਾਈਨ-ਇਨ ਰਾਹੀਂ Google Tasks ਜੋੜੋ। ਵੇਖੋ ਕਿ ਚੁਣੇ Google ਖਾਤੇ ਵਿੱਚ ਸੰਬੰਧਿਤ ਸੂਚੀ ਹੈ।",
+            "Nonlate ਤਾਜ਼ਾ ਕਰਕੇ ਸਿਰਲੇਖ, ਤਾਰੀਖ ਅਤੇ ਪੂਰਾ ਹੋਣ ਦੀ ਹਾਲਤ ਮਿਲਾਓ। ਕੰਮ ਨਾ ਹੋਵੇ ਤਾਂ ਪਹੁੰਚ ਅਤੇ ਇਜਾਜ਼ਤਾਂ ਜਾਂਚੋ।",
+            "ਸੰਭਾਲਣਯੋਗ ਮਿਆਦ ਦਾ ਦਾਇਰਾ ਅਤੇ ਕੁਝ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਚੁਣੋ। ਡਿਵਾਈਸ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਸੈੱਟ ਕਰੋ ਅਤੇ ਜ਼ਰੂਰੀ ਸਾਧਨ ਉਪਲਬਧ ਰੱਖੋ।",
+            "ਅਸਲੀ ਕੰਮ ਪੂਰਾ ਕਰੋ, Google Tasks ਵਿੱਚ ਪੂਰਨਤਾ ਵੇਖੋ ਅਤੇ Nonlate ਤਾਜ਼ਾ ਕਰੋ। ਦੂਜਾ ਯੋਗ ਅਧੂਰਾ ਕੰਮ ਰੋਕ ਜਾਰੀ ਰੱਖ ਸਕਦਾ ਹੈ।"
+          ]
+        },
+        {
+          "id": "recurring-work",
+          "heading": "ਹਰ ਪੂਰਨਤਾ ਪਿੱਛੋਂ ਦੁਹਰਾਇਆ ਜਾਂਦਾ ਕੰਮ ਵੇਖੋ",
+          "paragraphs": [
+            "Google Tasks ਦੁਹਰਾਏ ਕੰਮਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ, ਪਰ ਭਵਿੱਖ ਦੀ ਹਰ ਵਾਰ ਜਾਂ ਸੈਟਿੰਗ ਦੂਜੀ ਐਪ ਵਿੱਚ ਆਵੇਗੀ, ਇਹ ਨਾ ਮੰਨੋ। ਇੱਕ ਵਾਰ ਮੁਕਾਉਣ ਪਿੱਛੋਂ ਦੋਹਾਂ ਐਪਾਂ ਵਿੱਚ ਅਗਲਾ ਵੇਖੋ। ਅਪਡੇਟ ਦੇਰ ਨਾਲ ਹੋਵੇ ਤਾਂ ਨਕਲ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਤਾਜ਼ਾ ਕਰੋ। ਸਿੰਕ ਪ੍ਰਦਾਤਾ, ਯੋਜਨਾ, ਇਜਾਜ਼ਤਾਂ ਅਤੇ ਡਿਵਾਈਸ ਉੱਤੇ ਨਿਰਭਰ ਹੈ; ਤੁਰੰਤ ਅਪਡੇਟ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ਕੀ Google Calendar ਦਾ ਧਿਆਨ ਸੈਸ਼ਨ ਐਪਾਂ ਰੋਕੇਗਾ?",
+          "answer": "ਕੈਲੰਡਰ ਦੀਆਂ ਘਟਨਾਵਾਂ Nonlate ਰੋਕ ਸ਼ੁਰੂ ਨਹੀਂ ਕਰਦੀਆਂ। ਹਕੀਕਤੀ ਕੰਮ ਦਾ ਸਮਾਂ ਵੱਖਰਾ ਰੱਖੋ; ਸਮਾਂ-ਸਾਰਣੀ ਬਣਾਉਣ ਨਾਲ ਆਖ਼ਰੀ ਤਾਰੀਖ ਨਹੀਂ ਬਦਲਦੀ। ਰੋਕ ਯੋਗ ਅਧੂਰੇ ਕੰਮਾਂ, ਸਮਾਂ-ਦਾਇਰੇ ਅਤੇ ਇਜਾਜ਼ਤਾਂ ਉੱਤੇ ਨਿਰਭਰ ਹੈ। ਸਮਰਥਿਤ ਸਮਾਂਬੱਧ ਵਿਰਾਮ ਮਿਲਦੇ ਰਹਿੰਦੇ ਹਨ।"
+        },
+        {
+          "question": "ਕੀ ਭੁਗਤਾਨੀ ਮੈਂਬਰਸ਼ਿਪ ਬਿਨਾਂ ਵਰਤ ਸਕਦਾ ਹਾਂ?",
+          "answer": "Free ਵਿੱਚ ਹੱਥੀਂ ਜੋੜੇ ਕੰਮ ਅਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਤਿੰਨ ਐਪਾਂ ਦੀ ਮੁੱਢਲੀ ਰੋਕ ਹੈ। ਚੋਣਵੀਂ 30 ਦਿਨਾਂ ਦੀ ਸਰੋਤ ਅਜ਼ਮਾਇਸ਼ ਪਹਿਲੇ ਸਫਲ ਜੋੜ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ, ਇੱਕ ਵੇਲੇ ਇੱਕ ਸਰੋਤ ਦਿੰਦੀ ਹੈ ਅਤੇ ਆਪਣੇ ਆਪ ਪੈਸੇ ਨਹੀਂ ਲੈਂਦੀ। ਬਾਅਦ ਵਿੱਚ ਯੋਗ ਭੁਗਤਾਨੀ ਪਹੁੰਚ ਬਿਨਾਂ ਬਾਹਰੀ ਸਿੰਕ ਰੁਕਦਾ ਹੈ; ਆਯਾਤ ਕੰਮ ਸਥਾਨਕ ਪੂਰਨਤਾ ਅਤੇ ਰੋਕ ਲਈ ਰਹਿੰਦੇ ਹਨ।"
+        },
+        {
+          "question": "ਕੀ ਕੰਮ ਜੋੜਨ ਨਾਲ ਪੂਰਾ ਕਰਨਾ ਯਕੀਨੀ ਹੈ?",
+          "answer": "ਨਹੀਂ। Nonlate ਚੁਣੀਆਂ ਭਟਕਾਵਾਂ ਰੋਕਦਾ ਹੈ; ਕੰਮ ਦਾ ਮਿਆਰ ਨਹੀਂ ਜਾਂਚਦਾ ਜਾਂ ਪੂਰਨਤਾ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਦਿੰਦਾ। ਸਰੋਤ ਵੇਰਵੇ ਸਹੀ ਰੱਖੋ ਅਤੇ ਮਿਆਦਾਂ ਬਦਲਣ ਉੱਤੇ ਯੋਜਨਾ ਵੇਖੋ।"
+        }
+      ]
+    }
+  }
+}
