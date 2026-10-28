@@ -1,0 +1,57 @@
+{
+  "researched": "2026-10-27",
+  "method": "Qualitative live web searches plus official Google Search documentation and repository product copy. Queries are research inputs, not measured user query logs. No Search Console or Keyword Planner volume data was available.",
+  "volume_data": null,
+  "search_console_access": false,
+  "queries": [
+    "best app blocker 2027 task blocker",
+    "mejor bloqueador aplicaciones 2027 tareas",
+    "bloqueador aplicativos Google Tasks Microsoft To Do",
+    "App Blocker Aufgaben Google Tasks Microsoft To Do deutsch"
+  ],
+  "findings": [
+    {
+      "topic": "Parasite SEO",
+      "finding": "Common marketing term for publishing on an established third-party domain. It is separate from publishing a future-planning article on Nonlate. Google defines site reputation abuse around third-party content published mainly to exploit a host’s established ranking signals. No third-party publishing is part of this release.",
+      "source": "https://developers.google.com/search/docs/essentials/spam-policies#site-reputation-abuse"
+    },
+    {
+      "topic": "2027 and November 2026",
+      "finding": "An early planning guide can serve a current decision. A future year in a title does not establish a ranking advantage. Use the actual publication date and currently verified facts; do not claim future testing, awards, prices or guaranteed rankings. One useful 2027 checklist is preferred to substantially similar month/year pages.",
+      "source": "https://developers.google.com/search/docs/appearance/publication-dates"
+    },
+    {
+      "topic": "Content value",
+      "finding": "Publish distinct source-specific troubleshooting and decision criteria, with factual limits and original practical steps. Avoid near-duplicate date-swapped pages.",
+      "source": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    },
+    {
+      "topic": "AI visibility",
+      "finding": "Google AI search uses the same foundational eligibility and SEO requirements. There is no required special AI markup or llms.txt ranking boost. Indexing and inclusion are not guaranteed.",
+      "source": "https://developers.google.com/search/docs/appearance/ai-features"
+    }
+  ],
+  "implementation": {
+    "new_guides": [
+      "google-tasks-distraction-blocker",
+      "microsoft-to-do-distraction-blocker",
+      "choosing-an-app-blocker-for-2027"
+    ],
+    "locale_registry": "app/guides/locales.json",
+    "languages_per_guide": 47,
+    "new_article_pages": 141,
+    "publication_date": "2026-10-27",
+    "review": "Direct AI-assisted translation with in-session semantic review; not native-speaker certification.",
+    "excluded": "No date-swapped monthly clones, invented independent rankings, future publication metadata or third-party posts."
+  },
+  "query_observations": [
+    {
+      "query_group": "Year-qualified app blocker comparisons",
+      "observation": "English and Spanish searches surfaced current2026 blocker comparison/category results; no measured2027 demand size can be inferred. This supports a criteria-focused planning page rather than a claim that Nonlate wins an independent ranking."
+    },
+    {
+      "query_group": "Task-provider workflows",
+      "observation": "Multilingual results include official task-provider help and task management comparisons. Provider-specific workflow guides address distinct date, selection and sync questions; evidence and official source links are recorded in each companion research file."
+    }
+  ]
+}

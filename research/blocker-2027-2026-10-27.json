@@ -1,0 +1,99 @@
+{
+  "researched": "2026-10-27",
+  "topic": "Choosing an app blocker for2027 in advance",
+  "method": "Live multilingual search-result inspection and official-source checks; qualitative intent research, no verified volume or Search Console data. Current product facts checked against app/site-data.ts and existing task-blocking guide.",
+  "queries": [
+    {
+      "language": "en",
+      "query": "best app blocker 2027 focus app blocker",
+      "observation": "Current-year blocker comparisons and choice checklists appeared; this does not establish2027 query volume."
+    },
+    {
+      "language": "es",
+      "query": "mejor bloqueador aplicaciones mejores bloquear apps estudio",
+      "observation": "Results distinguish privacy/password app locks from distraction blockers; guide clarifies intended use."
+    },
+    {
+      "language": "de",
+      "query": "bester App Blocker Aufgaben Fokus",
+      "observation": "Focus/app blocker comparisons and scheduled or usage-limit tools appeared."
+    }
+  ],
+  "strategy": {
+    "future_topic": "A clearly labelled advance-planning checklist can address2027 decisions while its actual publication date remains2026-10-27. No2027 testing, new release, future feature or superiority claim.",
+    "monthly_pages": "No near-identical November2026 clone: no distinct verified monthly product or user need identified.",
+    "parasite_seo": "Third-party-site authority publishing is separate from future-year targeting. No third-party posts were authorized or created. Google site reputation abuse policy covers third-party pages published mainly to exploit host ranking signals.",
+    "dates": "Google advises actual publication/update dates instead of future byline dates."
+  },
+  "official_sources": [
+    {
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies#site-reputation-abuse",
+      "supports": "Distinguishes site reputation abuse and scaled low-value publishing."
+    },
+    {
+      "url": "https://developers.google.com/search/blog/2019/03/help-google-search-know-best-date-for",
+      "supports": "Use actual publication or meaningful update dates, not future dates."
+    },
+    {
+      "url": "https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios",
+      "supports": "Native Screen Time schedules and allowances as distinct selection mechanisms."
+    }
+  ],
+  "implemented": {
+    "file": "app/guides/search-content/blocker-2027.json",
+    "slug": "choosing-an-app-blocker-for-2027",
+    "published": "2026-10-27",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "ar",
+      "zh-Hans",
+      "pt-BR",
+      "pt-PT",
+      "de",
+      "ja",
+      "id",
+      "ru",
+      "ko",
+      "it",
+      "tr",
+      "vi",
+      "pl",
+      "fa",
+      "th",
+      "nl",
+      "uk",
+      "bn",
+      "ur",
+      "ta",
+      "te",
+      "zh-Hant",
+      "he",
+      "fil",
+      "cs",
+      "sv",
+      "ca",
+      "da",
+      "fi",
+      "el",
+      "hu",
+      "ms",
+      "nb",
+      "ro",
+      "hr",
+      "sk",
+      "sl",
+      "gu",
+      "kn",
+      "ml",
+      "mr",
+      "or",
+      "pa"
+    ],
+    "prose_fields_per_locale": 19,
+    "translation_review": "AI-assisted full semantic translations; structural and unchanged-English review plus manual multilingual inspection. Not certified native-language review.",
+    "content_review": "Retains actual writing date, currently verified features, no future tests, trigger distinction, calendar limitation, platform permissions, break bypass nuance, provider-dependent sync, Free three-app cap and separate paid source limits in every language."
+  }
+}

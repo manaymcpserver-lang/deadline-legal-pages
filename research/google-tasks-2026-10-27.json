@@ -1,0 +1,125 @@
+{
+  "researched": "2026-10-27",
+  "method": "Live qualitative web searches in English, Spanish, French, German and Brazilian Portuguese; official Google documentation and local Nonlate product source inspection. These are research query inputs and observed topic matches, not measured search-volume data or verified Search Console queries.",
+  "volume_data": null,
+  "search_console_access": false,
+  "queries": [
+    "Google Tasks block distracting apps tasks complete",
+    "Google Tasks bloquear aplicaciones tareas pendientes",
+    "Google Tasks bloquer applications tâches",
+    "Google Tasks app Sperre Aufgaben erledigen",
+    "Google Tasks tarefas bloquear aplicativos",
+    "Google Tasks app blocker integration focus unfinished tasks"
+  ],
+  "findings": [
+    {
+      "intent": "Google Tasks plus distraction blocking",
+      "observation": "Searches surface Nonlate itself, a dedicated third-party Google Tasks integration and connected focus timers. The useful new page is a provider-specific setup guide explaining date transfer and recurring work, not a near-duplicate of generic task blocking. Demand size and ranking likelihood are unknown.",
+      "evidence": [
+        "https://nonlate.app/",
+        "https://guide.getfokus.com/en/docs/integrations/integrations/google-tasks",
+        "https://focus-now.app/en/integrations/"
+      ]
+    },
+    {
+      "intent": "Dates vs times when linking Google Tasks",
+      "observation": "Official REST tasks resource due field represents the scheduled/calendar-grid day, explicitly NOT the task deadline; time-of-day is discarded and cannot be read or written by this API. Current Calendar help separately distinguishes work time and deadline. All47 guide paragraphs now explain scheduled day versus real deadline, absence of time-of-day, and checking real deadline separately from actual Nonlate display.",
+      "evidence": [
+        "https://developers.google.com/workspace/tasks/reference/rest/v1/tasks",
+        "https://support.google.com/calendar/answer/9901136?hl=en"
+      ]
+    },
+    {
+      "intent": "Recurring tasks and delayed updates",
+      "observation": "Google supports recurrence, but that does not establish that every recurrence instance or setting transfers via Nonlate. Guide recommends checking the next occurrence in both apps and refreshing before duplicating.",
+      "evidence": [
+        "https://support.google.com/tasks/answer/12132599?hl=en"
+      ]
+    }
+  ],
+  "product_verification": {
+    "files": [
+      "app/site-data.ts",
+      "app/HomePage.tsx",
+      "app/guides/search-content/todoist.json"
+    ],
+    "facts": [
+      "Google Tasks is in the supported integration registry.",
+      "Eligible unfinished due tasks can trigger blocking when selected apps open; calendar events cannot.",
+      "Scheduling does not move the deadline; supported timed breaks remain.",
+      "Free manual tasks and basic blocking up to3 apps.",
+      "Optional30day source trial begins with first successful connection,1 source at a time, no automatic charge; external sync pauses afterwards absent eligible paid access, imported tasks retained locally.",
+      "Sync depends on provider, plan, permissions and device; not guaranteed instant."
+    ]
+  },
+  "published_guide": {
+    "file": "app/guides/search-content/google-tasks.json",
+    "slug": "google-tasks-distraction-blocker",
+    "actual_publication_date": "2026-10-27",
+    "locale_count": 47,
+    "translation_review": "AI-assisted authored translations with in-session semantic/structural review against English; not certified native-language review. All20 prose fields translated in each locale.",
+    "review_notes": [
+      "Scheduled day is explicitly distinguished from real task deadline in all47; no exact time transfer asserted. Only check-dates paragraph changed in each locale for this source clarification.",
+      "Full3 sections,4 setup steps,3 FAQ pairs retained in all47.",
+      "Trial period,1source,3app limit, no automatic charge and retained imported work preserved.",
+      "No future publication date, invented search volume, comparative superiority or ranking promise."
+    ]
+  },
+  "checks": {
+    "full_locale_set": true,
+    "nonempty_strings": true,
+    "matching_structure": true,
+    "unchanged_full_english_fields": 0,
+    "english_words": 507,
+    "sha256": "d5b6454683413e8a9dc7ec714b8530e994bc1817b1f14482c4c601c8b7081b1d",
+    "scheduled_day_not_deadline_reviewed_locales": [
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "ar",
+      "zh-Hans",
+      "pt-BR",
+      "pt-PT",
+      "de",
+      "ja",
+      "id",
+      "ru",
+      "ko",
+      "it",
+      "tr",
+      "vi",
+      "pl",
+      "fa",
+      "th",
+      "nl",
+      "uk",
+      "bn",
+      "ur",
+      "ta",
+      "te",
+      "zh-Hant",
+      "he",
+      "fil",
+      "cs",
+      "sv",
+      "ca",
+      "da",
+      "fi",
+      "el",
+      "hu",
+      "ms",
+      "nb",
+      "ro",
+      "hr",
+      "sk",
+      "sl",
+      "gu",
+      "kn",
+      "ml",
+      "mr",
+      "or",
+      "pa"
+    ]
+  }
+}

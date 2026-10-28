@@ -26,8 +26,11 @@ Nonlate is built for school, work, and everyday life. The product website is htt
 - [Canvas assignment planner](https://nonlate.app/guides/canvas-assignment-planner/): Check imported deadlines, distinguish due dates from availability dates, and plan work before submission.
 - [Google Classroom assignment planner](https://nonlate.app/guides/google-classroom-assignment-planner/): School-account restrictions, supported imports, manual tasks, and realistic study sessions.
 - [Todoist distraction blocker](https://nonlate.app/guides/todoist-distraction-blocker/): Keep Todoist as the task source, check imported dates and sync state, and connect eligible due work to selected-app blocking.
+- [Google Tasks distraction blocker](https://nonlate.app/guides/google-tasks-distraction-blocker/): Check task dates and recurrence, distinguish calendar events from eligible due tasks, and verify the connected source before relying on blocking.
+- [Microsoft To Do distraction blocker](https://nonlate.app/guides/microsoft-to-do-distraction-blocker/): Separate My Day selections from due dates, check imported tasks and plan work with selected distractions protected.
+- [Choosing an app blocker for 2027](https://nonlate.app/guides/choosing-an-app-blocker-for-2027/): A forward-planning checklist published October 27, 2026, using currently verified features and limits; not a future-tested ranking or independent award.
 
-These four workflow guides are available in all 47 website language variants through same-page article language menus and matching-language guide indexes. They do not replace the connected providers' instructions or submission records.
+These seven search-intent guides are available in all 47 website language variants through same-page article language menus and matching-language guide indexes. They do not replace the connected providers' instructions or submission records.
 
 ## Purchase and privacy
 

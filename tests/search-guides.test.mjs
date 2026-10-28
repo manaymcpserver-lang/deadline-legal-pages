@@ -14,7 +14,7 @@ const locales = JSON.parse(await read("app/guides/locales.json"));
 const direction = code => ["ar", "fa", "he", "ur"].includes(code) ? "rtl" : "ltr";
 const hreflang = code => code === "fil" ? "tl" : code;
 
-test("publication rejects a missing language or an English article relabelled as a translation", () => {
+test("publication validates full translations and safe slugs including year segments", () => {
   const script = `
 import copy, hashlib, importlib.util, json, tempfile
 from pathlib import Path
@@ -23,14 +23,16 @@ spec = importlib.util.spec_from_file_location('search_guides', root / 'scripts/b
 builder = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(builder)
 original = json.loads((builder.DATA / 'study.json').read_text())
-for case in ('missing', 'english-clone', 'english-answer'):
+for case in ('missing', 'english-clone', 'english-answer', 'numeric-slug', 'unsafe-slug'):
     guide = copy.deepcopy(original)
     if case == 'missing':
         del guide['locales']['ja']
     elif case == 'english-clone':
         guide['locales']['hi'] = json.loads(json.dumps(guide['locales']['en'], sort_keys=True))
-    else:
+    elif case == 'english-answer':
         guide['locales']['hi']['answer'] = guide['locales']['en']['answer']
+    else:
+        guide['slug'] = 'choosing-an-app-blocker-for-2027' if case == 'numeric-slug' else '../2027'
     with tempfile.TemporaryDirectory() as directory:
         builder.DATA = Path(directory)
         path = builder.DATA / 'study.json'
@@ -40,10 +42,10 @@ for case in ('missing', 'english-clone', 'english-answer'):
         try:
             builder.load_guides()
         except ValueError as error:
-            expected = 'Every guide must cover' if case == 'missing' else 'Untranslated article copy'
+            expected = 'Every guide must cover' if case == 'missing' else 'Invalid guide slug' if case == 'unsafe-slug' else 'Untranslated article copy'
             assert expected in str(error), str(error)
         else:
-            raise AssertionError('Publication allowed ' + case)
+            assert case == 'numeric-slug', 'Publication allowed ' + case
 `;
   const result = spawnSync("python3", ["-c", script], { cwd: root, encoding: "utf8" });
   assert.equal(result.status, 0, result.stderr);

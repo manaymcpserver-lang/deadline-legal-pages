@@ -75,7 +75,7 @@ def load_guides():
         if review.get("sha256") != digest or review.get("status") != "reviewed":
             raise ValueError(f"Unreviewed or changed search guide: {path.name}")
         guide = json.loads(path.read_text())
-        if not re.fullmatch(r"[a-z]+(?:-[a-z]+)*", guide["slug"]):
+        if not re.fullmatch(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*", guide["slug"]):
             raise ValueError("Invalid guide slug")
         if set(guide["locales"]) != set(g.LOCALES) or set(review["locales"]) != set(g.LOCALES):
             raise ValueError(f"Every guide must cover all {len(g.LOCALES)} supported languages: {path.name}")

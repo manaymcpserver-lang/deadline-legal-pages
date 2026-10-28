@@ -1,0 +1,59 @@
+{
+  "researched": "2026-10-27",
+  "guide": "microsoft-to-do-distraction-blocker",
+  "method": "Live qualitative searches in English, Spanish, German, Brazilian Portuguese and Japanese, followed by official Microsoft documentation and the current Nonlate source. These are research inputs, not measured Google Search Console queries, keyword volume or ranking forecasts. Exact Microsoft To Do plus blocker searches returned mixed results; this is an adjacent workflow opportunity, not evidence of large exact-match demand.",
+  "volume_data": null,
+  "search_console_access": false,
+  "queries": [
+    "Microsoft To Do distraction blocker task completion app",
+    "Microsoft To Do bloquear aplicaciones tareas pendientes",
+    "Microsoft To Do Aufgaben App Ablenkungen sperren",
+    "site:support.microsoft.com Microsoft To Do My Day due date reminders tasks",
+    "site:support.microsoft.com/de-de/todo Mein Tag Fälligkeitsdatum",
+    "site:support.microsoft.com/pt-br/todo Meu Dia data conclusão",
+    "site:support.microsoft.com/ja-jp/todo 今日の予定 期限"
+  ],
+  "observations": [
+    "Microsoft's documentation distinguishes My Day, due dates and reminders; a dedicated guide can resolve a real setup ambiguity when task imports drive blocking.",
+    "Multilingual results include localized Microsoft task and date documentation. They support the vocabulary and workflow relevance, not a claim of country-specific keyword demand.",
+    "Broad app-blocker queries include unrelated locking and device-management results. The guide is explicitly scoped to Nonlate's supported task-driven mobile blocking, without claiming Microsoft To Do itself blocks apps.",
+    "Keep one Microsoft To Do workflow page rather than separate near-duplicate pages for reminders, My Day and each month."
+  ],
+  "official_sources": [
+    {
+      "url": "https://support.microsoft.com/en-us/todo/my-day-and-suggestions",
+      "supports": "My Day is a selection of work to focus on today, separate from the original task list."
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/todo/add-due-dates-and-reminders-in-microsoft-to-do",
+      "supports": "Due date and reminder are separate task controls."
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/todo/plan-and-connect-with-microsoft-to-do",
+      "supports": "Account context and connection to Microsoft task workflows."
+    },
+    {
+      "url": "https://support.microsoft.com/ja-jp/todo/add-due-dates-and-reminders-in-microsoft-to-do",
+      "supports": "Japanese task-date terminology."
+    },
+    {
+      "url": "https://support.microsoft.com/es-es/todo/add-due-dates-and-reminders-in-microsoft-to-do",
+      "supports": "Spanish task-date terminology."
+    }
+  ],
+  "product_sources": ["app/site-data.ts", "app/HomePage.tsx", "app/guides/search-content/todoist.json"],
+  "product_review": [
+    "Microsoft To Do is listed as a supported task integration in app/site-data.ts.",
+    "Only eligible unfinished due tasks trigger blocking; calendar events do not.",
+    "A planned work session does not change the deadline or start a timed lock.",
+    "Connections and sync depend on permissions, provider, plan and device background limits; no instant-update guarantee.",
+    "Supported timed breaks remain; no tamper-proof, quality verification or completion guarantee.",
+    "Free manual tasks and core blocking cover up to three distracting apps.",
+    "Optional source trial: 30 days from first successful connection, one source at a time, no automatic charge; sync pauses without eligible paid access afterward while imported tasks remain locally usable."
+  ],
+  "translation_review": {
+    "coverage": "Complete article fields in all 47 variants in app/guides/locales.json.",
+    "method": "AI-assisted direct authoring and in-session semantic review against the English source, including task-date distinction, connection limitations, trial billing and availability caveats. Not certified native-language review.",
+    "checks": ["47 locale keys, no omissions", "19 populated prose fields per locale", "No unchanged full English prose fields outside English", "Matching section IDs, paragraph/step counts and FAQs", "RTL copy authored for Arabic, Persian, Hebrew and Urdu; final rendered review is handled by integration validation"]
+  }
+}
