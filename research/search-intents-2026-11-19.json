@@ -1,0 +1,94 @@
+{
+  "researched": "2026-11-19",
+  "method": "Google Search Autocomplete, live search results and first-party instructions. Autocomplete is qualitative and varies by language and region.",
+  "volume_data": null,
+  "observations": [
+    {
+      "locale": "en-US",
+      "input": "how to sync canvas calendar to g",
+      "suggestions": [
+        "how to sync canvas calendar to google calendar",
+        "how to connect canvas calendar to google",
+        "how to connect canvas schedule to google calendar",
+        "how to connect canvas calendar to google calendar on ipad",
+        "how to sync canvas assignments to google calendar"
+      ]
+    },
+    {
+      "locale": "en-US",
+      "input": "canvas calendar not syncing",
+      "suggestions": [
+        "canvas calendar not syncing with google calendar",
+        "canvas calendar not syncing",
+        "canvas calendar not working",
+        "canvas calendar not working on app",
+        "canvas mobile calendar not working"
+      ]
+    },
+    {
+      "locale": "en-US",
+      "input": "block apps while studying",
+      "suggestions": [
+        "block apps while studying",
+        "lock apps while studying",
+        "how to block apps while studying on iphone",
+        "app to block apps while studying android",
+        "app to block apps while studying free"
+      ]
+    },
+    {
+      "locale": "en-US",
+      "input": "how to track college assignments",
+      "suggestions": [
+        "how to track college assignments",
+        "best way to track college assignments",
+        "how to keep track of college assignments",
+        "how to keep track of assignments in college reddit",
+        "how to track college application status"
+      ]
+    },
+    {
+      "locale": "es-MX",
+      "input": "bloquear aplicaciones para estudiar",
+      "suggestions": [
+        "bloquear aplicaciones para estudiar",
+        "bloquear aplicaciones iphone para estudiar",
+        "app para bloquear aplicaciones para estudiar"
+      ]
+    },
+    {
+      "locale": "fr-FR",
+      "input": "bloquer les applications pour étudier",
+      "suggestions": []
+    },
+    {
+      "locale": "de-DE",
+      "input": "apps beim lernen blockieren",
+      "suggestions": []
+    }
+  ],
+  "decisions": [
+    {
+      "slug": "add-canvas-to-google-calendar",
+      "intent": "Subscribe to the Canvas calendar, find assignments on mobile and troubleshoot stale or missing entries."
+    },
+    {
+      "slug": "block-apps-while-studying",
+      "intent": "Set up native iPhone and Android app controls for studying. Keep the existing URL and explain where task-based blocking fits."
+    },
+    {
+      "slug": "canvas-assignment-planner",
+      "intent": "Plan the actual assignment work. Link to the separate calendar subscription guide so readers can choose the procedure they need."
+    }
+  ],
+  "sources": [
+    "https://community.instructure.com/en/instructure/kb/articles/662797-how-do-i-subscribe-to-the-calendar-feed-using-google-calendar",
+    "https://support.google.com/calendar/answer/37100?hl=en",
+    "https://support.google.com/calendar/answer/37118?hl=en",
+    "https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios",
+    "https://support.apple.com/guide/iphone/set-schedules-with-screen-time-iphb0c7313c9/ios",
+    "https://support.google.com/android/answer/9346420?hl=en",
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+  ],
+  "translation_review": "Machine-assisted translation with back-translation checks and targeted editorial corrections."
+}

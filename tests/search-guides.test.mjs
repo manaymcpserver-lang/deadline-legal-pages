@@ -25,6 +25,7 @@ spec.loader.exec_module(builder)
 original = json.loads((builder.DATA / 'study.json').read_text())
 for case in ('missing', 'english-clone', 'english-answer', 'numeric-slug', 'unsafe-slug'):
     guide = copy.deepcopy(original)
+    guide['related'] = [builder.PILLAR]
     if case == 'missing':
         del guide['locales']['ja']
     elif case == 'english-clone':
@@ -91,6 +92,7 @@ test("search guides publish reviewed, complete translations with matching visibl
       assert.equal(article.headline, copy.title);
       assert.equal(article.mainEntityOfPage, `https://nonlate.app${route}`);
       assert.equal(article.datePublished, guide.published);
+      assert.equal(article.dateModified, guide.updated ?? guide.published);
       assert.equal(article.inLanguage, locale);
       const crumbs = schema["@graph"].find(node => node["@type"] === "BreadcrumbList");
       assert.equal(crumbs.itemListElement[1].item, `https://nonlate.app/guides/${locale === 'en' ? '' : `${locale}/`}`);
@@ -124,7 +126,8 @@ test("search-guide alternates, menus and sitemap reference only available same-p
       assert.ok(html.includes(searchGuidePath("ja", guide.slug)));
       assert.equal(sitemap.split(`<loc>https://nonlate.app${route}</loc>`).length - 1, 1);
       const related = visible(html).match(/<nav id="related"[\s\S]*?<\/nav>/)[0];
-      for (const other of searchGuides.filter(other => other.slug !== guide.slug)) assert.ok(related.includes(searchGuidePath(locale, other.slug)));
+      assert.deepEqual([...related.matchAll(/href="([^"]+)"/g)].map(([, href]) => href), guide.related.map(slug => searchGuidePath(locale, slug)));
+      assert.ok(sitemap.includes(`<loc>https://nonlate.app${route}</loc><lastmod>${guide.updated ?? guide.published}</lastmod>`), route);
     }
   }
 });
