@@ -1,0 +1,1857 @@
+{
+  "slug": "add-canvas-to-google-calendar",
+  "published": "2026-11-19",
+  "related": [
+    "canvas-assignment-planner",
+    "block-apps-while-studying"
+  ],
+  "sources": [
+    {
+      "label": "Instructure: subscribe to the Canvas calendar in Google Calendar",
+      "url": "https://community.instructure.com/en/instructure/kb/articles/662797-how-do-i-subscribe-to-the-calendar-feed-using-google-calendar"
+    },
+    {
+      "label": "Google Calendar Help: add a calendar from a URL",
+      "url": "https://support.google.com/calendar/answer/37100?hl=en"
+    },
+    {
+      "label": "Google Calendar Help: import a calendar file",
+      "url": "https://support.google.com/calendar/answer/37118?hl=en"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "How to add Canvas to Google Calendar",
+      "description": "Sync Canvas assignments to Google Calendar with an iCal link. Follow the setup steps and fix missing assignments or changes that have yet to show up.",
+      "intro": "A Canvas calendar subscription puts course events and assignment due dates beside your personal schedule. Set it up in a computer browser, then check the same Google account on your phone.",
+      "answer": "Open Calendar in Canvas and copy the Calendar Feed URL. In Google Calendar on a computer, click the plus next to Other calendars, choose From URL, paste the link and add the calendar.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Subscribe to the Canvas calendar feed",
+          "paragraphs": [
+            "Use the iCal subscription link for ongoing updates. An imported .ics file is a snapshot. Keep the feed URL private because it gives access to your calendar entries."
+          ],
+          "steps": [
+            "Sign in to Canvas on a computer. Open Calendar from the main navigation.",
+            "Select Calendar Feed and copy the URL from the dialog.",
+            "Open Google Calendar in the Google account you want to use. Next to Other calendars, click the plus and select From URL.",
+            "Paste the URL and click Add calendar. Under Other calendars, check that the new calendar is visible. Compare one upcoming due date with Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Why is my Canvas calendar not syncing?",
+          "paragraphs": [
+            "Check for the assignment in your Canvas calendar. In Google Calendar, verify that you are using the right account and that the subscribed calendar is visible. The Canvas calendar feed excludes items from the To Do list.",
+            "Instructure says updates can take up to 24 hours. Is a new course missing? Get the current calendar link from Canvas and subscribe again. If an assignment is due today, check the exact time in Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Can I see Canvas assignments in the Google Calendar app on my phone?",
+          "answer": "Yes. After adding the feed in your computer browser, open the same Google account in the app. If the calendar is hidden, look for it in the app’s calendar list."
+        },
+        {
+          "question": "Can I change an assignment deadline from Google Calendar?",
+          "answer": "Changes to your Google Calendar do not change course deadlines in Canvas. Use Canvas to confirm dates, instructions and submission status."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cómo agregar Canvas a Google Calendar",
+      "description": "Sincronice las tareas de Canvas con Google Calendar con un enlace de iCal. Siga los pasos de configuración y corrija las tareas faltantes o los cambios que aún no aparecen.",
+      "intro": "Una suscripción al calendario Canvas coloca los eventos del curso y las fechas de entrega de las tareas junto a su agenda personal. Configúrelo en el navegador de una computadora, luego verifique la misma cuenta de Google en su teléfono.",
+      "answer": "Abra Calendario en Canvas y copie la URL del feed del calendario. En Google Calendar en una computadora, haga clic en el signo más junto a Otros calendarios, elija Desde URL, pegue el enlace y agregue el calendario.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Suscríbete al feed del calendario Canvas",
+          "paragraphs": [
+            "Utilice el enlace de suscripción de iCal para obtener actualizaciones continuas. Un archivo .ics importado es una instantánea. Mantenga privada la URL del feed porque le da acceso a las entradas de su calendario."
+          ],
+          "steps": [
+            "Inicie sesión en Canvas en una computadora. Abra Calendario desde la navegación principal.",
+            "Seleccione Feed de calendario y copie la URL del cuadro de diálogo.",
+            "Abra Google Calendar en la cuenta de Google que desee utilizar. Junto a Otros calendarios, haga clic en el signo más y seleccione Desde URL.",
+            "Pegue la URL y haga clic en Agregar calendario. En Otros calendarios, verifique que el nuevo calendario esté visible. Compare una próxima fecha de vencimiento con Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "¿Por qué mi calendario Canvas no se sincroniza?",
+          "paragraphs": [
+            "Consulta la tarea en tu calendario Canvas. En Google Calendar, verifique que esté utilizando la cuenta correcta y que el calendario suscrito esté visible. El feed del calendario Canvas excluye elementos de la lista de tareas pendientes.",
+            "Instructure dice que las actualizaciones pueden tardar hasta 24 horas. ¿Falta un nuevo curso? Obtenga el enlace del calendario actual de Canvas y suscríbase nuevamente. Si una tarea vence hoy, verifique la hora exacta en Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Puedo ver las tareas de Canvas en la aplicación Google Calendar de mi teléfono?",
+          "answer": "Sí. Después de agregar el feed en el navegador de su computadora, abra la misma cuenta de Google en la aplicación. Si el calendario está oculto, búsquelo en la lista de calendarios de la aplicación."
+        },
+        {
+          "question": "¿Puedo cambiar la fecha límite de una tarea desde Google Calendar?",
+          "answer": "Los cambios en su Calendario de Google no cambian las fechas límite de los cursos en Canvas. Utilice Canvas para confirmar fechas, instrucciones y estado de envío."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Comment ajouter Canvas à Google Agenda",
+      "description": "Synchronisez les affectations Canvas avec Google Agenda avec un lien iCal. Suivez les étapes de configuration et corrigez les affectations manquantes ou les modifications qui ne sont pas encore apparues.",
+      "intro": "Un abonnement au calendrier Canvas place les événements de cours et les dates d'échéance des devoirs à côté de votre emploi du temps personnel. Configurez-le dans un navigateur d'ordinateur, puis vérifiez le même compte Google sur votre téléphone.",
+      "answer": "Ouvrez le calendrier dans Canvas et copiez l'URL du flux du calendrier. Dans Google Agenda sur un ordinateur, cliquez sur le plus à côté de Autres calendriers, choisissez À partir de l'URL, collez le lien et ajoutez le calendrier.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Abonnez-vous au flux de calendrier Canvas",
+          "paragraphs": [
+            "Utilisez le lien d'abonnement iCal pour les mises à jour en cours. Un fichier .ics importé est un instantané. Gardez l'URL du flux privée, car elle donne accès à vos entrées de calendrier."
+          ],
+          "steps": [
+            "Connectez-vous à Canvas sur un ordinateur. Ouvrez le calendrier à partir de la navigation principale.",
+            "Sélectionnez Flux de calendrier et copiez l'URL à partir de la boîte de dialogue.",
+            "Ouvrez Google Agenda dans le compte Google que vous souhaitez utiliser. À côté de Autres calendriers, cliquez sur le plus et sélectionnez À partir de l'URL.",
+            "Collez l'URL et cliquez sur Ajouter un calendrier. Sous Autres calendriers, vérifiez que le nouveau calendrier est visible. Comparez une date d’échéance à venir avec Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Pourquoi mon calendrier Canvas ne se synchronise-t-il pas ?",
+          "paragraphs": [
+            "Vérifiez l'affectation dans votre calendrier Canvas. Dans Google Agenda, vérifiez que vous utilisez le bon compte et que le calendrier auquel vous êtes abonné est visible. Le flux de calendrier Canvas exclut les éléments de la liste des tâches.",
+            "Instructure indique que les mises à jour peuvent prendre jusqu'à 24 heures. Il manque un nouveau cours ? Obtenez le lien du calendrier actuel de Canvas et abonnez-vous à nouveau. Si un devoir doit être rendu aujourd’hui, vérifiez l’heure exacte dans Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Puis-je voir les devoirs Canvas dans l'application Google Agenda sur mon téléphone ?",
+          "answer": "Oui. Après avoir ajouté le flux dans le navigateur de votre ordinateur, ouvrez le même compte Google dans l'application. Si le calendrier est masqué, recherchez-le dans la liste des calendriers de l'application."
+        },
+        {
+          "question": "Puis-je modifier la date limite d'un devoir à partir de Google Agenda ?",
+          "answer": "Les modifications apportées à votre agenda Google ne modifient pas les dates limites des cours dans Canvas. Utilisez Canvas pour confirmer les dates, les instructions et le statut de la soumission."
+        }
+      ]
+    },
+    "hi": {
+      "title": "Google कैलेंडर में Canvas कैसे जोड़ें",
+      "description": "iCal लिंक के साथ Canvas असाइनमेंट को Google कैलेंडर में सिंक करें। सेटअप चरणों का पालन करें और छूटे हुए असाइनमेंट या बदलावों को ठीक करें जो अभी तक दिखाई नहीं दिए हैं।",
+      "intro": "एक Canvas कैलेंडर सदस्यता पाठ्यक्रम की घटनाओं और असाइनमेंट की नियत तारीखों को आपके व्यक्तिगत शेड्यूल के बगल में रखती है। इसे कंप्यूटर ब्राउज़र में सेट करें, फिर अपने फ़ोन पर वही Google खाता जांचें।",
+      "answer": "Canvas में कैलेंडर खोलें और कैलेंडर फ़ीड URL की प्रतिलिपि बनाएँ। कंप्यूटर पर Google कैलेंडर में, अन्य कैलेंडर के आगे प्लस पर क्लिक करें, URL से चुनें, लिंक पेस्ट करें और कैलेंडर जोड़ें।",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas कैलेंडर फ़ीड की सदस्यता लें",
+          "paragraphs": [
+            "चल रहे अपडेट के लिए iCal सदस्यता लिंक का उपयोग करें। एक आयातित .ics फ़ाइल एक स्नैपशॉट है। फ़ीड यूआरएल को निजी रखें क्योंकि यह आपके कैलेंडर प्रविष्टियों तक पहुंच प्रदान करता है।"
+          ],
+          "steps": [
+            "कंप्यूटर पर Canvas में साइन इन करें। मुख्य नेविगेशन से कैलेंडर खोलें.",
+            "कैलेंडर फ़ीड चुनें और संवाद से यूआरएल कॉपी करें।",
+            "जिस Google खाते का आप उपयोग करना चाहते हैं उसमें Google कैलेंडर खोलें। अन्य कैलेंडर के आगे, प्लस पर क्लिक करें और URL से चुनें।",
+            "यूआरएल पेस्ट करें और कैलेंडर जोड़ें पर क्लिक करें। अन्य कैलेंडर के अंतर्गत, जांचें कि नया कैलेंडर दिखाई दे रहा है। एक आगामी नियत तिथि की तुलना Canvas से करें।"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "मेरा Canvas कैलेंडर समन्वयित क्यों नहीं हो रहा है?",
+          "paragraphs": [
+            "अपने Canvas कैलेंडर में असाइनमेंट की जाँच करें। Google कैलेंडर में, सत्यापित करें कि आप सही खाते का उपयोग कर रहे हैं और सब्सक्राइब किया गया कैलेंडर दिखाई दे रहा है। Canvas कैलेंडर फ़ीड टू डू सूची से आइटम को बाहर कर देता है।",
+            "Instructure का कहना है कि अपडेट में 24 घंटे तक का समय लग सकता है। क्या कोई नया पाठ्यक्रम गायब है? Canvas से वर्तमान कैलेंडर लिंक प्राप्त करें और फिर से सदस्यता लें। यदि कोई असाइनमेंट आज देय है, तो Canvas में सटीक समय जांचें।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "क्या मैं अपने फ़ोन पर Google कैलेंडर ऐप में Canvas असाइनमेंट देख सकता हूँ?",
+          "answer": "हाँ. अपने कंप्यूटर ब्राउज़र में फ़ीड जोड़ने के बाद, ऐप में वही Google खाता खोलें। यदि कैलेंडर छिपा हुआ है, तो उसे ऐप की कैलेंडर सूची में देखें।"
+        },
+        {
+          "question": "क्या मैं Google कैलेंडर से असाइनमेंट की समय सीमा बदल सकता हूँ?",
+          "answer": "आपके Google कैलेंडर में परिवर्तन से Canvas में पाठ्यक्रम की समय सीमा नहीं बदलती है। दिनांक, निर्देश और सबमिशन स्थिति की पुष्टि करने के लिए Canvas का उपयोग करें।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "كيفية إضافة Canvas إلى تقويم جوجل",
+      "description": "مزامنة مهام Canvas مع تقويم Google باستخدام رابط iCal. اتبع خطوات الإعداد وأصلح المهام أو التغييرات المفقودة التي لم تظهر بعد.",
+      "intro": "يضع الاشتراك في تقويم Canvas أحداث الدورة التدريبية وتواريخ استحقاق الواجبات بجانب جدولك الشخصي. قم بإعداده في متصفح الكمبيوتر، ثم تحقق من حساب Google نفسه على هاتفك.",
+      "answer": "افتح التقويم في Canvas وانسخ عنوان URL لخلاصة التقويم. في تقويم Google على جهاز الكمبيوتر، انقر فوق علامة الجمع الموجودة بجوار تقاويم أخرى، واختر من URL، والصق الرابط وأضف التقويم.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "اشترك في موجز تقويم Canvas",
+          "paragraphs": [
+            "استخدم رابط اشتراك iCal للحصول على التحديثات المستمرة. يعد ملف .ics المستورد بمثابة لقطة. حافظ على خصوصية عنوان URL للخلاصة لأنه يتيح الوصول إلى إدخالات التقويم الخاصة بك."
+          ],
+          "steps": [
+            "قم بتسجيل الدخول إلى Canvas على جهاز الكمبيوتر. افتح التقويم من شريط التنقل الرئيسي.",
+            "حدد موجز التقويم وانسخ عنوان URL من مربع الحوار.",
+            "افتح تقويم Google في حساب Google الذي تريد استخدامه. بجوار التقويمات الأخرى، انقر فوق علامة الجمع وحدد من URL.",
+            "الصق عنوان URL وانقر فوق \"إضافة تقويم\". ضمن تقاويم أخرى، تأكد من أن التقويم الجديد مرئي. قارن تاريخ استحقاق قادم مع Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "لماذا لا تتم مزامنة تقويم Canvas الخاص بي؟",
+          "paragraphs": [
+            "تحقق من المهمة في تقويم Canvas الخاص بك. في تقويم Google، تأكد من أنك تستخدم الحساب الصحيح وأن التقويم المشترك مرئي. يستبعد موجز تقويم Canvas العناصر من قائمة المهام.",
+            "يقول Instructure أن التحديثات قد تستغرق ما يصل إلى 24 ساعة. هل هناك دورة جديدة مفقودة؟ احصل على رابط التقويم الحالي من Canvas واشترك مرة أخرى. إذا كانت المهمة مستحقة اليوم، فتحقق من الوقت المحدد في Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "هل يمكنني رؤية واجبات Canvas في تطبيق تقويم Google على هاتفي؟",
+          "answer": "نعم. بعد إضافة الموجز في متصفح جهاز الكمبيوتر الخاص بك، افتح حساب Google نفسه في التطبيق. إذا كان التقويم مخفيًا، فابحث عنه في قائمة تقويم التطبيق."
+        },
+        {
+          "question": "هل يمكنني تغيير الموعد النهائي للمهمة من تقويم Google؟",
+          "answer": "لا تؤدي التغييرات التي يتم إجراؤها على تقويم Google إلى تغيير المواعيد النهائية للدورة التدريبية في Canvas. استخدم Canvas لتأكيد التواريخ والتعليمات وحالة الإرسال."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何将 Canvas 添加到 Google 日历",
+      "description": "使用 iCal 链接将 Canvas 分配同步到 Google 日历。按照设置步骤操作并修复丢失的分配或尚未显示的更改。",
+      "intro": "Canvas 日历订阅将课程活动和作业截止日期放在您的个人日程安排之外。在计算机浏览器中进行设置，然后在手机上检查相同的 Google 帐户。",
+      "answer": "在 Canvas 中打开日历并复制日历源 URL。在计算机上的 Google 日历中，单击其他日历旁边的加号，选择来自 URL，粘贴链接并添加日历。",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "订阅 Canvas 日历源",
+          "paragraphs": [
+            "使用 iCal 订阅链接进行持续更新。导入的 .ics 文件是快照。保持源 URL 的私密性，因为它可以访问您的日历条目。"
+          ],
+          "steps": [
+            "在计算机上登录Canvas。从主导航打开日历。",
+            "选择日历源并从对话框中复制 URL。",
+            "在您要使用的 Google 帐户中打开 Google 日历。在“其他日历”旁边，单击加号并选择“来自 URL”。",
+            "粘贴 URL 并单击添加日历。在“其他日历”下，检查新日历是否可见。将即将到来的预产期与 Canvas 进行比较。"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "为什么我的 Canvas 日历不同步？",
+          "paragraphs": [
+            "检查您的 Canvas 日历中的作业。在 Google 日历中，验证您使用的帐户是否正确并且订阅的日历是否可见。 Canvas 日历提要从待办事项列表中排除项目。",
+            "Instructure 表示更新最多可能需要 24 小时。缺少新课程吗？从 Canvas 获取当前日历链接并再次订阅。如果今天有作业到期，请检查 Canvas 中的确切时间。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "我可以在手机上的 Google 日历应用中查看 Canvas 分配吗？",
+          "answer": "是的。在计算机浏览器中添加提要后，在应用程序中打开相同的 Google 帐户。如果日历被隐藏，请在应用程序的日历列表中查找它。"
+        },
+        {
+          "question": "我可以更改 Google 日历中的作业截止日期吗？",
+          "answer": "对 Google 日历的更改不会更改 Canvas 中的课程截止日期。使用 Canvas 确认日期、说明和提交状态。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Como adicionar Canvas ao Google Agenda",
+      "description": "Sincronize as atribuições Canvas com o Google Agenda com um link iCal. Siga as etapas de configuração e corrija tarefas ausentes ou alterações que ainda não foram exibidas.",
+      "intro": "Uma assinatura do calendário Canvas coloca os eventos do curso e as datas de vencimento das tarefas ao lado de sua programação pessoal. Configure-o em um navegador de computador e verifique a mesma conta do Google em seu telefone.",
+      "answer": "Abra o Calendário em Canvas e copie o URL do feed do calendário. No Google Agenda em um computador, clique no sinal de adição ao lado de Outras agendas, escolha Do URL, cole o link e adicione a agenda.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Assine o feed do calendário Canvas",
+          "paragraphs": [
+            "Use o link de assinatura do iCal para atualizações contínuas. Um arquivo .ics importado é um instantâneo. Mantenha o URL do feed privado porque ele dá acesso às entradas da sua agenda."
+          ],
+          "steps": [
+            "Faça login no Canvas em um computador. Abra o Calendário na navegação principal.",
+            "Selecione Feed de calendário e copie o URL da caixa de diálogo.",
+            "Abra o Google Agenda na conta do Google que deseja usar. Ao lado de Outros calendários, clique no sinal de adição e selecione Do URL.",
+            "Cole o URL e clique em Adicionar calendário. Em Outros calendários, verifique se o novo calendário está visível. Compare uma próxima data de vencimento com Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Por que meu calendário Canvas não está sincronizando?",
+          "paragraphs": [
+            "Procure a atividade no seu calendário do Canvas. No Google Agenda, confira se você está na conta certa e se a agenda da assinatura está visível. O feed do calendário do Canvas não inclui itens da lista de afazeres.",
+            "Instructure diz que as atualizações podem levar até 24 horas. Está faltando um novo curso? Obtenha o link do calendário atual em Canvas e inscreva-se novamente. Se uma tarefa vencer hoje, verifique a hora exata em Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso ver as tarefas Canvas no aplicativo Google Agenda no meu telefone?",
+          "answer": "Sim. Após adicionar o feed no navegador do seu computador, abra a mesma conta Google no aplicativo. Se o calendário estiver oculto, procure-o na lista de calendários do aplicativo."
+        },
+        {
+          "question": "Posso alterar o prazo de uma tarefa no Google Agenda?",
+          "answer": "As alterações no seu Google Agenda não alteram os prazos dos cursos em Canvas. Use Canvas para confirmar datas, instruções e status de envio."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Como adicionar Canvas ao Google Calendar",
+      "description": "Sincronize as atribuições Canvas com o Google Calendar com uma ligação iCal. Siga os passos de configuração e corrija as tarefas em falta ou as alterações que ainda não foram apresentadas.",
+      "intro": "Uma subscrição do calendário Canvas coloca os eventos do curso e as datas de entrega das tarefas ao lado do seu horário pessoal. Configure-o num navegador de computador e verifique a mesma conta Google no seu telefone.",
+      "answer": "Abra o Calendário em Canvas e copie o URL do feed do calendário. No Google Calendar num computador, clique no sinal de adição junto a Outras agendas, escolha A partir do URL, cole a ligação e adicione a agenda.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Subscreva o feed do calendário Canvas",
+          "paragraphs": [
+            "Utilize o link de subscrição do iCal para atualizações contínuas. Um ficheiro . ics importado é um instantâneo. Mantenha o URL do feed privado porque dá acesso às entradas da sua agenda."
+          ],
+          "steps": [
+            "Inicie sessão no Canvas num computador. Abra o Calendário na navegação principal.",
+            "Selecione Feed de calendário e copie o URL da caixa de diálogo.",
+            "Abra o Google Calendar na conta Google que pretende utilizar. Ao lado de Outros calendários, clique no sinal de adição e selecione A partir do URL.",
+            "Cole o URL e clique em Adicionar calendário. Em Outros calendários, verifique se o novo calendário está visível. Compare uma próxima data de validade com Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Porque é que o meu calendário Canvas não está a sincronizar?",
+          "paragraphs": [
+            "Procure o trabalho no seu calendário do Canvas. No Google Calendar, confirme que está a utilizar a conta certa e que o calendário subscrito está visível. O calendário do Canvas não inclui os itens da lista de tarefas a fazer.",
+            "Segundo a Instructure, as atualizações podem demorar até 24 horas. Se falta uma disciplina em que se inscreveu recentemente, copie a ligação atual do calendário do Canvas e volte a subscrevê-lo. Se o trabalho for para hoje, confirme a hora exata no Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso ver as tarefas Canvas na aplicação Google Calendar no meu telefone?",
+          "answer": "Sim. Após adicionar o feed no browser do seu computador, abra a mesma conta Google na aplicação. Se o calendário estiver oculto, procure-o na lista de calendários da aplicação."
+        },
+        {
+          "question": "Posso alterar o prazo de uma tarefa no Google Calendar?",
+          "answer": "As alterações ao seu Google Calendar não alteram os prazos dos cursos em Canvas. Utilize Canvas para confirmar datas, instruções e estado de envio."
+        }
+      ]
+    },
+    "de": {
+      "title": "So fügen Sie Canvas zu Google Kalender hinzu",
+      "description": "Synchronisieren Sie Canvas-Aufgaben mit einem iCal-Link mit Google Kalender. Befolgen Sie die Einrichtungsschritte und korrigieren Sie fehlende Zuweisungen oder Änderungen, die noch nicht angezeigt wurden.",
+      "intro": "Mit einem Canvas-Kalenderabonnement werden Kursereignisse und Abgabetermine für Aufgaben neben Ihrem persönlichen Zeitplan angezeigt. Richten Sie es in einem Computerbrowser ein und überprüfen Sie dann dasselbe Google-Konto auf Ihrem Telefon.",
+      "answer": "Öffnen Sie den Kalender in Canvas und kopieren Sie die Kalender-Feed-URL. Klicken Sie in Google Kalender auf einem Computer auf das Pluszeichen neben „Andere Kalender“, wählen Sie „Von URL“, fügen Sie den Link ein und fügen Sie den Kalender hinzu.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Abonnieren Sie den Canvas-Kalender-Feed",
+          "paragraphs": [
+            "Verwenden Sie den iCal-Abonnementlink für laufende Updates. Eine importierte ICS-Datei ist ein Snapshot. Halten Sie die Feed-URL privat, da sie den Zugriff auf Ihre Kalendereinträge ermöglicht."
+          ],
+          "steps": [
+            "Melden Sie sich auf einem Computer bei Canvas an. Öffnen Sie den Kalender über die Hauptnavigation.",
+            "Wählen Sie „Kalender-Feed“ und kopieren Sie die URL aus dem Dialogfeld.",
+            "Öffnen Sie Google Kalender in dem Google-Konto, das Sie verwenden möchten. Klicken Sie neben „Andere Kalender“ auf das Pluszeichen und wählen Sie „Von URL“ aus.",
+            "Fügen Sie die URL ein und klicken Sie auf Kalender hinzufügen. Überprüfen Sie unter Andere Kalender, ob der neue Kalender sichtbar ist. Vergleichen Sie einen bevorstehenden Fälligkeitstermin mit Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Warum wird mein Canvas-Kalender nicht synchronisiert?",
+          "paragraphs": [
+            "Suchen Sie in Ihrem Canvas-Kalender nach der Aufgabe. Überprüfen Sie in Google Kalender, ob Sie das richtige Konto verwenden und der abonnierte Kalender sichtbar ist. Der Kalender-Feed Canvas schließt Elemente aus der Aufgabenliste aus.",
+            "Laut Instructure können Aktualisierungen bis zu 24 Stunden dauern. Fehlt ein neuer Kurs? Holen Sie sich den aktuellen Kalenderlink von Canvas und abonnieren Sie ihn erneut. Wenn heute eine Aufgabe fällig ist, überprüfen Sie die genaue Uhrzeit in Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kann ich Canvas-Aufgaben in der Google Kalender-App auf meinem Telefon sehen?",
+          "answer": "Ja. Nachdem Sie den Feed in Ihrem Computerbrowser hinzugefügt haben, öffnen Sie dasselbe Google-Konto in der App. Wenn der Kalender ausgeblendet ist, suchen Sie in der Kalenderliste der App danach."
+        },
+        {
+          "question": "Kann ich eine Aufgabenfrist in Google Kalender ändern?",
+          "answer": "Änderungen an Ihrem Google Kalender haben keine Auswirkungen auf die Kursfristen in Canvas. Verwenden Sie Canvas, um Termine, Anweisungen und den Einreichungsstatus zu bestätigen."
+        }
+      ]
+    },
+    "ja": {
+      "title": "CanvasをGoogleカレンダーに追加する方法",
+      "description": "iCal リンクを使用して、Canvas の割り当てを Google カレンダーに同期します。セットアップ手順に従って、不足している割り当てやまだ表示されていない変更を修正します。",
+      "intro": "Canvas カレンダーを購読すると、コース イベントや課題の締め切り日が個人のスケジュールの横に追加されます。コンピューターのブラウザーで設定し、携帯電話で同じ Google アカウントを確認します。",
+      "answer": "Canvas でカレンダーを開き、カレンダー フィードの URL をコピーします。パソコンの Google カレンダーで、[その他のカレンダー] の横にあるプラスをクリックし、[URL から] を選択してリンクを貼り付け、カレンダーを追加します。",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas カレンダー フィードを購読する",
+          "paragraphs": [
+            "継続的なアップデートについては、iCal サブスクリプション リンクを使用してください。インポートされた .ics ファイルはスナップショットです。フィード URL はカレンダーのエントリにアクセスできるため、非公開にしてください。"
+          ],
+          "steps": [
+            "コンピューターで Canvas にサインインします。メインナビゲーションからカレンダーを開きます。",
+            "カレンダー フィードを選択し、ダイアログから URL をコピーします。",
+            "使用する Google アカウントで Google カレンダーを開きます。 [その他のカレンダー] の横にあるプラスをクリックし、[URL から] を選択します。",
+            "URL を貼り付けて、「カレンダーの追加」をクリックします。 [その他のカレンダー] で、新しいカレンダーが表示されていることを確認します。今後の期日を Canvas と比較します。"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Canvas カレンダーが同期しないのはなぜですか?",
+          "paragraphs": [
+            "Canvas カレンダーで割り当てを確認してください。 Google カレンダーで、正しいアカウントを使用していることと、登録したカレンダーが表示されていることを確認します。 Canvas カレンダー フィードでは、To Do リストから項目が除外されます。",
+            "Instructure によると、アップデートには最大 24 時間かかる場合があります。新しいコースはありませんか? Canvas から現在のカレンダーのリンクを取得し、再度購読します。課題の締め切りが今日の場合は、Canvas で正確な時間を確認してください。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "携帯電話の Google カレンダー アプリで Canvas の割り当てを確認できますか?",
+          "answer": "はい。コンピューターのブラウザーにフィードを追加した後、アプリで同じ Google アカウントを開きます。カレンダーが非表示になっている場合は、アプリのカレンダー リストで探します。"
+        },
+        {
+          "question": "Google カレンダーから課題の期限を変更できますか?",
+          "answer": "Google カレンダーを変更しても、Canvas のコースの締め切りは変更されません。 Canvas を使用して、日付、指示、提出ステータスを確認します。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Bagaimana cara menambahkan Canvas ke Google Kalender",
+      "description": "Sinkronkan tugas Canvas ke Google Kalender dengan tautan iCal. Ikuti langkah-langkah penyiapan dan perbaiki tugas yang hilang atau perubahan yang belum muncul.",
+      "intro": "Langganan kalender Canvas menempatkan acara kursus dan tanggal jatuh tempo tugas di samping jadwal pribadi Anda. Atur di browser komputer, lalu periksa akun Google yang sama di ponsel Anda.",
+      "answer": "Buka Kalender di Canvas dan salin URL Umpan Kalender. Di Google Kalender di komputer, klik tanda plus di samping Kalender lainnya, pilih Dari URL, tempel tautan, dan tambahkan kalender.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Berlangganan umpan kalender Canvas",
+          "paragraphs": [
+            "Gunakan tautan berlangganan iCal untuk pembaruan berkelanjutan. File .ics yang diimpor adalah snapshot. Jaga privasi URL feed karena memberikan akses ke entri kalender Anda."
+          ],
+          "steps": [
+            "Masuk ke Canvas di komputer. Buka Kalender dari navigasi utama.",
+            "Pilih Umpan Kalender dan salin URL dari dialog.",
+            "Buka Google Kalender di akun Google yang ingin Anda gunakan. Di samping Kalender lainnya, klik tanda plus dan pilih Dari URL.",
+            "Tempelkan URL dan klik Tambahkan kalender. Di bawah Kalender lainnya, periksa apakah kalender baru terlihat. Bandingkan satu tanggal jatuh tempo yang akan datang dengan Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Mengapa kalender Canvas saya tidak disinkronkan?",
+          "paragraphs": [
+            "Periksa tugas di kalender Canvas Anda. Di Google Kalender, verifikasi bahwa Anda menggunakan akun yang benar dan kalender langganan terlihat. Umpan kalender Canvas mengecualikan item dari daftar Agenda.",
+            "Instructure mengatakan pembaruan bisa memakan waktu hingga 24 jam. Apakah kursus baru hilang? Dapatkan link kalender terkini dari Canvas dan berlangganan lagi. Jika tugas harus dikumpulkan hari ini, periksa waktu tepatnya di Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Dapatkah saya melihat tugas Canvas di aplikasi Google Kalender di ponsel saya?",
+          "answer": "Ya. Setelah menambahkan feed di browser komputer Anda, buka akun Google yang sama di aplikasi. Jika kalender disembunyikan, cari di daftar kalender aplikasi."
+        },
+        {
+          "question": "Bisakah saya mengubah batas waktu tugas dari Google Kalender?",
+          "answer": "Perubahan pada Google Kalender Anda tidak mengubah tenggat waktu kursus di Canvas. Gunakan Canvas untuk mengonfirmasi tanggal, instruksi, dan status pengiriman."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Как добавить Canvas в Календарь Google",
+      "description": "Синхронизируйте назначения Canvas с Календарем Google с помощью ссылки iCal. Следуйте инструкциям по настройке и исправьте отсутствующие назначения или изменения, которые еще не появились.",
+      "intro": "Подписка на календарь Canvas добавляет события курса и сроки выполнения заданий рядом с вашим личным расписанием. Настройте его в браузере компьютера, а затем проверьте ту же учетную запись Google на своем телефоне.",
+      "answer": "Откройте Календарь в Canvas и скопируйте URL-адрес ленты календаря. В Календаре Google на компьютере нажмите плюс рядом с надписью «Другие календари», выберите «По URL-адресу», вставьте ссылку и добавьте календарь.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Подпишитесь на ленту календаря Canvas",
+          "paragraphs": [
+            "Используйте ссылку на подписку iCal для получения текущих обновлений. Импортированный файл .ics представляет собой снимок. Держите URL-адрес канала конфиденциальным, поскольку он предоставляет доступ к записям вашего календаря."
+          ],
+          "steps": [
+            "Войдите в Canvas на компьютере. Откройте Календарь из главной навигации.",
+            "Выберите Лента календаря и скопируйте URL-адрес из диалогового окна.",
+            "Откройте Календарь Google в учетной записи Google, которую вы хотите использовать. Рядом с пунктом «Другие календари» нажмите плюс и выберите «По URL».",
+            "Вставьте URL-адрес и нажмите «Добавить календарь». В разделе «Другие календари» убедитесь, что новый календарь виден. Сравните один предстоящий срок с Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Почему мой календарь Canvas не синхронизируется?",
+          "paragraphs": [
+            "Проверьте задание в своем календаре Canvas. В Календаре Google убедитесь, что вы используете правильную учетную запись и что календарь, на который вы подписаны, виден. Лента календаря Canvas исключает элементы из списка дел.",
+            "Instructure сообщает, что обновления могут занять до 24 часов. Новый курс отсутствует? Получите ссылку на текущий календарь от Canvas и подпишитесь еще раз. Если задание должно быть выполнено сегодня, проверьте точное время в Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Могу ли я видеть задания Canvas в приложении Календарь Google на своем телефоне?",
+          "answer": "Да. После добавления ленты в браузере вашего компьютера откройте ту же учетную запись Google в приложении. Если календарь скрыт, найдите его в списке календарей приложения."
+        },
+        {
+          "question": "Могу ли я изменить срок выполнения задания в Календаре Google?",
+          "answer": "Изменения в вашем Календаре Google не меняют сроки обучения в Canvas. Используйте Canvas для подтверждения дат, инструкций и статуса отправки."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Google 캘린더에 Canvas를 추가하는 방법",
+      "description": "iCal 링크를 사용하여 Canvas 할당을 Google 캘린더에 동기화합니다. 설정 단계에 따라 누락된 할당이나 아직 표시되지 않은 변경 사항을 수정하세요.",
+      "intro": "Canvas 캘린더를 구독하면 개인 일정 옆에 코스 이벤트와 과제 마감일이 표시됩니다. 컴퓨터 브라우저에서 설정한 다음 휴대폰에서 동일한 Google 계정을 확인하세요.",
+      "answer": "Canvas에서 캘린더를 열고 캘린더 피드 URL을 복사하세요. 컴퓨터의 Google 캘린더에서 다른 캘린더 옆에 있는 더하기 기호를 클릭하고 URL에서를 선택한 다음 링크를 붙여넣고 캘린더를 추가하세요.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas 캘린더 피드를 구독하세요",
+          "paragraphs": [
+            "지속적인 업데이트를 보려면 iCal 구독 링크를 사용하세요. 가져온 .ics 파일은 스냅샷입니다. 캘린더 항목에 대한 액세스를 제공하므로 피드 URL을 비공개로 유지하세요."
+          ],
+          "steps": [
+            "컴퓨터에서 Canvas에 로그인합니다. 기본 탐색에서 캘린더를 엽니다.",
+            "캘린더 피드를 선택하고 대화 상자에서 URL을 복사합니다.",
+            "사용하려는 Google 계정에서 Google Calendar를 엽니다. 다른 캘린더 옆에 있는 더하기 기호를 클릭하고 URL에서를 선택합니다.",
+            "URL을 붙여넣고 캘린더 추가를 클릭합니다. 다른 캘린더 아래에 새 캘린더가 표시되는지 확인합니다. 예정된 마감일을 Canvas와 비교하세요."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "내 Canvas 캘린더가 동기화되지 않는 이유는 무엇입니까?",
+          "paragraphs": [
+            "Canvas 달력에서 과제를 확인하세요. Google 캘린더에서 올바른 계정을 사용하고 있는지, 구독한 캘린더가 표시되는지 확인하세요. Canvas 캘린더 피드는 할 일 목록에서 항목을 제외합니다.",
+            "Instructure에 따르면 업데이트는 최대 24시간이 걸릴 수 있습니다. 새로운 강좌가 없나요? Canvas에서 현재 캘린더 링크를 받고 다시 구독하세요. 과제가 오늘 마감인 경우 Canvas에서 정확한 시간을 확인하세요."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "내 휴대폰의 Google 캘린더 앱에서 Canvas 할당을 볼 수 있나요?",
+          "answer": "그렇습니다. 컴퓨터 브라우저에 피드를 추가한 후 앱에서 동일한 Google 계정을 엽니다. 캘린더가 숨겨져 있으면 앱의 캘린더 목록에서 찾아보세요."
+        },
+        {
+          "question": "Google 캘린더에서 과제 마감일을 변경할 수 있나요?",
+          "answer": "Google 캘린더를 변경해도 Canvas의 과정 마감일은 변경되지 않습니다. Canvas를 사용하여 날짜, 지침 및 제출 상태를 확인하세요."
+        }
+      ]
+    },
+    "it": {
+      "title": "Come aggiungere Canvas a Google Calendar",
+      "description": "Sincronizza i compiti Canvas su Google Calendar con un collegamento iCal. Segui i passaggi di configurazione e correggi le assegnazioni mancanti o le modifiche che devono ancora essere visualizzate.",
+      "intro": "Un abbonamento al calendario Canvas inserisce gli eventi del corso e le date di scadenza dei compiti accanto al tuo programma personale. Configuralo nel browser di un computer, quindi controlla lo stesso account Google sul tuo telefono.",
+      "answer": "Apri Calendario in Canvas e copia l'URL del feed del calendario. In Google Calendar su un computer, fai clic sul segno più accanto ad Altri calendari, scegli Da URL, incolla il collegamento e aggiungi il calendario.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Iscriviti al feed del calendario Canvas",
+          "paragraphs": [
+            "Utilizza il collegamento di abbonamento iCal per gli aggiornamenti continui. Un file .ics importato è uno snapshot. Mantieni privato l'URL del feed perché dà accesso alle voci del tuo calendario."
+          ],
+          "steps": [
+            "Accedi a Canvas su un computer. Apri Calendario dalla navigazione principale.",
+            "Seleziona Feed calendario e copia l'URL dalla finestra di dialogo.",
+            "Apri Google Calendar nell'account Google che desideri utilizzare. Accanto ad Altri calendari, fai clic sul segno più e seleziona Da URL.",
+            "Incolla l'URL e fai clic su Aggiungi calendario. In Altri calendari, verifica che il nuovo calendario sia visibile. Confronta una data di scadenza imminente con Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Perché il mio calendario Canvas non si sincronizza?",
+          "paragraphs": [
+            "Controlla il compito nel tuo calendario Canvas. In Google Calendar, verifica di utilizzare l'account corretto e che il calendario sottoscritto sia visibile. Il feed del calendario Canvas esclude elementi dall'elenco delle cose da fare.",
+            "Instructure afferma che gli aggiornamenti possono richiedere fino a 24 ore. Manca un nuovo corso? Ottieni il collegamento al calendario corrente da Canvas e iscriviti di nuovo. Se un compito deve essere consegnato oggi, controlla l'ora esatta in Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Posso vedere i compiti Canvas nell'app Google Calendar sul mio telefono?",
+          "answer": "Sì. Dopo aver aggiunto il feed nel browser del tuo computer, apri lo stesso account Google nell'app. Se il calendario è nascosto, cercalo nell'elenco dei calendari dell'app."
+        },
+        {
+          "question": "Posso modificare la scadenza di un compito da Google Calendar?",
+          "answer": "Le modifiche al tuo Google Calendar non modificano le scadenze dei corsi in Canvas. Utilizza Canvas per confermare date, istruzioni e stato di invio."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Canvas Google Takvim'e nasıl eklenir?",
+      "description": "Canvas atamalarını bir iCal bağlantısıyla Google Takvim ile senkronize edin. Kurulum adımlarını izleyin ve eksik atamaları veya henüz görünmeyen değişiklikleri düzeltin.",
+      "intro": "Canvas takvim aboneliği, kurs etkinliklerini ve ödev teslim tarihlerini kişisel programınızın yanına koyar. Bir bilgisayar tarayıcısında kurun, ardından telefonunuzda aynı Google hesabını kontrol edin.",
+      "answer": "Takvim'i Canvas'de açın ve Takvim Akışı URL'sini kopyalayın. Bir bilgisayardaki Google Takvim'de, Diğer takvimler'in yanındaki artı işaretini tıklayın, URL'den'i seçin, bağlantıyı yapıştırın ve takvimi ekleyin.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas takvim akışına abone olun",
+          "paragraphs": [
+            "Devam eden güncellemeler için iCal abonelik bağlantısını kullanın. İçe aktarılan bir .ics dosyası bir anlık görüntüdür. Takvim girişlerinize erişim sağladığı için yayın URL'sini gizli tutun."
+          ],
+          "steps": [
+            "Bir bilgisayarda Canvas'de oturum açın. Ana gezinme menüsünden Takvim'i açın.",
+            "Takvim Akışı'nı seçin ve iletişim kutusundan URL'yi kopyalayın.",
+            "Kullanmak istediğiniz Google hesabında Google Takvim'i açın. Diğer takvimler'in yanındaki artı işaretini tıklayın ve URL'den'i seçin.",
+            "URL'yi yapıştırın ve Takvim ekle'yi tıklayın. Diğer takvimler altında yeni takvimin görünür olup olmadığını kontrol edin. Yaklaşan bir vade tarihini Canvas ile karşılaştırın."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Canvas takvimim neden senkronize edilmiyor?",
+          "paragraphs": [
+            "Canvas takviminizde ödevi kontrol edin. Google Takvim'de doğru hesabı kullandığınızı ve abone olunan takvimin görünür olduğunu doğrulayın. Canvas takvim akışı, Yapılacaklar listesindeki öğeleri hariç tutar.",
+            "Instructure, güncellemelerin 24 saate kadar sürebileceğini söylüyor. Yeni kurs eksik mi? Güncel takvim bağlantısını Canvas'den alın ve tekrar abone olun. Bir ödevin teslim tarihi bugün ise Canvas cinsinden tam zamanı kontrol edin."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Canvas ödevlerini telefonumdaki Google Takvim uygulamasında görebilir miyim?",
+          "answer": "Evet. Özet akışını bilgisayarınızın tarayıcısına ekledikten sonra uygulamada aynı Google hesabını açın. Takvim gizliyse uygulamanın takvim listesinde arayın."
+        },
+        {
+          "question": "Bir ödevin son tarihini Google Takvim'den değiştirebilir miyim?",
+          "answer": "Google Takviminizde yapılan değişiklikler Canvas'deki kurs son tarihlerini değiştirmez. Tarihleri, talimatları ve gönderim durumunu onaylamak için Canvas'yi kullanın."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Cách thêm Canvas vào Lịch Google",
+      "description": "Đồng bộ hóa các bài tập Canvas với Lịch Google bằng liên kết iCal. Thực hiện theo các bước thiết lập và sửa các bài tập bị thiếu hoặc các thay đổi chưa hiển thị.",
+      "intro": "Đăng ký lịch Canvas đặt các sự kiện khóa học và ngày hết hạn của bài tập bên cạnh lịch trình cá nhân của bạn. Thiết lập nó trong trình duyệt máy tính, sau đó kiểm tra cùng một tài khoản Google trên điện thoại của bạn.",
+      "answer": "Mở Lịch trong Canvas và sao chép URL Nguồn cấp Lịch. Trong Lịch Google trên máy tính, nhấp vào dấu cộng bên cạnh Lịch khác, chọn Từ URL, dán liên kết và thêm lịch.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Đăng ký nguồn cấp dữ liệu lịch Canvas",
+          "paragraphs": [
+            "Sử dụng liên kết đăng ký iCal để cập nhật liên tục. Tệp .ics đã nhập là ảnh chụp nhanh. Giữ URL nguồn cấp dữ liệu ở chế độ riêng tư vì nó cấp quyền truy cập vào các mục lịch của bạn."
+          ],
+          "steps": [
+            "Đăng nhập vào Canvas trên máy tính. Mở Lịch từ điều hướng chính.",
+            "Chọn Nguồn cấp lịch và sao chép URL từ hộp thoại.",
+            "Mở Lịch Google trong tài khoản Google mà bạn muốn sử dụng. Bên cạnh Lịch khác, nhấp vào dấu cộng và chọn Từ URL.",
+            "Dán URL và nhấp vào Thêm lịch. Trong Lịch khác, hãy kiểm tra xem lịch mới có hiển thị không. So sánh một ngày đáo hạn sắp tới với Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Tại sao lịch Canvas của tôi không được đồng bộ hóa?",
+          "paragraphs": [
+            "Kiểm tra bài tập trong lịch Canvas của bạn. Trong Lịch Google, hãy xác minh rằng bạn đang sử dụng đúng tài khoản và lịch đã đăng ký có hiển thị. Nguồn cấp dữ liệu lịch Canvas loại trừ các mục khỏi danh sách Việc cần làm.",
+            "Instructure cho biết quá trình cập nhật có thể mất tới 24 giờ. Khóa học mới có bị thiếu không? Nhận liên kết lịch hiện tại từ Canvas và đăng ký lại. Nếu bài tập đến hạn vào hôm nay, hãy kiểm tra thời gian chính xác trong Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Tôi có thể xem bài tập Canvas trong ứng dụng Lịch Google trên điện thoại của mình không?",
+          "answer": "Vâng. Sau khi thêm nguồn cấp dữ liệu vào trình duyệt máy tính của bạn, hãy mở cùng một tài khoản Google trong ứng dụng. Nếu lịch bị ẩn, hãy tìm lịch đó trong danh sách lịch của ứng dụng."
+        },
+        {
+          "question": "Tôi có thể thay đổi thời hạn bài tập từ Lịch Google không?",
+          "answer": "Những thay đổi đối với Lịch Google của bạn không thay đổi thời hạn khóa học trong Canvas. Sử dụng Canvas để xác nhận ngày, hướng dẫn và trạng thái gửi."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Jak dodać Canvas do Kalendarza Google",
+      "description": "Synchronizuj zadania Canvas z Kalendarzem Google za pomocą łącza iCal. Postępuj zgodnie z instrukcjami konfiguracji i napraw brakujące przypisania lub zmiany, które jeszcze się nie pojawiły.",
+      "intro": "Subskrypcja kalendarza Canvas umieszcza wydarzenia związane z kursami i terminy zadań obok Twojego osobistego harmonogramu. Skonfiguruj go w przeglądarce komputera, a następnie sprawdź to samo konto Google na swoim telefonie.",
+      "answer": "Otwórz Kalendarz w Canvas i skopiuj adres URL kanału kalendarza. W Kalendarzu Google na komputerze kliknij plus obok opcji Inne kalendarze, wybierz Z adresu URL, wklej link i dodaj kalendarz.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Subskrybuj kanał kalendarza Canvas",
+          "paragraphs": [
+            "Aby uzyskać bieżące aktualizacje, użyj linku do subskrypcji iCal. Zaimportowany plik .ics jest migawką. Zachowaj adres URL kanału jako prywatny, ponieważ zapewnia on dostęp do wpisów w kalendarzu."
+          ],
+          "steps": [
+            "Zaloguj się do Canvas na komputerze. Otwórz Kalendarz z głównej nawigacji.",
+            "Wybierz Kanał kalendarza i skopiuj adres URL z okna dialogowego.",
+            "Otwórz Kalendarz Google na koncie Google, którego chcesz używać. Obok opcji Inne kalendarze kliknij plus i wybierz Z adresu URL.",
+            "Wklej adres URL i kliknij Dodaj kalendarz. W obszarze Inne kalendarze sprawdź, czy nowy kalendarz jest widoczny. Porównaj jeden nadchodzący termin za pomocą Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Dlaczego mój kalendarz Canvas nie jest synchronizowany?",
+          "paragraphs": [
+            "Sprawdź zadanie w swoim kalendarzu Canvas. Sprawdź w Kalendarzu Google, czy korzystasz z właściwego konta i czy subskrybowany kalendarz jest widoczny. Kanał kalendarza Canvas wyklucza elementy z listy zadań do wykonania.",
+            "Instructure mówi, że aktualizacje mogą zająć do 24 godzin. Brakuje nowego kursu? Uzyskaj aktualny link do kalendarza z Canvas i zasubskrybuj ponownie. Jeśli termin zadania przypada na dzisiaj, sprawdź dokładny czas w Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Czy mogę zobaczyć zadania Canvas w aplikacji Kalendarz Google na moim telefonie?",
+          "answer": "Tak. Po dodaniu kanału w przeglądarce komputera otwórz to samo konto Google w aplikacji. Jeśli kalendarz jest ukryty, poszukaj go na liście kalendarzy w aplikacji."
+        },
+        {
+          "question": "Czy mogę zmienić termin zadania z poziomu Kalendarza Google?",
+          "answer": "Zmiany w Twoim Kalendarzu Google nie powodują zmiany terminów kursów w Canvas. Użyj Canvas, aby potwierdzić daty, instrukcje i status przesłania."
+        }
+      ]
+    },
+    "fa": {
+      "title": "چگونه Canvas را به تقویم گوگل اضافه کنیم",
+      "description": "تکالیف Canvas را با Google Calendar با پیوند iCal همگام کنید. مراحل راه‌اندازی را دنبال کنید و تکالیف از دست رفته یا تغییراتی که هنوز نشان داده نشده‌اند را اصلاح کنید.",
+      "intro": "اشتراک تقویم Canvas رویدادهای دوره و موعد مقرر را در کنار برنامه شخصی شما قرار می دهد. آن را در یک مرورگر رایانه تنظیم کنید، سپس همان حساب Google را در تلفن خود بررسی کنید.",
+      "answer": "تقویم را در Canvas باز کنید و URL فید تقویم را کپی کنید. در Google Calendar در رایانه، روی علامت مثبت در کنار سایر تقویم‌ها کلیک کنید، از URL را انتخاب کنید، پیوند را جای‌گذاری کنید و تقویم را اضافه کنید.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "در فید تقویم Canvas مشترک شوید",
+          "paragraphs": [
+            "از پیوند اشتراک iCal برای به روز رسانی های مداوم استفاده کنید. یک فایل ics. وارد شده یک عکس فوری است. URL فید را خصوصی نگه دارید زیرا امکان دسترسی به ورودی های تقویم شما را فراهم می کند."
+          ],
+          "steps": [
+            "در رایانه وارد Canvas شوید. تقویم را از پیمایش اصلی باز کنید.",
+            "Calendar Feed را انتخاب کنید و URL را از کادر گفتگو کپی کنید.",
+            "Google Calendar را در حساب Google مورد نظر خود باز کنید. در کنار سایر تقویم‌ها، روی پلاس کلیک کرده و از URL را انتخاب کنید.",
+            "URL را جایگذاری کنید و روی افزودن تقویم کلیک کنید. در بخش سایر تقویم‌ها، بررسی کنید که تقویم جدید قابل مشاهده باشد. یک تاریخ سررسید آینده را با Canvas مقایسه کنید."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "چرا تقویم Canvas من همگام سازی نمی شود؟",
+          "paragraphs": [
+            "تکلیف را در تقویم Canvas خود بررسی کنید. در Google Calendar، بررسی کنید که از حساب درستی استفاده می‌کنید و تقویم مشترک قابل مشاهده است. فید تقویم Canvas موارد را از لیست کارهای انجام شده مستثنی می کند.",
+            "Instructure می گوید که به روز رسانی می تواند تا 24 ساعت طول بکشد. آیا دوره جدیدی از دست رفته است؟ پیوند تقویم فعلی را از Canvas دریافت کنید و دوباره مشترک شوید. اگر امروز قرار است تعیین تکلیف شود، زمان دقیق آن را در Canvas بررسی کنید."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "آیا می توانم تکالیف Canvas را در برنامه Google Calendar در تلفن خود ببینم؟",
+          "answer": "بله. پس از افزودن فید در مرورگر رایانه خود، همان حساب Google را در برنامه باز کنید. اگر تقویم پنهان است، آن را در لیست تقویم برنامه جستجو کنید."
+        },
+        {
+          "question": "آیا می توانم مهلت تعیین تکلیف را از Google Calendar تغییر دهم؟",
+          "answer": "تغییرات در تقویم Google شما مهلت های دوره در Canvas را تغییر نمی دهد. از Canvas برای تأیید تاریخ، دستورالعمل ها و وضعیت ارسال استفاده کنید."
+        }
+      ]
+    },
+    "th": {
+      "title": "วิธีเพิ่ม Canvas ลงใน Google Calendar",
+      "description": "ซิงค์การมอบหมาย Canvas กับ Google Calendar ด้วยลิงก์ iCal ทำตามขั้นตอนการตั้งค่าและแก้ไขการมอบหมายที่ขาดหายไปหรือการเปลี่ยนแปลงที่ยังไม่ปรากฏ",
+      "intro": "การสมัครสมาชิกปฏิทิน Canvas ทำให้กิจกรรมของหลักสูตรและวันครบกำหนดมอบหมายข้างตารางเวลาส่วนตัวของคุณ ตั้งค่าในเบราว์เซอร์ของคอมพิวเตอร์ จากนั้นตรวจสอบบัญชี Google เดียวกันบนโทรศัพท์ของคุณ",
+      "answer": "เปิดปฏิทินใน Canvas แล้วคัดลอก URL ของฟีดปฏิทิน จากนั้นเปิด Google ปฏิทินบนคอมพิวเตอร์ คลิกเครื่องหมายบวกข้างปฏิทินอื่นๆ เลือกจาก URL วางลิงก์ แล้วเพิ่มปฏิทิน",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "สมัครสมาชิกฟีดปฏิทิน Canvas",
+          "paragraphs": [
+            "ใช้ลิงก์สมัครสมาชิก iCal สำหรับการอัปเดตอย่างต่อเนื่อง ไฟล์ .ics ที่นำเข้าจะเป็นสแน็ปช็อต เก็บ URL ฟีดไว้เป็นส่วนตัวเพราะจะทำให้สามารถเข้าถึงรายการปฏิทินของคุณได้"
+          ],
+          "steps": [
+            "ลงชื่อเข้าใช้ Canvas บนคอมพิวเตอร์ เปิดปฏิทินจากการนำทางหลัก",
+            "เลือกฟีดปฏิทินและคัดลอก URL จากกล่องโต้ตอบ",
+            "เปิด Google Calendar ในบัญชี Google ที่คุณต้องการใช้ ถัดจากปฏิทินอื่นๆ ให้คลิกเครื่องหมายบวกแล้วเลือกจาก URL",
+            "วาง URL แล้วคลิกเพิ่มปฏิทิน ภายใต้ปฏิทินอื่นๆ ตรวจสอบว่าปฏิทินใหม่สามารถมองเห็นได้ เปรียบเทียบวันครบกำหนดที่กำลังจะมาถึงหนึ่งวันกับ Canvas"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "เหตุใดปฏิทิน Canvas ของฉันจึงไม่ซิงค์",
+          "paragraphs": [
+            "ตรวจสอบการมอบหมายงานในปฏิทิน Canvas ของคุณ ใน Google ปฏิทิน ตรวจสอบว่าคุณใช้บัญชีที่ถูกต้องและมองเห็นปฏิทินที่สมัครเป็นสมาชิกได้ ฟีดปฏิทิน Canvas แยกรายการออกจากรายการสิ่งที่ต้องทำ",
+            "Instructure กล่าวว่าการอัปเดตอาจใช้เวลาถึง 24 ชั่วโมง คอร์สใหม่หายมั้ย? รับลิงก์ปฏิทินปัจจุบันจาก Canvas และสมัครสมาชิกอีกครั้ง หากงานถึงกำหนดวันนี้ ให้ตรวจสอบเวลาที่แน่นอนใน Canvas"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ฉันสามารถดูการมอบหมาย Canvas ในแอป Google Calendar บนโทรศัพท์ของฉันได้หรือไม่",
+          "answer": "ใช่ หลังจากเพิ่มฟีดในเบราว์เซอร์คอมพิวเตอร์ของคุณแล้ว ให้เปิดบัญชี Google เดียวกันในแอป หากปฏิทินถูกซ่อนอยู่ ให้ค้นหาในรายการปฏิทินของแอป"
+        },
+        {
+          "question": "ฉันสามารถเปลี่ยนกำหนดเวลาการมอบหมายจาก Google Calendar ได้หรือไม่",
+          "answer": "การเปลี่ยนแปลง Google Calendar ของคุณจะไม่เปลี่ยนกำหนดเวลาของหลักสูตรใน Canvas ใช้ Canvas เพื่อยืนยันวันที่ คำแนะนำ และสถานะการส่ง"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Hoe Canvas toe te voegen aan Google Agenda",
+      "description": "Synchroniseer Canvas-opdrachten met Google Agenda met een iCal-link. Volg de installatiestappen en herstel ontbrekende toewijzingen of wijzigingen die nog moeten verschijnen.",
+      "intro": "Met een Canvas-kalenderabonnement worden cursusevenementen en einddatums van opdrachten naast uw persoonlijke planning geplaatst. Stel het in een computerbrowser in en controleer vervolgens hetzelfde Google-account op uw telefoon.",
+      "answer": "Open Agenda in Canvas en kopieer de URL van de agendafeed. Klik in Google Agenda op een computer op het plusteken naast Andere agenda's, kies Van URL, plak de link en voeg de agenda toe.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Abonneer u op de Canvas-kalenderfeed",
+          "paragraphs": [
+            "Gebruik de iCal-abonnementslink voor voortdurende updates. Een geïmporteerd .ics-bestand is een momentopname. Houd de feed-URL privé, omdat deze toegang geeft tot uw agenda-items."
+          ],
+          "steps": [
+            "Meld u aan bij Canvas op een computer. Open Agenda vanuit de hoofdnavigatie.",
+            "Selecteer Agendafeed en kopieer de URL uit het dialoogvenster.",
+            "Open Google Agenda in het Google-account dat u wilt gebruiken. Klik naast Andere agenda's op het plusteken en selecteer Van URL.",
+            "Plak de URL en klik op Agenda toevoegen. Controleer onder Andere agenda's of de nieuwe agenda zichtbaar is. Vergelijk een aankomende vervaldatum met Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Waarom synchroniseert mijn Canvas-agenda niet?",
+          "paragraphs": [
+            "Kijk voor de opdracht in je Canvas agenda. Controleer in Google Agenda of u het juiste account gebruikt en of de geabonneerde agenda zichtbaar is. De Canvas-agendafeed sluit items uit van de takenlijst.",
+            "Instructure zegt dat updates tot 24 uur kunnen duren. Ontbreekt er een nieuwe cursus? Ontvang de huidige agendalink van Canvas en abonneer u opnieuw. Als er vandaag een opdracht moet worden ingeleverd, controleer dan de exacte tijd in Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan ik Canvas-opdrachten zien in de Google Agenda-app op mijn telefoon?",
+          "answer": "Ja. Nadat u de feed in uw computerbrowser heeft toegevoegd, opent u hetzelfde Google-account in de app. Als de agenda verborgen is, zoek deze dan in de agendalijst van de app."
+        },
+        {
+          "question": "Kan ik de deadline voor een opdracht wijzigen vanuit Google Agenda?",
+          "answer": "Wijzigingen in uw Google Agenda hebben geen invloed op de cursusdeadlines in Canvas. Gebruik Canvas om data, instructies en indieningsstatus te bevestigen."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Як додати Canvas до Календаря Google",
+      "description": "Синхронізуйте завдання Canvas із Календарем Google за допомогою посилання iCal. Виконайте кроки налаштування та виправте відсутні призначення або зміни, які ще не відобразилися.",
+      "intro": "Підписка на календар Canvas розміщує події курсу та терміни виконання завдань поруч із вашим особистим розкладом. Налаштуйте його в браузері комп’ютера, а потім перевірте той самий обліковий запис Google на телефоні.",
+      "answer": "Відкрийте Календар у Canvas і скопіюйте URL-адресу каналу календаря. У Календарі Google на комп’ютері клацніть плюс біля пункту «Інші календарі», виберіть «З URL-адреси», вставте посилання та додайте календар.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Підпишіться на стрічку календаря Canvas",
+          "paragraphs": [
+            "Використовуйте посилання для підписки iCal, щоб постійно отримувати оновлення. Імпортований файл .ics є знімком. Зберігайте URL-адресу каналу приватною, оскільки вона надає доступ до ваших записів календаря."
+          ],
+          "steps": [
+            "Увійдіть у Canvas на комп’ютері. Відкрийте Календар із головної панелі навігації.",
+            "Виберіть Канал календаря та скопіюйте URL-адресу з діалогового вікна.",
+            "Відкрийте Календар Google в обліковому записі Google, яким ви хочете скористатися. Поруч із пунктом «Інші календарі» натисніть плюс і виберіть «З URL-адреси».",
+            "Вставте URL-адресу та натисніть Додати календар. У розділі «Інші календарі» перевірте, чи відображається новий календар. Порівняйте один майбутній термін пологів із Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Чому мій календар Canvas не синхронізується?",
+          "paragraphs": [
+            "Перевірте наявність завдання у своєму календарі Canvas. У Календарі Google переконайтеся, що ви використовуєте правильний обліковий запис і що календар, на який ви підписалися, видимий. Стрічка календаря Canvas виключає елементи зі списку справ.",
+            "Instructure каже, що оновлення може тривати до 24 годин. Не вистачає нового курсу? Отримайте поточне посилання на календар від Canvas і підпишіться знову. Якщо завдання має бути сьогодні, перевірте точний час у Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Чи можу я переглядати завдання Canvas у програмі Календар Google на своєму телефоні?",
+          "answer": "так Після додавання каналу в браузер комп’ютера відкрийте той самий обліковий запис Google у програмі. Якщо календар приховано, знайдіть його в списку календарів програми."
+        },
+        {
+          "question": "Чи можу я змінити термін виконання завдання з Календаря Google?",
+          "answer": "Зміни у вашому календарі Google не змінюють дедлайни курсу в Canvas. Використовуйте Canvas, щоб підтвердити дати, інструкції та статус подання."
+        }
+      ]
+    },
+    "bn": {
+      "title": "গুগল ক্যালেন্ডারে কীভাবে Canvas যুক্ত করবেন",
+      "description": "একটি iCal লিঙ্ক দিয়ে Google ক্যালেন্ডারে Canvas অ্যাসাইনমেন্ট সিঙ্ক করুন। সেটআপের ধাপগুলি অনুসরণ করুন এবং অনুপস্থিত অ্যাসাইনমেন্ট বা পরিবর্তনগুলি ঠিক করুন যা এখনও দেখা যায়নি৷",
+      "intro": "একটি Canvas ক্যালেন্ডার সাবস্ক্রিপশন আপনার ব্যক্তিগত সময়সূচীর পাশে কোর্স ইভেন্ট এবং অ্যাসাইনমেন্টের শেষ তারিখ রাখে। এটি একটি কম্পিউটার ব্রাউজারে সেট আপ করুন, তারপর আপনার ফোনে একই Google অ্যাকাউন্ট চেক করুন৷",
+      "answer": "Canvas-এ ক্যালেন্ডার খুলুন এবং ক্যালেন্ডার ফিড URL কপি করুন। একটি কম্পিউটারে Google ক্যালেন্ডারে, অন্যান্য ক্যালেন্ডারের পাশের প্লাসটিতে ক্লিক করুন, URL থেকে চয়ন করুন, লিঙ্কটি আটকান এবং ক্যালেন্ডার যুক্ত করুন৷",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas ক্যালেন্ডার ফিডে সদস্যতা নিন",
+          "paragraphs": [
+            "চলমান আপডেটের জন্য iCal সাবস্ক্রিপশন লিঙ্ক ব্যবহার করুন। একটি আমদানি করা .ics ফাইল একটি স্ন্যাপশট। ফিড URL ব্যক্তিগত রাখুন কারণ এটি আপনার ক্যালেন্ডার এন্ট্রিগুলিতে অ্যাক্সেস দেয়৷"
+          ],
+          "steps": [
+            "একটি কম্পিউটারে Canvas এ সাইন ইন করুন। প্রধান নেভিগেশন থেকে ক্যালেন্ডার খুলুন।",
+            "ক্যালেন্ডার ফিড নির্বাচন করুন এবং ডায়ালগ থেকে URLটি অনুলিপি করুন।",
+            "আপনি যে Google অ্যাকাউন্টটি ব্যবহার করতে চান তাতে Google ক্যালেন্ডার খুলুন। অন্যান্য ক্যালেন্ডারের পাশে, প্লাস ক্লিক করুন এবং URL থেকে নির্বাচন করুন।",
+            "URL টি পেস্ট করুন এবং ক্যালেন্ডার যুক্ত করুন ক্লিক করুন। অন্যান্য ক্যালেন্ডারের অধীনে, নতুন ক্যালেন্ডার দৃশ্যমান কিনা তা পরীক্ষা করুন। Canvas এর সাথে একটি আসন্ন নির্ধারিত তারিখের তুলনা করুন।"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "কেন আমার Canvas ক্যালেন্ডার সিঙ্ক হচ্ছে না?",
+          "paragraphs": [
+            "আপনার Canvas ক্যালেন্ডারে অ্যাসাইনমেন্টের জন্য পরীক্ষা করুন। Google ক্যালেন্ডারে, যাচাই করুন যে আপনি সঠিক অ্যাকাউন্ট ব্যবহার করছেন এবং সদস্যতা নেওয়া ক্যালেন্ডারটি দৃশ্যমান। Canvas ক্যালেন্ডার ফিড করণীয় তালিকা থেকে আইটেমগুলিকে বাদ দেয়৷",
+            "Instructure বলেছেন আপডেটগুলি 24 ঘন্টা পর্যন্ত সময় নিতে পারে৷ একটি নতুন কোর্স অনুপস্থিত? Canvas থেকে বর্তমান ক্যালেন্ডার লিঙ্ক পান এবং আবার সদস্যতা নিন। যদি আজকে একটি অ্যাসাইনমেন্ট বাকি থাকে, তাহলে Canvas-এ সঠিক সময় দেখুন।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "আমি কি আমার ফোনে Google ক্যালেন্ডার অ্যাপে Canvas অ্যাসাইনমেন্ট দেখতে পারি?",
+          "answer": "হ্যাঁ। আপনার কম্পিউটার ব্রাউজারে ফিড যোগ করার পরে, অ্যাপে একই Google অ্যাকাউন্ট খুলুন। যদি ক্যালেন্ডারটি লুকানো থাকে তবে অ্যাপের ক্যালেন্ডার তালিকায় এটি সন্ধান করুন।"
+        },
+        {
+          "question": "আমি কি Google ক্যালেন্ডার থেকে একটি অ্যাসাইনমেন্টের সময়সীমা পরিবর্তন করতে পারি?",
+          "answer": "আপনার Google ক্যালেন্ডারে পরিবর্তন Canvas-এ কোর্সের সময়সীমা পরিবর্তন করে না। তারিখ, নির্দেশাবলী এবং জমা দেওয়ার স্থিতি নিশ্চিত করতে Canvas ব্যবহার করুন।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "Canvas کو گوگل کیلنڈر میں کیسے شامل کریں۔",
+      "description": "ایک iCal لنک کے ساتھ Canvas اسائنمنٹس کو گوگل کیلنڈر میں سنک کریں۔ سیٹ اپ کے مراحل پر عمل کریں اور گمشدہ اسائنمنٹس یا تبدیلیوں کو درست کریں جو ابھی ظاہر ہونا باقی ہیں۔",
+      "intro": "Canvas کیلنڈر سبسکرپشن کورس کے ایونٹس اور اسائنمنٹ کی مقررہ تاریخوں کو آپ کے ذاتی شیڈول کے ساتھ رکھتا ہے۔ اسے کمپیوٹر براؤزر میں سیٹ کریں، پھر اپنے فون پر وہی گوگل اکاؤنٹ چیک کریں۔",
+      "answer": "Canvas میں کیلنڈر کھولیں اور کیلنڈر فیڈ URL کاپی کریں۔ کمپیوٹر پر گوگل کیلنڈر میں، دوسرے کیلنڈرز کے آگے پلس پر کلک کریں، URL سے منتخب کریں، لنک پیسٹ کریں اور کیلنڈر شامل کریں۔",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas کیلنڈر فیڈ کو سبسکرائب کریں۔",
+          "paragraphs": [
+            "جاری اپ ڈیٹس کے لیے iCal سبسکرپشن کا لنک استعمال کریں۔ ایک درآمد شدہ .ics فائل ایک سنیپ شاٹ ہے۔ فیڈ URL کو نجی رکھیں کیونکہ یہ آپ کے کیلنڈر کے اندراجات تک رسائی فراہم کرتا ہے۔"
+          ],
+          "steps": [
+            "کمپیوٹر پر Canvas میں سائن ان کریں۔ مین نیویگیشن سے کیلنڈر کھولیں۔",
+            "کیلنڈر فیڈ کو منتخب کریں اور ڈائیلاگ سے URL کاپی کریں۔",
+            "آپ جس گوگل اکاؤنٹ کو استعمال کرنا چاہتے ہیں اس میں گوگل کیلنڈر کھولیں۔ دوسرے کیلنڈرز کے آگے، پلس پر کلک کریں اور URL سے منتخب کریں۔",
+            "URL چسپاں کریں اور کیلنڈر شامل کریں پر کلک کریں۔ دوسرے کیلنڈرز کے تحت، چیک کریں کہ نیا کیلنڈر نظر آ رہا ہے۔ Canvas کے ساتھ ایک آنے والی مقررہ تاریخ کا موازنہ کریں۔"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "میرا Canvas کیلنڈر کیوں مطابقت پذیر نہیں ہو رہا ہے؟",
+          "paragraphs": [
+            "اپنے Canvas کیلنڈر میں اسائنمنٹ کی جانچ کریں۔ گوگل کیلنڈر میں، تصدیق کریں کہ آپ صحیح اکاؤنٹ استعمال کر رہے ہیں اور سبسکرائب کردہ کیلنڈر نظر آ رہا ہے۔ Canvas کیلنڈر فیڈ میں کرنے کی فہرست سے آئٹمز شامل نہیں ہیں۔",
+            "Instructure کا کہنا ہے کہ اپ ڈیٹس میں 24 گھنٹے لگ سکتے ہیں۔ کیا نیا کورس غائب ہے؟ Canvas سے موجودہ کیلنڈر کا لنک حاصل کریں اور دوبارہ سبسکرائب کریں۔ اگر آج کوئی اسائنمنٹ باقی ہے تو Canvas میں صحیح وقت چیک کریں۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "کیا میں اپنے فون پر گوگل کیلنڈر ایپ میں Canvas اسائنمنٹس دیکھ سکتا ہوں؟",
+          "answer": "جی ہاں اپنے کمپیوٹر براؤزر میں فیڈ شامل کرنے کے بعد، ایپ میں وہی گوگل اکاؤنٹ کھولیں۔ اگر کیلنڈر چھپا ہوا ہے تو اسے ایپ کی کیلنڈر کی فہرست میں تلاش کریں۔"
+        },
+        {
+          "question": "کیا میں گوگل کیلنڈر سے اسائنمنٹ کی آخری تاریخ تبدیل کر سکتا ہوں؟",
+          "answer": "آپ کے گوگل کیلنڈر میں تبدیلیاں Canvas میں کورس کی آخری تاریخ کو تبدیل نہیں کرتی ہیں۔ تاریخوں، ہدایات اور جمع کرانے کی حیثیت کی تصدیق کے لیے Canvas استعمال کریں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "கூகுள் கேலெண்டரில் Canvas ஐ எவ்வாறு சேர்ப்பது",
+      "description": "ஒரு iCal இணைப்புடன் Canvas பணிகளை Google Calendar உடன் ஒத்திசைக்கவும். அமைவு படிகளைப் பின்பற்றி, விடுபட்ட பணிகள் அல்லது இன்னும் காட்டப்படாத மாற்றங்களைச் சரிசெய்யவும்.",
+      "intro": "ஒரு Canvas காலண்டர் சந்தா உங்கள் தனிப்பட்ட அட்டவணையுடன் பாட நிகழ்வுகள் மற்றும் ஒதுக்கீட்டு தேதிகளை வைக்கிறது. கம்ப்யூட்டர் பிரவுசரில் செட் அப் செய்து, உங்கள் மொபைலில் உள்ள அதே Google கணக்கைச் சரிபார்க்கவும்.",
+      "answer": "Canvas இல் Calendarஐத் திறந்து, Calendar Feed URLஐ நகலெடுக்கவும். கணினியில் கூகுள் கேலெண்டரில், பிற காலெண்டர்களுக்கு அடுத்துள்ள பிளஸ் என்பதைக் கிளிக் செய்து, URL இல் இருந்து தேர்வு செய்து, இணைப்பை ஒட்டவும் மற்றும் காலெண்டரைச் சேர்க்கவும்.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas காலண்டர் ஊட்டத்திற்கு குழுசேரவும்",
+          "paragraphs": [
+            "தற்போதைய புதுப்பிப்புகளுக்கு iCal சந்தா இணைப்பைப் பயன்படுத்தவும். இறக்குமதி செய்யப்பட்ட .ics கோப்பு ஒரு ஸ்னாப்ஷாட் ஆகும். ஊட்ட URL ஐ தனிப்பட்டதாக வைத்திருங்கள், ஏனெனில் இது உங்கள் காலண்டர் உள்ளீடுகளுக்கான அணுகலை வழங்குகிறது."
+          ],
+          "steps": [
+            "கணினியில் Canvas இல் உள்நுழையவும். பிரதான வழிசெலுத்தலில் இருந்து காலெண்டரைத் திறக்கவும்.",
+            "கேலெண்டர் ஊட்டத்தைத் தேர்ந்தெடுத்து, உரையாடலில் இருந்து URL ஐ நகலெடுக்கவும்.",
+            "நீங்கள் பயன்படுத்த விரும்பும் Google கணக்கில் Google Calendarஐத் திறக்கவும். பிற காலெண்டர்களுக்கு அடுத்து, பிளஸ் என்பதைக் கிளிக் செய்து, URL இல் இருந்து தேர்ந்தெடுக்கவும்.",
+            "URL ஐ ஒட்டவும் மற்றும் காலெண்டரைச் சேர் என்பதைக் கிளிக் செய்யவும். பிற காலெண்டர்களின் கீழ், புதிய காலெண்டர் தெரிகிறதா எனச் சரிபார்க்கவும். வரவிருக்கும் ஒரு நிலுவைத் தேதியை Canvas உடன் ஒப்பிடுக."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "எனது Canvas காலண்டர் ஏன் ஒத்திசைக்கவில்லை?",
+          "paragraphs": [
+            "உங்கள் Canvas காலெண்டரில் வேலையைச் சரிபார்க்கவும். Google Calendar இல், நீங்கள் சரியான கணக்கைப் பயன்படுத்துகிறீர்கள் என்பதையும், குழுசேர்ந்த காலெண்டர் தெரியும் என்பதையும் சரிபார்க்கவும். Canvas காலண்டர் ஊட்டம் செய்ய வேண்டியவை பட்டியலில் இருந்து உருப்படிகளை விலக்குகிறது.",
+            "புதுப்பிப்புகள் 24 மணிநேரம் வரை ஆகலாம் என Instructure கூறுகிறது. ஒரு புதிய பாடநெறி காணவில்லையா? Canvas இலிருந்து தற்போதைய காலெண்டர் இணைப்பைப் பெற்று மீண்டும் குழுசேரவும். இன்று பணி வழங்கப்பட வேண்டும் எனில், Canvas இல் சரியான நேரத்தைச் சரிபார்க்கவும்."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "எனது மொபைலில் உள்ள Google Calendar பயன்பாட்டில் Canvas பணிகளைப் பார்க்க முடியுமா?",
+          "answer": "ஆம். உங்கள் கணினி உலாவியில் ஊட்டத்தைச் சேர்த்த பிறகு, பயன்பாட்டில் அதே Google கணக்கைத் திறக்கவும். காலெண்டர் மறைக்கப்பட்டிருந்தால், பயன்பாட்டின் காலெண்டர் பட்டியலில் அதைத் தேடவும்."
+        },
+        {
+          "question": "கூகுள் கேலெண்டரிலிருந்து பணிக்கான காலக்கெடுவை மாற்ற முடியுமா?",
+          "answer": "உங்கள் Google Calendar இல் மாற்றங்கள் Canvas இல் பாடநெறி காலக்கெடுவை மாற்றாது. தேதிகள், அறிவுறுத்தல்கள் மற்றும் சமர்ப்பிப்பு நிலையை உறுதிப்படுத்த Canvas ஐப் பயன்படுத்தவும்."
+        }
+      ]
+    },
+    "te": {
+      "title": "Google క్యాలెండర్‌కి Canvasని ఎలా జోడించాలి",
+      "description": "Canvas అసైన్‌మెంట్‌లను iCal లింక్‌తో Google క్యాలెండర్‌కి సమకాలీకరించండి. సెటప్ దశలను అనుసరించండి మరియు ఇంకా కనిపించని అసైన్‌మెంట్‌లు లేదా మార్పులను పరిష్కరించండి.",
+      "intro": "Canvas క్యాలెండర్ సబ్‌స్క్రిప్షన్ మీ వ్యక్తిగత షెడ్యూల్ పక్కన కోర్స్ ఈవెంట్‌లు మరియు అసైన్‌మెంట్ గడువు తేదీలను ఉంచుతుంది. దీన్ని కంప్యూటర్ బ్రౌజర్‌లో సెటప్ చేసి, మీ ఫోన్‌లో అదే Google ఖాతాను తనిఖీ చేయండి.",
+      "answer": "Canvasలో క్యాలెండర్‌ని తెరిచి, క్యాలెండర్ ఫీడ్ URLని కాపీ చేయండి. కంప్యూటర్‌లోని Google క్యాలెండర్‌లో, ఇతర క్యాలెండర్‌ల పక్కన ఉన్న ప్లస్‌ని క్లిక్ చేయండి, URL నుండి ఎంచుకోండి, లింక్‌ను అతికించి, క్యాలెండర్‌ను జోడించండి.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas క్యాలెండర్ ఫీడ్‌కు సభ్యత్వం పొందండి",
+          "paragraphs": [
+            "కొనసాగుతున్న అప్‌డేట్‌ల కోసం iCal సబ్‌స్క్రిప్షన్ లింక్‌ని ఉపయోగించండి. దిగుమతి చేసుకున్న .ics ఫైల్ ఒక స్నాప్‌షాట్. ఫీడ్ URLను ప్రైవేట్‌గా ఉంచండి ఎందుకంటే ఇది మీ క్యాలెండర్ ఎంట్రీలకు యాక్సెస్ ఇస్తుంది."
+          ],
+          "steps": [
+            "కంప్యూటర్‌లో Canvasకి సైన్ ఇన్ చేయండి. ప్రధాన నావిగేషన్ నుండి క్యాలెండర్‌ను తెరవండి.",
+            "క్యాలెండర్ ఫీడ్‌ని ఎంచుకుని, డైలాగ్ నుండి URLని కాపీ చేయండి.",
+            "మీరు ఉపయోగించాలనుకుంటున్న Google ఖాతాలో Google క్యాలెండర్‌ను తెరవండి. ఇతర క్యాలెండర్‌ల పక్కన, ప్లస్‌ని క్లిక్ చేసి, URL నుండి ఎంచుకోండి.",
+            "URLని అతికించి, క్యాలెండర్‌ని జోడించు క్లిక్ చేయండి. ఇతర క్యాలెండర్‌ల క్రింద, కొత్త క్యాలెండర్ కనిపిస్తుందో లేదో తనిఖీ చేయండి. ఒక రాబోయే గడువు తేదీని Canvasతో సరిపోల్చండి."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "నా Canvas క్యాలెండర్ ఎందుకు సమకాలీకరించబడదు?",
+          "paragraphs": [
+            "మీ Canvas క్యాలెండర్‌లో అసైన్‌మెంట్ కోసం తనిఖీ చేయండి. Google క్యాలెండర్‌లో, మీరు సరైన ఖాతాను ఉపయోగిస్తున్నారని మరియు సభ్యత్వం పొందిన క్యాలెండర్ కనిపిస్తోందని ధృవీకరించండి. Canvas క్యాలెండర్ ఫీడ్ చేయవలసిన జాబితా నుండి అంశాలను మినహాయించింది.",
+            "Instructure అప్‌డేట్‌లకు గరిష్టంగా 24 గంటలు పట్టవచ్చు. కొత్త కోర్సు మిస్ అయిందా? Canvas నుండి ప్రస్తుత క్యాలెండర్ లింక్‌ని పొందండి మరియు మళ్లీ సభ్యత్వాన్ని పొందండి. ఈరోజు అసైన్‌మెంట్ గడువు ఉంటే, Canvasలో ఖచ్చితమైన సమయాన్ని తనిఖీ చేయండి."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "నేను నా ఫోన్‌లోని Google క్యాలెండర్ యాప్‌లో Canvas అసైన్‌మెంట్‌లను చూడవచ్చా?",
+          "answer": "అవును. మీ కంప్యూటర్ బ్రౌజర్‌లో ఫీడ్‌ని జోడించిన తర్వాత, యాప్‌లో అదే Google ఖాతాను తెరవండి. క్యాలెండర్ దాచబడి ఉంటే, యాప్ క్యాలెండర్ జాబితాలో దాని కోసం వెతకండి."
+        },
+        {
+          "question": "నేను Google క్యాలెండర్ నుండి అసైన్‌మెంట్ గడువును మార్చవచ్చా?",
+          "answer": "మీ Google క్యాలెండర్‌లో మార్పులు Canvasలో కోర్సు గడువులను మార్చవు. తేదీలు, సూచనలు మరియు సమర్పణ స్థితిని నిర్ధారించడానికి Canvasని ఉపయోగించండి."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何將 Canvas 新增至 Google 日曆",
+      "description": "使用 iCal 連結將 Canvas 分配同步到 Google 日曆。請依照設定步驟操作並修復遺失的分配或尚未顯示的變更。",
+      "intro": "Canvas 日曆訂閱將課程活動和作業截止日期放在您的個人行程之外。在電腦瀏覽器中進行設置，然後在手機上檢查相同的 Google 帳戶。",
+      "answer": "在 Canvas 中開啟日曆並複製日曆來源 URL。在電腦上的 Google 日曆中，點擊其他日曆旁邊的加號，選擇來自 URL，貼上連結並新增日曆。",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "訂閱 Canvas 日曆來源",
+          "paragraphs": [
+            "使用 iCal 訂閱連結進行持續更新。匯入的 .ics 檔案是快照。保持來源 URL 的私密性，因為它可以存取您的日曆條目。"
+          ],
+          "steps": [
+            "在計算機上登入Canvas。從主導航開啟日曆。",
+            "選擇日曆來源並從對話方塊複製 URL。",
+            "在您要使用的 Google 帳戶中開啟 Google 日曆。在“其他日曆”旁邊，按一下加號並選擇“來自 URL”。",
+            "貼上 URL 並點擊新增日曆。在「其他日曆」下，檢查新日曆是否可見。將即將到來的預產期與 Canvas 進行比較。"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "為什麼我的 Canvas 行事曆不同步？",
+          "paragraphs": [
+            "檢查您的 Canvas 日曆中的作業。在 Google 日曆中，驗證您使用的帳戶是否正確且訂閱的日曆是否可見。 Canvas 行事曆提要從待辦事項清單中排除項目。",
+            "Instructure 表示更新可能需要 24 小時。缺新課程嗎？從 Canvas 取得當前日曆連結並再次訂閱。如果今天有作業到期，請檢查 Canvas 中的確切時間。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "我可以在手機上的 Google 日曆應用程式中查看 Canvas 分配嗎？",
+          "answer": "是的。在電腦瀏覽器中新增提要後，在應用程式中開啟相同的 Google 帳戶。如果日曆被隱藏，請在應用程式的日曆清單中尋找它。"
+        },
+        {
+          "question": "我可以更改 Google 日曆中的作業截止日期嗎？",
+          "answer": "對 Google 日曆的更改不會更改 Canvas 中的課程截止日期。使用 Canvas 確認日期、說明和提交狀態。"
+        }
+      ]
+    },
+    "he": {
+      "title": "כיצד להוסיף Canvas ליומן Google",
+      "description": "סנכרן מטלות Canvas עם יומן Google עם קישור iCal. בצע את שלבי ההגדרה ותקן מטלות חסרות או שינויים שטרם הופיעו.",
+      "intro": "מנוי ללוח השנה של Canvas מציב אירועי קורס ותאריכי יעד לצד לוח הזמנים האישי שלך. הגדר אותו בדפדפן מחשב, ולאחר מכן בדוק את אותו חשבון Google בטלפון שלך.",
+      "answer": "פתח את לוח השנה ב-Canvas והעתק את כתובת האתר של עדכון לוח השנה. ביומן Google במחשב, לחץ על הפלוס לצד יומנים אחרים, בחר מתוך כתובת אתר, הדבק את הקישור והוסף את היומן.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "הירשם לעדכון לוח השנה של Canvas",
+          "paragraphs": [
+            "השתמש בקישור המנוי של iCal לעדכונים שוטפים. קובץ ics מיובא הוא תמונת מצב. השאר את כתובת האתר של העדכון פרטית מכיוון שהיא נותנת גישה לערכי היומן שלך."
+          ],
+          "steps": [
+            "היכנס ל-Canvas במחשב. פתח את לוח השנה מהניווט הראשי.",
+            "בחר עדכון לוח שנה והעתק את כתובת האתר מתיבת הדו-שיח.",
+            "פתח את יומן Google בחשבון Google שבו ברצונך להשתמש. לצד יומנים אחרים, לחץ על הפלוס ובחר מתוך כתובת אתר.",
+            "הדבק את כתובת האתר ולחץ על הוסף לוח שנה. תחת יומנים אחרים, בדוק שהלוח החדש גלוי. השווה תאריך יעד קרוב אחד עם Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "מדוע יומן Canvas שלי לא מסתנכרן?",
+          "paragraphs": [
+            "בדוק את המטלה בלוח השנה שלך Canvas. ב-Google Calendar, ודא שאתה משתמש בחשבון הנכון ושהלוח שנה הרשום גלוי. עדכון לוח השנה של Canvas אינו כולל פריטים מרשימת המשימות.",
+            "Instructure אומר שעדכונים יכולים להימשך עד 24 שעות. חסר קורס חדש? קבל את הקישור הנוכחי ליומן מ-Canvas והירשם שוב. אם יש להגדיר מטלה היום, בדוק את השעה המדויקת ב-Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "האם אוכל לראות מטלות Canvas באפליקציית יומן Google בטלפון שלי?",
+          "answer": "כן. לאחר הוספת הפיד בדפדפן המחשב, פתח את אותו חשבון Google באפליקציה. אם היומן מוסתר, חפש אותו ברשימת היומנים של האפליקציה."
+        },
+        {
+          "question": "האם אוכל לשנות מועד אחרון למטלה מיומן Google?",
+          "answer": "שינויים ביומן Google שלך אינם משנים את מועדי הקורסים ב-Canvas. השתמש ב-Canvas כדי לאשר תאריכים, הוראות וסטטוס הגשה."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Paano magdagdag ng Canvas sa Google Calendar",
+      "description": "I-sync ang mga assignment ng Canvas sa Google Calendar gamit ang isang iCal link. Sundin ang mga hakbang sa pag-setup at ayusin ang mga nawawalang assignment o pagbabago na hindi pa lumalabas.",
+      "intro": "Ang Canvas na subscription sa kalendaryo ay naglalagay ng mga kaganapan sa kurso at takdang petsa ng pagtatalaga sa tabi ng iyong personal na iskedyul. I-set up ito sa isang computer browser, pagkatapos ay tingnan ang parehong Google account sa iyong telepono.",
+      "answer": "Buksan ang Calendar sa Canvas at kopyahin ang Calendar Feed URL. Sa Google Calendar sa isang computer, i-click ang plus sa tabi ng Iba pang mga kalendaryo, piliin ang Mula sa URL, i-paste ang link at idagdag ang kalendaryo.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Mag-subscribe sa Canvas calendar feed",
+          "paragraphs": [
+            "Gamitin ang link ng subscription sa iCal para sa mga patuloy na update. Ang na-import na .ics file ay isang snapshot. Panatilihing pribado ang URL ng feed dahil nagbibigay ito ng access sa iyong mga entry sa kalendaryo."
+          ],
+          "steps": [
+            "Mag-sign in sa Canvas sa isang computer. Buksan ang Kalendaryo mula sa pangunahing nabigasyon.",
+            "Piliin ang Feed ng Kalendaryo at kopyahin ang URL mula sa dialog.",
+            "Buksan ang Google Calendar sa Google account na gusto mong gamitin. Sa tabi ng Iba pang mga kalendaryo, i-click ang plus at piliin ang Mula sa URL.",
+            "I-paste ang URL at i-click ang Magdagdag ng kalendaryo. Sa ilalim ng Iba pang mga kalendaryo, tingnan kung nakikita ang bagong kalendaryo. Ihambing ang isang paparating na takdang petsa sa Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Bakit hindi nagsi-sync ang aking Canvas na kalendaryo?",
+          "paragraphs": [
+            "Tingnan ang pagtatalaga sa iyong Canvas na kalendaryo. Sa Google Calendar, i-verify na ginagamit mo ang tamang account at nakikita ang naka-subscribe na kalendaryo. Ang Canvas calendar feed ay hindi kasama ang mga item mula sa listahan ng Gagawin.",
+            "Sinasabi ng Instructure na maaaring tumagal ng hanggang 24 na oras ang mga update. May kulang bang bagong kurso? Kunin ang kasalukuyang link sa kalendaryo mula sa Canvas at mag-subscribe muli. Kung may takdang-aralin ngayon, tingnan ang eksaktong oras sa Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Maaari ko bang makita ang Canvas na mga takdang-aralin sa Google Calendar app sa aking telepono?",
+          "answer": "Oo. Pagkatapos idagdag ang feed sa browser ng iyong computer, buksan ang parehong Google account sa app. Kung nakatago ang kalendaryo, hanapin ito sa listahan ng kalendaryo ng app."
+        },
+        {
+          "question": "Maaari ko bang baguhin ang deadline ng pagtatalaga mula sa Google Calendar?",
+          "answer": "Hindi binabago ng mga pagbabago sa iyong Google Calendar ang mga deadline ng kurso sa Canvas. Gamitin ang Canvas upang kumpirmahin ang mga petsa, mga tagubilin at katayuan ng pagsusumite."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Jak přidat Canvas do Kalendáře Google",
+      "description": "Synchronizujte úkoly Canvas s Kalendářem Google pomocí odkazu iCal. Postupujte podle kroků nastavení a opravte chybějící přiřazení nebo změny, které se ještě nezobrazily.",
+      "intro": "Předplatné kalendáře Canvas umístí události kurzů a termíny plnění úkolů vedle vašeho osobního rozvrhu. Nastavte jej v prohlížeči počítače a poté zkontrolujte stejný účet Google v telefonu.",
+      "answer": "Otevřete Kalendář v Canvas a zkopírujte adresu URL zdroje kalendáře. V Kalendáři Google na počítači klikněte na znaménko plus vedle položky Jiné kalendáře, vyberte Z adresy URL, vložte odkaz a přidejte kalendář.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Přihlaste se k odběru kalendáře Canvas",
+          "paragraphs": [
+            "Pro průběžné aktualizace použijte odkaz na předplatné iCal. Importovaný soubor .ics je snímek. Udržujte adresu URL zdroje soukromou, protože umožňuje přístup k vašim záznamům v kalendáři."
+          ],
+          "steps": [
+            "Přihlaste se do Canvas na počítači. Otevřete Kalendář z hlavní navigace.",
+            "Vyberte možnost Kalendář a zkopírujte adresu URL z dialogového okna.",
+            "Otevřete Kalendář Google v účtu Google, který chcete použít. Vedle položky Jiné kalendáře klikněte na plus a vyberte Z adresy URL.",
+            "Vložte adresu URL a klikněte na Přidat kalendář. V části Jiné kalendáře zkontrolujte, zda je nový kalendář viditelný. Porovnejte jeden nadcházející termín splatnosti se Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Proč se můj kalendář Canvas nesynchronizuje?",
+          "paragraphs": [
+            "Vyhledejte úkol ve svém kalendáři Canvas. V Kalendáři Google ověřte, že používáte správný účet a že je kalendář, k jehož odběru jste se přihlásili, viditelný. Kalendářový kanál Canvas neobsahuje položky ze seznamu úkolů.",
+            "Podle Instructure mohou aktualizace trvat až 24 hodin. Chybí nový kurz? Zkopírujte aktuální odkaz na kalendář z Canvas a znovu se přihlaste k jeho odběru. Pokud je termín odevzdání dnes, ověřte přesný čas v Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mohu zobrazit úkoly Canvas v aplikaci Kalendář Google na svém telefonu?",
+          "answer": "Ano. Po přidání zdroje do prohlížeče počítače otevřete stejný účet Google v aplikaci. Pokud je kalendář skrytý, vyhledejte jej v seznamu kalendářů aplikace."
+        },
+        {
+          "question": "Mohu změnit termín úkolu z Kalendáře Google?",
+          "answer": "Změny ve vašem Kalendáři Google nemění termíny kurzů v Canvas. Použijte Canvas k potvrzení dat, pokynů a stavu odeslání."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Hur man lägger till Canvas till Google Kalender",
+      "description": "Synkronisera Canvas-uppgifter till Google Kalender med en iCal-länk. Följ installationsstegen och åtgärda saknade uppdrag eller ändringar som ännu inte har dykt upp.",
+      "intro": "En Canvas-kalenderprenumeration sätter kurshändelser och inlämningsdatum bredvid ditt personliga schema. Ställ in det i en datorwebbläsare och kontrollera sedan samma Google-konto på din telefon.",
+      "answer": "Öppna Kalender i Canvas och kopiera kalenderflödes-URL. I Google Kalender på en dator, klicka på plustecknet bredvid Andra kalendrar, välj Från URL, klistra in länken och lägg till kalendern.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Prenumerera på Canvas kalenderflöde",
+          "paragraphs": [
+            "Använd iCal-prenumerationslänken för pågående uppdateringar. En importerad .ics-fil är en ögonblicksbild. Håll flödesadressen privat eftersom den ger åtkomst till dina kalenderposter."
+          ],
+          "steps": [
+            "Logga in på Canvas på en dator. Öppna Kalender från huvudnavigeringen.",
+            "Välj Kalenderflöde och kopiera URL:en från dialogrutan.",
+            "Öppna Google Kalender i det Google-konto du vill använda. Klicka på plustecknet bredvid Andra kalendrar och välj Från URL.",
+            "Klistra in webbadressen och klicka på Lägg till kalender. Under Andra kalendrar kontrollerar du att den nya kalendern är synlig. Jämför ett kommande förfallodatum med Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Varför synkroniseras inte min Canvas-kalender?",
+          "paragraphs": [
+            "Kolla efter uppgiften i din Canvas-kalender. I Google Kalender, verifiera att du använder rätt konto och att den prenumererade kalendern är synlig. Canvas-kalenderflödet utesluter objekt från att göra-listan.",
+            "Instructure säger att uppdateringar kan ta upp till 24 timmar. Saknas en ny kurs? Få den aktuella kalenderlänken från Canvas och prenumerera igen. Om ett uppdrag ska lämnas idag, kontrollera den exakta tiden i Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan jag se Canvas-uppgifter i Google Kalender-appen på min telefon?",
+          "answer": "Ja. När du har lagt till flödet i din dators webbläsare öppnar du samma Google-konto i appen. Om kalendern är dold letar du efter den i appens kalenderlista."
+        },
+        {
+          "question": "Kan jag ändra en deadline för uppdrag från Google Kalender?",
+          "answer": "Ändringar i din Google-kalender ändrar inte kursdeadlines i Canvas. Använd Canvas för att bekräfta datum, instruktioner och inlämningsstatus."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Com afegir Canvas a Google Calendar",
+      "description": "Sincronitza les assignacions Canvas amb Google Calendar amb un enllaç iCal. Segueix els passos de configuració i corregeix les tasques que falten o els canvis que encara no s'han mostrat.",
+      "intro": "Una subscripció al calendari Canvas posa els esdeveniments del curs i les dates de venciment de les tasques al costat del vostre horari personal. Configureu-lo al navegador d'un ordinador i, a continuació, comproveu el mateix compte de Google al vostre telèfon.",
+      "answer": "Obriu Calendar a Canvas i copieu l'URL del feed de calendari. A Google Calendar en un ordinador, feu clic al signe més al costat d'Altres calendaris, trieu Des de l'URL, enganxeu l'enllaç i afegiu el calendari.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Subscriu-te al feed del calendari Canvas",
+          "paragraphs": [
+            "Utilitzeu l'enllaç de subscripció a iCal per obtenir actualitzacions en curs. Un fitxer .ics importat és una instantània. Manteniu l'URL del feed privat perquè dóna accés a les entrades del vostre calendari."
+          ],
+          "steps": [
+            "Inicieu la sessió a Canvas des d'un ordinador. Obriu Calendar des de la navegació principal.",
+            "Seleccioneu Feed de calendari i copieu l'URL del diàleg.",
+            "Obriu Google Calendar al compte de Google que voleu utilitzar. Al costat d'Altres calendaris, feu clic al signe més i seleccioneu Des de l'URL.",
+            "Enganxeu l'URL i feu clic a Afegeix calendari. A Altres calendaris, comproveu que el nou calendari sigui visible. Compareu una data de venciment propera amb Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Per què el meu calendari Canvas no es sincronitza?",
+          "paragraphs": [
+            "Comproveu la tasca al vostre calendari Canvas. A Google Calendar, verifiqueu que feu servir el compte correcte i que el calendari subscrit sigui visible. El feed del calendari Canvas exclou elements de la llista de tasques pendents.",
+            "Instructure diu que les actualitzacions poden trigar fins a 24 hores. Falta un nou curs? Obteniu l'enllaç del calendari actual de Canvas i torneu a subscriure-us. Si s'ha de fer una tasca avui, comproveu l'hora exacta a Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Puc veure les tasques Canvas a l'aplicació Google Calendar al meu telèfon?",
+          "answer": "Sí. Després d'afegir el feed al navegador de l'ordinador, obriu el mateix compte de Google a l'aplicació. Si el calendari està amagat, cerqueu-lo a la llista de calendaris de l'aplicació."
+        },
+        {
+          "question": "Puc canviar la data límit d'una tasca des de Google Calendar?",
+          "answer": "Els canvis al vostre Google Calendar no canvien els terminis dels cursos a Canvas. Utilitzeu Canvas per confirmar dates, instruccions i estat d'enviament."
+        }
+      ]
+    },
+    "da": {
+      "title": "Sådan tilføjer du Canvas til Google Kalender",
+      "description": "Synkroniser Canvas-opgaver til Google Kalender med et iCal-link. Følg opsætningstrinnene og ret manglende opgaver eller ændringer, der endnu ikke er vist.",
+      "intro": "Et Canvas-kalenderabonnement sætter kursusbegivenheder og afleveringsfrister ved siden af din personlige tidsplan. Konfigurer det i en computerbrowser, og tjek derefter den samme Google-konto på din telefon.",
+      "answer": "Åbn Kalender i Canvas og kopier kalenderfeed-URL'en. I Google Kalender på en computer skal du klikke på pluspunktet ud for Andre kalendere, vælge Fra URL, indsætte linket og tilføje kalenderen.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Abonner på Canvas kalenderfeedet",
+          "paragraphs": [
+            "Brug iCal-abonnementslinket til løbende opdateringer. En importeret .ics-fil er et øjebliksbillede. Hold feed-URL'en privat, fordi den giver adgang til dine kalenderposter."
+          ],
+          "steps": [
+            "Log ind på Canvas på en computer. Åbn Kalender fra hovednavigationen.",
+            "Vælg Kalenderfeed, og kopier URL'en fra dialogboksen.",
+            "Åbn Google Kalender på den Google-konto, du vil bruge. Ud for Andre kalendere skal du klikke på plus og vælge Fra URL.",
+            "Indsæt URL'en, og klik på Tilføj kalender. Under Andre kalendere skal du kontrollere, at den nye kalender er synlig. Sammenlign en kommende forfaldsdato med Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Hvorfor synkroniseres min Canvas-kalender ikke?",
+          "paragraphs": [
+            "Tjek efter opgaven i din Canvas-kalender. I Google Kalender skal du kontrollere, at du bruger den rigtige konto, og at den tilmeldte kalender er synlig. Canvas kalenderfeedet ekskluderer elementer fra opgavelisten.",
+            "Instructure siger, at opdateringer kan tage op til 24 timer. Mangler et nyt kursus? Få det aktuelle kalenderlink fra Canvas og abonner igen. Hvis en opgave skal afleveres i dag, skal du tjekke det nøjagtige tidspunkt i Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan jeg se Canvas-opgaver i Google Kalender-appen på min telefon?",
+          "answer": "Ja. Når du har tilføjet feedet i din computerbrowser, skal du åbne den samme Google-konto i appen. Hvis kalenderen er skjult, skal du kigge efter den i appens kalenderliste."
+        },
+        {
+          "question": "Kan jeg ændre en opgavefrist fra Google Kalender?",
+          "answer": "Ændringer i din Google-kalender ændrer ikke kursusdeadlines i Canvas. Brug Canvas til at bekræfte datoer, instruktioner og indsendelsesstatus."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Kuinka lisätä Canvas Google-kalenteriin",
+      "description": "Synkronoi Canvas-tehtävät Google-kalenteriin iCal-linkin avulla. Noudata asennusvaiheita ja korjaa puuttuvat tehtävät tai muutokset, jotka eivät ole vielä näkyvissä.",
+      "intro": "Canvas-kalenteritilaus asettaa kurssitapahtumat ja tehtävien eräpäivät henkilökohtaisen aikataulusi viereen. Määritä se tietokoneen selaimessa ja tarkista sitten sama Google-tili puhelimessasi.",
+      "answer": "Avaa kalenteri Canvas:ssä ja kopioi kalenterin syötteen URL-osoite. Napsauta tietokoneen Google-kalenterissa Muut kalenterit -kohdan vieressä olevaa plusmerkkiä, valitse URL-osoitteesta, liitä linkki ja lisää kalenteri.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Tilaa Canvas-kalenterisyöte",
+          "paragraphs": [
+            "Käytä iCal-tilauslinkkiä jatkuviin päivityksiin. Tuotu .ics-tiedosto on tilannekuva. Pidä syötteen URL-osoite yksityisenä, koska se antaa pääsyn kalenterimerkintöihisi."
+          ],
+          "steps": [
+            "Kirjaudu sisään Canvas:ään tietokoneella. Avaa Kalenteri päänavigointivalikosta.",
+            "Valitse kalenterin syöte ja kopioi URL-osoite valintaikkunasta.",
+            "Avaa Google-kalenteri sillä Google-tilillä, jota haluat käyttää. Napsauta Muut kalenterit -kohdan vieressä plusmerkkiä ja valitse URL-osoitteesta.",
+            "Liitä URL-osoite ja napsauta Lisää kalenteri. Tarkista Muut kalenterit -kohdassa, että uusi kalenteri on näkyvissä. Vertaa yhtä tulevaa eräpäivää Canvas:n kanssa."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Miksi Canvas-kalenterini ei synkronoidu?",
+          "paragraphs": [
+            "Tarkista tehtävä Canvas-kalenteristasi. Varmista Google-kalenterissa, että käytät oikeaa tiliä ja että tilaamasi kalenteri on näkyvissä. Canvas-kalenterisyöte sulkee pois kohteita To Do -luettelosta.",
+            "Instructure sanoo, että päivitykset voivat kestää jopa 24 tuntia. Puuttuuko uusi kurssi? Hanki nykyinen kalenterilinkki Canvas:stä ja tilaa uudelleen. Jos tehtävä on tänään, tarkista tarkka aika Canvas:stä."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Voinko nähdä Canvas-tehtävät puhelimeni Google-kalenteri-sovelluksessa?",
+          "answer": "Kyllä. Kun olet lisännyt syötteen tietokoneesi selaimessa, avaa sama Google-tili sovelluksessa. Jos kalenteri on piilotettu, etsi se sovelluksen kalenteriluettelosta."
+        },
+        {
+          "question": "Voinko muuttaa tehtävän määräaikaa Google-kalenterista?",
+          "answer": "Google-kalenterisi muutokset eivät muuta kurssin määräaikoja Canvas:ssä. Käytä Canvas vahvistaaksesi päivämäärät, ohjeet ja lähetyksen tilan."
+        }
+      ]
+    },
+    "el": {
+      "title": "Πώς να προσθέσετε το Canvas στο Ημερολόγιο Google",
+      "description": "Συγχρονίστε τις αναθέσεις Canvas στο Ημερολόγιο Google με έναν σύνδεσμο iCal. Ακολουθήστε τα βήματα ρύθμισης και διορθώστε τις αναθέσεις που λείπουν ή τις αλλαγές που δεν έχουν εμφανιστεί ακόμη.",
+      "intro": "Μια συνδρομή στο ημερολόγιο Canvas τοποθετεί τα γεγονότα μαθημάτων και τις ημερομηνίες λήξης των εργασιών εκτός από το προσωπικό σας πρόγραμμα. Ρυθμίστε το σε ένα πρόγραμμα περιήγησης υπολογιστή και, στη συνέχεια, ελέγξτε τον ίδιο λογαριασμό Google στο τηλέφωνό σας.",
+      "answer": "Ανοίξτε το Ημερολόγιο στο Canvas και αντιγράψτε τη διεύθυνση URL ροής ημερολογίου. Στο Ημερολόγιο Google σε υπολογιστή, κάντε κλικ στο συν δίπλα στην επιλογή Άλλα ημερολόγια, επιλέξτε Από τη διεύθυνση URL, επικολλήστε τον σύνδεσμο και προσθέστε το ημερολόγιο.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Εγγραφείτε στη ροή ημερολογίου Canvas",
+          "paragraphs": [
+            "Χρησιμοποιήστε το σύνδεσμο συνδρομής iCal για συνεχείς ενημερώσεις. Ένα εισαγόμενο αρχείο .ics είναι ένα στιγμιότυπο. Διατηρήστε τη διεύθυνση URL της ροής ιδιωτική επειδή παρέχει πρόσβαση στις καταχωρίσεις του ημερολογίου σας."
+          ],
+          "steps": [
+            "Συνδεθείτε στο Canvas σε υπολογιστή. Ανοίξτε το Ημερολόγιο από την κύρια πλοήγηση.",
+            "Επιλέξτε Ροή ημερολογίου και αντιγράψτε τη διεύθυνση URL από το παράθυρο διαλόγου.",
+            "Ανοίξτε το Ημερολόγιο Google στον λογαριασμό Google που θέλετε να χρησιμοποιήσετε. Δίπλα στο Άλλα ημερολόγια, κάντε κλικ στο συν και επιλέξτε Από τη διεύθυνση URL.",
+            "Επικολλήστε τη διεύθυνση URL και κάντε κλικ στην Προσθήκη ημερολογίου. Στην ενότητα Άλλα ημερολόγια, ελέγξτε ότι το νέο ημερολόγιο είναι ορατό. Συγκρίνετε μια επερχόμενη ημερομηνία λήξης με το Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Γιατί το ημερολόγιό μου Canvas δεν συγχρονίζεται;",
+          "paragraphs": [
+            "Ελέγξτε για την ανάθεση στο ημερολόγιό σας Canvas. Στο Ημερολόγιο Google, βεβαιωθείτε ότι χρησιμοποιείτε τον σωστό λογαριασμό και ότι το εγγεγραμμένο ημερολόγιο είναι ορατό. Η ροή ημερολογίου Canvas εξαιρεί στοιχεία από τη λίστα εκκρεμοτήτων.",
+            "Ο Instructure λέει ότι οι ενημερώσεις μπορεί να διαρκέσουν έως και 24 ώρες. Λείπει ένα νέο μάθημα; Αποκτήστε τον τρέχοντα σύνδεσμο ημερολογίου από το Canvas και εγγραφείτε ξανά. Εάν μια εργασία αναμένεται σήμερα, ελέγξτε την ακριβή ώρα σε Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Μπορώ να δω αναθέσεις Canvas στην εφαρμογή Ημερολόγιο Google στο τηλέφωνό μου;",
+          "answer": "Ναι. Αφού προσθέσετε τη ροή στο πρόγραμμα περιήγησης του υπολογιστή σας, ανοίξτε τον ίδιο λογαριασμό Google στην εφαρμογή. Εάν το ημερολόγιο είναι κρυφό, αναζητήστε το στη λίστα ημερολογίων της εφαρμογής."
+        },
+        {
+          "question": "Μπορώ να αλλάξω μια προθεσμία ανάθεσης από το Ημερολόγιο Google;",
+          "answer": "Οι αλλαγές στο Ημερολόγιο Google δεν αλλάζουν τις προθεσμίες μαθημάτων στο Canvas. Χρησιμοποιήστε το Canvas για να επιβεβαιώσετε τις ημερομηνίες, τις οδηγίες και την κατάσταση υποβολής."
+        }
+      ]
+    },
+    "hu": {
+      "title": "A Canvas hozzáadása a Google Naptárhoz",
+      "description": "Szinkronizálja a Canvas hozzárendeléseket a Google Naptárhoz egy iCal hivatkozással. Kövesse a beállítási lépéseket, és javítsa ki a hiányzó hozzárendeléseket vagy módosításokat, amelyek még nem jelentek meg.",
+      "intro": "A Canvas naptár-előfizetéssel a kurzusesemények és a feladatok esedékessége a személyes ütemterv mellé kerül. Állítsa be a számítógép böngészőjében, majd ellenőrizze ugyanazt a Google-fiókot a telefonján.",
+      "answer": "Nyissa meg a Naptárt a Canvas alkalmazásban, és másolja ki a naptári hírcsatorna URL-címét. A számítógépen a Google Naptárban kattintson a pluszjelre az Egyéb naptárak mellett, válassza az URL-ből lehetőséget, illessze be a hivatkozást, és adja hozzá a naptárt.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Iratkozzon fel a Canvas naptár feedjére",
+          "paragraphs": [
+            "A folyamatos frissítésekhez használja az iCal előfizetési hivatkozást. Az importált .ics fájl egy pillanatkép. A hírcsatorna URL-je legyen privát, mert hozzáférést biztosít a naptárbejegyzésekhez."
+          ],
+          "steps": [
+            "Jelentkezzen be a Canvas szolgáltatásba számítógépen. Nyissa meg a Naptárt a fő navigációs menüből.",
+            "Válassza a Calendar Feed lehetőséget, és másolja ki az URL-t a párbeszédpanelből.",
+            "Nyissa meg a Google Naptárt a használni kívánt Google-fiókban. Az Egyéb naptárak mellett kattintson a pluszjelre, és válassza az URL-ről lehetőséget.",
+            "Illessze be az URL-t, és kattintson a Naptár hozzáadása gombra. Az Egyéb naptárak részben ellenőrizze, hogy az új naptár látható-e. Hasonlítson össze egy közelgő esedékes dátumot a Canvas-vel."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Miért nem szinkronizálódik a Canvas naptáram?",
+          "paragraphs": [
+            "Keresse meg a feladatot a Canvas naptárában. A Google Naptárban ellenőrizze, hogy a megfelelő fiókot használja, és hogy az előfizetett naptár látható-e. A Canvas naptár hírcsatorna kizárja a tételeket a Teendők listájáról.",
+            "A Instructure szerint a frissítések akár 24 órát is igénybe vehetnek. Hiányzik egy új tanfolyam? Szerezd meg az aktuális naptárlinket a Canvas oldalról, és iratkozz fel újra. Ha egy megbízás ma esedékes, ellenőrizze a pontos időt a Canvas-ben."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Láthatom a Canvas feladatokat a telefonom Google Naptár alkalmazásában?",
+          "answer": "Igen. Miután hozzáadta a hírcsatornát a számítógép böngészőjében, nyissa meg ugyanazt a Google-fiókot az alkalmazásban. Ha a naptár rejtett, keresse meg az alkalmazás naptárlistájában."
+        },
+        {
+          "question": "Módosíthatok egy megbízási határidőt a Google Naptárból?",
+          "answer": "A Google Naptár módosításai nem változtatják meg a kurzusok határidejét a Canvas-ben. A dátumok, utasítások és a beküldés állapotának megerősítéséhez használja a Canvas gombot."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Bagaimana untuk menambah Canvas pada Kalendar Google",
+      "description": "Segerakkan tugasan Canvas ke Kalendar Google dengan pautan iCal. Ikut langkah persediaan dan betulkan tugasan yang hilang atau perubahan yang masih belum muncul.",
+      "intro": "Langganan kalendar Canvas meletakkan acara kursus dan tarikh akhir tugasan di samping jadual peribadi anda. Sediakannya dalam penyemak imbas komputer, kemudian semak akaun Google yang sama pada telefon anda.",
+      "answer": "Buka Kalendar dalam Canvas dan salin URL Suapan Kalendar. Dalam Kalendar Google pada komputer, klik tambah di sebelah Kalendar lain, pilih Daripada URL, tampal pautan dan tambah kalendar.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Langgan suapan kalendar Canvas",
+          "paragraphs": [
+            "Gunakan pautan langganan iCal untuk kemas kini berterusan. Fail .ics yang diimport ialah syot kilat. Pastikan URL suapan peribadi kerana ia memberikan akses kepada entri kalendar anda."
+          ],
+          "steps": [
+            "Log masuk ke Canvas pada komputer. Buka Kalendar dari navigasi utama.",
+            "Pilih Suapan Kalendar dan salin URL daripada dialog.",
+            "Buka Kalendar Google dalam akaun Google yang ingin anda gunakan. Di sebelah Kalendar lain, klik tambah dan pilih Daripada URL.",
+            "Tampal URL dan klik Tambah kalendar. Di bawah Kalendar lain, semak bahawa kalendar baharu kelihatan. Bandingkan satu tarikh akhir akan datang dengan Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Mengapa kalendar Canvas saya tidak menyegerak?",
+          "paragraphs": [
+            "Semak tugasan dalam kalendar Canvas anda. Dalam Kalendar Google, sahkan bahawa anda menggunakan akaun yang betul dan kalendar yang dilanggan kelihatan. Suapan kalendar Canvas mengecualikan item daripada senarai Tugasan.",
+            "Instructure mengatakan kemas kini boleh mengambil masa sehingga 24 jam. Adakah kursus baru tiada? Dapatkan pautan kalendar semasa daripada Canvas dan langgan semula. Jika tugasan perlu dibuat hari ini, semak masa yang tepat dalam Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bolehkah saya melihat tugasan Canvas dalam apl Kalendar Google pada telefon saya?",
+          "answer": "ya. Selepas menambah suapan dalam penyemak imbas komputer anda, buka akaun Google yang sama dalam apl. Jika kalendar disembunyikan, cari ia dalam senarai kalendar apl."
+        },
+        {
+          "question": "Bolehkah saya menukar tarikh akhir tugasan daripada Kalendar Google?",
+          "answer": "Perubahan pada Kalendar Google anda tidak mengubah tarikh akhir kursus dalam Canvas. Gunakan Canvas untuk mengesahkan tarikh, arahan dan status penyerahan."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Slik legger du til Canvas i Google Kalender",
+      "description": "Synkroniser Canvas-oppdrag til Google Kalender med en iCal-kobling. Følg oppsettstrinnene og fiks manglende oppdrag eller endringer som ennå ikke har vist seg.",
+      "intro": "Et Canvas-kalenderabonnement setter kurshendelser og forfallsdatoer for oppdrag ved siden av din personlige timeplan. Sett den opp i en nettleser på datamaskinen, og sjekk deretter den samme Google-kontoen på telefonen.",
+      "answer": "Åpne Kalender i Canvas og kopier URL-adressen til kalenderfeeden. I Google Kalender på en datamaskin klikker du på plusset ved siden av Andre kalendere, velger Fra URL, limer inn koblingen og legger til kalenderen.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Abonner på Canvas-kalenderfeeden",
+          "paragraphs": [
+            "Bruk iCal-abonnementslenken for løpende oppdateringer. En importert .ics-fil er et øyeblikksbilde. Hold feed-URLen privat fordi den gir tilgang til kalenderoppføringene dine."
+          ],
+          "steps": [
+            "Logg på Canvas på en datamaskin. Åpne Kalender fra hovednavigasjonen.",
+            "Velg Kalenderinnmating og kopier URL-en fra dialogboksen.",
+            "Åpne Google Kalender i Google-kontoen du vil bruke. Ved siden av Andre kalendere klikker du på plusset og velger Fra URL.",
+            "Lim inn URL-en og klikk på Legg til kalender. Under Andre kalendere kontrollerer du at den nye kalenderen er synlig. Sammenlign en kommende forfallsdato med Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Hvorfor synkroniseres ikke Canvas-kalenderen min?",
+          "paragraphs": [
+            "Se etter oppgaven i Canvas-kalenderen din. I Google Kalender kontrollerer du at du bruker riktig konto og at kalenderen du abonnerer på er synlig. Canvas-kalenderstrømmen ekskluderer elementer fra oppgavelisten.",
+            "Instructure sier at oppdateringer kan ta opptil 24 timer. Mangler et nytt kurs? Få den gjeldende kalenderlenken fra Canvas og abonner på nytt. Hvis en oppgave skal leveres i dag, sjekk den nøyaktige tiden i Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kan jeg se Canvas-oppgaver i Google Kalender-appen på telefonen min?",
+          "answer": "Ja. Etter å ha lagt til feeden i nettleseren på datamaskinen, åpner du den samme Google-kontoen i appen. Hvis kalenderen er skjult, se etter den i appens kalenderliste."
+        },
+        {
+          "question": "Kan jeg endre en oppgavefrist fra Google Kalender?",
+          "answer": "Endringer i Google Kalender endrer ikke kursfrister i Canvas. Bruk Canvas for å bekrefte datoer, instruksjoner og innsendingsstatus."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Cum să adăugați Canvas la Google Calendar",
+      "description": "Sincronizați sarcinile Canvas cu Google Calendar cu un link iCal. Urmați pașii de configurare și remediați sarcinile lipsă sau modificările care nu au apărut încă.",
+      "intro": "Un abonament de calendar Canvas pune evenimentele de curs și datele limită ale sarcinilor alături de programul dvs. personal. Configurați-l într-un browser de computer, apoi verificați același cont Google pe telefon.",
+      "answer": "Deschideți Calendar în Canvas și copiați adresa URL a feedului de calendar. În Google Calendar pe un computer, faceți clic pe plus de lângă Alte calendare, alegeți Din URL, inserați linkul și adăugați calendarul.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Abonați-vă la fluxul de calendar Canvas",
+          "paragraphs": [
+            "Utilizați linkul de abonament iCal pentru actualizări în curs. Un fișier .ics importat este un instantaneu. Păstrați adresa URL a feedului privată, deoarece vă oferă acces la intrările din calendar."
+          ],
+          "steps": [
+            "Conectați-vă la Canvas pe un computer. Deschideți Calendar din navigarea principală.",
+            "Selectați Calendar Feed și copiați adresa URL din caseta de dialog.",
+            "Deschideți Google Calendar în contul Google pe care doriți să îl utilizați. Lângă Alte calendare, dați clic pe plus și selectați Din URL.",
+            "Lipiți adresa URL și faceți clic pe Adăugați calendar. Sub Alte calendare, verificați dacă noul calendar este vizibil. Comparați o dată scadentă viitoare cu Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "De ce calendarul meu Canvas nu se sincronizează?",
+          "paragraphs": [
+            "Verificați sarcina în calendarul dvs. Canvas. În Google Calendar, verificați dacă utilizați contul corect și că calendarul abonat este vizibil. Fluxul de calendar Canvas exclude articole din lista de făcut.",
+            "Instructure spune că actualizările pot dura până la 24 de ore. Lipsește un nou curs? Obțineți linkul actual al calendarului de la Canvas și abonați-vă din nou. Dacă o misiune urmează să fie programată astăzi, verificați ora exactă în Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Pot vedea temele Canvas în aplicația Google Calendar de pe telefon?",
+          "answer": "Da. După ce ați adăugat feedul în browserul computerului, deschideți același cont Google în aplicație. Dacă calendarul este ascuns, căutați-l în lista de calendare a aplicației."
+        },
+        {
+          "question": "Pot schimba un termen limită de atribuire din Google Calendar?",
+          "answer": "Modificările aduse Google Calendar nu modifică termenele limită ale cursurilor în Canvas. Utilizați Canvas pentru a confirma datele, instrucțiunile și starea trimiterii."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Kako dodati Canvas u Google kalendar",
+      "description": "Sinkronizirajte Canvas zadatke s Google kalendarom s iCal vezom. Slijedite korake postavljanja i popravite nedostajuće zadatke ili promjene koje se tek trebaju prikazati.",
+      "intro": "Pretplata na kalendar Canvas stavlja događaje na tečaju i datume dospijeća zadataka pored vašeg osobnog rasporeda. Postavite ga u pregledniku računala, a zatim provjerite isti Google račun na svom telefonu.",
+      "answer": "Otvorite Kalendar u Canvas i kopirajte URL feeda kalendara. U Google kalendaru na računalu kliknite plus pored Ostali kalendari, odaberite Iz URL-a, zalijepite vezu i dodajte kalendar.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Pretplatite se na sažetak kalendara Canvas",
+          "paragraphs": [
+            "Koristite vezu za pretplatu na iCal za stalna ažuriranja. Uvezena .ics datoteka je snimka. Držite URL feeda privatnim jer daje pristup vašim unosima u kalendaru."
+          ],
+          "steps": [
+            "Prijavite se na Canvas na računalu. Otvorite Kalendar iz glavne navigacije.",
+            "Odaberite Sažetak kalendara i kopirajte URL iz dijaloškog okvira.",
+            "Otvorite Google kalendar na Google računu koji želite koristiti. Pokraj Ostalih kalendara kliknite plus i odaberite Iz URL-a.",
+            "Zalijepite URL i kliknite Dodaj kalendar. U odjeljku Ostali kalendari provjerite je li novi kalendar vidljiv. Usporedite jedan nadolazeći termin poroda sa Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Zašto se moj Canvas kalendar ne sinkronizira?",
+          "paragraphs": [
+            "Provjerite zadatak u svom Canvas kalendaru. U Google kalendaru provjerite koristite li pravi račun i je li kalendar na koji ste pretplaćeni vidljiv. Sažetak kalendara Canvas isključuje stavke s popisa obaveza.",
+            "Instructure kaže da ažuriranja mogu potrajati do 24 sata. Nedostaje li novi tečaj? Nabavite trenutnu poveznicu na kalendar od Canvas i pretplatite se ponovno. Ako je zadatak danas, provjerite točno vrijeme u Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mogu li vidjeti Canvas zadatke u aplikaciji Google kalendar na svom telefonu?",
+          "answer": "da Nakon dodavanja feeda u preglednik računala, otvorite isti Google račun u aplikaciji. Ako je kalendar skriven, potražite ga na popisu kalendara aplikacije."
+        },
+        {
+          "question": "Mogu li promijeniti rok zadatka iz Google kalendara?",
+          "answer": "Promjene u vašem Google kalendaru ne mijenjaju rokove tečajeva u Canvas. Koristite Canvas za potvrdu datuma, uputa i statusa predaje."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Ako pridať Canvas do Kalendára Google",
+      "description": "Synchronizujte priradenia Canvas do Kalendára Google pomocou odkazu iCal. Postupujte podľa krokov nastavenia a opravte chýbajúce priradenia alebo zmeny, ktoré sa ešte nezobrazili.",
+      "intro": "Predplatné kalendára Canvas umiestňuje udalosti kurzov a termíny zadania vedľa vášho osobného rozvrhu. Nastavte ho v prehliadači počítača a potom skontrolujte rovnaký účet Google v telefóne.",
+      "answer": "Otvorte Kalendár v Canvas a skopírujte adresu URL informačného kanála kalendára. V Kalendári Google na počítači kliknite na znamienko plus vedľa položky Iné kalendáre, vyberte položku Z adresy URL, prilepte odkaz a pridajte kalendár.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Prihláste sa na odber kalendára Canvas",
+          "paragraphs": [
+            "Pre priebežné aktualizácie použite odkaz na predplatné iCal. Importovaný súbor .ics je snímka. Udržujte adresu URL informačného kanála ako súkromnú, pretože poskytuje prístup k záznamom v kalendári."
+          ],
+          "steps": [
+            "Prihláste sa do Canvas na počítači. Otvorte Kalendár z hlavnej navigácie.",
+            "Vyberte položku Kalendár a skopírujte adresu URL z dialógového okna.",
+            "Otvorte Kalendár Google v účte Google, ktorý chcete použiť. Vedľa položky Iné kalendáre kliknite na znamienko plus a vyberte položku Z adresy URL.",
+            "Prilepte webovú adresu a kliknite na Pridať kalendár. V časti Iné kalendáre skontrolujte, či je nový kalendár viditeľný. Porovnajte jeden nadchádzajúci dátum splatnosti so Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Prečo sa môj kalendár Canvas nesynchronizuje?",
+          "paragraphs": [
+            "Skontrolujte zadanie vo svojom kalendári Canvas. V Kalendári Google skontrolujte, či používate správny účet a či je zobrazený odoberaný kalendár. Informačný kanál kalendára Canvas vylučuje položky zo zoznamu úloh.",
+            "Instructure hovorí, že aktualizácie môžu trvať až 24 hodín. Chýba nový kurz? Získajte aktuálny odkaz na kalendár zo Canvas a znova sa prihláste na odber. Ak je úloha splatná dnes, skontrolujte presný čas v Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Môžem vidieť úlohy Canvas v aplikácii Kalendár Google na svojom telefóne?",
+          "answer": "áno. Po pridaní informačného kanála do prehliadača v počítači otvorte rovnaký účet Google v aplikácii. Ak je kalendár skrytý, vyhľadajte ho v zozname kalendárov aplikácie."
+        },
+        {
+          "question": "Môžem zmeniť termín zadania z Kalendára Google?",
+          "answer": "Zmeny vo vašom kalendári Google nemenia termíny kurzov v Canvas. Použite Canvas na potvrdenie dátumov, pokynov a stavu odoslania."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Kako dodati Canvas v Google Koledar",
+      "description": "Sinhronizirajte naloge Canvas z Google Koledarjem s povezavo iCal. Sledite korakom za nastavitev in popravite manjkajoče dodelitve ali spremembe, ki se še niso prikazale.",
+      "intro": "Naročnina na koledar Canvas postavi dogodke na tečajih in roke za naloge poleg vašega osebnega urnika. Nastavite ga v brskalniku računalnika, nato pa preverite isti račun Google v telefonu.",
+      "answer": "Odprite koledar v Canvas in kopirajte URL vira koledarja. V Google Koledarju v računalniku kliknite plus poleg možnosti Drugi koledarji, izberite Iz URL-ja, prilepite povezavo in dodajte koledar.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Naročite se na vir koledarja Canvas",
+          "paragraphs": [
+            "Za tekoče posodobitve uporabite povezavo za naročnino na iCal. Uvožena datoteka .ics je posnetek. URL vira naj bo zaseben, ker omogoča dostop do vaših koledarskih vnosov."
+          ],
+          "steps": [
+            "Prijavite se v Canvas v računalniku. Odprite Koledar v glavni navigaciji.",
+            "Izberite Vir koledarja in kopirajte URL iz pogovornega okna.",
+            "Odprite Google Koledar v Google Računu, ki ga želite uporabiti. Zraven Drugi koledarji kliknite plus in izberite Iz URL-ja.",
+            "Prilepite URL in kliknite Dodaj koledar. V razdelku Drugi koledarji preverite, ali je novi koledar viden. Primerjajte en prihajajoči rok poroda z Canvas."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "Zakaj se moj koledar Canvas ne sinhronizira?",
+          "paragraphs": [
+            "Preverite nalogo v svojem koledarju Canvas. V Google Koledarju preverite, ali uporabljate pravi račun in ali je naročeni koledar viden. Koledarski vir Canvas izključuje elemente s seznama opravil.",
+            "Instructure pravi, da lahko posodobitve trajajo do 24 ur. Ali manjka nov tečaj? Pridobite trenutno povezavo do koledarja pri Canvas in se znova naročite. Če je naloga danes, preverite točen čas v Canvas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ali lahko vidim naloge Canvas v aplikaciji Google Koledar v telefonu?",
+          "answer": "ja Ko vir dodate v brskalnik računalnika, odprite isti Google Račun v aplikaciji. Če je koledar skrit, ga poiščite na seznamu koledarjev aplikacije."
+        },
+        {
+          "question": "Ali lahko spremenim rok za nalogo iz Google Koledarja?",
+          "answer": "Spremembe vašega Google Koledarja ne spremenijo rokov tečajev v Canvas. Za potrditev datumov, navodil in stanja oddaje uporabite Canvas."
+        }
+      ]
+    },
+    "gu": {
+      "title": "ગૂગલ કેલેન્ડરમાં Canvas કેવી રીતે ઉમેરવું",
+      "description": "Canvas સોંપણીઓને iCal લિંક વડે Google Calendar પર સમન્વયિત કરો. સેટઅપ સ્ટેપ્સને અનુસરો અને ગુમ થયેલ અસાઇનમેન્ટ્સ અથવા ફેરફારોને ઠીક કરો જે હજુ સુધી બતાવવાના બાકી છે.",
+      "intro": "Canvas કૅલેન્ડર સબ્સ્ક્રિપ્શન તમારા વ્યક્તિગત શેડ્યૂલની બાજુમાં કોર્સ ઇવેન્ટ્સ અને સોંપણીની નિયત તારીખો મૂકે છે. તેને કમ્પ્યુટર બ્રાઉઝરમાં સેટ કરો, પછી તમારા ફોન પર સમાન Google એકાઉન્ટ તપાસો.",
+      "answer": "Canvas માં કૅલેન્ડર ખોલો અને કૅલેન્ડર ફીડ URL કૉપિ કરો. કમ્પ્યુટર પર ગૂગલ કેલેન્ડરમાં, અન્ય કેલેન્ડર્સની બાજુમાં પ્લસ પર ક્લિક કરો, યુઆરએલમાંથી પસંદ કરો, લિંક પેસ્ટ કરો અને કેલેન્ડર ઉમેરો.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas કૅલેન્ડર ફીડ પર સબ્સ્ક્રાઇબ કરો",
+          "paragraphs": [
+            "ચાલુ અપડેટ્સ માટે iCal સબ્સ્ક્રિપ્શન લિંકનો ઉપયોગ કરો. આયાત કરેલ .ics ફાઇલ સ્નેપશોટ છે. ફીડ URL ને ખાનગી રાખો કારણ કે તે તમારી કેલેન્ડર એન્ટ્રીઓની ઍક્સેસ આપે છે."
+          ],
+          "steps": [
+            "કમ્પ્યુટર પર Canvas માં સાઇન ઇન કરો. મુખ્ય નેવિગેશનમાંથી કેલેન્ડર ખોલો.",
+            "કૅલેન્ડર ફીડ પસંદ કરો અને સંવાદમાંથી URL કૉપિ કરો.",
+            "તમે જે Google એકાઉન્ટનો ઉપયોગ કરવા માંગો છો તેમાં Google Calendar ખોલો. અન્ય કૅલેન્ડર્સની બાજુમાં, વત્તા પર ક્લિક કરો અને URLમાંથી પસંદ કરો.",
+            "URL પેસ્ટ કરો અને કૅલેન્ડર ઉમેરો પર ક્લિક કરો. અન્ય કૅલેન્ડર્સ હેઠળ, તપાસો કે નવું કૅલેન્ડર દૃશ્યમાન છે. Canvas સાથે એક આગામી નિયત તારીખની સરખામણી કરો."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "શા માટે મારું Canvas કૅલેન્ડર સમન્વયિત થતું નથી?",
+          "paragraphs": [
+            "તમારા Canvas કૅલેન્ડરમાં સોંપણી માટે તપાસો. Google કૅલેન્ડરમાં, ચકાસો કે તમે યોગ્ય એકાઉન્ટનો ઉપયોગ કરી રહ્યાં છો અને સબ્સ્ક્રાઇબ કરેલું કૅલેન્ડર દૃશ્યક્ષમ છે. Canvas કૅલેન્ડર ફીડ ટૂ ડૂ સૂચિમાંથી વસ્તુઓને બાકાત રાખે છે.",
+            "Instructure કહે છે કે અપડેટ્સમાં 24 કલાક જેટલો સમય લાગી શકે છે. શું નવો કોર્સ ખૂટે છે? Canvas થી વર્તમાન કૅલેન્ડર લિંક મેળવો અને ફરીથી સબ્સ્ક્રાઇબ કરો. જો આજે સોંપણી બાકી છે, તો Canvas માં ચોક્કસ સમય તપાસો."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "શું હું મારા ફોન પર Google કૅલેન્ડર ઍપમાં Canvas અસાઇનમેન્ટ જોઈ શકું?",
+          "answer": "હા. તમારા કમ્પ્યુટર બ્રાઉઝરમાં ફીડ ઉમેર્યા પછી, એપ્લિકેશનમાં સમાન Google એકાઉન્ટ ખોલો. જો કેલેન્ડર છુપાયેલ હોય, તો તેને એપ્લિકેશનની કેલેન્ડર સૂચિમાં શોધો."
+        },
+        {
+          "question": "શું હું Google કૅલેન્ડરમાંથી સોંપણીની સમયમર્યાદા બદલી શકું?",
+          "answer": "તમારા Google કૅલેન્ડરમાં ફેરફારો Canvas માં અભ્યાસક્રમની સમયમર્યાદામાં ફેરફાર કરતા નથી. તારીખો, સૂચનાઓ અને સબમિશન સ્થિતિની પુષ્ટિ કરવા માટે Canvas નો ઉપયોગ કરો."
+        }
+      ]
+    },
+    "kn": {
+      "title": "Google ಕ್ಯಾಲೆಂಡರ್‌ಗೆ Canvas ಅನ್ನು ಹೇಗೆ ಸೇರಿಸುವುದು",
+      "description": "iCal ಲಿಂಕ್‌ನೊಂದಿಗೆ Google ಕ್ಯಾಲೆಂಡರ್‌ಗೆ Canvas ಕಾರ್ಯಯೋಜನೆಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಿ. ಸೆಟಪ್ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ ಮತ್ತು ಕಾಣೆಯಾದ ಅಸೈನ್‌ಮೆಂಟ್‌ಗಳು ಅಥವಾ ಇನ್ನೂ ತೋರಿಸಬೇಕಾದ ಬದಲಾವಣೆಗಳನ್ನು ಸರಿಪಡಿಸಿ.",
+      "intro": "Canvas ಕ್ಯಾಲೆಂಡರ್ ಚಂದಾದಾರಿಕೆಯು ಕೋರ್ಸ್ ಈವೆಂಟ್‌ಗಳು ಮತ್ತು ನಿಯೋಜನೆಯ ದಿನಾಂಕಗಳನ್ನು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ವೇಳಾಪಟ್ಟಿಯ ಪಕ್ಕದಲ್ಲಿ ಇರಿಸುತ್ತದೆ. ಅದನ್ನು ಕಂಪ್ಯೂಟರ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಹೊಂದಿಸಿ, ನಂತರ ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಅದೇ Google ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "answer": "Canvas ನಲ್ಲಿ ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಿರಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್ URL ಅನ್ನು ನಕಲಿಸಿ. ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ Google ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ, ಇತರೆ ಕ್ಯಾಲೆಂಡರ್‌ಗಳ ಪಕ್ಕದಲ್ಲಿರುವ ಪ್ಲಸ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ, URL ನಿಂದ ಆಯ್ಕೆಮಾಡಿ, ಲಿಂಕ್ ಅನ್ನು ಅಂಟಿಸಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸಿ.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್‌ಗೆ ಚಂದಾದಾರರಾಗಿ",
+          "paragraphs": [
+            "ನಡೆಯುತ್ತಿರುವ ನವೀಕರಣಗಳಿಗಾಗಿ iCal ಚಂದಾದಾರಿಕೆ ಲಿಂಕ್ ಬಳಸಿ. ಆಮದು ಮಾಡಿದ .ics ಫೈಲ್ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಆಗಿದೆ. ಫೀಡ್ URL ಅನ್ನು ಖಾಸಗಿಯಾಗಿ ಇರಿಸಿ ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಕ್ಯಾಲೆಂಡರ್ ನಮೂದುಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ನೀಡುತ್ತದೆ."
+          ],
+          "steps": [
+            "ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ Canvas ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ. ಮುಖ್ಯ ಸಂಚರಣೆಯಿಂದ ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಿರಿ.",
+            "ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ಸಂವಾದದಿಂದ URL ಅನ್ನು ನಕಲಿಸಿ.",
+            "ನೀವು ಬಳಸಲು ಬಯಸುವ Google ಖಾತೆಯಲ್ಲಿ Google Calendar ಅನ್ನು ತೆರೆಯಿರಿ. ಇತರೆ ಕ್ಯಾಲೆಂಡರ್‌ಗಳ ಮುಂದೆ, ಪ್ಲಸ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು URL ನಿಂದ ಆಯ್ಕೆಮಾಡಿ.",
+            "URL ಅನ್ನು ಅಂಟಿಸಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸಿ ಕ್ಲಿಕ್ ಮಾಡಿ. ಇತರ ಕ್ಯಾಲೆಂಡರ್‌ಗಳ ಅಡಿಯಲ್ಲಿ, ಹೊಸ ಕ್ಯಾಲೆಂಡರ್ ಗೋಚರಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ. Canvas ಜೊತೆಗೆ ಮುಂಬರುವ ಒಂದು ಅಂತಿಮ ದಿನಾಂಕವನ್ನು ಹೋಲಿಕೆ ಮಾಡಿ."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "ನನ್ನ Canvas ಕ್ಯಾಲೆಂಡರ್ ಏಕೆ ಸಿಂಕ್ ಆಗುತ್ತಿಲ್ಲ?",
+          "paragraphs": [
+            "ನಿಮ್ಮ Canvas ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ನಿಯೋಜನೆಗಾಗಿ ಪರಿಶೀಲಿಸಿ. Google ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ, ನೀವು ಸರಿಯಾದ ಖಾತೆಯನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ ಮತ್ತು ಚಂದಾದಾರರಾದ ಕ್ಯಾಲೆಂಡರ್ ಗೋಚರಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ. Canvas ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್ ಮಾಡಬೇಕಾದ ಪಟ್ಟಿಯಿಂದ ಐಟಂಗಳನ್ನು ಹೊರತುಪಡಿಸುತ್ತದೆ.",
+            "ನವೀಕರಣಗಳು 24 ಗಂಟೆಗಳವರೆಗೆ ತೆಗೆದುಕೊಳ್ಳಬಹುದು ಎಂದು Instructure ಹೇಳುತ್ತದೆ. ಹೊಸ ಕೋರ್ಸ್ ಕಾಣೆಯಾಗಿದೆಯೇ? Canvas ನಿಂದ ಪ್ರಸ್ತುತ ಕ್ಯಾಲೆಂಡರ್ ಲಿಂಕ್ ಪಡೆಯಿರಿ ಮತ್ತು ಮತ್ತೆ ಚಂದಾದಾರರಾಗಿ. ನಿಯೋಜನೆಯು ಇಂದೇ ಬಾಕಿಯಿದ್ದರೆ, Canvas ನಲ್ಲಿ ನಿಖರವಾದ ಸಮಯವನ್ನು ಪರಿಶೀಲಿಸಿ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ನನ್ನ ಫೋನ್‌ನಲ್ಲಿರುವ Google ಕ್ಯಾಲೆಂಡರ್ ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ನಾನು Canvas ಕಾರ್ಯಯೋಜನೆಗಳನ್ನು ನೋಡಬಹುದೇ?",
+          "answer": "ಹೌದು. ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಫೀಡ್ ಅನ್ನು ಸೇರಿಸಿದ ನಂತರ, ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಅದೇ Google ಖಾತೆಯನ್ನು ತೆರೆಯಿರಿ. ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು ಮರೆಮಾಡಿದ್ದರೆ, ಅಪ್ಲಿಕೇಶನ್‌ನ ಕ್ಯಾಲೆಂಡರ್ ಪಟ್ಟಿಯಲ್ಲಿ ಅದನ್ನು ನೋಡಿ."
+        },
+        {
+          "question": "Google ಕ್ಯಾಲೆಂಡರ್‌ನಿಂದ ನಾನು ನಿಯೋಜನೆಯ ಗಡುವನ್ನು ಬದಲಾಯಿಸಬಹುದೇ?",
+          "answer": "ನಿಮ್ಮ Google ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಬದಲಾವಣೆಗಳು Canvas ನಲ್ಲಿ ಕೋರ್ಸ್ ಗಡುವನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ. ದಿನಾಂಕಗಳು, ಸೂಚನೆಗಳು ಮತ್ತು ಸಲ್ಲಿಕೆ ಸ್ಥಿತಿಯನ್ನು ಖಚಿತಪಡಿಸಲು Canvas ಬಳಸಿ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "Google കലണ്ടറിലേക്ക് Canvas എങ്ങനെ ചേർക്കാം",
+      "description": "ഒരു iCal ലിങ്ക് ഉപയോഗിച്ച് Google കലണ്ടറിലേക്ക് Canvas അസൈൻമെൻ്റുകൾ സമന്വയിപ്പിക്കുക. സജ്ജീകരണ ഘട്ടങ്ങൾ പിന്തുടർന്ന് ഇതുവരെ കാണിക്കാത്ത അസൈൻമെൻ്റുകളോ മാറ്റങ്ങളോ പരിഹരിക്കുക.",
+      "intro": "ഒരു Canvas കലണ്ടർ സബ്‌സ്‌ക്രിപ്‌ഷൻ നിങ്ങളുടെ വ്യക്തിഗത ഷെഡ്യൂളിന് പുറമെ കോഴ്‌സ് ഇവൻ്റുകളും അസൈൻമെൻ്റ് ഡ്യൂട്ടി തീയതികളും നൽകുന്നു. ഒരു കമ്പ്യൂട്ടർ ബ്രൗസറിൽ ഇത് സജ്ജീകരിക്കുക, തുടർന്ന് നിങ്ങളുടെ ഫോണിലെ അതേ Google അക്കൗണ്ട് പരിശോധിക്കുക.",
+      "answer": "Canvas-ൽ കലണ്ടർ തുറന്ന് കലണ്ടർ ഫീഡ് URL പകർത്തുക. ഒരു കമ്പ്യൂട്ടറിലെ Google കലണ്ടറിൽ, മറ്റ് കലണ്ടറുകൾക്ക് അടുത്തുള്ള പ്ലസ് ക്ലിക്ക് ചെയ്യുക, URL-ൽ നിന്ന് തിരഞ്ഞെടുക്കുക, ലിങ്ക് ഒട്ടിച്ച് കലണ്ടർ ചേർക്കുക.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas കലണ്ടർ ഫീഡിലേക്ക് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക",
+          "paragraphs": [
+            "നിലവിലുള്ള അപ്‌ഡേറ്റുകൾക്കായി iCal സബ്‌സ്‌ക്രിപ്‌ഷൻ ലിങ്ക് ഉപയോഗിക്കുക. ഇറക്കുമതി ചെയ്ത .ics ഫയൽ ഒരു സ്നാപ്പ്ഷോട്ട് ആണ്. നിങ്ങളുടെ കലണ്ടർ എൻട്രികളിലേക്ക് പ്രവേശനം നൽകുന്നതിനാൽ ഫീഡ് URL സ്വകാര്യമായി സൂക്ഷിക്കുക."
+          ],
+          "steps": [
+            "ഒരു കമ്പ്യൂട്ടറിൽ Canvas-ലേക്ക് സൈൻ ഇൻ ചെയ്യുക. പ്രധാന നാവിഗേഷനിൽ നിന്ന് കലണ്ടർ തുറക്കുക.",
+            "കലണ്ടർ ഫീഡ് തിരഞ്ഞെടുത്ത് ഡയലോഗിൽ നിന്ന് URL പകർത്തുക.",
+            "നിങ്ങൾ ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്ന Google അക്കൗണ്ടിൽ Google കലണ്ടർ തുറക്കുക. മറ്റ് കലണ്ടറുകൾക്ക് അടുത്തായി, പ്ലസ് ക്ലിക്ക് ചെയ്ത് ഫ്രം URL തിരഞ്ഞെടുക്കുക.",
+            "URL ഒട്ടിച്ച് കലണ്ടർ ചേർക്കുക ക്ലിക്കുചെയ്യുക. മറ്റ് കലണ്ടറുകൾക്ക് കീഴിൽ, പുതിയ കലണ്ടർ ദൃശ്യമാണോയെന്ന് പരിശോധിക്കുക. വരാനിരിക്കുന്ന ഒരു നിശ്ചിത തീയതി Canvas-മായി താരതമ്യം ചെയ്യുക."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "എന്തുകൊണ്ടാണ് എൻ്റെ Canvas കലണ്ടർ സമന്വയിപ്പിക്കാത്തത്?",
+          "paragraphs": [
+            "നിങ്ങളുടെ Canvas കലണ്ടറിലെ അസൈൻമെൻ്റിനായി പരിശോധിക്കുക. Google കലണ്ടറിൽ, നിങ്ങൾ ശരിയായ അക്കൗണ്ട് ഉപയോഗിക്കുന്നുണ്ടെന്നും സബ്‌സ്‌ക്രൈബ് ചെയ്‌ത കലണ്ടർ ദൃശ്യമാണെന്നും പരിശോധിച്ചുറപ്പിക്കുക. Canvas കലണ്ടർ ഫീഡ് ചെയ്യേണ്ടവയുടെ പട്ടികയിൽ നിന്ന് ഇനങ്ങൾ ഒഴിവാക്കുന്നു.",
+            "Instructure പറയുന്നത് അപ്‌ഡേറ്റുകൾക്ക് 24 മണിക്കൂർ വരെ എടുക്കാം. ഒരു പുതിയ കോഴ്‌സ് നഷ്‌ടമായോ? Canvas-ൽ നിന്ന് നിലവിലെ കലണ്ടർ ലിങ്ക് നേടുകയും വീണ്ടും സബ്‌സ്‌ക്രൈബുചെയ്യുകയും ചെയ്യുക. ഒരു അസൈൻമെൻ്റ് ഇന്ന് അവസാനിക്കുകയാണെങ്കിൽ, Canvas-ൽ കൃത്യമായ സമയം പരിശോധിക്കുക."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "എൻ്റെ ഫോണിലെ Google കലണ്ടർ ആപ്പിൽ എനിക്ക് Canvas അസൈൻമെൻ്റുകൾ കാണാൻ കഴിയുമോ?",
+          "answer": "അതെ. നിങ്ങളുടെ കമ്പ്യൂട്ടർ ബ്രൗസറിൽ ഫീഡ് ചേർത്ത ശേഷം, ആപ്പിൽ അതേ Google അക്കൗണ്ട് തുറക്കുക. കലണ്ടർ മറച്ചിട്ടുണ്ടെങ്കിൽ, ആപ്പിൻ്റെ കലണ്ടർ ലിസ്റ്റിൽ അത് തിരയുക."
+        },
+        {
+          "question": "Google കലണ്ടറിൽ നിന്ന് എനിക്ക് ഒരു അസൈൻമെൻ്റ് ഡെഡ്‌ലൈൻ മാറ്റാനാകുമോ?",
+          "answer": "നിങ്ങളുടെ Google കലണ്ടറിലെ മാറ്റങ്ങൾ Canvas-ലെ കോഴ്‌സ് സമയപരിധി മാറ്റില്ല. തീയതികളും നിർദ്ദേശങ്ങളും സമർപ്പിക്കൽ നിലയും സ്ഥിരീകരിക്കാൻ Canvas ഉപയോഗിക്കുക."
+        }
+      ]
+    },
+    "mr": {
+      "title": "Google Calendar मध्ये Canvas कसे जोडावे",
+      "description": "Canvas असाइनमेंट iCal लिंकसह Google Calendar वर सिंक करा. सेटअप पायऱ्या फॉलो करा आणि गहाळ असाइनमेंट किंवा बदल दिसणे बाकी आहे ते दुरुस्त करा.",
+      "intro": "Canvas कॅलेंडर सबस्क्रिप्शन तुमच्या वैयक्तिक शेड्यूलच्या बाजूला कोर्स इव्हेंट्स आणि असाइनमेंट देय तारखा ठेवते. ते संगणक ब्राउझरमध्ये सेट करा, नंतर तुमच्या फोनवर तेच Google खाते तपासा.",
+      "answer": "Canvas मध्ये कॅलेंडर उघडा आणि कॅलेंडर फीड URL कॉपी करा. संगणकावरील Google Calendar मध्ये, Other calendars च्या पुढील प्लस वर क्लिक करा, From URL निवडा, लिंक पेस्ट करा आणि कॅलेंडर जोडा.",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas कॅलेंडर फीडची सदस्यता घ्या",
+          "paragraphs": [
+            "चालू असलेल्या अपडेटसाठी iCal सबस्क्रिप्शन लिंक वापरा. आयात केलेली .ics फाइल हा स्नॅपशॉट आहे. फीड URL खाजगी ठेवा कारण ती तुमच्या कॅलेंडर नोंदींमध्ये प्रवेश देते."
+          ],
+          "steps": [
+            "संगणकावर Canvas मध्ये साइन इन करा. मुख्य नेव्हिगेशनमधून कॅलेंडर उघडा.",
+            "कॅलेंडर फीड निवडा आणि डायलॉगमधून URL कॉपी करा.",
+            "तुम्ही वापरू इच्छित असलेल्या Google खात्यामध्ये Google Calendar उघडा. इतर कॅलेंडरच्या पुढे, प्लसवर क्लिक करा आणि URL पासून निवडा.",
+            "URL पेस्ट करा आणि कॅलेंडर जोडा क्लिक करा. इतर कॅलेंडर अंतर्गत, नवीन कॅलेंडर दृश्यमान असल्याचे तपासा. Canvas सह एका आगामी देय तारखेची तुलना करा."
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "माझे Canvas कॅलेंडर का समक्रमित होत नाही?",
+          "paragraphs": [
+            "तुमच्या Canvas कॅलेंडरमध्ये असाइनमेंट तपासा. Google Calendar मध्ये, तुम्ही योग्य खाते वापरत आहात आणि सदस्यत्व घेतलेले कॅलेंडर दृश्यमान असल्याचे सत्यापित करा. Canvas कॅलेंडर फीड टू डू सूचीमधून आयटम वगळते.",
+            "Instructure म्हणते की अद्यतनांना 24 तास लागू शकतात. नवीन कोर्स गहाळ आहे का? Canvas वरून वर्तमान कॅलेंडर लिंक मिळवा आणि पुन्हा सदस्यता घ्या. आज असाइनमेंट देय असल्यास, Canvas मध्ये अचूक वेळ तपासा."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "मी माझ्या फोनवरील Google Calendar ॲपमध्ये Canvas असाइनमेंट पाहू शकतो का?",
+          "answer": "होय. तुमच्या कॉम्प्युटर ब्राउझरमध्ये फीड ॲड केल्यानंतर, ॲपमध्ये तेच Google खाते उघडा. कॅलेंडर लपलेले असल्यास, ॲपच्या कॅलेंडर सूचीमध्ये ते शोधा."
+        },
+        {
+          "question": "मी Google Calendar वरून असाइनमेंटची अंतिम मुदत बदलू शकतो का?",
+          "answer": "तुमच्या Google Calendar मधील बदल Canvas मधील अभ्यासक्रमाची अंतिम मुदत बदलत नाहीत. तारखा, सूचना आणि सबमिशन स्थितीची पुष्टी करण्यासाठी Canvas वापरा."
+        }
+      ]
+    },
+    "or": {
+      "title": "ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ Canvas କିପରି ଯୋଡାଯାଏ |",
+      "description": "ଏକ iCal ଲିଙ୍କ୍ ସହିତ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରକୁ Canvas ଆସାଇନମେଣ୍ଟଗୁଡିକ ସିଙ୍କ କରନ୍ତୁ | ସେଟଅପ୍ ଷ୍ଟେପଗୁଡିକ ଅନୁସରଣ କରନ୍ତୁ ଏବଂ ନିଖୋଜ କାର୍ଯ୍ୟଗୁଡିକ କିମ୍ବା ପରିବର୍ତ୍ତନଗୁଡିକ ଠିକ୍ କରନ୍ତୁ ଯାହା ଏପର୍ଯ୍ୟନ୍ତ ଦେଖାଯିବ ନାହିଁ |",
+      "intro": "ଏକ Canvas କ୍ୟାଲେଣ୍ଡର ସବସ୍କ୍ରିପସନ୍ ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ କାର୍ଯ୍ୟସୂଚୀ ପାଖରେ ପାଠ୍ୟକ୍ରମ ଇଭେଣ୍ଟ ଏବଂ ଆସାଇନମେଣ୍ଟ ଧାର୍ଯ୍ୟ ତାରିଖ ରଖେ | ଏହାକୁ ଏକ କମ୍ପ୍ୟୁଟର ବ୍ରାଉଜରରେ ସେଟ୍ ଅପ୍ କରନ୍ତୁ, ତାପରେ ଆପଣଙ୍କ ଫୋନରେ ସମାନ ଗୁଗୁଲ୍ ଆକାଉଣ୍ଟ୍ ଯାଞ୍ଚ କରନ୍ତୁ |",
+      "answer": "Canvas ରେ କ୍ୟାଲେଣ୍ଡର ଖୋଲନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ URL କପି କରନ୍ତୁ | ଏକ କମ୍ପ୍ୟୁଟରରେ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ, ଅନ୍ୟ କ୍ୟାଲେଣ୍ଡରଗୁଡିକର ପରବର୍ତ୍ତୀ ପ୍ଲସ୍ କ୍ଲିକ୍ କରନ୍ତୁ, URL ରୁ ବାଛନ୍ତୁ, ଲିଙ୍କ୍ ଲେପନ କରନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡର ଯୋଡନ୍ତୁ |",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ କୁ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ |",
+          "paragraphs": [
+            "ଚାଲୁଥିବା ଅଦ୍ୟତନଗୁଡ଼ିକ ପାଇଁ iCal ସଦସ୍ୟତା ଲିଙ୍କ ବ୍ୟବହାର କରନ୍ତୁ | ଏକ ଆମଦାନୀ ହୋଇଥିବା .ics ଫାଇଲ୍ ହେଉଛି ଏକ ସ୍ନାପସଟ୍ | ଫିଡ୍ URL କୁ ବ୍ୟକ୍ତିଗତ ରଖନ୍ତୁ କାରଣ ଏହା ଆପଣଙ୍କର କ୍ୟାଲେଣ୍ଡର ଏଣ୍ଟ୍ରିଗୁଡିକୁ ପ୍ରବେଶ କରିଥାଏ |"
+          ],
+          "steps": [
+            "ଏକ କମ୍ପ୍ୟୁଟରରେ Canvas କୁ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ | ମୁଖ୍ୟ ନାଭିଗେସନ୍ ରୁ କ୍ୟାଲେଣ୍ଡର ଖୋଲନ୍ତୁ |",
+            "କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ ଚୟନ କରନ୍ତୁ ଏବଂ ସଂଳାପରୁ URL କପି କରନ୍ତୁ |",
+            "ଆପଣ ବ୍ୟବହାର କରିବାକୁ ଚାହୁଁଥିବା ଗୁଗୁଲ୍ ଆକାଉଣ୍ଟରେ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡର ଖୋଲନ୍ତୁ | ଅନ୍ୟ କ୍ୟାଲେଣ୍ଡରଗୁଡିକ ପରେ, ପ୍ଲସ୍ କ୍ଲିକ୍ କରନ୍ତୁ ଏବଂ URL ରୁ ଚୟନ କରନ୍ତୁ |",
+            "URL ଲେପନ କରନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡର ଯୋଡନ୍ତୁ କ୍ଲିକ୍ କରନ୍ତୁ | ଅନ୍ୟ କ୍ୟାଲେଣ୍ଡରଗୁଡିକ ଅଧୀନରେ, ନୂତନ କ୍ୟାଲେଣ୍ଡର ଦୃଶ୍ୟମାନ ହେଉଛି କି ନାହିଁ ଯାଞ୍ଚ କରନ୍ତୁ | Canvas ସହିତ ଏକ ଆଗାମୀ ଧାର୍ଯ୍ୟ ତାରିଖ ତୁଳନା କରନ୍ତୁ |"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "ମୋର Canvas କ୍ୟାଲେଣ୍ଡର କାହିଁକି ସିଙ୍କ୍ କରୁନାହିଁ?",
+          "paragraphs": [
+            "ଆପଣଙ୍କର Canvas କ୍ୟାଲେଣ୍ଡରରେ ଆସାଇନମେଣ୍ଟ ଯାଞ୍ଚ କରନ୍ତୁ | ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ, ଯାଞ୍ଚ କରନ୍ତୁ ଯେ ଆପଣ ସଠିକ୍ ଆକାଉଣ୍ଟ୍ ବ୍ୟବହାର କରୁଛନ୍ତି ଏବଂ ସବସ୍କ୍ରାଇଡ୍ କ୍ୟାଲେଣ୍ଡର ଦୃଶ୍ୟମାନ ହେଉଛି | Canvas କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ ଟୁ ଡୁ ତାଲିକାରୁ ଆଇଟମଗୁଡିକୁ ବାଦ ଦେଇଥାଏ |",
+            "Instructure କୁହନ୍ତି ଅଦ୍ୟତନଗୁଡିକ 24 ଘଣ୍ଟା ନେଇପାରେ | ଏକ ନୂତନ ପାଠ୍ୟକ୍ରମ ହଜିଯାଇଛି କି? Canvas ରୁ ସାମ୍ପ୍ରତିକ କ୍ୟାଲେଣ୍ଡର ଲିଙ୍କ୍ ପାଆନ୍ତୁ ଏବଂ ପୁନର୍ବାର ସବସ୍କ୍ରାଇବ କରନ୍ତୁ | ଯଦି ଆଜି ଏକ ଆସାଇନମେଣ୍ଟ ଦେବାର ଅଛି, Canvas ରେ ସଠିକ୍ ସମୟ ଯାଞ୍ଚ କରନ୍ତୁ |"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ମୁଁ ମୋ ଫୋନରେ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡର ଆପରେ Canvas ଆସାଇନମେଣ୍ଟ ଦେଖିପାରିବି କି?",
+          "answer": "ହଁ ଆପଣଙ୍କ କମ୍ପ୍ୟୁଟର ବ୍ରାଉଜରରେ ଫିଡ୍ ଯୋଡିବା ପରେ, ଆପରେ ସମାନ ଗୁଗୁଲ୍ ଆକାଉଣ୍ଟ୍ ଖୋଲନ୍ତୁ | ଯଦି କ୍ୟାଲେଣ୍ଡର ଲୁକ୍କାୟିତ, ଏହାକୁ ଆପର କ୍ୟାଲେଣ୍ଡର ତାଲିକାରେ ଖୋଜ |"
+        },
+        {
+          "question": "ମୁଁ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରୁ ଏକ ଆସାଇନମେଣ୍ଟ ସମୟସୀମା ପରିବର୍ତ୍ତନ କରିପାରିବି କି?",
+          "answer": "ଆପଣଙ୍କର ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ ପରିବର୍ତ୍ତନ Canvas ରେ ପାଠ୍ୟକ୍ରମର ସମୟସୀମା ପରିବର୍ତ୍ତନ କରେ ନାହିଁ | ତାରିଖ, ନିର୍ଦ୍ଦେଶ ଏବଂ ଦାଖଲ ସ୍ଥିତି ନିଶ୍ଚିତ କରିବାକୁ Canvas ବ୍ୟବହାର କରନ୍ତୁ |"
+        }
+      ]
+    },
+    "pa": {
+      "title": "ਗੂਗਲ ਕੈਲੰਡਰ ਵਿੱਚ Canvas ਨੂੰ ਕਿਵੇਂ ਸ਼ਾਮਲ ਕਰਨਾ ਹੈ",
+      "description": "Canvas ਅਸਾਈਨਮੈਂਟਾਂ ਨੂੰ iCal ਲਿੰਕ ਨਾਲ Google ਕੈਲੰਡਰ ਨਾਲ ਸਿੰਕ ਕਰੋ। ਸੈੱਟਅੱਪ ਦੇ ਪੜਾਵਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ ਅਤੇ ਗੁੰਮ ਹੋਈਆਂ ਅਸਾਈਨਮੈਂਟਾਂ ਜਾਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਠੀਕ ਕਰੋ ਜੋ ਅਜੇ ਦਿਖਾਈ ਨਹੀਂ ਦਿੱਤੀਆਂ ਹਨ।",
+      "intro": "ਇੱਕ Canvas ਕੈਲੰਡਰ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਤੁਹਾਡੇ ਨਿੱਜੀ ਸਮਾਂ-ਸਾਰਣੀ ਦੇ ਨਾਲ ਕੋਰਸ ਇਵੈਂਟਸ ਅਤੇ ਅਸਾਈਨਮੈਂਟ ਨਿਯਤ ਮਿਤੀਆਂ ਰੱਖਦਾ ਹੈ। ਇਸਨੂੰ ਕੰਪਿਊਟਰ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਸੈੱਟ ਕਰੋ, ਫਿਰ ਆਪਣੇ ਫ਼ੋਨ 'ਤੇ ਉਸੇ Google ਖਾਤੇ ਦੀ ਜਾਂਚ ਕਰੋ।",
+      "answer": "Canvas ਵਿੱਚ ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ ਅਤੇ ਕੈਲੰਡਰ ਫੀਡ URL ਨੂੰ ਕਾਪੀ ਕਰੋ। ਕੰਪਿਊਟਰ 'ਤੇ ਗੂਗਲ ਕੈਲੰਡਰ ਵਿੱਚ, ਹੋਰ ਕੈਲੰਡਰਾਂ ਦੇ ਅੱਗੇ ਪਲੱਸ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, URL ਤੋਂ ਚੁਣੋ, ਲਿੰਕ ਪੇਸਟ ਕਰੋ ਅਤੇ ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ।",
+      "sections": [
+        {
+          "id": "subscribe",
+          "heading": "Canvas ਕੈਲੰਡਰ ਫੀਡ ਦੇ ਗਾਹਕ ਬਣੋ",
+          "paragraphs": [
+            "ਚੱਲ ਰਹੇ ਅਪਡੇਟਾਂ ਲਈ iCal ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਲਿੰਕ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਇੱਕ ਆਯਾਤ ਕੀਤੀ .ics ਫਾਈਲ ਇੱਕ ਸਨੈਪਸ਼ਾਟ ਹੈ। ਫੀਡ URL ਨੂੰ ਨਿੱਜੀ ਰੱਖੋ ਕਿਉਂਕਿ ਇਹ ਤੁਹਾਡੀਆਂ ਕੈਲੰਡਰ ਐਂਟਰੀਆਂ ਤੱਕ ਪਹੁੰਚ ਦਿੰਦਾ ਹੈ।"
+          ],
+          "steps": [
+            "ਇੱਕ ਕੰਪਿਊਟਰ 'ਤੇ Canvas ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ। ਮੁੱਖ ਨੈਵੀਗੇਸ਼ਨ ਤੋਂ ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ।",
+            "ਕੈਲੰਡਰ ਫੀਡ ਦੀ ਚੋਣ ਕਰੋ ਅਤੇ ਡਾਇਲਾਗ ਤੋਂ URL ਦੀ ਨਕਲ ਕਰੋ।",
+            "ਉਸ Google ਖਾਤੇ ਵਿੱਚ ਗੂਗਲ ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ ਜਿਸਨੂੰ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਹੋਰ ਕੈਲੰਡਰਾਂ ਦੇ ਅੱਗੇ, ਪਲੱਸ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ URL ਤੋਂ ਚੁਣੋ।",
+            "URL ਨੂੰ ਪੇਸਟ ਕਰੋ ਅਤੇ ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ 'ਤੇ ਕਲਿੱਕ ਕਰੋ। ਹੋਰ ਕੈਲੰਡਰਾਂ ਦੇ ਅਧੀਨ, ਜਾਂਚ ਕਰੋ ਕਿ ਨਵਾਂ ਕੈਲੰਡਰ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ। Canvas ਨਾਲ ਇੱਕ ਆਉਣ ਵਾਲੀ ਨਿਯਤ ਮਿਤੀ ਦੀ ਤੁਲਨਾ ਕਰੋ।"
+          ]
+        },
+        {
+          "id": "troubleshoot",
+          "heading": "ਮੇਰਾ Canvas ਕੈਲੰਡਰ ਸਿੰਕ ਕਿਉਂ ਨਹੀਂ ਹੋ ਰਿਹਾ ਹੈ?",
+          "paragraphs": [
+            "ਆਪਣੇ Canvas ਕੈਲੰਡਰ ਵਿੱਚ ਅਸਾਈਨਮੈਂਟ ਦੀ ਜਾਂਚ ਕਰੋ। ਗੂਗਲ ਕੈਲੰਡਰ ਵਿੱਚ, ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਹੀ ਖਾਤੇ ਦੀ ਵਰਤੋਂ ਕਰ ਰਹੇ ਹੋ ਅਤੇ ਗਾਹਕੀ ਵਾਲਾ ਕੈਲੰਡਰ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ। Canvas ਕੈਲੰਡਰ ਫੀਡ ਵਿੱਚ ਕੰਮ ਕਰਨ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ ਆਈਟਮਾਂ ਸ਼ਾਮਲ ਨਹੀਂ ਹਨ।",
+            "Instructure ਕਹਿੰਦਾ ਹੈ ਕਿ ਅੱਪਡੇਟ ਵਿੱਚ 24 ਘੰਟੇ ਲੱਗ ਸਕਦੇ ਹਨ। ਕੀ ਨਵਾਂ ਕੋਰਸ ਗੁੰਮ ਹੈ? Canvas ਤੋਂ ਮੌਜੂਦਾ ਕੈਲੰਡਰ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਗਾਹਕ ਬਣੋ। ਜੇਕਰ ਅੱਜ ਕੋਈ ਅਸਾਈਨਮੈਂਟ ਬਾਕੀ ਹੈ, ਤਾਂ Canvas ਵਿੱਚ ਸਹੀ ਸਮੇਂ ਦੀ ਜਾਂਚ ਕਰੋ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ਕੀ ਮੈਂ ਆਪਣੇ ਫ਼ੋਨ 'ਤੇ Google ਕੈਲੰਡਰ ਐਪ ਵਿੱਚ Canvas ਅਸਾਈਨਮੈਂਟ ਦੇਖ ਸਕਦਾ/ਸਕਦੀ ਹਾਂ?",
+          "answer": "ਹਾਂ। ਆਪਣੇ ਕੰਪਿਊਟਰ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਫੀਡ ਨੂੰ ਜੋੜਨ ਤੋਂ ਬਾਅਦ, ਐਪ ਵਿੱਚ ਉਹੀ ਗੂਗਲ ਖਾਤਾ ਖੋਲ੍ਹੋ। ਜੇਕਰ ਕੈਲੰਡਰ ਲੁਕਿਆ ਹੋਇਆ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਐਪ ਦੀ ਕੈਲੰਡਰ ਸੂਚੀ ਵਿੱਚ ਲੱਭੋ।"
+        },
+        {
+          "question": "ਕੀ ਮੈਂ ਗੂਗਲ ਕੈਲੰਡਰ ਤੋਂ ਅਸਾਈਨਮੈਂਟ ਦੀ ਆਖਰੀ ਮਿਤੀ ਨੂੰ ਬਦਲ ਸਕਦਾ ਹਾਂ?",
+          "answer": "ਤੁਹਾਡੇ Google ਕੈਲੰਡਰ ਵਿੱਚ ਤਬਦੀਲੀਆਂ Canvas ਵਿੱਚ ਕੋਰਸ ਦੀ ਸਮਾਂ ਸੀਮਾ ਨੂੰ ਨਹੀਂ ਬਦਲਦੀਆਂ ਹਨ। ਮਿਤੀਆਂ, ਹਦਾਇਤਾਂ ਅਤੇ ਸਬਮਿਸ਼ਨ ਸਥਿਤੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ Canvas ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+        }
+      ]
+    }
+  }
+}

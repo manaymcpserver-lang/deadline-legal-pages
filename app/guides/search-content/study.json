@@ -7,17 +7,50 @@
   ],
   "sources": [
     {
+      "label": "Apple: Screen Time Schedules and Time Allowances on iPhone",
+      "url": "https://support.apple.com/guide/iphone/set-schedules-and-time-allowances-iphb0c7313c9/ios"
+    },
+    {
+      "label": "Apple: Downtime and Always Allowed on iPhone",
+      "url": "https://support.apple.com/guide/iphone/set-schedules-with-screen-time-iphb0c7313c9/ios"
+    },
+    {
+      "label": "Android Help: pause distracting apps in Focus mode",
+      "url": "https://support.google.com/android/answer/9346420?hl=en"
+    },
+    {
       "label": "Nonlate: deadline-aware blocking and platform differences",
       "url": "https://nonlate.app/guides/block-distracting-apps-until-tasks-are-done/"
     }
   ],
   "locales": {
     "en": {
-      "title": "How to block distracting apps while studying",
-      "description": "Build a study session with fewer phone distractions. Choose useful blocking rules, keep study tools available and understand Nonlate’s deadline-aware approach.",
+      "title": "How to block apps while studying on iPhone and Android",
+      "description": "Block distracting apps while studying with iPhone Screen Time or Android Focus mode. Keep study tools available and learn when task-based blocking helps.",
       "intro": "You open your phone to check an assignment, then find yourself scrolling. A useful study setup interrupts that detour while leaving your notes, course materials and essential communication available. Start with one specific piece of work and the few apps that repeatedly pull you away.",
-      "answer": "To block apps while studying, choose your distracting apps, keep necessary study tools accessible and decide whether you need a fixed study timer or blocking tied to unfinished due work. Nonlate uses eligible tasks and a selected due-work window; creating a study session alone does not activate blocking.",
+      "answer": "On iPhone, use Screen Time to set the hours you want to study. On Android, use Focus mode in Digital Wellbeing to pause selected apps. Nonlate can block distracting apps based on task deadlines.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Block apps while studying on iPhone",
+          "paragraphs": [
+            "On iOS 27 or later, open Settings, then Screen Time and Screen Time Schedule. Turn on Schedule, add a study window and choose which Time Allowance categories are available during it.",
+            "On earlier iOS versions, use Downtime under Screen Time. Use Always Allowed for essentials. With a Screen Time passcode set, turn on Block at Downtime if you want restricted apps to stay closed."
+          ],
+          "steps": [
+            "Keep your course app, authenticator and essential contacts available. During the study window, open one app you meant to restrict and check what happens."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Block apps while studying on Android",
+          "paragraphs": [
+            "Open Settings, then Digital Wellbeing, then Focus mode. Select the apps you want to pause. Focus mode also pauses notifications from those apps."
+          ],
+          "steps": [
+            "Tap Turn on now for this session or Set a schedule for recurring study time. Use Take a break if you need temporary access."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Choose the rule that matches your study session",
@@ -64,11 +97,32 @@
       ]
     },
     "es": {
-      "title": "Cómo bloquear aplicaciones que distraen mientras estudias",
-      "description": "Prepara una sesión de estudio con menos distracciones. Elige qué bloquear, conserva tus herramientas de estudio y conoce el bloqueo según los plazos de Nonlate.",
+      "title": "Cómo bloquear aplicaciones para estudiar en iPhone y Android",
+      "description": "Bloquea las aplicaciones que te distraen mientras estudias con el modo iPhone Screen Time o Android Focus. Mantenga las herramientas de estudio disponibles y descubra cuándo ayuda el bloqueo basado en tareas.",
       "intro": "Abres el móvil para consultar una tarea y acabas mirando redes sociales. Una buena preparación interrumpe ese desvío y deja disponibles tus apuntes, materiales y comunicaciones esenciales. Empieza por una parte concreta del trabajo y las pocas aplicaciones que suelen distraerte.",
-      "answer": "Para bloquear aplicaciones mientras estudias, selecciona las distracciones, deja accesibles las herramientas necesarias y decide si necesitas un temporizador fijo o un bloqueo vinculado a tareas pendientes próximas a vencer. Nonlate utiliza tareas que cumplen los requisitos y un intervalo de vencimiento elegido; crear una sesión de estudio no activa por sí solo el bloqueo.",
+      "answer": "En iPhone, usa Screen Time para configurar las horas que deseas estudiar. En Android, use el modo Enfoque en Bienestar digital para pausar aplicaciones seleccionadas. Nonlate puede bloquear aplicaciones que distraen según los plazos de las tareas.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Bloquear aplicaciones mientras estudias en iPhone",
+          "paragraphs": [
+            "En iOS 27 o posterior, abra Configuración, luego Tiempo de pantalla y Programación de tiempo de pantalla. Active Horario, agregue una ventana de estudio y elija qué categorías de tiempo asignado están disponibles durante la misma.",
+            "En versiones anteriores de iOS, utilice Tiempo de inactividad en Tiempo de pantalla. Utilice Siempre permitido para lo esencial. Con un código de acceso de Screen Time configurado, active Bloquear en tiempo de inactividad si desea que las aplicaciones restringidas permanezcan cerradas."
+          ],
+          "steps": [
+            "Mantenga disponibles la aplicación del curso, el autenticador y los contactos esenciales. Durante la ventana de estudio, abra una aplicación que deseaba restringir y verifique qué sucede."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Bloquear aplicaciones mientras estudias en Android",
+          "paragraphs": [
+            "Abre Ajustes, entra en Bienestar digital y selecciona Modo sin distracciones. Elige las aplicaciones que quieres pausar. El modo también pausa las notificaciones de esas aplicaciones."
+          ],
+          "steps": [
+            "Toque Activar ahora para esta sesión o Establecer un horario para tiempo de estudio recurrente. Utilice Tómese un descanso si necesita acceso temporal."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Elige una regla que encaje con tu sesión",
@@ -115,11 +169,32 @@
       ]
     },
     "fr": {
-      "title": "Comment bloquer les applications qui distraient pendant les révisions",
-      "description": "Préparez une séance de travail avec moins de distractions. Choisissez quoi bloquer, gardez vos outils accessibles et découvrez le fonctionnement de Nonlate.",
+      "title": "Comment bloquer des applications pour étudier sur iPhone et Android",
+      "description": "Bloquez les applications distrayantes pendant vos études avec le mode iPhone Screen Time ou Android Focus. Gardez les outils d'étude disponibles et découvrez quand le blocage basé sur les tâches est utile.",
       "intro": "Vous ouvrez votre téléphone pour consulter un devoir, puis vous vous retrouvez à faire défiler les réseaux sociaux. Une bonne préparation interrompt ce détour tout en gardant vos notes, vos cours et vos communications essentielles accessibles. Commencez par un travail précis et les quelques applications qui détournent souvent votre attention.",
-      "answer": "Pour bloquer des applications pendant les révisions, sélectionnez les distractions, gardez vos outils nécessaires accessibles et choisissez entre un minuteur fixe et un blocage lié aux tâches inachevées proches de leur échéance. Nonlate utilise les tâches admissibles et une fenêtre d’échéance choisie ; programmer une séance ne déclenche pas à lui seul le blocage.",
+      "answer": "Sur iPhone, utilisez Screen Time pour définir les heures pendant lesquelles vous souhaitez étudier. Sur Android, utilisez le mode Focus dans Digital Wellbeing pour suspendre les applications sélectionnées. Nonlate peut bloquer les applications distrayantes en fonction des délais des tâches.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Bloquer des applications pendant que vous étudiez sur iPhone",
+          "paragraphs": [
+            "Sur iOS 27 ou version ultérieure, ouvrez Paramètres, puis Temps d'écran et Planification du temps d'écran. Activez le calendrier, ajoutez une fenêtre d'étude et choisissez les catégories d'allocation de temps disponibles pendant celle-ci.",
+            "Sur les versions précédentes d’iOS, utilisez Temps d’arrêt dans Temps d’écran. Gardez les applications essentielles dans Toujours autorisées. Si vous avez défini un code Temps d’écran, activez le blocage pendant le temps d’arrêt pour empêcher l’ouverture des applications limitées."
+          ],
+          "steps": [
+            "Gardez votre application de cours, votre authentificateur et vos contacts essentiels disponibles. Pendant la fenêtre d'étude, ouvrez une application que vous vouliez restreindre et vérifiez ce qui se passe."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Bloquer des applications pendant que vous étudiez sur Android",
+          "paragraphs": [
+            "Ouvrez Paramètres, puis Bien-être numérique, puis Mode Focus. Sélectionnez les applications que vous souhaitez suspendre. Le mode Focus suspend également les notifications de ces applications."
+          ],
+          "steps": [
+            "Appuyez sur Activer maintenant pour cette session ou sur Définir un calendrier pour le temps d'étude récurrent. Utilisez Faites une pause si vous avez besoin d’un accès temporaire."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Choisissez une règle adaptée à votre séance",
@@ -166,11 +241,32 @@
       ]
     },
     "hi": {
-      "title": "पढ़ाई के दौरान ध्यान भटकाने वाले ऐप कैसे ब्लॉक करें",
-      "description": "फोन से कम ध्यान भटकने वाला अध्ययन सत्र बनाएं। उपयोगी नियम चुनें, पढ़ाई के साधन उपलब्ध रखें और Nonlate का अंतिम तिथि पर आधारित तरीका समझें।",
+      "title": "iPhone और Android पर पढ़ाई के दौरान ऐप्स को कैसे ब्लॉक करें",
+      "description": "iPhone स्क्रीन टाइम या Android फ़ोकस मोड के साथ अध्ययन करते समय ध्यान भटकाने वाले ऐप्स को ब्लॉक करें। अध्ययन उपकरण उपलब्ध रखें और जानें कि कार्य-आधारित अवरोधन कब मदद करता है।",
       "intro": "आप असाइनमेंट देखने फोन खोलते हैं, फिर स्क्रॉल करने लगते हैं। उपयोगी तैयारी इस भटकाव को रोकते हुए नोट्स, पाठ्य सामग्री और जरूरी संपर्क उपलब्ध रखती है। एक स्पष्ट काम और बार-बार ध्यान हटाने वाले कुछ ऐप से शुरू करें।",
-      "answer": "पढ़ाई में ऐप ब्लॉक करने के लिए ध्यान भटकाने वाले ऐप चुनें, जरूरी साधन उपलब्ध रखें और तय करें कि निश्चित अध्ययन टाइमर चाहिए या निकट समयसीमा वाले अधूरे काम से जुड़ी ब्लॉकिंग। Nonlate योग्य काम और चुनी गई समयसीमा अवधि का उपयोग करता है; केवल अध्ययन सत्र बनाने से ब्लॉकिंग शुरू नहीं होती।",
+      "answer": "iPhone पर, आप कितने घंटे पढ़ना चाहते हैं यह निर्धारित करने के लिए स्क्रीन टाइम का उपयोग करें। एंड्रॉइड पर, चयनित ऐप्स को रोकने के लिए डिजिटल वेलबीइंग में फोकस मोड का उपयोग करें। Nonlate कार्य की समय सीमा के आधार पर ध्यान भटकाने वाले ऐप्स को ब्लॉक कर सकता है।",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "IPhone पर पढ़ाई के दौरान ऐप्स को ब्लॉक करें",
+          "paragraphs": [
+            "iOS 27 या उसके बाद के संस्करण पर, सेटिंग्स खोलें, फिर स्क्रीन टाइम और स्क्रीन टाइम शेड्यूल खोलें। शेड्यूल चालू करें, एक अध्ययन विंडो जोड़ें और चुनें कि इसके दौरान कौन सी समय भत्ता श्रेणियां उपलब्ध हैं।",
+            "पुराने iOS संस्करणों पर, स्क्रीन टाइम के अंतर्गत डाउनटाइम का उपयोग करें। आवश्यक वस्तुओं के लिए हमेशा अनुमति का उपयोग करें। यदि आप चाहते हैं कि प्रतिबंधित ऐप्स बंद रहें तो स्क्रीन टाइम पासकोड सेट के साथ, डाउनटाइम पर ब्लॉक को चालू करें।"
+          ],
+          "steps": [
+            "अपना पाठ्यक्रम ऐप, प्रमाणक और आवश्यक संपर्क उपलब्ध रखें। अध्ययन विंडो के दौरान, एक ऐप खोलें जिसे आप प्रतिबंधित करना चाहते थे और जांचें कि क्या होता है।"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "एंड्रॉइड पर पढ़ाई के दौरान ऐप्स को ब्लॉक करें",
+          "paragraphs": [
+            "सेटिंग्स खोलें, फिर डिजिटल वेलबीइंग, फिर फोकस मोड। उन ऐप्स का चयन करें जिन्हें आप रोकना चाहते हैं। फ़ोकस मोड उन ऐप्स से आने वाली सूचनाओं को भी रोक देता है।"
+          ],
+          "steps": [
+            "इस सत्र के लिए अभी चालू करें या आवर्ती अध्ययन समय के लिए शेड्यूल सेट करें पर टैप करें। यदि आपको अस्थायी पहुंच की आवश्यकता है तो ब्रेक लें का उपयोग करें।"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "अपने अध्ययन सत्र के अनुसार नियम चुनें",
@@ -217,11 +313,32 @@
       ]
     },
     "ar": {
-      "title": "كيف تحظر التطبيقات المشتتة أثناء الدراسة",
-      "description": "أنشئ جلسة دراسة بأقل تشتيت من الهاتف. اختر قواعد حظر مفيدة، وأبقِ أدوات التعلم متاحة، وافهم نهج Nonlate القائم على مواعيد الاستحقاق.",
+      "title": "كيفية حظر التطبيقات أثناء الدراسة على iPhone وAndroid",
+      "description": "احظر التطبيقات التي تشتت انتباهك أثناء الدراسة باستخدام وضع iPhone Screen Time أو Android Focus. احتفظ بأدوات الدراسة متاحة وتعرف عندما يكون الحظر على أساس المهام مفيدًا.",
       "intro": "تفتح هاتفك لفحص واجب ثم تجد نفسك تتصفح. يقطع الإعداد المفيد هذا الانحراف مع إبقاء الملاحظات ومواد المقرر والتواصل الضروري متاحة. ابدأ بجزء محدد من العمل والتطبيقات القليلة التي تصرفك عنه باستمرار.",
-      "answer": "لحظر التطبيقات أثناء الدراسة، اختر المشتتات وأبقِ الأدوات اللازمة متاحة وحدد هل تحتاج مؤقت دراسة ثابتًا أم حظرًا مرتبطًا بعمل مستحق غير مكتمل. يستخدم Nonlate المهام المؤهلة ونافذة استحقاق مختارة؛ إنشاء جلسة دراسة وحده لا يفعّل الحظر.",
+      "answer": "على iPhone، استخدم Screen Time لتعيين الساعات التي تريد الدراسة فيها. على نظام التشغيل Android، استخدم وضع التركيز في الرفاهية الرقمية لإيقاف التطبيقات المحددة مؤقتًا. يمكن لـ Nonlate حظر التطبيقات المشتتة للانتباه بناءً على المواعيد النهائية للمهام.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "حظر التطبيقات أثناء الدراسة على iPhone",
+          "paragraphs": [
+            "على نظام التشغيل iOS 27 أو الإصدارات الأحدث، افتح \"الإعدادات\"، ثم \"مدة استخدام الجهاز\" و\"جدول وقت الشاشة\". قم بتشغيل الجدول، وأضف نافذة الدراسة واختر فئات بدل الوقت المتاحة خلالها.",
+            "في إصدارات iOS السابقة، استخدم \"وقت التوقف\" ضمن \"مدة استخدام الجهاز\". استخدم \"مسموح به دائمًا\" للضروريات. من خلال تعيين رمز مرور مدة استخدام الجهاز، قم بتشغيل الحظر في وقت التوقف إذا كنت تريد أن تظل التطبيقات المقيدة مغلقة."
+          ],
+          "steps": [
+            "احتفظ بتطبيق الدورة التدريبية والمصدق وجهات الاتصال الأساسية متاحة. أثناء فترة الدراسة، افتح أحد التطبيقات التي كنت تريد تقييدها وتحقق مما يحدث."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "حظر التطبيقات أثناء الدراسة على Android",
+          "paragraphs": [
+            "افتح الإعدادات، ثم الرفاهية الرقمية، ثم وضع التركيز. حدد التطبيقات التي تريد إيقافها مؤقتًا. يعمل وضع التركيز أيضًا على إيقاف الإشعارات الواردة من تلك التطبيقات مؤقتًا."
+          ],
+          "steps": [
+            "انقر فوق تشغيل الآن لهذه الجلسة أو قم بتعيين جدول زمني لوقت الدراسة المتكرر. استخدم خذ استراحة إذا كنت بحاجة إلى وصول مؤقت."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "اختر قاعدة تناسب جلسة دراستك",
@@ -268,11 +385,32 @@
       ]
     },
     "zh-Hans": {
-      "title": "学习时如何拦截干扰应用",
-      "description": "减少学习时的手机干扰。选择合适的拦截规则，保留学习工具的访问权限，并了解 Nonlate 按任务截止时间进行拦截的方式。",
+      "title": "如何在 iPhone 和 Android 上学习时阻止应用程序",
+      "description": "使用 iPhone Screen Time 或 Android Focus 模式学习时阻止分散注意力的应用程序。保持学习工具可用，并在基于任务的阻止有帮助时进行学习。",
       "intro": "你打开手机查看作业，却不知不觉开始刷内容。实用的学习设置应当打断这种偏离，同时让笔记、课程资料和必要沟通保持可用。先选一项具体作业，再找出那几个总让你分心的应用。",
-      "answer": "学习时要拦截应用，先选定干扰应用，保留必要的学习工具，再决定需要固定学习计时器，还是与未完成到期任务相关的拦截。Nonlate 使用符合条件的任务和所选到期时间范围；仅仅创建学习时段并不会启动拦截。",
+      "answer": "在 iPhone 上，使用“屏幕时间”来设置您想要学习的时间。在 Android 上，使用数字健康中的焦点模式暂停选定的应用程序。 Nonlate 可以根据任务截止日期阻止分散注意力的应用程序。",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "在 iPhone 上学习时阻止应用程序",
+          "paragraphs": [
+            "在 iOS 27 或更高版本上，打开“设置”，然后打开“屏幕时间”和“屏幕时间安排”。打开时间表，添加学习窗口并选择在此期间可用的时间津贴类别。",
+            "在早期的 iO​​S 版本中，请使用“屏幕时间”下的“停机时间”。使用“始终允许”来获取必需品。设置“屏幕时间”密码后，如果您希望受限制的应用程序保持关闭状态，请启用“停机时阻止”。"
+          ],
+          "steps": [
+            "确保您的课程应用程序、验证器和重要联系人可用。在研究窗口期间，打开一个您想要限制的应用程序并检查会发生什么。"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "在 Android 上学习时阻止应用程序",
+          "paragraphs": [
+            "打开“设置”，然后打开“数字健康”，然后打开“焦点”模式。选择您要暂停的应用程序。焦点模式还会暂停来自这些应用程序的通知。"
+          ],
+          "steps": [
+            "点击立即打开此课程或设置循环学习时间的时间表。如果您需要临时访问，请使用休息一下。"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "选择符合学习需要的规则",
@@ -319,11 +457,32 @@
       ]
     },
     "pt-BR": {
-      "title": "Como bloquear aplicativos que distraem durante os estudos",
-      "description": "Organize uma sessão de estudo com menos distrações. Escolha o que bloquear, mantenha suas ferramentas disponíveis e conheça o bloqueio por prazos do Nonlate.",
+      "title": "Como bloquear aplicativos enquanto estuda no iPhone e Android",
+      "description": "Bloqueie aplicativos que distraem enquanto estuda com o iPhone Screen Time ou o modo Android Focus. Mantenha as ferramentas de estudo disponíveis e saiba quando o bloqueio baseado em tarefas ajuda.",
       "intro": "Você abre o celular para conferir uma atividade e acaba rolando o feed. Uma boa preparação interrompe esse desvio sem impedir o acesso às anotações, aos materiais e à comunicação essencial. Comece com uma parte específica do trabalho e os poucos aplicativos que costumam tirar sua atenção.",
-      "answer": "Para bloquear aplicativos durante os estudos, selecione as distrações, mantenha as ferramentas necessárias acessíveis e decida se precisa de um temporizador fixo ou de um bloqueio ligado a tarefas pendentes perto do prazo. O Nonlate usa tarefas elegíveis e uma janela de vencimento escolhida; criar uma sessão de estudo não ativa o bloqueio por si só.",
+      "answer": "No iPhone, use o Screen Time para definir os horários em que deseja estudar. No Android, use o modo Focus no Digital Wellbeing para pausar aplicativos selecionados. Nonlate pode bloquear aplicativos que distraem com base nos prazos das tarefas.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Bloqueie aplicativos enquanto estuda no iPhone",
+          "paragraphs": [
+            "No iOS 27 ou posterior, abra Configurações, depois Tempo de tela e Programação de tempo de tela. Ative Agenda, adicione uma janela de estudo e escolha quais categorias de tempo disponível durante ela.",
+            "Em versões anteriores do iOS, use Downtime em Screen Time. Use Sempre permitido para itens essenciais. Com uma senha de tempo de tela definida, ative Bloquear no tempo de inatividade se quiser que aplicativos restritos permaneçam fechados."
+          ],
+          "steps": [
+            "Mantenha o aplicativo do curso, o autenticador e os contatos essenciais disponíveis. Durante a janela de estudo, abra um aplicativo que você deseja restringir e verifique o que acontece."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Bloqueie aplicativos enquanto estuda no Android",
+          "paragraphs": [
+            "Abra Configurações, depois Bem-estar Digital e Modo Foco. Selecione os aplicativos que deseja pausar. O modo Focus também pausa as notificações desses aplicativos."
+          ],
+          "steps": [
+            "Toque em Ativar agora para esta sessão ou Definir um cronograma para horários de estudo recorrentes. Use Faça uma pausa se precisar de acesso temporário."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Escolha a regra adequada à sua sessão",
@@ -370,11 +529,32 @@
       ]
     },
     "pt-PT": {
-      "title": "Como bloquear aplicações que distraem durante o estudo",
-      "description": "Prepare uma sessão de estudo com menos distrações no telemóvel. Escolha regras de bloqueio úteis, mantenha as ferramentas de estudo disponíveis e compreenda a abordagem do Nonlate baseada nos prazos.",
+      "title": "Como bloquear aplicações enquanto estuda no iPhone e Android",
+      "description": "Bloqueie as aplicações que distraem enquanto estuda com o iPhone Screen Time ou o modo Android Focus. Mantenha as ferramentas de estudo disponíveis e saiba quando o bloqueio baseado em tarefas ajuda.",
       "intro": "Abre o telemóvel para consultar um trabalho e acaba a percorrer as redes sociais. Uma configuração de estudo útil interrompe esse desvio, mantendo acessíveis os apontamentos, os materiais das disciplinas e a comunicação essencial. Comece por uma tarefa concreta e pelas poucas aplicações que o distraem repetidamente.",
-      "answer": "Para bloquear aplicações durante o estudo, escolha as que o distraem, mantenha acessíveis as ferramentas necessárias e decida se precisa de um temporizador fixo ou de um bloqueio ligado a tarefas por concluir próximas do prazo. O Nonlate utiliza tarefas elegíveis e um intervalo de vencimento escolhido; criar uma sessão de estudo não ativa, por si só, o bloqueio.",
+      "answer": "No iPhone, utilize o Screen Time para definir os horários em que pretende estudar. No Android, utilize o modo Focus no Digital Wellbeing para pausar as aplicações selecionadas. Nonlate pode bloquear aplicações que distraem com base nos prazos das tarefas.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Bloqueie aplicações enquanto estuda no iPhone",
+          "paragraphs": [
+            "No iOS 27 ou posterior, abra as Definições, depois o Tempo de ecrã e a Programação do tempo de ecrã. Ative Agenda, adicione uma janela de estudo e escolha quais as categorias de tempo disponível durante a mesma.",
+            "Nas versões anteriores do iOS, utilize Downtime em Screen Time. Utilização Sempre permitido para itens essenciais. Com uma palavra-passe de tempo de ecrã definida, ative Bloquear no tempo de inatividade se pretender que as aplicações restritas permaneçam fechadas."
+          ],
+          "steps": [
+            "Mantenha a aplicação do curso, o autenticador e os contactos essenciais disponíveis. Durante a janela de estudo, abra uma aplicação que pretende restringir e verifique o que acontece."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Bloqueie aplicações enquanto estuda no Android",
+          "paragraphs": [
+            "Abra as Definições, depois o Bem-estar Digital e o Modo Foco. Selecione as aplicações que deseja pausar. O modo Focus também pausa as notificações destas aplicações."
+          ],
+          "steps": [
+            "Toque em Ativar agora para esta sessão ou Definir um horário para horários de estudo recorrentes. Utilize Faça uma pausa se precisar de acesso temporário."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Escolha a regra adequada à sua sessão de estudo",
@@ -421,11 +601,32 @@
       ]
     },
     "de": {
-      "title": "Ablenkende Apps beim Lernen blockieren: so geht’s",
-      "description": "Plane eine Lerneinheit mit weniger Handy-Ablenkung. Wähle passende Regeln, halte Lernwerkzeuge erreichbar und erfahre, wie Nonlate fällige Aufgaben berücksichtigt.",
+      "title": "So blockieren Sie Apps beim Lernen auf iPhone und Android",
+      "description": "Blockieren Sie störende Apps beim Lernen mit der iPhone-Bildschirmzeit oder dem Android-Fokusmodus. Halten Sie Lernwerkzeuge bereit und lernen Sie, wann aufgabenbasiertes Blockieren hilfreich ist.",
       "intro": "Du öffnest dein Handy wegen einer Aufgabe und landest beim Scrollen. Eine hilfreiche Lernumgebung unterbricht diesen Umweg, während Notizen, Kursmaterialien und wichtige Kommunikation erreichbar bleiben. Beginne mit einem konkreten Arbeitsschritt und den wenigen Apps, die dich regelmäßig ablenken.",
-      "answer": "Wähle zum Lernen die ablenkenden Apps aus, halte notwendige Werkzeuge erreichbar und entscheide zwischen einem festen Timer und einer Sperre für unerledigte, bald fällige Aufgaben. Nonlate berücksichtigt geeignete Aufgaben und ein gewähltes Fälligkeitsfenster; eine geplante Lerneinheit allein aktiviert keine Sperre.",
+      "answer": "Verwenden Sie auf dem iPhone die Bildschirmzeit, um die Stunden festzulegen, die Sie lernen möchten. Verwenden Sie auf Android den Fokusmodus in Digital Wellbeing, um ausgewählte Apps anzuhalten. Nonlate kann ablenkende Apps basierend auf Aufgabenfristen blockieren.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blockieren Sie Apps, während Sie auf dem iPhone lernen",
+          "paragraphs": [
+            "Öffnen Sie unter iOS 27 oder höher „Einstellungen“ und dann „Bildschirmzeit“ und „Bildschirmzeitplan“. Aktivieren Sie „Zeitplan“, fügen Sie ein Studienfenster hinzu und wählen Sie aus, welche Zeitzuteilungskategorien während dieses Zeitfensters verfügbar sind.",
+            "Verwenden Sie in früheren iOS-Versionen „Ausfallzeit“ unter „Bildschirmzeit“. Verwenden Sie „Immer zulässig“ für das Wesentliche. Wenn ein Bildschirmzeit-Passcode festgelegt ist, aktivieren Sie „Bei Ausfallzeit blockieren“, wenn Sie möchten, dass eingeschränkte Apps geschlossen bleiben."
+          ],
+          "steps": [
+            "Halten Sie Ihre Kurs-App, Ihren Authentifikator und wichtige Kontakte bereit. Öffnen Sie während des Lernfensters eine App, die Sie einschränken wollten, und prüfen Sie, was passiert."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blockieren Sie Apps, während Sie auf Android lernen",
+          "paragraphs": [
+            "Öffnen Sie „Einstellungen“, dann „Digital Wellbeing“ und dann „Fokusmodus“. Wählen Sie die Apps aus, die Sie pausieren möchten. Der Fokusmodus pausiert auch Benachrichtigungen von diesen Apps."
+          ],
+          "steps": [
+            "Tippen Sie auf Jetzt für diese Sitzung einschalten oder legen Sie einen Zeitplan für wiederkehrende Lernzeiten fest. Verwenden Sie „Pause machen“, wenn Sie vorübergehenden Zugang benötigen."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Wähle die passende Regel für deine Lerneinheit",
@@ -472,11 +673,32 @@
       ]
     },
     "ja": {
-      "title": "勉強中に気が散るアプリをブロックする方法",
-      "description": "スマートフォンの誘惑を減らして勉強時間を整えましょう。適切なブロックルールを選び、学習ツールへのアクセスを保ちながら、Nonlateの期限に応じた仕組みを理解します。",
+      "title": "iPhoneとAndroidで勉強中にアプリをブロックする方法",
+      "description": "iPhone のスクリーンタイムまたは Android のフォーカス モードで勉強中に気を散らすアプリをブロックします。学習ツールを常に利用できるようにし、タスクベースのブロックがいつ役立つかを学びましょう。",
       "intro": "課題を確認しようとスマートフォンを開いたのに、いつの間にかスクロールしてしまう。役立つ学習設定は、ノート、教材、必要な連絡手段を使えるままにして、その寄り道を止めます。まず具体的な作業を一つと、何度も気をそらす少数のアプリを選びましょう。",
-      "answer": "勉強中にアプリをブロックするには、気散じアプリを選び、必要な学習ツールは使えるようにし、固定タイマーか期限が近い未完了タスクに応じたブロックかを決めます。Nonlateは対象タスクと選んだ期限範囲を使い、勉強時間を予定しただけではブロックは始まりません。",
+      "answer": "iPhone では、スクリーンタイムを使用して勉強する時間を設定します。 Android では、Digital Wellbeing のフォーカス モードを使用して、選択したアプリを一時停止します。 Nonlate は、タスクの期限に基づいて気が散るアプリをブロックできます。",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "iPhoneで勉強中にアプリをブロックする",
+          "paragraphs": [
+            "iOS 27以降では、「設定」を開き、「スクリーンタイム」と「スクリーンタイムスケジュール」を開きます。スケジュールをオンにし、学習ウィンドウを追加し、その期間中に利用できる時間枠のカテゴリを選択します。",
+            "以前の iOS バージョンでは、「スクリーン タイム」の「ダウンタイム」を使用します。必需品には常に許可を使用します。スクリーンタイム パスコードを設定し、制限付きアプリを閉じたままにする場合は、「ダウンタイム時にブロック」をオンにします。"
+          ],
+          "steps": [
+            "コースアプリ、認証システム、重要な連絡先を利用できるようにしてください。調査ウィンドウ中に、制限する予定だったアプリを 1 つ開き、何が起こるかを確認します。"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Android で勉強中にアプリをブロックする",
+          "paragraphs": [
+            "「設定」、「Digital Wellbeing」、「フォーカスモード」の順に開きます。一時停止したいアプリを選択します。フォーカス モードでは、これらのアプリからの通知も一時停止されます。"
+          ],
+          "steps": [
+            "今すぐ開始するか、繰り返し使う学習時間のスケジュールを設定します。一時的にアプリを使う必要がある場合は、休憩機能を使ってください。"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "勉強時間に合うルールを選ぶ",
@@ -523,11 +745,32 @@
       ]
     },
     "id": {
-      "title": "Cara memblokir aplikasi pengganggu saat belajar",
-      "description": "Bangun sesi belajar dengan lebih sedikit gangguan ponsel. Pilih aturan pemblokiran yang berguna, pertahankan akses alat belajar, dan pahami pendekatan berbasis tenggat Nonlate.",
+      "title": "Cara memblokir aplikasi saat belajar di iPhone dan Android",
+      "description": "Blokir aplikasi yang mengganggu saat belajar dengan Durasi Layar iPhone atau mode Fokus Android. Selalu sediakan alat belajar dan pelajari kapan pemblokiran berbasis tugas dapat membantu.",
       "intro": "Anda membuka ponsel untuk memeriksa tugas, lalu malah menggulir media sosial. Persiapan belajar yang berguna menghentikan pengalihan itu sambil membiarkan catatan, bahan kuliah dan komunikasi penting tetap tersedia. Mulailah dengan satu pekerjaan spesifik dan beberapa aplikasi yang berulang kali mengalihkan perhatian.",
-      "answer": "Untuk memblokir aplikasi saat belajar, pilih aplikasi pengganggu, pertahankan akses alat yang dibutuhkan dan tentukan apakah Anda memerlukan timer tetap atau pemblokiran yang terkait tugas belum selesai mendekati tenggat. Nonlate memakai tugas yang memenuhi syarat dan rentang tenggat terpilih; membuat sesi belajar saja tidak mengaktifkan pemblokiran.",
+      "answer": "Di iPhone, gunakan Durasi Layar untuk mengatur jam Anda ingin belajar. Di Android, gunakan mode Fokus di Kesehatan Digital untuk menjeda aplikasi yang dipilih. Nonlate dapat memblokir aplikasi yang mengganggu berdasarkan tenggat waktu tugas.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokir aplikasi saat belajar di iPhone",
+          "paragraphs": [
+            "Di iOS 27 atau lebih baru, buka Pengaturan, lalu Durasi Layar dan Jadwal Durasi Layar. Aktifkan Jadwal, tambahkan jendela belajar dan pilih kategori Tunjangan Waktu yang tersedia selama itu.",
+            "Pada versi iOS yang lebih lama, gunakan Waktu Henti di bawah Durasi Layar. Gunakan Selalu Diizinkan untuk hal-hal penting. Dengan kode sandi Durasi Layar yang ditetapkan, aktifkan Blokir saat Waktu Henti jika Anda ingin aplikasi yang dibatasi tetap ditutup."
+          ],
+          "steps": [
+            "Selalu sediakan aplikasi kursus, pengautentikasi, dan kontak penting Anda. Selama jendela belajar, buka satu aplikasi yang ingin Anda batasi dan periksa apa yang terjadi."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokir aplikasi saat belajar di Android",
+          "paragraphs": [
+            "Buka Pengaturan, lalu Kesehatan Digital, lalu mode Fokus. Pilih aplikasi yang ingin Anda jeda. Mode fokus juga menjeda notifikasi dari aplikasi tersebut."
+          ],
+          "steps": [
+            "Ketuk Aktifkan sekarang untuk sesi ini atau Tetapkan jadwal waktu belajar berulang. Gunakan Istirahat jika Anda memerlukan akses sementara."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Pilih aturan yang sesuai dengan sesi belajar",
@@ -574,11 +817,32 @@
       ]
     },
     "ru": {
-      "title": "Как блокировать отвлекающие приложения во время учёбы",
-      "description": "Организуйте учёбу с меньшим количеством отвлечений на телефон. Выберите подходящие правила, сохраните доступ к учебным инструментам и узнайте подход Nonlate на основе сроков.",
+      "title": "Как заблокировать приложения во время учебы на iPhone и Android",
+      "description": "Блокируйте отвлекающие приложения во время учебы с помощью функции iPhone Screen Time или режима Android Focus. Держите инструменты обучения доступными и узнавайте, когда помогает блокировка на основе задач.",
       "intro": "Вы открываете телефон проверить задание, но начинаете листать ленту. Полезная подготовка прерывает этот уход, оставляя доступными заметки, материалы курса и важную связь. Начните с конкретного фрагмента работы и нескольких приложений, которые постоянно отвлекают.",
-      "answer": "Для блокировки во время учёбы выберите отвлекающие приложения, оставьте нужные инструменты доступными и решите, нужен ли фиксированный таймер или блокировка по незавершённой работе с близким сроком. Nonlate использует подходящие задачи и выбранное окно сроков; создание учебного сеанса само по себе не включает блокировку.",
+      "answer": "На iPhone используйте «Экранное время», чтобы установить часы, в которые вы хотите учиться. На Android используйте режим фокусировки в «Цифровом благополучии», чтобы приостановить выбранные приложения. Nonlate может блокировать отвлекающие приложения в зависимости от сроков выполнения задач.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Блокируйте приложения во время учебы на iPhone",
+          "paragraphs": [
+            "В iOS 27 или новее откройте «Настройки», затем «Экранное время» и «Расписание экранного времени». Включите «Расписание», добавьте окно исследования и выберите, какие категории временного пособия доступны во время него.",
+            "В более ранних версиях iOS используйте «Время простоя» в разделе «Экранное время». Используйте «Всегда разрешено» для самого необходимого. Если установлен код доступа к экранному времени, включите параметр «Блокировать во время простоя», если вы хотите, чтобы приложения с ограниченным доступом оставались закрытыми."
+          ],
+          "steps": [
+            "Держите приложение курса, средство аутентификации и необходимые контакты доступными. В окне исследования откройте одно приложение, которое вы хотели ограничить, и проверьте, что произойдет."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Блокируйте приложения во время учебы на Android",
+          "paragraphs": [
+            "Откройте «Настройки», затем «Цифровое благополучие», затем «Режим фокусировки». Выберите приложения, которые хотите приостановить. Режим фокусировки также приостанавливает уведомления от этих приложений."
+          ],
+          "steps": [
+            "Нажмите «Включить сейчас для этого сеанса» или «Установить график повторяющегося учебного времени». Используйте «Сделать перерыв», если вам нужен временный доступ."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Выберите правило для своего учебного сеанса",
@@ -625,11 +889,32 @@
       ]
     },
     "ko": {
-      "title": "공부할 때 방해 앱을 차단하는 방법",
-      "description": "휴대폰 방해가 적은 학습 시간을 만드세요. 알맞은 차단 규칙을 고르고 학습 도구를 열어 둔 채 Nonlate의 마감 기반 접근 방식을 알아보세요.",
+      "title": "iPhone 및 Android에서 공부하는 동안 앱을 차단하는 방법",
+      "description": "iPhone 스크린 타임 또는 Android 포커스 모드로 공부하는 동안 방해가 되는 앱을 차단하세요. 학습 도구를 계속 사용하고 작업 기반 차단이 도움이 되는 경우를 알아보세요.",
       "intro": "과제를 확인하려고 휴대폰을 열었다가 피드를 넘기게 됩니다. 유용한 학습 설정은 노트, 수업 자료, 필수 연락 수단은 남겨 두면서 그 샛길을 끊어 줍니다. 구체적인 작업 하나와 반복해서 주의를 빼앗는 소수의 앱부터 고르세요.",
-      "answer": "공부 중 앱을 차단하려면 방해 앱을 고르고 필요한 학습 도구는 쓸 수 있게 한 다음, 고정 학습 타이머가 필요한지 아니면 마감이 가까운 미완료 과제에 따른 차단이 필요한지 정하세요. Nonlate는 조건에 맞는 과제와 선택한 마감 범위를 사용합니다. 학습 시간만 만들면 차단이 켜지는 것은 아닙니다.",
+      "answer": "iPhone에서는 스크린 타임을 사용하여 공부하고 싶은 시간을 설정하세요. Android에서는 디지털 웰빙의 집중 모드를 사용하여 선택한 앱을 일시중지하세요. Nonlate는 작업 기한을 기준으로 방해가 되는 앱을 차단할 수 있습니다.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "iPhone으로 공부하는 동안 앱 차단",
+          "paragraphs": [
+            "iOS 27 이상에서는 설정을 열고 화면 시간 및 화면 시간 일정을 엽니다. 일정을 켜고 학습 창을 추가하고 그 동안 사용할 수 있는 시간 허용 카테고리를 선택하세요.",
+            "이전 iOS 버전에서는 스크린 타임 아래의 다운타임을 사용하세요. 필수 사항에는 항상 허용을 사용하세요. 제한된 앱을 닫은 상태로 유지하려면 스크린 타임 암호가 설정된 상태에서 다운타임 시 차단을 켜십시오."
+          ],
+          "steps": [
+            "코스 앱, 인증자 및 필수 연락처를 계속 사용할 수 있도록 유지하세요. 학습 기간 동안 제한하려는 앱 하나를 열고 무슨 일이 일어나는지 확인하세요."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Android에서 공부하는 동안 앱 차단",
+          "paragraphs": [
+            "설정, 디지털 웰빙, 집중 모드를 차례로 엽니다. 일시중지하려는 앱을 선택하세요. 집중 모드는 해당 앱의 알림도 일시 중지합니다."
+          ],
+          "steps": [
+            "이 세션에 대해 지금 켜기 또는 반복 학습 시간 일정 설정을 탭합니다. 임시 액세스가 필요한 경우 휴식을 취하세요."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "학습 상황에 맞는 규칙을 고르세요",
@@ -676,11 +961,32 @@
       ]
     },
     "it": {
-      "title": "Come bloccare le app che distraggono durante lo studio",
-      "description": "Organizza una sessione di studio con meno distrazioni sul telefono. Scegli regole di blocco utili, mantieni disponibili gli strumenti di studio e scopri l’approccio di Nonlate basato sulle scadenze.",
+      "title": "Come bloccare le app mentre studi su iPhone e Android",
+      "description": "Blocca le app che ti distraggono mentre studi con la modalità Screen Time di iPhone o Android Focus. Mantieni disponibili gli strumenti di studio e scopri quando il blocco basato sulle attività è utile.",
       "intro": "Apri il telefono per controllare un compito e ti ritrovi a scorrere i social. Una buona impostazione per lo studio interrompe questa deviazione lasciando accessibili appunti, materiali del corso e comunicazioni essenziali. Inizia da un’attività precisa e dalle poche app che ti distraggono ripetutamente.",
-      "answer": "Per bloccare le app mentre studi, scegli quelle che ti distraggono, lascia accessibili gli strumenti necessari e decidi se ti serve un timer fisso oppure un blocco legato alle attività non completate in scadenza. Nonlate usa attività idonee e una finestra di scadenza scelta da te; creare una sessione di studio non attiva da solo il blocco.",
+      "answer": "Su iPhone, usa “Tempo di utilizzo” per impostare le ore in cui vuoi studiare. Su Android, utilizza la modalità Focus in Benessere digitale per mettere in pausa le app selezionate. Nonlate può bloccare le app che distraggono in base alle scadenze delle attività.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blocca le app mentre studi su iPhone",
+          "paragraphs": [
+            "Su iOS 27 o versioni successive, apri Impostazioni, quindi Tempo di utilizzo e Pianificazione del tempo di utilizzo. Attiva Pianificazione, aggiungi una finestra di studio e scegli quali categorie di tempo concesso sono disponibili durante tale finestra.",
+            "Nelle versioni iOS precedenti, utilizza Tempo di inattività in Tempo di utilizzo. Utilizzare Sempre consentito per gli elementi essenziali. Con un passcode Screen Time impostato, attiva Blocca durante i tempi di inattività se desideri che le app con restrizioni rimangano chiuse."
+          ],
+          "steps": [
+            "Tieni a disposizione l'app del corso, l'autenticatore e i contatti essenziali. Durante la finestra di studio, apri un'app che intendevi limitare e controlla cosa succede."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blocca le app mentre studi su Android",
+          "paragraphs": [
+            "Apri Impostazioni, quindi Benessere digitale, quindi Modalità messa a fuoco. Seleziona le app che desideri mettere in pausa. La modalità Focus sospende anche le notifiche di tali app."
+          ],
+          "steps": [
+            "Tocca Attiva ora per questa sessione o Imposta una pianificazione per il tempo di studio ricorrente. Utilizza Fai una pausa se hai bisogno di un accesso temporaneo."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Scegli la regola adatta alla tua sessione di studio",
@@ -727,11 +1033,32 @@
       ]
     },
     "tr": {
-      "title": "Ders çalışırken dikkat dağıtıcı uygulamalar nasıl engellenir?",
-      "description": "Daha az telefon dikkat dağınıklığıyla çalışma oturumu oluşturun. Yararlı kurallar seçin, çalışma araçlarını erişilebilir tutun ve Nonlate’in teslim tarihine dayalı yaklaşımını anlayın.",
+      "title": "iPhone ve Android'de ders çalışırken uygulamalar nasıl engellenir?",
+      "description": "iPhone Ekran Süresi veya Android Odaklama moduyla ders çalışırken dikkat dağıtıcı uygulamaları engelleyin. Çalışma araçlarını hazır bulundurun ve göreve dayalı engellemenin ne zaman yardımcı olacağını öğrenin.",
       "intro": "Ödeve bakmak için telefonu açar, kendinizi kaydırırken bulursunuz. Yararlı bir hazırlık bu sapmayı keserken notları, ders malzemelerini ve önemli iletişimi erişilebilir bırakır. Belirli bir iş ve sizi sürekli uzaklaştıran birkaç uygulamayla başlayın.",
-      "answer": "Ders çalışırken engelleme için dikkat dağıtıcı uygulamaları seçin, gerekli araçları erişilebilir tutun ve sabit çalışma zamanlayıcısı mı yoksa tamamlanmamış, yaklaşan işlere bağlı engelleme mi gerektiğine karar verin. Nonlate uygun görevler ve seçilen teslim tarihi aralığını kullanır; oturum oluşturmak tek başına engelleme başlatmaz.",
+      "answer": "iPhone'da çalışmak istediğiniz saatleri ayarlamak için Ekran Süresi'ni kullanın. Android'de seçilen uygulamaları duraklatmak için Dijital Denge'deki Odak modunu kullanın. Nonlate, görev son tarihlerine göre dikkat dağıtan uygulamaları engelleyebilir.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "iPhone'da ders çalışırken uygulamaları engelleme",
+          "paragraphs": [
+            "iOS 27 veya sonraki sürümlerde Ayarlar'ı, ardından Ekran Süresi'ni ve Ekran Süresi Programı'nı açın. Zamanlama'yı açın, bir çalışma penceresi ekleyin ve bu süre boyunca hangi Zaman Tahsisi kategorilerinin kullanılabileceğini seçin.",
+            "Önceki iOS sürümlerinde Ekran Süresi altında Kesinti Süresi'ni kullanın. Temel ihtiyaçlar için Her Zaman İzin Verildi seçeneğini kullanın. Ekran Süresi parolasını ayarladıktan sonra kısıtlı uygulamaların kapalı kalmasını istiyorsanız Kapalı Kalma Süresinde Engelle seçeneğini açın."
+          ],
+          "steps": [
+            "Kurs uygulamanızı, kimlik doğrulayıcınızı ve önemli kişilerinizi hazır bulundurun. Çalışma penceresi sırasında kısıtlamak istediğiniz bir uygulamayı açın ve ne olacağını kontrol edin."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Android'de ders çalışırken uygulamaları engelle",
+          "paragraphs": [
+            "Ayarlar'ı, ardından Dijital Denge'yi ve ardından Odak modunu açın. Duraklatmak istediğiniz uygulamaları seçin. Odak modu aynı zamanda bu uygulamalardan gelen bildirimleri de duraklatır."
+          ],
+          "steps": [
+            "Bu oturum için şimdi aç'a veya Yinelenen çalışma süresi için bir program ayarla'ya dokunun. Geçici erişime ihtiyacınız varsa Ara verin seçeneğini kullanın."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Çalışma oturumunuza uygun kuralı seçin",
@@ -778,11 +1105,32 @@
       ]
     },
     "vi": {
-      "title": "Cách chặn ứng dụng gây xao nhãng khi học",
-      "description": "Tạo buổi học ít bị điện thoại làm gián đoạn. Chọn quy tắc chặn phù hợp, giữ công cụ học dùng được và hiểu cách Nonlate dựa vào hạn nộp.",
+      "title": "Cách chặn ứng dụng khi học trên iPhone và Android",
+      "description": "Chặn các ứng dụng gây mất tập trung khi học bằng chế độ Screen Time của iPhone hoặc Android Focus. Luôn sẵn có các công cụ nghiên cứu và tìm hiểu khi tính năng chặn dựa trên nhiệm vụ có ích.",
       "intro": "Bạn mở điện thoại để xem bài tập rồi thấy mình đang lướt mạng. Cách chuẩn bị hữu ích ngắt lối rẽ đó nhưng vẫn cho phép dùng ghi chú, tài liệu và liên lạc thiết yếu. Bắt đầu với một phần việc cụ thể và vài ứng dụng thường kéo bạn ra khỏi bài học.",
-      "answer": "Để chặn ứng dụng khi học, chọn ứng dụng gây xao nhãng, giữ công cụ cần thiết truy cập được và quyết định cần bộ hẹn giờ cố định hay chặn theo việc chưa xong sắp đến hạn. Nonlate dùng việc đủ điều kiện và khoảng hạn nộp đã chọn; chỉ tạo buổi học không kích hoạt chặn.",
+      "answer": "Trên iPhone, hãy sử dụng Screen Time để đặt giờ bạn muốn học. Trên Android, hãy sử dụng Chế độ tập trung trong Digital Wellbeing để tạm dừng các ứng dụng đã chọn. Nonlate có thể chặn các ứng dụng gây mất tập trung dựa trên thời hạn thực hiện nhiệm vụ.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Chặn ứng dụng khi học trên iPhone",
+          "paragraphs": [
+            "Trên iOS 27 trở lên, hãy mở Cài đặt, sau đó mở Thời gian sử dụng và Lịch thời gian sử dụng. Bật Lịch trình, thêm cửa sổ nghiên cứu và chọn danh mục Phụ cấp thời gian nào có sẵn trong thời gian đó.",
+            "Trên các phiên bản iOS cũ hơn, hãy sử dụng Thời gian ngừng hoạt động trong Thời gian sử dụng. Sử dụng Luôn được phép cho những thứ cần thiết. Với mật mã Thời gian sử dụng được đặt, hãy bật Chặn khi ngừng hoạt động nếu bạn muốn các ứng dụng bị hạn chế luôn đóng."
+          ],
+          "steps": [
+            "Luôn sẵn sàng ứng dụng khóa học, trình xác thực và các địa chỉ liên hệ cần thiết của bạn. Trong cửa sổ nghiên cứu, hãy mở một ứng dụng mà bạn muốn hạn chế và kiểm tra xem điều gì sẽ xảy ra."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Chặn ứng dụng khi học trên Android",
+          "paragraphs": [
+            "Mở Cài đặt, sau đó là Digital Wellbeing, sau đó là Chế độ tập trung. Chọn ứng dụng bạn muốn tạm dừng. Chế độ lấy nét cũng tạm dừng thông báo từ các ứng dụng đó."
+          ],
+          "steps": [
+            "Nhấn vào Bật ngay cho phiên này hoặc Đặt lịch cho thời gian học định kỳ. Sử dụng Hãy nghỉ ngơi nếu bạn cần quyền truy cập tạm thời."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Chọn quy tắc phù hợp buổi học",
@@ -829,11 +1177,32 @@
       ]
     },
     "pl": {
-      "title": "Jak blokować rozpraszające aplikacje podczas nauki",
-      "description": "Przygotuj sesję nauki z mniejszą liczbą rozpraszaczy w telefonie. Wybierz przydatne reguły blokowania, zachowaj dostęp do narzędzi edukacyjnych i poznaj podejście Nonlate oparte na terminach.",
+      "title": "Jak blokować aplikacje podczas nauki na iPhonie i Androidzie",
+      "description": "Blokuj rozpraszające aplikacje podczas nauki, korzystając z funkcji Czas na ekranie iPhone'a lub Trybu ostrości w systemie Android. Zadbaj o dostępność narzędzi do nauki i dowiedz się, kiedy pomaga blokowanie oparte na zadaniach.",
       "intro": "Otwierasz telefon, by sprawdzić zadanie, a po chwili przeglądasz media społecznościowe. Dobre ustawienia do nauki przerywają ten objazd, ale pozostawiają dostęp do notatek, materiałów z zajęć i ważnej komunikacji. Zacznij od jednej konkretnej pracy i kilku aplikacji, które stale odciągają twoją uwagę.",
-      "answer": "Aby blokować aplikacje podczas nauki, wybierz rozpraszające aplikacje, pozostaw dostępne potrzebne narzędzia i zdecyduj, czy potrzebujesz stałego minutnika, czy blokowania powiązanego z niedokończonymi zadaniami o bliskim terminie. Nonlate korzysta z zadań spełniających warunki i wybranego okna czasowego przed terminem; samo utworzenie sesji nauki nie uruchamia blokowania.",
+      "answer": "Na iPhonie użyj opcji Czas przed ekranem, aby ustawić godziny, w których chcesz się uczyć. Na Androidzie użyj trybu skupienia w Cyfrowej równowadze, aby wstrzymać wybrane aplikacje. Nonlate może blokować rozpraszające aplikacje w oparciu o terminy zadań.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokuj aplikacje podczas nauki na iPhonie",
+          "paragraphs": [
+            "W systemie iOS 27 lub nowszym otwórz Ustawienia, a następnie Czas przed ekranem i Harmonogram czasu przed ekranem. Włącz Harmonogram, dodaj okno nauki i wybierz, które kategorie dodatku czasowego są w nim dostępne.",
+            "We wcześniejszych wersjach iOS użyj opcji Przestój w obszarze Czas ekranu. W przypadku niezbędnych rzeczy używaj opcji Zawsze dozwolone. Po ustawieniu hasła Czasu przed ekranem włącz opcję Blokuj w czasie przestoju, jeśli chcesz, aby aplikacje z ograniczeniami pozostały zamknięte."
+          ],
+          "steps": [
+            "Zadbaj o dostępność aplikacji kursu, narzędzia uwierzytelniającego i niezbędnych kontaktów. W oknie nauki otwórz aplikację, którą chcesz ograniczyć, i sprawdź, co się stanie."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokuj aplikacje podczas nauki na Androidzie",
+          "paragraphs": [
+            "Otwórz Ustawienia, następnie Cyfrowa równowaga, a następnie Tryb ostrości. Wybierz aplikacje, które chcesz wstrzymać. Tryb skupienia wstrzymuje także powiadomienia z tych aplikacji."
+          ],
+          "steps": [
+            "Kliknij Włącz teraz na tę sesję lub Ustaw harmonogram powtarzających się czasów nauki. Użyj opcji Zrób sobie przerwę, jeśli potrzebujesz tymczasowego dostępu."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Wybierz regułę pasującą do twojej sesji nauki",
@@ -880,11 +1249,32 @@
       ]
     },
     "fa": {
-      "title": "چگونه برنامه‌های حواس‌پرت‌کن را هنگام مطالعه مسدود کنیم",
-      "description": "با حواس‌پرتی کمتر از تلفن مطالعه کنید. قانون مناسب انتخاب کنید، ابزارهای مطالعه را در دسترس نگه دارید و رویکرد مهلت‌محور Nonlate را بشناسید.",
+      "title": "چگونه برنامه ها را هنگام مطالعه در آیفون و اندروید مسدود کنیم",
+      "description": "برنامه‌های حواس‌پرتی را هنگام مطالعه با زمان صفحه آیفون یا حالت فوکوس اندروید مسدود کنید. ابزارهای مطالعه را در دسترس نگه دارید و یاد بگیرید که مسدودسازی مبتنی بر کار به شما کمک می کند.",
       "intro": "تلفن را برای بررسی تکلیف باز می‌کنید و ناگهان مشغول پیمایش می‌شوید. آماده‌سازی مفید این انحراف را قطع می‌کند و یادداشت‌ها، مطالب درس و ارتباط ضروری را در دسترس نگه می‌دارد. با بخش مشخصی از کار و چند برنامه‌ای شروع کنید که مرتب حواستان را پرت می‌کنند.",
-      "answer": "برای مسدودسازی هنگام مطالعه، برنامه‌های حواس‌پرت‌کن را انتخاب کنید، ابزارهای لازم را در دسترس بگذارید و تصمیم بگیرید زمان‌سنج ثابت می‌خواهید یا مسدودسازی مرتبط با کار ناتمام نزدیک به مهلت. Nonlate از کارهای واجد شرایط و بازهٔ مهلت انتخابی استفاده می‌کند؛ ساخت جلسهٔ مطالعه به‌تنهایی مسدودسازی را فعال نمی‌کند.",
+      "answer": "در آیفون، از Screen Time برای تنظیم ساعات مطالعه استفاده کنید. در Android، از حالت فوکوس در Digital Wellbeing برای توقف موقت برنامه‌های انتخابی استفاده کنید. Nonlate می تواند برنامه های حواس پرتی را بر اساس مهلت های کاری مسدود کند.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "برنامه ها را هنگام مطالعه در آیفون مسدود کنید",
+          "paragraphs": [
+            "در iOS 27 یا جدیدتر، Settings، سپس Screen Time و Screen Time Schedule را باز کنید. Schedule را روشن کنید، یک پنجره مطالعه اضافه کنید و انتخاب کنید کدام دسته‌های کمک هزینه زمانی در دسترس هستند.",
+            "در نسخه‌های iOS قبلی، از Downtime در قسمت Screen Time استفاده کنید. از Always Allowed برای موارد ضروری استفاده کنید. با تنظیم گذرواژه Screen Time، اگر می‌خواهید برنامه‌های محدود بسته بمانند، Block at Downtime را روشن کنید."
+          ],
+          "steps": [
+            "برنامه دوره، احراز هویت و مخاطبین ضروری خود را در دسترس نگه دارید. در طول پنجره مطالعه، برنامه‌ای را که قصد محدود کردن آن را داشتید باز کنید و بررسی کنید چه اتفاقی می‌افتد."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "هنگام مطالعه در اندروید، برنامه ها را مسدود کنید",
+          "paragraphs": [
+            "تنظیمات، سپس Digital Wellbeing و سپس حالت فوکوس را باز کنید. برنامه هایی را که می خواهید مکث کنید انتخاب کنید. حالت فوکوس همچنین اعلان‌های آن برنامه‌ها را متوقف می‌کند."
+          ],
+          "steps": [
+            "برای این جلسه روی «فعلا روشن شود» یا تنظیم زمان‌بندی برای زمان مطالعه مکرر ضربه بزنید. در صورت نیاز به دسترسی موقت از Take a break استفاده کنید."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "قانون متناسب با جلسهٔ مطالعه را انتخاب کنید",
@@ -931,11 +1321,32 @@
       ]
     },
     "th": {
-      "title": "วิธีบล็อกแอปที่รบกวนสมาธิระหว่างอ่านหนังสือ",
-      "description": "จัดช่วงเรียนที่มีสิ่งรบกวนจากมือถือน้อยลง เลือกกฎบล็อกที่เหมาะสม เปิดเครื่องมือเรียนให้ใช้ได้ และเข้าใจแนวทางตามกำหนดงานของ Nonlate",
+      "title": "วิธีบล็อกแอพขณะเรียนบน iPhone และ Android",
+      "description": "บล็อกแอปที่ทำให้เสียสมาธิขณะเรียนด้วยเวลาหน้าจอของ iPhone หรือโหมด Android Focus เตรียมเครื่องมือการเรียนไว้ให้พร้อมและเรียนรู้เมื่อการบล็อกตามงานช่วยได้",
       "intro": "คุณเปิดมือถือเพื่อตรวจงาน แต่กลับไถฟีด การตั้งค่าสำหรับเรียนที่มีประโยชน์ควรหยุดการออกนอกทางนั้น โดยยังให้ใช้โน้ต เอกสารเรียน และการสื่อสารจำเป็นได้ เริ่มจากงานที่ชัดเจนหนึ่งอย่างและแอปไม่กี่ตัวที่ดึงคุณออกจากงานซ้ำๆ",
-      "answer": "หากต้องการบล็อกแอประหว่างเรียน ให้เลือกแอปที่รบกวนสมาธิ เปิดเครื่องมือเรียนจำเป็นให้ใช้ได้ แล้วตัดสินใจว่าต้องการตัวจับเวลาเรียนคงที่หรือการบล็อกที่ผูกกับงานค้างใกล้กำหนด Nonlate ใช้งานที่เข้าเกณฑ์กับช่วงก่อนกำหนดที่เลือก การสร้างช่วงเรียนอย่างเดียวไม่เปิดการบล็อก",
+      "answer": "บน iPhone ให้ใช้เวลาหน้าจอเพื่อตั้งเวลาที่คุณต้องการเรียน บน Android ให้ใช้โหมดโฟกัสในไลฟ์สไตล์ดิจิทัลเพื่อหยุดแอปที่เลือกไว้ชั่วคราว Nonlate สามารถบล็อกแอปที่รบกวนสมาธิตามกำหนดเวลางานได้",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "บล็อกแอพขณะเรียนบน iPhone",
+          "paragraphs": [
+            "บน iOS 27 หรือใหม่กว่า ให้เปิดการตั้งค่า จากนั้นเปิดเวลาหน้าจอและกำหนดเวลาหน้าจอ เปิดกำหนดการ เพิ่มหน้าต่างการศึกษา และเลือกหมวดหมู่การเผื่อเวลาที่มีให้ในระหว่างนั้น",
+            "บน iOS เวอร์ชันก่อนหน้า ให้ใช้เวลาไม่ใช้งานใต้เวลาหน้าจอ ใช้อนุญาตเสมอสำหรับข้อมูลสำคัญ ด้วยการตั้งค่ารหัสผ่านเวลาหน้าจอ ให้เปิดบล็อกเมื่อไม่ใช้งานหากคุณต้องการให้แอพที่ถูกจำกัดปิดอยู่"
+          ],
+          "steps": [
+            "ทำให้แอปหลักสูตร ตัวตรวจสอบสิทธิ์ และผู้ติดต่อที่สำคัญของคุณพร้อมใช้งานอยู่เสมอ ในระหว่างช่วงการศึกษา ให้เปิดแอปหนึ่งที่คุณต้องการจำกัดและตรวจสอบว่าเกิดอะไรขึ้น"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "บล็อกแอปขณะเรียนบน Android",
+          "paragraphs": [
+            "เปิดการตั้งค่า จากนั้นไปที่ Digital Wellbeing จากนั้นไปที่โหมดโฟกัส เลือกแอพที่คุณต้องการหยุดชั่วคราว โหมดโฟกัสยังหยุดการแจ้งเตือนจากแอปเหล่านั้นชั่วคราวอีกด้วย"
+          ],
+          "steps": [
+            "แตะเปิดตอนนี้สำหรับเซสชั่นนี้หรือตั้งเวลาเรียนซ้ำ ใช้ หยุดพัก หากคุณต้องการเข้าถึงชั่วคราว"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "เลือกกฎให้ตรงกับช่วงเรียน",
@@ -982,11 +1393,32 @@
       ]
     },
     "nl": {
-      "title": "Afleidende apps blokkeren tijdens het studeren",
-      "description": "Richt een studiesessie in met minder afleiding op je telefoon. Kies nuttige blokkeerregels, houd studiemiddelen beschikbaar en begrijp hoe Nonlate rekening houdt met deadlines.",
+      "title": "Hoe apps te blokkeren tijdens het studeren op iPhone en Android",
+      "description": "Blokkeer afleidende apps tijdens het studeren met iPhone Screen Time of Android Focus-modus. Houd studietools beschikbaar en leer wanneer taakgericht blokkeren helpt.",
       "intro": "Je opent je telefoon om een opdracht te bekijken en belandt vervolgens op sociale media. Een nuttige studie-instelling onderbreekt die omweg, terwijl je notities, lesmateriaal en noodzakelijke communicatie bereikbaar blijven. Begin met één concreet stuk werk en de paar apps die je steeds afleiden.",
-      "answer": "Om apps tijdens het studeren te blokkeren, kies je de afleidende apps, houd je noodzakelijke studiemiddelen toegankelijk en bepaal je of je een vaste timer nodig hebt of een blokkade die samenhangt met onafgeronde taken die binnenkort af moeten zijn. Nonlate gebruikt taken die aan de voorwaarden voldoen en een gekozen deadlinevenster; alleen een studiesessie aanmaken activeert geen blokkade.",
+      "answer": "Op de iPhone gebruik je Schermtijd om de uren in te stellen waarop je wilt studeren. Gebruik op Android de Focusmodus in Digitaal welzijn om geselecteerde apps te pauzeren. Nonlate kan afleidende apps blokkeren op basis van taakdeadlines.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokkeer apps tijdens het studeren op de iPhone",
+          "paragraphs": [
+            "Op iOS 27 of hoger opent u Instellingen en vervolgens Schermtijd en Schermtijdschema. Schakel Schema in, voeg een studievenster toe en kies welke tijdsbestedingscategorieën tijdens dat tijdvak beschikbaar zijn.",
+            "Op eerdere iOS-versies gebruikt u Downtime onder Schermtijd. Gebruik Altijd toegestaan ​​voor essentiële zaken. Als u een Screen Time-toegangscode hebt ingesteld, schakelt u Blokkeren bij downtime in als u wilt dat beperkte apps gesloten blijven."
+          ],
+          "steps": [
+            "Houd uw cursusapp, authenticator en essentiële contacten beschikbaar. Open tijdens het studievenster één app die u wilde beperken en controleer wat er gebeurt."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokkeer apps tijdens het studeren op Android",
+          "paragraphs": [
+            "Open Instellingen, vervolgens Digitaal welzijn en vervolgens Focusmodus. Selecteer de apps die u wilt pauzeren. De focusmodus pauzeert ook meldingen van die apps."
+          ],
+          "steps": [
+            "Tik op Nu inschakelen voor deze sessie of Een schema instellen voor terugkerende studietijd. Gebruik Neem een ​​pauze als u tijdelijk toegang nodig heeft."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Kies de regel die bij je studiesessie past",
@@ -1033,11 +1465,32 @@
       ]
     },
     "uk": {
-      "title": "Як блокувати відволікальні застосунки під час навчання",
-      "description": "Організуйте навчання з меншою кількістю відволікань на телефон. Оберіть корисні правила, залиште навчальні інструменти доступними й дізнайтеся про підхід Nonlate за термінами.",
+      "title": "Як заблокувати програми під час навчання на iPhone і Android",
+      "description": "Блокуйте відволікаючі програми під час навчання за допомогою iPhone Screen Time або режиму Android Focus. Тримайте інструменти для навчання доступними та дізнайтеся, коли допомагає блокування на основі завдань.",
       "intro": "Ви відкриваєте телефон перевірити завдання, а починаєте гортати стрічку. Корисна підготовка перериває цей відступ, зберігаючи доступ до нотаток, матеріалів і важливого зв’язку. Почніть із конкретного фрагмента роботи й кількох застосунків, які постійно відволікають.",
-      "answer": "Щоб блокувати застосунки під час навчання, оберіть відволікальні, залиште потрібні інструменти доступними й вирішіть, чи потрібен фіксований таймер або блокування за незавершеною роботою з близьким терміном. Nonlate використовує відповідні завдання й вибране вікно термінів; саме створення навчального сеансу не вмикає блокування.",
+      "answer": "На iPhone використовуйте Screen Time, щоб установити години, які ви хочете вчитися. На Android використовуйте режим фокусування в Digital Wellbeing, щоб призупинити вибрані програми. Nonlate може блокувати відволікаючі програми на основі термінів виконання завдань.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Блокуйте програми під час навчання на iPhone",
+          "paragraphs": [
+            "В iOS 27 або пізнішої версії відкрийте «Налаштування», а потім «Час екрану» та «Розклад екранного часу». Увімкніть «Розклад», додайте вікно для навчання та виберіть, які категорії робочого часу доступні протягом нього.",
+            "У попередніх версіях iOS використовуйте параметр Час простою в розділі Час використання екрана. Використовуйте Always Allowed для основних речей. Установивши код доступу «Час екрану», увімкніть «Блокувати під час простою», якщо ви хочете, щоб обмежені програми залишалися закритими."
+          ],
+          "steps": [
+            "Тримайте програму курсу, автентифікатор і важливі контакти доступними. У вікні дослідження відкрийте одну програму, яку ви хотіли обмежити, і перевірте, що відбувається."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Блокуйте програми під час навчання на Android",
+          "paragraphs": [
+            "Відкрийте «Налаштування», потім «Цифровий добробут», потім «Режим фокусування». Виберіть програми, які потрібно призупинити. Режим фокусування також призупиняє сповіщення від цих програм."
+          ],
+          "steps": [
+            "Торкніться «Увімкнути зараз для цього сеансу» або «Установити розклад для повторного навчання». Використовуйте Зробіть перерву, якщо вам потрібен тимчасовий доступ."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Оберіть правило для свого навчального сеансу",
@@ -1084,11 +1537,32 @@
       ]
     },
     "bn": {
-      "title": "পড়ার সময় মনোযোগ নষ্টকারী অ্যাপ কীভাবে ব্লক করবেন",
-      "description": "ফোনের বাধা কমিয়ে পড়ার সময় তৈরি করুন। উপযুক্ত ব্লকিং নিয়ম বেছে নিন, পড়ার সরঞ্জাম খোলা রাখুন এবং Nonlate-এর সময়সীমাভিত্তিক পদ্ধতি বুঝুন।",
+      "title": "আইফোন এবং অ্যান্ড্রয়েডে পড়াশোনা করার সময় কীভাবে অ্যাপগুলি ব্লক করবেন",
+      "description": "আইফোন স্ক্রিন টাইম বা অ্যান্ড্রয়েড ফোকাস মোডের সাথে অধ্যয়ন করার সময় বিভ্রান্তিকর অ্যাপগুলিকে ব্লক করুন। অধ্যয়নের সরঞ্জামগুলি উপলব্ধ রাখুন এবং কাজ-ভিত্তিক ব্লকিং কখন সাহায্য করে তা শিখুন।",
       "intro": "অ্যাসাইনমেন্ট দেখতে ফোন খোলেন, তারপর নিজেকে স্ক্রল করতে দেখেন। কার্যকর পড়ার ব্যবস্থা এই পথভ্রষ্টতা থামায়, কিন্তু নোট, কোর্সের উপকরণ ও জরুরি যোগাযোগ চালু রাখে। নির্দিষ্ট একটি কাজ এবং বারবার টেনে নেওয়া কয়েকটি অ্যাপ দিয়ে শুরু করুন।",
-      "answer": "পড়ার সময় অ্যাপ ব্লক করতে মনোযোগ নষ্টকারী অ্যাপ বাছুন, প্রয়োজনীয় পড়ার সরঞ্জাম খোলা রাখুন এবং স্থির পড়ার টাইমার নাকি অসমাপ্ত সময়সীমাযুক্ত কাজের সঙ্গে যুক্ত ব্লকিং দরকার ঠিক করুন। Nonlate উপযুক্ত কাজ ও বেছে নেওয়া সময়সীমার পরিসর ব্যবহার করে; শুধু পড়ার সেশন তৈরি করলেই ব্লকিং চালু হয় না।",
+      "answer": "আইফোনে, আপনি যে ঘন্টা পড়তে চান তা সেট করতে স্ক্রীন টাইম ব্যবহার করুন। Android-এ, নির্বাচিত অ্যাপগুলিকে পজ করতে ডিজিটাল ওয়েলবিং-এ ফোকাস মোড ব্যবহার করুন। Nonlate টাস্ক ডেডলাইনের উপর ভিত্তি করে বিভ্রান্তকারী অ্যাপগুলিকে ব্লক করতে পারে।",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "আইফোনে পড়াশোনা করার সময় অ্যাপস ব্লক করুন",
+          "paragraphs": [
+            "iOS 27 বা তার পরে, সেটিংস খুলুন, তারপরে স্ক্রীন টাইম এবং স্ক্রীন টাইম শিডিউল। সময়সূচী চালু করুন, একটি অধ্যয়ন উইন্ডো যোগ করুন এবং এটি চলাকালীন কোন সময় ভাতা বিভাগগুলি উপলব্ধ রয়েছে তা চয়ন করুন৷",
+            "আগের iOS সংস্করণে, স্ক্রীন টাইমের অধীনে ডাউনটাইম ব্যবহার করুন। প্রয়োজনীয় জিনিসের জন্য সর্বদা অনুমোদিত ব্যবহার করুন। একটি স্ক্রীন টাইম পাসকোড সেট সহ, আপনি যদি সীমাবদ্ধ অ্যাপগুলি বন্ধ রাখতে চান তবে ডাউনটাইমে ব্লক চালু করুন।"
+          ],
+          "steps": [
+            "আপনার কোর্স অ্যাপ, প্রমাণীকরণকারী এবং প্রয়োজনীয় পরিচিতিগুলি উপলব্ধ রাখুন। অধ্যয়ন উইন্ডো চলাকালীন, একটি অ্যাপ খুলুন যা আপনি সীমাবদ্ধ করতে চান এবং কী হয় তা পরীক্ষা করুন৷"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "অ্যান্ড্রয়েডে পড়ার সময় অ্যাপ ব্লক করুন",
+          "paragraphs": [
+            "সেটিংস খুলুন, তারপরে ডিজিটাল ওয়েলবিং, তারপর ফোকাস মোড। আপনি বিরতি দিতে চান অ্যাপ্লিকেশন নির্বাচন করুন. ফোকাস মোড সেই অ্যাপগুলি থেকে বিজ্ঞপ্তিগুলিকে বিরতি দেয়৷"
+          ],
+          "steps": [
+            "এই সেশনের জন্য এখনই চালু করুন বা পুনরাবৃত্ত অধ্যয়নের সময়ের জন্য একটি সময়সূচী সেট করুন আলতো চাপুন। আপনার অস্থায়ী অ্যাক্সেসের প্রয়োজন হলে একটি বিরতি ব্যবহার করুন।"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "পড়ার সেশনের উপযুক্ত নিয়ম বাছুন",
@@ -1135,11 +1609,32 @@
       ]
     },
     "ur": {
-      "title": "پڑھائی کے دوران توجہ بٹانے والی ایپس کیسے روکیں",
-      "description": "فون کی کم خلل اندازی کے ساتھ پڑھائی کا سیشن بنائیں۔ مفید قواعد چنیں، تعلیمی اوزار دستیاب رکھیں اور آخری تاریخ پر مبنی Nonlate کا طریقہ سمجھیں۔",
+      "title": "آئی فون اور اینڈرائیڈ پر پڑھتے ہوئے ایپس کو کیسے بلاک کریں۔",
+      "description": "آئی فون اسکرین ٹائم یا اینڈرائیڈ فوکس موڈ کے ساتھ پڑھتے ہوئے توجہ ہٹانے والی ایپس کو مسدود کریں۔ اسٹڈی ٹولز کو دستیاب رکھیں اور سیکھیں کہ ٹاسک پر مبنی بلاکنگ کب مدد کرتی ہے۔",
       "intro": "آپ اسائنمنٹ دیکھنے کو فون کھولتے ہیں، پھر اسکرول کرنے لگتے ہیں۔ مفید تیاری یہ بھٹکاؤ روکتی ہے جبکہ نوٹس، کورس مواد اور ضروری رابطہ دستیاب رہتا ہے۔ ایک واضح کام اور چند ایپس سے شروع کریں جو بار بار توجہ ہٹاتی ہیں۔",
-      "answer": "پڑھائی میں ایپس روکنے کے لیے خلل والی ایپس چنیں، ضروری اوزار قابل رسائی رکھیں اور فیصلہ کریں کہ مقررہ ٹائمر چاہیے یا قریب آخری تاریخ والے نامکمل کام سے جڑی بندش۔ Nonlate موزوں کام اور منتخب تاریخ کا دائرہ استعمال کرتا ہے؛ صرف پڑھائی کا سیشن بنانا بندش نہیں چلاتا۔",
+      "answer": "آئی فون پر، آپ جن اوقات کا مطالعہ کرنا چاہتے ہیں ان کو سیٹ کرنے کے لیے اسکرین ٹائم کا استعمال کریں۔ Android پر، منتخب ایپس کو روکنے کے لیے ڈیجیٹل ویلبیئنگ میں فوکس موڈ کا استعمال کریں۔ Nonlate ٹاسک ڈیڈ لائن کی بنیاد پر توجہ ہٹانے والی ایپس کو روک سکتا ہے۔",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "آئی فون پر پڑھتے ہوئے ایپس کو بلاک کریں۔",
+          "paragraphs": [
+            "iOS 27 یا بعد میں، ترتیبات کھولیں، پھر اسکرین ٹائم اور اسکرین ٹائم شیڈول کھولیں۔ شیڈول کو آن کریں، اسٹڈی ونڈو شامل کریں اور منتخب کریں کہ اس کے دوران کون سے ٹائم الاؤنس کیٹیگریز دستیاب ہیں۔",
+            "پرانے iOS ورژنز پر، اسکرین ٹائم کے تحت ڈاؤن ٹائم استعمال کریں۔ ضروری چیزوں کے لیے ہمیشہ کی اجازت استعمال کریں۔ اسکرین ٹائم پاس کوڈ سیٹ کے ساتھ، ڈاؤن ٹائم پر بلاک کو آن کریں اگر آپ چاہتے ہیں کہ محدود ایپس بند رہیں۔"
+          ],
+          "steps": [
+            "اپنی کورس ایپ، تصدیق کنندہ اور ضروری رابطے دستیاب رکھیں۔ اسٹڈی ونڈو کے دوران، ایک ایپ کھولیں جس کا مقصد آپ کو محدود کرنا تھا اور چیک کرنا تھا کہ کیا ہوتا ہے۔"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "اینڈرائیڈ پر پڑھتے ہوئے ایپس کو بلاک کریں۔",
+          "paragraphs": [
+            "ترتیبات کھولیں، پھر ڈیجیٹل ویلبیئنگ، پھر فوکس موڈ۔ وہ ایپس منتخب کریں جنہیں آپ روکنا چاہتے ہیں۔ فوکس موڈ ان ایپس کی اطلاعات کو بھی روکتا ہے۔"
+          ],
+          "steps": [
+            "اس سیشن کے لیے ابھی آن کریں پر ٹیپ کریں یا پڑھائی کے بار بار آنے والے وقت کے لیے ایک شیڈول سیٹ کریں۔ اگر آپ کو عارضی رسائی کی ضرورت ہو تو ایک وقفے کا استعمال کریں۔"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "اپنے سیشن کے مطابق قاعدہ چنیں",
@@ -1186,11 +1681,32 @@
       ]
     },
     "ta": {
-      "title": "படிக்கும்போது கவனத்தைச் சிதறடிக்கும் செயலிகளைத் தடுப்பது எப்படி",
-      "description": "தொலைபேசிக் கவனச்சிதறல் குறைந்த படிப்பு நேரத்தை உருவாக்குங்கள். பயனுள்ள தடுப்பு விதிகளைத் தேர்ந்து, படிப்புக் கருவிகளை அணுகக்கூடியதாக வைத்து, Nonlate-இன் காலக்கெடு சார்ந்த அணுகுமுறையைப் புரிந்துகொள்ளுங்கள்.",
+      "title": "ஐபோன் மற்றும் ஆண்ட்ராய்டில் படிக்கும் போது ஆப்ஸை எவ்வாறு தடுப்பது",
+      "description": "ஐபோன் திரை நேரம் அல்லது ஆண்ட்ராய்டு ஃபோகஸ் பயன்முறையில் படிக்கும் போது கவனத்தை சிதறடிக்கும் பயன்பாடுகளைத் தடுக்கவும். ஆய்வுக் கருவிகளை வைத்திருங்கள் மற்றும் பணி அடிப்படையிலான தடுப்பு உதவும் போது அறியவும்.",
       "intro": "பணியைப் பார்க்கத் தொலைபேசியைத் திறந்து, பிறகு ஸ்க்ரோல் செய்வதை உணர்கிறீர்கள். பயனுள்ள படிப்பு அமைப்பு குறிப்புகள், பாடப் பொருள்கள், அவசியமான தொடர்புகளை அனுமதித்தபடி இந்தத் திசைமாற்றத்தை நிறுத்தும். குறிப்பிட்ட ஒரு வேலையுடனும் மீண்டும் மீண்டும் கவனத்தை இழுக்கும் சில செயலிகளுடனும் தொடங்குங்கள்.",
-      "answer": "படிக்கும்போது செயலிகளைத் தடுக்க, கவனச்சிதறல் செயலிகளைத் தேர்ந்து, தேவையான படிப்புக் கருவிகளைத் திறந்து வைத்து, நிலையான படிப்பு நேரக்கணிப்பா அல்லது காலக்கெடுவுள்ள முடியாத பணிகளுடன் இணைந்த தடுப்பா தேவை எனத் தீர்மானிக்கவும். Nonlate தகுதியான பணிகளையும் தேர்ந்த காலக்கெடு வரம்பையும் பயன்படுத்தும்; படிப்பு அமர்வு உருவாக்குவது மட்டும் தடுப்பை இயக்காது.",
+      "answer": "ஐபோனில், நீங்கள் படிக்க விரும்பும் நேரத்தை அமைக்க திரை நேரத்தைப் பயன்படுத்தவும். ஆண்ட்ராய்டில், தேர்ந்தெடுக்கப்பட்ட ஆப்ஸை இடைநிறுத்த, டிஜிட்டல் நல்வாழ்வில் ஃபோகஸ் பயன்முறையைப் பயன்படுத்தவும். Nonlate பணி காலக்கெடுவின் அடிப்படையில் கவனத்தை சிதறடிக்கும் பயன்பாடுகளைத் தடுக்கலாம்.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "ஐபோனில் படிக்கும் போது பயன்பாடுகளைத் தடுக்கவும்",
+          "paragraphs": [
+            "iOS 27 அல்லது அதற்குப் பிந்தைய பதிப்புகளில், அமைப்புகளைத் திறக்கவும், பின்னர் திரை நேரம் மற்றும் திரை நேர அட்டவணையைத் திறக்கவும். அட்டவணையை இயக்கி, ஒரு ஆய்வுச் சாளரத்தைச் சேர்த்து, அதில் எந்த நேரக் கொடுப்பனவு வகைகள் உள்ளன என்பதைத் தேர்வுசெய்யவும்.",
+            "முந்தைய iOS பதிப்புகளில், திரை நேரத்தின் கீழ் செயலற்ற நேரத்தைப் பயன்படுத்தவும். அத்தியாவசியப் பொருட்களுக்கு எப்போதும் அனுமதிக்கப்படுவதைப் பயன்படுத்தவும். ஸ்கிரீன் டைம் கடவுக்குறியீடு செட் மூலம், தடைசெய்யப்பட்ட ஆப்ஸ் மூடப்பட்டிருக்க வேண்டுமெனில், செயலிழந்த நேரத்தில் தடுப்பதை இயக்கவும்."
+          ],
+          "steps": [
+            "உங்கள் பாடப் பயன்பாடு, அங்கீகரிப்பாளர் மற்றும் அத்தியாவசிய தொடர்புகள் ஆகியவற்றைக் கிடைக்கச் செய்யுங்கள். ஆய்வுச் சாளரத்தின் போது, ​​நீங்கள் கட்டுப்படுத்தும் பயன்பாட்டைத் திறந்து என்ன நடக்கிறது என்பதைச் சரிபார்க்கவும்."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "ஆண்ட்ராய்டில் படிக்கும் போது ஆப்ஸைத் தடுக்கவும்",
+          "paragraphs": [
+            "அமைப்புகளைத் திறக்கவும், பின்னர் டிஜிட்டல் நல்வாழ்வு, பின்னர் ஃபோகஸ் பயன்முறையைத் திறக்கவும். நீங்கள் இடைநிறுத்த விரும்பும் பயன்பாடுகளைத் தேர்ந்தெடுக்கவும். ஃபோகஸ் பயன்முறையும் அந்தப் பயன்பாடுகளின் அறிவிப்புகளை இடைநிறுத்துகிறது."
+          ],
+          "steps": [
+            "இந்த அமர்விற்கு இப்போதே இயக்கு என்பதைத் தட்டவும் அல்லது தொடர்ச்சியான படிப்பு நேரத்திற்கான அட்டவணையை அமைக்கவும். உங்களுக்கு தற்காலிக அணுகல் தேவைப்பட்டால், ஓய்வு எடுத்துக் கொள்ளுங்கள்."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "படிப்பு அமர்வுக்குப் பொருந்தும் விதியைத் தேர்ந்தெடுக்கவும்",
@@ -1237,11 +1753,32 @@
       ]
     },
     "te": {
-      "title": "చదువుతున్నప్పుడు దృష్టి మళ్లించే యాప్‌లను బ్లాక్ చేయడం ఎలా",
-      "description": "ఫోన్ అంతరాయాలు తక్కువగా ఉండే చదువు సమయాన్ని ఏర్పాటు చేయండి. తగిన బ్లాకింగ్ నియమాలు ఎంచుకుని, చదువు సాధనాలు అందుబాటులో ఉంచి, Nonlate గడువు ఆధారిత విధానాన్ని అర్థం చేసుకోండి.",
+      "title": "iPhone మరియు Androidలో చదువుతున్నప్పుడు యాప్‌లను ఎలా బ్లాక్ చేయాలి",
+      "description": "ఐఫోన్ స్క్రీన్ టైమ్ లేదా ఆండ్రాయిడ్ ఫోకస్ మోడ్‌తో చదువుతున్నప్పుడు అపసవ్య యాప్‌లను బ్లాక్ చేయండి. అధ్యయన సాధనాలను అందుబాటులో ఉంచుకోండి మరియు టాస్క్-బేస్డ్ బ్లాకింగ్ ఎప్పుడు సహాయపడుతుందో తెలుసుకోండి.",
       "intro": "అసైన్‌మెంట్ చూడటానికి ఫోన్ తెరిచి స్క్రోల్ చేస్తుంటారు. ఉపయోగకరమైన చదువు ఏర్పాటు నోట్స్, కోర్సు విషయాలు, ముఖ్యమైన సంప్రదింపులు అందుబాటులో ఉంచుతూనే ఈ దారిమళ్లింపును ఆపుతుంది. నిర్దిష్ట పని ఒకటి, పదేపదే దృష్టి మళ్లించే కొన్ని యాప్‌లతో మొదలుపెట్టండి.",
-      "answer": "చదువులో యాప్‌లను బ్లాక్ చేయాలంటే దృష్టి మళ్లించే యాప్‌లను ఎంచుకుని, అవసరమైన చదువు సాధనాలు అందుబాటులో ఉంచి, స్థిర చదువు టైమరా లేదా పూర్తికాని గడువు పనులకు సంబంధించిన బ్లాకింగా కావాలో నిర్ణయించండి. Nonlate అర్హమైన పనులు, ఎంచుకున్న గడువు పరిధిని వాడుతుంది; చదువు సెషన్ సృష్టించడం మాత్రమే బ్లాకింగ్ ప్రారంభించదు.",
+      "answer": "iPhoneలో, మీరు అధ్యయనం చేయాలనుకుంటున్న గంటలను సెట్ చేయడానికి స్క్రీన్ సమయాన్ని ఉపయోగించండి. Androidలో, ఎంచుకున్న యాప్‌లను పాజ్ చేయడానికి డిజిటల్ వెల్‌బీయింగ్‌లో ఫోకస్ మోడ్‌ని ఉపయోగించండి. Nonlate పని గడువుల ఆధారంగా అపసవ్య యాప్‌లను బ్లాక్ చేయగలదు.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "ఐఫోన్‌లో చదువుతున్నప్పుడు యాప్‌లను బ్లాక్ చేయండి",
+          "paragraphs": [
+            "iOS 27 లేదా తర్వాతి వెర్షన్‌లో, సెట్టింగ్‌లను తెరవండి, ఆపై స్క్రీన్ సమయం మరియు స్క్రీన్ టైమ్ షెడ్యూల్‌ను తెరవండి. షెడ్యూల్‌ని ఆన్ చేసి, స్టడీ విండోను జోడించి, అందులో ఏ సమయ భత్యం కేటగిరీలు అందుబాటులో ఉన్నాయో ఎంచుకోండి.",
+            "మునుపటి iOS సంస్కరణల్లో, స్క్రీన్ సమయం కింద డౌన్‌టైమ్‌ని ఉపయోగించండి. నిత్యావసరాల కోసం ఎల్లప్పుడూ అనుమతించబడిన వాటిని ఉపయోగించండి. స్క్రీన్ టైమ్ పాస్‌కోడ్ సెట్‌తో, మీరు నియంత్రిత యాప్‌లు మూసివేయబడాలని కోరుకుంటే, డౌన్‌టైమ్‌లో బ్లాక్ చేయడాన్ని ఆన్ చేయండి."
+          ],
+          "steps": [
+            "మీ కోర్సు యాప్, ప్రామాణీకరణదారు మరియు అవసరమైన పరిచయాలను అందుబాటులో ఉంచుకోండి. అధ్యయన విండో సమయంలో, మీరు పరిమితం చేయడానికి ఉద్దేశించిన ఒక యాప్‌ని తెరిచి, ఏమి జరుగుతుందో తనిఖీ చేయండి."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "ఆండ్రాయిడ్‌లో చదువుతున్నప్పుడు యాప్‌లను బ్లాక్ చేయండి",
+          "paragraphs": [
+            "సెట్టింగ్‌లు, ఆపై డిజిటల్ సంక్షేమం, ఆపై ఫోకస్ మోడ్‌ని తెరవండి. మీరు పాజ్ చేయాలనుకుంటున్న యాప్‌లను ఎంచుకోండి. ఫోకస్ మోడ్ కూడా ఆ యాప్‌ల నుండి నోటిఫికేషన్‌లను పాజ్ చేస్తుంది."
+          ],
+          "steps": [
+            "ఈ సెషన్ కోసం ఇప్పుడే ఆన్ చేయి నొక్కండి లేదా పునరావృతమయ్యే అధ్యయన సమయం కోసం షెడ్యూల్‌ను సెట్ చేయండి. మీకు తాత్కాలిక యాక్సెస్ కావాలంటే విరామం తీసుకోండి ఉపయోగించండి."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "మీ చదువు సెషన్‌కు సరిపోయే నియమాన్ని ఎంచుకోండి",
@@ -1288,11 +1825,32 @@
       ]
     },
     "zh-Hant": {
-      "title": "讀書時如何攔截干擾 App",
-      "description": "減少讀書時的手機干擾。選擇合適的攔截規則、保留學習工具的使用權限，並了解 Nonlate 依任務期限攔截的方式。",
+      "title": "如何在 iPhone 和 Android 上學習時阻止應用程式",
+      "description": "使用 iPhone Screen Time 或 Android Focus 模式學習時阻止分散注意力的應用程式。保持學習工具可用，並在基於任務的阻止有幫助時進行學習。",
       "intro": "你打開手機查看作業，卻不知不覺開始滑內容。實用的讀書設定應打斷這種偏離，同時讓筆記、課程資料及必要聯絡保持可用。先選一項具體工作，再找出那幾個反覆讓你分心的 App。",
-      "answer": "讀書時要攔截 App，先選干擾 App、保留必要學習工具，再決定需要固定讀書計時器，還是與未完成到期任務相關的攔截。Nonlate 使用符合條件的任務及選定到期時間範圍；光是建立讀書時段不會啟動攔截。",
+      "answer": "在 iPhone 上，使用「螢幕時間」來設定您想要學習的時間。在 Android 上，使用數位健康中的焦點模式暫停選定的應用程式。 Nonlate 可以根據任務截止日期阻止分散注意力的應用程式。",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "在 iPhone 上學習時阻止應用程式",
+          "paragraphs": [
+            "在 iOS 27 或更高版本上，開啟“設定”，然後開啟“螢幕時間”和“螢幕時間安排”。開啟時間表，新增學習視窗並選擇在此期間可用的時間津貼類別。",
+            "在早期的 iO​​ 版本中，請使用「螢幕時間」下的「停機時間」。使用「始終允許」來獲取必需品。設定「螢幕時間」密碼後，如果您希望受限制的應用程式保持關閉狀態，請啟用「停機時阻止」。"
+          ],
+          "steps": [
+            "確保您的課程應用程式、驗證器和重要聯絡人可用。在研究視窗期間，打開一個您想要限制的應用程式並檢查會發生什麼。"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "在 Android 上學習時阻止應用程式",
+          "paragraphs": [
+            "開啟“設定”，然後開啟“數位健康”，然後開啟“焦點”模式。選擇您要暫停的應用程式。焦點模式也會暫停這些應用程式的通知。"
+          ],
+          "steps": [
+            "點擊立即開啟此課程或設定循環學習時間的時間表。如果您需要臨時訪問，請使用休息一下。"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "選擇符合讀書需要的規則",
@@ -1339,11 +1897,32 @@
       ]
     },
     "he": {
-      "title": "איך לחסום יישומים מסיחים בזמן הלימודים",
-      "description": "צרו זמן לימוד עם פחות הסחות מהטלפון. בחרו כללי חסימה שימושיים, השאירו כלי לימוד נגישים והכירו את הגישה של Nonlate המבוססת על מועדים.",
+      "title": "כיצד לחסום אפליקציות בזמן לימודים באייפון ובאנדרואיד",
+      "description": "חסום אפליקציות המסיחות את הדעת בזמן לימודים עם זמן מסך של iPhone או מצב מיקוד אנדרואיד. שמור על כלי לימוד זמינים ולמד מתי חסימה מבוססת משימות עוזרת.",
       "intro": "אתם פותחים את הטלפון לבדוק מטלה ומוצאים את עצמכם גוללים. הכנה מועילה קוטעת את הסטייה ומשאירה הערות, חומרי קורס ותקשורת חיונית נגישים. התחילו בקטע עבודה מסוים וביישומים המעטים שמושכים אתכם שוב ושוב.",
-      "answer": "כדי לחסום יישומים בזמן לימוד, בחרו הסחות, השאירו כלים נחוצים נגישים והחליטו אם צריך טיימר קבוע או חסימה הקשורה לעבודה לא גמורה שמועדה קרוב. Nonlate משתמש במשימות מתאימות ובחלון מועדים שנבחר; יצירת זמן לימוד בלבד אינה מפעילה חסימה.",
+      "answer": "באייפון, השתמש בזמן מסך כדי להגדיר את השעות שברצונך ללמוד. ב-Android, השתמש במצב מיקוד ב-Digital Wellbeing כדי להשהות אפליקציות נבחרות. Nonlate יכול לחסום אפליקציות שמסיחות את הדעת בהתבסס על מועדי משימות.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "חסום אפליקציות בזמן לימודים באייפון",
+          "paragraphs": [
+            "ב-iOS 27 ואילך, פתח את ההגדרות ולאחר מכן את זמן מסך ותזמון זמן מסך. הפעל את לוח זמנים, הוסף חלון לימוד ובחר אילו קטגוריות קצבת זמן זמינות במהלכו.",
+            "בגרסאות iOS קודמות, השתמש בזמן השבתה תחת זמן מסך. השתמש ב-Always Allowed עבור דברים חיוניים. עם קוד גישה לזמן מסך, הפעל חסימה בזמן השבתה אם אתה רוצה שאפליקציות מוגבלות יישארו סגורות."
+          ],
+          "steps": [
+            "שמור את אפליקציית הקורס, המאמת ואנשי הקשר החיוניים שלך זמינים. במהלך חלון המחקר, פתח אפליקציה אחת שהתכוונת להגביל ובדוק מה קורה."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "חסום אפליקציות בזמן לימודים באנדרואיד",
+          "paragraphs": [
+            "פתח את ההגדרות, לאחר מכן רווחה דיגיטלית, ואז מצב פוקוס. בחר את האפליקציות שברצונך להשהות. מצב מיקוד גם משהה התראות מאפליקציות אלה."
+          ],
+          "steps": [
+            "הקש על הפעל עכשיו לפגישה זו או הגדר לוח זמנים עבור זמן לימוד חוזר. השתמש קח הפסקה אם אתה זקוק לגישה זמנית."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "בחרו כלל שמתאים לזמן הלימוד",
@@ -1390,11 +1969,32 @@
       ]
     },
     "fil": {
-      "title": "Paano i-block ang nakagagambalang apps habang nag-aaral",
-      "description": "Bumuo ng sesyon na mas kaunti ang panggagambala ng telepono. Pumili ng angkop na patakaran, panatilihing magagamit ang gamit sa pag-aaral at unawain ang paraan ng Nonlate batay sa deadline.",
+      "title": "Paano i-block ang mga app habang nag-aaral sa iPhone at Android",
+      "description": "I-block ang mga nakakagambalang app habang nag-aaral gamit ang iPhone Screen Time o Android Focus mode. Panatilihing available ang mga tool sa pag-aaral at matuto kapag nakakatulong ang pag-block batay sa gawain.",
       "intro": "Binubuksan mo ang telepono para tingnan ang takdang-aralin, tapos napapadpad sa pag-scroll. Pinipigil ng kapaki-pakinabang na paghahanda ang paglihis habang nananatiling magagamit ang tala, materyales at mahalagang komunikasyon. Magsimula sa isang tiyak na trabaho at ilang app na paulit-ulit humihila sa iyo palayo.",
-      "answer": "Para mag-block habang nag-aaral, piliin ang nakagagambalang apps, panatilihing naaabot ang kailangang gamit at magpasya kung kailangan ng nakatakdang timer o pag-block batay sa hindi tapos na gawaing malapit nang due. Gumagamit ang Nonlate ng kwalipikadong gawain at napiling saklaw ng deadline; ang paglikha lang ng sesyon ay hindi nagpapagana ng pag-block.",
+      "answer": "Sa iPhone, gamitin ang Screen Time para itakda ang mga oras na gusto mong mag-aral. Sa Android, gamitin ang Focus mode sa Digital Wellbeing para i-pause ang mga napiling app. Maaaring i-block ng Nonlate ang mga nakakagambalang app batay sa mga deadline ng gawain.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "I-block ang mga app habang nag-aaral sa iPhone",
+          "paragraphs": [
+            "Sa iOS 27 o mas bago, buksan ang Mga Setting, pagkatapos ay Oras ng Screen at Iskedyul ng Oras ng Screen. I-on ang Iskedyul, magdagdag ng window ng pag-aaral at piliin kung aling mga kategorya ng Time Allowance ang available sa panahon nito.",
+            "Sa mga naunang bersyon ng iOS, gamitin ang Downtime sa ilalim ng Screen Time. Gamitin ang Palaging Pinapayagan para sa mga mahahalaga. Sa isang nakatakdang passcode ng Oras ng Screen, i-on ang I-block sa Downtime kung gusto mong manatiling sarado ang mga pinaghihigpitang app."
+          ],
+          "steps": [
+            "Panatilihing available ang iyong course app, authenticator at mahahalagang contact. Sa panahon ng window ng pag-aaral, buksan ang isang app na sinadya mong paghigpitan at tingnan kung ano ang mangyayari."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "I-block ang mga app habang nag-aaral sa Android",
+          "paragraphs": [
+            "Buksan ang Mga Setting, pagkatapos ay Digital Wellbeing, pagkatapos ay Focus mode. Piliin ang mga app na gusto mong i-pause. Pino-pause din ng Focus mode ang mga notification mula sa mga app na iyon."
+          ],
+          "steps": [
+            "I-tap ang I-on ngayon para sa session na ito o Magtakda ng iskedyul para sa umuulit na oras ng pag-aaral. Gamitin ang Magpahinga kung kailangan mo ng pansamantalang pag-access."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Piliin ang patakarang tugma sa sesyon",
@@ -1441,11 +2041,32 @@
       ]
     },
     "cs": {
-      "title": "Jak blokovat rušivé aplikace při studiu",
-      "description": "Připravte si studijní blok s menším vyrušováním telefonem. Vyberte vhodná pravidla blokování, zachovejte přístup ke studijním nástrojům a seznamte se s tím, jak Nonlate zohledňuje termíny.",
+      "title": "Jak blokovat aplikace při studiu na iPhone a Android",
+      "description": "Blokujte rušivé aplikace při studiu pomocí režimu iPhone Screen Time nebo Android Focus. Mějte k dispozici studijní nástroje a zjistěte, kdy blokování na základě úkolů pomůže.",
       "intro": "Otevřete telefon, abyste zkontrolovali úkol, a vzápětí procházíte sociální sítě. Užitečné nastavení pro studium tuto odbočku přeruší, ale ponechá dostupné poznámky, materiály ke kurzu a důležitou komunikaci. Začněte jedním konkrétním úkolem a několika aplikacemi, které vás opakovaně odvádějí od práce.",
-      "answer": "Chcete-li při studiu blokovat aplikace, vyberte ty rušivé, ponechte dostupné potřebné studijní nástroje a rozhodněte se mezi pevným časovačem a blokováním podle nedokončených úkolů s blížícím se termínem. Nonlate používá způsobilé úkoly a zvolené časové okno před termínem; samotné vytvoření studijního bloku blokování neaktivuje.",
+      "answer": "Na iPhonu použijte Čas u obrazovky k nastavení hodin, kdy se chcete učit. V systému Android použijte k pozastavení vybraných aplikací režim zaměření v digitální rovnováze. Nonlate může blokovat rušivé aplikace na základě termínů úkolů.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokujte aplikace při studiu na iPhone",
+          "paragraphs": [
+            "V systému iOS 27 nebo novějším otevřete Nastavení, poté Čas u obrazovky a Plán času u obrazovky. Zapněte Plán, přidejte studijní okno a vyberte, které kategorie Časových příspěvků jsou během něj dostupné.",
+            "V dřívějších verzích iOS použijte dobu výpadku v části Čas u obrazovky. Pro nezbytnosti použijte Vždy povoleno. S nastaveným přístupovým kódem Čas u obrazovky zapněte Blokovat v době výpadku, pokud chcete, aby omezené aplikace zůstaly zavřené."
+          ],
+          "steps": [
+            "Mějte k dispozici aplikaci kurzu, autentizátor a důležité kontakty. V okně studie otevřete jednu aplikaci, kterou jste chtěli omezit, a zkontrolujte, co se stane."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokujte aplikace při studiu na Androidu",
+          "paragraphs": [
+            "Otevřete Nastavení, poté Digitální rovnováha a poté Režim soustředění. Vyberte aplikace, které chcete pozastavit. Režim soustředění také pozastaví oznámení z těchto aplikací."
+          ],
+          "steps": [
+            "Klepněte na Zapnout nyní pro tuto relaci nebo Nastavit plán pro opakující se dobu studia. Pokud potřebujete dočasný přístup, použijte možnost Udělejte si pauzu."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Vyberte pravidlo vhodné pro vaše studium",
@@ -1492,11 +2113,32 @@
       ]
     },
     "sv": {
-      "title": "Så blockerar du distraherande appar när du studerar",
-      "description": "Skapa ett studiepass med färre distraktioner i mobilen. Välj användbara blockeringsregler, behåll tillgången till studieverktyg och förstå hur Nonlate utgår från deadlines.",
+      "title": "Hur man blockerar appar medan du studerar på iPhone och Android",
+      "description": "Blockera distraherande appar medan du studerar med iPhone Screen Time eller Android Focus-läge. Håll studieverktyg tillgängliga och lär dig när uppgiftsbaserad blockering hjälper.",
       "intro": "Du öppnar mobilen för att kolla en uppgift och fastnar sedan i flödet. En bra studieinställning avbryter den omvägen samtidigt som anteckningar, kursmaterial och viktig kommunikation förblir tillgängliga. Börja med en konkret arbetsuppgift och de få appar som gång på gång drar bort din uppmärksamhet.",
-      "answer": "För att blockera appar när du studerar väljer du de distraherande apparna, behåller tillgången till nödvändiga studieverktyg och avgör om du behöver en fast timer eller blockering kopplad till ofärdiga uppgifter som snart ska vara klara. Nonlate använder uppgifter som uppfyller villkoren och ett valt tidsfönster före deadline; ett planerat studiepass aktiverar inte blockeringen i sig.",
+      "answer": "På iPhone använder du skärmtid för att ställa in de timmar du vill studera. På Android använder du fokusläge i Digital Wellbeing för att pausa valda appar. Nonlate kan blockera distraherande appar baserat på uppgiftens deadlines.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blockera appar medan du studerar på iPhone",
+          "paragraphs": [
+            "På iOS 27 eller senare, öppna Inställningar och sedan Skärmtid och skärmtidsschema. Aktivera Schema, lägg till ett studiefönster och välj vilka tidsavdragskategorier som är tillgängliga under det.",
+            "På tidigare iOS-versioner, använd Nedtid under Skärmtid. Använd Alltid tillåtet för väsentliga saker. Med ett lösenord för skärmtid inställt, aktivera Blockera vid driftstopp om du vill att begränsade appar ska förbli stängda."
+          ],
+          "steps": [
+            "Håll din kursapp, autentisering och viktiga kontakter tillgängliga. Under studiefönstret öppnar du en app du menade att begränsa och kontrollera vad som händer."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blockera appar medan du studerar på Android",
+          "paragraphs": [
+            "Öppna Inställningar, sedan Digitalt välmående och sedan Fokusläge. Välj de appar du vill pausa. Fokusläget pausar också aviseringar från dessa appar."
+          ],
+          "steps": [
+            "Tryck på Slå på nu för den här sessionen eller Ställ in ett schema för återkommande studietid. Använd Ta en paus om du behöver tillfällig tillgång."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Välj en regel som passar ditt studiepass",
@@ -1543,11 +2185,32 @@
       ]
     },
     "ca": {
-      "title": "Com bloquejar les aplicacions que distreuen mentre estudies",
-      "description": "Prepara una sessió d’estudi amb menys distraccions al mòbil. Tria regles de bloqueig útils, mantén disponibles les eines d’estudi i entén l’enfocament de Nonlate basat en els terminis.",
+      "title": "Com bloquejar aplicacions mentre estudies a iPhone i Android",
+      "description": "Bloqueja les aplicacions que et distreguin mentre estudies amb l'iPhone Screen Time o el mode Android Focus. Manteniu les eines d'estudi disponibles i apreneu quan el bloqueig basat en tasques us ajudi.",
       "intro": "Obres el mòbil per consultar una tasca i acabes desplaçant-te per les xarxes. Una bona configuració d’estudi interromp aquest desviament i manté accessibles els apunts, els materials del curs i la comunicació essencial. Comença amb una feina concreta i les poques aplicacions que et distreuen repetidament.",
-      "answer": "Per bloquejar aplicacions mentre estudies, tria les que et distreuen, mantén accessibles les eines necessàries i decideix si vols un temporitzador fix o un bloqueig relacionat amb tasques pendents pròximes al venciment. Nonlate utilitza tasques que compleixen els requisits i un interval de venciment triat; crear una sessió d’estudi no activa per si sol el bloqueig.",
+      "answer": "A l'iPhone, fes servir Screen Time per definir les hores que vols estudiar. A Android, utilitzeu el mode Focus a Benestar digital per posar en pausa les aplicacions seleccionades. Nonlate pot bloquejar les aplicacions que distreuen en funció dels terminis de les tasques.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Bloqueja aplicacions mentre estudies a l'iPhone",
+          "paragraphs": [
+            "A iOS 27 o posterior, obriu Configuració, després Temps de pantalla i Programació de temps de pantalla. Activeu l'horari, afegiu una finestra d'estudi i trieu quines categories d'assignació de temps estan disponibles durant aquesta.",
+            "A les versions anteriors d'iOS, utilitzeu Temps d'inactivitat a Temps de pantalla. Utilitzeu sempre permès per a coses essencials. Amb una contrasenya de temps de pantalla establerta, activeu Bloqueja en temps d'inactivitat si voleu que les aplicacions restringides romanguin tancades."
+          ],
+          "steps": [
+            "Manteniu l'aplicació del curs, l'autenticador i els contactes essencials disponibles. Durant la finestra d'estudi, obriu una aplicació que volíeu restringir i comproveu què passa."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Bloqueja aplicacions mentre estudies a Android",
+          "paragraphs": [
+            "Obriu Configuració, després Benestar digital i, a continuació, el mode Focus. Seleccioneu les aplicacions que voleu posar en pausa. El mode Focus també posa en pausa les notificacions d'aquestes aplicacions."
+          ],
+          "steps": [
+            "Toqueu Activa ara per a aquesta sessió o Estableix una programació per al temps d'estudi recurrent. Fes una pausa si necessites accés temporal."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Tria la regla adequada per a la sessió d’estudi",
@@ -1594,11 +2257,32 @@
       ]
     },
     "da": {
-      "title": "Sådan blokerer du distraherende apps, mens du studerer",
-      "description": "Skab en studiesession med færre distraktioner på telefonen. Vælg nyttige blokeringsregler, behold adgang til studieværktøjer og forstå Nonlates tilgang baseret på deadlines.",
+      "title": "Sådan blokerer du apps, mens du studerer på iPhone og Android",
+      "description": "Bloker distraherende apps, mens du studerer med iPhone Screen Time eller Android Focus mode. Hold studieværktøjer tilgængelige, og lær, hvornår opgavebaseret blokering hjælper.",
       "intro": "Du åbner telefonen for at tjekke en opgave og ender med at scrolle. En nyttig studieopsætning afbryder den omvej, mens noter, kursusmaterialer og vigtig kommunikation stadig er tilgængelige. Begynd med ét konkret stykke arbejde og de få apps, der gentagne gange fjerner din opmærksomhed.",
-      "answer": "For at blokere apps under studierne vælger du de distraherende apps, holder nødvendige studieværktøjer tilgængelige og afgør, om du har brug for en fast timer eller blokering knyttet til ufærdige opgaver med nært forestående deadlines. Nonlate bruger relevante opgaver og et valgt tidsvindue før deadline; en studiesession aktiverer ikke i sig selv blokering.",
+      "answer": "På iPhone skal du bruge skærmtid til at indstille de timer, du vil studere. På Android skal du bruge fokustilstand i Digital Wellbeing til at sætte udvalgte apps på pause. Nonlate kan blokere distraherende apps baseret på opgavedeadlines.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Bloker apps, mens du studerer på iPhone",
+          "paragraphs": [
+            "På iOS 27 eller nyere skal du åbne Indstillinger og derefter Skærmtid og Skærmtidsskema. Slå tidsplan til, tilføj et undersøgelsesvindue og vælg, hvilke tidstilskudskategorier, der er tilgængelige i løbet af det.",
+            "På tidligere iOS-versioner skal du bruge Nedetid under Skærmtid. Brug Altid tilladt til væsentlige ting. Med en skærmtidsadgangskode indstillet skal du slå Bloker ved nedetid til, hvis du ønsker, at begrænsede apps skal forblive lukkede."
+          ],
+          "steps": [
+            "Hold din kursusapp, autentificering og vigtige kontakter tilgængelige. I løbet af undersøgelsesvinduet skal du åbne en app, du ville begrænse og kontrollere, hvad der sker."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Bloker apps, mens du studerer på Android",
+          "paragraphs": [
+            "Åbn Indstillinger, derefter Digital Wellbeing og derefter Fokustilstand. Vælg de apps, du vil sætte på pause. Fokustilstand sætter også meddelelser fra disse apps på pause."
+          ],
+          "steps": [
+            "Tryk på Slå til nu for denne session eller Indstil en tidsplan for tilbagevendende studietid. Brug Tag en pause, hvis du har brug for midlertidig adgang."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Vælg den regel, der passer til din studiesession",
@@ -1645,11 +2329,32 @@
       ]
     },
     "fi": {
-      "title": "Häiritsevien sovellusten estäminen opiskelun aikana",
-      "description": "Järjestä opiskeluhetki, jossa puhelin häiritsee vähemmän. Valitse sopivat estosäännöt, pidä opiskeluvälineet käytettävissä ja tutustu Nonlaten määräaikoihin perustuvaan toimintatapaan.",
+      "title": "Kuinka estää sovelluksia opiskellessasi iPhonella ja Androidilla",
+      "description": "Estä häiritsevät sovellukset opiskellessasi iPhonen näyttöaika- tai Android-tarkennustilassa. Pidä opiskelutyökalut saatavilla ja opi, milloin tehtäväpohjainen esto auttaa.",
       "intro": "Avaat puhelimen tarkistaaksesi tehtävän ja huomaat selaavasi somea. Hyvä opiskeluasetus katkaisee tämän kiertotien mutta pitää muistiinpanot, kurssimateriaalit ja tärkeän yhteydenpidon saatavilla. Aloita yhdestä konkreettisesta työstä ja niistä harvoista sovelluksista, jotka toistuvasti vievät huomiosi.",
-      "answer": "Kun haluat estää sovelluksia opiskelun aikana, valitse häiritsevät sovellukset, pidä tarvittavat opiskeluvälineet saatavilla ja päätä, tarvitsetko kiinteän ajastimen vai keskeneräisiin, pian erääntyviin tehtäviin perustuvan eston. Nonlate käyttää ehdot täyttäviä tehtäviä ja valittua aikaikkunaa ennen määräaikaa; pelkkä opiskeluhetken luominen ei käynnistä estoa.",
+      "answer": "Aseta iPhonessa Screen Time -toiminnolla tunnit, jotka haluat opiskella. Androidissa voit keskeyttää valitut sovellukset käyttämällä Digitaalisen hyvinvoinnin tarkennustilaa. Nonlate voi estää häiritsevät sovellukset tehtävien määräaikojen perusteella.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Estä sovellukset opiskellessasi iPhonella",
+          "paragraphs": [
+            "Avaa iOS 27:ssä tai uudemmassa Asetukset, sitten Näyttöaika ja Ruutuaikataulu. Ota Aikataulu käyttöön, lisää tutkimusikkuna ja valitse, mitkä aikavaraluokat ovat käytettävissä sen aikana.",
+            "Käytä aiemmissa iOS-versioissa Käyttökatkoksia kohdassa Ruutuaika. Käytä aina sallittua välttämättömiin asioihin. Kun Screen Time -salasana on asetettu, ota käyttöön Estä käyttökatkon aikana, jos haluat, että rajoitetut sovellukset pysyvät suljettuina."
+          ],
+          "steps": [
+            "Pidä kurssisovellus, autentikaattori ja tärkeät yhteystiedot saatavilla. Avaa tutkimusikkunan aikana yksi sovellus, jota halusit rajoittaa, ja tarkista, mitä tapahtuu."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Estä sovellukset opiskellessasi Androidilla",
+          "paragraphs": [
+            "Avaa Asetukset, sitten Digitaalinen hyvinvointi ja sitten Tarkennustila. Valitse sovellukset, jotka haluat keskeyttää. Tarkennustila keskeyttää myös näiden sovellusten ilmoitukset."
+          ],
+          "steps": [
+            "Napauta Ota käyttöön nyt tälle istunnolle tai Aseta aikataulu toistuvalle opiskeluajalle. Käytä Pidä tauko, jos tarvitset väliaikaista pääsyä."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Valitse opiskeluhetkeesi sopiva sääntö",
@@ -1696,11 +2401,32 @@
       ]
     },
     "el": {
-      "title": "Πώς να αποκλείετε εφαρμογές περισπασμού όταν μελετάτε",
-      "description": "Δημιουργήστε συνεδρία μελέτης με λιγότερους περισπασμούς τηλεφώνου. Επιλέξτε χρήσιμους κανόνες, κρατήστε διαθέσιμα τα εργαλεία μάθησης και κατανοήστε την προσέγγιση προθεσμιών του Nonlate.",
+      "title": "Πώς να αποκλείσετε εφαρμογές ενώ μελετάτε σε iPhone και Android",
+      "description": "Αποκλεισμός εφαρμογών που αποσπούν την προσοχή ενώ μελετάτε με τη λειτουργία iPhone Screen Time ή Android Focus. Διατηρήστε διαθέσιμα εργαλεία μελέτης και μάθετε πότε βοηθά ο αποκλεισμός βάσει εργασιών.",
       "intro": "Ανοίγετε το τηλέφωνο για μια εργασία και καταλήγετε να κάνετε κύλιση. Μια χρήσιμη προετοιμασία διακόπτει αυτή την παράκαμψη αφήνοντας διαθέσιμες σημειώσεις, υλικό μαθημάτων και απαραίτητη επικοινωνία. Ξεκινήστε με συγκεκριμένο μέρος εργασίας και τις λίγες εφαρμογές που σας αποσπούν συχνά.",
-      "answer": "Για αποκλεισμό στη μελέτη, επιλέξτε εφαρμογές περισπασμού, διατηρήστε πρόσβαση στα απαραίτητα εργαλεία και αποφασίστε αν χρειάζεστε σταθερό χρονόμετρο ή αποκλεισμό βάσει ημιτελούς εργασίας που λήγει σύντομα. Το Nonlate χρησιμοποιεί κατάλληλες εργασίες και επιλεγμένο παράθυρο προθεσμίας· η δημιουργία συνεδρίας δεν ενεργοποιεί μόνη της αποκλεισμό.",
+      "answer": "Στο iPhone, χρησιμοποιήστε το Screen Time για να ορίσετε τις ώρες που θέλετε να μελετήσετε. Στο Android, χρησιμοποιήστε τη λειτουργία εστίασης στο Digital Wellbeing για να θέσετε σε παύση επιλεγμένες εφαρμογές. Το Nonlate μπορεί να αποκλείσει εφαρμογές που αποσπούν την προσοχή με βάση τις προθεσμίες εργασιών.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Αποκλεισμός εφαρμογών ενώ μελετάτε στο iPhone",
+          "paragraphs": [
+            "Σε iOS 27 ή μεταγενέστερη έκδοση, ανοίξτε τις Ρυθμίσεις, μετά το Screen Time και το Screen Time Schedule. Ενεργοποιήστε το Χρονοδιάγραμμα, προσθέστε ένα παράθυρο μελέτης και επιλέξτε ποιες κατηγορίες Χρονικού Επιδόματος είναι διαθέσιμες κατά τη διάρκεια αυτού.",
+            "Σε παλαιότερες εκδόσεις iOS, χρησιμοποιήστε το Downtime κάτω από το Screen Time. Χρησιμοποιήστε το Always Allowed για βασικά. Με έναν κωδικό πρόσβασης για το Screen Time που έχει οριστεί, ενεργοποιήστε τον Αποκλεισμό κατά το χρόνο διακοπής λειτουργίας, εάν θέλετε οι περιορισμένες εφαρμογές να παραμένουν κλειστές."
+          ],
+          "steps": [
+            "Διατηρήστε διαθέσιμα την εφαρμογή μαθημάτων, τον έλεγχο ταυτότητας και τις βασικές επαφές σας. Κατά τη διάρκεια του παραθύρου μελέτης, ανοίξτε μια εφαρμογή που θέλατε να περιορίσετε και ελέγξτε τι συμβαίνει."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Αποκλεισμός εφαρμογών ενώ μελετάτε στο Android",
+          "paragraphs": [
+            "Ανοίξτε τις Ρυθμίσεις, μετά Ψηφιακή ευεξία και μετά Λειτουργία εστίασης. Επιλέξτε τις εφαρμογές που θέλετε να θέσετε σε παύση. Η λειτουργία εστίασης διακόπτει επίσης τις ειδοποιήσεις από αυτές τις εφαρμογές."
+          ],
+          "steps": [
+            "Πατήστε Ενεργοποίηση τώρα για αυτήν τη συνεδρία ή Ορίστε ένα πρόγραμμα για τον επαναλαμβανόμενο χρόνο μελέτης. Χρησιμοποιήστε το Κάντε ένα διάλειμμα εάν χρειάζεστε προσωρινή πρόσβαση."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Επιλέξτε τον κανόνα που ταιριάζει στη συνεδρία",
@@ -1747,11 +2473,32 @@
       ]
     },
     "hu": {
-      "title": "Zavaró alkalmazások blokkolása tanulás közben",
-      "description": "Állíts össze egy tanulási időszakot kevesebb telefonos zavaró tényezővel. Válassz hasznos blokkolási szabályokat, tartsd elérhetően a tanulási eszközöket, és ismerd meg a Nonlate határidőkhöz igazodó működését.",
+      "title": "Alkalmazások blokkolása iPhone-on és Androidon való tanulás közben",
+      "description": "Tanulás közben blokkolja a zavaró alkalmazásokat az iPhone Screen Time vagy Android Focus móddal. Tartsa elérhetővé a tanulási eszközöket, és tanulja meg, mikor segít a feladatalapú blokkolás.",
       "intro": "Megnyitod a telefonodat, hogy ellenőrizz egy feladatot, majd azon kapod magad, hogy a közösségi médiát görgeted. Egy hasznos tanulási beállítás megszakítja ezt a kitérőt, miközben a jegyzetek, tananyagok és a fontos kommunikáció elérhető marad. Kezdj egy konkrét munkával és azzal a néhány alkalmazással, amely rendszeresen elvonja a figyelmedet.",
-      "answer": "A tanulás közbeni blokkoláshoz válaszd ki a zavaró alkalmazásokat, tartsd elérhetően a szükséges eszközöket, és döntsd el, hogy rögzített időzítőre vagy a közelgő határidejű, befejezetlen feladatokhoz kötött blokkolásra van szükséged. A Nonlate a feltételeknek megfelelő feladatokat és egy kiválasztott határidő előtti időablakot használ; egy tanulási időszak létrehozása önmagában nem indít blokkolást.",
+      "answer": "iPhone készüléken a Képernyőidő segítségével állítsa be a tanulni kívánt órákat. Androidon használja a Digitális jóllét Fókusz módot a kiválasztott alkalmazások szüneteltetéséhez. A Nonlate blokkolhatja a zavaró alkalmazásokat a feladatok határideje alapján.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Alkalmazások blokkolása iPhone-on való tanulás közben",
+          "paragraphs": [
+            "iOS 27 vagy újabb rendszeren nyissa meg a Beállítások, majd a Képernyőidő és a Képernyőidő ütemezése lehetőséget. Kapcsolja be az Ütemezést, adjon hozzá egy tanulmányi ablakot, és válassza ki, hogy mely Időtartam-kategóriák érhetők el közben.",
+            "A korábbi iOS-verziókon használja a Leállást a Képernyőidő alatt. Az alapvető dolgokhoz használja a Mindig engedélyezett. Ha beállított képernyőidő-jelszót, kapcsolja be a Letiltás leálláskor funkciót, ha azt szeretné, hogy a korlátozott alkalmazások zárva maradjanak."
+          ],
+          "steps": [
+            "Tartsa elérhetővé tanfolyamalkalmazását, hitelesítőjét és alapvető kapcsolatait. A tanulmányi ablakban nyisson meg egy alkalmazást, amelyet korlátozni kívánt, és ellenőrizze, hogy mi történik."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokkolja az alkalmazásokat, miközben Androidon tanul",
+          "paragraphs": [
+            "Nyissa meg a Beállítások, majd a Digitális jólét, majd a Fókusz mód lehetőséget. Válassza ki a szüneteltetni kívánt alkalmazásokat. A Fókusz mód ezen alkalmazások értesítéseit is szünetelteti."
+          ],
+          "steps": [
+            "Koppintson a Bekapcsolás most ehhez a foglalkozáshoz vagy az ütemezés beállítása az ismétlődő tanulási időhöz. Használat Tartson egy kis szünetet, ha ideiglenes hozzáférésre van szüksége."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Válaszd a tanulásodhoz illő szabályt",
@@ -1798,11 +2545,32 @@
       ]
     },
     "ms": {
-      "title": "Cara menyekat aplikasi mengganggu ketika belajar",
-      "description": "Bina sesi belajar dengan kurang gangguan telefon. Pilih peraturan sekatan yang sesuai, kekalkan alat belajar tersedia dan fahami pendekatan tarikh akhir Nonlate.",
+      "title": "Bagaimana untuk menyekat aplikasi semasa belajar pada iPhone dan Android",
+      "description": "Sekat apl yang mengganggu semasa belajar dengan Masa Skrin iPhone atau mod Fokus Android. Pastikan alat belajar tersedia dan pelajari apabila penyekatan berasaskan tugas membantu.",
       "intro": "Anda membuka telefon untuk menyemak tugasan, kemudian mendapati diri menatal media sosial. Persediaan belajar yang berguna mengganggu lencongan itu sambil mengekalkan nota, bahan kursus dan komunikasi penting. Mulakan dengan satu kerja khusus dan beberapa aplikasi yang kerap mengalihkan perhatian.",
-      "answer": "Untuk menyekat aplikasi ketika belajar, pilih aplikasi mengganggu, kekalkan akses alat diperlukan dan tentukan sama ada anda memerlukan pemasa tetap atau sekatan berkaitan tugas belum selesai yang hampir tamat tempoh. Nonlate menggunakan tugas layak dan julat tarikh akhir terpilih; mewujudkan sesi belajar sahaja tidak mengaktifkan sekatan.",
+      "answer": "Pada iPhone, gunakan Masa Skrin untuk menetapkan waktu yang anda mahu belajar. Pada Android, gunakan mod Fokus dalam Kesejahteraan Digital untuk menjeda apl yang dipilih. Nonlate boleh menyekat apl yang mengganggu berdasarkan tarikh akhir tugas.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Sekat apl semasa belajar di iPhone",
+          "paragraphs": [
+            "Pada iOS 27 atau lebih baru, buka Tetapan, kemudian Masa Skrin dan Jadual Waktu Skrin. Hidupkan Jadual, tambah tetingkap belajar dan pilih kategori Elaun Masa yang tersedia semasanya.",
+            "Pada versi iOS yang lebih awal, gunakan Masa Henti di bawah Masa Skrin. Gunakan Sentiasa Dibenarkan untuk keperluan penting. Dengan kod laluan Masa Skrin yang ditetapkan, hidupkan Sekat pada Masa Henti jika anda mahu apl terhad kekal ditutup."
+          ],
+          "steps": [
+            "Pastikan apl kursus, pengesah dan kenalan penting anda tersedia. Semasa tetingkap kajian, buka satu apl yang anda ingin hadkan dan semak perkara yang berlaku."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Sekat apl semasa belajar di Android",
+          "paragraphs": [
+            "Buka Tetapan, kemudian Kesejahteraan Digital, kemudian mod Fokus. Pilih apl yang anda mahu jeda. Mod fokus juga menjeda pemberitahuan daripada apl tersebut."
+          ],
+          "steps": [
+            "Ketik Hidupkan sekarang untuk sesi ini atau Tetapkan jadual untuk masa belajar berulang. Gunakan Rehat jika anda memerlukan akses sementara."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Pilih peraturan yang sesuai dengan sesi belajar",
@@ -1849,11 +2617,32 @@
       ]
     },
     "nb": {
-      "title": "Slik blokkerer du distraherende apper når du studerer",
-      "description": "Lag en studieøkt med færre distraksjoner på telefonen. Velg nyttige blokkeringsregler, behold tilgangen til studieverktøy og forstå hvordan Nonlate tar hensyn til frister.",
+      "title": "Slik blokkerer du apper mens du studerer på iPhone og Android",
+      "description": "Blokker distraherende apper mens du studerer med iPhone Screen Time eller Android Focus-modus. Hold studieverktøy tilgjengelig og lær når oppgavebasert blokkering hjelper.",
       "intro": "Du åpner telefonen for å sjekke en oppgave og ender med å scrolle. Et nyttig studieoppsett avbryter denne omveien samtidig som notater, kursmateriell og viktig kommunikasjon er tilgjengelig. Begynn med én konkret arbeidsoppgave og de få appene som stadig trekker oppmerksomheten bort.",
-      "answer": "For å blokkere apper mens du studerer velger du de distraherende appene, beholder tilgangen til nødvendige verktøy og avgjør om du trenger en fast tidtaker eller blokkering knyttet til uferdige oppgaver som snart skal være ferdige. Nonlate bruker oppgaver som oppfyller vilkårene og et valgt tidsvindu før fristen; en studieøkt aktiverer ikke blokkering i seg selv.",
+      "answer": "På iPhone bruker du Skjermtid til å angi timene du vil studere. På Android bruker du fokusmodus i Digital Wellbeing for å sette valgte apper på pause. Nonlate kan blokkere distraherende apper basert på oppgavefrister.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokker apper mens du studerer på iPhone",
+          "paragraphs": [
+            "På iOS 27 eller nyere åpner du Innstillinger og deretter Skjermtid og Skjermtidsplan. Slå på tidsplan, legg til et studievindu og velg hvilke tidsgodtgjørelseskategorier som er tilgjengelige i løpet av det.",
+            "På tidligere iOS-versjoner, bruk Nedetid under Skjermtid. Bruk Alltid tillatt for nødvendigheter. Med et skjermtidspassord satt, slå på Blokker ved nedetid hvis du vil at begrensede apper skal forbli stengt."
+          ],
+          "steps": [
+            "Hold kursappen, autentiseringsverktøyet og viktige kontakter tilgjengelig. I løpet av studievinduet, åpne en app du mente å begrense og sjekk hva som skjer."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokker apper mens du studerer på Android",
+          "paragraphs": [
+            "Åpne Innstillinger, deretter Digital Wellbeing, og deretter Fokusmodus. Velg appene du vil sette på pause. Fokusmodus stopper også varsler fra disse appene."
+          ],
+          "steps": [
+            "Trykk på Slå på nå for denne økten eller Angi en tidsplan for tilbakevendende studietid. Bruk Ta en pause hvis du trenger midlertidig tilgang."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Velg regelen som passer studieøkten",
@@ -1900,11 +2689,32 @@
       ]
     },
     "ro": {
-      "title": "Cum blochezi aplicațiile care te distrag în timp ce înveți",
-      "description": "Pregătește o sesiune de învățare cu mai puține distrageri pe telefon. Alege reguli de blocare utile, păstrează accesul la instrumentele de studiu și înțelege abordarea Nonlate bazată pe termene.",
+      "title": "Cum să blochezi aplicațiile în timp ce studiezi pe iPhone și Android",
+      "description": "Blocați aplicațiile care vă distrag atenția în timp ce studiați cu iPhone Screen Time sau modul Android Focus. Păstrați instrumentele de studiu disponibile și aflați când blocarea bazată pe sarcini vă ajută.",
       "intro": "Deschizi telefonul ca să verifici o temă, apoi te trezești derulând rețelele sociale. O configurare utilă pentru învățare întrerupe acest ocol, păstrând accesibile notițele, materialele de curs și comunicarea esențială. Începe cu o activitate concretă și cu acele câteva aplicații care îți distrag atenția în mod repetat.",
-      "answer": "Pentru a bloca aplicații în timp ce înveți, selectează aplicațiile care te distrag, păstrează accesibile instrumentele necesare și decide dacă ai nevoie de un cronometru fix sau de blocare legată de sarcini neterminate cu termen apropiat. Nonlate folosește sarcini eligibile și un interval ales înaintea termenului; simpla creare a unei sesiuni de studiu nu activează blocarea.",
+      "answer": "Pe iPhone, utilizați Screen Time pentru a seta orele pe care doriți să le studiați. Pe Android, utilizați modul Focus în Digital Wellbeing pentru a întrerupe aplicațiile selectate. Nonlate poate bloca aplicațiile care distrag atenția în funcție de termenele limită ale sarcinilor.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blocați aplicațiile în timp ce studiați pe iPhone",
+          "paragraphs": [
+            "Pe iOS 27 sau o versiune ulterioară, deschideți Setări, apoi Ora de ecran și Programul de timp de ecran. Activați Program, adăugați o fereastră de studiu și alegeți ce categorii de alocație de timp sunt disponibile în timpul acesteia.",
+            "Pe versiunile anterioare de iOS, utilizați Timp de nefuncționare sub Timp de ecran. Utilizați Always Allowed pentru lucruri esențiale. Cu un cod de acces pentru Timp de utilizare setat, activați Blocare la timp de întrerupere dacă doriți ca aplicațiile restricționate să rămână închise."
+          ],
+          "steps": [
+            "Păstrați aplicația cursului, autentificatorul și contactele esențiale disponibile. În timpul ferestrei de studiu, deschideți o aplicație pe care ați vrut să o restricționați și verificați ce se întâmplă."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blocați aplicațiile în timp ce studiați pe Android",
+          "paragraphs": [
+            "Deschide Setări, apoi Bunăstare digitală, apoi modul Focus. Selectați aplicațiile pe care doriți să le întrerupeți. Modul Focus întrerupe și notificările de la acele aplicații."
+          ],
+          "steps": [
+            "Atingeți Activați acum pentru această sesiune sau Setați un program pentru timpul de studiu recurent. Utilizați Ia o pauză dacă aveți nevoie de acces temporar."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Alege regula potrivită pentru sesiunea ta de studiu",
@@ -1951,11 +2761,32 @@
       ]
     },
     "hr": {
-      "title": "Kako blokirati aplikacije koje ometaju učenje",
-      "description": "Pripremite učenje s manje ometanja na telefonu. Odaberite korisna pravila blokiranja, zadržite pristup alatima za učenje i upoznajte Nonlateov pristup koji uzima u obzir rokove.",
+      "title": "Kako blokirati aplikacije tijekom učenja na iPhoneu i Androidu",
+      "description": "Blokirajte aplikacije koje vas ometaju tijekom učenja uz iPhone Screen Time ili Android Focus mode. Držite alate za učenje dostupnima i naučite kada blokiranje temeljeno na zadatku pomaže.",
       "intro": "Otvorite telefon da provjerite zadatak, a zatim završite listajući društvene mreže. Korisne postavke za učenje prekidaju to skretanje, dok bilješke, materijali za nastavu i važna komunikacija ostaju dostupni. Počnite s jednim konkretnim dijelom posla i s nekoliko aplikacija koje vam stalno odvlače pozornost.",
-      "answer": "Da biste blokirali aplikacije tijekom učenja, odaberite one koje vas ometaju, ostavite potrebne alate dostupnima i odlučite trebate li fiksni mjerač vremena ili blokiranje povezano s nedovršenim zadacima kojima se bliži rok. Nonlate koristi zadatke koji ispunjavaju uvjete i odabrani vremenski okvir prije roka; samo stvaranje razdoblja za učenje ne aktivira blokiranje.",
+      "answer": "Na iPhoneu koristite Screen Time za postavljanje sati koje želite učiti. Na Androidu upotrijebite način rada Focus u Digital Wellbeingu za pauziranje odabranih aplikacija. Nonlate može blokirati ometajuće aplikacije na temelju rokova zadataka.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokirajte aplikacije dok učite na iPhoneu",
+          "paragraphs": [
+            "Na iOS-u 27 ili novijem otvorite Postavke, zatim Vrijeme zaslona i Raspored vremena korištenja. Uključite Raspored, dodajte prozor za učenje i odaberite koje će kategorije vremena biti dostupne tijekom njega.",
+            "Na starijim verzijama iOS-a, upotrijebite Neaktivnost pod Vrijeme zaslona. Koristite Always Allowed za osnovne stvari. S postavljenom šifrom zaporke Screen Time uključite Blokiraj tijekom prekida ako želite da ograničene aplikacije ostanu zatvorene."
+          ],
+          "steps": [
+            "Držite svoju aplikaciju tečaja, autentifikator i bitne kontakte dostupnima. Tijekom prozora za proučavanje otvorite jednu aplikaciju koju ste namjeravali ograničiti i provjerite što se događa."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokirajte aplikacije dok učite na Androidu",
+          "paragraphs": [
+            "Otvorite Postavke, zatim Digitalno blagostanje, a zatim Focus mode. Odaberite aplikacije koje želite pauzirati. Način fokusiranja također pauzira obavijesti iz tih aplikacija."
+          ],
+          "steps": [
+            "Dodirnite Uključi sada za ovu sesiju ili Postavite raspored za ponavljajuće vrijeme učenja. Koristite Odmori se ako trebate privremeni pristup."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Odaberite pravilo koje odgovara vašem učenju",
@@ -2002,11 +2833,32 @@
       ]
     },
     "sk": {
-      "title": "Ako blokovať rušivé aplikácie pri štúdiu",
-      "description": "Pripravte si študijný blok s menším vyrušovaním telefónom. Vyberte užitočné pravidlá blokovania, zachovajte prístup k študijným nástrojom a spoznajte prístup Nonlate založený na termínoch.",
+      "title": "Ako blokovať aplikácie pri štúdiu na iPhone a Android",
+      "description": "Blokujte rušivé aplikácie pri štúdiu pomocou režimu Čas obrazovky pre iPhone alebo Android Focus. Majte k dispozícii študijné nástroje a zistite, kedy blokovanie založené na úlohách pomáha.",
       "intro": "Otvoríte telefón, aby ste skontrolovali úlohu, a napokon prezeráte sociálne siete. Užitočné nastavenie na štúdium preruší túto odbočku, no ponechá dostupné poznámky, materiály ku kurzu a dôležitú komunikáciu. Začnite jednou konkrétnou prácou a niekoľkými aplikáciami, ktoré vás opakovane odvádzajú od práce.",
-      "answer": "Ak chcete pri štúdiu blokovať aplikácie, vyberte tie rušivé, ponechajte dostupné potrebné nástroje a rozhodnite sa medzi pevným časovačom a blokovaním podľa nedokončených úloh s blížiacim sa termínom. Nonlate používa úlohy spĺňajúce podmienky a zvolené časové okno pred termínom; samotné vytvorenie študijného bloku blokovanie nespustí.",
+      "answer": "Na iPhone použite Čas pred obrazovkou na nastavenie hodín, počas ktorých sa chcete učiť. V systéme Android použite režim sústredenia v Digitálnej rovnováhe na pozastavenie vybraných aplikácií. Nonlate dokáže blokovať rušivé aplikácie na základe termínov úloh.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokujte aplikácie počas štúdia na iPhone",
+          "paragraphs": [
+            "V systéme iOS 27 alebo novšom otvorte Nastavenia, potom Čas pred obrazovkou a Plán času pred obrazovkou. Zapnite Plán, pridajte študijné okno a vyberte, ktoré kategórie Časových dotácií sú počas neho dostupné.",
+            "V starších verziách iOS použite Čas výpadku v časti Čas pred obrazovkou. Na podstatné veci použite Vždy povolené. S nastaveným prístupovým kódom Čas pred obrazovkou zapnite Blokovať v čase výpadku, ak chcete, aby obmedzené aplikácie zostali zatvorené."
+          ],
+          "steps": [
+            "Majte k dispozícii aplikáciu kurzu, autentifikátor a dôležité kontakty. Počas okna štúdie otvorte jednu aplikáciu, ktorú ste chceli obmedziť, a skontrolujte, čo sa stane."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokujte aplikácie počas štúdia v systéme Android",
+          "paragraphs": [
+            "Otvorte Nastavenia, potom Digitálna rovnováha a potom Režim sústredenia. Vyberte aplikácie, ktoré chcete pozastaviť. Režim sústredenia tiež pozastaví upozornenia z týchto aplikácií."
+          ],
+          "steps": [
+            "Klepnite na Zapnúť teraz pre túto reláciu alebo Nastaviť plán pre opakované štúdium. Použite Urobte si prestávku, ak potrebujete dočasný prístup."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Vyberte pravidlo zodpovedajúce vášmu štúdiu",
@@ -2053,11 +2905,32 @@
       ]
     },
     "sl": {
-      "title": "Kako blokirati moteče aplikacije med učenjem",
-      "description": "Pripravite učenje z manj motnjami na telefonu. Izberite uporabna pravila blokiranja, ohranite dostop do učnih orodij in spoznajte pristop Nonlate, ki upošteva roke.",
+      "title": "Kako blokirati aplikacije med študijem na iPhone in Android",
+      "description": "Blokirajte moteče aplikacije med učenjem z iPhone Screen Time ali Android Focus načinom. Orodja za učenje imejte na voljo in se naučite, kdaj pomaga blokiranje na podlagi opravil.",
       "intro": "Odprete telefon, da preverite nalogo, nato pa začnete brskati po družbenih omrežjih. Uporabna nastavitev za učenje prekine ta ovinek, obenem pa ohrani dostop do zapiskov, gradiva in pomembne komunikacije. Začnite z enim konkretnim delom naloge in nekaj aplikacijami, ki vas vedno znova odvračajo od dela.",
-      "answer": "Če želite med učenjem blokirati aplikacije, izberite moteče aplikacije, ohranite dostop do potrebnih orodij in se odločite med stalnim časovnikom ter blokiranjem, povezanim z nedokončanimi nalogami s približujočim se rokom. Nonlate uporablja naloge, ki izpolnjujejo pogoje, in izbrano časovno okno pred rokom; sama priprava učnega termina ne sproži blokiranja.",
+      "answer": "V iPhonu uporabite Screen Time, da nastavite ure, ko se želite učiti. V sistemu Android uporabite način osredotočenosti v Digital Wellbeing, da začasno ustavite izbrane aplikacije. Nonlate lahko blokira moteče aplikacije glede na roke opravil.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "Blokirajte aplikacije med učenjem na iPhonu",
+          "paragraphs": [
+            "V sistemu iOS 27 ali novejšem odprite Nastavitve, nato Čas zaslona in Urnik časa zaslona. Vklopite urnik, dodajte študijsko okno in izberite, katere kategorije časovnega dodatka so na voljo med njim.",
+            "V prejšnjih različicah sistema iOS uporabite Čas nedelovanja pod Čas zaslona. Uporabite Always Allowed za osnovne stvari. Ko je nastavljeno geslo za zaslonski čas, vklopite Blokiraj ob nedelovanju, če želite, da omejene aplikacije ostanejo zaprte."
+          ],
+          "steps": [
+            "Naj bodo na voljo vaša aplikacija tečaja, avtentifikator in bistveni stiki. Med študijskim oknom odprite eno aplikacijo, ki ste jo želeli omejiti, in preverite, kaj se zgodi."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Blokirajte aplikacije med študijem v sistemu Android",
+          "paragraphs": [
+            "Odprite Nastavitve, nato Digitalno počutje in nato Način ostrenja. Izberite aplikacije, ki jih želite začasno ustaviti. Način osredotočenosti tudi začasno ustavi obvestila teh aplikacij."
+          ],
+          "steps": [
+            "Tapnite Vklopi zdaj za to sejo ali Nastavite urnik za ponavljajoči se čas učenja. Uporabite Odmori se, če potrebujete začasen dostop."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "Izberite pravilo, ki ustreza vašemu učenju",
@@ -2104,11 +2977,32 @@
       ]
     },
     "gu": {
-      "title": "અભ્યાસ કરતી વખતે ધ્યાન ભટકાવતી ઍપ કેવી રીતે બ્લૉક કરવી",
-      "description": "ફોનના ઓછા વિક્ષેપવાળો અભ્યાસ સમય ગોઠવો. ઉપયોગી બ્લૉકિંગ નિયમો પસંદ કરો, અભ્યાસનાં સાધનો ઉપલબ્ધ રાખો અને Nonlateની સમયમર્યાદા આધારિત પદ્ધતિ સમજો.",
+      "title": "iPhone અને Android પર અભ્યાસ કરતી વખતે એપ્સને કેવી રીતે બ્લોક કરવી",
+      "description": "આઇફોન સ્ક્રીન ટાઇમ અથવા એન્ડ્રોઇડ ફોકસ મોડ સાથે અભ્યાસ કરતી વખતે વિચલિત કરતી એપ્લિકેશનોને અવરોધિત કરો. અભ્યાસના સાધનો ઉપલબ્ધ રાખો અને કાર્ય-આધારિત બ્લોકીંગ ક્યારે મદદ કરે છે તે જાણો.",
       "intro": "અસાઇનમેન્ટ જોવા ફોન ખોલો છો, પછી સ્ક્રૉલ કરવા લાગો છો. ઉપયોગી અભ્યાસ વ્યવસ્થા નોંધો, અભ્યાસ સામગ્રી અને જરૂરી સંપર્ક ઉપલબ્ધ રાખીને આ ભટકાવાને રોકે છે. એક ચોક્કસ કામ અને વારંવાર તમને દૂર ખેંચતી થોડી ઍપથી શરૂ કરો.",
-      "answer": "અભ્યાસ વખતે ઍપ બ્લૉક કરવા ધ્યાન ભટકાવતી ઍપ પસંદ કરો, જરૂરી અભ્યાસ સાધનો ચાલુ રાખો અને નિશ્ચિત અભ્યાસ ટાઇમર જોઈએ કે અધૂરા સમયમર્યાદાવાળા કામ સાથે જોડાયેલું બ્લૉકિંગ તે નક્કી કરો. Nonlate પાત્ર કામ અને પસંદ કરેલો સમયમર્યાદાનો ગાળો વાપરે છે; માત્ર અભ્યાસ સત્ર બનાવવાથી બ્લૉકિંગ શરૂ થતું નથી.",
+      "answer": "iPhone પર, તમે અભ્યાસ કરવા માંગો છો તે કલાકો સેટ કરવા માટે સ્ક્રીન સમયનો ઉપયોગ કરો. Android પર, પસંદ કરેલી ઍપને થોભાવવા માટે Digital Wellbeingમાં ફોકસ મોડનો ઉપયોગ કરો. Nonlate કાર્યની સમયમર્યાદાના આધારે વિચલિત કરતી એપ્લિકેશન્સને અવરોધિત કરી શકે છે.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "iPhone પર અભ્યાસ કરતી વખતે એપ્સને બ્લોક કરો",
+          "paragraphs": [
+            "iOS 27 અથવા પછીના પર, સેટિંગ્સ ખોલો, પછી સ્ક્રીન સમય અને સ્ક્રીન સમય શેડ્યૂલ. શેડ્યૂલ ચાલુ કરો, સ્ટડી વિન્ડો ઉમેરો અને તે દરમિયાન કઈ ટાઈમ એલાઉન્સ કેટેગરીઝ ઉપલબ્ધ છે તે પસંદ કરો.",
+            "પહેલાનાં iOS વર્ઝન પર, સ્ક્રીન ટાઈમ હેઠળ ડાઉનટાઇમનો ઉપયોગ કરો. આવશ્યક વસ્તુઓ માટે હંમેશા મંજૂર ઉપયોગ કરો. સ્ક્રીન ટાઈમ પાસકોડ સેટ સાથે, જો તમે પ્રતિબંધિત એપ્સ બંધ રહેવા માંગતા હોવ તો ડાઉનટાઇમ પર બ્લોક ચાલુ કરો."
+          ],
+          "steps": [
+            "તમારી કોર્સ એપ્લિકેશન, પ્રમાણકર્તા અને આવશ્યક સંપર્કો ઉપલબ્ધ રાખો. અભ્યાસ વિંડો દરમિયાન, એક એપ્લિકેશન ખોલો જેનો અર્થ તમે પ્રતિબંધિત કરવા અને શું થાય છે તે તપાસો."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "એન્ડ્રોઇડ પર અભ્યાસ કરતી વખતે એપ્સને બ્લોક કરો",
+          "paragraphs": [
+            "સેટિંગ્સ ખોલો, પછી ડિજિટલ વેલબીઇંગ, પછી ફોકસ મોડ. તમે થોભાવવા માંગો છો તે એપ્લિકેશનો પસંદ કરો. ફોકસ મોડ તે એપ્સના નોટિફિકેશનને પણ થોભાવે છે."
+          ],
+          "steps": [
+            "આ સત્ર માટે હમણાં ચાલુ કરો પર ટૅપ કરો અથવા રિકરિંગ અભ્યાસ સમય માટે શેડ્યૂલ સેટ કરો. જો તમને કામચલાઉ ઍક્સેસની જરૂર હોય તો બ્રેક લોનો ઉપયોગ કરો."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "તમારા અભ્યાસ સત્રને અનુકૂળ નિયમ પસંદ કરો",
@@ -2155,11 +3049,32 @@
       ]
     },
     "kn": {
-      "title": "ಓದುವಾಗ ಗಮನ ಬೇರೆಡೆ ಸೆಳೆಯುವ ಆ್ಯಪ್‌ಗಳನ್ನು ತಡೆಯುವುದು ಹೇಗೆ",
-      "description": "ಫೋನ್ ಅಡಚಣೆ ಕಡಿಮೆಯಿರುವ ಅಧ್ಯಯನ ಅವಧಿ ರೂಪಿಸಿ. ಸೂಕ್ತ ನಿರ್ಬಂಧ ನಿಯಮಗಳನ್ನು ಆಯ್ದು, ಅಧ್ಯಯನ ಸಾಧನಗಳನ್ನು ಲಭ್ಯವಾಗಿರಿಸಿ, Nonlateನ ಗಡುವು ಆಧಾರಿತ ವಿಧಾನ ತಿಳಿಯಿರಿ.",
+      "title": "iPhone ಮತ್ತು Android ನಲ್ಲಿ ಅಧ್ಯಯನ ಮಾಡುವಾಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುವುದು ಹೇಗೆ",
+      "description": "iPhone ಸ್ಕ್ರೀನ್ ಸಮಯ ಅಥವಾ Android ಫೋಕಸ್ ಮೋಡ್‌ನೊಂದಿಗೆ ಅಧ್ಯಯನ ಮಾಡುವಾಗ ಗಮನವನ್ನು ಸೆಳೆಯುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ. ಸ್ಟಡಿ ಟೂಲ್‌ಗಳನ್ನು ಲಭ್ಯವಿರುವಂತೆ ಇರಿಸಿಕೊಳ್ಳಿ ಮತ್ತು ಕಾರ್ಯ-ಆಧಾರಿತ ನಿರ್ಬಂಧಿಸುವಿಕೆಯು ಯಾವಾಗ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ತಿಳಿದುಕೊಳ್ಳಿ.",
       "intro": "ಅಸೈನ್‌ಮೆಂಟ್ ನೋಡಲು ಫೋನ್ ತೆರೆದು ಬಳಿಕ ಸ್ಕ್ರೋಲ್ ಮಾಡುತ್ತಿರುತ್ತೀರಿ. ಉಪಯುಕ್ತ ಅಧ್ಯಯನ ವ್ಯವಸ್ಥೆ ಟಿಪ್ಪಣಿ, ಪಠ್ಯವಸ್ತು ಮತ್ತು ಅಗತ್ಯ ಸಂವಹನಕ್ಕೆ ಅವಕಾಶ ನೀಡುತ್ತಲೇ ಈ ದಾರಿತಪ್ಪುವಿಕೆಯನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ. ಒಂದು ನಿರ್ದಿಷ್ಟ ಕೆಲಸ ಮತ್ತು ಪದೇಪದೇ ನಿಮ್ಮನ್ನು ಸೆಳೆಯುವ ಕೆಲವು ಆ್ಯಪ್‌ಗಳಿಂದ ಆರಂಭಿಸಿ.",
-      "answer": "ಓದುವಾಗ ಆ್ಯಪ್ ತಡೆಯಲು ಗಮನ ಸೆಳೆಯುವ ಆ್ಯಪ್‌ಗಳನ್ನು ಆಯ್ದು, ಅಗತ್ಯ ಅಧ್ಯಯನ ಸಾಧನಗಳನ್ನು ಲಭ್ಯವಾಗಿರಿಸಿ, ನಿಗದಿತ ಅಧ್ಯಯನ ಟೈಮರ್ ಬೇಕೋ ಅಥವಾ ಗಡುವಿನ ಅಪೂರ್ಣ ಕೆಲಸಕ್ಕೆ ಜೋಡಿಸಿದ ನಿರ್ಬಂಧ ಬೇಕೋ ತೀರ್ಮಾನಿಸಿ. Nonlate ಅರ್ಹ ಕೆಲಸಗಳು ಮತ್ತು ಆಯ್ದ ಗಡುವಿನ ವ್ಯಾಪ್ತಿ ಬಳಸುತ್ತದೆ; ಅಧ್ಯಯನ ಅವಧಿ ರಚಿಸುವುದಷ್ಟೇ ನಿರ್ಬಂಧ ಆರಂಭಿಸುವುದಿಲ್ಲ.",
+      "answer": "iPhone ನಲ್ಲಿ, ನೀವು ಅಧ್ಯಯನ ಮಾಡಲು ಬಯಸುವ ಸಮಯವನ್ನು ಹೊಂದಿಸಲು ಸ್ಕ್ರೀನ್ ಸಮಯವನ್ನು ಬಳಸಿ. Android ನಲ್ಲಿ, ಆಯ್ಕೆಮಾಡಿದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ವಿರಾಮಗೊಳಿಸಲು ಡಿಜಿಟಲ್ ಯೋಗಕ್ಷೇಮದಲ್ಲಿ ಫೋಕಸ್ ಮೋಡ್ ಅನ್ನು ಬಳಸಿ. Nonlate ಟಾಸ್ಕ್ ಡೆಡ್‌ಲೈನ್‌ಗಳ ಆಧಾರದ ಮೇಲೆ ಗಮನವನ್ನು ಸೆಳೆಯುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಬಹುದು.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "ಐಫೋನ್‌ನಲ್ಲಿ ಅಧ್ಯಯನ ಮಾಡುವಾಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ",
+          "paragraphs": [
+            "iOS 27 ಅಥವಾ ನಂತರದಲ್ಲಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ, ನಂತರ ಪರದೆಯ ಸಮಯ ಮತ್ತು ಪರದೆಯ ಸಮಯದ ವೇಳಾಪಟ್ಟಿಯನ್ನು ತೆರೆಯಿರಿ. ವೇಳಾಪಟ್ಟಿಯನ್ನು ಆನ್ ಮಾಡಿ, ಅಧ್ಯಯನ ವಿಂಡೋವನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಅದರಲ್ಲಿ ಯಾವ ಸಮಯ ಭತ್ಯೆ ವಿಭಾಗಗಳು ಲಭ್ಯವಿದೆ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+            "ಹಿಂದಿನ iOS ಆವೃತ್ತಿಗಳಲ್ಲಿ, ಪರದೆಯ ಸಮಯದ ಅಡಿಯಲ್ಲಿ ಡೌನ್‌ಟೈಮ್ ಅನ್ನು ಬಳಸಿ. ಅಗತ್ಯಗಳಿಗೆ ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ ಬಳಸಿ. ಸ್ಕ್ರೀನ್ ಟೈಮ್ ಪಾಸ್‌ಕೋಡ್ ಸೆಟ್‌ನೊಂದಿಗೆ, ನಿರ್ಬಂಧಿತ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಮುಚ್ಚಲು ನೀವು ಬಯಸಿದರೆ ಡೌನ್‌ಟೈಮ್‌ನಲ್ಲಿ ಬ್ಲಾಕ್ ಅನ್ನು ಆನ್ ಮಾಡಿ."
+          ],
+          "steps": [
+            "ನಿಮ್ಮ ಕೋರ್ಸ್ ಅಪ್ಲಿಕೇಶನ್, ದೃಢೀಕರಣಕಾರ ಮತ್ತು ಅಗತ್ಯ ಸಂಪರ್ಕಗಳನ್ನು ಲಭ್ಯವಿಡಿ. ಅಧ್ಯಯನದ ವಿಂಡೋದ ಸಮಯದಲ್ಲಿ, ನೀವು ನಿರ್ಬಂಧಿಸಲು ಉದ್ದೇಶಿಸಿರುವ ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ತೆರೆಯಿರಿ ಮತ್ತು ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Android ನಲ್ಲಿ ಅಧ್ಯಯನ ಮಾಡುವಾಗ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ",
+          "paragraphs": [
+            "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ, ನಂತರ ಡಿಜಿಟಲ್ ಯೋಗಕ್ಷೇಮ, ನಂತರ ಫೋಕಸ್ ಮೋಡ್. ನೀವು ವಿರಾಮಗೊಳಿಸಲು ಬಯಸುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಫೋಕಸ್ ಮೋಡ್ ಆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಂದ ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಹ ವಿರಾಮಗೊಳಿಸುತ್ತದೆ."
+          ],
+          "steps": [
+            "ಈ ಸೆಶನ್‌ಗಾಗಿ ಈಗಲೇ ಆನ್ ಮಾಡು ಟ್ಯಾಪ್ ಮಾಡಿ ಅಥವಾ ಮರುಕಳಿಸುವ ಅಧ್ಯಯನ ಸಮಯಕ್ಕೆ ವೇಳಾಪಟ್ಟಿಯನ್ನು ಹೊಂದಿಸಿ. ನಿಮಗೆ ತಾತ್ಕಾಲಿಕ ಪ್ರವೇಶದ ಅಗತ್ಯವಿದ್ದರೆ ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಿ."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "ಅಧ್ಯಯನ ಅವಧಿಗೆ ಸೂಕ್ತ ನಿಯಮ ಆಯ್ದುಕೊಳ್ಳಿ",
@@ -2206,11 +3121,32 @@
       ]
     },
     "ml": {
-      "title": "പഠിക്കുമ്പോൾ ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകൾ എങ്ങനെ തടയാം",
-      "description": "ഫോൺ തടസ്സങ്ങൾ കുറഞ്ഞ പഠനസമയം ഒരുക്കുക. അനുയോജ്യമായ തടയൽ നിയമങ്ങൾ തിരഞ്ഞെടുത്ത് പഠനോപകരണങ്ങൾ ലഭ്യമാക്കി Nonlate-ന്റെ സമയപരിധി അധിഷ്ഠിത രീതി മനസ്സിലാക്കുക.",
+      "title": "ഐഫോണിലും ആൻഡ്രോയിഡിലും പഠിക്കുമ്പോൾ ആപ്പുകൾ എങ്ങനെ ബ്ലോക്ക് ചെയ്യാം",
+      "description": "iPhone സ്‌ക്രീൻ ടൈം അല്ലെങ്കിൽ Android ഫോക്കസ് മോഡ് ഉപയോഗിച്ച് പഠിക്കുമ്പോൾ ശ്രദ്ധ തിരിക്കുന്ന ആപ്പുകൾ തടയുക. പഠനോപകരണങ്ങൾ ലഭ്യമാക്കി നിലനിർത്തുക, ടാസ്‌ക് അധിഷ്‌ഠിത തടയൽ സഹായിക്കുമ്പോൾ പഠിക്കുക.",
       "intro": "അസൈൻമെന്റ് പരിശോധിക്കാൻ ഫോൺ തുറന്ന് പിന്നെ സ്ക്രോൾ ചെയ്യുന്നതായി കാണുന്നു. നല്ല പഠനക്രമീകരണം കുറിപ്പുകളും പാഠസാമഗ്രികളും അത്യാവശ്യ ആശയവിനിമയവും അനുവദിച്ചുകൊണ്ട് ഈ വഴിതിരിവ് തടയും. വ്യക്തമായ ഒരു ജോലിയിലും ആവർത്തിച്ച് ശ്രദ്ധ വലിക്കുന്ന കുറച്ച് ആപ്പുകളിലും തുടങ്ങുക.",
-      "answer": "പഠിക്കുമ്പോൾ ആപ്പുകൾ തടയാൻ ശ്രദ്ധതിരിക്കുന്ന ആപ്പുകൾ തിരഞ്ഞെടുക്കുക, ആവശ്യമായ പഠനോപകരണങ്ങൾ ലഭ്യമാക്കുക, സ്ഥിര പഠനടൈമറാണോ സമയപരിധിയുള്ള പൂർത്തിയാകാത്ത ജോലിയോട് ബന്ധിച്ച തടയലാണോ വേണ്ടതെന്ന് തീരുമാനിക്കുക. Nonlate യോഗ്യമായ ജോലികളും തിരഞ്ഞെടുത്ത സമയപരിധി പരിധിയും ഉപയോഗിക്കുന്നു; പഠനസെഷൻ ഉണ്ടാക്കുന്നതുമാത്രം തടയൽ തുടങ്ങില്ല.",
+      "answer": "iPhone-ൽ, നിങ്ങൾ പഠിക്കാൻ ആഗ്രഹിക്കുന്ന സമയം സജ്ജീകരിക്കാൻ സ്‌ക്രീൻ സമയം ഉപയോഗിക്കുക. Android-ൽ, തിരഞ്ഞെടുത്ത ആപ്പുകൾ താൽക്കാലികമായി നിർത്താൻ ഡിജിറ്റൽ ആരോഗ്യത്തിൽ ഫോക്കസ് മോഡ് ഉപയോഗിക്കുക. Nonlate-ന് ടാസ്‌ക് ഡെഡ്‌ലൈനുകളെ അടിസ്ഥാനമാക്കി ശ്രദ്ധ തിരിക്കുന്ന ആപ്പുകൾ ബ്ലോക്ക് ചെയ്യാൻ കഴിയും.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "ഐഫോണിൽ പഠിക്കുമ്പോൾ ആപ്പുകൾ ബ്ലോക്ക് ചെയ്യുക",
+          "paragraphs": [
+            "iOS 27-ലും അതിനുശേഷമുള്ള പതിപ്പിലും, ക്രമീകരണങ്ങൾ തുറക്കുക, തുടർന്ന് സ്‌ക്രീൻ സമയവും സ്‌ക്രീൻ സമയ ഷെഡ്യൂളും. ഷെഡ്യൂൾ ഓണാക്കുക, ഒരു പഠന ജാലകം ചേർക്കുക, അതിൽ ഏതൊക്കെ സമയ അലവൻസ് വിഭാഗങ്ങൾ ലഭ്യമാണെന്ന് തിരഞ്ഞെടുക്കുക.",
+            "മുമ്പത്തെ iOS പതിപ്പുകളിൽ, സ്‌ക്രീൻ സമയത്തിന് കീഴിൽ പ്രവർത്തനരഹിതമായ സമയം ഉപയോഗിക്കുക. അവശ്യവസ്തുക്കൾക്കായി എപ്പോഴും അനുവദനീയമായവ ഉപയോഗിക്കുക. ഒരു സ്‌ക്രീൻ ടൈം പാസ്‌കോഡ് സജ്ജീകരിച്ച്, നിയന്ത്രിത ആപ്പുകൾ അടച്ചിട്ടിരിക്കണമെങ്കിൽ, പ്രവർത്തനരഹിതമായ സമയത്ത് തടയുക എന്നത് ഓണാക്കുക."
+          ],
+          "steps": [
+            "നിങ്ങളുടെ കോഴ്‌സ് ആപ്പ്, ഓതൻ്റിക്കേറ്റർ, അത്യാവശ്യ കോൺടാക്‌റ്റുകൾ എന്നിവ ലഭ്യമാക്കുക. പഠന വിൻഡോയിൽ, നിയന്ത്രിക്കാൻ ഉദ്ദേശിച്ച ഒരു ആപ്പ് തുറന്ന് എന്താണ് സംഭവിക്കുന്നതെന്ന് പരിശോധിക്കുക."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "ആൻഡ്രോയിഡിൽ പഠിക്കുമ്പോൾ ആപ്പുകൾ ബ്ലോക്ക് ചെയ്യുക",
+          "paragraphs": [
+            "ക്രമീകരണങ്ങൾ തുറക്കുക, തുടർന്ന് ഡിജിറ്റൽ ആരോഗ്യം, തുടർന്ന് ഫോക്കസ് മോഡ്. നിങ്ങൾ താൽക്കാലികമായി നിർത്താൻ ആഗ്രഹിക്കുന്ന ആപ്പുകൾ തിരഞ്ഞെടുക്കുക. ഫോക്കസ് മോഡ് ആ ആപ്പുകളിൽ നിന്നുള്ള അറിയിപ്പുകളും താൽക്കാലികമായി നിർത്തുന്നു."
+          ],
+          "steps": [
+            "ഈ സെഷനായി ഇപ്പോൾ ഓണാക്കുക ടാപ്പ് ചെയ്യുക അല്ലെങ്കിൽ ആവർത്തിച്ചുള്ള പഠന സമയത്തിനായി ഒരു ഷെഡ്യൂൾ സജ്ജീകരിക്കുക. നിങ്ങൾക്ക് താൽകാലിക ആക്സസ് വേണമെങ്കിൽ ബ്രേക്ക് എടുക്കുക ഉപയോഗിക്കുക."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "പഠനസെഷന് അനുയോജ്യമായ നിയമം തിരഞ്ഞെടുക്കുക",
@@ -2257,11 +3193,32 @@
       ]
     },
     "mr": {
-      "title": "अभ्यास करताना लक्ष विचलित करणारी ॲप कशी ब्लॉक करावीत",
-      "description": "फोनचे कमी व्यत्यय असलेले अभ्यास सत्र तयार करा. उपयुक्त ब्लॉकिंग नियम निवडा, अभ्यासाची साधने उपलब्ध ठेवा आणि Nonlateची मुदतीवर आधारित पद्धत समजून घ्या.",
+      "title": "आयफोन आणि अँड्रॉइडवर अभ्यास करताना ॲप्स कसे ब्लॉक करायचे",
+      "description": "iPhone स्क्रीन टाइम किंवा Android फोकस मोडसह अभ्यास करताना विचलित करणारे ॲप्स ब्लॉक करा. अभ्यास साधने उपलब्ध ठेवा आणि कार्य-आधारित अवरोधित करणे मदत करते तेव्हा जाणून घ्या.",
       "intro": "असाइनमेंट तपासायला फोन उघडता आणि मग स्क्रोल करत बसता. उपयोगी अभ्यास व्यवस्था नोंदी, अभ्यास साहित्य आणि आवश्यक संपर्क उपलब्ध ठेवून ही भरकटणारी वाट थांबवते. एक ठोस काम आणि वारंवार दूर खेचणारी मोजकी ॲप यांपासून सुरुवात करा.",
-      "answer": "अभ्यासात ॲप ब्लॉक करायला लक्ष विचलित करणारी ॲप निवडा, आवश्यक अभ्यास साधने उपलब्ध ठेवा आणि ठरावीक अभ्यास टायमर हवा की अपूर्ण मुदतबद्ध कामाशी जोडलेले ब्लॉकिंग ते ठरवा. Nonlate पात्र कामे आणि निवडलेला मुदतीचा कालावधी वापरते; फक्त अभ्यास सत्र तयार केल्याने ब्लॉकिंग सुरू होत नाही.",
+      "answer": "iPhone वर, तुम्ही अभ्यास करू इच्छित तास सेट करण्यासाठी स्क्रीन टाइम वापरा. Android वर, निवडलेल्या ॲप्सला विराम देण्यासाठी Digital Wellbeing मध्ये फोकस मोड वापरा. Nonlate टास्क डेडलाइनवर आधारित विचलित करणारी ॲप्स ब्लॉक करू शकते.",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "आयफोनवर अभ्यास करताना ॲप्स ब्लॉक करा",
+          "paragraphs": [
+            "iOS 27 किंवा नंतरच्या वर, सेटिंग्ज उघडा, नंतर स्क्रीन वेळ आणि स्क्रीन वेळ शेड्यूल. शेड्यूल चालू करा, एक अभ्यास विंडो जोडा आणि त्या दरम्यान कोणत्या वेळ भत्ता श्रेणी उपलब्ध आहेत ते निवडा.",
+            "पूर्वीच्या iOS आवृत्त्यांवर, स्क्रीन टाइम अंतर्गत डाउनटाइम वापरा. अत्यावश्यक गोष्टींसाठी नेहमी परवानगी असलेले वापरा. स्क्रीन टाइम पासकोड सेटसह, तुम्हाला प्रतिबंधित ॲप्स बंद राहायचे असल्यास डाउनटाइमच्या वेळी ब्लॉक करा चालू करा."
+          ],
+          "steps": [
+            "तुमचे कोर्स ॲप, ऑथेंटिकेटर आणि आवश्यक संपर्क उपलब्ध ठेवा. अभ्यास विंडो दरम्यान, एक ॲप उघडा जे तुम्हाला प्रतिबंधित करायचे आहे आणि काय होते ते तपासा."
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "Android वर अभ्यास करताना ॲप्स ब्लॉक करा",
+          "paragraphs": [
+            "सेटिंग्ज उघडा, नंतर डिजिटल वेलबीइंग, नंतर फोकस मोड. तुम्हाला थांबवायचे असलेले ॲप्स निवडा. फोकस मोड देखील त्या ॲप्सच्या सूचनांना विराम देतो."
+          ],
+          "steps": [
+            "या सत्रासाठी आता चालू करा वर टॅप करा किंवा आवर्ती अभ्यासाच्या वेळेसाठी शेड्यूल सेट करा. तुम्हाला तात्पुरत्या प्रवेशाची आवश्यकता असल्यास ब्रेक घ्या वापरा."
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "तुमच्या अभ्यास सत्राला योग्य नियम निवडा",
@@ -2308,11 +3265,32 @@
       ]
     },
     "or": {
-      "title": "ପଢ଼ିବାବେଳେ ଧ୍ୟାନ ଭଙ୍ଗକାରୀ ଆପ୍ କିପରି ବ୍ଲକ୍ କରିବେ",
-      "description": "ଫୋନର କମ୍ ବାଧା ସହ ପଢ଼ା ସମୟ ତିଆରି କରନ୍ତୁ। ଉପଯୋଗୀ ବ୍ଲକିଂ ନିୟମ ବାଛନ୍ତୁ, ପଢ଼ା ସାଧନ ଉପଲବ୍ଧ ରଖନ୍ତୁ ଓ Nonlateର ସମୟସୀମାଭିତ୍ତିକ ପଦ୍ଧତି ବୁଝନ୍ତୁ।",
+      "title": "ଆଇଫୋନ୍ ଏବଂ ଆଣ୍ଡ୍ରଏଡରେ ଅଧ୍ୟୟନ କରିବା ସମୟରେ ଆପ୍ସକୁ କିପରି ଅବରୋଧ କରାଯିବ |",
+      "description": "ଆଇଫୋନ୍ ସ୍କ୍ରିନ୍ ଟାଇମ୍ କିମ୍ବା ଆଣ୍ଡ୍ରଏଡ୍ ଫୋକସ୍ ମୋଡ୍ ସହିତ ଅଧ୍ୟୟନ କରିବା ସମୟରେ ବିଭ୍ରାନ୍ତକାରୀ ଆପ୍ସକୁ ଅବରୋଧ କରନ୍ତୁ | ଅଧ୍ୟୟନ ଉପକରଣଗୁଡିକ ଉପଲବ୍ଧ ରଖନ୍ତୁ ଏବଂ କାର୍ଯ୍ୟ-ଆଧାରିତ ଅବରୋଧ ସାହାଯ୍ୟ କଲାବେଳେ ଶିଖନ୍ତୁ |",
       "intro": "ଆସାଇନମେଣ୍ଟ ଦେଖିବାକୁ ଫୋନ ଖୋଲି ପରେ ସ୍କ୍ରୋଲ୍ କରୁଥାନ୍ତି। ଭଲ ପଢ଼ା ବ୍ୟବସ୍ଥା ନୋଟ୍, ପାଠ୍ୟ ସାମଗ୍ରୀ ଓ ଜରୁରୀ ଯୋଗାଯୋଗ ଖୋଲା ରଖି ଏହି ଭୁଲ ବାଟ ଅଟକାଏ। ଗୋଟିଏ ନିର୍ଦ୍ଦିଷ୍ଟ କାମ ଓ ବାରମ୍ବାର ଟାଣିନେଉଥିବା କିଛି ଆପ୍‌ରୁ ଆରମ୍ଭ କରନ୍ତୁ।",
-      "answer": "ପଢ଼ିବାବେଳେ ଆପ୍ ବ୍ଲକ୍ କରିବାକୁ ଧ୍ୟାନ ଭଙ୍ଗକାରୀ ଆପ୍ ବାଛି ଆବଶ୍ୟକ ପଢ଼ା ସାଧନ ଉପଲବ୍ଧ ରଖନ୍ତୁ ଓ ସ୍ଥିର ପଢ଼ା ଟାଇମର ନା ଅସମ୍ପୂର୍ଣ୍ଣ ସମୟସୀମାଯୁକ୍ତ କାମ ସହ ବ୍ଲକିଂ ଦରକାର ନିଷ୍ପତ୍ତି ନିଅନ୍ତୁ। Nonlate ଯୋଗ୍ୟ କାମ ଓ ବାଛିଥିବା ସମୟସୀମା ପରିସର ବ୍ୟବହାର କରେ; କେବଳ ପଢ଼ା ସେସନ୍ ତିଆରି କଲେ ବ୍ଲକିଂ ଚାଲୁ ହୁଏନାହିଁ।",
+      "answer": "ଆଇଫୋନରେ, ଆପଣ ଅଧ୍ୟୟନ କରିବାକୁ ଚାହୁଁଥିବା ଘଣ୍ଟା ସେଟ୍ କରିବାକୁ ସ୍କ୍ରିନ୍ ଟାଇମ୍ ବ୍ୟବହାର କରନ୍ତୁ | ଆଣ୍ଡ୍ରଏଡରେ, ମନୋନୀତ ଆପ୍ଗୁଡ଼ିକୁ ବିରାମ ଦେବା ପାଇଁ ଡିଜିଟାଲ୍ ୱେଲବିଙ୍ଗରେ ଫୋକସ୍ ମୋଡ୍ ବ୍ୟବହାର କରନ୍ତୁ | Nonlate ଟାସ୍କ ସମୟସୀମା ଉପରେ ଆଧାର କରି ବିଭ୍ରାନ୍ତକାରୀ ଆପଗୁଡ଼ିକୁ ଅବରୋଧ କରିପାରିବ |",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "ଆଇଫୋନରେ ଅଧ୍ୟୟନ କରିବା ସମୟରେ ଆପ୍ସକୁ ଅବରୋଧ କରନ୍ତୁ |",
+          "paragraphs": [
+            "IOS 27 କିମ୍ବା ତା’ପରେ, ସେଟିଂସମୂହ ଖୋଲ, ତାପରେ ସ୍କ୍ରିନ୍ ଟାଇମ୍ ଏବଂ ସ୍କ୍ରିନ୍ ଟାଇମ୍ ସିଡ୍ୟୁଲ୍ | କାର୍ଯ୍ୟସୂଚୀ ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ, ଏକ ଅଧ୍ୟୟନ ୱିଣ୍ଡୋ ଯୋଡନ୍ତୁ ଏବଂ ଏହା ମଧ୍ୟରେ କେଉଁ ସମୟ ଭତ୍ତା ବର୍ଗ ଉପଲବ୍ଧ ତାହା ବାଛନ୍ତୁ |",
+            "ପୂର୍ବ iOS ସଂସ୍କରଣରେ, ସ୍କ୍ରିନ୍ ଟାଇମ୍ ଅନ୍ତର୍ଗତ ଡାଉନଟାଇମ୍ ବ୍ୟବହାର କରନ୍ତୁ | ଅତ୍ୟାବଶ୍ୟକ ସାମଗ୍ରୀ ପାଇଁ ସର୍ବଦା ଅନୁମୋଦିତ ବ୍ୟବହାର କରନ୍ତୁ | ଏକ ସ୍କ୍ରିନ୍ ଟାଇମ୍ ପାସକୋଡ୍ ସେଟ୍ ସହିତ, ଯଦି ଆପଣ ସୀମିତ ଆପ୍ ବନ୍ଦ ରହିବାକୁ ଚାହାଁନ୍ତି ତେବେ ଡାଉନଟାଇମ୍ ରେ ବ୍ଲକ୍ ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ |"
+          ],
+          "steps": [
+            "ଆପଣଙ୍କର ପାଠ୍ୟକ୍ରମ ଆପ୍, ପ୍ରାମାଣିକିକରଣ ଏବଂ ଅତ୍ୟାବଶ୍ୟକ ସମ୍ପର୍କଗୁଡିକ ଉପଲବ୍ଧ ରଖନ୍ତୁ | ଅଧ୍ୟୟନ ୱିଣ୍ଡୋ ସମୟରେ, ଗୋଟିଏ ଆପ୍ ଖୋଲ ଯାହାକୁ ତୁମେ ପ୍ରତିବନ୍ଧକ ଏବଂ କ’ଣ ଘଟୁଛି ଯାଞ୍ଚ କରିବାକୁ ଚାହୁଁଛ |"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "ଆଣ୍ଡ୍ରଏଡରେ ଅଧ୍ୟୟନ କରିବା ସମୟରେ ଆପ୍ସକୁ ଅବରୋଧ କରନ୍ତୁ |",
+          "paragraphs": [
+            "ସେଟିଂସମୂହ ଖୋଲନ୍ତୁ, ତାପରେ ଡିଜିଟାଲ୍ ୱେଲବିଙ୍ଗ୍, ତାପରେ ଫୋକସ୍ ମୋଡ୍ | ଆପଣ ବିରାମ କରିବାକୁ ଚାହୁଁଥିବା ଆପ୍ ଚୟନ କରନ୍ତୁ | ଫୋକସ୍ ମୋଡ୍ ମଧ୍ୟ ସେହି ଆପଗୁଡ଼ିକରୁ ବିଜ୍ଞପ୍ତିକୁ ବିରତ କରେ |"
+          ],
+          "steps": [
+            "ଏହି ଅଧିବେଶନ ପାଇଁ ବର୍ତ୍ତମାନ ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ କିମ୍ବା ବାରମ୍ବାର ଅଧ୍ୟୟନ ସମୟ ପାଇଁ ଏକ କାର୍ଯ୍ୟସୂଚୀ ସେଟ୍ କରନ୍ତୁ | ଯଦି ଆପଣ ଅସ୍ଥାୟୀ ପ୍ରବେଶ ଆବଶ୍ୟକ କରନ୍ତି ତେବେ ଏକ ବିରତି ନିଅନ୍ତୁ |"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "ପଢ଼ା ସେସନ୍‌କୁ ମେଳ ଖାଉଥିବା ନିୟମ ବାଛନ୍ତୁ",
@@ -2359,11 +3337,32 @@
       ]
     },
     "pa": {
-      "title": "ਪੜ੍ਹਦੇ ਸਮੇਂ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਕਿਵੇਂ ਬਲੌਕ ਕਰੀਏ",
-      "description": "ਫ਼ੋਨ ਦੀਆਂ ਘੱਟ ਰੁਕਾਵਟਾਂ ਵਾਲਾ ਪੜ੍ਹਾਈ ਸੈਸ਼ਨ ਬਣਾਓ। ਢੁਕਵੇਂ ਬਲੌਕਿੰਗ ਨਿਯਮ ਚੁਣੋ, ਪੜ੍ਹਾਈ ਦੇ ਸਾਧਨ ਖੁੱਲ੍ਹੇ ਰੱਖੋ ਅਤੇ Nonlate ਦਾ ਸਮਾਂ-ਸੀਮਾ ਆਧਾਰਿਤ ਤਰੀਕਾ ਸਮਝੋ।",
+      "title": "ਆਈਫੋਨ ਅਤੇ ਐਂਡਰਾਇਡ 'ਤੇ ਪੜ੍ਹਦੇ ਸਮੇਂ ਐਪਸ ਨੂੰ ਕਿਵੇਂ ਬਲੌਕ ਕਰਨਾ ਹੈ",
+      "description": "ਆਈਫੋਨ ਸਕ੍ਰੀਨ ਟਾਈਮ ਜਾਂ ਐਂਡਰੌਇਡ ਫੋਕਸ ਮੋਡ ਨਾਲ ਅਧਿਐਨ ਕਰਦੇ ਸਮੇਂ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਨੂੰ ਬਲੌਕ ਕਰੋ। ਸਟੱਡੀ ਟੂਲ ਉਪਲਬਧ ਰੱਖੋ ਅਤੇ ਸਿੱਖੋ ਕਿ ਟਾਸਕ-ਅਧਾਰਿਤ ਬਲਾਕਿੰਗ ਕਦੋਂ ਮਦਦ ਕਰਦੀ ਹੈ।",
       "intro": "ਅਸਾਈਨਮੈਂਟ ਵੇਖਣ ਲਈ ਫ਼ੋਨ ਖੋਲ੍ਹਦੇ ਹੋ ਅਤੇ ਫਿਰ ਸਕ੍ਰੋਲ ਕਰਨ ਲੱਗ ਪੈਂਦੇ ਹੋ। ਲਾਹੇਵੰਦ ਪੜ੍ਹਾਈ ਪ੍ਰਬੰਧ ਨੋਟਸ, ਕੋਰਸ ਸਮੱਗਰੀ ਅਤੇ ਜ਼ਰੂਰੀ ਸੰਪਰਕ ਖੁੱਲ੍ਹੇ ਰੱਖ ਕੇ ਇਹ ਭਟਕਣਾ ਰੋਕਦਾ ਹੈ। ਇੱਕ ਠੋਸ ਕੰਮ ਅਤੇ ਵਾਰ-ਵਾਰ ਖਿੱਚਣ ਵਾਲੀਆਂ ਕੁਝ ਐਪਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।",
-      "answer": "ਪੜ੍ਹਦੇ ਸਮੇਂ ਐਪਾਂ ਰੋਕਣ ਲਈ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਚੁਣੋ, ਜ਼ਰੂਰੀ ਪੜ੍ਹਾਈ ਸਾਧਨ ਖੁੱਲ੍ਹੇ ਰੱਖੋ ਅਤੇ ਤੈਅ ਕਰੋ ਕਿ ਨਿਸ਼ਚਿਤ ਪੜ੍ਹਾਈ ਟਾਈਮਰ ਚਾਹੀਦਾ ਹੈ ਜਾਂ ਅਧੂਰੇ ਸਮਾਂ-ਸੀਮਾ ਵਾਲੇ ਕੰਮ ਨਾਲ ਜੁੜੀ ਬਲੌਕਿੰਗ। Nonlate ਯੋਗ ਕੰਮ ਅਤੇ ਚੁਣਿਆ ਸਮਾਂ-ਸੀਮਾ ਅੰਤਰਾਲ ਵਰਤਦਾ ਹੈ; ਸਿਰਫ਼ ਪੜ੍ਹਾਈ ਸੈਸ਼ਨ ਬਣਾਉਣ ਨਾਲ ਬਲੌਕਿੰਗ ਨਹੀਂ ਚੱਲਦੀ।",
+      "answer": "ਆਈਫੋਨ 'ਤੇ, ਉਹ ਘੰਟੇ ਸੈੱਟ ਕਰਨ ਲਈ ਸਕ੍ਰੀਨ ਟਾਈਮ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਿਨ੍ਹਾਂ ਦਾ ਤੁਸੀਂ ਅਧਿਐਨ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ। Android 'ਤੇ, ਚੁਣੀਆਂ ਗਈਆਂ ਐਪਾਂ ਨੂੰ ਰੋਕਣ ਲਈ ਡਿਜੀਟਲ ਵੈਲਬੀਇੰਗ ਵਿੱਚ ਫੋਕਸ ਮੋਡ ਦੀ ਵਰਤੋਂ ਕਰੋ। Nonlate ਟਾਸਕ ਡੈੱਡਲਾਈਨ ਦੇ ਆਧਾਰ 'ਤੇ ਧਿਆਨ ਭਟਕਾਉਣ ਵਾਲੀਆਂ ਐਪਾਂ ਨੂੰ ਬਲਾਕ ਕਰ ਸਕਦਾ ਹੈ।",
       "sections": [
+        {
+          "id": "iphone",
+          "heading": "ਆਈਫੋਨ 'ਤੇ ਅਧਿਐਨ ਕਰਨ ਦੌਰਾਨ ਐਪਸ ਨੂੰ ਬਲੌਕ ਕਰੋ",
+          "paragraphs": [
+            "iOS 27 ਜਾਂ ਇਸਤੋਂ ਬਾਅਦ ਦੇ ਮੌਕਿਆਂ 'ਤੇ, ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ, ਫਿਰ ਸਕ੍ਰੀਨ ਸਮਾਂ ਅਤੇ ਸਕ੍ਰੀਨ ਸਮਾਂ ਅਨੁਸੂਚੀ। ਸਮਾਂ-ਸੂਚੀ ਨੂੰ ਚਾਲੂ ਕਰੋ, ਇੱਕ ਅਧਿਐਨ ਵਿੰਡੋ ਸ਼ਾਮਲ ਕਰੋ ਅਤੇ ਚੁਣੋ ਕਿ ਇਸ ਦੌਰਾਨ ਕਿਹੜੀਆਂ ਸਮਾਂ ਭੱਤਾ ਸ਼੍ਰੇਣੀਆਂ ਉਪਲਬਧ ਹਨ।",
+            "ਪੁਰਾਣੇ iOS ਸੰਸਕਰਣਾਂ 'ਤੇ, ਸਕ੍ਰੀਨ ਟਾਈਮ ਦੇ ਅਧੀਨ ਡਾਊਨਟਾਈਮ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਜ਼ਰੂਰੀ ਚੀਜ਼ਾਂ ਲਈ ਹਮੇਸ਼ਾ ਇਜਾਜ਼ਤ ਵਾਲੇ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਇੱਕ ਸਕ੍ਰੀਨ ਟਾਈਮ ਪਾਸਕੋਡ ਸੈੱਟ ਦੇ ਨਾਲ, ਜੇਕਰ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਪ੍ਰਤਿਬੰਧਿਤ ਐਪਸ ਬੰਦ ਰਹਿਣ ਤਾਂ ਡਾਊਨਟਾਈਮ 'ਤੇ ਬਲਾਕ ਨੂੰ ਚਾਲੂ ਕਰੋ।"
+          ],
+          "steps": [
+            "ਆਪਣੇ ਕੋਰਸ ਐਪ, ਪ੍ਰਮਾਣਕ ਅਤੇ ਜ਼ਰੂਰੀ ਸੰਪਰਕਾਂ ਨੂੰ ਉਪਲਬਧ ਰੱਖੋ। ਅਧਿਐਨ ਵਿੰਡੋ ਦੇ ਦੌਰਾਨ, ਇੱਕ ਐਪ ਖੋਲ੍ਹੋ ਜਿਸ ਦਾ ਮਤਲਬ ਤੁਸੀਂ ਸੀਮਤ ਕਰਨਾ ਸੀ ਅਤੇ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਹੁੰਦਾ ਹੈ।"
+          ]
+        },
+        {
+          "id": "android",
+          "heading": "ਐਂਡਰਾਇਡ 'ਤੇ ਪੜ੍ਹਦੇ ਸਮੇਂ ਐਪਸ ਨੂੰ ਬਲੌਕ ਕਰੋ",
+          "paragraphs": [
+            "ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ, ਫਿਰ ਡਿਜੀਟਲ ਤੰਦਰੁਸਤੀ, ਫਿਰ ਫੋਕਸ ਮੋਡ। ਉਹ ਐਪਸ ਚੁਣੋ ਜੋ ਤੁਸੀਂ ਰੋਕਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਫੋਕਸ ਮੋਡ ਉਹਨਾਂ ਐਪਸ ਤੋਂ ਸੂਚਨਾਵਾਂ ਨੂੰ ਵੀ ਰੋਕਦਾ ਹੈ।"
+          ],
+          "steps": [
+            "ਇਸ ਸੈਸ਼ਨ ਲਈ ਹੁਣੇ ਚਾਲੂ ਕਰੋ 'ਤੇ ਟੈਪ ਕਰੋ ਜਾਂ ਆਵਰਤੀ ਅਧਿਐਨ ਦੇ ਸਮੇਂ ਲਈ ਸਮਾਂ-ਸੂਚੀ ਸੈੱਟ ਕਰੋ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਅਸਥਾਈ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ ਤਾਂ ਇੱਕ ਬ੍ਰੇਕ ਵਰਤੋ।"
+          ]
+        },
         {
           "id": "choose-the-rule",
           "heading": "ਪੜ੍ਹਾਈ ਸੈਸ਼ਨ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਨਿਯਮ ਚੁਣੋ",
@@ -2409,5 +3408,6 @@
         }
       ]
     }
-  }
+  },
+  "updated": "2026-11-19"
 }

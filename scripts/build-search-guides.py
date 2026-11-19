@@ -17,6 +17,7 @@ g = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(g)
 DATA = ROOT / "app/guides/search-content"
 ORIGIN = "https://nonlate.app"
+PILLAR = "block-distracting-apps-until-tasks-are-done"
 UI = json.loads((ROOT / "app/guides/search-ui.json").read_text())
 SHARED_TERMS = {"Nonlate", "Canvas", "Google Classroom", "Todoist", "Plus", "Pro", "Focus Lock", "iPhone", "iOS", "Android", "App Store", "Google Play", "Live Sync", "Screen Time", "Planner", "Schedule", "Home", "FAQ"}
 
@@ -117,13 +118,20 @@ def load_guides():
         guides.append(guide)
     if not guides or len({guide["slug"] for guide in guides}) != len(guides):
         raise ValueError("Missing or duplicate search guides")
+    slugs = {guide["slug"] for guide in guides}
+    for guide in guides:
+        related = guide["related"]
+        if (not related or len(set(related)) != len(related) or guide["slug"] in related
+                or set(related) - (slugs | {PILLAR})):
+            raise ValueError(f'Invalid related guides: {guide["slug"]}')
     return guides
 
 
-def article_markup(guide, locale, all_guides):
+def article_markup(guide, locale, guides_by_slug):
     t, ui = guide["locales"][locale], UI[locale]
     home = "/" if locale == "en" else f"/{locale}/"
-    parts = [language_menu(guide, locale), f'<nav class="guide-breadcrumb" aria-label="{ui["guides"]}"><a href="{home}">{ui["home"]}</a><span aria-hidden="true">/</span><a href="{route(locale)}">{ui["guides"]}</a></nav>', '<article class="guide-article">', f'<header class="guides-heading"><p class="eyebrow">Nonlate · iPhone &amp; Android</p><h1>{esc(t["title"])}</h1><p>{esc(t["intro"])}</p><p class="guide-byline">Nonlate · <time datetime="{guide["published"]}">{guide["published"]}</time></p><p class="guide-disclosure">{esc(ui["disclosure"])}</p></header>', f'<section class="guide-answer" id="quick-answer"><h2>{ui["answer"]}</h2><p>{esc(t["answer"])}</p></section>', f'<nav class="guide-toc" aria-label="{ui["toc"]}"><h2>{ui["toc"]}</h2><ul>']
+    updated = guide.get("updated", guide["published"])
+    parts = [language_menu(guide, locale), f'<nav class="guide-breadcrumb" aria-label="{ui["guides"]}"><a href="{home}">{ui["home"]}</a><span aria-hidden="true">/</span><a href="{route(locale)}">{ui["guides"]}</a></nav>', '<article class="guide-article">', f'<header class="guides-heading"><p class="eyebrow">Nonlate · iPhone &amp; Android</p><h1>{esc(t["title"])}</h1><p>{esc(t["intro"])}</p><p class="guide-byline">Nonlate · <time datetime="{updated}">{updated}</time></p><p class="guide-disclosure">{esc(ui["disclosure"])}</p></header>', f'<section class="guide-answer" id="quick-answer"><h2>{ui["answer"]}</h2><p>{esc(t["answer"])}</p></section>', f'<nav class="guide-toc" aria-label="{ui["toc"]}"><h2>{ui["toc"]}</h2><ul>']
     parts.extend(f'<li><a href="#{s["id"]}">{esc(s["heading"])}</a></li>' for s in t["sections"])
     parts.append(f'<li><a href="#questions">{ui["faq"]}</a></li></ul></nav>')
     for section in t["sections"]:
@@ -136,16 +144,16 @@ def article_markup(guide, locale, all_guides):
     parts.extend(f'<h3>{esc(item["question"])}</h3><p>{esc(item["answer"])}</p>' for item in t["faq"])
     parts.append(f'</section><div class="guide-downloads"><a class="guide-read-link" href="https://apps.apple.com/app/id6759996284">{ui["app"]}</a><br><a class="guide-read-link" href="https://play.google.com/store/apps/details?id=com.nonlate.app">{ui["play"]}</a><br><a href="{home}#plans">{ui["plans"]}</a></div>')
     parts.append(f'<nav id="related" class="guide-toc" aria-label="{ui["related"]}"><h2>{ui["related"]}</h2><ul>')
-    related = [other for other in all_guides if other["slug"] != guide["slug"]]
-    for other in related:
-        target = locale
-        parts.append(f'<li><a href="{route(target, other["slug"])}" hreflang="{hreflang(target)}">{esc(other["locales"][target]["title"])}</a></li>')
-    # Link the already-established pillar guide in the current language.
-    pillar = ROOT / "translations/guides" / f"{locale}.json"
-    title = "How to block distracting apps until your tasks are done"
-    if locale != "en":
-        title = json.loads(pillar.read_text())["strings"][title]
-    parts.append(f'<li><a href="{route(locale, "block-distracting-apps-until-tasks-are-done")}">{esc(title)}</a></li></ul></nav>')
+    for slug in guide["related"]:
+        if slug == PILLAR:
+            title = "How to block distracting apps until your tasks are done"
+            if locale != "en":
+                pillar = ROOT / "translations/guides" / f"{locale}.json"
+                title = json.loads(pillar.read_text())["strings"][title]
+        else:
+            title = guides_by_slug[slug]["locales"][locale]["title"]
+        parts.append(f'<li><a href="{route(locale, slug)}" hreflang="{hreflang(locale)}">{esc(title)}</a></li>')
+    parts.append('</ul></nav>')
     if guide.get("sources"):
         parts.append(f'<section id="sources" class="guide-notes"><h2>{ui["sources"]}</h2><ul>')
         # Source titles retain their original language, explicitly labelled.
@@ -159,8 +167,9 @@ def article_markup(guide, locale, all_guides):
     return ''.join(parts)
 
 
-def build_article(guide, locale, all_guides):
+def build_article(guide, locale, guides_by_slug):
     t, ui = guide["locales"][locale], UI[locale]
+    updated = guide.get("updated", guide["published"])
     canonical = ORIGIN + route(locale, guide["slug"])
     tree = g.Tree((ROOT / "out" / g.path_for(locale, g.ARTICLE).strip("/") / "index.html").read_text()).root
     static_shell(tree, locale, remove_alternates=True)
@@ -175,12 +184,14 @@ def build_article(guide, locale, all_guides):
                 node.attrs["content"] = t["title"]
             elif name == "og:url":
                 node.attrs["content"] = canonical
-            elif name in {"article:published_time", "article:modified_time"}:
+            elif name == "article:published_time":
                 node.attrs["content"] = guide["published"]
+            elif name == "article:modified_time":
+                node.attrs["content"] = updated
         if node.tag == "link" and node.attrs.get("rel") == "canonical":
             node.attrs["href"] = canonical
         if node.tag == "main":
-            node.children = fragment(article_markup(guide, locale, all_guides))
+            node.children = fragment(article_markup(guide, locale, guides_by_slug))
         if node.tag == "header" and node.attrs.get("class", "").startswith("site-header"):
             home = "/" if locale == "en" else f"/{locale}/"
             node.children = fragment(f'<div class="nav-shell"><a class="brand" href="{home}"><img src="/assets/nonlate-icon.png" width="38" height="38" alt=""><span>Nonlate</span></a><nav class="guide-static-nav" aria-label="{ui["guides"]}"><a href="{home}">{ui["home"]}</a><a href="{route(locale)}">{ui["guides"]}</a></nav></div>')
@@ -190,7 +201,7 @@ def build_article(guide, locale, all_guides):
     head = next(n for n in g.descendants(tree) if n.tag == "head")
     for target in [*guide["locales"], "x-default"]:
         head.children.append(g.Node("link", [("rel", "alternate"), ("hreflang", hreflang(target)), ("href", ORIGIN + route("en" if target == "x-default" else target, guide["slug"]))]))
-    graph = [{"@type": "Article", "headline": t["title"], "description": t["description"], "mainEntityOfPage": canonical, "datePublished": guide["published"], "dateModified": guide["published"], "inLanguage": locale, "author": {"@type": "Organization", "name": "Nonlate", "url": ORIGIN + "/"}, "publisher": {"@type": "Organization", "name": "Nonlate"}, "image": ORIGIN + "/og-launch-2026-10.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": ui["home"], "item": ORIGIN + ("/" if locale == "en" else f"/{locale}/")}, {"@type": "ListItem", "position": 2, "name": ui["guides"], "item": ORIGIN + route(locale)}, {"@type": "ListItem", "position": 3, "name": t["title"], "item": canonical}]}]
+    graph = [{"@type": "Article", "headline": t["title"], "description": t["description"], "mainEntityOfPage": canonical, "datePublished": guide["published"], "dateModified": updated, "inLanguage": locale, "author": {"@type": "Organization", "name": "Nonlate", "url": ORIGIN + "/"}, "publisher": {"@type": "Organization", "name": "Nonlate"}, "image": ORIGIN + "/og-launch-2026-10.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": ui["home"], "item": ORIGIN + ("/" if locale == "en" else f"/{locale}/")}, {"@type": "ListItem", "position": 2, "name": ui["guides"], "item": ORIGIN + route(locale)}, {"@type": "ListItem", "position": 3, "name": t["title"], "item": canonical}]}]
     schema = g.Node("script", [("type", "application/ld+json")])
     schema.children = [g.Node(text=json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False).replace("<", "\\u003c"))]
     head.children.append(schema)
@@ -201,9 +212,10 @@ def build_article(guide, locale, all_guides):
 
 def main():
     guides = load_guides()
+    guides_by_slug = {guide["slug"]: guide for guide in guides}
     for guide in guides:
         for locale in guide["locales"]:
-            build_article(guide, locale, guides)
+            build_article(guide, locale, guides_by_slug)
     # Add cards after legacy localization so its frozen source stays stable.
     for locale in g.LOCALES:
         index = ROOT / "out" / route(locale).strip("/") / "index.html"
@@ -215,13 +227,14 @@ def main():
             target = locale
             t, ui = guide["locales"][target], UI[target]
             label = ui["read"]
+            updated = guide.get("updated", guide["published"])
             direction = "rtl" if target in g.RTL else "ltr"
-            cards.append(f'<article class="guide-card" lang="{target}" dir="{direction}" data-search-guide="{guide["slug"]}"><h2><a href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{esc(t["title"])}</a></h2><p>{esc(t["description"])}</p><p class="guide-byline">Nonlate · <time datetime="{guide["published"]}">{guide["published"]}</time></p><a class="guide-read-link" href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{label} ↗</a></article>')
+            cards.append(f'<article class="guide-card" lang="{target}" dir="{direction}" data-search-guide="{guide["slug"]}"><h2><a href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{esc(t["title"])}</a></h2><p>{esc(t["description"])}</p><p class="guide-byline">Nonlate · <time datetime="{updated}">{updated}</time></p><a class="guide-read-link" href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{label} ↗</a></article>')
         main_node.children.extend(fragment('<div class="guides-list search-guides">' + ''.join(cards) + '</div>'))
         index.write_text(g.render(tree))
     sitemap = ROOT / "out/sitemap.xml"
     xml = sitemap.read_text()
-    entries = ''.join(f'<url><loc>{ORIGIN}{route(locale, guide["slug"])}</loc><lastmod>{guide["published"]}</lastmod></url>\n' for guide in guides for locale in guide["locales"])
+    entries = ''.join(f'<url><loc>{ORIGIN}{route(locale, guide["slug"])}</loc><lastmod>{guide.get("updated", guide["published"])}</lastmod></url>\n' for guide in guides for locale in guide["locales"])
     sitemap.write_text(xml.replace('</urlset>', entries + '</urlset>'))
     print(f'Built {sum(len(guide["locales"]) for guide in guides)} reviewed search-intent guides; linked from all 47 indexes.')
 

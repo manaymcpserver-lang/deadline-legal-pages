@@ -5,7 +5,7 @@
   "uiSha256": "d1c511340528b58c8054628055b8821e1befc721c7e1b7b3d73319493bcec684",
   "files": {
     "canvas.json": {
-      "sha256": "ae6fa675b0a3f122cb31a238075bb94623eb9b333de4b96ff971e6ca87079a7f",
+      "sha256": "66429653f7f856e07c82049d802a997681dec319f6619c5321944cb24c47a4df",
       "status": "reviewed",
       "locales": [
         "en",
@@ -111,7 +111,7 @@
       ]
     },
     "study.json": {
-      "sha256": "b134fbba8002fe59b3fc2e4d1ed32ad21fc5a6ff421bb57445a45e2caf6e0706",
+      "sha256": "40644fb4b8930c7a9955f4cf1e0039d9504a213e1e70db9516fc7e2b32f6133b",
       "status": "reviewed",
       "locales": [
         "en",
@@ -380,6 +380,59 @@
       ],
       "reviewedOn": "2026-10-27",
       "method": "Complete AI-assisted translations with author review and independent in-session review of dates, blocking, platform and break semantics. Slovenian bypass wording corrected; not native-speaker certification."
+    },
+    "canvas-calendar.json": {
+      "sha256": "9d566d7c9147bc5e6b2f6dd7a03392f0734772d2845ad27911fa4cce05843e84",
+      "status": "reviewed",
+      "locales": [
+        "en",
+        "es",
+        "fr",
+        "hi",
+        "ar",
+        "zh-Hans",
+        "pt-BR",
+        "pt-PT",
+        "de",
+        "ja",
+        "id",
+        "ru",
+        "ko",
+        "it",
+        "tr",
+        "vi",
+        "pl",
+        "fa",
+        "th",
+        "nl",
+        "uk",
+        "bn",
+        "ur",
+        "ta",
+        "te",
+        "zh-Hant",
+        "he",
+        "fil",
+        "cs",
+        "sv",
+        "ca",
+        "da",
+        "fi",
+        "el",
+        "hu",
+        "ms",
+        "nb",
+        "ro",
+        "hr",
+        "sk",
+        "sl",
+        "gu",
+        "kn",
+        "ml",
+        "mr",
+        "or",
+        "pa"
+      ]
     }
   }
 }
