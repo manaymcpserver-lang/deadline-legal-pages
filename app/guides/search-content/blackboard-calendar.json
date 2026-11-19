@@ -1,0 +1,2045 @@
+{
+  "slug": "add-blackboard-calendar-to-apple-google-calendar",
+  "related": [
+    "how-to-keep-track-of-college-assignments",
+    "add-canvas-to-google-calendar"
+  ],
+  "sources": [
+    {
+      "label": "Boston University TechWeb: Blackboard Ultra calendar",
+      "url": "https://www.bu.edu/tech/services/teaching/lms/blackboard/ultra/calendar/"
+    },
+    {
+      "label": "Apple Support: add calendar subscriptions in iCloud",
+      "url": "https://support.apple.com/en-us/102301"
+    },
+    {
+      "label": "Google Calendar Help: add a calendar from a URL",
+      "url": "https://support.google.com/calendar/answer/37100?hl=en"
+    }
+  ],
+  "published": "2026-11-19",
+  "locales": {
+    "en": {
+      "title": "How to add Blackboard to Apple Calendar or Google Calendar",
+      "description": "Copy the Blackboard Ultra calendar link and subscribe on iPhone or in Google Calendar. Check what to do when a due date is missing.",
+      "intro": "Subscribe to the Blackboard Ultra calendar to see course events and posted due dates alongside your personal schedule. Start in Blackboard on the web and keep the calendar URL private.",
+      "answer": "In Blackboard Ultra, open Calendar from the main sidebar, open Calendar Settings and choose Share Calendar from the menu. Copy the link and add it as a subscription in Apple Calendar or as a calendar URL in Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Find the Blackboard Ultra calendar link",
+          "paragraphs": [
+            "Use Calendar from Blackboard’s main navigation. The Share Calendar option is in the menu beside the Calendar Settings heading. The shared feed includes all your courses."
+          ],
+          "steps": [
+            "Open Calendar Settings using the gear icon.",
+            "Open the menu next to the heading, choose Share Calendar and copy the link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Add Blackboard to Apple Calendar on iPhone",
+          "paragraphs": [
+            "Open Calendar and tap Calendars. Tap Add Calendar, then Add Subscription Calendar. Paste the link and follow the prompts. Choose iCloud as the account if you want it on devices signed in to the same Apple Account."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Add Blackboard to Google Calendar",
+          "paragraphs": [
+            "On a computer, open Google Calendar. Click the plus beside Other calendars, choose From URL, paste the link and select Add calendar. Make sure the subscribed calendar is visible."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Why is a Blackboard assignment missing?",
+          "answer": "Check the assignment and its due date in Blackboard first. Confirm that the subscribed calendar is visible in the correct account. External calendars refresh on their own schedule, so verify any urgent deadline in Blackboard."
+        },
+        {
+          "question": "Can I subscribe to just one Ultra course?",
+          "answer": "The shared Blackboard Ultra feed covers all your courses. For one course, use the calendar inside that Blackboard course."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cómo agregar Blackboard a Apple Calendar o Google Calendar",
+      "description": "Copie el enlace del calendario Blackboard Ultra y suscríbase en iPhone o Google Calendar. Consulta qué hacer cuando falta una fecha de vencimiento.",
+      "intro": "Suscríbase al calendario Blackboard Ultra para ver los eventos del curso y las fechas de vencimiento publicadas junto con su agenda personal. Comience en Blackboard en la web y mantenga privada la URL del calendario.",
+      "answer": "En Blackboard Ultra, abra Calendario desde la barra lateral principal, abra Configuración de calendario y elija Compartir calendario en el menú. Copie el enlace y agréguelo como suscripción en Apple Calendar o como URL de calendario en Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Encuentre el enlace del calendario Blackboard Ultra",
+          "paragraphs": [
+            "Utilice Calendario desde la navegación principal de Blackboard. La opción Compartir calendario está en el menú junto al encabezado Configuración del calendario. El feed compartido incluye todos tus cursos."
+          ],
+          "steps": [
+            "Abra la Configuración del calendario usando el ícono de ajustes.",
+            "Abra el menú junto al encabezado, elija Compartir calendario y copie el enlace."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Agregue Blackboard al Calendario de Apple en iPhone",
+          "paragraphs": [
+            "Abra Calendario y toque Calendarios. Toque Agregar calendario y luego Agregar calendario de suscripción. Pega el enlace y sigue las instrucciones. Elija iCloud como cuenta si la desea en dispositivos conectados a la misma cuenta de Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Agregar Blackboard a Google Calendar",
+          "paragraphs": [
+            "En una computadora, abra Google Calendar. Haga clic en el signo más junto a Otros calendarios, elija Desde URL, pegue el enlace y seleccione Agregar calendario. Asegúrese de que el calendario suscrito esté visible."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Por qué falta una tarea Blackboard?",
+          "answer": "Primero verifique la tarea y su fecha de entrega en Blackboard. Confirme que el calendario suscrito sea visible en la cuenta correcta. Los calendarios externos se actualizan según su propio cronograma, así que verifique cualquier fecha límite urgente en Blackboard."
+        },
+        {
+          "question": "¿Puedo suscribirme a un solo curso Ultra?",
+          "answer": "El feed compartido Blackboard Ultra cubre todos sus cursos. Para un curso, utilice el calendario dentro de ese curso Blackboard."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Comment ajouter le calendrier Blackboard à Calendrier Apple ou Google Agenda",
+      "description": "Copiez le lien du calendrier Blackboard Ultra et abonnez-vous sur iPhone ou dans Google Agenda. Vérifiez quoi faire lorsqu'une date d'échéance est manquante.",
+      "intro": "Abonnez-vous au calendrier Blackboard Ultra pour voir les événements des cours et les dates d'échéance publiées ainsi que votre emploi du temps personnel. Commencez dans Blackboard sur le Web et gardez l'URL du calendrier privée.",
+      "answer": "Dans Blackboard Ultra, ouvrez Calendrier à partir de la barre latérale principale, ouvrez Paramètres du calendrier et choisissez Partager le calendrier dans le menu. Copiez le lien et ajoutez-le en tant qu'abonnement dans Apple Calendar ou en tant qu'URL de calendrier dans Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Trouver le lien du calendrier Blackboard Ultra",
+          "paragraphs": [
+            "Utilisez le calendrier à partir de la navigation principale de Blackboard. L'option Partager le calendrier se trouve dans le menu à côté de l'en-tête Paramètres du calendrier. Le flux partagé comprend tous vos cours."
+          ],
+          "steps": [
+            "Ouvrez les paramètres du calendrier à l'aide de l'icône d'engrenage.",
+            "Ouvrez le menu à côté de l'en-tête, choisissez Partager le calendrier et copiez le lien."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Ajouter Blackboard au calendrier Apple sur iPhone",
+          "paragraphs": [
+            "Ouvrez Calendrier et appuyez sur Calendriers. Appuyez sur Ajouter un calendrier, puis sur Ajouter un calendrier d'abonnement. Collez le lien et suivez les instructions. Choisissez iCloud comme compte si vous le souhaitez sur les appareils connectés au même compte Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Ajouter Blackboard à Google Agenda",
+          "paragraphs": [
+            "Sur un ordinateur, ouvrez Google Agenda. Cliquez sur le plus à côté d'Autres calendriers, choisissez À partir de l'URL, collez le lien et sélectionnez Ajouter un calendrier. Assurez-vous que le calendrier auquel vous êtes abonné est visible."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Pourquoi une affectation Blackboard est-elle manquante ?",
+          "answer": "Vérifiez d'abord le devoir et sa date d'échéance dans Blackboard. Confirmez que le calendrier auquel vous êtes abonné est visible dans le bon compte. Les calendriers externes s'actualisent selon leur propre calendrier, alors vérifiez toute échéance urgente dans Blackboard."
+        },
+        {
+          "question": "Puis-je m'abonner à un seul cours Ultra ?",
+          "answer": "Le flux partagé Blackboard Ultra couvre tous vos cours. Pour un cours, utilisez le calendrier contenu dans ce cours Blackboard."
+        }
+      ]
+    },
+    "hi": {
+      "title": "Apple कैलेंडर या Google कैलेंडर में Blackboard कैसे जोड़ें",
+      "description": "Blackboard Ultra कैलेंडर लिंक को कॉपी करें और iPhone या Google कैलेंडर में सदस्यता लें। जांचें कि देय तिथि गायब होने पर क्या करना चाहिए।",
+      "intro": "अपने व्यक्तिगत शेड्यूल के साथ पाठ्यक्रम की घटनाओं और पोस्ट की गई तारीखों को देखने के लिए Blackboard अल्ट्रा कैलेंडर की सदस्यता लें। वेब पर Blackboard से प्रारंभ करें और कैलेंडर URL को निजी रखें।",
+      "answer": "Blackboard Ultra में, मुख्य साइडबार से कैलेंडर खोलें, कैलेंडर सेटिंग्स खोलें और मेनू से शेयर कैलेंडर चुनें। लिंक को कॉपी करें और इसे Apple कैलेंडर में सदस्यता के रूप में या Google कैलेंडर में कैलेंडर URL के रूप में जोड़ें।",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard अल्ट्रा कैलेंडर लिंक ढूंढें",
+          "paragraphs": [
+            "Blackboard के मुख्य नेविगेशन से कैलेंडर का उपयोग करें। कैलेंडर साझा करें विकल्प कैलेंडर सेटिंग्स शीर्षक के बगल वाले मेनू में है। साझा फ़ीड में आपके सभी पाठ्यक्रम शामिल हैं।"
+          ],
+          "steps": [
+            "गियर आइकन का उपयोग करके कैलेंडर सेटिंग्स खोलें।",
+            "शीर्षक के आगे मेनू खोलें, कैलेंडर साझा करें चुनें और लिंक कॉपी करें।"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone पर Apple कैलेंडर में Blackboard जोड़ें",
+          "paragraphs": [
+            "कैलेंडर खोलें और कैलेंडर टैप करें. कैलेंडर जोड़ें पर टैप करें, फिर सदस्यता कैलेंडर जोड़ें पर टैप करें। लिंक चिपकाएँ और संकेतों का पालन करें। यदि आप इसे उसी Apple खाते से साइन इन डिवाइस पर चाहते हैं तो iCloud को खाते के रूप में चुनें।"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google कैलेंडर में Blackboard जोड़ें",
+          "paragraphs": [
+            "कंप्यूटर पर Google कैलेंडर खोलें. अन्य कैलेंडर के बगल में प्लस पर क्लिक करें, URL से चुनें, लिंक पेस्ट करें और कैलेंडर जोड़ें चुनें। सुनिश्चित करें कि सब्स्क्राइब्ड कैलेंडर दृश्यमान है।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard असाइनमेंट क्यों गायब है?",
+          "answer": "पहले Blackboard में असाइनमेंट और उसकी नियत तारीख की जाँच करें। पुष्टि करें कि सब्सक्राइब किया गया कैलेंडर सही खाते में दिखाई दे रहा है। बाहरी कैलेंडर अपने समय पर ताज़ा होते हैं, इसलिए Blackboard में किसी भी जरूरी समय सीमा को सत्यापित करें।"
+        },
+        {
+          "question": "क्या मैं केवल एक अल्ट्रा कोर्स की सदस्यता ले सकता हूँ?",
+          "answer": "साझा Blackboard अल्ट्रा फ़ीड आपके सभी पाठ्यक्रमों को कवर करता है। एक कोर्स के लिए, उस Blackboard कोर्स के अंदर कैलेंडर का उपयोग करें।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "كيفية إضافة Blackboard إلى تقويم Apple أو تقويم Google",
+      "description": "انسخ رابط تقويم Blackboard Ultra واشترك على iPhone أو في تقويم Google. تحقق مما يجب فعله عندما يكون تاريخ الاستحقاق مفقودًا.",
+      "intro": "اشترك في تقويم Blackboard Ultra لرؤية أحداث الدورة وتواريخ الاستحقاق المنشورة جنبًا إلى جنب مع جدولك الشخصي. ابدأ في Blackboard على الويب وحافظ على خصوصية عنوان URL للتقويم.",
+      "answer": "في Blackboard Ultra، افتح التقويم من الشريط الجانبي الرئيسي، وافتح إعدادات التقويم واختر مشاركة التقويم من القائمة. انسخ الرابط وأضفه كاشتراك في تقويم Apple أو كعنوان URL للتقويم في تقويم Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "ابحث عن رابط تقويم Blackboard Ultra",
+          "paragraphs": [
+            "استخدم التقويم من شريط التنقل الرئيسي في Blackboard. يوجد خيار مشاركة التقويم في القائمة بجانب عنوان إعدادات التقويم. تتضمن الخلاصة المشتركة جميع الدورات التدريبية الخاصة بك."
+          ],
+          "steps": [
+            "افتح إعدادات التقويم باستخدام رمز الترس.",
+            "افتح القائمة الموجودة بجوار العنوان، واختر مشاركة التقويم، وانسخ الرابط."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "أضف Blackboard إلى تقويم Apple على iPhone",
+          "paragraphs": [
+            "افتح التقويم، ثم اضغط على التقويمات. اضغط على \"إضافة تقويم\"، ثم \"إضافة تقويم الاشتراك\". الصق الرابط واتبع المطالبات. اختر iCloud كحساب إذا كنت تريد ذلك على الأجهزة التي تم تسجيل الدخول إليها بنفس حساب Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "أضف Blackboard إلى تقويم Google",
+          "paragraphs": [
+            "على جهاز الكمبيوتر، افتح تقويم Google. انقر فوق علامة الجمع الموجودة بجانب التقاويم الأخرى، واختر من URL، والصق الرابط وحدد إضافة تقويم. تأكد من أن التقويم المشترك مرئي."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "لماذا تكون مهمة Blackboard مفقودة؟",
+          "answer": "تحقق من المهمة وتاريخ استحقاقها في Blackboard أولاً. تأكد من أن التقويم المشترك مرئي في الحساب الصحيح. يتم تحديث التقويمات الخارجية وفقًا لجدولها الزمني الخاص، لذا تحقق من أي موعد نهائي عاجل في Blackboard."
+        },
+        {
+          "question": "هل يمكنني الاشتراك في دورة Ultra واحدة فقط؟",
+          "answer": "تغطي خلاصة Blackboard Ultra المشتركة جميع الدورات التدريبية الخاصة بك. بالنسبة لدورة تدريبية واحدة، استخدم التقويم الموجود داخل دورة Blackboard تلك."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何将 Blackboard 添加到 Apple 日历或 Google 日历",
+      "description": "复制 Blackboard Ultra 日历链接并在 iPhone 或 Google 日历中订阅。检查错过截止日期时该怎么办。",
+      "intro": "订阅 Blackboard Ultra 日历以查看课程活动并在您的个人日程安排旁边发布截止日期。从网络上的 Blackboard 开始，并将日历 URL 保密。",
+      "answer": "在 Blackboard Ultra 中，从主侧边栏打开“日历”，打开“日历设置”，然后从菜单中选择“共享日历”。复制链接并将其添加为 Apple 日历中的订阅或 Google 日历中的日历 URL。",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "查找 Blackboard Ultra 日历链接",
+          "paragraphs": [
+            "使用 Blackboard 主导航中的日历。 “共享日历”选项位于“日历设置”标题旁边的菜单中。共享源包括您的所有课程。"
+          ],
+          "steps": [
+            "使用齿轮图标打开日历设置。",
+            "打开标题旁边的菜单，选择共享日历并复制链接。"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "将 Blackboard 添加到 iPhone 上的 Apple 日历",
+          "paragraphs": [
+            "打开日历并点击日历。点击添加日历，然后点击添加订阅日历。粘贴链接并按照提示操作。如果您希望在登录同一 Apple 帐户的设备上使用 iCloud，请选择 iCloud 作为帐户。"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "将 Blackboard 添加到 Google 日历",
+          "paragraphs": [
+            "在计算机上，打开 Google 日历。单击其他日历旁边的加号，选择来自 URL，粘贴链接并选择添加日历。确保订阅的日历可见。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "为什么缺少 Blackboard 分配？",
+          "answer": "首先在 Blackboard 中检查作业及其截止日期。确认订阅的日历在正确的帐户中可见。外部日历按自己的时间表刷新，因此请在 Blackboard 中验证任何紧急截止日期。"
+        },
+        {
+          "question": "我可以只订阅一门 Ultra 课程吗？",
+          "answer": "共享的 Blackboard Ultra 源涵盖您的所有课程。对于一门课程，请使用 Blackboard 课程内的日历。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Como adicionar o calendário do Blackboard ao Calendário da Apple ou ao Google Agenda",
+      "description": "Copie o link do calendário Blackboard Ultra e assine no iPhone ou no Google Calendar. Verifique o que fazer quando falta uma data de vencimento.",
+      "intro": "Assine o calendário Blackboard Ultra para ver os eventos do curso e as datas de vencimento publicadas juntamente com sua programação pessoal. Comece em Blackboard na web e mantenha o URL do calendário privado.",
+      "answer": "No Blackboard Ultra, abra o Calendário na barra lateral principal. Abra as configurações do calendário e escolha Compartilhar calendário no menu. Copie o link e use-o para assinar o calendário no app Calendário da Apple ou adicioná-lo por URL no Google Agenda.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Encontre o link do calendário Blackboard Ultra",
+          "paragraphs": [
+            "Use o Calendário na navegação principal do Blackboard. A opção Compartilhar calendário está no menu ao lado do título Configurações do calendário. O feed compartilhado inclui todos os seus cursos."
+          ],
+          "steps": [
+            "Abra as configurações do calendário usando o ícone de engrenagem.",
+            "Abra o menu próximo ao título, escolha Compartilhar calendário e copie o link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Adicione Blackboard ao Apple Calendar no iPhone",
+          "paragraphs": [
+            "Abra o Calendário e toque em Calendários. Toque em Adicionar calendário e em Adicionar calendário de assinatura. Cole o link e siga as instruções. Escolha iCloud como conta se desejar em dispositivos conectados à mesma conta Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Adicionar Blackboard ao Google Agenda",
+          "paragraphs": [
+            "Em um computador, abra o Google Agenda. Clique no sinal de adição ao lado de Outros calendários, escolha Do URL, cole o link e selecione Adicionar calendário. Certifique-se de que o calendário assinado esteja visível."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Por que está faltando uma atribuição Blackboard?",
+          "answer": "Verifique primeiro a tarefa e sua data de vencimento em Blackboard. Confirme se o calendário assinado está visível na conta correta. Os calendários externos são atualizados de acordo com sua própria programação, portanto, verifique qualquer prazo urgente em Blackboard."
+        },
+        {
+          "question": "Posso assinar apenas um curso Ultra?",
+          "answer": "O feed Blackboard Ultra compartilhado cobre todos os seus cursos. Para um curso, use o calendário dentro desse curso Blackboard."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Como adicionar o calendário do Blackboard ao Calendário da Apple ou ao Google Calendar",
+      "description": "Copie o link do calendário Blackboard Ultra e subscreva no iPhone ou no Google Calendar. Verifique o que fazer quando falta uma data de vencimento.",
+      "intro": "Subscreva o calendário Blackboard Ultra para ver os eventos do curso e as datas de entrega publicadas juntamente com o seu horário pessoal. Comece em Blackboard na web e mantenha o URL do calendário privado.",
+      "answer": "No Blackboard Ultra, abra o Calendário na barra lateral principal. Abra as definições do calendário e escolha Partilhar calendário no menu. Copie a ligação para subscrever o calendário na aplicação Calendário da Apple ou adicioná-lo por URL no Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Encontre o link do calendário Blackboard Ultra",
+          "paragraphs": [
+            "Utilize o Calendário na navegação principal do Blackboard. A opção Partilhar calendário está no menu junto ao título Definições do calendário. O feed partilhado inclui todos os seus cursos."
+          ],
+          "steps": [
+            "Abra as definições do calendário utilizando o ícone de engrenagem.",
+            "Abra o menu junto ao título, escolha Partilhar calendário e copie o link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Adicionar Blackboard ao Apple Calendar no iPhone",
+          "paragraphs": [
+            "Abra o Calendário e toque em Calendários. Toque em Adicionar calendário e em Adicionar calendário de subscrição. Cole o link e siga as instruções. Escolha iCloud como conta se desejar em dispositivos ligados à mesma conta Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Adicionar Blackboard ao Google Calendar",
+          "paragraphs": [
+            "Num computador, abra o Google Agenda. Clique no sinal de adição junto a Outros calendários, escolha A partir do URL, cole a ligação e selecione Adicionar calendário. Certifique-se de que o calendário assinado está visível."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Porque é que falta uma atribuição Blackboard?",
+          "answer": "Verifique primeiro a tarefa e a sua data de entrega em Blackboard. Confirme se o calendário assinado está visível na conta correta. Os calendários externos são atualizados de acordo com o seu próprio horário, por isso verifique qualquer prazo urgente em Blackboard."
+        },
+        {
+          "question": "Posso subscrever apenas um curso Ultra?",
+          "answer": "O feed Blackboard Ultra partilhado cobre todos os seus cursos. Para um curso, utilize o calendário dentro desse curso Blackboard."
+        }
+      ]
+    },
+    "de": {
+      "title": "So fügen Sie Blackboard zu Apple Kalender oder Google Kalender hinzu",
+      "description": "Kopieren Sie den Blackboard Ultra-Kalenderlink und abonnieren Sie ihn auf dem iPhone oder in Google Kalender. Prüfen Sie, was zu tun ist, wenn ein Fälligkeitsdatum fehlt.",
+      "intro": "Abonnieren Sie den Blackboard Ultra-Kalender, um Kursveranstaltungen und veröffentlichte Fälligkeitstermine neben Ihrem persönlichen Zeitplan zu sehen. Starten Sie in Blackboard im Web und halten Sie die Kalender-URL privat.",
+      "answer": "Öffnen Sie in Blackboard Ultra den Kalender in der Hauptseitenleiste, öffnen Sie die Kalendereinstellungen und wählen Sie im Menü die Option „Kalender teilen“. Kopieren Sie den Link und fügen Sie ihn als Abonnement in Apple Kalender oder als Kalender-URL in Google Kalender hinzu.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Finden Sie den Link zum Blackboard Ultra-Kalender",
+          "paragraphs": [
+            "Verwenden Sie den Kalender aus der Hauptnavigation von Blackboard. Die Option „Kalender teilen“ befindet sich im Menü neben der Überschrift „Kalendereinstellungen“. Der freigegebene Feed enthält alle Ihre Kurse."
+          ],
+          "steps": [
+            "Öffnen Sie die Kalendereinstellungen über das Zahnradsymbol.",
+            "Öffnen Sie das Menü neben der Überschrift, wählen Sie „Kalender teilen“ und kopieren Sie den Link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Fügen Sie Blackboard zum Apple Kalender auf dem iPhone hinzu",
+          "paragraphs": [
+            "Öffnen Sie den Kalender und tippen Sie auf „Kalender“. Tippen Sie auf Kalender hinzufügen und dann auf Abonnementkalender hinzufügen. Fügen Sie den Link ein und befolgen Sie die Anweisungen. Wählen Sie iCloud als Konto, wenn Sie es auf Geräten verwenden möchten, die bei demselben Apple-Konto angemeldet sind."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Fügen Sie Blackboard zu Google Kalender hinzu",
+          "paragraphs": [
+            "Öffnen Sie auf einem Computer Google Kalender. Klicken Sie auf das Pluszeichen neben „Andere Kalender“, wählen Sie „Von URL“, fügen Sie den Link ein und wählen Sie „Kalender hinzufügen“. Stellen Sie sicher, dass der abonnierte Kalender sichtbar ist."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Warum fehlt eine Blackboard-Aufgabe?",
+          "answer": "Überprüfen Sie zunächst die Aufgabe und ihr Fälligkeitsdatum in Blackboard. Bestätigen Sie, dass der abonnierte Kalender im richtigen Konto sichtbar ist. Externe Kalender werden nach ihrem eigenen Zeitplan aktualisiert. Überprüfen Sie daher alle dringenden Termine in Blackboard."
+        },
+        {
+          "question": "Kann ich nur einen Ultra-Kurs abonnieren?",
+          "answer": "Der gemeinsame Blackboard Ultra-Feed deckt alle Ihre Kurse ab. Verwenden Sie für einen Kurs den Kalender in diesem Blackboard-Kurs."
+        }
+      ]
+    },
+    "ja": {
+      "title": "BlackboardをAppleカレンダーまたはGoogleカレンダーに追加する方法",
+      "description": "Blackboard Ultra カレンダーのリンクをコピーし、iPhone または Google カレンダーで購読します。期限が過ぎた場合の対処法を確認してください。",
+      "intro": "Blackboard Ultra カレンダーを購読すると、コース イベントや投稿された締切日を個人のスケジュールと一緒に確認できます。ウェブ上の Blackboard で開始し、カレンダーの URL を非公開にしておきます。",
+      "answer": "Blackboard Ultra で、メイン サイドバーからカレンダーを開き、カレンダー設定を開いて、メニューからカレンダーの共有を選択します。リンクをコピーし、Apple Calendar のサブスクリプションとして、または Google Calendar のカレンダー URL として追加します。",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard Ultra カレンダーのリンクを見つけます。",
+          "paragraphs": [
+            "Blackboard のメイン ナビゲーションからカレンダーを使用します。 [カレンダーの共有] オプションは、[カレンダー設定] 見出しの横のメニューにあります。共有フィードにはすべてのコースが含まれます。"
+          ],
+          "steps": [
+            "歯車アイコンを使用してカレンダー設定を開きます。",
+            "見出しの横にあるメニューを開き、[カレンダーの共有] を選択してリンクをコピーします。"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone の Apple カレンダーに Blackboard を追加する",
+          "paragraphs": [
+            "カレンダーを開き、「カレンダー」をタップします。 「カレンダーを追加」をタップし、「サブスクリプションカレンダーを追加」をタップします。リンクを貼り付け、プロンプトに従います。同じ Apple アカウントにサインインしているデバイスで iCloud を使用する場合は、アカウントとして iCloud を選択します。"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Blackboard を Google カレンダーに追加",
+          "paragraphs": [
+            "パソコンでGoogleカレンダーを開きます。 [その他のカレンダー] の横にあるプラスをクリックし、[URL から] を選択し、リンクを貼り付けて [カレンダーの追加] を選択します。登録したカレンダーが表示されていることを確認します。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard 割り当てが見つからないのはなぜですか?",
+          "answer": "まず、Blackboard で課題とその期限を確認してください。登録したカレンダーが正しいアカウントに表示されていることを確認します。外部カレンダーは独自のスケジュールで更新されるため、Blackboard で緊急の期限を確認してください。"
+        },
+        {
+          "question": "Ultra コースを 1 つだけ購読できますか?",
+          "answer": "共有された Blackboard Ultra フィードはすべてのコースをカバーします。 1 つのコースについては、その Blackboard コース内のカレンダーを使用します。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Bagaimana cara menambahkan Blackboard ke Kalender Apple atau Kalender Google",
+      "description": "Salin tautan kalender Blackboard Ultra dan berlangganan di iPhone atau di Google Kalender. Periksa apa yang harus dilakukan ketika tanggal jatuh tempo hilang.",
+      "intro": "Berlangganan kalender Blackboard Ultra untuk melihat acara kursus dan memposting tanggal jatuh tempo di samping jadwal pribadi Anda. Mulai di Blackboard di web dan jaga kerahasiaan URL kalender.",
+      "answer": "Di Blackboard Ultra, buka Kalender dari sidebar utama, buka Pengaturan Kalender dan pilih Bagikan Kalender dari menu. Salin tautan dan tambahkan sebagai langganan di Kalender Apple atau sebagai URL kalender di Google Kalender.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Temukan tautan kalender Blackboard Ultra",
+          "paragraphs": [
+            "Gunakan Kalender dari navigasi utama Blackboard. Opsi Bagikan Kalender ada di menu di samping judul Pengaturan Kalender. Umpan bersama mencakup semua kursus Anda."
+          ],
+          "steps": [
+            "Buka Pengaturan Kalender menggunakan ikon roda gigi.",
+            "Buka menu di samping judul, pilih Bagikan Kalender dan salin tautannya."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Tambahkan Blackboard ke Kalender Apple di iPhone",
+          "paragraphs": [
+            "Buka Kalender dan ketuk Kalender. Ketuk Tambah Kalender, lalu Tambah Kalender Berlangganan. Tempel tautannya dan ikuti petunjuknya. Pilih iCloud sebagai akun jika Anda menginginkannya di perangkat yang masuk ke Akun Apple yang sama."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Tambahkan Blackboard ke Google Kalender",
+          "paragraphs": [
+            "Di komputer, buka Google Kalender. Klik tanda tambah di samping Kalender lainnya, pilih Dari URL, tempelkan tautan dan pilih Tambahkan kalender. Pastikan kalender berlangganan terlihat."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mengapa tugas Blackboard hilang?",
+          "answer": "Periksa tugas dan tanggal jatuh temponya di Blackboard terlebih dahulu. Konfirmasikan bahwa kalender berlangganan terlihat di akun yang benar. Kalender eksternal diperbarui sesuai jadwalnya sendiri, jadi verifikasi tenggat waktu mendesak di Blackboard."
+        },
+        {
+          "question": "Bisakah saya berlangganan satu kursus Ultra saja?",
+          "answer": "Umpan Blackboard Ultra yang dibagikan mencakup semua kursus Anda. Untuk satu kursus, gunakan kalender di dalam kursus Blackboard tersebut."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Как добавить Blackboard в календарь Apple или Google Calendar",
+      "description": "Скопируйте ссылку на календарь Blackboard Ultra и подпишитесь на iPhone или в Календаре Google. Узнайте, что делать, если срок платежа отсутствует.",
+      "intro": "Подпишитесь на календарь Blackboard Ultra, чтобы видеть мероприятия курса и публиковать даты сдачи вместе с вашим личным расписанием. Начните с Blackboard в Интернете и сохраните конфиденциальность URL-адреса календаря.",
+      "answer": "В Blackboard Ultra откройте «Календарь» на главной боковой панели, откройте «Настройки календаря» и выберите «Поделиться календарем» в меню. Скопируйте ссылку и добавьте ее в качестве подписки в Календаре Apple или в качестве URL-адреса календаря в Календаре Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Найдите ссылку на календарь Blackboard Ultra.",
+          "paragraphs": [
+            "Используйте Календарь из главной навигации Blackboard. Параметр «Поделиться календарем» находится в меню рядом с заголовком «Настройки календаря». Общий канал включает все ваши курсы."
+          ],
+          "steps": [
+            "Откройте настройки календаря, используя значок шестеренки.",
+            "Откройте меню рядом с заголовком, выберите «Поделиться календарем» и скопируйте ссылку."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Добавьте Blackboard в Календарь Apple на iPhone",
+          "paragraphs": [
+            "Откройте «Календарь» и нажмите «Календари». Нажмите «Добавить календарь», затем «Добавить календарь подписки». Вставьте ссылку и следуйте подсказкам. Выберите iCloud в качестве учетной записи, если вы хотите, чтобы на устройствах был выполнен вход в одну и ту же учетную запись Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Добавьте Blackboard в Календарь Google",
+          "paragraphs": [
+            "На компьютере откройте Календарь Google. Нажмите «плюс» рядом с «Другие календари», выберите «По URL-адресу», вставьте ссылку и выберите «Добавить календарь». Убедитесь, что подписанный календарь виден."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Почему отсутствует задание Blackboard?",
+          "answer": "Сначала проверьте задание и срок его выполнения в Blackboard. Убедитесь, что подписанный календарь отображается в нужной учетной записи. Внешние календари обновляются по собственному расписанию, поэтому любые срочные сроки проверяйте в Blackboard."
+        },
+        {
+          "question": "Могу ли я подписаться только на один курс Ultra?",
+          "answer": "Общий канал Blackboard Ultra охватывает все ваши курсы. Для одного курса используйте календарь внутри этого курса Blackboard."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Apple 캘린더 또는 Google 캘린더에 Blackboard를 추가하는 방법",
+      "description": "Blackboard Ultra 캘린더 링크를 복사하고 iPhone 또는 Google 캘린더에서 구독하세요. 마감일이 누락된 경우 어떻게 해야 하는지 확인하세요.",
+      "intro": "Blackboard Ultra 캘린더를 구독하여 개인 일정과 함께 코스 이벤트 및 게시된 마감일을 확인하세요. 웹에서 Blackboard를 시작하고 캘린더 URL을 비공개로 유지하세요.",
+      "answer": "Blackboard Ultra의 메인 사이드바에서 캘린더를 열고 캘린더 설정을 열고 메뉴에서 캘린더 공유를 선택하세요. 링크를 복사하여 Apple 캘린더의 구독으로 추가하거나 Google 캘린더의 캘린더 URL로 추가하세요.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard Ultra 캘린더 링크 찾기",
+          "paragraphs": [
+            "Blackboard의 기본 탐색에서 캘린더를 사용하세요. 캘린더 공유 옵션은 캘린더 설정 제목 옆의 메뉴에 있습니다. 공유 피드에는 모든 강좌가 포함됩니다."
+          ],
+          "steps": [
+            "톱니바퀴 아이콘을 사용하여 캘린더 설정을 엽니다.",
+            "제목 옆에 있는 메뉴를 열고 캘린더 공유를 선택한 후 링크를 복사하세요."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone의 Apple 캘린더에 Blackboard 추가",
+          "paragraphs": [
+            "캘린더를 열고 캘린더를 탭하세요. 캘린더 추가를 탭한 다음 구독 캘린더 추가를 탭하세요. 링크를 붙여넣고 프롬프트를 따르십시오. 동일한 Apple 계정에 로그인된 기기에서 iCloud를 사용하려면 계정으로 iCloud를 선택하세요."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google 캘린더에 Blackboard 추가",
+          "paragraphs": [
+            "컴퓨터에서 Google 캘린더를 엽니다. 다른 캘린더 옆에 있는 더하기 기호를 클릭하고 URL에서를 선택한 다음 링크를 붙여넣고 캘린더 추가를 선택합니다. 구독한 캘린더가 표시되는지 확인하세요."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard 할당이 누락된 이유는 무엇입니까?",
+          "answer": "먼저 Blackboard에서 과제와 마감일을 확인하세요. 구독한 캘린더가 올바른 계정에 표시되는지 확인하세요. 외부 캘린더는 자체 일정에 따라 새로 고쳐지므로 Blackboard에서 긴급 마감일이 있는지 확인하세요."
+        },
+        {
+          "question": "Ultra 코스를 하나만 구독할 수 있나요?",
+          "answer": "공유된 Blackboard Ultra 피드에는 모든 코스가 포함됩니다. 한 코스의 경우 해당 Blackboard 코스 내부의 달력을 사용하세요."
+        }
+      ]
+    },
+    "it": {
+      "title": "Come aggiungere Blackboard al Calendario Apple o al Calendario Google",
+      "description": "Copia il collegamento del calendario Blackboard Ultra e iscriviti su iPhone o Google Calendar. Controlla cosa fare quando manca una data di scadenza.",
+      "intro": "Iscriviti al calendario Blackboard Ultra per vedere gli eventi del corso e le date di scadenza pubblicate insieme al tuo programma personale. Inizia da Blackboard sul Web e mantieni privato l'URL del calendario.",
+      "answer": "In Blackboard Ultra, apri Calendario dalla barra laterale principale, apri Impostazioni calendario e scegli Condividi calendario dal menu. Copia il collegamento e aggiungilo come abbonamento in Apple Calendar o come URL del calendario in Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Trova il collegamento al calendario Blackboard Ultra",
+          "paragraphs": [
+            "Utilizza il Calendario dalla navigazione principale di Blackboard. L'opzione Condividi calendario si trova nel menu accanto all'intestazione Impostazioni calendario. Il feed condiviso include tutti i tuoi corsi."
+          ],
+          "steps": [
+            "Apri le Impostazioni del calendario utilizzando l'icona a forma di ingranaggio.",
+            "Apri il menu accanto all'intestazione, scegli Condividi calendario e copia il collegamento."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Aggiungi Blackboard al Calendario Apple su iPhone",
+          "paragraphs": [
+            "Apri Calendario e tocca Calendari. Tocca Aggiungi calendario, quindi Aggiungi calendario di abbonamento. Incolla il collegamento e segui le istruzioni. Scegli iCloud come account se lo desideri sui dispositivi collegati allo stesso account Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Aggiungi Blackboard a Google Calendar",
+          "paragraphs": [
+            "Su un computer, apri Google Calendar. Fai clic sul segno più accanto ad Altri calendari, scegli Da URL, incolla il collegamento e seleziona Aggiungi calendario. Assicurati che il calendario sottoscritto sia visibile."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Perché manca un compito Blackboard?",
+          "answer": "Controlla prima il compito e la relativa data di scadenza in Blackboard. Conferma che il calendario sottoscritto sia visibile nell'account corretto. I calendari esterni si aggiornano secondo la propria pianificazione, quindi verifica eventuali scadenze urgenti in Blackboard."
+        },
+        {
+          "question": "Posso iscrivermi ad un solo corso Ultra?",
+          "answer": "Il feed Blackboard Ultra condiviso copre tutti i tuoi corsi. Per un corso, utilizza il calendario all'interno del corso Blackboard."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Blackboard'yi Apple Takvim veya Google Takvim'e ekleme",
+      "description": "Blackboard Ultra takvim bağlantısını kopyalayın ve iPhone'a veya Google Takvim'e abone olun. Son tarih eksik olduğunda ne yapmanız gerektiğini kontrol edin.",
+      "intro": "Kişisel programınızın yanı sıra kurs etkinliklerini ve yayınlanan son tarihleri görmek için Blackboard Ultra takvimine abone olun. Web'de Blackboard ile başlayın ve takvim URL'sini gizli tutun.",
+      "answer": "Blackboard Ultra'da ana kenar çubuğundan Takvim'i açın, Takvim Ayarları'nı açın ve menüden Takvimi Paylaş'ı seçin. Bağlantıyı kopyalayın ve Apple Takvim'e abonelik olarak veya Google Takvim'e takvim URL'si olarak ekleyin.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard Ultra takvim bağlantısını bulun",
+          "paragraphs": [
+            "Blackboard'nin ana navigasyonundan Takvim'i kullanın. Takvimi Paylaş seçeneği, Takvim Ayarları başlığının yanındaki menüdedir. Paylaşılan akış tüm kurslarınızı içerir."
+          ],
+          "steps": [
+            "Dişli simgesini kullanarak Takvim Ayarlarını açın.",
+            "Başlığın yanındaki menüyü açın, Takvimi Paylaş'ı seçin ve bağlantıyı kopyalayın."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Blackboard'yi iPhone'daki Apple Takvim'e ekleyin",
+          "paragraphs": [
+            "Takvim'i açın ve Takvimler'e dokunun. Takvim Ekle'ye ve ardından Abonelik Takvimi Ekle'ye dokunun. Bağlantıyı yapıştırın ve talimatları izleyin. Aynı Apple Hesabında oturum açmış cihazlarda kullanmak istiyorsanız hesap olarak iCloud'u seçin."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Blackboard'yi Google Takvim'e ekleyin",
+          "paragraphs": [
+            "Bilgisayarda Google Takvim'i açın. Diğer takvimler'in yanındaki artı işaretini tıklayın, URL'den'i seçin, bağlantıyı yapıştırın ve Takvim ekle'yi seçin. Abone olunan takvimin görünür olduğundan emin olun."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard ödevi neden eksik?",
+          "answer": "Önce Blackboard'de ödevi ve teslim tarihini kontrol edin. Abone olunan takvimin doğru hesapta göründüğünü doğrulayın. Harici takvimler kendi programlarına göre yenilenir; dolayısıyla acil son tarihleri ​​Blackboard'de doğrulayın."
+        },
+        {
+          "question": "Yalnızca bir Ultra kursuna abone olabilir miyim?",
+          "answer": "Paylaşılan Blackboard Ultra akışı tüm kurslarınızı kapsar. Bir kurs için Blackboard kursunun içindeki takvimi kullanın."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Cách thêm Blackboard vào Lịch Apple hoặc Lịch Google",
+      "description": "Sao chép liên kết lịch Blackboard Ultra và đăng ký trên iPhone hoặc trong Lịch Google. Kiểm tra xem phải làm gì khi thiếu ngày đáo hạn.",
+      "intro": "Đăng ký lịch Blackboard Ultra để xem các sự kiện của khóa học và ngày hết hạn được đăng cùng với lịch trình cá nhân của bạn. Bắt đầu trong Blackboard trên web và giữ URL lịch ở chế độ riêng tư.",
+      "answer": "Trong Blackboard Ultra, mở Lịch từ thanh bên chính, mở Cài đặt Lịch và chọn Chia sẻ Lịch từ menu. Sao chép liên kết và thêm liên kết đó dưới dạng đăng ký trong Lịch Apple hoặc dưới dạng URL lịch trong Lịch Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Tìm link lịch Blackboard Ultra",
+          "paragraphs": [
+            "Sử dụng Lịch từ điều hướng chính của Blackboard. Tùy chọn Chia sẻ Lịch nằm trong menu bên cạnh tiêu đề Cài đặt Lịch. Nguồn cấp dữ liệu được chia sẻ bao gồm tất cả các khóa học của bạn."
+          ],
+          "steps": [
+            "Mở Cài đặt lịch bằng biểu tượng bánh răng.",
+            "Mở menu bên cạnh tiêu đề, chọn Chia sẻ Lịch và sao chép liên kết."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Thêm Blackboard vào Lịch Apple trên iPhone",
+          "paragraphs": [
+            "Mở ứng dụng Lịch rồi chạm vào Lịch. Chọn Thêm lịch, sau đó chọn Thêm lịch đăng ký. Dán liên kết và làm theo hướng dẫn. Chọn iCloud nếu bạn muốn xem lịch trên các thiết bị đăng nhập cùng một Tài khoản Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Thêm Blackboard vào Lịch Google",
+          "paragraphs": [
+            "Trên máy tính, hãy mở Lịch Google. Nhấp vào dấu cộng bên cạnh Lịch khác, chọn Từ URL, dán liên kết và chọn Thêm lịch. Đảm bảo lịch đã đăng ký được hiển thị."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Tại sao bài tập Blackboard bị thiếu?",
+          "answer": "Trước tiên, hãy kiểm tra bài tập và ngày đến hạn của nó trong Blackboard. Xác nhận rằng lịch đã đăng ký hiển thị trong đúng tài khoản. Lịch bên ngoài làm mới theo lịch riêng của chúng, vì vậy hãy xác minh mọi thời hạn khẩn cấp trong Blackboard."
+        },
+        {
+          "question": "Tôi có thể đăng ký chỉ một khóa học Ultra không?",
+          "answer": "Nguồn cấp dữ liệu Blackboard Ultra được chia sẻ bao gồm tất cả các khóa học của bạn. Đối với một khóa học, hãy sử dụng lịch bên trong khóa học Blackboard đó."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Jak dodać Blackboard do Kalendarza Apple lub Kalendarza Google",
+      "description": "Skopiuj link do kalendarza Blackboard Ultra i subskrybuj na iPhonie lub w Kalendarzu Google. Sprawdź, co zrobić, gdy brakuje terminu.",
+      "intro": "Subskrybuj kalendarz Blackboard Ultra, aby zobaczyć wydarzenia związane z kursami i opublikowane terminy zajęć obok osobistego harmonogramu. Zacznij od Blackboard w Internecie i zachowaj prywatność adresu URL kalendarza.",
+      "answer": "W Blackboard Ultra otwórz Kalendarz z głównego paska bocznego, otwórz Ustawienia Kalendarza i wybierz z menu opcję Udostępnij Kalendarz. Skopiuj link i dodaj go jako subskrypcję w Kalendarzu Apple lub jako adres URL kalendarza w Kalendarzu Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Znajdź link do kalendarza Blackboard Ultra",
+          "paragraphs": [
+            "Użyj Kalendarza z głównej nawigacji Blackboard. Opcja Udostępnij kalendarz znajduje się w menu obok nagłówka Ustawienia kalendarza. Udostępniony kanał zawiera wszystkie Twoje kursy."
+          ],
+          "steps": [
+            "Otwórz Ustawienia kalendarza za pomocą ikony koła zębatego.",
+            "Otwórz menu obok nagłówka, wybierz Udostępnij kalendarz i skopiuj link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Dodaj Blackboard do Kalendarza Apple na iPhonie",
+          "paragraphs": [
+            "Otwórz Kalendarz i dotknij Kalendarze. Stuknij opcję Dodaj kalendarz, a następnie Dodaj kalendarz subskrypcji. Wklej link i postępuj zgodnie z instrukcjami. Wybierz iCloud jako konto, jeśli chcesz go używać na urządzeniach zalogowanych na to samo konto Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Dodaj Blackboard do Kalendarza Google",
+          "paragraphs": [
+            "Na komputerze otwórz Kalendarz Google. Kliknij plus obok opcji Inne kalendarze, wybierz Z adresu URL, wklej link i wybierz Dodaj kalendarz. Upewnij się, że subskrybowany kalendarz jest widoczny."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Dlaczego brakuje przypisania Blackboard?",
+          "answer": "Najpierw sprawdź zadanie i jego termin w Blackboard. Upewnij się, że subskrybowany kalendarz jest widoczny na właściwym koncie. Kalendarze zewnętrzne odświeżają się według własnego harmonogramu, dlatego każdy pilny termin sprawdzaj w Blackboard."
+        },
+        {
+          "question": "Czy mogę zapisać się tylko na jeden kurs Ultra?",
+          "answer": "Wspólny kanał Blackboard Ultra obejmuje wszystkie Twoje kursy. W przypadku jednego kursu skorzystaj z kalendarza znajdującego się wewnątrz tego kursu Blackboard."
+        }
+      ]
+    },
+    "fa": {
+      "title": "چگونه Blackboard را به تقویم اپل یا تقویم گوگل اضافه کنیم",
+      "description": "پیوند تقویم Blackboard Ultra را کپی کنید و در iPhone یا Google Calendar مشترک شوید. بررسی کنید در صورت عدم وجود موعد مقرر چه کاری انجام دهید.",
+      "intro": "برای مشاهده رویدادهای دوره و تاریخ های ارسال شده در کنار برنامه شخصی خود، در تقویم Blackboard Ultra مشترک شوید. از Blackboard در وب شروع کنید و URL تقویم را خصوصی نگه دارید.",
+      "answer": "در Blackboard Ultra، Calendar را از نوار کناری اصلی باز کنید، Calendar Settings را باز کنید و Share Calendar را از منو انتخاب کنید. پیوند را کپی کنید و آن را به عنوان اشتراک در تقویم اپل یا به عنوان URL تقویم در تقویم گوگل اضافه کنید.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "پیوند تقویم Blackboard Ultra را پیدا کنید",
+          "paragraphs": [
+            "از تقویم از پیمایش اصلی Blackboard استفاده کنید. گزینه اشتراک گذاری تقویم در منوی کنار سرفصل تنظیمات تقویم قرار دارد. فید مشترک شامل تمام دوره های شما می شود."
+          ],
+          "steps": [
+            "با استفاده از نماد چرخ دنده، تنظیمات تقویم را باز کنید.",
+            "منوی کنار عنوان را باز کنید، اشتراک‌گذاری تقویم را انتخاب کنید و پیوند را کپی کنید."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Blackboard را به تقویم اپل در آیفون اضافه کنید",
+          "paragraphs": [
+            "Calendar را باز کنید و روی Calendars ضربه بزنید. روی Add Calendar و سپس Add Subscription Calendar ضربه بزنید. پیوند را جایگذاری کنید و دستورات را دنبال کنید. اگر می‌خواهید در دستگاه‌هایی که به همان حساب اپل وارد شده‌اند، iCloud را به عنوان حساب انتخاب کنید."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Blackboard را به تقویم Google اضافه کنید",
+          "paragraphs": [
+            "در رایانه، Google Calendar را باز کنید. روی علامت مثبت در کنار سایر تقویم‌ها کلیک کنید، از URL را انتخاب کنید، پیوند را جای‌گذاری کنید و افزودن تقویم را انتخاب کنید. مطمئن شوید که تقویم مشترک قابل مشاهده است."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "چرا یک تکلیف Blackboard وجود ندارد؟",
+          "answer": "ابتدا تکلیف و تاریخ سررسید آن را در Blackboard بررسی کنید. تأیید کنید که تقویم مشترک شده در حساب صحیح قابل مشاهده است. تقویم های خارجی بر اساس برنامه زمانی خود به روز می شوند، بنابراین هر مهلت فوری را در Blackboard بررسی کنید."
+        },
+        {
+          "question": "آیا می توانم فقط در یک دوره اولترا مشترک شوم؟",
+          "answer": "فید مشترک Blackboard Ultra همه دوره های شما را پوشش می دهد. برای یک دوره، از تقویم داخل آن دوره Blackboard استفاده کنید."
+        }
+      ]
+    },
+    "th": {
+      "title": "วิธีเพิ่ม Blackboard ใน Apple Calendar หรือ Google Calendar",
+      "description": "คัดลอกลิงก์ปฏิทิน Blackboard Ultra และสมัครสมาชิกบน iPhone หรือใน Google ปฏิทิน ตรวจสอบสิ่งที่ต้องทำเมื่อขาดวันครบกำหนด",
+      "intro": "สมัครสมาชิกปฏิทิน Blackboard Ultra เพื่อดูกิจกรรมของหลักสูตรและโพสต์วันที่ครบกำหนดควบคู่ไปกับกำหนดการส่วนตัวของคุณ เริ่มต้นใน Blackboard บนเว็บและเก็บ URL ปฏิทินไว้เป็นส่วนตัว",
+      "answer": "ใน Blackboard Ultra ให้เปิดปฏิทินจากแถบด้านข้างหลัก เปิดการตั้งค่าปฏิทิน และเลือกแชร์ปฏิทินจากเมนู คัดลอกลิงก์และเพิ่มเป็นการสมัครสมาชิกใน Apple Calendar หรือเป็น URL ปฏิทินใน Google ปฏิทิน",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "ค้นหาลิงก์ปฏิทิน Blackboard Ultra",
+          "paragraphs": [
+            "ใช้ปฏิทินจากการนำทางหลักของ Blackboard ตัวเลือกแชร์ปฏิทินอยู่ในเมนูข้างหัวข้อการตั้งค่าปฏิทิน ฟีดที่แชร์จะรวมหลักสูตรทั้งหมดของคุณ"
+          ],
+          "steps": [
+            "เปิดการตั้งค่าปฏิทินโดยใช้ไอคอนรูปเฟือง",
+            "เปิดเมนูที่อยู่ถัดจากหัวข้อ เลือกแชร์ปฏิทิน แล้วคัดลอกลิงก์"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "เพิ่ม Blackboard ลงใน Apple Calendar บน iPhone",
+          "paragraphs": [
+            "เปิดปฏิทินแล้วแตะปฏิทิน แตะเพิ่มปฏิทิน จากนั้นเพิ่มปฏิทินการสมัครรับ วางลิงก์แล้วปฏิบัติตามคำแนะนำ เลือก iCloud เป็นบัญชี หากคุณต้องการให้บนอุปกรณ์ที่ลงชื่อเข้าใช้บัญชี Apple เดียวกัน"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "เพิ่ม Blackboard ลงใน Google Calendar",
+          "paragraphs": [
+            "ในคอมพิวเตอร์ ให้เปิด Google ปฏิทิน คลิกเครื่องหมายบวกข้างปฏิทินอื่นๆ เลือกจาก URL วางลิงก์แล้วเลือกเพิ่มปฏิทิน ตรวจสอบให้แน่ใจว่ามองเห็นปฏิทินที่สมัครเป็นสมาชิกได้"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "เหตุใดการมอบหมาย Blackboard จึงหายไป",
+          "answer": "ตรวจสอบการมอบหมายและวันครบกำหนดใน Blackboard ก่อน ยืนยันว่าปฏิทินที่สมัครรับข้อมูลปรากฏในบัญชีที่ถูกต้อง ปฏิทินภายนอกจะรีเฟรชตามกำหนดการของตัวเอง ดังนั้น ตรวจสอบกำหนดเวลาเร่งด่วนใน Blackboard"
+        },
+        {
+          "question": "ฉันสามารถสมัครเรียนหลักสูตร Ultra เพียงหลักสูตรเดียวได้หรือไม่",
+          "answer": "ฟีด Blackboard Ultra ที่แชร์ครอบคลุมทุกหลักสูตรของคุณ สำหรับหนึ่งหลักสูตร ให้ใช้ปฏิทินภายในหลักสูตร Blackboard นั้น"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Hoe Blackboard toe te voegen aan Apple Agenda of Google Agenda",
+      "description": "Kopieer de Blackboard Ultra-agendalink en abonneer u op iPhone of in Google Agenda. Bekijk wat u moet doen als er een uitgerekende datum ontbreekt.",
+      "intro": "Abonneer u op de Blackboard Ultra-kalender om cursusevenementen en geposte inleverdata naast uw persoonlijke schema te zien. Begin in Blackboard op internet en houd de agenda-URL privé.",
+      "answer": "Open in Blackboard Ultra Agenda vanuit de hoofdzijbalk, open Agenda-instellingen en kies Agenda delen in het menu. Kopieer de link en voeg deze toe als abonnement in Apple Agenda of als agenda-URL in Google Agenda.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Zoek de Blackboard Ultra-kalenderlink",
+          "paragraphs": [
+            "Gebruik Agenda vanuit de hoofdnavigatie van Blackboard. De optie Agenda delen bevindt zich in het menu naast het kopje Agenda-instellingen. De gedeelde feed bevat al uw cursussen."
+          ],
+          "steps": [
+            "Open Agenda-instellingen met behulp van het tandwielpictogram.",
+            "Open het menu naast de kop, kies Agenda delen en kopieer de link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Voeg Blackboard toe aan Apple Agenda op iPhone",
+          "paragraphs": [
+            "Open Agenda en tik op Agenda's. Tik op Agenda toevoegen en vervolgens op Abonnementsagenda toevoegen. Plak de link en volg de aanwijzingen. Kies iCloud als account als u dit wilt op apparaten waarop u met hetzelfde Apple-account bent ingelogd."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Voeg Blackboard toe aan Google Agenda",
+          "paragraphs": [
+            "Open Google Agenda op een computer. Klik op het plusteken naast Andere agenda's, kies Van URL, plak de link en selecteer Agenda toevoegen. Zorg ervoor dat de geabonneerde agenda zichtbaar is."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Waarom ontbreekt een Blackboard-opdracht?",
+          "answer": "Controleer eerst de opdracht en de inleverdatum in Blackboard. Controleer of de geabonneerde agenda zichtbaar is in het juiste account. Externe agenda's worden volgens hun eigen schema vernieuwd, dus controleer eventuele urgente deadlines in Blackboard."
+        },
+        {
+          "question": "Kan ik me inschrijven voor slechts één Ultra-cursus?",
+          "answer": "De gedeelde Blackboard Ultra-feed omvat al uw cursussen. Gebruik voor één cursus de kalender binnen die Blackboard-cursus."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Як додати Blackboard до Apple Calendar або Google Calendar",
+      "description": "Скопіюйте посилання на календар Blackboard Ultra та підпишіться на iPhone або Google Calendar. Перевірте, що робити, якщо термін не встановлений.",
+      "intro": "Підпишіться на календар Blackboard Ultra, щоб бачити події курсу та опубліковані дати виконання разом із вашим особистим розкладом. Почніть із Blackboard в Інтернеті та збережіть URL-адресу календаря приватною.",
+      "answer": "У Blackboard Ultra відкрийте «Календар» на головній бічній панелі, відкрийте «Налаштування календаря» та виберіть «Поділитися календарем» у меню. Скопіюйте посилання та додайте його як підписку в Apple Calendar або як URL-адресу календаря в Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Знайдіть посилання на календар Blackboard Ultra",
+          "paragraphs": [
+            "Використовуйте Календар з головної панелі навігації Blackboard. Параметр «Поділитися календарем» знаходиться в меню поруч із заголовком «Налаштування календаря». Спільна стрічка містить усі ваші курси."
+          ],
+          "steps": [
+            "Відкрийте налаштування календаря за допомогою значка шестірні.",
+            "Відкрийте меню поруч із заголовком, виберіть «Поділитися календарем» і скопіюйте посилання."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Додайте Blackboard до календаря Apple на iPhone",
+          "paragraphs": [
+            "Відкрийте Календар і торкніться Календарі. Торкніть «Додати календар», а потім «Додати календар для підписки». Вставте посилання та дотримуйтесь підказок. Виберіть iCloud як обліковий запис, якщо ви хочете використовувати його на пристроях, на яких увійшли в той самий обліковий запис Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Додайте Blackboard до Календаря Google",
+          "paragraphs": [
+            "На комп’ютері відкрийте Календар Google. Натисніть плюс поруч із пунктом «Інші календарі», виберіть «З URL-адреси», вставте посилання та виберіть «Додати календар». Переконайтеся, що календар, на який ви підписалися, видимий."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Чому відсутнє призначення Blackboard?",
+          "answer": "Спочатку перевірте завдання та термін його виконання в Blackboard. Переконайтеся, що календар, на який ви підписалися, відображається в правильному обліковому записі. Зовнішні календарі оновлюються за власним розкладом, тому перевіряйте термінові терміни в Blackboard."
+        },
+        {
+          "question": "Чи можу я підписатися лише на один курс Ultra?",
+          "answer": "Спільний канал Blackboard Ultra охоплює всі ваші курси. Для одного курсу використовуйте календар у цьому курсі Blackboard."
+        }
+      ]
+    },
+    "bn": {
+      "title": "অ্যাপল ক্যালেন্ডার বা গুগল ক্যালেন্ডারে কীভাবে Blackboard যুক্ত করবেন",
+      "description": "Blackboard আল্ট্রা ক্যালেন্ডার লিঙ্কটি অনুলিপি করুন এবং iPhone বা Google ক্যালেন্ডারে সদস্যতা নিন। একটি নির্দিষ্ট তারিখ অনুপস্থিত হলে কি করতে হবে তা পরীক্ষা করুন।",
+      "intro": "আপনার ব্যক্তিগত সময়সূচীর পাশাপাশি কোর্স ইভেন্ট এবং পোস্ট করা নির্ধারিত তারিখ দেখতে Blackboard আল্ট্রা ক্যালেন্ডারে সদস্যতা নিন। ওয়েবে Blackboard-এ শুরু করুন এবং ক্যালেন্ডার URL ব্যক্তিগত রাখুন৷",
+      "answer": "Blackboard Ultra-তে, প্রধান সাইডবার থেকে ক্যালেন্ডার খুলুন, ক্যালেন্ডার সেটিংস খুলুন এবং মেনু থেকে ক্যালেন্ডার শেয়ার করুন বেছে নিন। লিঙ্কটি অনুলিপি করুন এবং অ্যাপল ক্যালেন্ডারে সাবস্ক্রিপশন হিসাবে বা Google ক্যালেন্ডারে একটি ক্যালেন্ডার URL হিসাবে যোগ করুন।",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard আল্ট্রা ক্যালেন্ডার লিঙ্ক খুঁজুন",
+          "paragraphs": [
+            "Blackboard এর প্রধান নেভিগেশন থেকে ক্যালেন্ডার ব্যবহার করুন। শেয়ার ক্যালেন্ডার বিকল্পটি ক্যালেন্ডার সেটিংস শিরোনামের পাশে মেনুতে রয়েছে। ভাগ করা ফিড আপনার সমস্ত কোর্স অন্তর্ভুক্ত."
+          ],
+          "steps": [
+            "গিয়ার আইকন ব্যবহার করে ক্যালেন্ডার সেটিংস খুলুন।",
+            "শিরোনামের পাশের মেনুটি খুলুন, শেয়ার ক্যালেন্ডার নির্বাচন করুন এবং লিঙ্কটি অনুলিপি করুন।"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone-এ Apple ক্যালেন্ডারে Blackboard যোগ করুন",
+          "paragraphs": [
+            "ক্যালেন্ডার খুলুন এবং ক্যালেন্ডারে ট্যাপ করুন। ক্যালেন্ডার যোগ করুন আলতো চাপুন, তারপর সদস্যতা ক্যালেন্ডার যোগ করুন। লিঙ্কটি পেস্ট করুন এবং প্রম্পটগুলি অনুসরণ করুন। আপনি যদি একই Apple অ্যাকাউন্টে সাইন ইন করা ডিভাইসগুলিতে চান তবে অ্যাকাউন্ট হিসাবে iCloud বেছে নিন।"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google ক্যালেন্ডারে Blackboard যোগ করুন",
+          "paragraphs": [
+            "একটি কম্পিউটারে, Google ক্যালেন্ডার খুলুন। অন্যান্য ক্যালেন্ডারের পাশে প্লাস ক্লিক করুন, URL থেকে চয়ন করুন, লিঙ্কটি আটকান এবং ক্যালেন্ডার যুক্ত করুন নির্বাচন করুন। নিশ্চিত করুন যে সাবস্ক্রাইব করা ক্যালেন্ডার দৃশ্যমান।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "কেন একটি Blackboard অ্যাসাইনমেন্ট অনুপস্থিত?",
+          "answer": "প্রথমে Blackboard-এ অ্যাসাইনমেন্ট এবং এর নির্ধারিত তারিখ চেক করুন। নিশ্চিত করুন যে সাবস্ক্রাইব করা ক্যালেন্ডারটি সঠিক অ্যাকাউন্টে দৃশ্যমান। বাহ্যিক ক্যালেন্ডারগুলি তাদের নিজস্ব সময়সূচীতে রিফ্রেশ করে, তাই Blackboard-এ যেকোনো জরুরি সময়সীমা যাচাই করুন।"
+        },
+        {
+          "question": "আমি কি শুধুমাত্র একটি আল্ট্রা কোর্সে সাবস্ক্রাইব করতে পারি?",
+          "answer": "শেয়ার করা Blackboard আল্ট্রা ফিড আপনার সমস্ত কোর্স কভার করে। একটি কোর্সের জন্য, সেই Blackboard কোর্সের ভিতরে ক্যালেন্ডার ব্যবহার করুন।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "ایپل کیلنڈر یا گوگل کیلنڈر میں Blackboard کو کیسے شامل کریں۔",
+      "description": "Blackboard الٹرا کیلنڈر لنک کاپی کریں اور آئی فون یا گوگل کیلنڈر میں سبسکرائب کریں۔ چیک کریں کہ جب مقررہ تاریخ غائب ہو تو کیا کرنا ہے۔",
+      "intro": "Blackboard الٹرا کیلنڈر کو سبسکرائب کریں اپنے ذاتی شیڈول کے ساتھ کورس کے واقعات اور پوسٹ کی گئی مقررہ تاریخوں کو دیکھنے کے لیے۔ ویب پر Blackboard میں شروع کریں اور کیلنڈر URL کو نجی رکھیں۔",
+      "answer": "Blackboard الٹرا میں، مین سائڈبار سے کیلنڈر کھولیں، کیلنڈر کی ترتیبات کھولیں اور مینو سے کیلنڈر شیئر کریں کو منتخب کریں۔ لنک کاپی کریں اور اسے ایپل کیلنڈر میں سبسکرپشن کے طور پر یا گوگل کیلنڈر میں کیلنڈر URL کے بطور شامل کریں۔",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard الٹرا کیلنڈر کا لنک تلاش کریں۔",
+          "paragraphs": [
+            "Blackboard کی مین نیویگیشن سے کیلنڈر استعمال کریں۔ شیئر کیلنڈر کا آپشن کیلنڈر سیٹنگز کی سرخی کے ساتھ مینو میں ہے۔ مشترکہ فیڈ میں آپ کے تمام کورسز شامل ہیں۔"
+          ],
+          "steps": [
+            "گیئر آئیکن کا استعمال کرتے ہوئے کیلنڈر کی ترتیبات کھولیں۔",
+            "سرخی کے آگے مینو کھولیں، کیلنڈر شیئر کریں کا انتخاب کریں اور لنک کاپی کریں۔"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "آئی فون پر ایپل کیلنڈر میں Blackboard شامل کریں۔",
+          "paragraphs": [
+            "کیلنڈر کھولیں اور کیلنڈرز پر ٹیپ کریں۔ کیلنڈر شامل کریں پر ٹیپ کریں، پھر سبسکرپشن کیلنڈر شامل کریں۔ لنک چسپاں کریں اور اشارے پر عمل کریں۔ iCloud کو بطور اکاؤنٹ منتخب کریں اگر آپ اسے اسی ایپل اکاؤنٹ میں سائن ان کردہ آلات پر چاہتے ہیں۔"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Blackboard کو گوگل کیلنڈر میں شامل کریں۔",
+          "paragraphs": [
+            "کمپیوٹر پر، گوگل کیلنڈر کھولیں۔ دوسرے کیلنڈرز کے ساتھ پلس پر کلک کریں، URL سے منتخب کریں، لنک پیسٹ کریں اور کیلنڈر شامل کریں کو منتخب کریں۔ یقینی بنائیں کہ سبسکرائب شدہ کیلنڈر نظر آ رہا ہے۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard اسائنمنٹ کیوں غائب ہے؟",
+          "answer": "پہلے Blackboard میں اسائنمنٹ اور اس کی مقررہ تاریخ چیک کریں۔ تصدیق کریں کہ سبسکرائب شدہ کیلنڈر درست اکاؤنٹ میں نظر آ رہا ہے۔ بیرونی کیلنڈرز اپنے شیڈول کے مطابق ریفریش ہوتے ہیں، لہذا Blackboard میں کسی بھی فوری آخری تاریخ کی تصدیق کریں۔"
+        },
+        {
+          "question": "کیا میں صرف ایک الٹرا کورس کی رکنیت حاصل کر سکتا ہوں؟",
+          "answer": "مشترکہ Blackboard الٹرا فیڈ آپ کے تمام کورسز کا احاطہ کرتا ہے۔ ایک کورس کے لیے، اس Blackboard کورس کے اندر کیلنڈر استعمال کریں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "Blackboard ஐ Apple Calendar அல்லது Google Calendar இல் சேர்ப்பது எப்படி",
+      "description": "Blackboard அல்ட்ரா காலண்டர் இணைப்பை நகலெடுத்து iPhone அல்லது Google Calendar இல் குழுசேரவும். நிலுவைத் தேதி இல்லாதபோது என்ன செய்ய வேண்டும் என்பதைச் சரிபார்க்கவும்.",
+      "intro": "Blackboard அல்ட்ரா நாட்காட்டிக்கு குழுசேரவும், உங்கள் தனிப்பட்ட அட்டவணையுடன் பாட நிகழ்வுகள் மற்றும் இடுகையிடப்பட்ட தேதிகளைப் பார்க்கவும். இணையத்தில் Blackboard இல் தொடங்கி, காலண்டர் URL ஐத் தனிப்பட்டதாக வைத்திருக்கவும்.",
+      "answer": "Blackboard அல்ட்ராவில், பிரதான பக்கப்பட்டியில் இருந்து காலெண்டரைத் திறந்து, காலெண்டர் அமைப்புகளைத் திறந்து, மெனுவிலிருந்து ஷேர் கேலெண்டரைத் தேர்ந்தெடுக்கவும். இணைப்பை நகலெடுத்து Apple Calendar இல் சந்தாவாகவோ அல்லது Google Calendar இல் காலண்டர் URL ஆகவோ சேர்க்கவும்.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard அல்ட்ரா காலண்டர் இணைப்பைக் கண்டறியவும்",
+          "paragraphs": [
+            "Blackboard இன் முக்கிய வழிசெலுத்தலில் இருந்து காலெண்டரைப் பயன்படுத்தவும். கேலெண்டர் அமைப்புகள் தலைப்புக்கு அடுத்துள்ள மெனுவில் ஷேர் கேலெண்டர் விருப்பம் உள்ளது. பகிரப்பட்ட ஊட்டத்தில் உங்களின் அனைத்து படிப்புகளும் அடங்கும்."
+          ],
+          "steps": [
+            "கியர் ஐகானைப் பயன்படுத்தி கேலெண்டர் அமைப்புகளைத் திறக்கவும்.",
+            "தலைப்புக்கு அடுத்துள்ள மெனுவைத் திறந்து, பகிர்வு காலெண்டரைத் தேர்ந்தெடுத்து இணைப்பை நகலெடுக்கவும்."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "ஐபோனில் ஆப்பிள் கேலெண்டரில் Blackboard ஐச் சேர்க்கவும்",
+          "paragraphs": [
+            "காலெண்டரைத் திறந்து, காலெண்டர்களைத் தட்டவும். காலெண்டரைச் சேர் என்பதைத் தட்டவும், பின்னர் சந்தா காலெண்டரைச் சேர்க்கவும். இணைப்பை ஒட்டவும் மற்றும் அறிவுறுத்தல்களைப் பின்பற்றவும். அதே ஆப்பிள் கணக்கில் உள்நுழைந்துள்ள சாதனங்களில் iCloud ஐக் கணக்காகத் தேர்வுசெய்யவும்."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "கூகுள் கேலெண்டரில் Blackboardஐச் சேர்க்கவும்",
+          "paragraphs": [
+            "கணினியில், Google Calendarஐத் திறக்கவும். பிற காலெண்டர்களுக்கு அருகில் உள்ள கூட்டலைக் கிளிக் செய்து, URL இல் இருந்து தேர்வு செய்து, இணைப்பை ஒட்டவும் மற்றும் காலெண்டரைச் சேர் என்பதைத் தேர்ந்தெடுக்கவும். குழுசேர்ந்த காலெண்டர் தெரியும் என்பதை உறுதிப்படுத்தவும்."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard பணி ஏன் காணவில்லை?",
+          "answer": "முதலில் Blackboard இல் பணி மற்றும் அதன் நிலுவைத் தேதியைச் சரிபார்க்கவும். சந்தா செலுத்திய காலண்டர் சரியான கணக்கில் தெரியும் என்பதை உறுதிப்படுத்தவும். வெளிப்புற காலெண்டர்கள் அவற்றின் சொந்த அட்டவணையில் புதுப்பிக்கப்படும், எனவே Blackboard இல் ஏதேனும் அவசர காலக்கெடுவை சரிபார்க்கவும்."
+        },
+        {
+          "question": "ஒரே ஒரு அல்ட்ரா பாடத்திற்கு நான் குழுசேர முடியுமா?",
+          "answer": "பகிரப்பட்ட Blackboard அல்ட்ரா ஃபீட் உங்கள் எல்லா படிப்புகளையும் உள்ளடக்கியது. ஒரு பாடத்திற்கு, அந்த Blackboard பாடத்திட்டத்தில் உள்ள காலெண்டரைப் பயன்படுத்தவும்."
+        }
+      ]
+    },
+    "te": {
+      "title": "Apple క్యాలెండర్ లేదా Google క్యాలెండర్‌కి Blackboardని ఎలా జోడించాలి",
+      "description": "Blackboard అల్ట్రా క్యాలెండర్ లింక్‌ను కాపీ చేసి, iPhoneలో లేదా Google క్యాలెండర్‌లో సభ్యత్వాన్ని పొందండి. గడువు తేదీ లేనప్పుడు ఏమి చేయాలో తనిఖీ చేయండి.",
+      "intro": "మీ వ్యక్తిగత షెడ్యూల్‌తో పాటు కోర్సు ఈవెంట్‌లు మరియు పోస్ట్ చేసిన గడువు తేదీలను చూడటానికి Blackboard అల్ట్రా క్యాలెండర్‌కు సభ్యత్వాన్ని పొందండి. వెబ్‌లో Blackboardలో ప్రారంభించండి మరియు క్యాలెండర్ URLను ప్రైవేట్‌గా ఉంచండి.",
+      "answer": "Blackboard అల్ట్రాలో, ప్రధాన సైడ్‌బార్ నుండి క్యాలెండర్‌ని తెరిచి, క్యాలెండర్ సెట్టింగ్‌లను తెరిచి, మెను నుండి షేర్ క్యాలెండర్‌ను ఎంచుకోండి. లింక్‌ని కాపీ చేసి, Apple క్యాలెండర్‌లో చందాగా లేదా Google క్యాలెండర్‌లో క్యాలెండర్ URLగా జోడించండి.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard అల్ట్రా క్యాలెండర్ లింక్‌ను కనుగొనండి",
+          "paragraphs": [
+            "Blackboard యొక్క ప్రధాన నావిగేషన్ నుండి క్యాలెండర్‌ని ఉపయోగించండి. క్యాలెండర్ సెట్టింగ్‌ల శీర్షిక పక్కన ఉన్న మెనులో షేర్ క్యాలెండర్ ఎంపిక ఉంది. షేర్ చేసిన ఫీడ్‌లో మీ అన్ని కోర్సులు ఉంటాయి."
+          ],
+          "steps": [
+            "గేర్ చిహ్నాన్ని ఉపయోగించి క్యాలెండర్ సెట్టింగ్‌లను తెరవండి.",
+            "హెడ్డింగ్ పక్కన ఉన్న మెనుని తెరిచి, షేర్ క్యాలెండర్‌ని ఎంచుకుని, లింక్‌ని కాపీ చేయండి."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhoneలో Apple క్యాలెండర్‌కి Blackboardని జోడించండి",
+          "paragraphs": [
+            "క్యాలెండర్‌ని తెరిచి, క్యాలెండర్‌లను నొక్కండి. క్యాలెండర్‌ను జోడించు నొక్కండి, ఆపై సబ్‌స్క్రిప్షన్ క్యాలెండర్‌ను జోడించండి. లింక్‌ను అతికించి, ప్రాంప్ట్‌లను అనుసరించండి. మీరు అదే Apple ఖాతాకు సైన్ ఇన్ చేసిన పరికరాలలో iCloud కావాలనుకుంటే దాన్ని ఖాతాగా ఎంచుకోండి."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google క్యాలెండర్‌కి Blackboardని జోడించండి",
+          "paragraphs": [
+            "కంప్యూటర్‌లో, Google క్యాలెండర్‌ని తెరవండి. ఇతర క్యాలెండర్‌ల పక్కన ఉన్న ప్లస్‌ని క్లిక్ చేయండి, URL నుండి ఎంచుకుని, లింక్‌ను అతికించి, క్యాలెండర్‌ను జోడించు ఎంచుకోండి. సభ్యత్వం పొందిన క్యాలెండర్ కనిపించేలా చూసుకోండి."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard అసైన్‌మెంట్ ఎందుకు లేదు?",
+          "answer": "మొదట Blackboardలో అసైన్‌మెంట్ మరియు దాని గడువు తేదీని తనిఖీ చేయండి. సభ్యత్వం పొందిన క్యాలెండర్ సరైన ఖాతాలో కనిపిస్తోందని నిర్ధారించండి. బాహ్య క్యాలెండర్‌లు వాటి స్వంత షెడ్యూల్‌లో రిఫ్రెష్ అవుతాయి, కాబట్టి ఏదైనా అత్యవసర గడువును Blackboardలో ధృవీకరించండి."
+        },
+        {
+          "question": "నేను కేవలం ఒక అల్ట్రా కోర్సుకు సభ్యత్వాన్ని పొందవచ్చా?",
+          "answer": "భాగస్వామ్యం చేయబడిన Blackboard అల్ట్రా ఫీడ్ మీ అన్ని కోర్సులను కవర్ చేస్తుంది. ఒక కోర్సు కోసం, ఆ Blackboard కోర్సులోని క్యాలెండర్‌ని ఉపయోగించండి."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何將 Blackboard 新增至 Apple 日曆或 Google 日曆",
+      "description": "複製 Blackboard Ultra 日曆連結並在 iPhone 或 Google 日曆中訂閱。檢查錯過截止日期時該怎麼辦。",
+      "intro": "訂閱 Blackboard Ultra 日曆以查看課程活動並在您的個人日程表旁邊發布截止日期。從網路上的 Blackboard 開始，並將日曆 URL 保密。",
+      "answer": "在 Blackboard Ultra 中，從主側邊欄打開“日曆”，打開“日曆設定”，然後從選單中選擇“共用行事曆”。複製連結並將其新增為 Apple 日曆中的訂閱或 Google 日曆中的日曆 URL。",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "尋找 Blackboard Ultra 日曆鏈接",
+          "paragraphs": [
+            "使用 Blackboard 主導航中的日曆。 「共用日曆」選項位於「日曆設定」標題旁的選單中。共享源包括您的所有課程。"
+          ],
+          "steps": [
+            "使用齒輪圖示開啟日曆設定。",
+            "打開標題旁邊的選單，選擇共用日曆並複製連結。"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "將 Blackboard 加入 iPhone 上的 Apple 日曆",
+          "paragraphs": [
+            "打開日曆並點擊日曆。點擊新增日曆，然後點擊新增訂閱日曆。貼上連結並按照提示操作。如果您希望在登入相同 Apple 帳戶的裝置上使用 iCloud，請選擇 iCloud 作為帳戶。"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "將 Blackboard 加入到 Google 日曆",
+          "paragraphs": [
+            "在電腦上，開啟 Google 日曆。點擊其他日曆旁邊的加號，選擇來自 URL，貼上連結並選擇新增日曆。確保訂閱的日曆可見。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "為什麼缺少 Blackboard 分配？",
+          "answer": "首先在 Blackboard 中檢查作業及其截止日期。確認訂閱的日曆在正確的帳戶中可見。外部日曆會依照自己的時間表刷新，因此請在 Blackboard 中驗證任何緊急截止日期。"
+        },
+        {
+          "question": "我可以只訂閱一門 Ultra 課程嗎？",
+          "answer": "共享的 Blackboard Ultra 來源涵蓋您的所有課程。對於一門課程，請使用 Blackboard 課程內的日曆。"
+        }
+      ]
+    },
+    "he": {
+      "title": "כיצד להוסיף Blackboard ליומן אפל או יומן גוגל",
+      "description": "העתק את קישור היומן Blackboard Ultra והירשם באייפון או ביומן Google. בדוק מה לעשות כשחסר תאריך יעד.",
+      "intro": "הירשם ללוח השנה של Blackboard Ultra כדי לראות את אירועי הקורס ותאריכי יעד שפורסמו לצד לוח הזמנים האישי שלך. התחל ב-Blackboard באינטרנט ושמור על כתובת האתר של היומן פרטית.",
+      "answer": "ב-Blackboard Ultra, פתח את לוח השנה מהסרגל הצדדי הראשי, פתח את הגדרות לוח שנה ובחר שתף יומן מהתפריט. העתק את הקישור והוסף אותו כמנוי ביומן Apple או ככתובת URL של יומן ביומן Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "מצא את הקישור ללוח השנה של Blackboard Ultra",
+          "paragraphs": [
+            "השתמש ביומן מהניווט הראשי של Blackboard. האפשרות שתף לוח שנה נמצאת בתפריט שליד הכותרת הגדרות לוח שנה. העדכון המשותף כולל את כל הקורסים שלך."
+          ],
+          "steps": [
+            "פתח את הגדרות לוח שנה באמצעות סמל גלגל השיניים.",
+            "פתח את התפריט שליד הכותרת, בחר שתף יומן והעתק את הקישור."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "הוסף Blackboard ליומן Apple ב-iPhone",
+          "paragraphs": [
+            "פתח את לוח השנה והקש על יומנים. הקש על הוסף יומן ולאחר מכן הוסף יומן מנוי. הדבק את הקישור ופעל לפי ההנחיות. בחר iCloud כחשבון אם אתה רוצה אותו במכשירים המחוברים לאותו חשבון Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "הוסף Blackboard ליומן Google",
+          "paragraphs": [
+            "במחשב, פתח את יומן Google. לחץ על הפלוס לצד יומנים אחרים, בחר מתוך כתובת אתר, הדבק את הקישור ובחר הוסף יומן. ודא שהלוח שנה הרשום גלוי."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "מדוע חסרה מטלה Blackboard?",
+          "answer": "בדוק תחילה את המשימה ואת תאריך היעד שלה ב-Blackboard. אשר שהלוח שנה הרשום גלוי בחשבון הנכון. לוחות שנה חיצוניים מתרעננים לפי לוח הזמנים שלהם, אז אמת כל מועד אחרון דחוף ב-Blackboard."
+        },
+        {
+          "question": "האם אוכל להירשם לקורס אולטרה אחד בלבד?",
+          "answer": "הפיד המשותף Blackboard Ultra מכסה את כל הקורסים שלך. עבור קורס אחד, השתמש בלוח השנה שבתוך קורס Blackboard הזה."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Paano magdagdag ng Blackboard sa Apple Calendar o Google Calendar",
+      "description": "Kopyahin ang link ng Blackboard Ultra kalendaryo at mag-subscribe sa iPhone o sa Google Calendar. Suriin kung ano ang gagawin kapag nawawala ang takdang petsa.",
+      "intro": "Mag-subscribe sa Blackboard Ultra na kalendaryo upang makita ang mga kaganapan sa kurso at mag-post ng mga takdang petsa kasama ng iyong personal na iskedyul. Magsimula sa Blackboard sa web at panatilihing pribado ang URL ng kalendaryo.",
+      "answer": "Sa Blackboard Ultra, buksan ang Kalendaryo mula sa pangunahing sidebar, buksan ang Mga Setting ng Kalendaryo at piliin ang Ibahagi ang Kalendaryo mula sa menu. Kopyahin ang link at idagdag ito bilang isang subscription sa Apple Calendar o bilang URL ng kalendaryo sa Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Hanapin ang Blackboard Ultra na link sa kalendaryo",
+          "paragraphs": [
+            "Gamitin ang Calendar mula sa pangunahing nabigasyon ng Blackboard. Ang opsyong Ibahagi ang Kalendaryo ay nasa menu sa tabi ng heading ng Mga Setting ng Kalendaryo. Kasama sa shared feed ang lahat ng iyong kurso."
+          ],
+          "steps": [
+            "Buksan ang Mga Setting ng Kalendaryo gamit ang icon na gear.",
+            "Buksan ang menu sa tabi ng heading, piliin ang Ibahagi ang Kalendaryo at kopyahin ang link."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Magdagdag ng Blackboard sa Apple Calendar sa iPhone",
+          "paragraphs": [
+            "Buksan ang Kalendaryo at i-tap ang Mga Kalendaryo. I-tap ang Add Calendar, pagkatapos ay Add Subscription Calendar. I-paste ang link at sundin ang mga prompt. Piliin ang iCloud bilang account kung gusto mo ito sa mga device na naka-sign in sa parehong Apple Account."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Idagdag ang Blackboard sa Google Calendar",
+          "paragraphs": [
+            "Sa isang computer, buksan ang Google Calendar. I-click ang plus sa tabi ng Iba pang mga kalendaryo, piliin ang Mula sa URL, i-paste ang link at piliin ang Magdagdag ng kalendaryo. Tiyaking nakikita ang naka-subscribe na kalendaryo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bakit walang Blackboard assignment?",
+          "answer": "Suriin muna ang assignment at ang takdang petsa nito sa Blackboard. Kumpirmahin na ang naka-subscribe na kalendaryo ay nakikita sa tamang account. Nagre-refresh ang mga panlabas na kalendaryo sa sarili nilang iskedyul, kaya i-verify ang anumang agarang deadline sa Blackboard."
+        },
+        {
+          "question": "Maaari ba akong mag-subscribe sa isang kurso sa Ultra?",
+          "answer": "Ang nakabahaging Blackboard Ultra feed ay sumasaklaw sa lahat ng iyong mga kurso. Para sa isang kurso, gamitin ang kalendaryo sa loob ng kursong Blackboard na iyon."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Jak přidat Blackboard do kalendáře Apple nebo kalendáře Google",
+      "description": "Zkopírujte odkaz na kalendář Blackboard Ultra a přihlaste se k odběru na iPhonu nebo v Kalendáři Google. Zkontrolujte, co dělat, když chybí datum splatnosti.",
+      "intro": "Přihlaste se k odběru kalendáře Blackboard Ultra, abyste viděli události kurzů a zveřejněné termíny odevzdání spolu se svým osobním rozvrhem. Začněte v Blackboard na webu a udržujte adresu URL kalendáře soukromou.",
+      "answer": "V Blackboard Ultra otevřete Kalendář z hlavního postranního panelu, otevřete Nastavení kalendáře a z nabídky vyberte Sdílet kalendář. Zkopírujte odkaz a přidejte jej jako předplatné v Kalendáři Apple nebo jako adresu URL kalendáře v Kalendáři Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Najděte odkaz na kalendář Blackboard Ultra",
+          "paragraphs": [
+            "Použijte Kalendář z hlavní navigace Blackboard. Možnost Sdílet kalendář je v nabídce vedle záhlaví Nastavení kalendáře. Sdílený zdroj zahrnuje všechny vaše kurzy."
+          ],
+          "steps": [
+            "Otevřete Nastavení kalendáře pomocí ikony ozubeného kola.",
+            "Otevřete nabídku vedle nadpisu, vyberte Sdílet kalendář a zkopírujte odkaz."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Přidejte Blackboard do Apple Calendar na iPhone",
+          "paragraphs": [
+            "Otevřete Kalendář a klepněte na Kalendáře. Klepněte na Přidat kalendář a poté na Přidat kalendář předplatného. Vložte odkaz a postupujte podle pokynů. Vyberte iCloud jako účet, pokud jej chcete na zařízeních přihlášených ke stejnému účtu Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Přidejte Blackboard do Kalendáře Google",
+          "paragraphs": [
+            "Na počítači otevřete Kalendář Google. Klikněte na znaménko plus vedle položky Jiné kalendáře, vyberte Z adresy URL, vložte odkaz a vyberte Přidat kalendář. Ujistěte se, že je přihlášený kalendář viditelný."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Proč chybí zadání Blackboard?",
+          "answer": "Nejprve zkontrolujte úkol a jeho datum dokončení v Blackboard. Zkontrolujte, zda je přihlášený kalendář viditelný ve správném účtu. Externí kalendáře se obnovují podle vlastního plánu, takže si ověřte jakýkoli naléhavý termín v Blackboard."
+        },
+        {
+          "question": "Mohu si předplatit pouze jeden Ultra kurz?",
+          "answer": "Sdílený kanál Blackboard Ultra pokrývá všechny vaše kurzy. Pro jeden kurz použijte kalendář uvnitř tohoto kurzu Blackboard."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Hur man lägger till Blackboard till Apple Calendar eller Google Calendar",
+      "description": "Kopiera Blackboard Ultra-kalenderlänken och prenumerera på iPhone eller i Google Kalender. Kontrollera vad du ska göra när ett förfallodatum saknas.",
+      "intro": "Prenumerera på Blackboard Ultra-kalendern för att se kursevenemang och publicerade förfallodatum tillsammans med ditt personliga schema. Börja i Blackboard på webben och håll kalenderns URL privat.",
+      "answer": "I Blackboard Ultra, öppna Kalender från huvudsidofältet, öppna Kalenderinställningar och välj Dela kalender från menyn. Kopiera länken och lägg till den som en prenumeration i Apple Calendar eller som en kalender-URL i Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Hitta Blackboard Ultra-kalenderlänken",
+          "paragraphs": [
+            "Använd Kalender från Blackboards huvudnavigering. Alternativet Dela kalender finns i menyn bredvid rubriken Kalenderinställningar. Det delade flödet inkluderar alla dina kurser."
+          ],
+          "steps": [
+            "Öppna Kalenderinställningar med hjälp av kugghjulsikonen.",
+            "Öppna menyn bredvid rubriken, välj Dela kalender och kopiera länken."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Lägg till Blackboard till Apple Calendar på iPhone",
+          "paragraphs": [
+            "Öppna Kalender och tryck på Kalendrar. Tryck på Lägg till kalender och sedan på Lägg till prenumerationskalender. Klistra in länken och följ anvisningarna. Välj iCloud som konto om du vill ha det på enheter som är inloggade på samma Apple-konto."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Lägg till Blackboard till Google Kalender",
+          "paragraphs": [
+            "Öppna Google Kalender på en dator. Klicka på plustecknet bredvid Andra kalendrar, välj Från URL, klistra in länken och välj Lägg till kalender. Se till att den prenumererade kalendern är synlig."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Varför saknas en Blackboard-uppgift?",
+          "answer": "Kontrollera först uppdraget och dess förfallodatum i Blackboard. Bekräfta att den prenumererade kalendern är synlig på rätt konto. Externa kalendrar uppdateras enligt sitt eget schema, så verifiera eventuella brådskande deadline i Blackboard."
+        },
+        {
+          "question": "Kan jag prenumerera på bara en Ultra-kurs?",
+          "answer": "Det delade Blackboard Ultra-flödet täcker alla dina kurser. För en kurs, använd kalendern i den Blackboard-kursen."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Com afegir Blackboard a Apple Calendar o Google Calendar",
+      "description": "Copia l'enllaç del calendari Blackboard Ultra i subscriu-te a l'iPhone o al Google Calendar. Comproveu què heu de fer quan falta una data de venciment.",
+      "intro": "Subscriu-te al calendari Blackboard Ultra per veure els esdeveniments del curs i les dates de venciment publicades juntament amb la teva agenda personal. Comenceu a Blackboard al web i manteniu l'URL del calendari privat.",
+      "answer": "A Blackboard Ultra, obriu Calendari des de la barra lateral principal, obriu Configuració del calendari i trieu Compartir el calendari al menú. Copieu l'enllaç i afegiu-lo com a subscripció a Apple Calendar o com a URL de calendari a Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Trobeu l'enllaç del calendari Blackboard Ultra",
+          "paragraphs": [
+            "Utilitzeu Calendar des de la navegació principal de Blackboard. L'opció Comparteix el calendari es troba al menú al costat de l'encapçalament Configuració del calendari. El feed compartit inclou tots els vostres cursos."
+          ],
+          "steps": [
+            "Obriu la configuració del calendari amb la icona d'engranatge.",
+            "Obriu el menú al costat de l'encapçalament, trieu Compartir el calendari i copieu l'enllaç."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Afegeix Blackboard a Apple Calendar a l'iPhone",
+          "paragraphs": [
+            "Obriu Calendari i toqueu Calendaris. Toqueu Afegeix un calendari i, a continuació, Afegeix un calendari de subscripció. Enganxeu l'enllaç i seguiu les instruccions. Trieu iCloud com a compte si el voleu en dispositius amb la sessió iniciada al mateix compte d'Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Afegeix Blackboard a Google Calendar",
+          "paragraphs": [
+            "En un ordinador, obriu Google Calendar. Feu clic al signe més al costat d'altres calendaris, trieu Des de l'URL, enganxeu l'enllaç i seleccioneu Afegeix un calendari. Assegureu-vos que el calendari subscrit sigui visible."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Per què falta una tasca Blackboard?",
+          "answer": "Comproveu primer la tasca i la seva data de venciment a Blackboard. Confirmeu que el calendari subscrit és visible al compte correcte. Els calendaris externs s'actualitzen segons el seu propi horari, així que verifiqueu qualsevol data límit urgent a Blackboard."
+        },
+        {
+          "question": "Puc subscriure'm només a un curs Ultra?",
+          "answer": "El feed Blackboard Ultra compartit cobreix tots els vostres cursos. Per a un curs, utilitzeu el calendari d'aquest curs Blackboard."
+        }
+      ]
+    },
+    "da": {
+      "title": "Sådan tilføjer du Blackboard til Apple Calendar eller Google Calendar",
+      "description": "Kopier Blackboard Ultra-kalenderlinket og abonner på iPhone eller i Google Kalender. Tjek, hvad du skal gøre, når en forfaldsdato mangler.",
+      "intro": "Abonner på Blackboard Ultra-kalenderen for at se kursusbegivenheder og udsendte forfaldsdatoer sammen med din personlige tidsplan. Start i Blackboard på nettet og hold kalenderens URL privat.",
+      "answer": "I Blackboard Ultra skal du åbne Kalender fra hovedsidebjælken, åbne Kalenderindstillinger og vælge Del kalender i menuen. Kopier linket og tilføj det som et abonnement i Apple Kalender eller som en kalender-URL i Google Kalender.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Find Blackboard Ultra-kalenderlinket",
+          "paragraphs": [
+            "Brug Kalender fra Blackboards hovednavigation. Indstillingen Del kalender er i menuen ved siden af ​​overskriften Kalenderindstillinger. Det delte feed inkluderer alle dine kurser."
+          ],
+          "steps": [
+            "Åbn Kalenderindstillinger ved hjælp af tandhjulsikonet.",
+            "Åbn menuen ved siden af overskriften, vælg Del kalender og kopier linket."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Føj Blackboard til Apple Calendar på iPhone",
+          "paragraphs": [
+            "Åbn Kalender, og tryk på Kalendere. Tryk på Tilføj kalender og derefter på Tilføj abonnementskalender. Indsæt linket og følg vejledningen. Vælg iCloud som kontoen, hvis du vil have den på enheder, der er logget ind på den samme Apple-konto."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Føj Blackboard til Google Kalender",
+          "paragraphs": [
+            "Åbn Google Kalender på en computer. Klik på pluspunktet ud for Andre kalendere, vælg Fra URL, indsæt linket og vælg Tilføj kalender. Sørg for, at den abonnerede kalender er synlig."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Hvorfor mangler der en Blackboard-opgave?",
+          "answer": "Tjek først opgaven og dens forfaldsdato i Blackboard. Bekræft, at den tilmeldte kalender er synlig på den korrekte konto. Eksterne kalendere opdateres efter deres egen tidsplan, så bekræft enhver presserende deadline i Blackboard."
+        },
+        {
+          "question": "Kan jeg kun abonnere på ét Ultra-kursus?",
+          "answer": "Det delte Blackboard Ultra-feed dækker alle dine kurser. For ét kursus, brug kalenderen inde i det Blackboard kursus."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Kuinka lisätä Blackboard Apple- tai Google-kalenteriin",
+      "description": "Kopioi Blackboard Ultra -kalenterilinkki ja tilaa iPhonessa tai Google-kalenterissa. Tarkista, mitä tehdä, kun eräpäivä puuttuu.",
+      "intro": "Tilaa Blackboard Ultra -kalenteri nähdäksesi kurssitapahtumat ja lähetetyt eräpäivät henkilökohtaisen aikataulusi ohella. Aloita Blackboard:stä verkossa ja pidä kalenterin URL-osoite yksityisenä.",
+      "answer": "Avaa Blackboard Ultrassa Kalenteri pääsivupalkista, avaa kalenterin asetukset ja valitse valikosta Jaa kalenteri. Kopioi linkki ja lisää se tilaukseksi Apple-kalenteriin tai kalenterin URL-osoitteeksi Google-kalenteriin.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Etsi Blackboard Ultra -kalenterilinkki",
+          "paragraphs": [
+            "Käytä kalenteria Blackboard:n päänavigaatiosta. Jaa kalenteri -vaihtoehto on Kalenteriasetukset-otsikon vieressä olevassa valikossa. Jaettu syöte sisältää kaikki kurssisi."
+          ],
+          "steps": [
+            "Avaa kalenterin asetukset rataskuvakkeella.",
+            "Avaa otsikon vieressä oleva valikko, valitse Jaa kalenteri ja kopioi linkki."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Lisää Blackboard iPhonen Apple-kalenteriin",
+          "paragraphs": [
+            "Avaa Kalenteri ja napauta Kalenterit. Napauta Lisää kalenteri ja sitten Lisää tilauskalenteri. Liitä linkki ja seuraa ohjeita. Valitse tiliksi iCloud, jos haluat sen laitteissa, joissa on kirjauduttu sisään samalle Apple-tilille."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Lisää Blackboard Google-kalenteriin",
+          "paragraphs": [
+            "Avaa Google-kalenteri tietokoneella. Napsauta Plus-merkkiä Muut kalenterit -kohdan vieressä, valitse URL-osoitteesta, liitä linkki ja valitse Lisää kalenteri. Varmista, että tilaamasi kalenteri on näkyvissä."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Miksi Blackboard-tehtävä puuttuu?",
+          "answer": "Tarkista ensin tehtävä ja sen eräpäivä Blackboard:stä. Varmista, että tilattu kalenteri näkyy oikealla tilillä. Ulkoiset kalenterit päivittyvät oman aikataulunsa mukaan, joten tarkista mahdolliset kiireelliset määräajat Blackboard:stä."
+        },
+        {
+          "question": "Voinko tilata vain yhden Ultra-kurssin?",
+          "answer": "Jaettu Blackboard Ultra -syöte kattaa kaikki kurssisi. Käytä yhdellä kurssilla kyseisen Blackboard-kurssin kalenteria."
+        }
+      ]
+    },
+    "el": {
+      "title": "Πώς να προσθέσετε το Blackboard στο Ημερολόγιο της Apple ή στο Ημερολόγιο Google",
+      "description": "Αντιγράψτε τον σύνδεσμο ημερολογίου Blackboard Ultra και εγγραφείτε στο iPhone ή στο Ημερολόγιο Google. Ελέγξτε τι πρέπει να κάνετε όταν λείπει μια ημερομηνία λήξης.",
+      "intro": "Εγγραφείτε στο ημερολόγιο Blackboard Ultra για να δείτε τα γεγονότα των μαθημάτων και τις δημοσιευμένες ημερομηνίες λήξης μαζί με το προσωπικό σας πρόγραμμα. Ξεκινήστε στο Blackboard στον ιστό και διατηρήστε τη διεύθυνση URL του ημερολογίου απόρρητη.",
+      "answer": "Στο Blackboard Ultra, ανοίξτε το Ημερολόγιο από την κύρια πλαϊνή γραμμή, ανοίξτε τις Ρυθμίσεις ημερολογίου και επιλέξτε Κοινή χρήση ημερολογίου από το μενού. Αντιγράψτε τον σύνδεσμο και προσθέστε τον ως συνδρομή στο Ημερολόγιο της Apple ή ως διεύθυνση URL ημερολογίου στο Ημερολόγιο Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Βρείτε τον σύνδεσμο ημερολογίου Blackboard Ultra",
+          "paragraphs": [
+            "Χρησιμοποιήστε το Ημερολόγιο από την κύρια πλοήγηση του Blackboard. Η επιλογή Κοινή χρήση ημερολογίου βρίσκεται στο μενού δίπλα στην επικεφαλίδα Ρυθμίσεις ημερολογίου. Η κοινόχρηστη ροή περιλαμβάνει όλα τα μαθήματά σας."
+          ],
+          "steps": [
+            "Ανοίξτε τις Ρυθμίσεις Ημερολογίου χρησιμοποιώντας το εικονίδιο με το γρανάζι.",
+            "Ανοίξτε το μενού δίπλα στην επικεφαλίδα, επιλέξτε Κοινή χρήση ημερολογίου και αντιγράψτε τον σύνδεσμο."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Προσθέστε το Blackboard στο Ημερολόγιο της Apple στο iPhone",
+          "paragraphs": [
+            "Ανοίξτε το Ημερολόγιο και πατήστε Ημερολόγια. Πατήστε Προσθήκη ημερολογίου και, στη συνέχεια, Προσθήκη ημερολογίου συνδρομής. Επικολλήστε τον σύνδεσμο και ακολουθήστε τις οδηγίες. Επιλέξτε το iCloud ως λογαριασμό εάν το θέλετε σε συσκευές που είναι συνδεδεμένες στον ίδιο λογαριασμό Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Προσθέστε το Blackboard στο Ημερολόγιο Google",
+          "paragraphs": [
+            "Σε υπολογιστή, ανοίξτε το Ημερολόγιο Google. Κάντε κλικ στο συν δίπλα στο Άλλα ημερολόγια, επιλέξτε Από τη διεύθυνση URL, επικολλήστε τον σύνδεσμο και επιλέξτε Προσθήκη ημερολογίου. Βεβαιωθείτε ότι το εγγεγραμμένο ημερολόγιο είναι ορατό."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Γιατί λείπει μια εργασία Blackboard;",
+          "answer": "Ελέγξτε πρώτα την ανάθεση και την ημερομηνία λήξης της στο Blackboard. Επιβεβαιώστε ότι το εγγεγραμμένο ημερολόγιο είναι ορατό στον σωστό λογαριασμό. Τα εξωτερικά ημερολόγια ανανεώνονται σύμφωνα με το δικό τους πρόγραμμα, επομένως επαληθεύστε οποιαδήποτε επείγουσα προθεσμία στο Blackboard."
+        },
+        {
+          "question": "Μπορώ να εγγραφώ σε ένα μόνο μάθημα Ultra;",
+          "answer": "Η κοινόχρηστη ροή Blackboard Ultra καλύπτει όλα τα μαθήματά σας. Για ένα μάθημα, χρησιμοποιήστε το ημερολόγιο μέσα σε αυτό το μάθημα Blackboard."
+        }
+      ]
+    },
+    "hu": {
+      "title": "A Blackboard hozzáadása az Apple Calendarhoz vagy a Google Naptárhoz",
+      "description": "Másolja ki a Blackboard Ultra naptárlinket, és iratkozzon fel iPhone-on vagy a Google Naptárban. Ellenőrizze, mi a teendő, ha hiányzik a határidő.",
+      "intro": "Iratkozzon fel a Blackboard Ultra naptárra, hogy személyes ütemezése mellett megtekinthesse a tanfolyami eseményeket és a közzétett esedékességeket. Indítsa el a Blackboard alkalmazást az interneten, és tartsa privátban a naptár URL-címét.",
+      "answer": "A Blackboard Ultra alkalmazásban nyissa meg a Naptárat a fő oldalsávról, nyissa meg a Naptár beállításait, és válassza a Naptár megosztása lehetőséget a menüből. Másolja ki a hivatkozást, és adja hozzá előfizetésként az Apple Calendarban vagy naptár URL-jeként a Google Naptárban.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Keresse meg a Blackboard Ultra naptár hivatkozást",
+          "paragraphs": [
+            "Használja a Naptárt a Blackboard fő navigációjából. A Naptár megosztása opció a Naptárbeállítások fejléc melletti menüben található. A megosztott feed tartalmazza az összes kurzust."
+          ],
+          "steps": [
+            "Nyissa meg a Naptár beállításait a fogaskerék ikonnal.",
+            "Nyissa meg a címsor melletti menüt, válassza a Naptár megosztása lehetőséget, és másolja ki a hivatkozást."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Adja hozzá a Blackboard-t az Apple Naptárhoz iPhone-on",
+          "paragraphs": [
+            "Nyissa meg a Naptárat, és koppintson a Naptárak elemre. Koppintson a Naptár hozzáadása, majd az Előfizetési naptár hozzáadása elemre. Illessze be a linket, és kövesse az utasításokat. Válassza az iCloudot fiókként, ha azt szeretné, hogy az ugyanazon Apple-fiókkal bejelentkezett eszközökön is használja."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Adja hozzá a Blackboard-t a Google Naptárhoz",
+          "paragraphs": [
+            "Számítógépen nyissa meg a Google Naptárt. Kattintson a pluszjelre az Egyéb naptárak mellett, válassza az URL-ből lehetőséget, illessze be a hivatkozást, és válassza a Naptár hozzáadása lehetőséget. Győződjön meg arról, hogy a feliratkozott naptár látható."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Miért hiányzik egy Blackboard hozzárendelés?",
+          "answer": "Először ellenőrizze a feladatot és annak esedékességét a Blackboard-ben. Győződjön meg arról, hogy az előfizetett naptár a megfelelő fiókban látható. A külső naptárak saját ütemezésük szerint frissülnek, ezért ellenőrizze a sürgős határidőket a Blackboard-ben."
+        },
+        {
+          "question": "Feliratkozhatok csak egy Ultra tanfolyamra?",
+          "answer": "A megosztott Blackboard Ultra feed minden kurzusát lefedi. Egy kurzushoz használja a Blackboard kurzuson belüli naptárt."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Bagaimana untuk menambah Blackboard pada Kalendar Apple atau Kalendar Google",
+      "description": "Salin pautan kalendar Blackboard Ultra dan langgan pada iPhone atau dalam Kalendar Google. Semak perkara yang perlu dilakukan apabila tarikh tamat tempoh tiada.",
+      "intro": "Langgan kalendar Blackboard Ultra untuk melihat acara kursus dan menyiarkan tarikh tamat bersama jadual peribadi anda. Mulakan dalam Blackboard di web dan pastikan URL kalendar peribadi.",
+      "answer": "Dalam Blackboard Ultra, buka Kalendar dari bar sisi utama, buka Tetapan Kalendar dan pilih Kongsi Kalendar daripada menu. Salin pautan dan tambahkannya sebagai langganan dalam Kalendar Apple atau sebagai URL kalendar dalam Kalendar Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Cari pautan kalendar Blackboard Ultra",
+          "paragraphs": [
+            "Gunakan Kalendar daripada navigasi utama Blackboard. Pilihan Kongsi Kalendar berada dalam menu di sebelah tajuk Tetapan Kalendar. Suapan kongsi termasuk semua kursus anda."
+          ],
+          "steps": [
+            "Buka Tetapan Kalendar menggunakan ikon gear.",
+            "Buka menu di sebelah tajuk, pilih Kongsi Kalendar dan salin pautan."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Tambahkan Blackboard pada Kalendar Apple pada iPhone",
+          "paragraphs": [
+            "Buka Kalendar dan ketik Kalendar. Ketik Tambah Kalendar, kemudian Tambah Kalendar Langganan. Tampal pautan dan ikut gesaan. Pilih iCloud sebagai akaun jika anda mahukannya pada peranti yang dilog masuk ke Akaun Apple yang sama."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Tambahkan Blackboard pada Kalendar Google",
+          "paragraphs": [
+            "Pada komputer, buka Kalendar Google. Klik tambah di sebelah Kalendar lain, pilih Daripada URL, tampal pautan dan pilih Tambah kalendar. Pastikan kalendar yang dilanggan kelihatan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mengapakah tugasan Blackboard tiada?",
+          "answer": "Semak tugasan dan tarikh tamatnya dalam Blackboard dahulu. Sahkan bahawa kalendar yang dilanggan kelihatan dalam akaun yang betul. Kalendar luaran dimuat semula mengikut jadual mereka sendiri, jadi sahkan sebarang tarikh akhir yang mendesak dalam Blackboard."
+        },
+        {
+          "question": "Bolehkah saya melanggan satu kursus Ultra sahaja?",
+          "answer": "Suapan Blackboard Ultra yang dikongsi merangkumi semua kursus anda. Untuk satu kursus, gunakan kalendar di dalam kursus Blackboard itu."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Slik legger du til Blackboard i Apple Calendar eller Google Calendar",
+      "description": "Kopier Blackboard Ultra-kalenderlinken og abonner på iPhone eller i Google Kalender. Sjekk hva du skal gjøre når en forfallsdato mangler.",
+      "intro": "Abonner på Blackboard Ultra-kalenderen for å se kursbegivenheter og forfallsdatoer sammen med din personlige timeplan. Start i Blackboard på nettet og hold kalenderens URL privat.",
+      "answer": "I Blackboard Ultra åpner du Kalender fra hovedsidefeltet, åpner Kalenderinnstillinger og velger Del kalender fra menyen. Kopier koblingen og legg den til som et abonnement i Apple Calendar eller som en kalender-URL i Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Finn Blackboard Ultra-kalenderlenken",
+          "paragraphs": [
+            "Bruk Kalender fra Blackboards hovednavigasjon. Alternativet Del kalender er i menyen ved siden av overskriften Kalenderinnstillinger. Den delte feeden inkluderer alle kursene dine."
+          ],
+          "steps": [
+            "Åpne Kalenderinnstillinger ved hjelp av tannhjulikonet.",
+            "Åpne menyen ved siden av overskriften, velg Del kalender og kopier lenken."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Legg til Blackboard til Apple Calendar på iPhone",
+          "paragraphs": [
+            "Åpne Kalender og trykk på Kalendere. Trykk på Legg til kalender og deretter Legg til abonnementskalender. Lim inn lenken og følg instruksjonene. Velg iCloud som kontoen hvis du vil ha den på enheter som er logget på den samme Apple-kontoen."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Legg til Blackboard i Google Kalender",
+          "paragraphs": [
+            "Åpne Google Kalender på en datamaskin. Klikk på plusset ved siden av Andre kalendere, velg Fra URL, lim inn koblingen og velg Legg til kalender. Sørg for at den abonnerte kalenderen er synlig."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Hvorfor mangler en Blackboard-oppgave?",
+          "answer": "Sjekk oppgaven og forfallsdatoen i Blackboard først. Bekreft at den abonnerte kalenderen er synlig på riktig konto. Eksterne kalendere oppdateres etter sin egen tidsplan, så bekreft enhver presserende frist i Blackboard."
+        },
+        {
+          "question": "Kan jeg abonnere på bare ett Ultra-kurs?",
+          "answer": "Den delte Blackboard Ultra-feeden dekker alle kursene dine. For ett kurs, bruk kalenderen i det Blackboard-kurset."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Cum să adăugați Blackboard la Apple Calendar sau Google Calendar",
+      "description": "Copiați linkul de calendar Blackboard Ultra și abonați-vă pe iPhone sau în Google Calendar. Verificați ce să faceți când lipsește o dată limită.",
+      "intro": "Abonați-vă la calendarul Blackboard Ultra pentru a vedea evenimentele cursului și termenele afișate alături de programul dvs. personal. Începeți în Blackboard pe web și păstrați adresa URL a calendarului privată.",
+      "answer": "În Blackboard Ultra, deschideți Calendar din bara laterală principală, deschideți Calendar Settings și alegeți Share Calendar din meniu. Copiați linkul și adăugați-l ca abonament în Apple Calendar sau ca adresă URL a calendarului în Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Găsiți linkul calendarului Blackboard Ultra",
+          "paragraphs": [
+            "Utilizați Calendar din navigarea principală a Blackboard. Opțiunea Partajare calendar se află în meniul de lângă titlul Setări calendar. Feedul partajat include toate cursurile dvs."
+          ],
+          "steps": [
+            "Deschide Setările calendarului folosind pictograma roată.",
+            "Deschideți meniul de lângă titlu, alegeți Partajare calendar și copiați linkul."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Adăugați Blackboard la Apple Calendar de pe iPhone",
+          "paragraphs": [
+            "Deschideți Calendar și atingeți Calendare. Atingeți Adăugare calendar, apoi Adăugați calendar de abonament. Lipiți linkul și urmați instrucțiunile. Alegeți iCloud ca cont dacă îl doriți pe dispozitivele conectate la același cont Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Adăugați Blackboard la Google Calendar",
+          "paragraphs": [
+            "Pe un computer, deschide Google Calendar. Faceți clic pe plus de lângă Alte calendare, alegeți Din URL, inserați linkul și selectați Adăugați calendar. Asigurați-vă că calendarul abonat este vizibil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "De ce lipsește o temă Blackboard?",
+          "answer": "Verificați mai întâi misiunea și data scadentă în Blackboard. Confirmați că calendarul abonat este vizibil în contul corect. Calendarele externe se reîmprospătează după propriul program, așa că verificați orice termen limită urgent în Blackboard."
+        },
+        {
+          "question": "Pot să mă abonez la un singur curs Ultra?",
+          "answer": "Feedul Blackboard Ultra partajat acoperă toate cursurile dvs. Pentru un curs, utilizați calendarul din acel curs Blackboard."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Kako dodati Blackboard u Apple Calendar ili Google Calendar",
+      "description": "Kopirajte vezu kalendara Blackboard Ultra i pretplatite se na iPhoneu ili u Google kalendaru. Provjerite što učiniti ako nedostaje rok.",
+      "intro": "Pretplatite se na kalendar Blackboard Ultra kako biste vidjeli događaje na tečaju i objavljene rokove uz svoj osobni raspored. Počnite u Blackboard na webu i zadržite URL kalendara privatnim.",
+      "answer": "U Blackboard Ultra otvorite Kalendar na glavnoj bočnoj traci, otvorite Postavke kalendara i odaberite Dijeli kalendar iz izbornika. Kopirajte vezu i dodajte je kao pretplatu u Apple Calendar ili kao URL kalendara u Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Pronađite poveznicu na kalendar Blackboard Ultra",
+          "paragraphs": [
+            "Koristite Kalendar iz glavne navigacije Blackboard. Opcija Dijeli kalendar nalazi se u izborniku pored naslova Postavke kalendara. Dijeljeni feed uključuje sve vaše tečajeve."
+          ],
+          "steps": [
+            "Otvorite postavke kalendara pomoću ikone zupčanika.",
+            "Otvorite izbornik pokraj naslova, odaberite Dijeli kalendar i kopirajte vezu."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Dodajte Blackboard u Apple kalendar na iPhoneu",
+          "paragraphs": [
+            "Otvorite Kalendar i dodirnite Kalendari. Dodirnite Dodaj kalendar, zatim Dodaj kalendar pretplate. Zalijepite vezu i slijedite upute. Odaberite iCloud kao račun ako ga želite na uređajima koji su prijavljeni na isti Apple račun."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Dodajte Blackboard u Google kalendar",
+          "paragraphs": [
+            "Na računalu otvorite Google kalendar. Kliknite plus pokraj Ostali kalendari, odaberite Iz URL-a, zalijepite vezu i odaberite Dodaj kalendar. Provjerite je li kalendar na koji ste pretplaćeni vidljiv."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Zašto nedostaje zadatak Blackboard?",
+          "answer": "Prvo provjerite zadatak i njegov rok u Blackboard. Potvrdite da je pretplaćeni kalendar vidljiv na ispravnom računu. Vanjski kalendari osvježavaju se prema vlastitom rasporedu, stoga provjerite sve hitne rokove u Blackboard."
+        },
+        {
+          "question": "Mogu li se pretplatiti na samo jedan Ultra tečaj?",
+          "answer": "Zajednički Blackboard Ultra feed pokriva sve vaše tečajeve. Za jedan tečaj koristite kalendar unutar tog Blackboard tečaja."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Ako pridať Blackboard do Apple Calendar alebo Google Calendar",
+      "description": "Skopírujte odkaz na kalendár Blackboard Ultra a prihláste sa na odber na iPhone alebo v Kalendári Google. Skontrolujte, čo robiť, keď chýba dátum splatnosti.",
+      "intro": "Prihláste sa na odber kalendára Blackboard Ultra, aby ste videli udalosti kurzov a zverejnené termíny spolu so svojím osobným rozvrhom. Začnite v Blackboard na webe a ponechajte adresu URL kalendára ako súkromnú.",
+      "answer": "V Blackboard Ultra otvorte Kalendár z hlavného bočného panela, otvorte Nastavenia kalendára a z ponuky vyberte Zdieľať kalendár. Skopírujte odkaz a pridajte ho ako predplatné v kalendári Apple alebo ako adresu URL kalendára v kalendári Google.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Nájdite odkaz na kalendár Blackboard Ultra",
+          "paragraphs": [
+            "Použite Kalendár z hlavnej navigácie Blackboard. Možnosť Zdieľať kalendár sa nachádza v ponuke vedľa nadpisu Nastavenia kalendára. Zdieľaný informačný kanál obsahuje všetky vaše kurzy."
+          ],
+          "steps": [
+            "Otvorte nastavenia kalendára pomocou ikony ozubeného kolieska.",
+            "Otvorte ponuku vedľa nadpisu, vyberte položku Zdieľať kalendár a skopírujte odkaz."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Pridajte Blackboard do Apple Calendar na iPhone",
+          "paragraphs": [
+            "Otvorte Kalendár a klepnite na Kalendáre. Klepnite na Pridať kalendár a potom na Pridať kalendár odberov. Vložte odkaz a postupujte podľa pokynov. Vyberte iCloud ako účet, ak ho chcete na zariadeniach prihlásených do rovnakého účtu Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Pridajte Blackboard do Kalendára Google",
+          "paragraphs": [
+            "V počítači otvorte Kalendár Google. Kliknite na znamienko plus vedľa položky Iné kalendáre, vyberte položku Z adresy URL, prilepte prepojenie a vyberte položku Pridať kalendár. Uistite sa, že prihlásený kalendár je viditeľný."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Prečo chýba zadanie Blackboard?",
+          "answer": "Najprv skontrolujte úlohu a jej termín v Blackboard. Potvrďte, že prihlásený kalendár je viditeľný v správnom účte. Externé kalendáre sa obnovujú podľa vlastného plánu, preto si overte akýkoľvek naliehavý termín v Blackboard."
+        },
+        {
+          "question": "Môžem si predplatiť iba jeden kurz Ultra?",
+          "answer": "Zdieľaný informačný kanál Blackboard Ultra pokrýva všetky vaše kurzy. Pre jeden kurz použite kalendár vo vnútri tohto kurzu Blackboard."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Kako dodati Blackboard v Apple Calendar ali Google Calendar",
+      "description": "Kopirajte povezavo koledarja Blackboard Ultra in se naročite na iPhone ali Google Calendar. Preverite, kaj storiti, ko manjka rok.",
+      "intro": "Naročite se na koledar Blackboard Ultra, če si želite ogledati dogodke na tečajih in objavljene roke poleg svojega osebnega urnika. Začnite v Blackboard v spletu in ohranite zaseben URL koledarja.",
+      "answer": "V Blackboard Ultra odprite Koledar v glavni stranski vrstici, odprite Nastavitve koledarja in v meniju izberite Skupna raba koledarja. Kopirajte povezavo in jo dodajte kot naročnino v Apple Calendar ali kot URL koledarja v Google Calendar.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Poiščite povezavo koledarja Blackboard Ultra",
+          "paragraphs": [
+            "Uporabite Koledar iz glavne navigacije Blackboard. Možnost Skupna raba koledarja je v meniju poleg naslova Nastavitve koledarja. Skupni vir vključuje vse vaše tečaje."
+          ],
+          "steps": [
+            "Odprite Nastavitve koledarja z ikono zobnika.",
+            "Odprite meni poleg naslova, izberite Skupna raba koledarja in kopirajte povezavo."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "Dodajte Blackboard v Apple Calendar na iPhone",
+          "paragraphs": [
+            "Odprite Koledar in tapnite Koledarji. Tapnite Dodaj koledar in nato Dodaj naročniški koledar. Prilepite povezavo in sledite navodilom. Izberite iCloud kot račun, če ga želite v napravah, vpisanih v isti račun Apple."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Dodajte Blackboard v Google Koledar",
+          "paragraphs": [
+            "V računalniku odprite Google Koledar. Kliknite plus zraven Drugi koledarji, izberite Iz URL-ja, prilepite povezavo in izberite Dodaj koledar. Prepričajte se, da je naročen koledar viden."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Zakaj manjka dodelitev Blackboard?",
+          "answer": "Najprej preverite nalogo in njen rok v Blackboard. Potrdite, da je naročeni koledar viden v pravem računu. Zunanji koledarji se osvežujejo po lastnem urniku, zato preverite vse nujne roke v Blackboard."
+        },
+        {
+          "question": "Ali se lahko naročim le na en Ultra tečaj?",
+          "answer": "Skupni vir Blackboard Ultra pokriva vse vaše tečaje. Za en tečaj uporabite koledar znotraj tečaja Blackboard."
+        }
+      ]
+    },
+    "gu": {
+      "title": "એપલ કેલેન્ડર અથવા ગૂગલ કેલેન્ડરમાં Blackboard કેવી રીતે ઉમેરવું",
+      "description": "Blackboard અલ્ટ્રા કૅલેન્ડર લિંક કૉપિ કરો અને iPhone અથવા Google કૅલેન્ડરમાં સબ્સ્ક્રાઇબ કરો. જ્યારે નિયત તારીખ ખૂટે છે ત્યારે શું કરવું તે તપાસો.",
+      "intro": "તમારા વ્યક્તિગત શેડ્યૂલની સાથે કોર્સ ઇવેન્ટ્સ અને પોસ્ટ કરેલી નિયત તારીખો જોવા માટે Blackboard અલ્ટ્રા કૅલેન્ડર પર સબ્સ્ક્રાઇબ કરો. વેબ પર Blackboard માં પ્રારંભ કરો અને કૅલેન્ડર URL ખાનગી રાખો.",
+      "answer": "Blackboard અલ્ટ્રામાં, મુખ્ય સાઇડબારમાંથી કૅલેન્ડર ખોલો, કૅલેન્ડર સેટિંગ્સ ખોલો અને મેનૂમાંથી કૅલેન્ડર શેર કરો પસંદ કરો. લિંકને કૉપિ કરો અને તેને Apple કૅલેન્ડરમાં સબ્સ્ક્રિપ્શન તરીકે અથવા Google કૅલેન્ડરમાં કૅલેન્ડર URL તરીકે ઉમેરો.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard અલ્ટ્રા કૅલેન્ડર લિંક શોધો",
+          "paragraphs": [
+            "Blackboard ના મુખ્ય નેવિગેશનમાંથી કૅલેન્ડરનો ઉપયોગ કરો. કેલેન્ડર સેટિંગ્સ હેડિંગની બાજુમાં મેનૂમાં શેર કેલેન્ડર વિકલ્પ છે. શેર કરેલ ફીડમાં તમારા બધા અભ્યાસક્રમો શામેલ છે."
+          ],
+          "steps": [
+            "ગિયર આયકનનો ઉપયોગ કરીને કેલેન્ડર સેટિંગ્સ ખોલો.",
+            "હેડિંગની બાજુમાં મેનૂ ખોલો, કેલેન્ડર શેર કરો પસંદ કરો અને લિંકની નકલ કરો."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone પર Apple કૅલેન્ડરમાં Blackboard ઉમેરો",
+          "paragraphs": [
+            "કૅલેન્ડર ખોલો અને કૅલેન્ડર્સ પર ટૅપ કરો. કૅલેન્ડર ઉમેરો પર ટૅપ કરો, પછી સબસ્ક્રિપ્શન કૅલેન્ડર ઉમેરો. લિંક પેસ્ટ કરો અને પ્રોમ્પ્ટ્સને અનુસરો. જો તમે સમાન Apple એકાઉન્ટમાં સાઇન ઇન કરેલ ઉપકરણો પર તેને જોઈતા હોવ તો એકાઉન્ટ તરીકે iCloud પસંદ કરો."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google કૅલેન્ડરમાં Blackboard ઉમેરો",
+          "paragraphs": [
+            "કમ્પ્યુટર પર, Google Calendar ખોલો. અન્ય કૅલેન્ડર્સની બાજુમાં પ્લસ પર ક્લિક કરો, URLમાંથી પસંદ કરો, લિંક પેસ્ટ કરો અને કૅલેન્ડર ઉમેરો પસંદ કરો. ખાતરી કરો કે સબ્સ્ક્રાઇબ કરેલ કેલેન્ડર દૃશ્યમાન છે."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard અસાઇનમેન્ટ કેમ ખૂટે છે?",
+          "answer": "પહેલા Blackboard માં સોંપણી અને તેની નિયત તારીખ તપાસો. ખાતરી કરો કે સબ્સ્ક્રાઇબ કરેલ કેલેન્ડર સાચા ખાતામાં દેખાય છે. બાહ્ય કૅલેન્ડર્સ તેમના પોતાના શેડ્યૂલ પર રિફ્રેશ થાય છે, તેથી Blackboard માં કોઈપણ તાત્કાલિક સમયમર્યાદા ચકાસો."
+        },
+        {
+          "question": "શું હું માત્ર એક અલ્ટ્રા કોર્સમાં સબ્સ્ક્રાઇબ કરી શકું?",
+          "answer": "શેર કરેલ Blackboard અલ્ટ્રા ફીડ તમારા તમામ અભ્યાસક્રમોને આવરી લે છે. એક કોર્સ માટે, તે Blackboard કોર્સની અંદર કેલેન્ડરનો ઉપયોગ કરો."
+        }
+      ]
+    },
+    "kn": {
+      "title": "Apple ಕ್ಯಾಲೆಂಡರ್ ಅಥವಾ Google ಕ್ಯಾಲೆಂಡರ್‌ಗೆ Blackboard ಅನ್ನು ಹೇಗೆ ಸೇರಿಸುವುದು",
+      "description": "Blackboard ಅಲ್ಟ್ರಾ ಕ್ಯಾಲೆಂಡರ್ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಿ ಮತ್ತು iPhone ನಲ್ಲಿ ಅಥವಾ Google Calendar ನಲ್ಲಿ ಚಂದಾದಾರರಾಗಿ. ನಿಗದಿತ ದಿನಾಂಕ ಕಾಣೆಯಾದಾಗ ಏನು ಮಾಡಬೇಕೆಂದು ಪರಿಶೀಲಿಸಿ.",
+      "intro": "ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ವೇಳಾಪಟ್ಟಿಯೊಂದಿಗೆ ಕೋರ್ಸ್ ಈವೆಂಟ್‌ಗಳು ಮತ್ತು ಪೋಸ್ಟ್ ಮಾಡಿದ ದಿನಾಂಕಗಳನ್ನು ನೋಡಲು Blackboard ಅಲ್ಟ್ರಾ ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಚಂದಾದಾರರಾಗಿ. ವೆಬ್‌ನಲ್ಲಿ Blackboard ನಲ್ಲಿ ಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ URL ಅನ್ನು ಖಾಸಗಿಯಾಗಿ ಇರಿಸಿ.",
+      "answer": "Blackboard ಅಲ್ಟ್ರಾದಲ್ಲಿ, ಮುಖ್ಯ ಸೈಡ್‌ಬಾರ್‌ನಿಂದ ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಿರಿ, ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ ಮತ್ತು ಮೆನುವಿನಿಂದ ಹಂಚಿಕೆ ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಿ ಮತ್ತು ಅದನ್ನು Apple ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಚಂದಾದಾರಿಕೆಯಾಗಿ ಅಥವಾ Google ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಕ್ಯಾಲೆಂಡರ್ URL ಆಗಿ ಸೇರಿಸಿ.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard ಅಲ್ಟ್ರಾ ಕ್ಯಾಲೆಂಡರ್ ಲಿಂಕ್ ಅನ್ನು ಹುಡುಕಿ",
+          "paragraphs": [
+            "Blackboard ನ ಮುಖ್ಯ ನ್ಯಾವಿಗೇಶನ್‌ನಿಂದ ಕ್ಯಾಲೆಂಡರ್ ಬಳಸಿ. ಹಂಚಿಕೆ ಕ್ಯಾಲೆಂಡರ್ ಆಯ್ಕೆಯು ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಶೀರ್ಷಿಕೆಯ ಪಕ್ಕದಲ್ಲಿರುವ ಮೆನುವಿನಲ್ಲಿದೆ. ಹಂಚಿದ ಫೀಡ್ ನಿಮ್ಮ ಎಲ್ಲಾ ಕೋರ್ಸ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+          ],
+          "steps": [
+            "ಗೇರ್ ಐಕಾನ್ ಬಳಸಿ ಕ್ಯಾಲೆಂಡರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ.",
+            "ಶೀರ್ಷಿಕೆಯ ಪಕ್ಕದಲ್ಲಿರುವ ಮೆನು ತೆರೆಯಿರಿ, ಹಂಚಿಕೆ ಕ್ಯಾಲೆಂಡರ್ ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಿ."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone ನಲ್ಲಿ Apple ಕ್ಯಾಲೆಂಡರ್‌ಗೆ Blackboard ಸೇರಿಸಿ",
+          "paragraphs": [
+            "ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಿರಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್‌ಗಳನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ. ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸಿ ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಚಂದಾದಾರಿಕೆ ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸಿ. ಲಿಂಕ್ ಅನ್ನು ಅಂಟಿಸಿ ಮತ್ತು ಪ್ರಾಂಪ್ಟ್‌ಗಳನ್ನು ಅನುಸರಿಸಿ. ಅದೇ Apple ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿದ ಸಾಧನಗಳಲ್ಲಿ ನೀವು ಬಯಸಿದರೆ iCloud ಅನ್ನು ಖಾತೆಯಾಗಿ ಆಯ್ಕೆಮಾಡಿ."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google ಕ್ಯಾಲೆಂಡರ್‌ಗೆ Blackboard ಸೇರಿಸಿ",
+          "paragraphs": [
+            "ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ, Google ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಿರಿ. ಇತರೆ ಕ್ಯಾಲೆಂಡರ್‌ಗಳ ಪಕ್ಕದಲ್ಲಿರುವ ಪ್ಲಸ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ, URL ನಿಂದ ಆಯ್ಕೆಮಾಡಿ, ಲಿಂಕ್ ಅನ್ನು ಅಂಟಿಸಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸು ಆಯ್ಕೆಮಾಡಿ. ಚಂದಾದಾರರಾದ ಕ್ಯಾಲೆಂಡರ್ ಗೋಚರಿಸುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard ನಿಯೋಜನೆ ಏಕೆ ಕಾಣೆಯಾಗಿದೆ?",
+          "answer": "ಮೊದಲು Blackboard ನಲ್ಲಿ ನಿಯೋಜನೆ ಮತ್ತು ಅದರ ಅಂತಿಮ ದಿನಾಂಕವನ್ನು ಪರಿಶೀಲಿಸಿ. ಚಂದಾದಾರರಾದ ಕ್ಯಾಲೆಂಡರ್ ಸರಿಯಾದ ಖಾತೆಯಲ್ಲಿ ಗೋಚರಿಸುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿ. ಬಾಹ್ಯ ಕ್ಯಾಲೆಂಡರ್‌ಗಳು ತಮ್ಮದೇ ಆದ ವೇಳಾಪಟ್ಟಿಯಲ್ಲಿ ರಿಫ್ರೆಶ್ ಆಗುತ್ತವೆ, ಆದ್ದರಿಂದ Blackboard ನಲ್ಲಿ ಯಾವುದೇ ತುರ್ತು ಗಡುವನ್ನು ಪರಿಶೀಲಿಸಿ."
+        },
+        {
+          "question": "ನಾನು ಕೇವಲ ಒಂದು ಅಲ್ಟ್ರಾ ಕೋರ್ಸ್‌ಗೆ ಚಂದಾದಾರರಾಗಬಹುದೇ?",
+          "answer": "ಹಂಚಿಕೊಂಡ Blackboard ಅಲ್ಟ್ರಾ ಫೀಡ್ ನಿಮ್ಮ ಎಲ್ಲಾ ಕೋರ್ಸ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ. ಒಂದು ಕೋರ್ಸ್‌ಗಾಗಿ, ಆ Blackboard ಕೋರ್ಸ್‌ನೊಳಗಿನ ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು ಬಳಸಿ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "ആപ്പിൾ കലണ്ടറിലേക്കോ Google കലണ്ടറിലേക്കോ Blackboard എങ്ങനെ ചേർക്കാം",
+      "description": "Blackboard അൾട്രാ കലണ്ടർ ലിങ്ക് പകർത്തി iPhone-ലോ Google കലണ്ടറിലോ സബ്‌സ്‌ക്രൈബ് ചെയ്യുക. ഒരു നിശ്ചിത തീയതി നഷ്‌ടപ്പെടുമ്പോൾ എന്തുചെയ്യണമെന്ന് പരിശോധിക്കുക.",
+      "intro": "നിങ്ങളുടെ വ്യക്തിഗത ഷെഡ്യൂളിനൊപ്പം കോഴ്‌സ് ഇവൻ്റുകളും പോസ്റ്റ് ചെയ്ത അവസാന തീയതികളും കാണുന്നതിന് Blackboard അൾട്രാ കലണ്ടറിലേക്ക് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക. വെബിൽ Blackboard-ൽ ആരംഭിച്ച് കലണ്ടർ URL സ്വകാര്യമായി സൂക്ഷിക്കുക.",
+      "answer": "Blackboard അൾട്രായിൽ, പ്രധാന സൈഡ്‌ബാറിൽ നിന്ന് കലണ്ടർ തുറക്കുക, കലണ്ടർ ക്രമീകരണങ്ങൾ തുറന്ന് മെനുവിൽ നിന്ന് കലണ്ടർ പങ്കിടുക തിരഞ്ഞെടുക്കുക. ലിങ്ക് പകർത്തി Apple കലണ്ടറിലെ സബ്‌സ്‌ക്രിപ്‌ഷനായി അല്ലെങ്കിൽ Google കലണ്ടറിലെ കലണ്ടർ URL ആയി ചേർക്കുക.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard അൾട്രാ കലണ്ടർ ലിങ്ക് കണ്ടെത്തുക",
+          "paragraphs": [
+            "Blackboard-ൻ്റെ പ്രധാന നാവിഗേഷനിൽ നിന്നുള്ള കലണ്ടർ ഉപയോഗിക്കുക. കലണ്ടർ ക്രമീകരണങ്ങളുടെ തലക്കെട്ടിന് അടുത്തുള്ള മെനുവിലാണ് കലണ്ടർ പങ്കിടുക ഓപ്ഷൻ. പങ്കിട്ട ഫീഡിൽ നിങ്ങളുടെ എല്ലാ കോഴ്സുകളും ഉൾപ്പെടുന്നു."
+          ],
+          "steps": [
+            "ഗിയർ ഐക്കൺ ഉപയോഗിച്ച് കലണ്ടർ ക്രമീകരണങ്ങൾ തുറക്കുക.",
+            "തലക്കെട്ടിന് അടുത്തുള്ള മെനു തുറക്കുക, കലണ്ടർ പങ്കിടുക തിരഞ്ഞെടുത്ത് ലിങ്ക് പകർത്തുക."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone-ലെ Apple കലണ്ടറിലേക്ക് Blackboard ചേർക്കുക",
+          "paragraphs": [
+            "കലണ്ടർ തുറന്ന് കലണ്ടറുകൾ ടാപ്പ് ചെയ്യുക. കലണ്ടർ ചേർക്കുക ടാപ്പ് ചെയ്യുക, തുടർന്ന് സബ്സ്ക്രിപ്ഷൻ കലണ്ടർ ചേർക്കുക. ലിങ്ക് ഒട്ടിച്ച് നിർദ്ദേശങ്ങൾ പാലിക്കുക. അതേ Apple അക്കൗണ്ടിൽ സൈൻ ഇൻ ചെയ്‌തിരിക്കുന്ന ഉപകരണങ്ങളിൽ നിങ്ങൾക്ക് വേണമെങ്കിൽ iCloud അക്കൗണ്ട് ആയി തിരഞ്ഞെടുക്കുക."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google കലണ്ടറിലേക്ക് Blackboard ചേർക്കുക",
+          "paragraphs": [
+            "ഒരു കമ്പ്യൂട്ടറിൽ, Google കലണ്ടർ തുറക്കുക. മറ്റ് കലണ്ടറുകൾക്ക് അരികിലുള്ള പ്ലസ് ക്ലിക്ക് ചെയ്യുക, URL-ൽ നിന്ന് തിരഞ്ഞെടുക്കുക, ലിങ്ക് ഒട്ടിച്ച് കലണ്ടർ ചേർക്കുക തിരഞ്ഞെടുക്കുക. സബ്‌സ്‌ക്രൈബ് ചെയ്‌ത കലണ്ടർ ദൃശ്യമാണെന്ന് ഉറപ്പാക്കുക."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "എന്തുകൊണ്ടാണ് ഒരു Blackboard അസൈൻമെൻ്റ് നഷ്‌ടമായത്?",
+          "answer": "അസൈൻമെൻ്റും അതിൻ്റെ അവസാന തീയതിയും ആദ്യം Blackboard-ൽ പരിശോധിക്കുക. വരിക്കാരായ കലണ്ടർ ശരിയായ അക്കൗണ്ടിൽ ദൃശ്യമാണെന്ന് സ്ഥിരീകരിക്കുക. ബാഹ്യ കലണ്ടറുകൾ അവരുടെ സ്വന്തം ഷെഡ്യൂളിൽ പുതുക്കുന്നു, അതിനാൽ Blackboard-ൽ ഏത് അടിയന്തിര സമയപരിധിയും പരിശോധിക്കുക."
+        },
+        {
+          "question": "എനിക്ക് ഒരു അൾട്രാ കോഴ്‌സ് സബ്‌സ്‌ക്രൈബ് ചെയ്യാൻ കഴിയുമോ?",
+          "answer": "പങ്കിട്ട Blackboard അൾട്രാ ഫീഡ് നിങ്ങളുടെ എല്ലാ കോഴ്സുകളും ഉൾക്കൊള്ളുന്നു. ഒരു കോഴ്സിന്, ആ Blackboard കോഴ്സിനുള്ളിലെ കലണ്ടർ ഉപയോഗിക്കുക."
+        }
+      ]
+    },
+    "mr": {
+      "title": "Apple Calendar किंवा Google Calendar मध्ये Blackboard कसे जोडायचे",
+      "description": "Blackboard अल्ट्रा कॅलेंडर लिंक कॉपी करा आणि iPhone किंवा Google Calendar मध्ये सदस्यत्व घ्या. देय तारीख गहाळ असताना काय करावे ते तपासा.",
+      "intro": "तुमच्या वैयक्तिक वेळापत्रकासोबत कोर्स इव्हेंट आणि पोस्ट केलेल्या नियत तारखा पाहण्यासाठी Blackboard अल्ट्रा कॅलेंडरची सदस्यता घ्या. वेबवर Blackboard मध्ये प्रारंभ करा आणि कॅलेंडर URL खाजगी ठेवा.",
+      "answer": "Blackboard Ultra मध्ये, मुख्य साइडबारमधून कॅलेंडर उघडा, कॅलेंडर सेटिंग्ज उघडा आणि मेनूमधून कॅलेंडर शेअर करा निवडा. लिंक कॉपी करा आणि Apple Calendar मध्ये सदस्यत्व म्हणून किंवा Google Calendar मध्ये कॅलेंडर URL म्हणून जोडा.",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard अल्ट्रा कॅलेंडर लिंक शोधा",
+          "paragraphs": [
+            "Blackboard च्या मुख्य नेव्हिगेशनवरून कॅलेंडर वापरा. कॅलेंडर सेटिंग्ज शीर्षकाच्या बाजूला मेनूमध्ये कॅलेंडर सामायिक करा पर्याय आहे. सामायिक फीडमध्ये तुमचे सर्व अभ्यासक्रम समाविष्ट आहेत."
+          ],
+          "steps": [
+            "गीअर आयकॉन वापरून कॅलेंडर सेटिंग्ज उघडा.",
+            "शीर्षकाच्या पुढील मेनू उघडा, कॅलेंडर सामायिक करा निवडा आणि लिंक कॉपी करा."
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone वर Apple Calendar मध्ये Blackboard जोडा",
+          "paragraphs": [
+            "Calendar उघडा आणि Calendar वर टॅप करा. कॅलेंडर जोडा वर टॅप करा, नंतर सदस्यता कॅलेंडर जोडा. लिंक पेस्ट करा आणि सूचनांचे अनुसरण करा. त्याच ऍपल खात्यामध्ये साइन इन केलेल्या डिव्हाइसवर तुम्हाला ते हवे असल्यास खाते म्हणून iCloud निवडा."
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google Calendar मध्ये Blackboard जोडा",
+          "paragraphs": [
+            "संगणकावर, Google Calendar उघडा. इतर कॅलेंडरच्या बाजूला प्लसवर क्लिक करा, URL पासून निवडा, लिंक पेस्ट करा आणि कॅलेंडर जोडा निवडा. सदस्यता घेतलेले कॅलेंडर दृश्यमान असल्याची खात्री करा."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard असाइनमेंट का गहाळ आहे?",
+          "answer": "प्रथम Blackboard मध्ये असाइनमेंट आणि त्याची देय तारीख तपासा. सदस्यता घेतलेले कॅलेंडर योग्य खात्यात दिसत असल्याची पुष्टी करा. बाह्य कॅलेंडर त्यांच्या स्वतःच्या वेळापत्रकानुसार रीफ्रेश होतात, म्हणून Blackboard मध्ये कोणतीही तातडीची अंतिम मुदत सत्यापित करा."
+        },
+        {
+          "question": "मी फक्त एका अल्ट्रा कोर्सची सदस्यता घेऊ शकतो?",
+          "answer": "सामायिक केलेल्या Blackboard अल्ट्रा फीडमध्ये तुमचे सर्व अभ्यासक्रम समाविष्ट आहेत. एका कोर्ससाठी, त्या Blackboard कोर्समध्ये कॅलेंडर वापरा."
+        }
+      ]
+    },
+    "or": {
+      "title": "ଆପଲ୍ କ୍ୟାଲେଣ୍ଡର କିମ୍ବା ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ Blackboard କିପରି ଯୋଡାଯାଏ |",
+      "description": "Blackboard ଅଲ୍ଟ୍ରା କ୍ୟାଲେଣ୍ଡର ଲିଙ୍କ୍ କପି କରନ୍ତୁ ଏବଂ ଆଇଫୋନ୍ କିମ୍ବା ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ | ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ତାରିଖ ହଜିଗଲେ କଣ କରିବେ ଯାଞ୍ଚ କରନ୍ତୁ |",
+      "intro": "ପାଠ୍ୟକ୍ରମ ଇଭେଣ୍ଟ ଦେଖିବା ପାଇଁ Blackboard ଅଲ୍ଟ୍ରା କ୍ୟାଲେଣ୍ଡରକୁ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ ଏବଂ ଆପଣଙ୍କର ବ୍ୟକ୍ତିଗତ କାର୍ଯ୍ୟସୂଚୀ ସହିତ ଧାର୍ଯ୍ୟ ତାରିଖ ପୋଷ୍ଟ କରନ୍ତୁ | ୱେବରେ Blackboard ରୁ ଆରମ୍ଭ କରନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡର URL କୁ ବ୍ୟକ୍ତିଗତ ରଖନ୍ତୁ |",
+      "answer": "Blackboard ଅଲଟ୍ରା ରେ, ମୁଖ୍ୟ ପାର୍ଶ୍ୱ ପଟିରୁ କ୍ୟାଲେଣ୍ଡର ଖୋଲ, କ୍ୟାଲେଣ୍ଡର ସେଟିଂସମୂହ ଖୋଲ ଏବଂ ମେନୁରୁ ସେୟାର କ୍ୟାଲେଣ୍ଡର ବାଛ | ଲିଙ୍କ୍ କପି କରନ୍ତୁ ଏବଂ ଏହାକୁ ଆପଲ୍ କ୍ୟାଲେଣ୍ଡରରେ ସଦସ୍ୟତା ଭାବରେ କିମ୍ବା ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ ଏକ କ୍ୟାଲେଣ୍ଡର URL ଭାବରେ ଯୋଡନ୍ତୁ |",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard ଅଲ୍ଟ୍ରା କ୍ୟାଲେଣ୍ଡର ଲିଙ୍କ୍ ଖୋଜ |",
+          "paragraphs": [
+            "Blackboard ର ମୁଖ୍ୟ ନାଭିଗେସନ୍ ଠାରୁ କ୍ୟାଲେଣ୍ଡର ବ୍ୟବହାର କରନ୍ତୁ | କ୍ୟାଲେଣ୍ଡର ସେଟିଂସମୂହ ହେଡି ପାଖରେ ଥିବା ମେନୁରେ ସେୟାର କ୍ୟାଲେଣ୍ଡର ବିକଳ୍ପ ଅଛି | ଅଂଶୀଦାର ଫିଡ୍ ଆପଣଙ୍କର ସମସ୍ତ ପାଠ୍ୟକ୍ରମ ଅନ୍ତର୍ଭୁକ୍ତ କରେ |"
+          ],
+          "steps": [
+            "ଗିଅର ଆଇକନ୍ ବ୍ୟବହାର କରି କ୍ୟାଲେଣ୍ଡର ସେଟିଂସମୂହ ଖୋଲନ୍ତୁ |",
+            "ହେଡିଙ୍ଗ୍ ପାଖରେ ଥିବା ମେନୁ ଖୋଲ, ସେୟାର କ୍ୟାଲେଣ୍ଡର ବାଛ ଏବଂ ଲିଙ୍କ୍ କପି କର |"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "ଆଇଫୋନରେ ଆପଲ୍ କ୍ୟାଲେଣ୍ଡରରେ Blackboard ଯୋଡନ୍ତୁ |",
+          "paragraphs": [
+            "କ୍ୟାଲେଣ୍ଡର ଖୋଲନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡରଗୁଡିକ ଟ୍ୟାପ୍ କରନ୍ତୁ | କ୍ୟାଲେଣ୍ଡର ଯୋଡିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ, ତାପରେ ସଦସ୍ୟତା କ୍ୟାଲେଣ୍ଡର ଯୋଡନ୍ତୁ | ଲିଙ୍କ୍ ଲେପନ କରନ୍ତୁ ଏବଂ ପ୍ରମ୍ପ୍ଟଗୁଡିକ ଅନୁସରଣ କରନ୍ତୁ | ସମାନ ଆପଲ୍ ଆକାଉଣ୍ଟରେ ସାଇନ୍ ଇନ୍ ହୋଇଥିବା ଡିଭାଇସରେ ଯଦି ଆପଣ ଚାହାଁନ୍ତି ତେବେ iCloud କୁ ଆକାଉଣ୍ଟ୍ ଭାବରେ ବାଛନ୍ତୁ |"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ Blackboard ଯୋଡନ୍ତୁ |",
+          "paragraphs": [
+            "ଏକ କମ୍ପ୍ୟୁଟରରେ, ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡର ଖୋଲନ୍ତୁ | ଅନ୍ୟ କ୍ୟାଲେଣ୍ଡର ପାଖରେ ଥିବା ପ୍ଲସ୍ କ୍ଲିକ୍ କରନ୍ତୁ, URL ରୁ ବାଛନ୍ତୁ, ଲିଙ୍କ୍ ଲେପନ କରନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡର ଯୋଡନ୍ତୁ ଚୟନ କରନ୍ତୁ | ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ସଦସ୍ୟତା ପ୍ରାପ୍ତ କ୍ୟାଲେଣ୍ଡର ଦୃଶ୍ୟମାନ ହେଉଛି |"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ଏକ Blackboard ଆସାଇନମେଣ୍ଟ କାହିଁକି ହଜିଯାଉଛି?",
+          "answer": "ପ୍ରଥମେ Blackboard ରେ ଆସାଇନମେଣ୍ଟ ଏବଂ ଏହାର ଧାର୍ଯ୍ୟ ତାରିଖ ଯାଞ୍ଚ କରନ୍ତୁ | ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ସବସ୍କ୍ରାଇଡ୍ କ୍ୟାଲେଣ୍ଡର ସଠିକ୍ ଆକାଉଣ୍ଟରେ ଦୃଶ୍ୟମାନ ହେଉଛି | ବାହ୍ୟ କ୍ୟାଲେଣ୍ଡରଗୁଡିକ ନିଜସ୍ୱ କାର୍ଯ୍ୟସୂଚୀରେ ସତେଜ ହୁଏ, ତେଣୁ Blackboard ରେ ଯେକ urgent ଣସି ଜରୁରୀ ସମୟସୀମା ଯାଞ୍ଚ କରନ୍ତୁ |"
+        },
+        {
+          "question": "ମୁଁ କେବଳ ଗୋଟିଏ ଅଲ୍ଟ୍ରା ପାଠ୍ୟକ୍ରମକୁ ସବସ୍କ୍ରାଇବ କରିପାରିବି କି?",
+          "answer": "ଅଂଶୀଦାର Blackboard ଅଲ୍ଟ୍ରା ଫିଡ୍ ଆପଣଙ୍କର ସମସ୍ତ ପାଠ୍ୟକ୍ରମକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରେ | ଗୋଟିଏ ପାଠ୍ୟକ୍ରମ ପାଇଁ, ସେହି Blackboard ପାଠ୍ୟକ୍ରମ ଭିତରେ କ୍ୟାଲେଣ୍ଡର ବ୍ୟବହାର କରନ୍ତୁ |"
+        }
+      ]
+    },
+    "pa": {
+      "title": "ਐਪਲ ਕੈਲੰਡਰ ਜਾਂ ਗੂਗਲ ਕੈਲੰਡਰ ਵਿੱਚ Blackboard ਨੂੰ ਕਿਵੇਂ ਸ਼ਾਮਲ ਕਰਨਾ ਹੈ",
+      "description": "Blackboard ਅਲਟਰਾ ਕੈਲੰਡਰ ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ ਅਤੇ iPhone ਜਾਂ Google ਕੈਲੰਡਰ ਵਿੱਚ ਗਾਹਕ ਬਣੋ। ਜਾਂਚ ਕਰੋ ਕਿ ਜਦੋਂ ਨਿਯਤ ਮਿਤੀ ਗੁੰਮ ਹੈ ਤਾਂ ਕੀ ਕਰਨਾ ਹੈ।",
+      "intro": "ਆਪਣੇ ਨਿੱਜੀ ਸਮਾਂ-ਸਾਰਣੀ ਦੇ ਨਾਲ ਕੋਰਸ ਇਵੈਂਟਾਂ ਅਤੇ ਪੋਸਟ ਕੀਤੀਆਂ ਨਿਯਤ ਮਿਤੀਆਂ ਨੂੰ ਦੇਖਣ ਲਈ Blackboard ਅਲਟਰਾ ਕੈਲੰਡਰ ਦੇ ਗਾਹਕ ਬਣੋ। ਵੈੱਬ 'ਤੇ Blackboard ਵਿੱਚ ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ ਕੈਲੰਡਰ URL ਨੂੰ ਨਿੱਜੀ ਰੱਖੋ।",
+      "answer": "Blackboard ਅਲਟਰਾ ਵਿੱਚ, ਮੁੱਖ ਸਾਈਡਬਾਰ ਤੋਂ ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ, ਕੈਲੰਡਰ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ ਅਤੇ ਮੀਨੂ ਤੋਂ ਕੈਲੰਡਰ ਸਾਂਝਾ ਕਰੋ ਚੁਣੋ। ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ ਅਤੇ ਇਸਨੂੰ ਐਪਲ ਕੈਲੰਡਰ ਵਿੱਚ ਗਾਹਕੀ ਵਜੋਂ ਜਾਂ Google ਕੈਲੰਡਰ ਵਿੱਚ ਇੱਕ ਕੈਲੰਡਰ URL ਦੇ ਰੂਪ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ।",
+      "sections": [
+        {
+          "id": "get-blackboard-link",
+          "heading": "Blackboard ਅਲਟਰਾ ਕੈਲੰਡਰ ਲਿੰਕ ਲੱਭੋ",
+          "paragraphs": [
+            "Blackboard ਦੇ ਮੁੱਖ ਨੈਵੀਗੇਸ਼ਨ ਤੋਂ ਕੈਲੰਡਰ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਸ਼ੇਅਰ ਕੈਲੰਡਰ ਵਿਕਲਪ ਕੈਲੰਡਰ ਸੈਟਿੰਗਾਂ ਸਿਰਲੇਖ ਦੇ ਕੋਲ ਮੀਨੂ ਵਿੱਚ ਹੈ। ਸਾਂਝੀ ਫੀਡ ਵਿੱਚ ਤੁਹਾਡੇ ਸਾਰੇ ਕੋਰਸ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ।"
+          ],
+          "steps": [
+            "ਗੀਅਰ ਆਈਕਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕੈਲੰਡਰ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ।",
+            "ਸਿਰਲੇਖ ਦੇ ਅੱਗੇ ਮੀਨੂ ਖੋਲ੍ਹੋ, ਕੈਲੰਡਰ ਸਾਂਝਾ ਕਰੋ ਚੁਣੋ ਅਤੇ ਲਿੰਕ ਨੂੰ ਕਾਪੀ ਕਰੋ।"
+          ]
+        },
+        {
+          "id": "subscribe-on-iphone",
+          "heading": "iPhone 'ਤੇ Apple ਕੈਲੰਡਰ ਵਿੱਚ Blackboard ਸ਼ਾਮਲ ਕਰੋ",
+          "paragraphs": [
+            "ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ ਅਤੇ ਕੈਲੰਡਰ 'ਤੇ ਟੈਪ ਕਰੋ। ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ 'ਤੇ ਟੈਪ ਕਰੋ, ਫਿਰ ਗਾਹਕੀ ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ। ਲਿੰਕ ਪੇਸਟ ਕਰੋ ਅਤੇ ਪ੍ਰੋਂਪਟ ਦੀ ਪਾਲਣਾ ਕਰੋ। iCloud ਨੂੰ ਖਾਤੇ ਵਜੋਂ ਚੁਣੋ ਜੇਕਰ ਤੁਸੀਂ ਇਸਨੂੰ ਉਸੇ ਐਪਲ ਖਾਤੇ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤੇ ਡਿਵਾਈਸਾਂ 'ਤੇ ਚਾਹੁੰਦੇ ਹੋ।"
+          ]
+        },
+        {
+          "id": "subscribe-in-google",
+          "heading": "Google ਕੈਲੰਡਰ ਵਿੱਚ Blackboard ਸ਼ਾਮਲ ਕਰੋ",
+          "paragraphs": [
+            "ਕੰਪਿਊਟਰ 'ਤੇ, Google ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ। ਹੋਰ ਕੈਲੰਡਰਾਂ ਦੇ ਨਾਲ ਪਲੱਸ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, URL ਤੋਂ ਚੁਣੋ, ਲਿੰਕ ਪੇਸਟ ਕਰੋ ਅਤੇ ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ ਦੀ ਚੋਣ ਕਰੋ। ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਗਾਹਕੀ ਵਾਲਾ ਕੈਲੰਡਰ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Blackboard ਅਸਾਈਨਮੈਂਟ ਕਿਉਂ ਗੁੰਮ ਹੈ?",
+          "answer": "ਪਹਿਲਾਂ Blackboard ਵਿੱਚ ਅਸਾਈਨਮੈਂਟ ਅਤੇ ਇਸਦੀ ਨਿਯਤ ਮਿਤੀ ਦੀ ਜਾਂਚ ਕਰੋ। ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਗਾਹਕੀ ਵਾਲਾ ਕੈਲੰਡਰ ਸਹੀ ਖਾਤੇ ਵਿੱਚ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ। ਬਾਹਰੀ ਕੈਲੰਡਰ ਆਪਣੇ ਖੁਦ ਦੇ ਅਨੁਸੂਚੀ 'ਤੇ ਤਾਜ਼ਾ ਹੁੰਦੇ ਹਨ, ਇਸ ਲਈ Blackboard ਵਿੱਚ ਕਿਸੇ ਵੀ ਜ਼ਰੂਰੀ ਸਮਾਂ-ਸੀਮਾ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।"
+        },
+        {
+          "question": "ਕੀ ਮੈਂ ਸਿਰਫ਼ ਇੱਕ ਅਲਟਰਾ ਕੋਰਸ ਦੀ ਗਾਹਕੀ ਲੈ ਸਕਦਾ ਹਾਂ?",
+          "answer": "ਸਾਂਝੀ ਕੀਤੀ Blackboard ਅਲਟਰਾ ਫੀਡ ਤੁਹਾਡੇ ਸਾਰੇ ਕੋਰਸਾਂ ਨੂੰ ਕਵਰ ਕਰਦੀ ਹੈ। ਇੱਕ ਕੋਰਸ ਲਈ, ਉਸ Blackboard ਕੋਰਸ ਦੇ ਅੰਦਰ ਕੈਲੰਡਰ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+        }
+      ]
+    }
+  }
+}

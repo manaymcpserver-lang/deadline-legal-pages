@@ -1,0 +1,1760 @@
+{
+  "slug": "how-to-keep-track-of-college-assignments",
+  "related": [
+    "canvas-assignment-planner",
+    "google-classroom-assignment-planner",
+    "block-apps-while-studying"
+  ],
+  "sources": [
+    {
+      "label": "University of Texas at Dallas: academic success coaching resources",
+      "url": "https://studentsuccess.utdallas.edu/online-resources/academic-success-coaching-resources/"
+    },
+    {
+      "label": "University of Georgia: time and project management",
+      "url": "https://activelearning.uga.edu/student-engagement/explore-student-resources/time-management/"
+    }
+  ],
+  "published": "2026-11-19",
+  "locales": {
+    "en": {
+      "title": "How to keep track of college assignments and due dates",
+      "description": "Set up a simple college assignment tracker with one list, a weekly review and a plan for deadlines that pile up.",
+      "intro": "Start with one list you will actually check. It can be a notebook, spreadsheet or task app. Keep the same fields for every class so you can see what is due this week.",
+      "answer": "Give each assignment one row with the course, assignment name, exact due date and time, status and next action. Review the next week of deadlines, then reserve time to work on the assignments that need an early start.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Set up your assignment tracker",
+          "paragraphs": [
+            "Check each syllabus and course site for assignments, quizzes and projects. Use one row per assignment and save a link to its instructions if you can."
+          ],
+          "steps": [
+            "Record the deadline as shown in your course. If it changes, update the same row.",
+            "Use a simple status such as To do, In progress or Submitted. Mark Submitted after checking for a confirmation in the course site."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Plan a week with overlapping deadlines",
+          "paragraphs": [
+            "Suppose a history essay is due Thursday and a chemistry quiz is on Friday. Block out Monday for the essay outline and Tuesday for a draft. Do a practice quiz Wednesday, then reserve time Thursday to check the essay and submit it.",
+            "During your weekly review, check course announcements, scan the next seven days and move any unfinished work to a time you can use. Leave one open slot for work that takes longer than expected."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What if I have an assignment without a due date?",
+          "answer": "Add it to the list, leave the official deadline blank and schedule a time to check the instructions or ask your instructor."
+        },
+        {
+          "question": "Can I keep the list in Nonlate?",
+          "answer": "Yes. You can add assignments as manual tasks. Use the original course site to verify instructions, deadlines and submission status."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cómo organizar las tareas universitarias y sus fechas de entrega",
+      "description": "Organiza las entregas de la universidad con una sola lista y una revisión semanal. Planifica qué hacer cuando se juntan varias fechas de entrega.",
+      "intro": "Comience con una lista que realmente comprobará. Puede ser una libreta, una hoja de cálculo o una aplicación de tareas. Mantenga los mismos campos para cada clase para que pueda ver lo que vence esta semana.",
+      "answer": "Asigne a cada tarea una fila con el curso, el nombre de la tarea, la fecha y hora exactas de entrega, el estado y la próxima acción. Revise las fechas límite de la próxima semana y luego reserve tiempo para trabajar en las tareas que necesitan un comienzo temprano.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Configura tu rastreador de tareas",
+          "paragraphs": [
+            "Consulte cada programa de estudios y sitio del curso para ver las tareas, cuestionarios y proyectos. Utilice una fila por tarea y guarde un enlace a sus instrucciones si puede."
+          ],
+          "steps": [
+            "Registre la fecha límite como se muestra en su curso. Si cambia, actualice la misma fila.",
+            "Utilice un estado simple como Por hacer, En curso o Enviado. Marcar como enviado después de verificar si hay confirmación en el sitio del curso."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planifique una semana con fechas límite superpuestas",
+          "paragraphs": [
+            "Supongamos que el jueves se debe entregar un ensayo de historia y el viernes un examen de química. Reserve el lunes para el esquema del ensayo y el martes para el borrador. Haga una prueba de práctica el miércoles y luego reserve tiempo el jueves para revisar el ensayo y enviarlo.",
+            "Durante su revisión semanal, consulte los anuncios de cursos, explore los próximos siete días y mueva cualquier trabajo sin terminar a un momento que pueda utilizar. Deje un espacio abierto para trabajos que demoren más de lo esperado."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Qué pasa si tengo una tarea sin fecha de entrega?",
+          "answer": "Agréguelo a la lista, deje la fecha límite oficial en blanco y programe una hora para revisar las instrucciones o preguntarle a su instructor."
+        },
+        {
+          "question": "¿Puedo mantener la lista en Nonlate?",
+          "answer": "Sí. Puede agregar asignaciones como tareas manuales. Utilice el sitio del curso original para verificar las instrucciones, los plazos y el estado de envío."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Comment suivre ses devoirs et ses dates de rendu à l’université",
+      "description": "Mettez en place un simple suivi des devoirs universitaires avec une liste, un examen hebdomadaire et un plan pour les délais qui s'accumulent.",
+      "intro": "Commencez par une liste que vous vérifierez réellement. Il peut s'agir d'un bloc-notes, d'une feuille de calcul ou d'une application de tâches. Gardez les mêmes champs pour chaque cours afin que vous puissiez voir ce qui est dû cette semaine.",
+      "answer": "Attribuez à chaque devoir une ligne avec le cours, le nom du devoir, la date et l'heure exactes d'échéance, le statut et l'action suivante. Passez en revue les délais de la semaine prochaine, puis réservez du temps pour travailler sur les tâches qui nécessitent un démarrage anticipé.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Configurez votre suivi des missions",
+          "paragraphs": [
+            "Consultez chaque programme et site de cours pour les devoirs, les quiz et les projets. Utilisez une ligne par devoir et enregistrez un lien vers ses instructions si vous le pouvez."
+          ],
+          "steps": [
+            "Enregistrez la date limite comme indiqué dans votre cours. Si cela change, mettez à jour la même ligne.",
+            "Utilisez un statut simple tel que À faire, En cours ou Soumis. Marquez Soumis après avoir vérifié la confirmation sur le site du cours."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planifiez une semaine avec des délais qui se chevauchent",
+          "paragraphs": [
+            "Supposons qu’un essai d’histoire soit rendu jeudi et qu’un quiz de chimie ait lieu vendredi. Bloquez lundi pour le plan de l'essai et mardi pour un brouillon. Faites un quiz pratique mercredi, puis réservez du temps jeudi pour vérifier l'essai et le soumettre.",
+            "Lors de votre révision hebdomadaire, vérifiez les annonces de cours, parcourez les sept prochains jours et déplacez tout travail inachevé à un moment que vous pouvez utiliser. Laissez un créneau libre pour les travaux qui prennent plus de temps que prévu."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Que se passe-t-il si j'ai un devoir sans date d'échéance ?",
+          "answer": "Ajoutez-le à la liste, laissez la date limite officielle vide et prévoyez un moment pour vérifier les instructions ou demander à votre instructeur."
+        },
+        {
+          "question": "Puis-je conserver la liste dans Nonlate ?",
+          "answer": "Oui. Vous pouvez ajouter des affectations en tant que tâches manuelles. Utilisez le site du cours d'origine pour vérifier les instructions, les délais et l'état de la soumission."
+        }
+      ]
+    },
+    "hi": {
+      "title": "कॉलेज के असाइनमेंट और देय तिथियों का ट्रैक कैसे रखें",
+      "description": "एक सूची, एक साप्ताहिक समीक्षा और ढेर सारी समय-सीमाओं के लिए एक योजना के साथ एक साधारण कॉलेज असाइनमेंट ट्रैकर सेट करें।",
+      "intro": "एक सूची से शुरुआत करें जिसे आप वास्तव में जाँचेंगे। यह एक नोटबुक, स्प्रेडशीट या कार्य ऐप हो सकता है। प्रत्येक कक्षा के लिए समान फ़ील्ड रखें ताकि आप देख सकें कि इस सप्ताह क्या देय है।",
+      "answer": "हर असाइनमेंट के लिए एक पंक्ति रखें। उसमें विषय, असाइनमेंट का नाम, जमा करने की सही तारीख और समय, उसकी स्थिति और अगला कदम लिखें। अगले सात दिनों की समय-सीमाएँ देखें और जिन असाइनमेंट को जल्दी शुरू करना है, उनके लिए समय तय करें।",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "अपना असाइनमेंट ट्रैकर सेट करें",
+          "paragraphs": [
+            "असाइनमेंट, क्विज़ और प्रोजेक्ट के लिए प्रत्येक पाठ्यक्रम और पाठ्यक्रम साइट की जाँच करें। प्रति असाइनमेंट एक पंक्ति का उपयोग करें और यदि संभव हो तो उसके निर्देशों का एक लिंक सहेजें।"
+          ],
+          "steps": [
+            "अपने पाठ्यक्रम में दर्शाई गई समय सीमा को रिकॉर्ड करें। यदि यह बदलता है, तो उसी पंक्ति को अद्यतन करें।",
+            "एक साधारण स्थिति का उपयोग करें जैसे कि करना है, प्रगति पर है या सबमिट है। पाठ्यक्रम साइट में पुष्टि के लिए जाँच करने के बाद सबमिट किया गया चिह्न लगाएं।"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ओवरलैपिंग समय सीमा के साथ एक सप्ताह की योजना बनाएं",
+          "paragraphs": [
+            "मान लीजिए कि इतिहास निबंध गुरुवार को है और रसायन विज्ञान प्रश्नोत्तरी शुक्रवार को है। निबंध की रूपरेखा के लिए सोमवार को और ड्राफ्ट के लिए मंगलवार को ब्लॉक करें। बुधवार को एक अभ्यास प्रश्नोत्तरी करें, फिर निबंध की जांच करने और उसे जमा करने के लिए गुरुवार का समय आरक्षित करें।",
+            "अपनी साप्ताहिक समीक्षा के दौरान, पाठ्यक्रम घोषणाओं की जांच करें, अगले सात दिनों को स्कैन करें और किसी भी अधूरे काम को उस समय पर स्थानांतरित करें जिसका आप उपयोग कर सकते हैं। जिस काम में अपेक्षा से अधिक समय लगता है, उसके लिए एक खुला स्थान छोड़ दें।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "यदि मेरे पास नियत तारीख के बिना कोई असाइनमेंट है तो क्या होगा?",
+          "answer": "इसे सूची में जोड़ें, आधिकारिक समय सीमा को खाली छोड़ दें और निर्देशों की जांच करने या अपने प्रशिक्षक से पूछने के लिए एक समय निर्धारित करें।"
+        },
+        {
+          "question": "क्या मैं सूची को Nonlate में रख सकता हूँ?",
+          "answer": "हाँ. आप असाइनमेंट को मैन्युअल कार्यों के रूप में जोड़ सकते हैं। निर्देशों, समय-सीमाओं और सबमिशन की स्थिति को सत्यापित करने के लिए मूल पाठ्यक्रम साइट का उपयोग करें।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "كيفية متابعة واجبات الكلية وتواريخ الاستحقاق",
+      "description": "قم بإعداد أداة بسيطة لتتبع المهام الجامعية باستخدام قائمة واحدة ومراجعة أسبوعية وخطة للمواعيد النهائية المتراكمة.",
+      "intro": "ابدأ بقائمة واحدة سوف تتحقق منها بالفعل. يمكن أن يكون دفتر ملاحظات أو جدول بيانات أو تطبيق مهمة. احتفظ بنفس الحقول لكل فصل حتى تتمكن من رؤية ما هو مستحق هذا الأسبوع.",
+      "answer": "امنح كل مهمة صفًا واحدًا يحتوي على الدورة التدريبية واسم المهمة وتاريخ الاستحقاق الدقيق والوقت والحالة والإجراء التالي. قم بمراجعة المواعيد النهائية للأسبوع التالي، ثم قم بحجز الوقت للعمل على المهام التي تحتاج إلى بداية مبكرة.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "قم بإعداد تعقب المهمة الخاصة بك",
+          "paragraphs": [
+            "تحقق من كل منهج دراسي وموقع الدورة التدريبية لمعرفة المهام والاختبارات والمشاريع. استخدم صفًا واحدًا لكل واجب واحفظ رابطًا للتعليمات الخاصة به إذا استطعت."
+          ],
+          "steps": [
+            "قم بتسجيل الموعد النهائي كما هو موضح في الدورة التدريبية الخاصة بك. إذا تغير، قم بتحديث نفس الصف.",
+            "استخدم حالة بسيطة مثل مهمة أو قيد التقدم أو تم الإرسال. ضع علامة \"مرسل\" بعد التحقق من التأكيد في موقع الدورة التدريبية."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "خطط لأسبوع بمواعيد نهائية متداخلة",
+          "paragraphs": [
+            "لنفترض أن مقال التاريخ المقرر تقديمه يوم الخميس واختبار الكيمياء يوم الجمعة. خصص يوم الاثنين لملخص المقال ويوم الثلاثاء للمسودة. قم بإجراء اختبار تدريبي يوم الأربعاء، ثم خصص وقتًا يوم الخميس لمراجعة المقال وإرساله.",
+            "أثناء المراجعة الأسبوعية، تحقق من إعلانات الدورة التدريبية، وامسح الأيام السبعة التالية وانقل أي عمل غير مكتمل إلى وقت يمكنك استخدامه. اترك فتحة واحدة مفتوحة للعمل الذي يستغرق وقتًا أطول من المتوقع."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ماذا لو كان لدي مهمة دون تاريخ استحقاق؟",
+          "answer": "قم بإضافته إلى القائمة، واترك الموعد النهائي الرسمي فارغًا وحدد موعدًا للتحقق من التعليمات أو سؤال معلمك."
+        },
+        {
+          "question": "هل يمكنني الاحتفاظ بالقائمة في Nonlate؟",
+          "answer": "نعم. يمكنك إضافة الواجبات كمهام يدوية. استخدم موقع الدورة التدريبية الأصلي للتحقق من التعليمات والمواعيد النهائية وحالة التقديم."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何跟踪大学作业和截止日期",
+      "description": "设置一个简单的大学作业跟踪器，其中包含一个列表、每周回顾和针对堆积的截止日期的计划。",
+      "intro": "从一份您将实际检查的清单开始。它可以是笔记本、电子表格或任务应用程序。为每个班级保留相同的字段，以便您可以看到本周到期的课程。",
+      "answer": "每项作业占一行，其中包含课程、作业名称、确切的截止日期和时间、状态和下一步操作。查看下周的截止日期，然后预留时间完成需要尽早开始的作业。",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "设置您的作业跟踪器",
+          "paragraphs": [
+            "检查每个教学大纲和课程网站上的作业、测验和项目。每个作业使用一行，如果可以的话，保存指向其说明的链接。"
+          ],
+          "steps": [
+            "记录课程中显示的截止日期。如果发生变化，则更新同一行。",
+            "使用简单的状态，例如“待办事项”、“进行中”或“已提交”。在课程网站检查确认后标记为已提交。"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "计划一个期限重叠的一周",
+          "paragraphs": [
+            "假设周四要交一篇历史论文，周五要交化学测验。周一写论文大纲，周二写草稿。周三做一次练习测验，然后周四预留时间检查论文并提交。",
+            "在每周回顾期间，检查课程公告，浏览接下来的 7 天，并将任何未完成的工作移至您可以使用的时间。为需要比预期时间更长的工作留出一个空位。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "如果我的作业没有截止日期怎么办？",
+          "answer": "将其添加到列表中，将官方截止日期留空并安排时间查看说明或询问您的教练。"
+        },
+        {
+          "question": "我可以将列表保留在 Nonlate 中吗？",
+          "answer": "是的。您可以将作业添加为手动任务。使用原始课程网站来验证说明、截止日期和提交状态。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Como organizar as tarefas da faculdade e os prazos de entrega",
+      "description": "Configure um rastreador simples de tarefas universitárias com uma lista, uma revisão semanal e um plano para prazos que se acumulam.",
+      "intro": "Comece com uma lista que você realmente verificará. Pode ser um caderno, planilha ou aplicativo de tarefas. Mantenha os mesmos campos para todas as aulas para que você possa ver o que está previsto para esta semana.",
+      "answer": "Dê a cada tarefa uma linha com o curso, nome da tarefa, data e hora exatas de entrega, status e próxima ação. Revise os prazos da próxima semana e reserve tempo para trabalhar nas tarefas que precisam ser iniciadas antecipadamente.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Configure seu rastreador de tarefas",
+          "paragraphs": [
+            "Verifique cada plano de estudos e site do curso para tarefas, questionários e projetos. Use uma linha por tarefa e salve um link para suas instruções, se puder."
+          ],
+          "steps": [
+            "Registre o prazo conforme mostrado em seu curso. Se mudar, atualize a mesma linha.",
+            "Use um status simples como Tarefa, Em andamento ou Enviado. Marcar como Enviado após verificar a confirmação no site do curso."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planeje uma semana com prazos sobrepostos",
+          "paragraphs": [
+            "Suponha que uma redação de história seja entregue na quinta-feira e uma prova de química na sexta. Reserve segunda-feira para o esboço do ensaio e terça-feira para o rascunho. Faça um teste prático na quarta-feira e reserve um tempo na quinta para verificar a redação e enviá-la.",
+            "Durante sua revisão semanal, verifique os anúncios do curso, analise os próximos sete dias e mova qualquer trabalho inacabado para um horário que você possa usar. Deixe uma vaga aberta para trabalhos que demorem mais do que o esperado."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "E se eu tiver uma tarefa sem data de entrega?",
+          "answer": "Adicione à lista, deixe o prazo oficial em branco e agende um horário para conferir as instruções ou pergunte ao seu instrutor."
+        },
+        {
+          "question": "Posso manter a lista em Nonlate?",
+          "answer": "Sim. Você pode adicionar tarefas da faculdade manualmente. Confira as instruções, os prazos e a confirmação de entrega na plataforma da disciplina."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Como organizar os trabalhos da faculdade e os prazos de entrega",
+      "description": "Configure um simples rastreador de tarefas universitárias com uma lista, uma revisão semanal e um plano para os prazos que se acumulam.",
+      "intro": "Comece com uma lista que irá realmente verificar. Pode ser um caderno, uma folha de cálculo ou uma aplicação de tarefas. Mantenha os mesmos campos para todas as aulas, para que possa ver o que está previsto para esta semana.",
+      "answer": "Atribua a cada tarefa uma linha com o curso, o nome da tarefa, a data e hora exatas de entrega, o estado e a próxima ação. Reveja os prazos da próxima semana e reserve tempo para trabalhar nas tarefas que precisam de ser iniciadas antecipadamente.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Configure o seu rastreador de tarefas",
+          "paragraphs": [
+            "Verifique cada plano de estudos e site do curso para tarefas, questionários e projetos. Utilize uma linha por tarefa e guarde um link para as suas instruções, se puder."
+          ],
+          "steps": [
+            "Registe o prazo conforme indicado no seu curso. Se mudar, atualize a mesma linha.",
+            "Utilize um estado simples como Tarefa, Em curso ou Enviado. Marcar como Enviado após verificar a confirmação no site do curso."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planeie uma semana com prazos sobrepostos",
+          "paragraphs": [
+            "Suponha que uma composição de história é entregue na quinta-feira e um teste de química na sexta-feira. Reserve segunda-feira para o esboço do ensaio e terça-feira para o rascunho. Faça um teste prático na quarta-feira e reserve algum tempo na quinta-feira para verificar a redação e enviá-la.",
+            "Durante a sua revisão semanal, verifique os anúncios do curso, analise os próximos sete dias e mova qualquer trabalho inacabado para um horário que possa utilizar. Deixe uma vaga aberta para trabalhos que demorem mais tempo do que o previsto."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "E se tiver uma tarefa sem data de entrega?",
+          "answer": "Adicione à lista, deixe o prazo oficial em branco e agende um horário para verificar as instruções ou pergunte ao seu instrutor."
+        },
+        {
+          "question": "Posso manter a lista em Nonlate?",
+          "answer": "Sim. Pode adicionar os trabalhos manualmente. Confirme as instruções, os prazos e a entrega na plataforma da unidade curricular."
+        }
+      ]
+    },
+    "de": {
+      "title": "So behalten Sie den Überblick über Studienaufgaben und Fälligkeitstermine",
+      "description": "Richten Sie einen einfachen College-Aufgaben-Tracker mit einer Liste, einer wöchentlichen Überprüfung und einem Plan für sich häufende Fristen ein.",
+      "intro": "Beginnen Sie mit einer Liste, die Sie tatsächlich überprüfen werden. Es kann sich um ein Notizbuch, eine Tabellenkalkulation oder eine Aufgaben-App handeln. Behalten Sie für jede Klasse die gleichen Felder bei, damit Sie sehen können, was diese Woche fällig ist.",
+      "answer": "Geben Sie jeder Aufgabe eine Zeile mit dem Kurs, dem Aufgabennamen, dem genauen Fälligkeitsdatum und der genauen Fälligkeitszeit, dem Status und der nächsten Aktion. Sehen Sie sich die Fristen der nächsten Woche noch einmal an und nehmen Sie sich dann Zeit für die Arbeit an den Aufgaben, die einen frühen Beginn erfordern.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Richten Sie Ihren Aufgaben-Tracker ein",
+          "paragraphs": [
+            "Überprüfen Sie jeden Lehrplan und jede Kursseite auf Aufgaben, Tests und Projekte. Verwenden Sie eine Zeile pro Aufgabe und speichern Sie nach Möglichkeit einen Link zu den Anweisungen."
+          ],
+          "steps": [
+            "Notieren Sie die in Ihrem Kurs angegebene Frist. Wenn es sich ändert, aktualisieren Sie dieselbe Zeile.",
+            "Verwenden Sie einen einfachen Status wie „Zu erledigen“, „In Bearbeitung“ oder „Gesendet“. Markieren Sie „Eingereicht“, nachdem Sie auf der Kursseite nach einer Bestätigung gesucht haben."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planen Sie eine Woche mit überschneidenden Fristen",
+          "paragraphs": [
+            "Angenommen, am Donnerstag ist ein Geschichtsaufsatz fällig und am Freitag ein Chemiequiz. Planen Sie den Montag für die Gliederung des Aufsatzes und den Dienstag für einen Entwurf ein. Führen Sie am Mittwoch ein Übungsquiz durch und reservieren Sie sich dann am Donnerstag Zeit, um den Aufsatz zu überprüfen und einzureichen.",
+            "Überprüfen Sie während Ihrer wöchentlichen Überprüfung die Kursankündigungen, überblicken Sie die nächsten sieben Tage und verschieben Sie alle noch nicht abgeschlossenen Arbeiten auf einen Termin, den Sie nutzen können. Lassen Sie einen freien Platz für Arbeiten, die länger als erwartet dauern."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Was passiert, wenn ich eine Aufgabe ohne Fälligkeitsdatum habe?",
+          "answer": "Fügen Sie es der Liste hinzu, lassen Sie die offizielle Frist leer und vereinbaren Sie einen Termin, um die Anweisungen zu lesen oder Ihren Lehrer zu fragen."
+        },
+        {
+          "question": "Kann ich die Liste in Nonlate behalten?",
+          "answer": "Ja. Sie können Zuweisungen als manuelle Aufgaben hinzufügen. Verwenden Sie die ursprüngliche Kursseite, um Anweisungen, Fristen und Einreichungsstatus zu überprüfen."
+        }
+      ]
+    },
+    "ja": {
+      "title": "大学の課題と提出期限をまとめて管理する方法",
+      "description": "1 つのリスト、毎週のレビュー、山積する締め切りの計画を備えたシンプルな大学の課題トラッカーを設定します。",
+      "intro": "実際に確認する 1 つのリストから始めます。ノートブック、スプレッドシート、またはタスク アプリにすることができます。今週の期限を確認できるように、すべてのクラスで同じフィールドを維持します。",
+      "answer": "各課題に、コース、課題名、正確な期限日時、ステータス、次のアクションを 1 行に入力します。次週の締め切りを確認し、早めに開始する必要がある課題に取り組む時間を確保します。",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "課題トラッカーを設定する",
+          "paragraphs": [
+            "課題、クイズ、プロジェクトについては、各シラバスとコース サイトを確認してください。割り当てごとに 1 行を使用し、可能であればその指示へのリンクを保存します。"
+          ],
+          "steps": [
+            "コースに示されているように期限を記録します。変更された場合は、同じ行を更新します。",
+            "To do、In progress、Submitted などの単純なステータスを使用します。コースサイトで確認を行った後、提出済みとマークします。"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "締め切りが重なる週の計画を立てる",
+          "paragraphs": [
+            "歴史エッセイの提出期限が木曜日で、化学の小テストが金曜日に提出されるとします。月曜日はエッセイの概要のために、火曜日は草稿のためにブロックされます。水曜日に練習用の小テストを行い、木曜日にエッセイをチェックして提出する時間を確保します。",
+            "毎週の復習中に、コースのお知らせを確認し、次の 7 日間をざっと調べて、未完了の作業を使用できる時間に移動します。予想より時間がかかる作業に備えて、空きスロットを 1 つ残しておきます。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "期限のない課題がある場合はどうすればよいですか?",
+          "answer": "リストに追加し、正式な期限は空白のままにして、指示を確認するかインストラクターに尋ねる時間をスケジュールします。"
+        },
+        {
+          "question": "リストを Nonlate に保存できますか?",
+          "answer": "はい。割り当てを手動タスクとして追加できます。元のコース サイトを使用して、手順、締め切り、提出ステータスを確認してください。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Bagaimana melacak tugas kuliah dan tanggal jatuh tempo",
+      "description": "Siapkan pelacak tugas kuliah sederhana dengan satu daftar, tinjauan mingguan, dan rencana tenggat waktu yang menumpuk.",
+      "intro": "Mulailah dengan satu daftar yang benar-benar akan Anda periksa. Ini bisa berupa buku catatan, spreadsheet, atau aplikasi tugas. Simpan bidang yang sama untuk setiap kelas sehingga Anda dapat melihat tugas yang harus dikumpulkan minggu ini.",
+      "answer": "Berikan setiap tugas satu baris dengan kursus, nama tugas, tanggal dan waktu jatuh tempo yang tepat, status dan tindakan selanjutnya. Tinjau tenggat waktu minggu berikutnya, lalu sisihkan waktu untuk mengerjakan tugas yang perlu dimulai lebih awal.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Siapkan pelacak tugas Anda",
+          "paragraphs": [
+            "Periksa setiap silabus dan situs kursus untuk tugas, kuis, dan proyek. Gunakan satu baris per tugas dan simpan tautan ke instruksinya jika Anda bisa."
+          ],
+          "steps": [
+            "Catat tenggat waktu seperti yang ditunjukkan dalam kursus Anda. Jika berubah, perbarui baris yang sama.",
+            "Gunakan status sederhana seperti Yang Harus Dilakukan, Sedang Berlangsung, atau Dikirim. Tandai Dikirim setelah memeriksa konfirmasi di situs kursus."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Rencanakan satu minggu dengan tenggat waktu yang tumpang tindih",
+          "paragraphs": [
+            "Misalkan esai sejarah harus dikumpulkan pada hari Kamis dan kuis kimia pada hari Jumat. Blokir hari Senin untuk kerangka esai dan Selasa untuk draf. Kerjakan kuis latihan pada hari Rabu, lalu luangkan waktu pada hari Kamis untuk memeriksa esai dan menyerahkannya.",
+            "Selama tinjauan mingguan Anda, periksa pengumuman kursus, pindai tujuh hari berikutnya dan pindahkan pekerjaan yang belum selesai ke waktu yang dapat Anda gunakan. Sisakan satu slot terbuka untuk pekerjaan yang memakan waktu lebih lama dari yang diharapkan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bagaimana jika saya mempunyai tugas tanpa batas waktu?",
+          "answer": "Masukkan tugas ke daftar. Biarkan kolom tenggat resmi kosong dan jadwalkan waktu untuk memeriksa petunjuk atau bertanya kepada pengajar."
+        },
+        {
+          "question": "Bisakah saya menyimpan daftarnya di Nonlate?",
+          "answer": "Ya. Anda dapat menambahkan tugas sebagai tugas manual. Gunakan situs kursus asli untuk memverifikasi instruksi, tenggat waktu, dan status pengiriman."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Как отслеживать задания в колледже и сроки сдачи",
+      "description": "Создайте простой трекер заданий в колледже с одним списком, еженедельным обзором и планом на случай накапливающихся сроков.",
+      "intro": "Начните с одного списка, который вы действительно проверите. Это может быть блокнот, электронная таблица или приложение для задач. Сохраняйте одни и те же поля для каждого класса, чтобы вы могли видеть, что нужно сдать на этой неделе.",
+      "answer": "Дайте каждому заданию одну строку с курсом, названием задания, точной датой и временем выполнения, статусом и следующим действием. Просмотрите сроки на следующую неделю, а затем зарезервируйте время для работы над заданиями, требующими раннего начала.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Настройте трекер заданий",
+          "paragraphs": [
+            "Проверьте каждую программу и сайт курса на наличие заданий, викторин и проектов. Используйте одну строку для каждого задания и, если можете, сохраните ссылку на инструкции к нему."
+          ],
+          "steps": [
+            "Запишите крайний срок, как указано в вашем курсе. Если оно изменится, обновите ту же строку.",
+            "Используйте простой статус, например «Сделать», «В работе» или «Отправлено». Отметьте «Отправлено» после проверки подтверждения на сайте курса."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Планируйте неделю с перекрывающимися сроками",
+          "paragraphs": [
+            "Предположим, что эссе по истории нужно сдать в четверг, а контрольную по химии — в пятницу. Выделите понедельник для плана эссе и вторник для черновика. Проведите практический тест в среду, а затем зарезервируйте время в четверг, чтобы проверить эссе и отправить его.",
+            "Во время еженедельного обзора проверяйте объявления о курсах, просматривайте следующие семь дней и переносите незавершенную работу на время, которое вы можете использовать. Оставьте одно свободное место для работы, которая занимает больше времени, чем ожидалось."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Что делать, если у меня есть задание без срока выполнения?",
+          "answer": "Добавьте его в список, оставьте официальный срок пустым и запланируйте время, чтобы проверить инструкции или спросить своего инструктора."
+        },
+        {
+          "question": "Могу ли я сохранить список в Nonlate?",
+          "answer": "Да. Вы можете добавлять задания как задачи, выполняемые вручную. Используйте исходный сайт курса, чтобы проверить инструкции, сроки и статус подачи."
+        }
+      ]
+    },
+    "ko": {
+      "title": "대학 과제 및 마감일을 추적하는 방법",
+      "description": "하나의 목록, 주간 검토 및 쌓이는 마감일에 대한 계획이 포함된 간단한 대학 과제 추적기를 설정하세요.",
+      "intro": "실제로 확인할 하나의 목록부터 시작하세요. 노트북, 스프레드시트 또는 작업 앱일 수 있습니다. 이번 주 마감일을 확인할 수 있도록 모든 수업에 대해 동일한 필드를 유지하세요.",
+      "answer": "각 과제에 강좌, 과제 이름, 정확한 마감일 및 시간, 상태, 다음 작업이 포함된 행을 하나씩 제공하세요. 다음 주의 마감일을 검토한 다음 조기 시작이 필요한 과제를 수행할 시간을 확보하세요.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "과제 추적기 설정",
+          "paragraphs": [
+            "각 강의 계획서와 강좌 사이트에서 과제, 퀴즈, 프로젝트를 확인하세요. 과제당 하나의 행을 사용하고 가능하다면 해당 지침에 대한 링크를 저장하세요."
+          ],
+          "steps": [
+            "코스에 표시된 마감일을 기록하세요. 변경된 경우 동일한 행을 업데이트하세요.",
+            "할 일, 진행 중, 제출됨과 같은 간단한 상태를 사용하세요. 강좌사이트에서 확인 후 제출완료로 표시합니다."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "마감일이 겹치는 한 주 계획을 세우세요",
+          "paragraphs": [
+            "역사 에세이 마감일이 목요일이고 화학 퀴즈 마감일이 금요일이라고 가정해 보겠습니다. 에세이 개요는 월요일에 작성하고 초안은 화요일에 작성하세요. 수요일에 연습 퀴즈를 풀고 목요일에 시간을 내서 에세이를 확인하고 제출하세요.",
+            "주간 검토 중에 강좌 공지사항을 확인하고, 다음 7일을 살펴보고, 완료되지 않은 작업을 사용할 수 있는 시간으로 옮기세요. 예상보다 오래 걸리는 작업을 위해 하나의 빈 슬롯을 남겨두세요."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "마감일이 없는 과제가 있으면 어떻게 되나요?",
+          "answer": "목록에 추가하고 공식 마감일을 비워두고 지침을 확인하거나 강사에게 문의할 시간을 예약하세요."
+        },
+        {
+          "question": "Nonlate에 목록을 유지할 수 있나요?",
+          "answer": "그렇습니다. 수동 작업으로 할당을 추가할 수 있습니다. 원래 코스 사이트를 사용하여 지침, 마감일 및 제출 상태를 확인하십시오."
+        }
+      ]
+    },
+    "it": {
+      "title": "Come tenere traccia dei compiti universitari e delle scadenze",
+      "description": "Imposta un semplice tracker dei compiti universitari con un elenco, una revisione settimanale e un piano per le scadenze che si accumulano.",
+      "intro": "Inizia con un elenco che controllerai effettivamente. Può essere un taccuino, un foglio di calcolo o un'app per attività. Mantieni gli stessi campi per ogni lezione in modo da poter vedere cosa è in scadenza questa settimana.",
+      "answer": "Assegna a ogni compito una riga con il corso, il nome del compito, la data e l'ora di scadenza esatte, lo stato e l'azione successiva. Rivedi le scadenze della prossima settimana, quindi riserva del tempo per lavorare sui compiti che richiedono un inizio anticipato.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Imposta il tracker dei compiti",
+          "paragraphs": [
+            "Controlla ogni programma e sito del corso per compiti, quiz e progetti. Utilizza una riga per compito e, se puoi, salva un collegamento alle relative istruzioni."
+          ],
+          "steps": [
+            "Registra la scadenza come mostrato nel tuo corso. Se cambia, aggiorna la stessa riga.",
+            "Utilizza uno stato semplice come Da fare, In corso o Inviato. Segna Inviato dopo aver controllato la conferma nel sito del corso."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Pianifica una settimana con scadenze sovrapposte",
+          "paragraphs": [
+            "Supponiamo che giovedì ci sia un saggio di storia e venerdì un quiz di chimica. Blocca lunedì per la bozza del saggio e martedì per una bozza. Mercoledì fai un quiz pratico, quindi prenota il tempo giovedì per controllare il saggio e inviarlo.",
+            "Durante la revisione settimanale, controlla gli annunci dei corsi, esamina i prossimi sette giorni e sposta qualsiasi lavoro non completato in un momento che puoi utilizzare. Lascia uno spazio libero per il lavoro che richiede più tempo del previsto."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Cosa succede se ho un compito senza scadenza?",
+          "answer": "Aggiungilo all'elenco, lascia vuota la scadenza ufficiale e fissa un orario per controllare le istruzioni o chiedi al tuo istruttore."
+        },
+        {
+          "question": "Posso mantenere l'elenco in Nonlate?",
+          "answer": "Sì. È possibile aggiungere assegnazioni come attività manuali. Utilizza il sito del corso originale per verificare istruzioni, scadenze e stato di invio."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Üniversite ödevlerini ve teslim tarihlerini nasıl takip edebilirim?",
+      "description": "Tek bir liste, haftalık inceleme ve biriken son teslim tarihlerine ilişkin bir plan içeren basit bir üniversite ödevi izleyicisi oluşturun.",
+      "intro": "Gerçekten kontrol edeceğiniz bir listeyle başlayın. Bir not defteri, elektronik tablo veya görev uygulaması olabilir. Bu hafta nelerin teslim edileceğini görebilmeniz için her sınıf için aynı alanları tutun.",
+      "answer": "Her ödeve kursu, ödev adını, kesin teslim tarihini ve saatini, durumunu ve sonraki eylemi içeren bir satır verin. Gelecek haftanın son teslim tarihlerini gözden geçirin, ardından erken başlamayı gerektiren ödevler üzerinde çalışmak için zaman ayırın.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Ödev izleyicinizi kurun",
+          "paragraphs": [
+            "Ödevler, testler ve projeler için her ders programını ve kurs sitesini kontrol edin. Ödev başına bir satır kullanın ve mümkünse talimatların bağlantısını kaydedin."
+          ],
+          "steps": [
+            "Kursunuzda gösterildiği gibi son tarihi kaydedin. Değişirse aynı satırı güncelleyin.",
+            "Yapılacaklar, Devam Ediyor veya Gönderildi gibi basit bir durum kullanın. Kurs sitesinde onay olup olmadığını kontrol ettikten sonra Gönderildi olarak işaretleyin."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Çakışan teslim tarihleriyle bir hafta planlayın",
+          "paragraphs": [
+            "Diyelim ki perşembe günü bir tarih ödevi verilecek ve cuma günü bir kimya sınavı yapılacak. Makale taslağı için Pazartesi'yi ve taslak için Salı'yı ayırın. Çarşamba günü bir deneme sınavı yapın, ardından makaleyi kontrol edip göndermek için Perşembe günü zaman ayırın.",
+            "Haftalık incelemeniz sırasında kurs duyurularını kontrol edin, sonraki yedi günü tarayın ve yarım kalan işleri kullanabileceğiniz bir zamana taşıyın. Beklenenden daha uzun süren işler için bir alanı açık bırakın."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Teslim tarihi olmayan bir ödevim varsa ne olur?",
+          "answer": "Listeye ekleyin, resmi son tarihi boş bırakın ve talimatları kontrol etmek veya eğitmeninize sormak için bir zaman planlayın."
+        },
+        {
+          "question": "Listeyi Nonlate'de tutabilir miyim?",
+          "answer": "Evet. Atamaları manuel görevler olarak ekleyebilirsiniz. Talimatları, son teslim tarihlerini ve gönderim durumunu doğrulamak için orijinal kurs sitesini kullanın."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Làm thế nào để theo dõi các bài tập đại học và ngày đáo hạn",
+      "description": "Thiết lập một công cụ theo dõi bài tập đại học đơn giản với một danh sách, bản đánh giá hàng tuần và kế hoạch cho thời hạn chồng chất.",
+      "intro": "Bắt đầu với một danh sách mà bạn sẽ thực sự kiểm tra. Nó có thể là một sổ ghi chép, bảng tính hoặc ứng dụng tác vụ. Giữ các trường giống nhau cho mỗi lớp để bạn có thể biết lớp nào đến hạn trong tuần này.",
+      "answer": "Cung cấp cho mỗi bài tập một hàng với khóa học, tên bài tập, ngày và giờ đến hạn chính xác, trạng thái và hành động tiếp theo. Xem lại thời hạn của tuần tiếp theo, sau đó dành thời gian để thực hiện các nhiệm vụ cần bắt đầu sớm.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Thiết lập trình theo dõi bài tập của bạn",
+          "paragraphs": [
+            "Kiểm tra từng giáo trình và trang web khóa học để biết các bài tập, câu hỏi và dự án. Sử dụng một hàng cho mỗi bài tập và lưu liên kết đến hướng dẫn của nó nếu có thể."
+          ],
+          "steps": [
+            "Ghi lại thời hạn như được hiển thị trong khóa học của bạn. Nếu nó thay đổi, hãy cập nhật cùng một hàng.",
+            "Sử dụng trạng thái đơn giản như Việc cần làm, Đang tiến hành hoặc Đã gửi. Đánh dấu Đã gửi sau khi kiểm tra xác nhận trên trang web khóa học."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Lập kế hoạch một tuần với thời hạn trùng lặp",
+          "paragraphs": [
+            "Giả sử hạn nộp bài luận lịch sử là vào thứ Năm và bài kiểm tra hóa học là vào thứ Sáu. Dành thứ Hai cho dàn ý bài luận và thứ Ba cho bản nháp. Làm bài kiểm tra thực hành vào thứ Tư, sau đó dành thời gian vào thứ Năm để kiểm tra bài luận và nộp nó.",
+            "Trong quá trình đánh giá hàng tuần, hãy kiểm tra các thông báo về khóa học, xem xét bảy ngày tiếp theo và chuyển mọi công việc còn dang dở sang thời điểm bạn có thể sử dụng. Để lại một chỗ trống cho công việc mất nhiều thời gian hơn dự kiến."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Điều gì sẽ xảy ra nếu tôi có một bài tập không có thời hạn nộp?",
+          "answer": "Thêm nó vào danh sách, để trống thời hạn chính thức và sắp xếp thời gian để kiểm tra hướng dẫn hoặc hỏi người hướng dẫn của bạn."
+        },
+        {
+          "question": "Tôi có thể giữ danh sách trong Nonlate không?",
+          "answer": "Vâng. Bạn có thể thêm bài tập dưới dạng tác vụ thủ công. Sử dụng trang web khóa học ban đầu để xác minh hướng dẫn, thời hạn và trạng thái gửi."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Jak śledzić zadania na studiach i terminy",
+      "description": "Skonfiguruj prosty moduł do śledzenia zadań na studia z jedną listą, cotygodniowym przeglądem i planem napiętych terminów.",
+      "intro": "Zacznij od jednej listy, którą faktycznie sprawdzisz. Może to być notatnik, arkusz kalkulacyjny lub aplikacja zadaniowa. Zachowaj te same pola dla wszystkich zajęć, aby móc zobaczyć, co jest terminem w tym tygodniu.",
+      "answer": "Przydziel każdemu zadaniu jeden wiersz zawierający kurs, nazwę zadania, dokładny termin i godzinę, status oraz następną akcję. Przejrzyj najbliższy tydzień terminów, a następnie zarezerwuj czas na pracę nad zadaniami, które wymagają wcześniejszego rozpoczęcia.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Skonfiguruj moduł śledzenia zadań",
+          "paragraphs": [
+            "Sprawdź każdy program nauczania i stronę kursu pod kątem zadań, quizów i projektów. Użyj jednego wiersza na każde zadanie i jeśli możesz, zapisz link do instrukcji."
+          ],
+          "steps": [
+            "Zapisz termin wskazany w kursie. Jeśli się zmieni, zaktualizuj ten sam wiersz.",
+            "Użyj prostego statusu, takiego jak Do zrobienia, W toku lub Przesłane. Oznacz jako przesłane po sprawdzeniu potwierdzenia na stronie kursu."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Zaplanuj tydzień z nakładającymi się terminami",
+          "paragraphs": [
+            "Załóżmy, że w czwartek ma być esej z historii, a quiz z chemii w piątek. Zablokuj poniedziałek na zarys eseju i wtorek na wersję roboczą. W środę wykonaj quiz praktyczny, a następnie zarezerwuj czas w czwartek na sprawdzenie eseju i przesłanie go.",
+            "Podczas cotygodniowego przeglądu sprawdzaj ogłoszenia o kursach, przeanalizuj kolejne siedem dni i przenieś niedokończoną pracę na czas, który będziesz mógł wykorzystać. Zostaw jedno wolne miejsce na pracę, która trwa dłużej niż oczekiwano."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "A co jeśli mam zadanie bez terminu?",
+          "answer": "Dodaj go do listy, pozostaw oficjalny termin pusty i zaplanuj czas na sprawdzenie instrukcji lub zapytaj swojego instruktora."
+        },
+        {
+          "question": "Czy mogę zachować listę w Nonlate?",
+          "answer": "Tak. Możesz dodawać przypisania jako zadania ręczne. Skorzystaj z oryginalnej witryny kursu, aby sprawdzić instrukcje, terminy i status zgłoszeń."
+        }
+      ]
+    },
+    "fa": {
+      "title": "نحوه پیگیری تکالیف دانشگاه و سررسیدها",
+      "description": "یک ردیاب تکالیف دانشگاهی ساده با یک لیست، یک بررسی هفتگی و یک برنامه برای ضرب‌الاجل‌هایی که انباشته می‌شوند، تنظیم کنید.",
+      "intro": "با یک لیست شروع کنید که در واقع بررسی خواهید کرد. این می تواند یک نوت بوک، صفحه گسترده یا برنامه کار باشد. فیلدهای یکسانی را برای هر کلاس نگه دارید تا بتوانید سررسید این هفته را ببینید.",
+      "answer": "به هر تکلیف یک ردیف با دوره، نام تکلیف، تاریخ و زمان دقیق سررسید، وضعیت و اقدام بعدی بدهید. مهلت های هفته بعدی را مرور کنید، سپس زمانی را برای کار بر روی تکالیفی که نیاز به شروع زودهنگام دارند، رزرو کنید.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "ردیاب تکلیف خود را تنظیم کنید",
+          "paragraphs": [
+            "هر برنامه درسی و سایت دوره را برای تکالیف، آزمون ها و پروژه ها بررسی کنید. در هر تکلیف از یک ردیف استفاده کنید و اگر می توانید پیوندی به دستورالعمل های آن ذخیره کنید."
+          ],
+          "steps": [
+            "مهلت را همانطور که در دوره خود نشان داده شده است ثبت کنید. اگر تغییر کرد، همان ردیف را به روز کنید.",
+            "برای هر تکلیف یکی از وضعیت‌های «انجام‌نشده»، «در حال انجام» یا «تحویل داده‌شده» را بگذارید. وقتی تأیید تحویل را در سایت درس دیدید، وضعیت را به «تحویل داده‌شده» تغییر دهید."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "یک هفته با مهلت های متداخل برنامه ریزی کنید",
+          "paragraphs": [
+            "فرض کنید یک انشا تاریخ پنجشنبه و یک مسابقه شیمی در روز جمعه است. دوشنبه را برای طرح کلی مقاله و سه شنبه را برای پیش نویس مسدود کنید. چهارشنبه یک مسابقه تمرینی انجام دهید، سپس پنج شنبه برای بررسی مقاله و ارسال آن وقت رزرو کنید.",
+            "در طول بررسی هفتگی خود، اطلاعیه های دوره را بررسی کنید، هفت روز آینده را اسکن کنید و هر کار ناتمام را به زمانی که می توانید استفاده کنید منتقل کنید. برای کارهایی که بیشتر از حد انتظار طول می کشد، یک شکاف باز بگذارید."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "اگر من یک تکلیف بدون موعد مقرر داشته باشم چه می شود؟",
+          "answer": "آن را به لیست اضافه کنید، مهلت رسمی را خالی بگذارید و زمانی را برای بررسی دستورالعمل ها یا سوال از مربی خود تعیین کنید."
+        },
+        {
+          "question": "آیا می توانم لیست را در Nonlate نگه دارم؟",
+          "answer": "بله. می توانید تکالیف را به عنوان کارهای دستی اضافه کنید. از سایت اصلی دوره برای تأیید دستورالعمل ها، مهلت ها و وضعیت ارسال استفاده کنید."
+        }
+      ]
+    },
+    "th": {
+      "title": "วิธีติดตามการมอบหมายงานของวิทยาลัยและวันครบกำหนด",
+      "description": "ตั้งค่าเครื่องมือติดตามการมอบหมายงานในวิทยาลัยง่ายๆ ด้วยหนึ่งรายการ การทบทวนรายสัปดาห์ และแผนสำหรับกำหนดเวลาที่กองพะเนินเทินทึก",
+      "intro": "เริ่มต้นด้วยรายการเดียวที่คุณจะตรวจสอบจริงๆ อาจเป็นสมุดบันทึก สเปรดชีต หรือแอปงานก็ได้ คงช่องเดิมไว้สำหรับทุกชั้นเรียนเพื่อให้คุณเห็นว่ามีกำหนดส่งอะไรบ้างในสัปดาห์นี้",
+      "answer": "ระบุหลักสูตร ชื่องาน วันที่และเวลาที่ครบกำหนด สถานะ และการดำเนินการถัดไปในแถวเดียว ตรวจสอบกำหนดเวลาในสัปดาห์ถัดไป จากนั้นจองเวลาทำงานที่ได้รับมอบหมายที่ต้องเริ่มงานแต่เนิ่นๆ",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "ตั้งค่าตัวติดตามการมอบหมายงานของคุณ",
+          "paragraphs": [
+            "ตรวจสอบแต่ละหลักสูตรและไซต์หลักสูตรเพื่อดูการบ้าน แบบทดสอบ และโครงการต่างๆ ใช้หนึ่งแถวต่องานและบันทึกลิงก์ไปยังคำแนะนำหากทำได้"
+          ],
+          "steps": [
+            "บันทึกกำหนดเวลาตามที่แสดงในหลักสูตรของคุณ หากมีการเปลี่ยนแปลงให้อัพเดตแถวเดียวกัน",
+            "ใช้สถานะง่ายๆ เช่น สิ่งที่ต้องทำ กำลังดำเนินการ หรือส่งแล้ว ทำเครื่องหมายว่าส่งแล้วหลังจากตรวจสอบการยืนยันในเว็บไซต์หลักสูตรแล้ว"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "วางแผนหนึ่งสัปดาห์โดยมีกำหนดเวลาทับซ้อนกัน",
+          "paragraphs": [
+            "สมมติว่าเรียงความประวัติศาสตร์มีกำหนดส่งในวันพฤหัสบดี และจะมีการสอบวิชาเคมีในวันศุกร์ งดวันจันทร์สำหรับโครงร่างเรียงความ และวันอังคารสำหรับฉบับร่าง ทำแบบทดสอบฝึกหัดวันพุธ จากนั้นจองเวลาวันพฤหัสบดีเพื่อตรวจสอบเรียงความและส่ง",
+            "ในระหว่างการทบทวนรายสัปดาห์ ให้ตรวจสอบประกาศหลักสูตร สแกนเจ็ดวันถัดไป และย้ายงานที่ยังไม่เสร็จตามเวลาที่คุณสามารถใช้ได้ ปล่อยให้ช่องเปิดไว้หนึ่งช่องสำหรับงานที่ใช้เวลานานกว่าที่คาดไว้"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "จะเกิดอะไรขึ้นหากฉันมีงานที่ไม่มีกำหนดส่ง?",
+          "answer": "เพิ่มลงในรายการ ปล่อยให้กำหนดเวลาอย่างเป็นทางการว่างไว้ และกำหนดเวลาเพื่อตรวจสอบคำแนะนำหรือสอบถามผู้สอนของคุณ"
+        },
+        {
+          "question": "ฉันสามารถเก็บรายการไว้ใน Nonlate ได้หรือไม่",
+          "answer": "ใช่ คุณสามารถเพิ่มการมอบหมายงานเป็นงานที่ต้องดำเนินการเองได้ ใช้เว็บไซต์หลักสูตรเดิมเพื่อตรวจสอบคำแนะนำ กำหนดเวลา และสถานะการส่ง"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Hoe u collegeopdrachten en inleverdata kunt bijhouden",
+      "description": "Zet een eenvoudige tracker voor universiteitsopdrachten op met één lijst, een wekelijkse evaluatie en een plan voor deadlines die zich opstapelen.",
+      "intro": "Begin met één lijst die u daadwerkelijk gaat controleren. Het kan een notitieboekje, spreadsheet of taak-app zijn. Houd voor elke les dezelfde velden aan, zodat je kunt zien wat er deze week moet gebeuren.",
+      "answer": "Geef elke opdracht één rij met de cursus, opdrachtnaam, exacte inleverdatum en -tijd, status en volgende actie. Bekijk de deadlines voor de volgende week en reserveer vervolgens tijd om aan de opdrachten te werken die vroeg moeten beginnen.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Stel uw toewijzingstracker in",
+          "paragraphs": [
+            "Controleer elke syllabus en cursussite voor opdrachten, quizzen en projecten. Gebruik één rij per opdracht en bewaar indien mogelijk een link naar de instructies."
+          ],
+          "steps": [
+            "Noteer de deadline zoals weergegeven in uw cursus. Als dit verandert, update dan dezelfde rij.",
+            "Gebruik een eenvoudige status zoals Nog te doen, In behandeling of Verzonden. Markeer als verzonden na controle op een bevestiging op de cursussite."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Plan een week met overlappende deadlines",
+          "paragraphs": [
+            "Stel dat er op donderdag een geschiedenisessay moet worden ingeleverd en op vrijdag een scheikundequiz. Blokkeer maandag voor het essayoverzicht en dinsdag voor een concept. Doe woensdag een oefenquiz en reserveer donderdag tijd om het essay te controleren en in te dienen.",
+            "Controleer tijdens uw wekelijkse beoordeling de cursusaankondigingen, scan de komende zeven dagen en verplaats eventueel onafgemaakt werk naar een tijdstip dat u kunt gebruiken. Laat één plek open voor werk dat langer duurt dan verwacht."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Wat moet ik doen als ik een opdracht heb zonder inleverdatum?",
+          "answer": "Voeg het toe aan de lijst, laat de officiële deadline blanco en plan een tijdstip om de instructies te controleren of vraag het aan je instructeur."
+        },
+        {
+          "question": "Kan ik de lijst in Nonlate behouden?",
+          "answer": "Ja. U kunt opdrachten toevoegen als handmatige taken. Gebruik de originele cursussite om instructies, deadlines en inzendingsstatus te verifiëren."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Як стежити за завданнями в коледжі та термінами",
+      "description": "Налаштуйте простий засіб відстеження завдань до коледжу з одним списком, щотижневим оглядом і планом термінів, які накопичуються.",
+      "intro": "Почніть з одного списку, який ви фактично перевірите. Це може бути блокнот, електронна таблиця або програма для завдань. Зберігайте однакові поля для кожного класу, щоб ви могли бачити, що потрібно зробити цього тижня.",
+      "answer": "Дайте кожному завданню один рядок із курсом, назвою завдання, точною датою й часом виконання, статусом і наступною дією. Перегляньте крайні терміни наступного тижня, а потім зарезервуйте час для роботи над завданнями, які потрібно почати раніше.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Налаштуйте трекер завдань",
+          "paragraphs": [
+            "Перевірте кожну навчальну програму та веб-сайт курсу, щоб знайти завдання, тести та проекти. Використовуйте один рядок для кожного завдання та збережіть посилання на його інструкції, якщо можете."
+          ],
+          "steps": [
+            "Запишіть кінцевий термін, як зазначено у вашому курсі. Якщо зміниться, оновіть той самий рядок.",
+            "Використовуйте простий статус, наприклад «Справа», «У процесі» або «Надіслано». Позначити Надіслано після перевірки підтвердження на сайті курсу."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Плануйте тиждень із збігаючимися дедлайнами",
+          "paragraphs": [
+            "Припустімо, реферат з історії має бути в четвер, а вікторина з хімії – у п’ятницю. Виділіть понеділок для плану есе та вівторок для чернетки. Виконайте тренувальний тест у середу, а потім зарезервуйте час у четвер, щоб перевірити есе та надіслати його.",
+            "Під час щотижневого перегляду перевіряйте оголошення про курси, скануйте наступні сім днів і перенесіть будь-яку незавершену роботу на час, який ви можете використовувати. Залиште один відкритий слот для роботи, яка займає більше часу, ніж очікувалося."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Що робити, якщо у мене є завдання без терміну виконання?",
+          "answer": "Додайте його до списку, залиште офіційний крайній термін пустим і заплануйте час, щоб перевірити інструкції або запитати свого викладача."
+        },
+        {
+          "question": "Чи можу я зберегти список у Nonlate?",
+          "answer": "так Ви можете додавати завдання як ручні завдання. Використовуйте оригінальний сайт курсу, щоб перевірити інструкції, терміни та статус подання."
+        }
+      ]
+    },
+    "bn": {
+      "title": "কিভাবে কলেজ অ্যাসাইনমেন্ট এবং নির্ধারিত তারিখ ট্র্যাক রাখা",
+      "description": "একটি তালিকা সহ একটি সাধারণ কলেজ অ্যাসাইনমেন্ট ট্র্যাকার সেট আপ করুন, একটি সাপ্তাহিক পর্যালোচনা এবং স্তূপ করা সময়সীমার জন্য একটি পরিকল্পনা৷",
+      "intro": "একটি তালিকা দিয়ে শুরু করুন আপনি আসলে পরীক্ষা করবেন। এটি একটি নোটবুক, স্প্রেডশিট বা টাস্ক অ্যাপ হতে পারে। প্রতিটি ক্লাসের জন্য একই ক্ষেত্রগুলি রাখুন যাতে আপনি দেখতে পারেন এই সপ্তাহে কী আছে।",
+      "answer": "প্রতিটি অ্যাসাইনমেন্টকে কোর্স, অ্যাসাইনমেন্টের নাম, সঠিক নির্ধারিত তারিখ এবং সময়, স্থিতি এবং পরবর্তী পদক্ষেপ সহ একটি সারি দিন। সময়সীমার পরের সপ্তাহের পর্যালোচনা করুন, তারপরে এমন অ্যাসাইনমেন্টগুলিতে কাজ করার জন্য সময় রিজার্ভ করুন যেগুলি তাড়াতাড়ি শুরু করতে হবে।",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "আপনার অ্যাসাইনমেন্ট ট্র্যাকার সেট আপ করুন",
+          "paragraphs": [
+            "অ্যাসাইনমেন্ট, কুইজ এবং প্রকল্পের জন্য প্রতিটি সিলেবাস এবং কোর্স সাইট পরীক্ষা করুন। প্রতি অ্যাসাইনমেন্টে একটি সারি ব্যবহার করুন এবং আপনি যদি পারেন তবে এর নির্দেশাবলীতে একটি লিঙ্ক সংরক্ষণ করুন।"
+          ],
+          "steps": [
+            "আপনার কোর্সে দেখানো সময়সীমা রেকর্ড করুন। যদি এটি পরিবর্তন হয়, একই সারি আপডেট করুন।",
+            "একটি সাধারণ স্ট্যাটাস ব্যবহার করুন যেমন করতে হবে, চলছে বা জমা দেওয়া হয়েছে। কোর্স সাইটে নিশ্চিতকরণের জন্য চেক করার পরে জমা দেওয়া চিহ্ন।"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ওভারল্যাপিং সময়সীমার সাথে এক সপ্তাহের পরিকল্পনা করুন",
+          "paragraphs": [
+            "ধরুন একটি ইতিহাস রচনা বৃহস্পতিবার এবং একটি রসায়ন ক্যুইজ শুক্রবার। প্রবন্ধের রূপরেখার জন্য সোমবার এবং খসড়ার জন্য মঙ্গলবার অবরুদ্ধ করুন। বুধবার একটি অনুশীলন কুইজ করুন, তারপর প্রবন্ধটি পরীক্ষা করে জমা দেওয়ার জন্য বৃহস্পতিবার সময় রিজার্ভ করুন।",
+            "আপনার সাপ্তাহিক পর্যালোচনার সময়, কোর্সের ঘোষণাগুলি পরীক্ষা করুন, পরবর্তী সাত দিন স্ক্যান করুন এবং যে কোনও অসমাপ্ত কাজকে আপনি ব্যবহার করতে পারেন এমন সময়ে সরান। প্রত্যাশার চেয়ে বেশি সময় নেয় এমন কাজের জন্য একটি খোলা স্লট ছেড়ে দিন।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "আমার যদি নির্ধারিত তারিখ ছাড়া একটি অ্যাসাইনমেন্ট থাকে?",
+          "answer": "তালিকায় এটি যোগ করুন, অফিসিয়াল সময়সীমা ফাঁকা রাখুন এবং নির্দেশাবলী পরীক্ষা করার জন্য একটি সময় নির্ধারণ করুন বা আপনার প্রশিক্ষককে জিজ্ঞাসা করুন।"
+        },
+        {
+          "question": "আমি কি Nonlate এ তালিকা রাখতে পারি?",
+          "answer": "হ্যাঁ। আপনি ম্যানুয়াল কাজ হিসাবে অ্যাসাইনমেন্ট যোগ করতে পারেন. নির্দেশাবলী, সময়সীমা এবং জমা দেওয়ার স্থিতি যাচাই করতে মূল কোর্স সাইটটি ব্যবহার করুন।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "کالج کی اسائنمنٹس اور مقررہ تاریخوں کو کیسے ٹریک کیا جائے۔",
+      "description": "ایک فہرست کے ساتھ ایک سادہ کالج اسائنمنٹ ٹریکر ترتیب دیں، ایک ہفتہ وار جائزہ اور ڈیڈ لائن کے لیے ایک منصوبہ جو جمع ہو جائے۔",
+      "intro": "ایک فہرست کے ساتھ شروع کریں جو آپ واقعی چیک کریں گے۔ یہ ایک نوٹ بک، اسپریڈشیٹ یا ٹاسک ایپ ہو سکتی ہے۔ ہر کلاس کے لیے ایک ہی فیلڈ رکھیں تاکہ آپ دیکھ سکیں کہ اس ہفتے کیا واجب الادا ہے۔",
+      "answer": "ہر اسائنمنٹ کو کورس، اسائنمنٹ کا نام، درست مقررہ تاریخ اور وقت، حیثیت اور اگلی کارروائی کے ساتھ ایک قطار دیں۔ آخری تاریخ کے اگلے ہفتے کا جائزہ لیں، پھر ان اسائنمنٹس پر کام کرنے کے لیے وقت محفوظ کریں جن کے لیے ابتدائی آغاز کی ضرورت ہے۔",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "اپنا اسائنمنٹ ٹریکر ترتیب دیں۔",
+          "paragraphs": [
+            "اسائنمنٹس، کوئزز اور پروجیکٹس کے لیے ہر نصاب اور کورس کی سائٹ چیک کریں۔ فی اسائنمنٹ ایک قطار کا استعمال کریں اور اگر ہو سکے تو اس کی ہدایات کا لنک محفوظ کریں۔"
+          ],
+          "steps": [
+            "آخری تاریخ کو ریکارڈ کریں جیسا کہ آپ کے کورس میں دکھایا گیا ہے۔ اگر یہ بدل جاتا ہے تو اسی قطار کو اپ ڈیٹ کریں۔",
+            "ایک سادہ حیثیت کا استعمال کریں جیسے کرنے کے لیے، جاری ہے یا جمع کرایا گیا ہے۔ کورس کی سائٹ میں تصدیق کے لیے چیک کرنے کے بعد مارک جمع کرایا گیا۔"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "اوور لیپنگ ڈیڈ لائن کے ساتھ ایک ہفتہ کی منصوبہ بندی کریں۔",
+          "paragraphs": [
+            "فرض کریں کہ تاریخ کا مضمون جمعرات کو ہے اور کیمسٹری کا کوئز جمعہ کو ہے۔ مضمون کے خاکہ کے لیے پیر کو اور منگل کو مسودے کے لیے بلاک کریں۔ بدھ کو پریکٹس کوئز کریں، پھر مضمون کو چیک کرنے اور اسے جمع کرانے کے لیے جمعرات کا وقت محفوظ کریں۔",
+            "اپنے ہفتہ وار جائزے کے دوران، کورس کے اعلانات کو چیک کریں، اگلے سات دن اسکین کریں اور کسی بھی نامکمل کام کو اس وقت پر منتقل کریں جو آپ استعمال کر سکتے ہیں۔ کام کے لیے ایک کھلی جگہ چھوڑ دیں جس میں توقع سے زیادہ وقت لگے۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "اگر میرے پاس مقررہ تاریخ کے بغیر کوئی اسائنمنٹ ہے تو کیا ہوگا؟",
+          "answer": "اسے فہرست میں شامل کریں، آفیشل ڈیڈ لائن کو خالی چھوڑ دیں اور ہدایات چیک کرنے کے لیے وقت مقرر کریں یا اپنے انسٹرکٹر سے پوچھیں۔"
+        },
+        {
+          "question": "کیا میں Nonlate میں فہرست رکھ سکتا ہوں؟",
+          "answer": "جی ہاں آپ اسائنمنٹس کو دستی کاموں کے طور پر شامل کر سکتے ہیں۔ ہدایات، آخری تاریخ اور جمع کرانے کی حیثیت کی تصدیق کے لیے اصل کورس سائٹ کا استعمال کریں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "கல்லூரி பணிகள் மற்றும் இறுதி தேதிகளை எவ்வாறு கண்காணிப்பது",
+      "description": "ஒரு பட்டியல், வாராந்திர மதிப்பாய்வு மற்றும் குவியும் காலக்கெடுவுக்கான திட்டத்துடன் கூடிய எளிய கல்லூரி ஒதுக்கீட்டு டிராக்கரை அமைக்கவும்.",
+      "intro": "நீங்கள் சரிபார்க்கும் ஒரு பட்டியலைத் தொடங்குங்கள். இது நோட்புக், விரிதாள் அல்லது பணி பயன்பாடாக இருக்கலாம். ஒவ்வொரு வகுப்பிற்கும் ஒரே புலங்களை வைத்திருங்கள், இதன் மூலம் இந்த வாரம் நிலுவைத் தொகையை நீங்கள் பார்க்கலாம்.",
+      "answer": "பாடநெறி, பணியின் பெயர், சரியான தேதி மற்றும் நேரம், நிலை மற்றும் அடுத்த செயல் ஆகியவற்றுடன் ஒவ்வொரு பணிக்கும் ஒரு வரிசையை வழங்கவும். அடுத்த வார காலக்கெடுவை மதிப்பாய்வு செய்து, முன்கூட்டியே தொடங்க வேண்டிய பணிகளைச் செய்ய நேரத்தை ஒதுக்குங்கள்.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "உங்கள் அசைன்மென்ட் டிராக்கரை அமைக்கவும்",
+          "paragraphs": [
+            "பணிகள், வினாடி வினாக்கள் மற்றும் திட்டங்களுக்கு ஒவ்வொரு பாடத்திட்டத்தையும் பாடத் தளத்தையும் சரிபார்க்கவும். ஒரு பணிக்கு ஒரு வரிசையைப் பயன்படுத்தி, உங்களால் முடிந்தால் அதன் வழிமுறைகளுக்கான இணைப்பைச் சேமிக்கவும்."
+          ],
+          "steps": [
+            "உங்கள் பாடத்திட்டத்தில் காட்டப்பட்டுள்ளபடி காலக்கெடுவை பதிவு செய்யவும். அது மாறினால், அதே வரிசையைப் புதுப்பிக்கவும்.",
+            "செய்ய வேண்டியது, செயல்பாட்டில் உள்ளது அல்லது சமர்ப்பிக்கப்பட்டது போன்ற எளிய நிலையைப் பயன்படுத்தவும். பாடத் தளத்தில் உறுதிப்படுத்தலைச் சரிபார்த்த பிறகு சமர்ப்பிக்கப்பட்ட குறி."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ஒன்றுடன் ஒன்று காலக்கெடுவுடன் ஒரு வாரத்தைத் திட்டமிடுங்கள்",
+          "paragraphs": [
+            "ஒரு வரலாற்றுக் கட்டுரை வியாழன் அன்றும், வேதியியல் வினாடி வினா வெள்ளிக்கிழமையும் வரவுள்ளது என்று வைத்துக்கொள்வோம். கட்டுரை அவுட்லைனுக்கு திங்கட்கிழமையும், வரைவுக்கு செவ்வாய் கிழமையும் தடை செய்யுங்கள். புதன்கிழமை பயிற்சி வினாடி வினாவைச் செய்யுங்கள், பின்னர் கட்டுரையைச் சரிபார்த்து அதைச் சமர்ப்பிக்க வியாழக்கிழமை நேரத்தை ஒதுக்குங்கள்.",
+            "உங்கள் வாராந்திர மதிப்பாய்வின் போது, பாடநெறி அறிவிப்புகளைச் சரிபார்த்து, அடுத்த ஏழு நாட்களை ஸ்கேன் செய்து, முடிக்கப்படாத வேலையை நீங்கள் பயன்படுத்தக்கூடிய நேரத்திற்கு மாற்றவும். எதிர்பார்த்ததை விட அதிக நேரம் எடுக்கும் வேலைக்காக ஒரு திறந்த இடத்தை விட்டு விடுங்கள்."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "காலக்கெடு இல்லாமல் எனக்கு ஒரு பணி இருந்தால் என்ன செய்வது?",
+          "answer": "பட்டியலில் அதைச் சேர்க்கவும், அதிகாரப்பூர்வ காலக்கெடுவை காலியாக விட்டுவிட்டு, வழிமுறைகளைச் சரிபார்க்க அல்லது உங்கள் பயிற்றுவிப்பாளரிடம் கேட்க ஒரு நேரத்தை திட்டமிடுங்கள்."
+        },
+        {
+          "question": "நான் பட்டியலை Nonlate இல் வைத்திருக்கலாமா?",
+          "answer": "ஆம். நீங்கள் பணிகளை கைமுறையாகப் பணிகளாகச் சேர்க்கலாம். வழிமுறைகள், காலக்கெடு மற்றும் சமர்ப்பிப்பு நிலையைச் சரிபார்க்க அசல் பாடத் தளத்தைப் பயன்படுத்தவும்."
+        }
+      ]
+    },
+    "te": {
+      "title": "కళాశాల అసైన్‌మెంట్‌లు మరియు గడువు తేదీలను ఎలా ట్రాక్ చేయాలి",
+      "description": "ఒక జాబితా, వారానికొకసారి సమీక్ష మరియు పోగు అయ్యే గడువుల కోసం ప్లాన్‌తో సాధారణ కళాశాల అసైన్‌మెంట్ ట్రాకర్‌ను సెటప్ చేయండి.",
+      "intro": "మీరు నిజంగా తనిఖీ చేసే ఒక జాబితాతో ప్రారంభించండి. ఇది నోట్‌బుక్, స్ప్రెడ్‌షీట్ లేదా టాస్క్ యాప్ కావచ్చు. ప్రతి తరగతికి ఒకే ఫీల్డ్‌లను ఉంచండి, తద్వారా మీరు ఈ వారం చెల్లించాల్సిన వాటిని చూడవచ్చు.",
+      "answer": "కోర్సు, అసైన్‌మెంట్ పేరు, ఖచ్చితమైన గడువు తేదీ మరియు సమయం, స్థితి మరియు తదుపరి చర్యతో ప్రతి అసైన్‌మెంట్‌కు ఒక అడ్డు వరుసను ఇవ్వండి. తదుపరి వారం గడువులను సమీక్షించండి, ఆపై త్వరగా ప్రారంభించాల్సిన అసైన్‌మెంట్‌లపై పని చేయడానికి సమయాన్ని రిజర్వ్ చేయండి.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "మీ అసైన్‌మెంట్ ట్రాకర్‌ని సెటప్ చేయండి",
+          "paragraphs": [
+            "అసైన్‌మెంట్‌లు, క్విజ్‌లు మరియు ప్రాజెక్ట్‌ల కోసం ప్రతి సిలబస్ మరియు కోర్సు సైట్‌ను తనిఖీ చేయండి. ప్రతి అసైన్‌మెంట్‌కు ఒక అడ్డు వరుసను ఉపయోగించండి మరియు మీకు వీలైతే దాని సూచనలకు లింక్‌ను సేవ్ చేయండి."
+          ],
+          "steps": [
+            "మీ కోర్సులో చూపిన విధంగా గడువును రికార్డ్ చేయండి. అది మారితే, అదే అడ్డు వరుసను నవీకరించండి.",
+            "చేయవలసినవి, పురోగతిలో ఉన్నాయి లేదా సమర్పించబడినవి వంటి సాధారణ స్థితిని ఉపయోగించండి. కోర్సు సైట్‌లో నిర్ధారణ కోసం తనిఖీ చేసిన తర్వాత మార్క్ సమర్పించబడింది."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "అతివ్యాప్తి చెందుతున్న గడువులతో ఒక వారం ప్లాన్ చేయండి",
+          "paragraphs": [
+            "ఒక చరిత్ర వ్యాసం గురువారం మరియు కెమిస్ట్రీ క్విజ్ శుక్రవారం జరగాలి. వ్యాస రూపురేఖల కోసం సోమవారం మరియు చిత్తుప్రతి కోసం మంగళవారం నిరోధించండి. బుధవారం ప్రాక్టీస్ క్విజ్ చేయండి, ఆపై వ్యాసాన్ని తనిఖీ చేసి సమర్పించడానికి గురువారం సమయాన్ని రిజర్వ్ చేయండి.",
+            "మీ వారపు సమీక్ష సమయంలో, కోర్సు ప్రకటనలను తనిఖీ చేయండి, తదుపరి ఏడు రోజులను స్కాన్ చేయండి మరియు అసంపూర్తిగా ఉన్న పనిని మీరు ఉపయోగించగల సమయానికి తరలించండి. ఊహించిన దాని కంటే ఎక్కువ సమయం తీసుకునే పని కోసం ఒక ఓపెన్ స్లాట్‌ను వదిలివేయండి."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "గడువు తేదీ లేకుండా నాకు అసైన్‌మెంట్ ఉంటే ఏమి చేయాలి?",
+          "answer": "దీన్ని జాబితాకు జోడించి, అధికారిక గడువును ఖాళీగా ఉంచి, సూచనలను తనిఖీ చేయడానికి లేదా మీ బోధకుని అడగడానికి సమయాన్ని షెడ్యూల్ చేయండి."
+        },
+        {
+          "question": "నేను జాబితాను Nonlateలో ఉంచవచ్చా?",
+          "answer": "అవును. మీరు అసైన్‌మెంట్‌లను మాన్యువల్ టాస్క్‌లుగా జోడించవచ్చు. సూచనలు, గడువులు మరియు సమర్పణ స్థితిని ధృవీకరించడానికి అసలు కోర్సు సైట్‌ని ఉపయోగించండి."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何追蹤大學作業和截止日期",
+      "description": "設定一個簡單的大學作業追蹤器，其中包含一個清單、每週回顧和針對堆積的截止日期的計畫。",
+      "intro": "從一份您將實際檢查的清單開始。它可以是筆記本、電子表格或任務應用程式。為每個班級保留相同的字段，以便您可以看到本周到期的課程。",
+      "answer": "每項作業佔一行，其中包含課程、作業名稱、確切的截止日期和時間、狀態和下一步操作。查看下週的截止日期，然後預留時間完成需要儘早開始的作業。",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "設定您的作業追蹤器",
+          "paragraphs": [
+            "檢查每個教學大綱和課程網站上的作業、測驗和專案。每個作業使用一行，如果可以的話，請保存指向其說明的連結。"
+          ],
+          "steps": [
+            "記錄課程中顯示的截止日期。如果發生變化，則更新同一行。",
+            "使用簡單的狀態，例如「待辦事項」、「進行中」或「已提交」。在課程網站檢查確認後標記為已提交。"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "規劃一個期限重疊的一周",
+          "paragraphs": [
+            "假設週四要交一篇歷史論文，週五要交化學測驗。週一寫論文大綱，週二寫草稿。週三做一次練習測驗，然後週四預留時間檢查論文並提交。",
+            "在每週回顧期間，檢查課程公告，瀏覽接下來的 7 天，並將任何未完成的工作移至您可以使用的時間。為需要比預期時間更長的工作留出一個空位。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "如果我的作業沒有截止日期怎麼辦？",
+          "answer": "將其添加到清單中，將官方截止日期留空並安排時間查看說明或詢問您的教練。"
+        },
+        {
+          "question": "我可以將清單保留在 Nonlate 中嗎？",
+          "answer": "是的。您可以將作業新增為手動任務。使用原始課程網站來驗證說明、截止日期和提交狀態。"
+        }
+      ]
+    },
+    "he": {
+      "title": "כיצד לעקוב אחר מטלות המכללה ותאריכי יעד",
+      "description": "הגדר מעקב פשוט אחר מטלות במכללה עם רשימה אחת, סקירה שבועית ותוכנית למועדים שנערמים.",
+      "intro": "התחל עם רשימה אחת שבאמת תבדוק. זה יכול להיות מחברת, גיליון אלקטרוני או אפליקציית משימות. שמור את אותם שדות לכל שיעור כדי שתוכל לראות מה צפוי השבוע.",
+      "answer": "תנו לכל מטלה שורה אחת עם הקורס, שם המטלה, תאריך ושעה מדויקים, סטטוס והפעולה הבאה. בדוק את השבוע הבא של מועדים, ולאחר מכן שמור זמן לעבוד על המטלות שצריכות התחלה מוקדמת.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "הגדר את מעקב המשימות שלך",
+          "paragraphs": [
+            "בדוק בכל סילבוס ואתר קורס עבור מטלות, חידונים ופרויקטים. השתמש בשורה אחת לכל מטלה ושמור קישור להוראות שלה אם אתה יכול."
+          ],
+          "steps": [
+            "רשום את המועד האחרון כפי שמוצג בקורס שלך. אם זה משתנה, עדכן את אותה שורה.",
+            "השתמש בסטטוס פשוט כגון מטלות, בתהליך או נשלח. סימן נשלח לאחר בדיקת אישור באתר הקורס."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "תכנן שבוע עם מועדים חופפים",
+          "paragraphs": [
+            "נניח שמאמר היסטוריה יגיע ביום חמישי וביום שישי חידון כימיה. חסום את יום שני עבור מתווה החיבור ויום שלישי עבור טיוטה. ערכו חידון תרגול ביום רביעי, ואז שריינו זמן ביום חמישי כדי לבדוק את החיבור ולהגיש אותו.",
+            "במהלך הסקירה השבועית שלך, בדוק את הודעות הקורס, סרוק את שבעת הימים הבאים והעביר כל עבודה לא גמורה לזמן שבו תוכל להשתמש. השאר משבצת אחת פתוחה לעבודה שלוקחת זמן רב מהצפוי."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "מה אם יש לי מטלה ללא תאריך יעד?",
+          "answer": "הוסף אותו לרשימה, השאר את המועד האחרון ריק וקבע זמן כדי לבדוק את ההוראות או לשאול את המדריך שלך."
+        },
+        {
+          "question": "האם אוכל לשמור את הרשימה ב-Nonlate?",
+          "answer": "כן. ניתן להוסיף משימות כמשימות ידניות. השתמש באתר הקורס המקורי כדי לאמת הוראות, מועדים וסטטוס ההגשה."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Paano subaybayan ang mga takdang-aralin sa kolehiyo at mga takdang petsa",
+      "description": "Mag-set up ng isang simpleng tracker ng assignment sa kolehiyo na may isang listahan, isang lingguhang pagsusuri at isang plano para sa mga deadline na tambak.",
+      "intro": "Magsimula sa isang listahan na talagang susuriin mo. Maaari itong maging isang notebook, spreadsheet o task app. Panatilihin ang parehong mga field para sa bawat klase upang makita mo kung ano ang dapat bayaran sa linggong ito.",
+      "answer": "Bigyan ang bawat takdang-aralin ng isang row na may kurso, pangalan ng takdang-aralin, eksaktong takdang petsa at oras, katayuan at susunod na aksyon. Repasuhin ang susunod na linggo ng mga deadline, pagkatapos ay maglaan ng oras para magtrabaho sa mga takdang-aralin na nangangailangan ng maagang pagsisimula.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "I-set up ang iyong assignment tracker",
+          "paragraphs": [
+            "Suriin ang bawat syllabus at site ng kurso para sa mga takdang-aralin, pagsusulit at proyekto. Gumamit ng isang row sa bawat assignment at mag-save ng link sa mga tagubilin nito kung magagawa mo."
+          ],
+          "steps": [
+            "Itala ang huling araw tulad ng ipinapakita sa iyong kurso. Kung magbabago ito, i-update ang parehong row.",
+            "Gumamit ng isang simpleng katayuan tulad ng Gagawin, Kasalukuyang isinasagawa o Isinumite. Markahan ang Isinumite pagkatapos suriin ang kumpirmasyon sa site ng kurso."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Magplano ng isang linggo na may magkakapatong na mga deadline",
+          "paragraphs": [
+            "Ipagpalagay na ang isang sanaysay sa kasaysayan ay dapat na sa Huwebes at isang pagsusulit sa kimika ay sa Biyernes. I-block out ang Lunes para sa balangkas ng sanaysay at Martes para sa isang draft. Gumawa ng isang pagsusulit sa pagsasanay sa Miyerkules, pagkatapos ay magreserba ng oras sa Huwebes upang suriin ang sanaysay at isumite ito.",
+            "Sa panahon ng iyong lingguhang pagsusuri, suriin ang mga anunsyo ng kurso, i-scan ang susunod na pitong araw at ilipat ang anumang hindi natapos na gawain sa oras na magagamit mo. Mag-iwan ng isang bukas na puwang para sa trabahong mas matagal kaysa sa inaasahan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Paano kung may assignment ako na walang takdang petsa?",
+          "answer": "Idagdag ito sa listahan, iwanang blangko ang opisyal na deadline at mag-iskedyul ng oras upang suriin ang mga tagubilin o tanungin ang iyong instruktor."
+        },
+        {
+          "question": "Maaari ko bang itago ang listahan sa Nonlate?",
+          "answer": "Oo. Maaari kang magdagdag ng mga takdang-aralin bilang mga manu-manong gawain. Gamitin ang orihinal na site ng kurso upang i-verify ang mga tagubilin, mga deadline at katayuan ng pagsusumite."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Jak sledovat úkoly na vysoké škole a termíny",
+      "description": "Nastavte si jednoduchý nástroj pro sledování úkolů na vysoké škole s jedním seznamem, týdenním přehledem a plánem pro termíny, které se hromadí.",
+      "intro": "Začněte s jedním seznamem, který skutečně zkontrolujete. Může to být notebook, tabulka nebo úkolová aplikace. Ponechte stejná pole pro každou třídu, abyste viděli, co je na tento týden.",
+      "answer": "Každému úkolu dejte jeden řádek s kurzem, názvem úkolu, přesným datem a časem dokončení, stavem a další akcí. Projděte si příští týden termínů a poté si vyhraďte čas na práci na úkolech, které vyžadují brzký začátek.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Nastavte si sledování úkolů",
+          "paragraphs": [
+            "Zkontrolujte každý sylabus a web kurzu, kde najdete úkoly, kvízy a projekty. Pro každý úkol použijte jeden řádek a pokud můžete, uložte odkaz na jeho pokyny."
+          ],
+          "steps": [
+            "Zaznamenejte si termín, jak je uvedeno ve vašem kurzu. Pokud se změní, aktualizujte stejný řádek.",
+            "Použijte jednoduchý stav, jako je Úkol, Probíhá nebo Odesláno. Označit odesláno po kontrole potvrzení na webu kurzu."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Naplánujte si týden s překrývajícími se termíny",
+          "paragraphs": [
+            "Předpokládejme, že ve čtvrtek má být esej z historie a v pátek chemický kvíz. Blokujte pondělí pro osnovu eseje a úterý pro návrh. Udělejte si ve středu cvičný kvíz, pak si ve čtvrtek vyhraďte čas na kontrolu eseje a odeslání.",
+            "Během týdenní kontroly zkontrolujte oznámení o kurzech, naskenujte následujících sedm dní a přesuňte všechny nedokončené práce na čas, který můžete použít. Nechte jeden volný slot pro práci, která trvá déle, než se očekávalo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Co když mám úkol bez termínu dokončení?",
+          "answer": "Přidejte to do seznamu, nechte oficiální termín prázdný a naplánujte si čas na kontrolu pokynů nebo se zeptejte svého instruktora."
+        },
+        {
+          "question": "Mohu si ponechat seznam v Nonlate?",
+          "answer": "Ano. Úkoly můžete přidat jako ruční úkoly. Použijte původní web kurzu k ověření pokynů, termínů a stavu odevzdání."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Hur man håller koll på collegeuppgifter och förfallodatum",
+      "description": "Skapa en enkel skoluppgiftsspårare med en lista, en veckogranskning och en plan för deadlines som hopar sig.",
+      "intro": "Börja med en lista som du faktiskt kommer att kontrollera. Det kan vara en anteckningsbok, ett kalkylblad eller en uppgiftsapp. Behåll samma fält för varje klass så att du kan se vad som ska ske den här veckan.",
+      "answer": "Ge varje uppgift en rad med kursen, uppgiftens namn, exakt förfallodatum och tid, status och nästa åtgärd. Gå igenom nästa veckas deadlines och reservera sedan tid för att arbeta med de uppdrag som behöver en tidig start.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Ställ in din uppdragsspårare",
+          "paragraphs": [
+            "Kontrollera varje kursplan och kursplats för uppgifter, frågesporter och projekt. Använd en rad per uppgift och spara en länk till dess instruktioner om du kan."
+          ],
+          "steps": [
+            "Anteckna deadline som visas i din kurs. Om det ändras, uppdatera samma rad.",
+            "Använd en enkel status som Att göra, Pågår eller Skickat. Märke Skickat efter att ha kontrollerat en bekräftelse på kurssidan."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planera en vecka med överlappande deadlines",
+          "paragraphs": [
+            "Anta att en historieuppsats kommer på torsdag och ett kemiquiz är på fredag. Spärra måndag för uppsatsen och tisdag för ett utkast. Gör ett övningsquiz på onsdag, reservera sedan tid på torsdag för att kontrollera uppsatsen och skicka in den.",
+            "Under din veckovisa granskning, kolla kursmeddelanden, skanna de kommande sju dagarna och flytta allt ofärdigt arbete till en tid som du kan använda. Lämna en plats öppen för arbete som tar längre tid än förväntat."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Vad händer om jag har ett uppdrag utan förfallodatum?",
+          "answer": "Lägg till den i listan, lämna den officiella deadline tom och boka en tid för att kontrollera instruktionerna eller fråga din instruktör."
+        },
+        {
+          "question": "Kan jag behålla listan i Nonlate?",
+          "answer": "Ja. Du kan lägga till uppdrag som manuella uppgifter. Använd den ursprungliga kurswebbplatsen för att verifiera instruktioner, deadlines och inlämningsstatus."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Com fer un seguiment de les tasques universitàries i les dates de venciment",
+      "description": "Configureu un senzill seguiment de tasques universitàries amb una llista, una revisió setmanal i un pla de terminis que s'acumulen.",
+      "intro": "Comenceu amb una llista que realment comprovareu. Pot ser una llibreta, un full de càlcul o una aplicació de tasques. Manteniu els mateixos camps per a totes les classes perquè pugueu veure el que s'ha de fer aquesta setmana.",
+      "answer": "Doneu a cada tasca una fila amb el curs, el nom de la tasca, la data i hora exactes de venciment, l'estat i la següent acció. Reviseu els terminis de la propera setmana i, a continuació, reserveu temps per treballar en les tasques que necessiten començar aviat.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Configureu el vostre rastrejador de tasques",
+          "paragraphs": [
+            "Consulteu cada pla d'estudis i lloc del curs per a les tasques, proves i projectes. Utilitzeu una fila per tasca i deseu un enllaç a les seves instruccions si podeu."
+          ],
+          "steps": [
+            "Anoteu la data límit tal com es mostra al vostre curs. Si canvia, actualitzeu la mateixa fila.",
+            "Utilitzeu un estat senzill com ara Per fer, En curs o Enviat. Marca enviat després de comprovar si hi ha una confirmació al lloc del curs."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planifica una setmana amb terminis superposats",
+          "paragraphs": [
+            "Suposem que un assaig d'història és el dijous i un qüestionari de química és divendres. Talleu dilluns per a l'esborrany de l'assaig i dimarts per a un esborrany. Feu un qüestionari de pràctica el dimecres i, a continuació, reserveu temps el dijous per comprovar l'assaig i enviar-lo.",
+            "Durant la vostra revisió setmanal, comproveu els anuncis de cursos, escanegeu els propers set dies i moveu qualsevol treball no acabat a un moment que pugueu utilitzar. Deixeu una ranura oberta per a treballs que triguin més del previst."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Què passa si tinc una tasca sense data de venciment?",
+          "answer": "Afegiu-lo a la llista, deixeu la data límit oficial en blanc i programeu una hora per comprovar les instruccions o preguntar al vostre instructor."
+        },
+        {
+          "question": "Puc mantenir la llista a Nonlate?",
+          "answer": "Sí. Podeu afegir tasques com a tasques manuals. Utilitzeu el lloc original del curs per verificar les instruccions, els terminis i l'estat de la presentació."
+        }
+      ]
+    },
+    "da": {
+      "title": "Sådan holder du styr på collegeopgaver og forfaldsdatoer",
+      "description": "Konfigurer en simpel college-opgavesporing med én liste, en ugentlig gennemgang og en plan for deadlines, der hober sig op.",
+      "intro": "Start med en liste, du faktisk vil tjekke. Det kan være en notesbog, regneark eller opgave-app. Bevar de samme felter for hver klasse, så du kan se, hvad der skal betales i denne uge.",
+      "answer": "Giv hver opgave en række med kurset, opgavens navn, nøjagtig afleveringsdato og tidspunkt, status og næste handling. Gennemgå den næste uge med deadlines, og reserver derefter tid til at arbejde med de opgaver, der kræver en tidlig start.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Konfigurer din opgavesporing",
+          "paragraphs": [
+            "Tjek hvert pensum og kursussted for opgaver, quizzer og projekter. Brug én række pr. opgave, og gem et link til dens instruktioner, hvis du kan."
+          ],
+          "steps": [
+            "Notér deadline som vist i dit kursus. Hvis det ændres, skal du opdatere den samme række.",
+            "Brug en simpel status som At gøre, Igangværende eller Indsendt. Mærke Indsendt efter at have tjekket for en bekræftelse på kursusstedet."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planlæg en uge med overlappende deadlines",
+          "paragraphs": [
+            "Antag, at et historieopgave skal afleveres på torsdag, og en kemiquiz er på fredag. Bloker mandag for essay-oversigten og tirsdag for et udkast. Lav en øvelsesquiz onsdag, og reserver derefter tid torsdag til at tjekke essayet og indsende det.",
+            "Under din ugentlige gennemgang, tjek kursusmeddelelser, scan de næste syv dage og flyt alt ufærdigt arbejde til et tidspunkt, du kan bruge. Efterlad én plads åben for arbejde, der tager længere tid end forventet."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Hvad hvis jeg har en opgave uden forfaldsdato?",
+          "answer": "Tilføj det til listen, lad den officielle deadline være tom, og planlæg et tidspunkt for at tjekke instruktionerne eller spørg din instruktør."
+        },
+        {
+          "question": "Kan jeg beholde listen i Nonlate?",
+          "answer": "Ja. Du kan tilføje opgaver som manuelle opgaver. Brug den originale kursusside til at bekræfte instruktioner, deadlines og afleveringsstatus."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Kuinka pitää kirjaa korkeakoulutehtävistä ja eräpäivistä",
+      "description": "Luo yksinkertainen korkeakoulutehtävien seuranta, jossa on yksi luettelo, viikoittainen tarkistus ja suunnitelma kasaantuville määräajoille.",
+      "intro": "Aloita yhdestä luettelosta, jonka todella tarkistat. Se voi olla muistikirja, laskentataulukko tai tehtäväsovellus. Säilytä samat kentät jokaiselle tunnille, jotta näet, mitä tällä viikolla on luvassa.",
+      "answer": "Anna kullekin tehtävälle yksi rivi, jossa on kurssi, tehtävän nimi, tarkka eräpäivä ja aika, tila ja seuraava toimenpide. Tarkista seuraavan viikon määräajat ja varaa sitten aikaa työskennelläksesi tehtäviin, jotka vaativat varhaisen aloituksen.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Määritä tehtävänseuranta",
+          "paragraphs": [
+            "Tarkista jokaisesta opetusohjelmasta ja kurssisivustosta tehtäviä, tietokilpailuja ja projekteja. Käytä yhtä riviä tehtävää kohden ja tallenna linkki sen ohjeisiin, jos voit."
+          ],
+          "steps": [
+            "Merkitse päivämäärä ylös kurssin osoittamalla tavalla. Jos se muuttuu, päivitä sama rivi.",
+            "Käytä yksinkertaista tilaa, kuten tehtävä, käynnissä tai lähetetty. Merkitse lähetetyksi, kun olet tarkistanut vahvistuksen kurssisivustolta."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Suunnittele viikko, jonka määräajat menevät päällekkäin",
+          "paragraphs": [
+            "Oletetaan, että historian essee on määrä tehdä torstaina ja kemian tietokilpailu perjantaina. Estä maanantai esseen luonnokselle ja tiistai luonnokselle. Tee harjoitusvisa keskiviikkona ja varaa sitten torstaina aikaa esseen tarkistamiseen ja lähettämiseen.",
+            "Tarkista viikoittaisen katsauksen aikana kurssiilmoitukset, skannaa seuraavat seitsemän päivää ja siirrä keskeneräiset työt käytettävään aikaan. Jätä yksi avoin paikka työlle, joka kestää odotettua kauemmin."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Entä jos minulla on tehtävä ilman eräpäivää?",
+          "answer": "Lisää se listalle, jätä virallinen määräaika tyhjäksi ja varaa aika ohjeiden tarkistamiseen tai kysy ohjaajaltasi."
+        },
+        {
+          "question": "Voinko säilyttää luettelon muodossa Nonlate?",
+          "answer": "Kyllä. Voit lisätä tehtäviä manuaalisina tehtävinä. Käytä alkuperäistä kurssisivustoa tarkistaaksesi ohjeet, määräajat ja lähetystilan."
+        }
+      ]
+    },
+    "el": {
+      "title": "Πώς να παρακολουθείτε τις εργασίες στο κολέγιο και τις ημερομηνίες λήξης",
+      "description": "Ρυθμίστε ένα απλό πρόγραμμα παρακολούθησης εργασιών κολεγίου με μια λίστα, μια εβδομαδιαία ανασκόπηση και ένα σχέδιο για τις προθεσμίες που συσσωρεύονται.",
+      "intro": "Ξεκινήστε με μια λίστα που θα ελέγξετε πραγματικά. Μπορεί να είναι ένα σημειωματάριο, ένα υπολογιστικό φύλλο ή μια εφαρμογή εργασιών. Διατηρήστε τα ίδια πεδία για κάθε μάθημα, ώστε να μπορείτε να δείτε τι αναμένεται αυτή την εβδομάδα.",
+      "answer": "Δώστε σε κάθε εργασία μια σειρά με την πορεία, το όνομα της εργασίας, την ακριβή ημερομηνία και ώρα λήξης, την κατάσταση και την επόμενη ενέργεια. Ελέγξτε την επόμενη εβδομάδα των προθεσμιών και, στη συνέχεια, κρατήστε χρόνο για να εργαστείτε στις εργασίες που χρειάζονται νωρίς έναρξη.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Ρυθμίστε την παρακολούθηση ανάθεσης",
+          "paragraphs": [
+            "Ελέγξτε κάθε αναλυτικό πρόγραμμα και τοποθεσία μαθημάτων για εργασίες, κουίζ και έργα. Χρησιμοποιήστε μία σειρά ανά εργασία και αποθηκεύστε έναν σύνδεσμο προς τις οδηγίες της εάν μπορείτε."
+          ],
+          "steps": [
+            "Καταγράψτε την προθεσμία όπως φαίνεται στο μάθημά σας. Εάν αλλάξει, ενημερώστε την ίδια σειρά.",
+            "Χρησιμοποιήστε μια απλή κατάσταση όπως Εκκρεμότητα, Σε εξέλιξη ή Υποβλήθηκε. Σημείωση Υποβλήθηκε μετά από έλεγχο για επιβεβαίωση στον ιστότοπο του μαθήματος."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Προγραμματίστε μια εβδομάδα με επικαλυπτόμενες προθεσμίες",
+          "paragraphs": [
+            "Ας υποθέσουμε ότι ένα δοκίμιο ιστορίας αναμένεται την Πέμπτη και ένα κουίζ χημείας είναι την Παρασκευή. Αποκλείστε τη Δευτέρα για το περίγραμμα του δοκιμίου και την Τρίτη για ένα προσχέδιο. Κάντε ένα κουίζ πρακτικής την Τετάρτη και, στη συνέχεια, κάντε κράτηση για την Πέμπτη για να ελέγξετε το δοκίμιο και να το υποβάλετε.",
+            "Κατά τη διάρκεια της εβδομαδιαίας ανασκόπησης, ελέγξτε τις ανακοινώσεις μαθημάτων, σαρώστε τις επόμενες επτά ημέρες και μετακινήστε οποιαδήποτε ημιτελή εργασία σε μια ώρα που μπορείτε να χρησιμοποιήσετε. Αφήστε μια ανοιχτή θέση για εργασία που διαρκεί περισσότερο από το αναμενόμενο."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Τι γίνεται αν έχω μια εργασία χωρίς ημερομηνία λήξης;",
+          "answer": "Προσθέστε το στη λίστα, αφήστε την επίσημη προθεσμία κενή και προγραμματίστε μια ώρα για να ελέγξετε τις οδηγίες ή να ρωτήσετε τον εκπαιδευτή σας."
+        },
+        {
+          "question": "Μπορώ να διατηρήσω τη λίστα στο Nonlate;",
+          "answer": "Ναι. Μπορείτε να προσθέσετε εργασίες ως μη αυτόματες εργασίες. Χρησιμοποιήστε τον αρχικό ιστότοπο του μαθήματος για να επαληθεύσετε τις οδηγίες, τις προθεσμίες και την κατάσταση υποβολής."
+        }
+      ]
+    },
+    "hu": {
+      "title": "Hogyan lehet nyomon követni a főiskolai feladatokat és a határidőket",
+      "description": "Állítson be egy egyszerű főiskolai feladatkövetőt egyetlen listával, egy heti áttekintéssel és egy ütemtervvel a halmozódó határidőkre.",
+      "intro": "Kezdje egy listával, amelyet valóban ellenőrizni fog. Ez lehet jegyzetfüzet, táblázatkezelő vagy feladatalkalmazás. Tartsa meg ugyanazokat a mezőket minden osztálynál, hogy láthassa, mi esedékes ezen a héten.",
+      "answer": "Adjon minden feladatnak egy sort a kurzussal, a feladat nevével, a pontos esedékesség dátumával és időpontjával, az állapottal és a következő művelettel. Tekintse át a határidők következő hetét, majd szánjon időt a korai kezdést igénylő feladatok elvégzésére.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Állítsa be a feladatkövetőt",
+          "paragraphs": [
+            "Tekintse meg az egyes tanterveket és kurzusoldalakat feladatok, vetélkedők és projektek tekintetében. Feladatonként használjon egy sort, és ha lehetséges, mentse el az utasításokhoz mutató hivatkozást."
+          ],
+          "steps": [
+            "Jegyezze fel a határidőt a tanfolyamon látható módon. Ha megváltozik, frissítse ugyanazt a sort.",
+            "Használjon egyszerű állapotot, például Teendő, Folyamatban vagy Beküldve. Jelölje meg beküldve, miután ellenőrizte a visszaigazolást a kurzus webhelyén."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Tervezzen egy hetet átfedő határidőkkel",
+          "paragraphs": [
+            "Tegyük fel, hogy csütörtökön egy történelem esszé, pénteken pedig egy kémia kvíz. Hétfőn zárja ki az esszévázlatot, kedden pedig egy piszkozatot. Szerdán végezzen gyakorlati kvízt, majd csütörtökön foglaljon időt az esszé ellenőrzésére és beküldésére.",
+            "A heti áttekintés során ellenőrizze a kurzushirdetéseket, vizsgálja meg a következő hét napot, és helyezze át a befejezetlen munkákat egy használható időpontba. Hagyjon egy szabad helyet a vártnál hosszabb ideig tartó munkához."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mi a teendő, ha határidő nélküli megbízásom van?",
+          "answer": "Adja hozzá a listához, hagyja üresen a hivatalos határidőt, és egyeztessen időpontot az utasítások ellenőrzésére, vagy kérdezze meg oktatóját."
+        },
+        {
+          "question": "Megtarthatom a listát a Nonlate-ben?",
+          "answer": "Igen. Feladatokat manuális feladatként adhat hozzá. Használja a kurzus eredeti webhelyét az utasítások, a határidők és a beküldés állapotának ellenőrzéséhez."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Bagaimana untuk menjejaki tugasan kolej dan tarikh akhir",
+      "description": "Sediakan penjejak tugasan kolej mudah dengan satu senarai, semakan mingguan dan rancangan untuk tarikh akhir yang bertimbun.",
+      "intro": "Mulakan dengan satu senarai yang sebenarnya anda akan semak. Ia boleh menjadi buku nota, hamparan atau apl tugas. Kekalkan medan yang sama untuk setiap kelas supaya anda boleh melihat apa yang perlu dibayar minggu ini.",
+      "answer": "Beri setiap tugasan satu baris dengan kursus, nama tugasan, tarikh dan masa tamat tepat, status dan tindakan seterusnya. Semak tarikh akhir minggu berikutnya, kemudian sediakan masa untuk mengerjakan tugasan yang memerlukan permulaan awal.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Sediakan penjejak tugasan anda",
+          "paragraphs": [
+            "Semak setiap sukatan pelajaran dan tapak kursus untuk tugasan, kuiz dan projek. Gunakan satu baris setiap tugasan dan simpan pautan ke arahannya jika anda boleh."
+          ],
+          "steps": [
+            "Catat tarikh akhir seperti yang ditunjukkan dalam kursus anda. Jika ia berubah, kemas kini baris yang sama.",
+            "Gunakan status mudah seperti Untuk dilakukan, Sedang dijalankan atau Dihantar. Tanda Dihantar selepas menyemak pengesahan di tapak kursus."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Rancang seminggu dengan tarikh akhir yang bertindih",
+          "paragraphs": [
+            "Katakan esei sejarah akan dibuat pada hari Khamis dan kuiz kimia pada hari Jumaat. Sekat hari Isnin untuk rangka esei dan Selasa untuk draf. Buat kuiz latihan hari Rabu, kemudian simpan masa hari Khamis untuk menyemak esei dan menyerahkannya.",
+            "Semasa semakan mingguan anda, semak pengumuman kursus, imbas tujuh hari seterusnya dan alihkan sebarang kerja yang belum selesai ke masa yang boleh anda gunakan. Tinggalkan satu slot terbuka untuk kerja yang mengambil masa lebih lama daripada yang dijangkakan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bagaimana jika saya mempunyai tugasan tanpa tarikh akhir?",
+          "answer": "Tambahkannya pada senarai, biarkan tarikh akhir rasmi kosong dan jadualkan masa untuk menyemak arahan atau tanya pengajar anda."
+        },
+        {
+          "question": "Bolehkah saya menyimpan senarai dalam Nonlate?",
+          "answer": "ya. Anda boleh menambah tugasan sebagai tugas manual. Gunakan tapak kursus asal untuk mengesahkan arahan, tarikh akhir dan status penyerahan."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Hvordan holde styr på høgskoleoppgaver og forfallsdatoer",
+      "description": "Sett opp en enkel skoleoppgavesporing med én liste, en ukentlig gjennomgang og en plan for tidsfrister som hoper seg opp.",
+      "intro": "Start med en liste du faktisk vil sjekke. Det kan være en notatbok, regneark eller oppgaveapp. Behold de samme feltene for hver klasse, slik at du kan se hva som skal til denne uken.",
+      "answer": "Gi hver oppgave én rad med emnet, oppgavenavn, eksakt forfallsdato og klokkeslett, status og neste handling. Se gjennom neste uke med frister, og reserver deretter tid til å jobbe med oppgavene som trenger en tidlig start.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Sett opp oppgavesporingen din",
+          "paragraphs": [
+            "Sjekk hver pensum og kursside for oppgaver, quizer og prosjekter. Bruk én rad per oppgave og lagre en lenke til instruksjonene hvis du kan."
+          ],
+          "steps": [
+            "Noter fristen som vist i kurset ditt. Hvis den endres, oppdater den samme raden.",
+            "Bruk en enkel status som Å gjøre, Pågår eller Sendt. Merk Sendt etter å ha sjekket for en bekreftelse på kurssiden."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planlegg en uke med overlappende tidsfrister",
+          "paragraphs": [
+            "Anta at et historieessay skal leveres på torsdag og en kjemiquiz er på fredag. Blokker ut mandag for essaydisposisjonen og tirsdag for utkast. Gjør en øvelsesquiz onsdag, og reserver deretter tid torsdag for å sjekke essayet og levere det.",
+            "Under den ukentlige gjennomgangen din, sjekk kurskunngjøringer, skann de neste syv dagene og flytt alt uferdig arbeid til et tidspunkt du kan bruke. La det være ett åpent spor for arbeid som tar lengre tid enn forventet."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Hva om jeg har en oppgave uten forfallsdato?",
+          "answer": "Legg den til i listen, la den offisielle fristen stå tom og avtal tid for å sjekke instruksjonene eller spør instruktøren din."
+        },
+        {
+          "question": "Kan jeg beholde listen i Nonlate?",
+          "answer": "Ja. Du kan legge til oppgaver som manuelle oppgaver. Bruk den originale kurssiden for å bekrefte instruksjoner, frister og innleveringsstatus."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Cum să țineți evidența sarcinilor de la facultate și a termenelor limită",
+      "description": "Configurați un simplu instrument de urmărire a temelor de facultate cu o singură listă, o revizuire săptămânală și un plan pentru termenele limită care se adună.",
+      "intro": "Începeți cu o listă pe care o veți verifica de fapt. Poate fi un blocnotes, o foaie de calcul sau o aplicație de activitate. Păstrați aceleași câmpuri pentru fiecare clasă, astfel încât să puteți vedea ce urmează săptămâna aceasta.",
+      "answer": "Dați fiecărei sarcini un rând cu cursul, numele temei, data și ora exactă, starea și următoarea acțiune. Revizuiți săptămâna următoare a termenelor limită, apoi rezervați timp pentru a lucra la sarcinile care necesită un început devreme.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Configurați-vă instrumentul de urmărire a misiunilor",
+          "paragraphs": [
+            "Verificați fiecare programă și site de curs pentru teme, chestionare și proiecte. Folosiți un rând pentru fiecare temă și salvați un link către instrucțiunile sale, dacă puteți."
+          ],
+          "steps": [
+            "Înregistrați termenul limită așa cum se arată în cursul dvs. Dacă se modifică, actualizați același rând.",
+            "Utilizați o stare simplă, cum ar fi De făcut, În curs sau Trimis. Marcare Trimis după verificarea unei confirmări pe site-ul cursului."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planificați o săptămână cu termene limită suprapuse",
+          "paragraphs": [
+            "Să presupunem că un eseu de istorie are loc joi și un test de chimie vineri. Blocați luni pentru schița eseului și marți pentru o schiță. Faceți un test de practică miercuri, apoi rezervați timp joi pentru a verifica eseul și a-l trimite.",
+            "În timpul revizuirii săptămânale, verificați anunțurile cursurilor, scanați următoarele șapte zile și mutați orice lucrare neterminată la o oră pe care o puteți folosi. Lăsați un slot deschis pentru munca care durează mai mult decât se aștepta."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ce se întâmplă dacă am o misiune fără termen?",
+          "answer": "Adăugați-l pe listă, lăsați termenul oficial necompletat și programați o oră pentru a verifica instrucțiunile sau întrebați-vă instructorul."
+        },
+        {
+          "question": "Pot păstra lista în Nonlate?",
+          "answer": "Da. Puteți adăuga sarcini ca sarcini manuale. Utilizați site-ul original al cursului pentru a verifica instrucțiunile, termenele limită și starea trimiterii."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Kako pratiti fakultetske zadatke i rokove",
+      "description": "Postavite jednostavan alat za praćenje zadataka na fakultetu s jednim popisom, tjednim pregledom i planom za rokove koji se gomilaju.",
+      "intro": "Počnite s jednim popisom koji ćete zapravo provjeriti. To može biti bilježnica, proračunska tablica ili aplikacija za zadatke. Zadržite ista polja za svaki razred kako biste mogli vidjeti što je dospjelo ovaj tjedan.",
+      "answer": "Svakom zadatku dodijelite jedan red s tečajem, nazivom zadatka, točnim datumom i vremenom, statusom i sljedećom radnjom. Pregledajte rokove za sljedeći tjedan, a zatim rezervirajte vrijeme za rad na zadacima koji trebaju rano započeti.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Postavite svoj alat za praćenje zadataka",
+          "paragraphs": [
+            "Provjerite svaki nastavni plan i program i mjesto za tečaj za zadatke, kvizove i projekte. Upotrijebite jedan redak po zadatku i spremite vezu na njegove upute ako možete."
+          ],
+          "steps": [
+            "Zabilježite rok kako je prikazano u vašem kolegiju. Ako se promijeni, ažurirajte isti redak.",
+            "Koristite jednostavan status kao što je Obavezno, U tijeku ili Predano. Označi kao Poslano nakon provjere potvrde na stranici tečaja."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Planirajte tjedan s rokovima koji se preklapaju",
+          "paragraphs": [
+            "Pretpostavimo da je esej iz povijesti u četvrtak, a kviz iz kemije u petak. Odvojite ponedjeljak za nacrt eseja i utorak za nacrt. U srijedu riješite kviz za vježbu, a zatim rezervirajte vrijeme u četvrtak da provjerite esej i predate ga.",
+            "Tijekom tjednog pregleda provjerite najave tečajeva, skenirajte sljedećih sedam dana i premjestite sve nedovršene radove na vrijeme koje možete iskoristiti. Ostavite jedan otvoren utor za rad koji traje dulje od očekivanog."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Što ako imam zadatak bez roka?",
+          "answer": "Dodajte ga na popis, ostavite službeni rok prazan i zakažite vrijeme za provjeru uputa ili pitajte svog instruktora."
+        },
+        {
+          "question": "Mogu li zadržati popis u Nonlate?",
+          "answer": "da Možete dodati zadatke kao ručne zadatke. Upotrijebite izvorno mjesto tečaja da provjerite upute, rokove i status predaje."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Ako sledovať úlohy na vysokej škole a termíny",
+      "description": "Nastavte si jednoduchý nástroj na sledovanie úloh na vysokej škole s jedným zoznamom, týždenným prehľadom a plánom termínov, ktoré sa hromadia.",
+      "intro": "Začnite s jedným zoznamom, ktorý skutočne skontrolujete. Môže to byť poznámkový blok, tabuľkový procesor alebo úloha. Ponechajte rovnaké polia pre každú triedu, aby ste videli, čo je naplánované na tento týždeň.",
+      "answer": "Ku každej úlohe uveďte jeden riadok s kurzom, názvom úlohy, presným dátumom a časom dokončenia, stavom a ďalšou akciou. Skontrolujte si termíny na budúci týždeň a potom si vyhraďte čas na prácu na úlohách, ktoré si vyžadujú skorý začiatok.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Nastavte si sledovanie úloh",
+          "paragraphs": [
+            "Skontrolujte každý sylabus a stránku kurzu pre úlohy, kvízy a projekty. Pre každú úlohu použite jeden riadok a ak môžete, uložte si odkaz na jej pokyny."
+          ],
+          "steps": [
+            "Zaznamenajte si termín, ako je uvedené vo vašom kurze. Ak sa zmení, aktualizujte rovnaký riadok.",
+            "Použite jednoduchý stav, ako napríklad Úloha, Prebieha alebo Odoslané. Označte odoslané po kontrole potvrdenia na stránke kurzu."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Naplánujte si týždeň s prekrývajúcimi sa termínmi",
+          "paragraphs": [
+            "Predpokladajme, že esej z histórie je naplánovaná na štvrtok a chemický kvíz v piatok. Blokujte pondelok pre osnovu eseje a utorok pre návrh. V stredu si urobte cvičný kvíz, potom si vo štvrtok vyhraďte čas na kontrolu eseje a jej odoslanie.",
+            "Počas týždennej kontroly si skontrolujte oznámenia o kurze, naskenujte nasledujúcich sedem dní a presuňte všetky nedokončené práce na čas, ktorý môžete použiť. Nechajte jeden otvorený slot pre prácu, ktorá trvá dlhšie, ako sa očakávalo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Čo ak mám úlohu bez termínu splnenia?",
+          "answer": "Pridajte ho do zoznamu, nechajte oficiálny termín prázdny a naplánujte si čas na skontrolovanie pokynov alebo sa opýtajte svojho inštruktora."
+        },
+        {
+          "question": "Môžem si ponechať zoznam v Nonlate?",
+          "answer": "áno. Priradenia môžete pridať ako manuálne úlohy. Použite pôvodnú stránku kurzu na overenie pokynov, termínov a stavu odovzdania."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Kako slediti nalogam na fakulteti in rokom",
+      "description": "Nastavite preprost sledilnik nalog na fakulteti z enim seznamom, tedenskim pregledom in načrtom za roke, ki se kopičijo.",
+      "intro": "Začnite z enim seznamom, ki ga boste dejansko preverili. Lahko je zvezek, preglednica ali aplikacija za opravila. Ohranite enaka polja za vsak razred, da boste lahko videli, kaj je treba ta teden.",
+      "answer": "Vsaki nalogi dajte eno vrstico s tečajem, imenom naloge, točnim datumom in uro, statusom in naslednjim dejanjem. Preglejte roke za naslednji teden in si rezervirajte čas za delo na nalogah, ki jih je treba začeti zgodaj.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "Nastavite sledilnik nalog",
+          "paragraphs": [
+            "Preverite vsak učni načrt in mesto tečaja za naloge, kvize in projekte. Uporabite eno vrstico na nalogo in shranite povezavo do njenih navodil, če lahko."
+          ],
+          "steps": [
+            "Zapišite si rok, kot je prikazan v vašem tečaju. Če se spremeni, posodobite isto vrstico.",
+            "Uporabite preprosto stanje, kot je Narediti, V teku ali Poslano. Označi Oddano po preverjanju potrditve na spletnem mestu tečaja."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "Načrtujte teden s prekrivajočimi se roki",
+          "paragraphs": [
+            "Recimo, da je esej iz zgodovine v četrtek, kviz iz kemije pa v petek. Izločite ponedeljek za oris eseja in torek za osnutek. V sredo opravite praktični kviz, nato pa si rezervirajte čas v četrtek, da preverite esej in ga oddate.",
+            "Med tedenskim pregledom preverite napovedi tečajev, preglejte naslednjih sedem dni in premaknite vsa nedokončana dela na čas, ki ga lahko uporabite. Pustite eno odprto režo za delo, ki traja dlje od pričakovanega."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Kaj pa, če imam nalogo brez roka?",
+          "answer": "Dodajte ga na seznam, pustite uradni rok prazen in načrtujte čas, da preverite navodila ali vprašajte svojega inštruktorja."
+        },
+        {
+          "question": "Ali lahko obdržim seznam v Nonlate?",
+          "answer": "ja Dodelitve lahko dodate kot ročna opravila. Uporabite izvirno spletno mesto tečaja, da preverite navodila, roke in status oddaje."
+        }
+      ]
+    },
+    "gu": {
+      "title": "કૉલેજ અસાઇનમેન્ટ્સ અને નિયત તારીખોનો ટ્રૅક કેવી રીતે રાખવો",
+      "description": "એક સૂચિ, સાપ્તાહિક સમીક્ષા અને સમયમર્યાદા માટે એક યોજના સાથે એક સરળ કૉલેજ અસાઇનમેન્ટ ટ્રેકર સેટ કરો.",
+      "intro": "એક સૂચિથી પ્રારંભ કરો જે તમે ખરેખર તપાસ કરશો. તે નોટબુક, સ્પ્રેડશીટ અથવા કાર્ય એપ્લિકેશન હોઈ શકે છે. દરેક વર્ગ માટે સમાન ક્ષેત્રો રાખો જેથી તમે જોઈ શકો કે આ અઠવાડિયે શું બાકી છે.",
+      "answer": "દરેક અસાઇનમેન્ટને કોર્સ, અસાઇનમેન્ટનું નામ, ચોક્કસ નિયત તારીખ અને સમય, સ્થિતિ અને આગળની ક્રિયા સાથે એક પંક્તિ આપો. સમયમર્યાદાના આગલા અઠવાડિયે રિવ્યૂ કરો, પછી અસાઇનમેન્ટ્સ પર કામ કરવા માટે સમય રિઝર્વ કરો કે જેને વહેલા શરૂ કરવાની જરૂર છે.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "તમારું અસાઇનમેન્ટ ટ્રેકર સેટ કરો",
+          "paragraphs": [
+            "અસાઇનમેન્ટ, ક્વિઝ અને પ્રોજેક્ટ માટે દરેક અભ્યાસક્રમ અને કોર્સ સાઇટ તપાસો. અસાઇનમેન્ટ દીઠ એક પંક્તિનો ઉપયોગ કરો અને જો તમે કરી શકો તો તેની સૂચનાઓની લિંક સાચવો."
+          ],
+          "steps": [
+            "તમારા અભ્યાસક્રમમાં બતાવ્યા પ્રમાણે સમયમર્યાદા રેકોર્ડ કરો. જો તે બદલાય છે, તો તે જ પંક્તિ અપડેટ કરો.",
+            "કરવા માટે, ચાલુ છે અથવા સબમિટ કરેલ જેવી સરળ સ્થિતિનો ઉપયોગ કરો. કોર્સ સાઇટમાં પુષ્ટિ માટે તપાસ કર્યા પછી સબમિટ કરેલ માર્ક."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ઓવરલેપિંગ ડેડલાઇન સાથે એક અઠવાડિયાની યોજના બનાવો",
+          "paragraphs": [
+            "ધારો કે ઇતિહાસનો નિબંધ ગુરુવારે છે અને રસાયણશાસ્ત્રની ક્વિઝ શુક્રવારે છે. નિબંધની રૂપરેખા માટે સોમવાર અને ડ્રાફ્ટ માટે મંગળવારને અવરોધિત કરો. બુધવારે પ્રેક્ટિસ ક્વિઝ કરો, પછી નિબંધ તપાસવા અને સબમિટ કરવા માટે ગુરુવારે સમય અનામત રાખો.",
+            "તમારી સાપ્તાહિક સમીક્ષા દરમિયાન, અભ્યાસક્રમની ઘોષણાઓ તપાસો, આગામી સાત દિવસ સ્કેન કરો અને કોઈપણ અધૂરા કામને તમે ઉપયોગ કરી શકો તે સમયે ખસેડો. અપેક્ષા કરતાં વધુ સમય લે તેવા કામ માટે એક ખુલ્લો સ્લોટ છોડો."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "જો મારી પાસે નિયત તારીખ વિના અસાઇનમેન્ટ હોય તો શું?",
+          "answer": "તેને સૂચિમાં ઉમેરો, સત્તાવાર સમયમર્યાદા ખાલી છોડી દો અને સૂચનાઓ તપાસવા અથવા તમારા પ્રશિક્ષકને પૂછવા માટે સમય શેડ્યૂલ કરો."
+        },
+        {
+          "question": "શું હું Nonlate માં સૂચિ રાખી શકું?",
+          "answer": "હા. તમે મેન્યુઅલ કાર્યો તરીકે સોંપણીઓ ઉમેરી શકો છો. સૂચનાઓ, સમયમર્યાદા અને સબમિશન સ્થિતિ ચકાસવા માટે મૂળ કોર્સ સાઇટનો ઉપયોગ કરો."
+        }
+      ]
+    },
+    "kn": {
+      "title": "ಕಾಲೇಜು ನಿಯೋಜನೆಗಳು ಮತ್ತು ಅಂತಿಮ ದಿನಾಂಕಗಳನ್ನು ಹೇಗೆ ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದು",
+      "description": "ಒಂದು ಪಟ್ಟಿಯೊಂದಿಗೆ ಸರಳವಾದ ಕಾಲೇಜು ನಿಯೋಜನೆ ಟ್ರ್ಯಾಕರ್ ಅನ್ನು ಹೊಂದಿಸಿ, ಸಾಪ್ತಾಹಿಕ ವಿಮರ್ಶೆ ಮತ್ತು ಪೈಲ್ ಆಗುವ ಗಡುವುಗಳ ಯೋಜನೆ.",
+      "intro": "ನೀವು ನಿಜವಾಗಿಯೂ ಪರಿಶೀಲಿಸುವ ಒಂದು ಪಟ್ಟಿಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ. ಇದು ನೋಟ್‌ಬುಕ್, ಸ್ಪ್ರೆಡ್‌ಶೀಟ್ ಅಥವಾ ಟಾಸ್ಕ್ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿರಬಹುದು. ಪ್ರತಿ ತರಗತಿಗೆ ಒಂದೇ ಕ್ಷೇತ್ರಗಳನ್ನು ಇರಿಸಿಕೊಳ್ಳಿ ಇದರಿಂದ ಈ ವಾರ ಬಾಕಿಯಿರುವುದನ್ನು ನೀವು ನೋಡಬಹುದು.",
+      "answer": "ಕೋರ್ಸ್, ಅಸೈನ್‌ಮೆಂಟ್ ಹೆಸರು, ನಿಖರವಾದ ದಿನಾಂಕ ಮತ್ತು ಸಮಯ, ಸ್ಥಿತಿ ಮತ್ತು ಮುಂದಿನ ಕ್ರಿಯೆಯೊಂದಿಗೆ ಪ್ರತಿ ನಿಯೋಜನೆಗೆ ಒಂದು ಸಾಲನ್ನು ನೀಡಿ. ಮುಂದಿನ ವಾರದ ಗಡುವನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ಆರಂಭಿಕ ಪ್ರಾರಂಭದ ಅಗತ್ಯವಿರುವ ಕಾರ್ಯಯೋಜನೆಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡಲು ಸಮಯವನ್ನು ಕಾಯ್ದಿರಿಸಿ.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "ನಿಮ್ಮ ನಿಯೋಜನೆ ಟ್ರ್ಯಾಕರ್ ಅನ್ನು ಹೊಂದಿಸಿ",
+          "paragraphs": [
+            "ಕಾರ್ಯಯೋಜನೆಗಳು, ರಸಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಯೋಜನೆಗಳಿಗಾಗಿ ಪ್ರತಿ ಪಠ್ಯಕ್ರಮ ಮತ್ತು ಕೋರ್ಸ್ ಸೈಟ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ. ಪ್ರತಿ ನಿಯೋಜನೆಗೆ ಒಂದು ಸಾಲನ್ನು ಬಳಸಿ ಮತ್ತು ನಿಮಗೆ ಸಾಧ್ಯವಾದರೆ ಅದರ ಸೂಚನೆಗಳಿಗೆ ಲಿಂಕ್ ಅನ್ನು ಉಳಿಸಿ."
+          ],
+          "steps": [
+            "ನಿಮ್ಮ ಕೋರ್ಸ್‌ನಲ್ಲಿ ತೋರಿಸಿರುವಂತೆ ಗಡುವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ. ಅದು ಬದಲಾದರೆ, ಅದೇ ಸಾಲನ್ನು ನವೀಕರಿಸಿ.",
+            "ಮಾಡಲು, ಪ್ರಗತಿಯಲ್ಲಿದೆ ಅಥವಾ ಸಲ್ಲಿಸಿದಂತಹ ಸರಳ ಸ್ಥಿತಿಯನ್ನು ಬಳಸಿ. ಕೋರ್ಸ್ ಸೈಟ್‌ನಲ್ಲಿ ದೃಢೀಕರಣವನ್ನು ಪರಿಶೀಲಿಸಿದ ನಂತರ ಮಾರ್ಕ್ ಸಲ್ಲಿಸಲಾಗಿದೆ."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ಅತಿಕ್ರಮಿಸುವ ಗಡುವುಗಳೊಂದಿಗೆ ಒಂದು ವಾರವನ್ನು ಯೋಜಿಸಿ",
+          "paragraphs": [
+            "ಇತಿಹಾಸದ ಪ್ರಬಂಧವು ಗುರುವಾರದಂದು ಮತ್ತು ರಸಾಯನಶಾಸ್ತ್ರ ರಸಪ್ರಶ್ನೆಯು ಶುಕ್ರವಾರದಂದು ಎಂದು ಭಾವಿಸೋಣ. ಪ್ರಬಂಧ ರೂಪರೇಖೆಗಾಗಿ ಸೋಮವಾರ ಮತ್ತು ಡ್ರಾಫ್ಟ್‌ಗಾಗಿ ಮಂಗಳವಾರ ನಿರ್ಬಂಧಿಸಿ. ಬುಧವಾರ ಅಭ್ಯಾಸ ರಸಪ್ರಶ್ನೆ ಮಾಡಿ, ನಂತರ ಪ್ರಬಂಧವನ್ನು ಪರಿಶೀಲಿಸಲು ಮತ್ತು ಅದನ್ನು ಸಲ್ಲಿಸಲು ಗುರುವಾರ ಸಮಯವನ್ನು ಕಾಯ್ದಿರಿಸಿ.",
+            "ನಿಮ್ಮ ಸಾಪ್ತಾಹಿಕ ವಿಮರ್ಶೆಯ ಸಮಯದಲ್ಲಿ, ಕೋರ್ಸ್ ಪ್ರಕಟಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಮುಂದಿನ ಏಳು ದಿನಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ಯಾವುದೇ ಅಪೂರ್ಣ ಕೆಲಸವನ್ನು ನೀವು ಬಳಸಬಹುದಾದ ಸಮಯಕ್ಕೆ ಸರಿಸಿ. ನಿರೀಕ್ಷೆಗಿಂತ ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುವ ಕೆಲಸಕ್ಕಾಗಿ ಒಂದು ತೆರೆದ ಸ್ಲಾಟ್ ಅನ್ನು ಬಿಡಿ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ನಾನು ನಿಗದಿತ ದಿನಾಂಕವಿಲ್ಲದೆ ನಿಯೋಜನೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಏನು?",
+          "answer": "ಅದನ್ನು ಪಟ್ಟಿಗೆ ಸೇರಿಸಿ, ಅಧಿಕೃತ ಗಡುವನ್ನು ಖಾಲಿ ಬಿಡಿ ಮತ್ತು ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಅಥವಾ ನಿಮ್ಮ ಬೋಧಕರನ್ನು ಕೇಳಲು ಸಮಯವನ್ನು ನಿಗದಿಪಡಿಸಿ."
+        },
+        {
+          "question": "ನಾನು ಪಟ್ಟಿಯನ್ನು Nonlate ನಲ್ಲಿ ಇರಿಸಬಹುದೇ?",
+          "answer": "ಹೌದು. ನೀವು ಕಾರ್ಯಯೋಜನೆಗಳನ್ನು ಹಸ್ತಚಾಲಿತ ಕಾರ್ಯಗಳಾಗಿ ಸೇರಿಸಬಹುದು. ಸೂಚನೆಗಳು, ಗಡುವುಗಳು ಮತ್ತು ಸಲ್ಲಿಕೆ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ಮೂಲ ಕೋರ್ಸ್ ಸೈಟ್ ಅನ್ನು ಬಳಸಿ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "കോളേജ് അസൈൻമെൻ്റുകളുടെയും അവസാന തീയതികളുടെയും ട്രാക്ക് എങ്ങനെ സൂക്ഷിക്കാം",
+      "description": "ഒരു ലിസ്റ്റ്, പ്രതിവാര അവലോകനം, കുന്നുകൂടുന്ന സമയപരിധിക്കുള്ള ഒരു പ്ലാൻ എന്നിവയുള്ള ലളിതമായ കോളേജ് അസൈൻമെൻ്റ് ട്രാക്കർ സജ്ജീകരിക്കുക.",
+      "intro": "നിങ്ങൾ യഥാർത്ഥത്തിൽ പരിശോധിക്കുന്ന ഒരു പട്ടികയിൽ നിന്ന് ആരംഭിക്കുക. ഇത് ഒരു നോട്ട്ബുക്ക്, സ്പ്രെഡ്ഷീറ്റ് അല്ലെങ്കിൽ ടാസ്ക് ആപ്പ് ആകാം. എല്ലാ ക്ലാസുകൾക്കും ഒരേ ഫീൽഡുകൾ സൂക്ഷിക്കുക, അതുവഴി ഈ ആഴ്‌ച എന്താണ് ലഭിക്കേണ്ടതെന്ന് നിങ്ങൾക്ക് കാണാൻ കഴിയും.",
+      "answer": "ഓരോ അസൈൻമെൻ്റിനും കോഴ്‌സ്, അസൈൻമെൻ്റിൻ്റെ പേര്, കൃത്യമായ തീയതിയും സമയവും, സ്റ്റാറ്റസും അടുത്ത പ്രവർത്തനവും സഹിതം ഒരു വരി നൽകുക. ഡെഡ്‌ലൈനുകളുടെ അടുത്ത ആഴ്‌ച അവലോകനം ചെയ്യുക, തുടർന്ന് നേരത്തെ ആരംഭിക്കേണ്ട അസൈൻമെൻ്റുകളിൽ പ്രവർത്തിക്കാൻ സമയം റിസർവ് ചെയ്യുക.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "നിങ്ങളുടെ അസൈൻമെൻ്റ് ട്രാക്കർ സജ്ജീകരിക്കുക",
+          "paragraphs": [
+            "അസൈൻമെൻ്റുകൾ, ക്വിസുകൾ, പ്രോജക്ടുകൾ എന്നിവയ്ക്കായി ഓരോ സിലബസും കോഴ്സ് സൈറ്റും പരിശോധിക്കുക. ഓരോ അസൈൻമെൻ്റിനും ഒരു വരി ഉപയോഗിക്കുക, നിങ്ങൾക്ക് കഴിയുമെങ്കിൽ അതിൻ്റെ നിർദ്ദേശങ്ങളിലേക്ക് ഒരു ലിങ്ക് സംരക്ഷിക്കുക."
+          ],
+          "steps": [
+            "നിങ്ങളുടെ കോഴ്സിൽ കാണിച്ചിരിക്കുന്നതുപോലെ സമയപരിധി രേഖപ്പെടുത്തുക. അത് മാറുകയാണെങ്കിൽ, അതേ വരി അപ്ഡേറ്റ് ചെയ്യുക.",
+            "ചെയ്യേണ്ടത്, പുരോഗമിക്കുന്നു അല്ലെങ്കിൽ സമർപ്പിച്ചത് പോലുള്ള ലളിതമായ ഒരു സ്റ്റാറ്റസ് ഉപയോഗിക്കുക. കോഴ്‌സ് സൈറ്റിൽ ഒരു സ്ഥിരീകരണത്തിനായി പരിശോധിച്ച ശേഷം മാർക്ക് സമർപ്പിച്ചു."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ഓവർലാപ്പുചെയ്യുന്ന സമയപരിധികളോടെ ഒരാഴ്ച ആസൂത്രണം ചെയ്യുക",
+          "paragraphs": [
+            "ഒരു ചരിത്ര ഉപന്യാസം വ്യാഴാഴ്ചയും ഒരു കെമിസ്ട്രി ക്വിസ് വെള്ളിയാഴ്ചയുമാണെന്ന് കരുതുക. ഉപന്യാസ രൂപരേഖയ്ക്കായി തിങ്കളാഴ്ചയും ഡ്രാഫ്റ്റിനായി ചൊവ്വാഴ്ചയും തടയുക. ബുധനാഴ്ച ഒരു പരിശീലന ക്വിസ് നടത്തുക, തുടർന്ന് ഉപന്യാസം പരിശോധിച്ച് സമർപ്പിക്കാൻ വ്യാഴാഴ്ച സമയം റിസർവ് ചെയ്യുക.",
+            "നിങ്ങളുടെ പ്രതിവാര അവലോകന സമയത്ത്, കോഴ്‌സ് അറിയിപ്പുകൾ പരിശോധിക്കുക, അടുത്ത ഏഴ് ദിവസം സ്കാൻ ചെയ്യുക, പൂർത്തിയാകാത്ത ജോലികൾ നിങ്ങൾക്ക് ഉപയോഗിക്കാനാകുന്ന സമയത്തേക്ക് മാറ്റുക. പ്രതീക്ഷിച്ചതിലും കൂടുതൽ സമയമെടുക്കുന്ന ജോലിക്കായി ഒരു തുറന്ന സ്ലോട്ട് വിടുക."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "സമയപരിധിയില്ലാത്ത ഒരു അസൈൻമെൻ്റ് എനിക്കുണ്ടെങ്കിൽ എന്തുചെയ്യും?",
+          "answer": "ഇത് ലിസ്റ്റിലേക്ക് ചേർക്കുക, ഔദ്യോഗിക സമയപരിധി ശൂന്യമാക്കുക, നിർദ്ദേശങ്ങൾ പരിശോധിക്കുന്നതിനോ നിങ്ങളുടെ ഇൻസ്ട്രക്ടറോട് ചോദിക്കുന്നതിനോ ഒരു സമയം ഷെഡ്യൂൾ ചെയ്യുക."
+        },
+        {
+          "question": "എനിക്ക് ലിസ്റ്റ് Nonlate-ൽ സൂക്ഷിക്കാൻ കഴിയുമോ?",
+          "answer": "അതെ. നിങ്ങൾക്ക് സ്വമേധയാലുള്ള ജോലികളായി അസൈൻമെൻ്റുകൾ ചേർക്കാൻ കഴിയും. നിർദ്ദേശങ്ങൾ, സമയപരിധികൾ, സമർപ്പിക്കൽ നില എന്നിവ പരിശോധിക്കാൻ യഥാർത്ഥ കോഴ്‌സ് സൈറ്റ് ഉപയോഗിക്കുക."
+        }
+      ]
+    },
+    "mr": {
+      "title": "कॉलेज असाइनमेंट आणि देय तारखांचा मागोवा कसा ठेवावा",
+      "description": "एक यादी, साप्ताहिक पुनरावलोकन आणि जमा होणाऱ्या अंतिम मुदतीसाठी एक साधा कॉलेज असाइनमेंट ट्रॅकर सेट करा.",
+      "intro": "एका सूचीसह प्रारंभ करा जे तुम्ही प्रत्यक्षात तपासाल. हे एक नोटबुक, स्प्रेडशीट किंवा कार्य ॲप असू शकते. प्रत्येक वर्गासाठी समान फील्ड ठेवा जेणेकरून आपण या आठवड्यात काय देय आहे ते पाहू शकता.",
+      "answer": "प्रत्येक असाइनमेंटला कोर्स, असाइनमेंटचे नाव, नेमकी देय तारीख आणि वेळ, स्थिती आणि पुढील कृतीसह एक पंक्ती द्या. डेडलाइनच्या पुढील आठवड्याचे पुनरावलोकन करा, नंतर ज्या असाइनमेंट्सवर काम करण्यासाठी वेळ राखून ठेवा ज्यांना लवकर सुरुवात करणे आवश्यक आहे.",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "तुमचा असाइनमेंट ट्रॅकर सेट करा",
+          "paragraphs": [
+            "असाइनमेंट, क्विझ आणि प्रोजेक्टसाठी प्रत्येक अभ्यासक्रम आणि कोर्स साइट तपासा. प्रति असाइनमेंट एक पंक्ती वापरा आणि जर तुम्हाला शक्य असेल तर त्याच्या निर्देशांची लिंक सेव्ह करा."
+          ],
+          "steps": [
+            "तुमच्या अभ्यासक्रमात दाखवल्याप्रमाणे अंतिम मुदत नोंदवा. ते बदलल्यास, समान पंक्ती अद्यतनित करा.",
+            "करायचे आहे, प्रगतीपथावर आहे किंवा सबमिट केलेले आहे अशी साधी स्थिती वापरा. कोर्स साइटवर पुष्टीकरण तपासल्यानंतर सबमिट केलेले मार्क."
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ओव्हरलॅपिंग डेडलाइनसह आठवड्याची योजना करा",
+          "paragraphs": [
+            "समजा इतिहास निबंध गुरुवारी आहे आणि रसायनशास्त्र प्रश्नमंजुषा शुक्रवारी आहे. निबंधाच्या रूपरेषेसाठी सोमवार आणि मसुद्यासाठी मंगळवार ब्लॉक करा. बुधवारी सराव क्विझ करा, त्यानंतर निबंध तपासण्यासाठी आणि सबमिट करण्यासाठी गुरुवारचा वेळ राखून ठेवा.",
+            "तुमच्या साप्ताहिक पुनरावलोकनादरम्यान, अभ्यासक्रमाच्या घोषणा तपासा, पुढील सात दिवस स्कॅन करा आणि कोणतेही अपूर्ण काम तुम्ही वापरू शकता अशा वेळेत हलवा. अपेक्षेपेक्षा जास्त वेळ घेणाऱ्या कामासाठी एक खुली जागा सोडा."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "माझ्याकडे नियोजित तारखेशिवाय असाइनमेंट असल्यास काय?",
+          "answer": "ते सूचीमध्ये जोडा, अधिकृत अंतिम मुदत रिक्त सोडा आणि सूचना तपासण्यासाठी वेळ शेड्यूल करा किंवा तुमच्या प्रशिक्षकाला विचारा."
+        },
+        {
+          "question": "मी Nonlate मध्ये यादी ठेवू शकतो का?",
+          "answer": "होय. तुम्ही असाइनमेंट्स मॅन्युअल टास्क म्हणून जोडू शकता. सूचना, अंतिम मुदत आणि सबमिशन स्थिती सत्यापित करण्यासाठी मूळ कोर्स साइट वापरा."
+        }
+      ]
+    },
+    "or": {
+      "title": "କଲେଜ ଆସାଇନମେଣ୍ଟ ଏବଂ ଧାର୍ଯ୍ୟ ତାରିଖଗୁଡିକ ଉପରେ କିପରି ନଜର ରଖିବେ |",
+      "description": "ଗୋଟିଏ ତାଲିକା, ଏକ ସାପ୍ତାହିକ ସମୀକ୍ଷା ଏବଂ ସମୟସୀମା ପାଇଁ ଏକ ଯୋଜନା ସହିତ ଏକ ସରଳ କଲେଜ ଆସାଇନମେଣ୍ଟ ଟ୍ରାକର୍ ସେଟ୍ ଅପ୍ କରନ୍ତୁ |",
+      "intro": "ଗୋଟିଏ ତାଲିକା ସହିତ ଆରମ୍ଭ କରନ୍ତୁ ଯାହାକୁ ଆପଣ ପ୍ରକୃତରେ ଯାଞ୍ଚ କରିବେ | ଏହା ଏକ ନୋଟବୁକ୍, ସ୍ପ୍ରେଡସିଟ୍ କିମ୍ବା ଟାସ୍କ ଆପ୍ ହୋଇପାରେ | ପ୍ରତ୍ୟେକ ଶ୍ରେଣୀ ପାଇଁ ସମାନ କ୍ଷେତ୍ର ରଖନ୍ତୁ ଯାହା ଦ୍ this ାରା ଆପଣ ଏହି ସପ୍ତାହରେ କ’ଣ ହେବାର ଦେଖିପାରିବେ |",
+      "answer": "ପ୍ରତ୍ୟେକ ଆସାଇନମେଣ୍ଟକୁ ପାଠ୍ୟକ୍ରମ, ଆସାଇନମେଣ୍ଟ ନାମ, ସଠିକ୍ ଧାର୍ଯ୍ୟ ତାରିଖ ଏବଂ ସମୟ, ସ୍ଥିତି ଏବଂ ପରବର୍ତ୍ତୀ କାର୍ଯ୍ୟ ସହିତ ଗୋଟିଏ ଧାଡି ଦିଅ | ସମୟସୀମା ର ପରବର୍ତ୍ତୀ ସପ୍ତାହ ସମୀକ୍ଷା କରନ୍ତୁ, ତାପରେ କାର୍ଯ୍ୟ ଆରମ୍ଭ କରିବାକୁ ସମୟ ସଂରକ୍ଷଣ କରନ୍ତୁ ଯାହା ଶୀଘ୍ର ଆରମ୍ଭ ଆବଶ୍ୟକ କରେ |",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "ତୁମର ଆସାଇନମେଣ୍ଟ ଟ୍ରାକର୍ ସେଟ୍ ଅପ୍ କର |",
+          "paragraphs": [
+            "ଆସାଇନମେଣ୍ଟ, କୁଇଜ୍ ଏବଂ ପ୍ରୋଜେକ୍ଟ ପାଇଁ ପ୍ରତ୍ୟେକ ସିଲାବସ୍ ଏବଂ ପାଠ୍ୟକ୍ରମ ସାଇଟ୍ ଯାଞ୍ଚ କରନ୍ତୁ | ଆସାଇନମେଣ୍ଟରେ ଗୋଟିଏ ଧାଡି ବ୍ୟବହାର କରନ୍ତୁ ଏବଂ ଯଦି ଆପଣ ଏହାର ନିର୍ଦ୍ଦେଶନାମାକୁ ଏକ ଲିଙ୍କ୍ ସେଭ୍ କରନ୍ତୁ |"
+          ],
+          "steps": [
+            "ତୁମର ପାଠ୍ୟକ୍ରମରେ ଦେଖାଯାଇଥିବା ସମୟସୀମାକୁ ରେକର୍ଡ କର | ଯଦି ଏହା ପରିବର୍ତ୍ତନ ହୁଏ, ସମାନ ଧାଡି ଅପଡେଟ୍ କରନ୍ତୁ |",
+            "ଏକ ସରଳ ସ୍ଥିତି ବ୍ୟବହାର କରନ୍ତୁ ଯେପରିକି କରିବାକୁ, ଅଗ୍ରଗତି କିମ୍ବା ଦାଖଲ | ମାର୍କ କୋର୍ସ ସାଇଟରେ ଏକ ନିଶ୍ଚିତକରଣ ଯାଞ୍ଚ କରିବା ପରେ ଦାଖଲ |"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ଓଭରଲିପ୍ ସମୟସୀମା ସହିତ ଏକ ସପ୍ତାହ ଯୋଜନା କରନ୍ତୁ |",
+          "paragraphs": [
+            "ଧରାଯାଉ ଏକ ଇତିହାସ ପ୍ରବନ୍ଧ ଗୁରୁବାର ଏବଂ ଶୁକ୍ରବାର ଦିନ ଏକ ରସାୟନ ବିଜ୍ଞାନ କୁଇଜ୍ | ପ୍ରବନ୍ଧର ବାହ୍ୟରେଖା ପାଇଁ ସୋମବାର ଏବଂ ଏକ ଡ୍ରାଫ୍ଟ ପାଇଁ ମଙ୍ଗଳବାର ଅବରୋଧ କରନ୍ତୁ | ବୁଧବାର ଏକ ଅଭ୍ୟାସ କୁଇଜ୍ କର, ତାପରେ ପ୍ରବନ୍ଧ ଯାଞ୍ଚ ଏବଂ ଦାଖଲ କରିବାକୁ ଗୁରୁବାର ସମୟ ସଂରକ୍ଷଣ କର |",
+            "ଆପଣଙ୍କର ସାପ୍ତାହିକ ସମୀକ୍ଷା ସମୟରେ, ପାଠ୍ୟକ୍ରମର ଘୋଷଣା ଯାଞ୍ଚ କରନ୍ତୁ, ପରବର୍ତ୍ତୀ ସାତ ଦିନ ସ୍କାନ୍ କରନ୍ତୁ ଏବଂ ଯେକ any ଣସି ଅସମାପ୍ତ କାର୍ଯ୍ୟକୁ ଆପଣ ବ୍ୟବହାର କରିପାରିବେ | କାର୍ଯ୍ୟ ପାଇଁ ଗୋଟିଏ ଖୋଲା ସ୍ଲଟ୍ ଛାଡିଦିଅ ଯାହା ଆଶା କରାଯାଉଥିବା ସମୟଠାରୁ ଅଧିକ ସମୟ ନେଇଥାଏ |"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ଯଦି ମୋର ଧାର୍ଯ୍ୟ ତାରିଖ ବିନା ଏକ ଆସାଇନମେଣ୍ଟ ଅଛି?",
+          "answer": "ଏହାକୁ ତାଲିକାରେ ଯୋଡନ୍ତୁ, ଅଫିସିଆଲ୍ ଡେଡଲାଇନ୍ ଖାଲି ରଖନ୍ତୁ ଏବଂ ନିର୍ଦ୍ଦେଶନାମା ଯାଞ୍ଚ କରିବାକୁ କିମ୍ବା ଆପଣଙ୍କ ଶିକ୍ଷକଙ୍କୁ ପଚାରିବାକୁ ଏକ ସମୟ ନିର୍ଘଣ୍ଟ କରନ୍ତୁ |"
+        },
+        {
+          "question": "ମୁଁ ତାଲିକାକୁ Nonlate ରେ ରଖିପାରିବି କି?",
+          "answer": "ହଁ ଆପଣ ମାନୁଆଲ୍ ଟାସ୍କ ଭାବରେ ଆସାଇନମେଣ୍ଟ୍ ଯୋଡିପାରିବେ | ନିର୍ଦ୍ଦେଶାବଳୀ, ସମୟସୀମା ଏବଂ ଦାଖଲ ସ୍ଥିତି ଯାଞ୍ଚ କରିବାକୁ ମୂଳ ପାଠ୍ୟକ୍ରମ ସାଇଟ୍ ବ୍ୟବହାର କରନ୍ତୁ |"
+        }
+      ]
+    },
+    "pa": {
+      "title": "ਕਾਲਜ ਅਸਾਈਨਮੈਂਟਾਂ ਅਤੇ ਨਿਯਤ ਮਿਤੀਆਂ ਦਾ ਧਿਆਨ ਕਿਵੇਂ ਰੱਖਣਾ ਹੈ",
+      "description": "ਇੱਕ ਸੂਚੀ ਦੇ ਨਾਲ ਇੱਕ ਸਧਾਰਨ ਕਾਲਜ ਅਸਾਈਨਮੈਂਟ ਟਰੈਕਰ ਸੈਟ ਅਪ ਕਰੋ, ਇੱਕ ਹਫਤਾਵਾਰੀ ਸਮੀਖਿਆ ਅਤੇ ਅੰਤਮ ਤਾਰੀਖਾਂ ਲਈ ਇੱਕ ਯੋਜਨਾ ਜੋ ਢੇਰ ਹੋ ਜਾਂਦੀ ਹੈ।",
+      "intro": "ਇੱਕ ਸੂਚੀ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ਜੋ ਤੁਸੀਂ ਅਸਲ ਵਿੱਚ ਜਾਂਚ ਕਰੋਗੇ. ਇਹ ਇੱਕ ਨੋਟਬੁੱਕ, ਸਪ੍ਰੈਡਸ਼ੀਟ ਜਾਂ ਟਾਸਕ ਐਪ ਹੋ ਸਕਦਾ ਹੈ। ਹਰ ਕਲਾਸ ਲਈ ਇੱਕੋ ਜਿਹੇ ਖੇਤਰ ਰੱਖੋ ਤਾਂ ਜੋ ਤੁਸੀਂ ਦੇਖ ਸਕੋ ਕਿ ਇਸ ਹਫ਼ਤੇ ਕੀ ਬਕਾਇਆ ਹੈ।",
+      "answer": "ਹਰੇਕ ਅਸਾਈਨਮੈਂਟ ਨੂੰ ਕੋਰਸ, ਅਸਾਈਨਮੈਂਟ ਨਾਮ, ਸਹੀ ਨਿਯਤ ਮਿਤੀ ਅਤੇ ਸਮਾਂ, ਸਥਿਤੀ ਅਤੇ ਅਗਲੀ ਕਾਰਵਾਈ ਦੇ ਨਾਲ ਇੱਕ ਕਤਾਰ ਦਿਓ। ਅੰਤਮ ਤਾਰੀਖਾਂ ਦੇ ਅਗਲੇ ਹਫ਼ਤੇ ਦੀ ਸਮੀਖਿਆ ਕਰੋ, ਫਿਰ ਉਹਨਾਂ ਅਸਾਈਨਮੈਂਟਾਂ 'ਤੇ ਕੰਮ ਕਰਨ ਲਈ ਸਮਾਂ ਰਿਜ਼ਰਵ ਕਰੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਜਲਦੀ ਸ਼ੁਰੂ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ।",
+      "sections": [
+        {
+          "id": "build-your-list",
+          "heading": "ਆਪਣਾ ਅਸਾਈਨਮੈਂਟ ਟਰੈਕਰ ਸੈਟ ਅਪ ਕਰੋ",
+          "paragraphs": [
+            "ਅਸਾਈਨਮੈਂਟਾਂ, ਕਵਿਜ਼ਾਂ ਅਤੇ ਪ੍ਰੋਜੈਕਟਾਂ ਲਈ ਹਰੇਕ ਸਿਲੇਬਸ ਅਤੇ ਕੋਰਸ ਸਾਈਟ ਦੀ ਜਾਂਚ ਕਰੋ। ਪ੍ਰਤੀ ਅਸਾਈਨਮੈਂਟ ਇੱਕ ਕਤਾਰ ਦੀ ਵਰਤੋਂ ਕਰੋ ਅਤੇ ਜੇਕਰ ਤੁਸੀਂ ਕਰ ਸਕਦੇ ਹੋ ਤਾਂ ਇਸਦੇ ਨਿਰਦੇਸ਼ਾਂ ਲਈ ਇੱਕ ਲਿੰਕ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ।"
+          ],
+          "steps": [
+            "ਆਪਣੇ ਕੋਰਸ ਵਿੱਚ ਦਰਸਾਏ ਅਨੁਸਾਰ ਡੈੱਡਲਾਈਨ ਨੂੰ ਰਿਕਾਰਡ ਕਰੋ। ਜੇਕਰ ਇਹ ਬਦਲਦਾ ਹੈ, ਤਾਂ ਉਸੇ ਕਤਾਰ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ।",
+            "ਇੱਕ ਸਧਾਰਨ ਸਥਿਤੀ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਿਵੇਂ ਕਿ ਕਰਨ ਲਈ, ਪ੍ਰਗਤੀ ਵਿੱਚ ਜਾਂ ਸਪੁਰਦ ਕੀਤਾ ਗਿਆ। ਕੋਰਸ ਸਾਈਟ ਵਿੱਚ ਪੁਸ਼ਟੀਕਰਨ ਦੀ ਜਾਂਚ ਕਰਨ ਤੋਂ ਬਾਅਦ ਮਾਰਕ ਸਬਮਿਟ ਕੀਤਾ ਗਿਆ।"
+          ]
+        },
+        {
+          "id": "plan-the-week",
+          "heading": "ਓਵਰਲੈਪਿੰਗ ਡੈੱਡਲਾਈਨ ਦੇ ਨਾਲ ਇੱਕ ਹਫ਼ਤੇ ਦੀ ਯੋਜਨਾ ਬਣਾਓ",
+          "paragraphs": [
+            "ਮੰਨ ਲਓ ਕਿ ਇੱਕ ਇਤਿਹਾਸ ਲੇਖ ਵੀਰਵਾਰ ਨੂੰ ਹੈ ਅਤੇ ਇੱਕ ਕੈਮਿਸਟਰੀ ਕਵਿਜ਼ ਸ਼ੁੱਕਰਵਾਰ ਨੂੰ ਹੈ। ਸੋਮਵਾਰ ਨੂੰ ਲੇਖ ਦੀ ਰੂਪਰੇਖਾ ਲਈ ਅਤੇ ਮੰਗਲਵਾਰ ਨੂੰ ਡਰਾਫਟ ਲਈ ਬਲੌਕ ਕਰੋ। ਬੁੱਧਵਾਰ ਨੂੰ ਇੱਕ ਅਭਿਆਸ ਕਵਿਜ਼ ਕਰੋ, ਫਿਰ ਲੇਖ ਦੀ ਜਾਂਚ ਕਰਨ ਅਤੇ ਇਸਨੂੰ ਜਮ੍ਹਾ ਕਰਨ ਲਈ ਵੀਰਵਾਰ ਨੂੰ ਸਮਾਂ ਰਿਜ਼ਰਵ ਕਰੋ।",
+            "ਆਪਣੀ ਹਫਤਾਵਾਰੀ ਸਮੀਖਿਆ ਦੇ ਦੌਰਾਨ, ਕੋਰਸ ਦੀਆਂ ਘੋਸ਼ਣਾਵਾਂ ਦੀ ਜਾਂਚ ਕਰੋ, ਅਗਲੇ ਸੱਤ ਦਿਨਾਂ ਨੂੰ ਸਕੈਨ ਕਰੋ ਅਤੇ ਕਿਸੇ ਵੀ ਅਧੂਰੇ ਕੰਮ ਨੂੰ ਉਸ ਸਮੇਂ ਵਿੱਚ ਭੇਜੋ ਜੋ ਤੁਸੀਂ ਵਰਤ ਸਕਦੇ ਹੋ। ਉਮੀਦ ਤੋਂ ਵੱਧ ਸਮਾਂ ਲੈਣ ਵਾਲੇ ਕੰਮ ਲਈ ਇੱਕ ਖੁੱਲਾ ਸਲਾਟ ਛੱਡੋ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ਜੇ ਮੇਰੇ ਕੋਲ ਨਿਯਤ ਮਿਤੀ ਤੋਂ ਬਿਨਾਂ ਕੋਈ ਅਸਾਈਨਮੈਂਟ ਹੈ?",
+          "answer": "ਇਸਨੂੰ ਸੂਚੀ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ, ਅਧਿਕਾਰਤ ਅੰਤਮ ਤਾਰੀਖ ਨੂੰ ਖਾਲੀ ਛੱਡੋ ਅਤੇ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਸਮਾਂ ਨਿਯਤ ਕਰੋ ਜਾਂ ਆਪਣੇ ਇੰਸਟ੍ਰਕਟਰ ਨੂੰ ਪੁੱਛੋ।"
+        },
+        {
+          "question": "ਕੀ ਮੈਂ Nonlate ਵਿੱਚ ਸੂਚੀ ਰੱਖ ਸਕਦਾ ਹਾਂ?",
+          "answer": "ਹਾਂ। ਤੁਸੀਂ ਦਸਤੀ ਕਾਰਜਾਂ ਵਜੋਂ ਅਸਾਈਨਮੈਂਟਾਂ ਨੂੰ ਜੋੜ ਸਕਦੇ ਹੋ। ਨਿਰਦੇਸ਼ਾਂ, ਅੰਤਮ ਤਾਰੀਖਾਂ ਅਤੇ ਸਬਮਿਸ਼ਨ ਸਥਿਤੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਮੂਲ ਕੋਰਸ ਸਾਈਟ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+        }
+      ]
+    }
+  }
+}

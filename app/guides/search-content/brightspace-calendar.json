@@ -1,0 +1,2046 @@
+{
+  "slug": "sync-brightspace-calendar-to-outlook-google",
+  "related": [
+    "add-blackboard-calendar-to-apple-google-calendar",
+    "how-to-keep-track-of-college-assignments",
+    "add-canvas-to-google-calendar"
+  ],
+  "sources": [
+    {
+      "label": "D2L Brightspace: manage course events and calendar feeds",
+      "url": "https://community.d2l.com/brightspace/kb/articles/18153-manage-course-events-with-the-calendar-tool"
+    },
+    {
+      "label": "Microsoft Support: subscribe to a calendar in Outlook on the web",
+      "url": "https://support.microsoft.com/en-us/outlook/import-or-subscribe-to-a-calendar-in-outlook-com-or-outlook-on-the-web"
+    },
+    {
+      "label": "Google Calendar Help: add a calendar from a URL",
+      "url": "https://support.google.com/calendar/answer/37100?hl=en"
+    }
+  ],
+  "published": "2026-11-19",
+  "locales": {
+    "en": {
+      "title": "How to sync Brightspace Calendar to Outlook or Google Calendar",
+      "description": "Enable calendar feeds in D2L Brightspace, choose which courses to include and subscribe in Outlook on the web or Google Calendar.",
+      "intro": "A Brightspace calendar subscription puts course events in the calendar you already check. You can choose a specific course or use a feed that combines calendars and tasks.",
+      "answer": "In Brightspace Calendar, open Settings, enable calendar feeds and save. Select Subscribe, choose a calendar and copy its URL. In Outlook on the web, choose Subscribe from web. In Google Calendar on a computer, choose From URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Get your D2L Brightspace calendar link",
+          "paragraphs": [
+            "If the course home page has a Calendar widget, use it to open the full Calendar. Keep the subscription link private."
+          ],
+          "steps": [
+            "Open Settings in Calendar, select Enable Calendar Feeds and save.",
+            "Select Subscribe. Choose one course, All Calendars and Tasks, or Tasks Only. Copy the URL for the selection you want."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sync Brightspace to Outlook",
+          "paragraphs": [
+            "In Outlook on the web, open Calendar, choose Add calendar and select Subscribe from web. Paste the Brightspace URL and confirm. Microsoft says changes can take more than 24 hours to appear."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sync Brightspace to Google Calendar",
+          "paragraphs": [
+            "In Google Calendar on a computer, click the plus beside Other calendars. Choose From URL, paste the Brightspace URL and add the calendar. A file import gives you a snapshot. Use the subscription URL to receive later changes."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Why is a course or task missing from the calendar?",
+          "answer": "Check that it is visible in Brightspace Calendar. Check which feed you subscribed to, since a single-course feed and a tasks-only feed include different items. Compare urgent dates in Brightspace directly."
+        },
+        {
+          "question": "Can I choose one course instead of every course?",
+          "answer": "Yes. In the Brightspace subscription menu, choose the specific calendar before you copy its URL."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cómo sincronizar el calendario de Brightspace con Outlook o Google Calendar",
+      "description": "Activa el feed de calendario en D2L Brightspace, elige qué cursos incluir y suscríbete en Outlook en la web o Google Calendar.",
+      "intro": "Una suscripción al calendario Brightspace coloca los eventos del curso en el calendario que ya consulta. Puedes elegir un curso específico o utilizar un feed que combine calendarios y tareas.",
+      "answer": "En el calendario de Brightspace, abre Configuración, activa los feeds de calendario y guarda los cambios. Selecciona Suscribirse, elige un calendario y copia su URL. En Outlook en la web, selecciona Suscribirse desde la web. En Google Calendar, desde un ordenador, selecciona Desde URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Obtenga su enlace al calendario D2L Brightspace",
+          "paragraphs": [
+            "Si la página de inicio del curso tiene un widget de Calendario, utilícelo para abrir el Calendario completo. Mantenga el enlace de suscripción privado."
+          ],
+          "steps": [
+            "Ve a Configuración en el calendario, activa los feeds de calendario y guarda los cambios.",
+            "Seleccione Suscribirse. Elija un curso, Todos los calendarios y tareas, o Solo tareas. Copie la URL de la selección que desee."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sincronizar Brightspace con Outlook",
+          "paragraphs": [
+            "En Outlook en la web, abra Calendario, elija Agregar calendario y seleccione Suscribirse desde la web. Pegue la URL Brightspace y confirme. Microsoft dice que los cambios pueden tardar más de 24 horas en aparecer."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sincronizar Brightspace con Google Calendar",
+          "paragraphs": [
+            "En Google Calendar en una computadora, haga clic en el signo más junto a Otros calendarios. Elija Desde URL, pegue la URL Brightspace y agregue el calendario. La importación de un archivo le proporciona una instantánea. Utilice la URL de suscripción para recibir cambios posteriores."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Por qué falta un curso o tarea en el calendario?",
+          "answer": "Comprueba que esté visible en el Calendario Brightspace. Verifique a qué feed se suscribió, ya que un feed de un solo curso y un feed de solo tareas incluyen elementos diferentes. Compare fechas urgentes en Brightspace directamente."
+        },
+        {
+          "question": "¿Puedo elegir un curso en lugar de todos los cursos?",
+          "answer": "Sí. En el menú de suscripción Brightspace, elija el calendario específico antes de copiar su URL."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Comment synchroniser le calendrier Brightspace avec Outlook ou Google Agenda",
+      "description": "Activez les flux de calendrier dans D2L Brightspace, choisissez les cours à inclure et abonnez-vous dans Outlook sur le Web ou Google Agenda.",
+      "intro": "Un abonnement au calendrier Brightspace place les événements de cours dans le calendrier que vous consultez déjà. Vous pouvez choisir un cours spécifique ou utiliser un flux combinant calendriers et tâches.",
+      "answer": "Dans le calendrier Brightspace, ouvrez Paramètres, activez les flux de calendrier et enregistrez. Sélectionnez S'abonner, choisissez un calendrier et copiez son URL. Dans Outlook sur le Web, choisissez S'abonner à partir du Web. Dans Google Agenda sur un ordinateur, choisissez À partir de l'URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Obtenez votre lien de calendrier D2L Brightspace",
+          "paragraphs": [
+            "Si la page d'accueil du cours comporte un widget Calendrier, utilisez-le pour ouvrir le calendrier complet. Gardez le lien d’abonnement privé."
+          ],
+          "steps": [
+            "Ouvrez les paramètres dans le calendrier, sélectionnez Activer les flux de calendrier et enregistrez.",
+            "Sélectionnez S'abonner. Choisissez un cours, Tous les calendriers et tâches ou Tâches uniquement. Copiez l'URL de la sélection souhaitée."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synchroniser Brightspace avec Outlook",
+          "paragraphs": [
+            "Dans Outlook sur le Web, ouvrez Calendrier, choisissez Ajouter un calendrier et sélectionnez S'abonner depuis le Web. Collez l'URL Brightspace et confirmez. Microsoft affirme que les modifications peuvent mettre plus de 24 heures à apparaître."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synchroniser Brightspace avec Google Agenda",
+          "paragraphs": [
+            "Dans Google Agenda sur un ordinateur, cliquez sur le plus à côté d'Autres agendas. Choisissez À partir de l'URL, collez l'URL Brightspace et ajoutez le calendrier. Une importation de fichier vous donne un instantané. Utilisez l'URL d'abonnement pour recevoir les modifications ultérieures."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Pourquoi un cours ou une tâche manque-t-il dans le calendrier ?",
+          "answer": "Vérifiez qu'il est visible dans le calendrier Brightspace. Vérifiez à quel flux vous êtes abonné, car un flux de cours unique et un flux de tâches uniquement incluent des éléments différents. Comparez directement les dates urgentes dans Brightspace."
+        },
+        {
+          "question": "Puis-je choisir un cours au lieu de tous les cours ?",
+          "answer": "Oui. Dans le menu d'abonnement Brightspace, choisissez le calendrier spécifique avant de copier son URL."
+        }
+      ]
+    },
+    "hi": {
+      "title": "Brightspace कैलेंडर को Outlook या Google कैलेंडर से कैसे सिंक करें",
+      "description": "D2L Brightspace में कैलेंडर फ़ीड सक्षम करें, वेब या Google कैलेंडर पर आउटलुक में कौन से पाठ्यक्रम शामिल करें और सदस्यता लें चुनें।",
+      "intro": "एक Brightspace कैलेंडर सदस्यता आपके द्वारा पहले से जांचे गए कैलेंडर में पाठ्यक्रम की घटनाओं को डालती है। आप एक विशिष्ट पाठ्यक्रम चुन सकते हैं या एक फ़ीड का उपयोग कर सकते हैं जो कैलेंडर और कार्यों को जोड़ती है।",
+      "answer": "Brightspace कैलेंडर में, सेटिंग्स खोलें, कैलेंडर फ़ीड सक्षम करें और सहेजें। सदस्यता लें चुनें, एक कैलेंडर चुनें और उसका URL कॉपी करें। वेब पर आउटलुक में, वेब से सदस्यता लें चुनें। कंप्यूटर पर Google कैलेंडर में, URL से चुनें।",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "अपना D2L Brightspace कैलेंडर लिंक प्राप्त करें",
+          "paragraphs": [
+            "यदि पाठ्यक्रम मुख पृष्ठ पर कैलेंडर विजेट है, तो पूरा कैलेंडर खोलने के लिए इसका उपयोग करें। सदस्यता लिंक को निजी रखें."
+          ],
+          "steps": [
+            "कैलेंडर में सेटिंग्स खोलें, कैलेंडर फ़ीड सक्षम करें चुनें और सहेजें।",
+            "सदस्यता लें का चयन करें. एक कोर्स चुनें, सभी कैलेंडर और कार्य, या केवल कार्य। अपने इच्छित चयन के लिए URL कॉपी करें."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace को आउटलुक से सिंक करें",
+          "paragraphs": [
+            "वेब पर आउटलुक में, कैलेंडर खोलें, कैलेंडर जोड़ें चुनें और वेब से सदस्यता लें चुनें। Brightspace URL चिपकाएँ और पुष्टि करें। माइक्रोसॉफ्ट का कहना है कि बदलाव दिखने में 24 घंटे से ज्यादा का समय लग सकता है।"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace को Google कैलेंडर से सिंक करें",
+          "paragraphs": [
+            "कंप्यूटर पर Google कैलेंडर में, अन्य कैलेंडर के पास प्लस पर क्लिक करें। URL से चुनें, Brightspace URL पेस्ट करें और कैलेंडर जोड़ें। फ़ाइल आयात आपको एक स्नैपशॉट देता है. बाद में परिवर्तन प्राप्त करने के लिए सदस्यता URL का उपयोग करें।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "कैलेंडर से कोई पाठ्यक्रम या कार्य गायब क्यों है?",
+          "answer": "जांचें कि यह Brightspace कैलेंडर में दिखाई दे रहा है। जांचें कि आपने किस फ़ीड की सदस्यता ली है, क्योंकि एकल-कोर्स फ़ीड और केवल-कार्य फ़ीड में अलग-अलग आइटम शामिल होते हैं। सीधे Brightspace में अत्यावश्यक तिथियों की तुलना करें।"
+        },
+        {
+          "question": "क्या मैं प्रत्येक कोर्स के बजाय एक कोर्स चुन सकता हूँ?",
+          "answer": "हाँ. Brightspace सदस्यता मेनू में, विशिष्ट कैलेंडर का URL कॉपी करने से पहले उसे चुनें।"
+        }
+      ]
+    },
+    "ar": {
+      "title": "كيفية مزامنة تقويم Brightspace مع Outlook أو تقويم Google",
+      "description": "قم بتمكين خلاصات التقويم في D2L Brightspace، واختر الدورات التدريبية التي تريد تضمينها والاشتراك فيها في Outlook على الويب أو تقويم Google.",
+      "intro": "يؤدي الاشتراك في تقويم Brightspace إلى وضع أحداث الدورة التدريبية في التقويم الذي قمت بمراجعته بالفعل. يمكنك اختيار دورة تدريبية معينة أو استخدام موجز يجمع بين التقويمات والمهام.",
+      "answer": "في تقويم Brightspace، افتح الإعدادات، وقم بتمكين موجزات التقويم وحفظها. حدد \"اشتراك\"، واختر تقويمًا وانسخ عنوان URL الخاص به. في Outlook على الويب، اختر الاشتراك من الويب. في تقويم Google على جهاز الكمبيوتر، اختر من URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "احصل على رابط تقويم D2L Brightspace",
+          "paragraphs": [
+            "إذا كانت الصفحة الرئيسية للدورة التدريبية تحتوي على أداة التقويم، فاستخدمها لفتح التقويم الكامل. حافظ على خصوصية رابط الاشتراك."
+          ],
+          "steps": [
+            "افتح الإعدادات في التقويم، وحدد تمكين موجزات التقويم واحفظها.",
+            "حدد الاشتراك. اختر مقررًا دراسيًا واحدًا، أو كل التقويمات والمهام، أو المهام فقط. انسخ عنوان URL للتحديد الذي تريده."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "مزامنة Brightspace مع Outlook",
+          "paragraphs": [
+            "في Outlook على الويب، افتح التقويم، واختر إضافة تقويم، ثم حدد الاشتراك من الويب. الصق عنوان URL الخاص بـ Brightspace وأكده. تقول Microsoft إن ظهور التغييرات قد يستغرق أكثر من 24 ساعة."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "مزامنة Brightspace مع تقويم Google",
+          "paragraphs": [
+            "في تقويم Google على جهاز الكمبيوتر، انقر فوق علامة الجمع الموجودة بجانب التقاويم الأخرى. اختر من URL، والصق عنوان URL الخاص بـ Brightspace وأضف التقويم. يمنحك استيراد الملف لقطة. استخدم عنوان URL الخاص بالاشتراك لتلقي التغييرات اللاحقة."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "لماذا هناك مقرر دراسي أو مهمة مفقودة من التقويم؟",
+          "answer": "تأكد من أنه مرئي في تقويم Brightspace. تحقق من الموجز الذي اشتركت فيه، نظرًا لأن موجز المقرر الدراسي الواحد وملخص المهام فقط يتضمنان عناصر مختلفة. قارن التواريخ العاجلة في Brightspace مباشرة."
+        },
+        {
+          "question": "هل يمكنني اختيار دورة واحدة بدلاً من كل دورة؟",
+          "answer": "نعم. في قائمة الاشتراك Brightspace، اختر التقويم المحدد قبل نسخ عنوان URL الخاص به."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "如何将 Brightspace 日历同步到 Outlook 或 Google 日历",
+      "description": "在 D2L Brightspace 中启用日历源，选择要在 Outlook 网页版或 Google 日历中包含和订阅的课程。",
+      "intro": "Brightspace 日历订阅将课程活动放入您已查看的日历中。您可以选择特定课程或使用结合了日历和任务的提要。",
+      "answer": "在 Brightspace 日历中，打开“设置”，启用日历源并保存。选择订阅，选择日历并复制其 URL。在 Outlook 网页版中，选择“从网页订阅”。在计算机上的 Google 日历中，选择“来自 URL”。",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "获取您的 D2L Brightspace 日历链接",
+          "paragraphs": [
+            "如果课程主页有日历小部件，请使用它打开完整的日历。将订阅链接保密。"
+          ],
+          "steps": [
+            "打开日历中的设置，选择启用日历源并保存。",
+            "选择订阅。选择一门课程、所有日历和任务或仅任务。复制所需选择的 URL。"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "将 Brightspace 同步到 Outlook",
+          "paragraphs": [
+            "在 Outlook 网页版中，打开“日历”，选择“添加日历”，然后选择“从 Web 订阅”。粘贴 Brightspace URL 并确认。微软表示，更改可能需要 24 小时以上才能显现。"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "将 Brightspace 同步到 Google 日历",
+          "paragraphs": [
+            "在计算机上的 Google 日历中，点击其他日历旁边的加号。选择来自 URL，粘贴 Brightspace URL 并添加日历。文件导入为您提供快照。使用订阅 URL 接收以后的更改。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "为什么日历中缺少课程或任务？",
+          "answer": "检查它在 Brightspace 日历中是否可见。检查您订阅的提要，因为单课程提要和仅任务提要包含不同的项目。直接比较 Brightspace 中的紧急日期。"
+        },
+        {
+          "question": "我可以选择一门课程而不是每门课程吗？",
+          "answer": "是的。在 Brightspace 订阅菜单中，选择特定日历，然后复制其 URL。"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Como sincronizar o calendário Brightspace com o Outlook ou o Google Calendar",
+      "description": "Habilite feeds de calendário no D2L Brightspace, escolha quais cursos incluir e inscreva-se no Outlook na Web ou no Google Agenda.",
+      "intro": "Uma assinatura do calendário Brightspace coloca os eventos do curso no calendário que você já verifica. Você pode escolher um curso específico ou usar um feed que combine calendários e tarefas.",
+      "answer": "No Calendário Brightspace, abra Configurações, ative os feeds do calendário e salve. Selecione Inscrever-se, escolha um calendário e copie seu URL. No Outlook na Web, escolha Assinar na Web. No Google Agenda em um computador, escolha Do URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Obtenha o link do calendário D2L Brightspace",
+          "paragraphs": [
+            "Se a página inicial do curso tiver um widget de Calendário, use-o para abrir o Calendário completo. Mantenha o link de assinatura privado."
+          ],
+          "steps": [
+            "Abra Configurações no Calendário, selecione Ativar feeds de calendário e salve.",
+            "Selecione Assinar. Escolha um curso, Todos os calendários e tarefas ou Somente tarefas. Copie o URL da seleção desejada."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sincronize Brightspace com o Outlook",
+          "paragraphs": [
+            "No Outlook na Web, abra Calendário, escolha Adicionar calendário e selecione Assinar na Web. Cole o URL Brightspace e confirme. A Microsoft diz que as mudanças podem levar mais de 24 horas para aparecer."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sincronize Brightspace com o Google Agenda",
+          "paragraphs": [
+            "No Google Agenda em um computador, clique no sinal de adição ao lado de Outras agendas. Escolha Do URL, cole o URL Brightspace e adicione o calendário. Uma importação de arquivo fornece um instantâneo. Use o URL de assinatura para receber alterações posteriores."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Por que um curso ou tarefa está faltando no calendário?",
+          "answer": "Verifique se está visível no Calendário Brightspace. Verifique em qual feed você se inscreveu, pois um feed de curso único e um feed somente de tarefas incluem itens diferentes. Compare datas urgentes em Brightspace diretamente."
+        },
+        {
+          "question": "Posso escolher um curso em vez de todos os cursos?",
+          "answer": "Sim. No menu de assinatura Brightspace, escolha o calendário específico antes de copiar seu URL."
+        }
+      ]
+    },
+    "pt-PT": {
+      "title": "Como sincronizar o calendário Brightspace com o Outlook ou o Google Calendar",
+      "description": "Active os feeds de calendário no D2L Brightspace, escolha os cursos a incluir e inscreva-se no Outlook na Web ou no Google Calendar.",
+      "intro": "Uma subscrição do calendário Brightspace coloca os eventos do curso no calendário que já verifica. Pode escolher um curso específico ou utilizar um feed que combine calendários e tarefas.",
+      "answer": "No Calendário Brightspace, abra as Definições, ative os feeds do calendário e guarde. Selecione Subscrever, escolha um calendário e copie o seu URL. No Outlook na Web, escolha Assinar na Web. No Google Calendar num computador, escolha A partir do URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Obter o link do calendário D2L Brightspace",
+          "paragraphs": [
+            "Se a página inicial do curso tiver um widget de Calendário, utilize-o para abrir o Calendário completo. Mantenha o link de assinatura privado."
+          ],
+          "steps": [
+            "Abra as Definições no Calendário, selecione Ativar feeds de calendário e guarde.",
+            "Selecione Assinar. Escolha um curso, Todos os calendários e tarefas ou Apenas tarefas. Copie o URL da seleção pretendida."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sincronizar Brightspace com o Outlook",
+          "paragraphs": [
+            "No Outlook na Web, abra o Calendário, escolha Adicionar calendário e selecione Assinar na Web. Cole o URL Brightspace e confirme. A Microsoft diz que as alterações podem demorar mais de 24 horas a aparecer."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sincronizar Brightspace com o Google Calendar",
+          "paragraphs": [
+            "No Google Agenda num computador, clique no sinal de adição junto a Outras agendas. Escolha A partir do URL, cole o URL Brightspace e adicione o calendário. Uma importação de ficheiros fornece um instantâneo. Utilize o URL de assinatura para receber alterações posteriores."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Porque é que um curso ou tarefa está em falta no calendário?",
+          "answer": "Verifique se está visível no Calendário Brightspace. Verifique em que feed se inscreveu, pois um feed de curso único e um feed apenas de tarefas incluem itens diferentes. Compare datas urgentes em Brightspace diretamente."
+        },
+        {
+          "question": "Posso escolher um curso em vez de todos os cursos?",
+          "answer": "Sim. No menu de subscrição Brightspace, escolha o calendário específico antes de copiar o seu URL."
+        }
+      ]
+    },
+    "de": {
+      "title": "So synchronisieren Sie den Brightspace-Kalender mit Outlook oder Google Kalender",
+      "description": "Aktivieren Sie Kalender-Feeds in D2L Brightspace, wählen Sie die einzuschließenden Kurse aus und abonnieren Sie sie in Outlook im Web oder Google Kalender.",
+      "intro": "Mit einem Brightspace-Kalenderabonnement werden Kursereignisse in den Kalender eingetragen, den Sie bereits überprüfen. Sie können einen bestimmten Kurs auswählen oder einen Feed verwenden, der Kalender und Aufgaben kombiniert.",
+      "answer": "Öffnen Sie im Brightspace-Kalender die Einstellungen, aktivieren Sie Kalender-Feeds und speichern Sie. Wählen Sie „Abonnieren“, wählen Sie einen Kalender aus und kopieren Sie dessen URL. Wählen Sie in Outlook im Web die Option „Aus dem Web abonnieren“ aus. Wählen Sie in Google Kalender auf einem Computer „Von URL“ aus.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Holen Sie sich Ihren D2L Brightspace-Kalenderlink",
+          "paragraphs": [
+            "Wenn die Startseite des Kurses über ein Kalender-Widget verfügt, verwenden Sie es, um den vollständigen Kalender zu öffnen. Halten Sie den Abonnementlink privat."
+          ],
+          "steps": [
+            "Öffnen Sie die Einstellungen im Kalender, wählen Sie „Kalender-Feeds aktivieren“ und speichern Sie.",
+            "Wählen Sie Abonnieren. Wählen Sie einen Kurs, „Alle Kalender und Aufgaben“ oder „Nur Aufgaben“. Kopieren Sie die URL für die gewünschte Auswahl."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synchronisieren Sie Brightspace mit Outlook",
+          "paragraphs": [
+            "Öffnen Sie in Outlook im Web den Kalender, wählen Sie „Kalender hinzufügen“ und dann „Aus dem Web abonnieren“ aus. Fügen Sie die Brightspace-URL ein und bestätigen Sie. Laut Microsoft kann es mehr als 24 Stunden dauern, bis Änderungen angezeigt werden."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synchronisieren Sie Brightspace mit Google Kalender",
+          "paragraphs": [
+            "Klicken Sie in Google Kalender auf einem Computer auf das Pluszeichen neben „Andere Kalender“. Wählen Sie „Von URL“, fügen Sie die Brightspace-URL ein und fügen Sie den Kalender hinzu. Durch einen Dateiimport erhalten Sie einen Schnappschuss. Verwenden Sie die Abonnement-URL, um spätere Änderungen zu erhalten."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Warum fehlt ein Kurs oder eine Aufgabe im Kalender?",
+          "answer": "Überprüfen Sie, ob es im Brightspace-Kalender sichtbar ist. Überprüfen Sie, welchen Feed Sie abonniert haben, da ein Einzelkurs-Feed und ein Nur-Aufgaben-Feed unterschiedliche Elemente enthalten. Vergleichen Sie dringende Termine direkt in Brightspace."
+        },
+        {
+          "question": "Kann ich statt aller Kurse auch einen Kurs wählen?",
+          "answer": "Ja. Wählen Sie im Brightspace-Abonnementmenü den spezifischen Kalender aus, bevor Sie dessen URL kopieren."
+        }
+      ]
+    },
+    "ja": {
+      "title": "Brightspace カレンダーを Outlook または Google カレンダーに同期する方法",
+      "description": "D2L Brightspace でカレンダー フィードを有効にし、Web 上の Outlook または Google カレンダーに含めるコースを選択して購読します。",
+      "intro": "Brightspace カレンダーのサブスクリプションでは、すでにチェックしているカレンダーにコース イベントが追加されます。特定のコースを選択したり、カレンダーとタスクを組み合わせたフィードを使用したりできます。",
+      "answer": "Brightspace カレンダーで、[設定] を開き、カレンダー フィードを有効にして保存します。 [購読] を選択し、カレンダーを選択して、その URL をコピーします。 Web 上の Outlook で、[Web から購読] を選択します。パソコンの Google カレンダーで、[URL から] を選択します。",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "D2L Brightspace カレンダーのリンクを取得します",
+          "paragraphs": [
+            "コースのホームページにカレンダー ウィジェットがある場合は、それを使用して完全なカレンダーを開きます。購読リンクは非公開にしてください。"
+          ],
+          "steps": [
+            "カレンダーの設定を開き、カレンダー フィードを有効にするを選択して保存します。",
+            "「購読」を選択します。 [すべてのカレンダーとタスク] または [タスクのみ] のコースを 1 つ選択します。必要な選択項目の URL をコピーします。"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace を Outlook に同期する",
+          "paragraphs": [
+            "Web 上の Outlook で、予定表を開き、予定表の追加を選択して、Web から購読を選択します。 Brightspace URL を貼り付けて確認します。 Microsoftによれば、変更が反映されるまでに24時間以上かかる場合があるという。"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace を Google カレンダーに同期する",
+          "paragraphs": [
+            "パソコンの Google カレンダーで、[その他のカレンダー] の横にあるプラスをクリックします。 [URL から] を選択し、Brightspace URL を貼り付け、カレンダーを追加します。ファイルをインポートすると、スナップショットが得られます。後で変更を受信するには、サブスクリプション URL を使用します。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "カレンダーにコースまたはタスクが表示されないのはなぜですか?",
+          "answer": "Brightspace カレンダーに表示されていることを確認します。単一コースのフィードとタスクのみのフィードには異なるアイテムが含まれるため、どのフィードを購読しているかを確認してください。 Brightspace の緊急の日付を直接比較します。"
+        },
+        {
+          "question": "すべてのコースではなく、1 つのコースを選択することはできますか?",
+          "answer": "はい。 Brightspace サブスクリプション メニューで、URL をコピーする前に特定のカレンダーを選択します。"
+        }
+      ]
+    },
+    "id": {
+      "title": "Cara menyinkronkan Kalender Brightspace ke Outlook atau Google Kalender",
+      "description": "Aktifkan umpan kalender di D2L Brightspace, pilih kursus mana yang akan disertakan dan berlangganan di Outlook di web atau Google Kalender.",
+      "intro": "Langganan kalender Brightspace menempatkan acara kursus di kalender yang sudah Anda periksa. Anda dapat memilih kursus tertentu atau menggunakan feed yang menggabungkan kalender dan tugas.",
+      "answer": "Di Kalender Brightspace, buka Pengaturan, aktifkan umpan kalender dan simpan. Pilih Berlangganan, pilih kalender dan salin URL-nya. Di Outlook di web, pilih Berlangganan dari web. Di Google Kalender di komputer, pilih Dari URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Dapatkan link kalender D2L Brightspace Anda",
+          "paragraphs": [
+            "Jika halaman beranda kursus memiliki widget Kalender, gunakan widget tersebut untuk membuka Kalender lengkap. Jaga kerahasiaan tautan berlangganan."
+          ],
+          "steps": [
+            "Buka Pengaturan di Kalender, pilih Aktifkan Umpan Kalender dan simpan.",
+            "Pilih Berlangganan. Pilih satu mata kuliah, Semua Kalender dan Tugas, atau Hanya Tugas. Salin URL untuk pilihan yang Anda inginkan."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sinkronkan Brightspace ke Outlook",
+          "paragraphs": [
+            "Di Outlook di web, buka Kalender, pilih Tambahkan kalender, lalu pilih Berlangganan dari web. Tempelkan URL Brightspace dan konfirmasi. Microsoft mengatakan perubahan mungkin memerlukan waktu lebih dari 24 jam untuk muncul."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sinkronkan Brightspace ke Google Kalender",
+          "paragraphs": [
+            "Di Google Kalender di komputer, klik tanda plus di samping Kalender lainnya. Pilih Dari URL, tempel URL Brightspace dan tambahkan kalender. Impor file memberi Anda gambaran singkat. Gunakan URL langganan untuk menerima perubahan selanjutnya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mengapa kursus atau tugas tidak ada di kalender?",
+          "answer": "Periksa apakah ini terlihat di Kalender Brightspace. Periksa feed langganan Anda, karena feed kursus tunggal dan feed tugas saja mencakup item yang berbeda. Bandingkan tanggal mendesak di Brightspace secara langsung."
+        },
+        {
+          "question": "Bolehkah saya memilih satu mata kuliah, bukan setiap mata kuliah?",
+          "answer": "Ya. Di menu berlangganan Brightspace, pilih kalender tertentu sebelum Anda menyalin URL-nya."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Как синхронизировать календарь Brightspace с Outlook или Календарем Google",
+      "description": "Включите каналы календаря в D2L Brightspace, выберите, какие курсы включить, и подпишитесь в Outlook в Интернете или Календаре Google.",
+      "intro": "Подписка на календарь Brightspace добавляет события курса в календарь, который вы уже проверили. Вы можете выбрать конкретный курс или использовать ленту, объединяющую календари и задачи.",
+      "answer": "В календаре Brightspace откройте «Настройки», включите ленты календаря и сохраните. Выберите «Подписаться», выберите календарь и скопируйте его URL-адрес. В Outlook в Интернете выберите «Подписаться через Интернет». В Календаре Google на компьютере выберите «По URL».",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Получите ссылку на календарь D2L Brightspace",
+          "paragraphs": [
+            "Если на домашней странице курса есть виджет «Календарь», используйте его, чтобы открыть полный календарь. Держите ссылку на подписку в тайне."
+          ],
+          "steps": [
+            "Откройте «Настройки» в «Календаре», выберите «Включить ленты календаря» и сохраните.",
+            "Выберите «Подписаться». Выберите один курс: «Все календари и задачи» или «Только задачи». Скопируйте URL-адрес нужного фрагмента."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Синхронизировать Brightspace с Outlook",
+          "paragraphs": [
+            "В Outlook в Интернете откройте «Календарь», выберите «Добавить календарь» и выберите «Подписаться через Интернет». Вставьте URL-адрес Brightspace и подтвердите. Microsoft заявляет, что появление изменений может занять более 24 часов."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Синхронизировать Brightspace с Календарем Google",
+          "paragraphs": [
+            "В Календаре Google на компьютере нажмите плюс рядом с «Другие календари». Выберите «Из URL», вставьте URL-адрес Brightspace и добавьте календарь. Импорт файла дает вам снимок. Используйте URL-адрес подписки, чтобы получать последующие изменения."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Почему курс или задание отсутствуют в календаре?",
+          "answer": "Убедитесь, что он отображается в календаре Brightspace. Проверьте, на какой канал вы подписались, поскольку канал одного курса и канал только задач включают в себя разные элементы. Сравнивайте срочные даты напрямую в Brightspace."
+        },
+        {
+          "question": "Могу ли я выбрать один курс вместо каждого курса?",
+          "answer": "Да. В меню подписки Brightspace выберите конкретный календарь, прежде чем копировать его URL-адрес."
+        }
+      ]
+    },
+    "ko": {
+      "title": "Brightspace 캘린더를 Outlook 또는 Google 캘린더에 동기화하는 방법",
+      "description": "D2L Brightspace에서 캘린더 피드를 활성화하고 웹용 Outlook 또는 Google 캘린더에 포함하고 구독할 강좌를 선택하세요.",
+      "intro": "Brightspace 캘린더를 구독하면 이미 확인하고 있는 캘린더에 코스 이벤트가 표시됩니다. 특정 코스를 선택하거나 캘린더와 작업을 결합한 피드를 사용할 수 있습니다.",
+      "answer": "Brightspace 캘린더에서 설정을 열고 캘린더 피드를 활성화한 후 저장하세요. 구독을 선택하고 캘린더를 선택한 후 해당 URL을 복사하세요. 웹용 Outlook에서 웹에서 구독을 선택합니다. 컴퓨터의 Google Calendar에서 URL에서를 선택합니다.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "D2L Brightspace 캘린더 링크 받기",
+          "paragraphs": [
+            "코스 홈 페이지에 캘린더 위젯이 있는 경우 이를 사용하여 전체 캘린더를 엽니다. 구독 링크를 비공개로 유지하세요."
+          ],
+          "steps": [
+            "캘린더에서 설정을 열고 캘린더 피드 활성화를 선택한 후 저장하세요.",
+            "구독을 선택하세요. 모든 달력 및 작업 또는 작업만 중에서 하나의 코스를 선택합니다. 원하는 선택 항목의 URL을 복사하세요."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace를 Outlook에 동기화",
+          "paragraphs": [
+            "웹용 Outlook에서 일정을 열고 일정 추가를 선택한 다음 웹에서 구독을 선택합니다. Brightspace URL을 붙여넣고 확인합니다. Microsoft는 변경 사항이 표시되는 데 24시간 이상 걸릴 수 있다고 말합니다."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace를 Google 캘린더에 동기화",
+          "paragraphs": [
+            "컴퓨터의 Google 캘린더에서 다른 캘린더 옆에 있는 더하기 기호를 클릭하세요. URL에서를 선택하고 Brightspace URL을 붙여넣은 후 달력을 추가합니다. 파일을 가져오면 스냅샷이 제공됩니다. 이후 변경 사항을 받으려면 구독 URL을 사용하세요."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "캘린더에 코스나 작업이 누락된 이유는 무엇입니까?",
+          "answer": "Brightspace 캘린더에 표시되는지 확인하세요. 단일 강좌 피드와 작업 전용 피드에는 서로 다른 항목이 포함되어 있으므로 어떤 피드를 구독했는지 확인하세요. Brightspace에서 긴급 날짜를 직접 비교하세요."
+        },
+        {
+          "question": "모든 코스 대신 하나의 코스를 선택할 수 있나요?",
+          "answer": "그렇습니다. Brightspace 구독 메뉴에서 URL을 복사하기 전에 특정 달력을 선택하세요."
+        }
+      ]
+    },
+    "it": {
+      "title": "Come sincronizzare il calendario Brightspace con Outlook o Google Calendar",
+      "description": "Abilita i feed del calendario in D2L Brightspace, scegli quali corsi includere e iscriviti in Outlook sul Web o Google Calendar.",
+      "intro": "Un abbonamento al calendario Brightspace inserisce gli eventi del corso nel calendario che già controlli. Puoi scegliere un corso specifico o utilizzare un feed che combina calendari e attività.",
+      "answer": "Nel Calendario Brightspace, apri Impostazioni, abilita i feed del calendario e salva. Seleziona Iscriviti, scegli un calendario e copia il suo URL. In Outlook sul Web scegliere Sottoscrivi dal Web. In Google Calendar su un computer, scegli Da URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Ottieni il collegamento al calendario D2L Brightspace",
+          "paragraphs": [
+            "Se la home page del corso dispone di un widget Calendario, utilizzalo per aprire il Calendario completo. Mantieni privato il collegamento di iscrizione."
+          ],
+          "steps": [
+            "Apri Impostazioni in Calendario, seleziona Abilita feed di calendario e salva.",
+            "Seleziona Iscriviti. Scegli un corso, Tutti i calendari e le attività o Solo le attività. Copia l'URL per la selezione desiderata."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sincronizza Brightspace con Outlook",
+          "paragraphs": [
+            "In Outlook sul Web aprire Calendario, scegliere Aggiungi calendario e selezionare Sottoscrivi dal Web. Incolla l'URL Brightspace e conferma. Microsoft afferma che le modifiche possono richiedere più di 24 ore per essere visualizzate."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sincronizza Brightspace con Google Calendar",
+          "paragraphs": [
+            "In Google Calendar su un computer, fai clic sul segno più accanto ad Altri calendari. Scegli Da URL, incolla l'URL Brightspace e aggiungi il calendario. L'importazione di un file ti fornisce un'istantanea. Utilizza l'URL di iscrizione per ricevere le modifiche successive."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Perché un corso o un'attività manca dal calendario?",
+          "answer": "Verifica che sia visibile nel Calendario Brightspace. Controlla a quale feed sei iscritto, poiché un feed di un singolo corso e un feed di sole attività includono elementi diversi. Confronta direttamente le date urgenti in Brightspace."
+        },
+        {
+          "question": "Posso scegliere un corso invece di ogni corso?",
+          "answer": "Sì. Nel menu di abbonamento Brightspace, scegli il calendario specifico prima di copiarne l'URL."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Brightspace Takvimi Outlook veya Google Takvim ile senkronize etme",
+      "description": "D2L Brightspace'de takvim yayınlarını etkinleştirin, web üzerinde Outlook'a veya Google Takvim'e hangi kursların ekleneceğini ve abone olunacağını seçin.",
+      "intro": "Brightspace takvim aboneliği, kurs etkinliklerini zaten kontrol ettiğiniz takvime yerleştirir. Belirli bir kursu seçebilir veya takvimlerle görevleri birleştiren bir yayın kullanabilirsiniz.",
+      "answer": "Brightspace Takvim'de Ayarlar'ı açın, takvim yayınlarını etkinleştirin ve kaydedin. Abone Ol'u seçin, bir takvim seçin ve URL'sini kopyalayın. Web üzerinde Outlook'ta Web'den abone ol'u seçin. Bilgisayardaki Google Takvim'de URL'den'i seçin.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "D2L Brightspace takvim bağlantınızı alın",
+          "paragraphs": [
+            "Kurs ana sayfasında bir Takvim widget'ı varsa, Takvim'in tamamını açmak için bunu kullanın. Abonelik bağlantısını gizli tutun."
+          ],
+          "steps": [
+            "Takvim'de Ayarlar'ı açın, Takvim Akışlarını Etkinleştir'i seçin ve kaydedin.",
+            "Abone Ol'u seçin. Bir kurs seçin: Tüm Takvimler ve Görevler veya Yalnızca Görevler. İstediğiniz seçimin URL'sini kopyalayın."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace'yi Outlook ile senkronize edin",
+          "paragraphs": [
+            "Web üzerinde Outlook'ta Takvim'i açın, Takvim ekle'yi seçin ve Web'den abone ol'u seçin. Brightspace URL'sini yapıştırın ve onaylayın. Microsoft, değişikliklerin görünmesinin 24 saatten fazla sürebileceğini söylüyor."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace'yi Google Takvim ile senkronize edin",
+          "paragraphs": [
+            "Bilgisayardaki Google Takvim'de Diğer takvimler'in yanındaki artı işaretini tıklayın. URL'den seçeneğini seçin, Brightspace URL'sini yapıştırın ve takvimi ekleyin. Dosya içe aktarımı size bir anlık görüntü verir. Daha sonraki değişiklikleri almak için abonelik URL'sini kullanın."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bir ders veya görev neden takvimde eksik?",
+          "answer": "Brightspace Takvim'de görünür olup olmadığını kontrol edin. Tek kurslu feed ve yalnızca görevlere yönelik feed farklı öğeler içerdiğinden hangi feed'e abone olduğunuzu kontrol edin. Acil tarihleri ​​doğrudan Brightspace'de karşılaştırın."
+        },
+        {
+          "question": "Her ders yerine tek ders seçebilir miyim?",
+          "answer": "Evet. Brightspace abonelik menüsünde, URL'sini kopyalamadan önce ilgili takvimi seçin."
+        }
+      ]
+    },
+    "vi": {
+      "title": "Cách đồng bộ Lịch Brightspace với Outlook hoặc Lịch Google",
+      "description": "Bật nguồn cấp dữ liệu lịch trong D2L Brightspace, chọn khóa học nào sẽ đưa vào và đăng ký trong Outlook trên web hoặc Lịch Google.",
+      "intro": "Đăng ký lịch Brightspace sẽ đưa các sự kiện khóa học vào lịch bạn đã kiểm tra. Bạn có thể chọn một khóa học cụ thể hoặc sử dụng nguồn cấp dữ liệu kết hợp lịch và nhiệm vụ.",
+      "answer": "Trong Lịch Brightspace, mở Cài đặt, bật nguồn cấp dữ liệu lịch và lưu. Chọn Đăng ký, chọn lịch và sao chép URL của lịch đó. Trong Outlook trên web, chọn Đăng ký từ web. Trong Lịch Google trên máy tính, chọn Từ URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Nhận liên kết lịch D2L Brightspace của bạn",
+          "paragraphs": [
+            "Nếu trang chủ khóa học có tiện ích Lịch, hãy sử dụng tiện ích này để mở toàn bộ Lịch. Giữ liên kết đăng ký ở chế độ riêng tư."
+          ],
+          "steps": [
+            "Mở Cài đặt trong Lịch, chọn Bật Nguồn cấp Lịch và lưu.",
+            "Chọn Đăng ký. Chọn một khóa học, Tất cả Lịch và Nhiệm vụ hoặc Chỉ Nhiệm vụ. Sao chép URL cho lựa chọn bạn muốn."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Đồng bộ hóa Brightspace với Outlook",
+          "paragraphs": [
+            "Trong Outlook trên web, hãy mở Lịch, chọn Thêm lịch rồi chọn Đăng ký từ web. Dán URL Brightspace và xác nhận. Microsoft cho biết các thay đổi có thể mất hơn 24 giờ mới xuất hiện."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Đồng bộ hóa Brightspace với Lịch Google",
+          "paragraphs": [
+            "Trong Lịch Google trên máy tính, nhấp vào dấu cộng bên cạnh Lịch khác. Chọn Từ URL, dán URL Brightspace và thêm lịch. Quá trình nhập tệp sẽ cung cấp cho bạn ảnh chụp nhanh. Sử dụng URL đăng ký để nhận những thay đổi sau này."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Tại sao một khóa học hoặc nhiệm vụ bị thiếu trong lịch?",
+          "answer": "Kiểm tra xem nó có hiển thị trong Lịch Brightspace hay không. Kiểm tra xem bạn đã đăng ký nguồn cấp dữ liệu nào vì nguồn cấp dữ liệu một khóa học và nguồn cấp dữ liệu chỉ dành cho nhiệm vụ bao gồm các mục khác nhau. So sánh trực tiếp các ngày khẩn cấp trong Brightspace."
+        },
+        {
+          "question": "Tôi có thể chọn một khóa học thay vì mỗi khóa học không?",
+          "answer": "Vâng. Trong menu đăng ký Brightspace, chọn lịch cụ thể trước khi bạn sao chép URL của lịch đó."
+        }
+      ]
+    },
+    "pl": {
+      "title": "Jak zsynchronizować kalendarz Brightspace z programem Outlook lub Kalendarzem Google",
+      "description": "Włącz kanały kalendarza w D2L Brightspace, wybierz kursy, które chcesz uwzględnić i subskrybować w aplikacji Outlook w sieci Web lub Kalendarzu Google.",
+      "intro": "Subskrypcja kalendarza Brightspace umieszcza wydarzenia związane z kursami w kalendarzu, który już sprawdziłeś. Możesz wybrać konkretny kurs lub skorzystać z kanału łączącego kalendarze i zadania.",
+      "answer": "W Kalendarzu Brightspace otwórz Ustawienia, włącz kanały kalendarza i zapisz. Wybierz opcję Subskrybuj, wybierz kalendarz i skopiuj jego adres URL. W aplikacji Outlook w sieci Web wybierz pozycję Subskrybuj z sieci Web. W Kalendarzu Google na komputerze wybierz Z adresu URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Uzyskaj link do kalendarza D2L Brightspace",
+          "paragraphs": [
+            "Jeśli strona główna kursu zawiera widżet Kalendarza, użyj go, aby otworzyć pełny Kalendarz. Zachowaj prywatność linku do subskrypcji."
+          ],
+          "steps": [
+            "Otwórz Ustawienia w Kalendarzu, wybierz opcję Włącz kanały kalendarza i zapisz.",
+            "Wybierz opcję Subskrybuj. Wybierz jeden kurs, Wszystkie kalendarze i zadania lub Tylko zadania. Skopiuj adres URL żądanego wyboru."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Zsynchronizuj Brightspace z Outlookiem",
+          "paragraphs": [
+            "W aplikacji Outlook w sieci Web otwórz Kalendarz, wybierz opcję Dodaj kalendarz i wybierz opcję Subskrybuj z Internetu. Wklej adres URL Brightspace i potwierdź. Microsoft twierdzi, że zmiany mogą pojawić się po ponad 24 godzinach."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Zsynchronizuj Brightspace z Kalendarzem Google",
+          "paragraphs": [
+            "W Kalendarzu Google na komputerze kliknij plus obok opcji Inne kalendarze. Wybierz Z adresu URL, wklej adres URL Brightspace i dodaj kalendarz. Import pliku daje migawkę. Użyj adresu URL subskrypcji, aby otrzymać późniejsze zmiany."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Dlaczego w kalendarzu brakuje kursu lub zadania?",
+          "answer": "Sprawdź, czy jest widoczny w kalendarzu Brightspace. Sprawdź, który kanał subskrybujesz, ponieważ kanał z jednym kursem i kanał zawierający tylko zadania zawierają różne elementy. Porównaj pilne daty bezpośrednio w Brightspace."
+        },
+        {
+          "question": "Czy mogę wybrać jeden kurs zamiast każdego kursu?",
+          "answer": "Tak. W menu subskrypcji Brightspace wybierz konkretny kalendarz przed skopiowaniem jego adresu URL."
+        }
+      ]
+    },
+    "fa": {
+      "title": "نحوه همگام سازی تقویم Brightspace با Outlook یا Google Calendar",
+      "description": "فیدهای تقویم را در D2L Brightspace فعال کنید، انتخاب کنید کدام دوره ها را شامل شود و در Outlook در وب یا Google Calendar مشترک شوید.",
+      "intro": "اشتراک تقویم Brightspace رویدادهای دوره را در تقویمی که قبلاً بررسی کرده اید قرار می دهد. می توانید دوره خاصی را انتخاب کنید یا از فید استفاده کنید که تقویم ها و وظایف را ترکیب می کند.",
+      "answer": "در تقویم Brightspace، تنظیمات را باز کنید، فیدهای تقویم را فعال کنید و ذخیره کنید. اشتراک را انتخاب کنید، یک تقویم انتخاب کنید و URL آن را کپی کنید. در Outlook در وب، اشتراک از وب را انتخاب کنید. در Google Calendar در رایانه، از URL را انتخاب کنید.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "پیوند تقویم D2L Brightspace خود را دریافت کنید",
+          "paragraphs": [
+            "اگر صفحه اصلی دوره دارای ویجت تقویم است، از آن برای باز کردن کامل تقویم استفاده کنید. پیوند اشتراک را خصوصی نگه دارید."
+          ],
+          "steps": [
+            "تنظیمات را در Calendar باز کنید، Enable Calendar Feeds را انتخاب کنید و ذخیره کنید.",
+            "اشتراک را انتخاب کنید. یک دوره را انتخاب کنید، همه تقویم ها و وظایف، یا فقط وظایف. URL را برای انتخاب مورد نظر خود کپی کنید."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace را با Outlook همگام کنید",
+          "paragraphs": [
+            "در Outlook در وب، Calendar را باز کنید، Add calendar را انتخاب کنید و Subscribe from web را انتخاب کنید. URL Brightspace را جایگذاری کنید و تایید کنید. مایکروسافت می گوید تغییرات ممکن است بیش از 24 ساعت طول بکشد تا ظاهر شوند."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace را با Google Calendar همگام کنید",
+          "paragraphs": [
+            "در Google Calendar در رایانه، روی علامت مثبت در کنار سایر تقویم‌ها کلیک کنید. از URL را انتخاب کنید، URL Brightspace را جایگذاری کنید و تقویم را اضافه کنید. وارد کردن فایل یک عکس فوری به شما می دهد. از URL اشتراک برای دریافت تغییرات بعدی استفاده کنید."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "چرا یک دوره یا کار در تقویم وجود ندارد؟",
+          "answer": "بررسی کنید که در تقویم Brightspace قابل مشاهده باشد. بررسی کنید که در کدام فید مشترک شده‌اید، زیرا فید تک دوره‌ای و فید فقط وظایف شامل موارد مختلفی هستند. تاریخ های فوری را مستقیماً در Brightspace مقایسه کنید."
+        },
+        {
+          "question": "آیا می توانم به جای هر دوره یک رشته را انتخاب کنم؟",
+          "answer": "بله. در منوی اشتراک Brightspace، تقویم خاص را قبل از کپی کردن URL آن انتخاب کنید."
+        }
+      ]
+    },
+    "th": {
+      "title": "วิธีซิงค์ปฏิทิน Brightspace กับ Outlook หรือ Google Calendar",
+      "description": "เปิดใช้งานฟีดปฏิทินใน D2L Brightspace เลือกหลักสูตรที่จะรวมและสมัครรับข้อมูลใน Outlook บนเว็บหรือ Google ปฏิทิน",
+      "intro": "การสมัครสมาชิกปฏิทิน Brightspace ทำให้กิจกรรมของหลักสูตรอยู่ในปฏิทินที่คุณตรวจสอบแล้ว คุณสามารถเลือกหลักสูตรเฉพาะหรือใช้ฟีดที่รวมปฏิทินและงานต่างๆ",
+      "answer": "ใน Brightspace Calendar ให้เปิดการตั้งค่า เปิดใช้งานฟีดปฏิทิน และบันทึก เลือกสมัครสมาชิก เลือกปฏิทินและคัดลอก URL ใน Outlook บนเว็บ ให้เลือกสมัครใช้งานจากเว็บ ใน Google ปฏิทินบนคอมพิวเตอร์ ให้เลือกจาก URL",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "รับลิงก์ปฏิทิน D2L Brightspace ของคุณ",
+          "paragraphs": [
+            "หากหน้าแรกของหลักสูตรมีวิดเจ็ตปฏิทิน ให้ใช้วิดเจ็ตนั้นเพื่อเปิดปฏิทินแบบเต็ม เก็บลิงก์การสมัครไว้เป็นส่วนตัว"
+          ],
+          "steps": [
+            "เปิดการตั้งค่าในปฏิทิน เลือกเปิดใช้งานฟีดปฏิทินแล้วบันทึก",
+            "เลือกสมัครสมาชิก เลือกหนึ่งหลักสูตร ปฏิทินและงานทั้งหมด หรือเฉพาะงานเท่านั้น คัดลอก URL สำหรับการเลือกที่คุณต้องการ"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "ซิงค์ Brightspace กับ Outlook",
+          "paragraphs": [
+            "ใน Outlook บนเว็บ ให้เปิดปฏิทิน เลือกเพิ่มปฏิทิน แล้วเลือกสมัครใช้งานจากเว็บ วาง URL ของ Brightspace แล้วยืนยัน Microsoft ระบุว่าการเปลี่ยนแปลงอาจใช้เวลามากกว่า 24 ชั่วโมงจึงจะแสดง"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "ซิงค์ Brightspace กับ Google Calendar",
+          "paragraphs": [
+            "ใน Google ปฏิทินบนคอมพิวเตอร์ ให้คลิกเครื่องหมายบวกข้างปฏิทินอื่นๆ เลือกจาก URL วาง URL ของ Brightspace และเพิ่มปฏิทิน การนำเข้าไฟล์จะให้ภาพรวมแก่คุณ ใช้ URL การสมัครสมาชิกเพื่อรับการเปลี่ยนแปลงในภายหลัง"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "เหตุใดหลักสูตรหรืองานจึงหายไปจากปฏิทิน",
+          "answer": "ตรวจสอบว่ามองเห็นได้ในปฏิทิน Brightspace ตรวจสอบฟีดที่คุณสมัครรับข้อมูล เนื่องจากฟีดหลักสูตรเดียวและฟีดเฉพาะงานมีรายการที่แตกต่างกัน เปรียบเทียบวันเร่งด่วนใน Brightspace โดยตรง"
+        },
+        {
+          "question": "ฉันสามารถเลือกหลักสูตรเดียวแทนทุกหลักสูตรได้หรือไม่",
+          "answer": "ใช่ ในเมนูการสมัครสมาชิก Brightspace ให้เลือกปฏิทินที่ต้องการก่อนที่คุณจะคัดลอก URL"
+        }
+      ]
+    },
+    "nl": {
+      "title": "Hoe Brightspace Agenda te synchroniseren met Outlook of Google Agenda",
+      "description": "Schakel agendafeeds in D2L Brightspace in, kies welke cursussen u wilt opnemen en abonneer u in de webversie van Outlook of Google Agenda.",
+      "intro": "Met een Brightspace-agendaabonnement worden cursusevenementen in de agenda geplaatst die u al bekijkt. U kunt een specifieke cursus kiezen of een feed gebruiken die agenda's en taken combineert.",
+      "answer": "Open in Brightspace Agenda Instellingen, schakel agendafeeds in en sla op. Selecteer Abonneren, kies een agenda en kopieer de URL ervan. Kies in de webversie van Outlook Abonneren via internet. In Google Agenda op een computer kiest u Van URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Ontvang uw D2L Brightspace-kalenderlink",
+          "paragraphs": [
+            "Als de startpagina van de cursus een Agenda-widget heeft, kunt u deze gebruiken om de volledige Agenda te openen. Houd de abonnementslink privé."
+          ],
+          "steps": [
+            "Open Instellingen in Agenda, selecteer Agendafeeds inschakelen en sla op.",
+            "Selecteer Abonneren. Kies één cursus: Alle agenda's en taken of Alleen taken. Kopieer de URL voor de gewenste selectie."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synchroniseer Brightspace met Outlook",
+          "paragraphs": [
+            "Open in de webversie van Outlook Agenda, kies Agenda toevoegen en selecteer Abonneren via internet. Plak de Brightspace-URL en bevestig. Microsoft zegt dat het meer dan 24 uur kan duren voordat wijzigingen verschijnen."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synchroniseer Brightspace met Google Agenda",
+          "paragraphs": [
+            "Klik in Google Agenda op een computer op het plusteken naast Andere agenda's. Kies Van URL, plak de Brightspace-URL en voeg de kalender toe. Een bestandsimport geeft u een momentopname. Gebruik de abonnements-URL om latere wijzigingen te ontvangen."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Waarom ontbreekt een cursus of taak in de kalender?",
+          "answer": "Controleer of het zichtbaar is in de Brightspace Agenda. Controleer op welke feed u zich heeft geabonneerd, aangezien een feed met één cursus en een feed met alleen taken verschillende items bevatten. Vergelijk dringende datums rechtstreeks in Brightspace."
+        },
+        {
+          "question": "Kan ik in plaats van elke cursus één cursus kiezen?",
+          "answer": "Ja. Kies in het Brightspace-abonnementsmenu de specifieke agenda voordat u de URL ervan kopieert."
+        }
+      ]
+    },
+    "uk": {
+      "title": "Як синхронізувати календар Brightspace з календарем Outlook або Google",
+      "description": "Увімкніть канали календаря в D2L Brightspace, виберіть, які курси включити, і підпишіться в Outlook в Інтернеті або Календарі Google.",
+      "intro": "Підписка на календар Brightspace розміщує події курсу в календарі, який ви вже перевірили. Ви можете вибрати певний курс або скористатися стрічкою, яка поєднує календарі та завдання.",
+      "answer": "У календарі Brightspace відкрийте налаштування, увімкніть канали календаря та збережіть. Виберіть «Підписатися», виберіть календар і скопіюйте його URL-адресу. В Інтернет-версії Outlook виберіть «Підписатися з Інтернету». У Календарі Google на комп’ютері виберіть З URL-адреси.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Отримайте посилання на календар D2L Brightspace",
+          "paragraphs": [
+            "Якщо на домашній сторінці курсу є віджет Календар, використовуйте його, щоб відкрити повний календар. Зберігайте посилання на підписку приватним."
+          ],
+          "steps": [
+            "Відкрийте налаштування в Календарі, виберіть Увімкнути канали календаря та збережіть.",
+            "Виберіть Підписатися. Виберіть один курс, усі календарі та завдання або лише завдання. Скопіюйте URL-адресу потрібного вибору."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Синхронізувати Brightspace з Outlook",
+          "paragraphs": [
+            "В Outlook в Інтернеті відкрийте Календар, виберіть Додати календар і виберіть Підписатися з Інтернету. Вставте URL-адресу Brightspace і підтвердьте. У Microsoft кажуть, що для появи змін може знадобитися більше 24 годин."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Синхронізуйте Brightspace з Календарем Google",
+          "paragraphs": [
+            "У Календарі Google на комп’ютері клацніть плюс біля пункту Інші календарі. Виберіть «З URL-адреси», вставте URL-адресу Brightspace і додайте календар. Імпорт файлу дає вам знімок. Використовуйте URL-адресу підписки, щоб отримати зміни пізніше."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Чому курс або завдання відсутні в календарі?",
+          "answer": "Переконайтеся, що його видно в календарі Brightspace. Перевірте, на який канал ви підписалися, оскільки канал із одним курсом і канал із лише завданнями містять різні елементи. Порівняйте термінові дати безпосередньо в Brightspace."
+        },
+        {
+          "question": "Чи можу я вибрати один курс замість кожного?",
+          "answer": "так У меню підписки Brightspace виберіть певний календар, перш ніж копіювати його URL-адресу."
+        }
+      ]
+    },
+    "bn": {
+      "title": "কিভাবে Brightspace ক্যালেন্ডারকে Outlook বা Google ক্যালেন্ডারে সিঙ্ক করবেন",
+      "description": "D2L Brightspace-এ ক্যালেন্ডার ফিডগুলি সক্ষম করুন, ওয়েব বা Google ক্যালেন্ডারে Outlook-এ কোন কোর্সগুলি অন্তর্ভুক্ত করতে এবং সদস্যতা নিতে হবে তা চয়ন করুন৷",
+      "intro": "একটি Brightspace ক্যালেন্ডার সাবস্ক্রিপশন আপনি ইতিমধ্যে চেক করা ক্যালেন্ডারে কোর্স ইভেন্টগুলি রাখে৷ আপনি একটি নির্দিষ্ট কোর্স চয়ন করতে পারেন বা ক্যালেন্ডার এবং কার্যগুলিকে একত্রিত করে এমন একটি ফিড ব্যবহার করতে পারেন৷",
+      "answer": "Brightspace ক্যালেন্ডারে, সেটিংস খুলুন, ক্যালেন্ডার ফিডগুলি সক্ষম করুন এবং সংরক্ষণ করুন৷ সদস্যতা নির্বাচন করুন, একটি ক্যালেন্ডার চয়ন করুন এবং এর URL অনুলিপি করুন। ওয়েবে Outlook-এ, ওয়েব থেকে সাবস্ক্রাইব নির্বাচন করুন। একটি কম্পিউটারে Google ক্যালেন্ডারে, URL থেকে নির্বাচন করুন৷",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "আপনার D2L Brightspace ক্যালেন্ডার লিঙ্ক পান",
+          "paragraphs": [
+            "কোর্সের হোম পেজে একটি ক্যালেন্ডার উইজেট থাকলে, সম্পূর্ণ ক্যালেন্ডার খুলতে এটি ব্যবহার করুন। সদস্যতা লিঙ্ক ব্যক্তিগত রাখুন."
+          ],
+          "steps": [
+            "ক্যালেন্ডারে সেটিংস খুলুন, ক্যালেন্ডার ফিড সক্ষম করুন এবং সংরক্ষণ করুন নির্বাচন করুন।",
+            "সাবস্ক্রাইব নির্বাচন করুন। একটি কোর্স বেছে নিন, সমস্ত ক্যালেন্ডার এবং টাস্ক, অথবা শুধুমাত্র টাস্ক। আপনি যে নির্বাচন করতে চান তার জন্য URLটি অনুলিপি করুন।"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "আউটলুকে Brightspace সিঙ্ক করুন",
+          "paragraphs": [
+            "ওয়েবে Outlook-এ, ক্যালেন্ডার খুলুন, ক্যালেন্ডার যুক্ত করুন নির্বাচন করুন এবং ওয়েব থেকে সাবস্ক্রাইব নির্বাচন করুন। Brightspace URL পেস্ট করুন এবং নিশ্চিত করুন। মাইক্রোসফ্ট বলেছে যে পরিবর্তনগুলি প্রদর্শিত হতে 24 ঘন্টার বেশি সময় লাগতে পারে।"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Google ক্যালেন্ডারে Brightspace সিঙ্ক করুন",
+          "paragraphs": [
+            "একটি কম্পিউটারে Google ক্যালেন্ডারে, অন্যান্য ক্যালেন্ডারের পাশে প্লাস ক্লিক করুন৷ URL থেকে চয়ন করুন, Brightspace URL পেস্ট করুন এবং ক্যালেন্ডার যোগ করুন। একটি ফাইল আমদানি আপনাকে একটি স্ন্যাপশট দেয়। পরবর্তী পরিবর্তনগুলি পেতে সদস্যতা URL ব্যবহার করুন৷"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "কেন একটি কোর্স বা কাজ ক্যালেন্ডার থেকে অনুপস্থিত?",
+          "answer": "এটি Brightspace ক্যালেন্ডারে দৃশ্যমান কিনা তা পরীক্ষা করুন৷ আপনি কোন ফিডে সদস্যতা নিয়েছেন তা পরীক্ষা করে দেখুন, যেহেতু একটি একক-কোর্স ফিড এবং একটি টাস্ক-অনলি ফিডে বিভিন্ন আইটেম অন্তর্ভুক্ত রয়েছে। সরাসরি Brightspace এ জরুরী তারিখের তুলনা করুন।"
+        },
+        {
+          "question": "আমি কি প্রতিটি কোর্সের পরিবর্তে একটি কোর্স বেছে নিতে পারি?",
+          "answer": "হ্যাঁ। Brightspace সাবস্ক্রিপশন মেনুতে, নির্দিষ্ট ক্যালেন্ডারটি বেছে নিন তার URL কপি করার আগে।"
+        }
+      ]
+    },
+    "ur": {
+      "title": "Brightspace کیلنڈر کو آؤٹ لک یا گوگل کیلنڈر سے ہم آہنگ کرنے کا طریقہ",
+      "description": "D2L Brightspace میں کیلنڈر فیڈز کو فعال کریں، منتخب کریں کہ کن کورسز کو شامل کرنا ہے اور ویب یا گوگل کیلنڈر پر آؤٹ لک میں سبسکرائب کرنا ہے۔",
+      "intro": "Brightspace کیلنڈر سبسکرپشن کورس کے واقعات کو کیلنڈر میں رکھتا ہے جسے آپ پہلے ہی چیک کرتے ہیں۔ آپ ایک مخصوص کورس کا انتخاب کر سکتے ہیں یا ایک فیڈ استعمال کر سکتے ہیں جو کیلنڈرز اور کاموں کو یکجا کرتی ہے۔",
+      "answer": "Brightspace کیلنڈر میں، ترتیبات کھولیں، کیلنڈر فیڈز کو فعال کریں اور محفوظ کریں۔ سبسکرائب کو منتخب کریں، ایک کیلنڈر منتخب کریں اور اس کا URL کاپی کریں۔ ویب پر آؤٹ لک میں، ویب سے سبسکرائب کا انتخاب کریں۔ کمپیوٹر پر گوگل کیلنڈر میں، یو آر ایل سے منتخب کریں۔",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "اپنے D2L Brightspace کیلنڈر کا لنک حاصل کریں۔",
+          "paragraphs": [
+            "اگر کورس کے ہوم پیج پر کیلنڈر ویجیٹ ہے، تو اسے مکمل کیلنڈر کھولنے کے لیے استعمال کریں۔ سبسکرپشن لنک کو نجی رکھیں۔"
+          ],
+          "steps": [
+            "کیلنڈر میں ترتیبات کھولیں، کیلنڈر فیڈ کو فعال کریں اور محفوظ کریں کو منتخب کریں۔",
+            "سبسکرائب کو منتخب کریں۔ ایک کورس، تمام کیلنڈرز اور ٹاسکس، یا صرف ٹاسکس کا انتخاب کریں۔ اپنے مطلوبہ انتخاب کے لیے یو آر ایل کاپی کریں۔"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace کو آؤٹ لک سے ہم آہنگ کریں۔",
+          "paragraphs": [
+            "ویب پر آؤٹ لک میں، کیلنڈر کھولیں، کیلنڈر شامل کریں کو منتخب کریں اور ویب سے سبسکرائب کریں کو منتخب کریں۔ Brightspace URL پیسٹ کریں اور تصدیق کریں۔ مائیکروسافٹ کا کہنا ہے کہ تبدیلیوں کو ظاہر ہونے میں 24 گھنٹے سے زیادہ وقت لگ سکتا ہے۔"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace کو گوگل کیلنڈر سے ہم آہنگ کریں۔",
+          "paragraphs": [
+            "کمپیوٹر پر گوگل کیلنڈر میں، دوسرے کیلنڈرز کے ساتھ پلس پر کلک کریں۔ URL سے منتخب کریں، Brightspace URL پیسٹ کریں اور کیلنڈر شامل کریں۔ فائل کی درآمد آپ کو اسنیپ شاٹ دیتی ہے۔ بعد میں تبدیلیاں حاصل کرنے کے لیے سبسکرپشن URL کا استعمال کریں۔"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "کیلنڈر سے کورس یا ٹاسک کیوں غائب ہے؟",
+          "answer": "چیک کریں کہ یہ Brightspace کیلنڈر میں دکھائی دے رہا ہے۔ چیک کریں کہ آپ نے کس فیڈ کو سبسکرائب کیا ہے، کیونکہ سنگل کورس فیڈ اور صرف ٹاسکس فیڈ میں مختلف آئٹمز شامل ہیں۔ Brightspace میں فوری تاریخوں کا براہ راست موازنہ کریں۔"
+        },
+        {
+          "question": "کیا میں ہر کورس کے بجائے ایک کورس کا انتخاب کرسکتا ہوں؟",
+          "answer": "جی ہاں Brightspace سبسکرپشن مینو میں، مخصوص کیلنڈر کا یو آر ایل کاپی کرنے سے پہلے اس کا انتخاب کریں۔"
+        }
+      ]
+    },
+    "ta": {
+      "title": "Brightspace காலெண்டரை Outlook அல்லது Google Calendar உடன் ஒத்திசைப்பது எப்படி",
+      "description": "D2L Brightspace இல் காலெண்டர் ஊட்டங்களை இயக்கவும், இணையம் அல்லது Google Calendar இல் Outlook இல் எந்தப் படிப்புகளைச் சேர்க்க வேண்டும் மற்றும் குழுசேர வேண்டும் என்பதைத் தேர்வுசெய்யவும்.",
+      "intro": "Brightspace காலண்டர் சந்தா, நீங்கள் ஏற்கனவே சரிபார்த்த காலெண்டரில் நிச்சயமாக நிகழ்வுகளை வைக்கிறது. நீங்கள் ஒரு குறிப்பிட்ட பாடத்திட்டத்தை தேர்வு செய்யலாம் அல்லது காலெண்டர்கள் மற்றும் பணிகளை இணைக்கும் ஊட்டத்தைப் பயன்படுத்தலாம்.",
+      "answer": "Brightspace காலெண்டரில், அமைப்புகளைத் திறந்து, காலெண்டர் ஊட்டங்களை இயக்கி சேமிக்கவும். குழுசேர் என்பதைத் தேர்ந்தெடுத்து, காலெண்டரைத் தேர்ந்தெடுத்து அதன் URL ஐ நகலெடுக்கவும். இணையத்தில் அவுட்லுக்கில், இணையத்திலிருந்து குழுசேர் என்பதைத் தேர்ந்தெடுக்கவும். கணினியில் Google Calendar இல், URL இல் இருந்து தேர்வு செய்யவும்.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "உங்கள் D2L Brightspace காலண்டர் இணைப்பைப் பெறுங்கள்",
+          "paragraphs": [
+            "பாடநெறியின் முகப்புப் பக்கத்தில் கேலெண்டர் விட்ஜெட் இருந்தால், முழு காலெண்டரைத் திறக்க அதைப் பயன்படுத்தவும். சந்தா இணைப்பை தனிப்பட்டதாக வைத்திருங்கள்."
+          ],
+          "steps": [
+            "காலெண்டரில் அமைப்புகளைத் திறந்து, கேலெண்டர் ஊட்டங்களை இயக்கு என்பதைத் தேர்ந்தெடுத்து சேமிக்கவும்.",
+            "குழுசேர் என்பதைத் தேர்ந்தெடுக்கவும். ஒரு பாடத்திட்டத்தை தேர்வு செய்யவும், அனைத்து காலெண்டர்கள் மற்றும் பணிகள் அல்லது பணிகள் மட்டும். நீங்கள் விரும்பும் தேர்வுக்கான URL ஐ நகலெடுக்கவும்."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace ஐ Outlook உடன் ஒத்திசைக்கவும்",
+          "paragraphs": [
+            "இணையத்தில் அவுட்லுக்கில், காலெண்டரைத் திறந்து, காலெண்டரைச் சேர் என்பதைத் தேர்ந்தெடுத்து இணையத்திலிருந்து குழுசேர் என்பதைத் தேர்ந்தெடுக்கவும். Brightspace URL ஐ ஒட்டவும் மற்றும் உறுதிப்படுத்தவும். மாற்றங்கள் தோன்றுவதற்கு 24 மணிநேரத்திற்கு மேல் ஆகலாம் என Microsoft கூறுகிறது."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace ஐ Google கேலெண்டருடன் ஒத்திசைக்கவும்",
+          "paragraphs": [
+            "கம்ப்யூட்டரில் கூகுள் கேலெண்டரில், பிற காலெண்டர்களுக்கு அருகில் உள்ள கூட்டலைக் கிளிக் செய்யவும். URL இலிருந்து தேர்வு செய்து, Brightspace URL ஐ ஒட்டவும் மற்றும் காலெண்டரைச் சேர்க்கவும். ஒரு கோப்பு இறக்குமதி உங்களுக்கு ஒரு ஸ்னாப்ஷாட்டை வழங்குகிறது. பின்னர் மாற்றங்களைப் பெற சந்தா URL ஐப் பயன்படுத்தவும்."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "காலெண்டரில் ஒரு பாடம் அல்லது பணி ஏன் விடுபட்டுள்ளது?",
+          "answer": "இது Brightspace காலெண்டரில் தெரிகிறதா எனச் சரிபார்க்கவும். நீங்கள் எந்த ஊட்டத்திற்குச் சந்தா செலுத்தியுள்ளீர்கள் என்பதைச் சரிபார்க்கவும், ஏனெனில் ஒரு பாடநெறி ஊட்டமும் பணிகளுக்கு மட்டுமேயான ஊட்டமும் வெவ்வேறு உருப்படிகளை உள்ளடக்கியது. அவசரத் தேதிகளை Brightspace இல் நேரடியாக ஒப்பிடவும்."
+        },
+        {
+          "question": "ஒவ்வொரு பாடத்திற்கும் பதிலாக ஒரு பாடத்தை தேர்வு செய்யலாமா?",
+          "answer": "ஆம். Brightspace சந்தா மெனுவில், குறிப்பிட்ட காலெண்டரின் URL ஐ நகலெடுக்கும் முன் அதைத் தேர்ந்தெடுக்கவும்."
+        }
+      ]
+    },
+    "te": {
+      "title": "Brightspace క్యాలెండర్‌ను Outlook లేదా Google క్యాలెండర్‌కి ఎలా సమకాలీకరించాలి",
+      "description": "D2L Brightspaceలో క్యాలెండర్ ఫీడ్‌లను ప్రారంభించండి, వెబ్ లేదా Google క్యాలెండర్‌లోని Outlookలో ఏ కోర్సులను చేర్చాలో మరియు సభ్యత్వాన్ని పొందాలో ఎంచుకోండి.",
+      "intro": "Brightspace క్యాలెండర్ చందా మీరు ఇప్పటికే తనిఖీ చేసిన క్యాలెండర్‌లో కోర్సు ఈవెంట్‌లను ఉంచుతుంది. మీరు నిర్దిష్ట కోర్సును ఎంచుకోవచ్చు లేదా క్యాలెండర్‌లు మరియు టాస్క్‌లను మిళితం చేసే ఫీడ్‌ని ఉపయోగించవచ్చు.",
+      "answer": "Brightspace క్యాలెండర్‌లో, సెట్టింగ్‌లను తెరిచి, క్యాలెండర్ ఫీడ్‌లను ప్రారంభించి, సేవ్ చేయండి. సబ్‌స్క్రైబ్‌ని ఎంచుకోండి, క్యాలెండర్‌ని ఎంచుకుని, దాని URLని కాపీ చేయండి. వెబ్‌లోని Outlookలో, వెబ్ నుండి సబ్‌స్క్రైబ్ చేయి ఎంచుకోండి. కంప్యూటర్‌లోని Google క్యాలెండర్‌లో, URL నుండి ఎంచుకోండి.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "మీ D2L Brightspace క్యాలెండర్ లింక్‌ని పొందండి",
+          "paragraphs": [
+            "కోర్సు హోమ్ పేజీలో క్యాలెండర్ విడ్జెట్ ఉంటే, పూర్తి క్యాలెండర్‌ను తెరవడానికి దాన్ని ఉపయోగించండి. సబ్‌స్క్రిప్షన్ లింక్‌ను ప్రైవేట్‌గా ఉంచండి."
+          ],
+          "steps": [
+            "క్యాలెండర్‌లో సెట్టింగ్‌లను తెరిచి, క్యాలెండర్ ఫీడ్‌లను ప్రారంభించు ఎంచుకోండి మరియు సేవ్ చేయండి.",
+            "సబ్స్క్రయిబ్ ఎంచుకోండి. ఒక కోర్సు, అన్ని క్యాలెండర్‌లు మరియు టాస్క్‌లు లేదా టాస్క్‌లు మాత్రమే ఎంచుకోండి. మీకు కావలసిన ఎంపిక కోసం URLని కాపీ చేయండి."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspaceని Outlookకి సమకాలీకరించండి",
+          "paragraphs": [
+            "వెబ్‌లోని Outlookలో, క్యాలెండర్‌ని తెరిచి, క్యాలెండర్‌ని జోడించు ఎంచుకోండి మరియు వెబ్ నుండి సబ్‌స్క్రైబ్ చేయి ఎంచుకోండి. Brightspace URLని అతికించి, నిర్ధారించండి. మార్పులు కనిపించడానికి 24 గంటల కంటే ఎక్కువ సమయం పట్టవచ్చని మైక్రోసాఫ్ట్ తెలిపింది."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspaceని Google క్యాలెండర్‌కి సమకాలీకరించండి",
+          "paragraphs": [
+            "కంప్యూటర్‌లోని Google క్యాలెండర్‌లో, ఇతర క్యాలెండర్‌ల పక్కన ఉన్న ప్లస్‌ని క్లిక్ చేయండి. URL నుండి ఎంచుకోండి, Brightspace URLని అతికించి, క్యాలెండర్‌ను జోడించండి. ఫైల్ దిగుమతి మీకు స్నాప్‌షాట్ ఇస్తుంది. తర్వాత మార్పులను స్వీకరించడానికి సబ్‌స్క్రిప్షన్ URLని ఉపయోగించండి."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "క్యాలెండర్‌లో కోర్సు లేదా టాస్క్ ఎందుకు లేదు?",
+          "answer": "ఇది Brightspace క్యాలెండర్‌లో కనిపిస్తోందో లేదో తనిఖీ చేయండి. ఒకే-కోర్సు ఫీడ్ మరియు టాస్క్‌లు మాత్రమే ఫీడ్‌లో వేర్వేరు అంశాలు ఉంటాయి కాబట్టి మీరు ఏ ఫీడ్‌కు సభ్యత్వం పొందారో తనిఖీ చేయండి. Brightspaceలో అత్యవసర తేదీలను నేరుగా సరిపోల్చండి."
+        },
+        {
+          "question": "నేను ప్రతి కోర్సుకు బదులుగా ఒక కోర్సును ఎంచుకోవచ్చా?",
+          "answer": "అవును. Brightspace సబ్‌స్క్రిప్షన్ మెనులో, మీరు దాని URLని కాపీ చేయడానికి ముందు నిర్దిష్ట క్యాలెండర్‌ను ఎంచుకోండి."
+        }
+      ]
+    },
+    "zh-Hant": {
+      "title": "如何將 Brightspace 行事曆同步到 Outlook 或 Google 日曆",
+      "description": "在 D2L Brightspace 中啟用日曆來源，選擇要在 Outlook 網頁版或 Google 日曆中包含和訂閱的課程。",
+      "intro": "Brightspace 日曆訂閱將課程活動放入您已查看的日曆中。您可以選擇特定課程或使用結合了日曆和任務的提要。",
+      "answer": "在 Brightspace 日曆中，開啟“設定”，啟用日曆來源並儲存。選擇訂閱，選擇日曆並複製其 URL。在 Outlook 網頁版中，選擇「從網頁訂閱」。在電腦上的 Google 日曆中，選擇「來自 URL」。",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "獲取您的 D2L Brightspace 日曆鏈接",
+          "paragraphs": [
+            "如果課程主頁有日曆小工具，請使用它來開啟完整的日曆。將訂閱連結保密。"
+          ],
+          "steps": [
+            "打開日曆中的設置，選擇啟用日曆來源並儲存。",
+            "選擇訂閱。選擇一門課程、所有日曆和任務或僅任務。複製所需選擇的 URL。"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "將 Brightspace 同步到 Outlook",
+          "paragraphs": [
+            "在 Outlook 網頁版中，開啟“行事曆”，選擇“新增行事曆”，然後選擇“從 Web 訂閱”。貼上 Brightspace URL 並確認。微軟表示，更改可能需要 24 小時以上才能顯現。"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "將 Brightspace 同步到 Google 日曆",
+          "paragraphs": [
+            "在電腦上的 Google 日曆中，點選其他日曆旁的加號。選擇來自 URL，貼上 Brightspace URL 並新增日曆。文件匯入為您提供快照。使用訂閱 URL 接收以後的變更。"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "為什麼日曆中缺少課程或任務？",
+          "answer": "檢查它在 Brightspace 日曆中是否可見。檢查您訂閱的提要，因為單課程提要和僅任務提要包含不同的項目。直接比較 Brightspace 中的緊急日期。"
+        },
+        {
+          "question": "我可以選擇一門課程而不是每門課程嗎？",
+          "answer": "是的。在 Brightspace 訂閱選單中，選擇特定行事曆，然後複製其 URL。"
+        }
+      ]
+    },
+    "he": {
+      "title": "כיצד לסנכרן את יומן Brightspace ל-Outlook או ל-Google Calendar",
+      "description": "אפשר הזנות של לוח שנה ב-D2L Brightspace, בחר אילו קורסים לכלול והירשם ב-Outlook באינטרנט או ביומן Google.",
+      "intro": "מנוי ללוח השנה של Brightspace מכניס את אירועי הקורס ללוח השנה שכבר בדקתם. ניתן לבחור קורס ספציפי או להשתמש בפיד המשלב לוחות שנה ומשימות.",
+      "answer": "ב-Brightspace Calendar, פתח את ההגדרות, הפעל עדכוני לוח שנה ושמור. בחר הירשם, בחר לוח שנה והעתק את כתובת האתר שלו. ב-Outlook באינטרנט, בחר הירשם מהאינטרנט. ביומן Google במחשב, בחר מתוך כתובת אתר.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "קבל קישור ללוח השנה של D2L Brightspace",
+          "paragraphs": [
+            "אם לדף הבית של הקורס יש ווידג'ט של לוח שנה, השתמש בו כדי לפתוח את לוח השנה המלא. השאר את הקישור למנוי פרטי."
+          ],
+          "steps": [
+            "פתח את ההגדרות ביומן, בחר הפעל הזנות יומן ושמור.",
+            "בחר הירשם. בחר קורס אחד, כל היומנים והמשימות, או משימות בלבד. העתק את כתובת האתר עבור הבחירה הרצויה."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "סנכרון Brightspace ל-Outlook",
+          "paragraphs": [
+            "ב-Outlook באינטרנט, פתח את לוח השנה, בחר הוסף יומן ובחר הירשם מהאינטרנט. הדבק את כתובת האתר Brightspace ואשר. מיקרוסופט טוענת ששינויים עשויים להימשך יותר מ-24 שעות עד שהם יופיעו."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "סנכרן את Brightspace ליומן Google",
+          "paragraphs": [
+            "ביומן Google במחשב, לחץ על הפלוס לצד יומנים אחרים. בחר מתוך כתובת אתר, הדבק את כתובת האתר Brightspace והוסף את לוח השנה. ייבוא ​​קובץ נותן לך תמונת מצב. השתמש בכתובת האתר של המנוי כדי לקבל שינויים מאוחרים יותר."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "מדוע חסר קורס או משימה בלוח השנה?",
+          "answer": "בדוק שהוא גלוי בלוח השנה של Brightspace. בדקו לאיזה פיד נרשמתם, מכיוון שפיד של קורס יחיד ופיד של משימות בלבד כוללים פריטים שונים. השווה תאריכים דחופים ב-Brightspace ישירות."
+        },
+        {
+          "question": "האם אני יכול לבחור קורס אחד במקום כל קורס?",
+          "answer": "כן. בתפריט המנוי של Brightspace, בחר את היומן הספציפי לפני שתעתיק את כתובת האתר שלו."
+        }
+      ]
+    },
+    "fil": {
+      "title": "Paano i-sync ang Brightspace Calendar sa Outlook o Google Calendar",
+      "description": "Paganahin ang mga feed ng kalendaryo sa D2L Brightspace, piliin kung aling mga kurso ang isasama at mag-subscribe sa Outlook sa web o Google Calendar.",
+      "intro": "Ang Brightspace na subscription sa kalendaryo ay naglalagay ng mga kaganapan sa kurso sa kalendaryong nasuri mo na. Maaari kang pumili ng partikular na kurso o gumamit ng feed na pinagsasama ang mga kalendaryo at mga gawain.",
+      "answer": "Sa Brightspace Calendar, buksan ang Mga Setting, paganahin ang mga feed ng kalendaryo at i-save. Piliin ang Mag-subscribe, pumili ng kalendaryo at kopyahin ang URL nito. Sa Outlook sa web, piliin ang Mag-subscribe mula sa web. Sa Google Calendar sa isang computer, piliin ang Mula sa URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Kunin ang iyong D2L Brightspace na link sa kalendaryo",
+          "paragraphs": [
+            "Kung may Calendar widget ang home page ng kurso, gamitin ito para buksan ang buong Calendar. Panatilihing pribado ang link ng subscription."
+          ],
+          "steps": [
+            "Buksan ang Mga Setting sa Calendar, piliin ang Paganahin ang Mga Feed ng Kalendaryo at i-save.",
+            "Piliin ang Mag-subscribe. Pumili ng isang kurso, Lahat ng Kalendaryo at Mga Gawain, o Mga Gawain Lamang. Kopyahin ang URL para sa pagpili na gusto mo."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "I-sync ang Brightspace sa Outlook",
+          "paragraphs": [
+            "Sa Outlook sa web, buksan ang Calendar, piliin ang Magdagdag ng kalendaryo at piliin ang Mag-subscribe mula sa web. I-paste ang Brightspace URL at kumpirmahin. Sinabi ng Microsoft na maaaring tumagal ng higit sa 24 na oras bago lumitaw ang mga pagbabago."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "I-sync ang Brightspace sa Google Calendar",
+          "paragraphs": [
+            "Sa Google Calendar sa isang computer, i-click ang plus sa tabi ng Iba pang mga kalendaryo. Pumili Mula sa URL, i-paste ang Brightspace URL at idagdag ang kalendaryo. Ang pag-import ng file ay nagbibigay sa iyo ng snapshot. Gamitin ang URL ng subscription upang makatanggap ng mga pagbabago sa ibang pagkakataon."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bakit walang kurso o gawain sa kalendaryo?",
+          "answer": "Tingnan kung nakikita ito sa Brightspace Calendar. Suriin kung saang feed ka nag-subscribe, dahil may kasamang iba't ibang item ang isang single-course feed at isang task-only feed. Direktang ihambing ang mga kagyat na petsa sa Brightspace."
+        },
+        {
+          "question": "Maaari ba akong pumili ng isang kurso sa halip na bawat kurso?",
+          "answer": "Oo. Sa Brightspace na menu ng subscription, piliin ang partikular na kalendaryo bago mo kopyahin ang URL nito."
+        }
+      ]
+    },
+    "cs": {
+      "title": "Jak synchronizovat kalendář Brightspace s kalendářem Outlook nebo Google",
+      "description": "Povolte zdroje kalendáře v D2L Brightspace, vyberte, které kurzy chcete zahrnout, a přihlaste se k odběru v Outlooku na webu nebo v Kalendáři Google.",
+      "intro": "Předplatné kalendáře Brightspace umístí události kurzu do kalendáře, který již kontrolujete. Můžete si vybrat konkrétní kurz nebo použít feed, který kombinuje kalendáře a úkoly.",
+      "answer": "V Kalendáři Brightspace otevřete Nastavení, povolte zdroje kalendáře a uložte. Vyberte možnost Odebírat, vyberte kalendář a zkopírujte jeho adresu URL. V Outlooku na webu zvolte Odebírat z webu. V Kalendáři Google na počítači vyberte Z adresy URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Získejte odkaz na svůj kalendář D2L Brightspace",
+          "paragraphs": [
+            "Pokud má domovská stránka kurzu widget Kalendář, použijte jej k otevření celého Kalendáře. Udržujte odkaz na odběr soukromý."
+          ],
+          "steps": [
+            "Otevřete Nastavení v Kalendáři, vyberte Povolit kanály kalendáře a uložte.",
+            "Vyberte možnost Odebírat. Vyberte jeden kurz, Všechny kalendáře a úkoly nebo Pouze úkoly. Zkopírujte adresu URL požadovaného výběru."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synchronizujte Brightspace s aplikací Outlook",
+          "paragraphs": [
+            "V Outlooku na webu otevřete Kalendář, zvolte Přidat kalendář a vyberte Odebírat z webu. Vložte adresu URL Brightspace a potvrďte. Microsoft říká, že změny mohou trvat déle než 24 hodin, než se projeví."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synchronizujte Brightspace s Kalendářem Google",
+          "paragraphs": [
+            "V Kalendáři Google na počítači klikněte na znaménko plus vedle položky Jiné kalendáře. Vyberte Z adresy URL, vložte adresu URL Brightspace a přidejte kalendář. Import souboru vám poskytne snímek. Chcete-li získat pozdější změny, použijte adresu URL předplatného."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Proč v kalendáři chybí kurz nebo úkol?",
+          "answer": "Zkontrolujte, zda je vidět v kalendáři Brightspace. Zkontrolujte, ke kterému kanálu jste se přihlásili, protože zdroj s jedním kurzem a zdroj pouze pro úkoly obsahují různé položky. Porovnejte naléhavá data přímo v Brightspace."
+        },
+        {
+          "question": "Mohu si vybrat jeden kurz místo každého kurzu?",
+          "answer": "Ano. V nabídce předplatného Brightspace vyberte konkrétní kalendář, než zkopírujete jeho adresu URL."
+        }
+      ]
+    },
+    "sv": {
+      "title": "Hur man synkroniserar Brightspace-kalendern till Outlook eller Google Calendar",
+      "description": "Aktivera kalenderflöden i D2L Brightspace, välj vilka kurser som ska inkluderas och prenumerera i Outlook på webben eller Google Kalender.",
+      "intro": "En Brightspace-kalenderprenumeration placerar kurshändelser i den kalender som du redan kontrollerat. Du kan välja en specifik kurs eller använda ett flöde som kombinerar kalendrar och uppgifter.",
+      "answer": "I Brightspace Kalender, öppna Inställningar, aktivera kalenderflöden och spara. Välj Prenumerera, välj en kalender och kopiera dess URL. I Outlook på webben väljer du Prenumerera från webben. I Google Kalender på en dator väljer du Från URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Skaffa din D2L Brightspace-kalenderlänk",
+          "paragraphs": [
+            "Om kurshemsidan har en kalenderwidget, använd den för att öppna hela kalendern. Håll prenumerationslänken privat."
+          ],
+          "steps": [
+            "Öppna Inställningar i Kalender, välj Aktivera kalenderflöden och spara.",
+            "Välj Prenumerera. Välj en kurs, Alla kalendrar och uppgifter, eller Endast uppgifter. Kopiera URL:en för det val du vill ha."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synkronisera Brightspace till Outlook",
+          "paragraphs": [
+            "Öppna Kalender i Outlook på webben, välj Lägg till kalender och välj Prenumerera från webben. Klistra in Brightspace URL och bekräfta. Microsoft säger att ändringar kan ta mer än 24 timmar innan de visas."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synkronisera Brightspace med Google Kalender",
+          "paragraphs": [
+            "I Google Kalender på en dator klickar du på plustecknet bredvid Andra kalendrar. Välj Från URL, klistra in Brightspace URL och lägg till kalendern. En filimport ger dig en ögonblicksbild. Använd prenumerationsadressen för att ta emot senare ändringar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Varför saknas en kurs eller uppgift i kalendern?",
+          "answer": "Kontrollera att kursen eller uppgiften syns i Brightspace-kalendern. Se vilket flöde du prenumererar på. Ett flöde för en kurs och ett flöde med bara uppgifter visar olika saker. Kontrollera brådskande datum direkt i Brightspace."
+        },
+        {
+          "question": "Kan jag välja en kurs istället för varje kurs?",
+          "answer": "Ja. I Brightspace prenumerationsmenyn väljer du den specifika kalendern innan du kopierar dess URL."
+        }
+      ]
+    },
+    "ca": {
+      "title": "Com sincronitzar el calendari Brightspace amb Outlook o Google Calendar",
+      "description": "Activeu els canals de calendari a D2L Brightspace, trieu quins cursos voleu incloure i subscriviu-vos a l'Outlook al web o al Google Calendar.",
+      "intro": "Una subscripció al calendari Brightspace inclou els esdeveniments del curs al calendari que ja comproveu. Podeu triar un curs específic o utilitzar un feed que combini calendaris i tasques.",
+      "answer": "A Brightspace Calendar, obriu Configuració, activeu els canals de calendari i deseu-los. Seleccioneu Subscriure's, trieu un calendari i copieu-ne l'URL. A l'Outlook al web, trieu Subscriu-se des del web. A Google Calendar en un ordinador, trieu Des de l'URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Obteniu l'enllaç del vostre calendari D2L Brightspace",
+          "paragraphs": [
+            "Si la pàgina d'inici del curs té un widget de Calendari, utilitzeu-lo per obrir el calendari complet. Manteniu l'enllaç de subscripció privat."
+          ],
+          "steps": [
+            "Obriu Configuració al Calendari, seleccioneu Habilita els canals de calendari i deseu.",
+            "Seleccioneu Subscriu-te. Trieu un curs, Tots els calendaris i les tasques o Només les tasques. Copieu l'URL de la selecció que vulgueu."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sincronitza Brightspace amb Outlook",
+          "paragraphs": [
+            "A l'Outlook al web, obriu Calendari, seleccioneu Afegeix un calendari i seleccioneu Subscriu-se des del web. Enganxeu l'URL Brightspace i confirmeu. Microsoft diu que els canvis poden trigar més de 24 hores a aparèixer."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sincronitza Brightspace amb Google Calendar",
+          "paragraphs": [
+            "A Google Calendar en un ordinador, feu clic al signe més al costat d'altres calendaris. Trieu Des de l'URL, enganxeu l'URL Brightspace i afegiu el calendari. Una importació de fitxers us ofereix una instantània. Utilitzeu l'URL de la subscripció per rebre canvis posteriors."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Per què falta un curs o una tasca al calendari?",
+          "answer": "Comproveu que sigui visible al calendari Brightspace. Comproveu a quin canal us heu subscrit, ja que un feed d'un sol curs i un feed només de tasques inclouen elements diferents. Compara directament les dates urgents a Brightspace."
+        },
+        {
+          "question": "Puc triar un curs en lloc de cada curs?",
+          "answer": "Sí. Al menú de subscripció a Brightspace, trieu el calendari específic abans de copiar-ne l'URL."
+        }
+      ]
+    },
+    "da": {
+      "title": "Sådan synkroniseres Brightspace Kalender til Outlook eller Google Kalender",
+      "description": "Aktiver kalenderfeeds i D2L Brightspace, vælg hvilke kurser der skal inkluderes og abonner i Outlook på nettet eller Google Kalender.",
+      "intro": "Et Brightspace-kalenderabonnement placerer kursusbegivenheder i den kalender, du allerede tjekker. Du kan vælge et specifikt kursus eller bruge et feed, der kombinerer kalendere og opgaver.",
+      "answer": "I Brightspace Kalender skal du åbne Indstillinger, aktivere kalenderfeeds og gemme. Vælg Abonner, vælg en kalender og kopier dens URL. I Outlook på nettet skal du vælge Abonner fra web. I Google Kalender på en computer skal du vælge Fra URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Få dit D2L Brightspace-kalenderlink",
+          "paragraphs": [
+            "Hvis kursushjemmesiden har en Kalender-widget, skal du bruge den til at åbne hele kalenderen. Hold abonnementslinket privat."
+          ],
+          "steps": [
+            "Åbn Indstillinger i Kalender, vælg Aktiver kalenderfeeds og gem.",
+            "Vælg Abonner. Vælg ét kursus, Alle kalendere og opgaver eller Kun opgaver. Kopiér URL'en for det valg, du ønsker."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synkroniser Brightspace til Outlook",
+          "paragraphs": [
+            "I Outlook på nettet skal du åbne Kalender, vælge Tilføj kalender og vælge Abonner fra internettet. Indsæt Brightspace URL'en og bekræft. Microsoft siger, at ændringer kan tage mere end 24 timer, før de vises."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synkroniser Brightspace til Google Kalender",
+          "paragraphs": [
+            "I Google Kalender på en computer skal du klikke på pluspunktet ud for Andre kalendere. Vælg Fra URL, indsæt Brightspace URL og tilføj kalenderen. En filimport giver dig et øjebliksbillede. Brug abonnements-URL'en til at modtage senere ændringer."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Hvorfor mangler et kursus eller en opgave i kalenderen?",
+          "answer": "Tjek, at det er synligt i Brightspace Kalender. Tjek, hvilket feed du abonnerer på, da et enkelt-retters feed og et feed-kun opgaver indeholder forskellige varer. Sammenlign presserende datoer i Brightspace direkte."
+        },
+        {
+          "question": "Kan jeg vælge ét kursus i stedet for hvert kursus?",
+          "answer": "Ja. I Brightspace abonnementsmenuen skal du vælge den specifikke kalender, før du kopierer dens URL."
+        }
+      ]
+    },
+    "fi": {
+      "title": "Kuinka synkronoida Brightspace-kalenteri Outlookiin tai Google-kalenteriin",
+      "description": "Ota kalenterisyötteet käyttöön D2L Brightspace:ssä, valitse sisällytettävät kurssit ja tilaukset Outlookin verkkoversiossa tai Google-kalenterissa.",
+      "intro": "Brightspace-kalenteritilaus lisää kurssitapahtumat jo tarkistamaasi kalenteriin. Voit valita tietyn kurssin tai käyttää syötettä, joka yhdistää kalentereita ja tehtäviä.",
+      "answer": "Avaa Brightspace-kalenterissa Asetukset, ota kalenterisyötteet käyttöön ja tallenna. Valitse Tilaa, valitse kalenteri ja kopioi sen URL-osoite. Valitse Outlookin verkkoversiossa Tilaa verkosta. Valitse tietokoneen Google-kalenterissa URL-osoitteesta.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Hanki D2L Brightspace -kalenterilinkki",
+          "paragraphs": [
+            "Jos kurssin kotisivulla on Kalenteri-widget, avaa koko kalenteri sen avulla. Pidä tilauslinkki yksityisenä."
+          ],
+          "steps": [
+            "Avaa Asetukset Kalenterissa, valitse Ota käyttöön kalenterisyötteet ja tallenna.",
+            "Valitse Tilaa. Valitse yksi kurssi, Kaikki kalenterit ja tehtävät tai Vain tehtävät. Kopioi haluamasi valinnan URL-osoite."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synkronoi Brightspace Outlookiin",
+          "paragraphs": [
+            "Avaa Outlookin verkkoversiossa Kalenteri ja valitse Lisää kalenteri. Valitse Tilaa verkosta, liitä Brightspace-kalenterin URL-osoite ja vahvista. Microsoftin mukaan muutosten näkyminen voi kestää yli 24 tuntia."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synkronoi Brightspace Google-kalenteriin",
+          "paragraphs": [
+            "Napsauta tietokoneen Google-kalenterissa Plus-merkkiä Muut kalenterit -kohdan vieressä. Valitse URL-osoitteesta, liitä Brightspace-URL-osoite ja lisää kalenteri. Tiedoston tuonti antaa sinulle tilannekuvan. Käytä tilauksen URL-osoitetta saadaksesi myöhempiä muutoksia."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Miksi kurssi tai tehtävä puuttuu kalenterista?",
+          "answer": "Tarkista, että se näkyy Brightspace-kalenterissa. Tarkista, minkä syötteen olet tilannut, koska yhden kurssin syöte ja vain tehtäviin tarkoitettu syöte sisältävät eri kohteita. Vertaa kiireellisiä päivämääriä suoraan Brightspace:ssä."
+        },
+        {
+          "question": "Voinko valita yhden kurssin jokaisen kurssin sijaan?",
+          "answer": "Kyllä. Valitse tietty kalenteri Brightspace-tilausvalikosta, ennen kuin kopioit sen URL-osoitteen."
+        }
+      ]
+    },
+    "el": {
+      "title": "Πώς να συγχρονίσετε το Ημερολόγιο Brightspace με το Outlook ή το Ημερολόγιο Google",
+      "description": "Ενεργοποιήστε τις ροές ημερολογίου στο D2L Brightspace, επιλέξτε ποια μαθήματα θα συμπεριληφθούν και εγγραφείτε στο Outlook στον ιστό ή στο Ημερολόγιο Google.",
+      "intro": "Μια συνδρομή ημερολογίου Brightspace τοποθετεί τα γεγονότα μαθημάτων στο ημερολόγιο που έχετε ήδη ελέγξει. Μπορείτε να επιλέξετε ένα συγκεκριμένο μάθημα ή να χρησιμοποιήσετε μια ροή που συνδυάζει ημερολόγια και εργασίες.",
+      "answer": "Στο Ημερολόγιο Brightspace, ανοίξτε τις Ρυθμίσεις, ενεργοποιήστε τις ροές ημερολογίου και αποθηκεύστε. Επιλέξτε Εγγραφή, επιλέξτε ένα ημερολόγιο και αντιγράψτε τη διεύθυνση URL του. Στο Outlook στο web, επιλέξτε Εγγραφή από τον Ιστό. Στο Ημερολόγιο Google σε υπολογιστή, επιλέξτε Από τη διεύθυνση URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Αποκτήστε τον σύνδεσμο ημερολογίου D2L Brightspace",
+          "paragraphs": [
+            "Εάν η αρχική σελίδα του μαθήματος έχει ένα γραφικό στοιχείο Ημερολόγιο, χρησιμοποιήστε το για να ανοίξετε ολόκληρο το Ημερολόγιο. Διατηρήστε τον σύνδεσμο της συνδρομής ιδιωτικό."
+          ],
+          "steps": [
+            "Ανοίξτε τις Ρυθμίσεις στο Ημερολόγιο, επιλέξτε Ενεργοποίηση ροών ημερολογίου και αποθηκεύστε.",
+            "Επιλέξτε Εγγραφή. Επιλέξτε ένα μάθημα, Όλα τα Ημερολόγια και Εργασίες ή Μόνο Εργασίες. Αντιγράψτε τη διεύθυνση URL για την επιλογή που θέλετε."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Συγχρονίστε το Brightspace με το Outlook",
+          "paragraphs": [
+            "Στο Outlook στο web, ανοίξτε το Ημερολόγιο, επιλέξτε Προσθήκη ημερολογίου και επιλέξτε Εγγραφή από τον Ιστό. Επικολλήστε τη διεύθυνση URL Brightspace και επιβεβαιώστε. Η Microsoft λέει ότι οι αλλαγές μπορεί να χρειαστούν περισσότερες από 24 ώρες για να εμφανιστούν."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Συγχρονίστε το Brightspace με το Ημερολόγιο Google",
+          "paragraphs": [
+            "Στο Ημερολόγιο Google σε υπολογιστή, κάντε κλικ στο συν δίπλα στο Άλλα ημερολόγια. Επιλέξτε Από τη διεύθυνση URL, επικολλήστε τη διεύθυνση URL Brightspace και προσθέστε το ημερολόγιο. Μια εισαγωγή αρχείου σας δίνει ένα στιγμιότυπο. Χρησιμοποιήστε τη διεύθυνση URL της συνδρομής για να λάβετε μεταγενέστερες αλλαγές."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Γιατί λείπει ένα μάθημα ή μια εργασία από το ημερολόγιο;",
+          "answer": "Ελέγξτε ότι είναι ορατό στο Ημερολόγιο Brightspace. Ελέγξτε σε ποια ροή έχετε εγγραφεί, καθώς μια ροή ενός μαθήματος και μια ροή μόνο για εργασίες περιλαμβάνουν διαφορετικά στοιχεία. Συγκρίνετε επείγουσες ημερομηνίες στο Brightspace απευθείας."
+        },
+        {
+          "question": "Μπορώ να επιλέξω ένα μάθημα αντί για κάθε μάθημα;",
+          "answer": "Ναι. Στο μενού συνδρομής Brightspace, επιλέξτε το συγκεκριμένο ημερολόγιο προτού αντιγράψετε τη διεύθυνση URL του."
+        }
+      ]
+    },
+    "hu": {
+      "title": "A Brightspace naptár szinkronizálása az Outlookkal vagy a Google Naptárral",
+      "description": "Engedélyezze a naptárfeedeket a D2L Brightspace alkalmazásban, válassza ki, mely kurzusokat kívánja felvenni, és iratkozzon fel a webes Outlookban vagy a Google Naptárban.",
+      "intro": "A Brightspace naptár-előfizetéssel a tanfolyami eseményeket a már ellenőrzött naptárba helyezi. Kiválaszthat egy adott kurzust, vagy használhat naptárakat és feladatokat kombináló feedet.",
+      "answer": "A Brightspace Naptárban nyissa meg a Beállításokat, engedélyezze a naptárfeedeket, és mentse. Válassza a Feliratkozás lehetőséget, válasszon egy naptárt, és másolja ki annak URL-címét. A webes Outlookban válassza az Előfizetés a webről lehetőséget. A számítógépen a Google Naptárban válassza az URL-ből lehetőséget.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Szerezze be a D2L Brightspace naptár hivatkozását",
+          "paragraphs": [
+            "Ha a kurzus kezdőlapján van egy Naptár widget, használja azt a teljes naptár megnyitásához. Tartsa privátban az előfizetési linket."
+          ],
+          "steps": [
+            "Nyissa meg a Beállításokat a Naptárban, válassza a Naptári hírcsatornák engedélyezése lehetőséget, és mentse.",
+            "Válassza az Előfizetés lehetőséget. Válasszon egy kurzust: Minden naptár és feladat vagy Csak feladatok. Másolja ki a kívánt kijelölés URL-jét."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "A Brightspace szinkronizálása az Outlook programmal",
+          "paragraphs": [
+            "A webes Outlookban nyissa meg a Naptárat, válassza a Naptár hozzáadása lehetőséget, majd válassza az Előfizetés a webről lehetőséget. Illessze be a Brightspace URL-t, és erősítse meg. A Microsoft szerint a módosítások megjelenése több mint 24 órát vesz igénybe."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "A Brightspace szinkronizálása a Google Naptárral",
+          "paragraphs": [
+            "A számítógépen a Google Naptárban kattintson a pluszjelre az Egyéb naptárak mellett. Válassza az URL-ből lehetőséget, illessze be a Brightspace URL-t, és adja hozzá a naptárt. A fájlimportálás pillanatképet ad. A későbbi módosítások fogadásához használja az előfizetés URL-címét."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Miért hiányzik egy tanfolyam vagy feladat a naptárból?",
+          "answer": "Ellenőrizze, hogy látható-e a Brightspace naptárban. Ellenőrizze, hogy melyik hírcsatornára iratkozott fel, mivel az egyfogásos hírcsatorna és a csak feladatokat tartalmazó hírcsatorna különböző elemeket tartalmaz. Hasonlítsa össze közvetlenül a sürgős dátumokat a Brightspace-ben."
+        },
+        {
+          "question": "Választhatok egy kurzust minden kurzus helyett?",
+          "answer": "Igen. A Brightspace előfizetés menüjében válassza ki az adott naptárt, mielőtt másolja az URL-címét."
+        }
+      ]
+    },
+    "ms": {
+      "title": "Bagaimana untuk menyegerakkan Kalendar Brightspace ke Outlook atau Kalendar Google",
+      "description": "Dayakan suapan kalendar dalam D2L Brightspace, pilih kursus yang hendak disertakan dan langgan dalam Outlook di web atau Kalendar Google.",
+      "intro": "Langganan kalendar Brightspace meletakkan acara kursus dalam kalendar yang telah anda semak. Anda boleh memilih kursus tertentu atau menggunakan suapan yang menggabungkan kalendar dan tugasan.",
+      "answer": "Dalam Kalendar Brightspace, buka Tetapan, dayakan suapan kalendar dan simpan. Pilih Langgan, pilih kalendar dan salin URLnya. Dalam Outlook di web, pilih Langgan dari web. Dalam Kalendar Google pada komputer, pilih Daripada URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Dapatkan pautan kalendar D2L Brightspace anda",
+          "paragraphs": [
+            "Jika halaman utama kursus mempunyai widget Kalendar, gunakannya untuk membuka Kalendar penuh. Pastikan pautan langganan peribadi."
+          ],
+          "steps": [
+            "Buka Tetapan dalam Kalendar, pilih Dayakan Suapan Kalendar dan simpan.",
+            "Pilih Langgan. Pilih satu kursus, Semua Kalendar dan Tugasan, atau Tugasan Sahaja. Salin URL untuk pilihan yang anda mahukan."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Segerakkan Brightspace ke Outlook",
+          "paragraphs": [
+            "Dalam Outlook di web, buka Kalendar, pilih Tambah kalendar dan pilih Langgan dari web. Tampal URL Brightspace dan sahkan. Microsoft berkata perubahan boleh mengambil masa lebih daripada 24 jam untuk muncul."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Segerakkan Brightspace ke Kalendar Google",
+          "paragraphs": [
+            "Dalam Kalendar Google pada komputer, klik tambah di sebelah Kalendar lain. Pilih Daripada URL, tampal URL Brightspace dan tambah kalendar. Import fail memberi anda gambaran. Gunakan URL langganan untuk menerima perubahan kemudian."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mengapakah kursus atau tugasan tiada dalam kalendar?",
+          "answer": "Semak bahawa ia boleh dilihat dalam Kalendar Brightspace. Semak suapan yang anda langgan, kerana suapan satu kursus dan suapan tugasan sahaja termasuk item yang berbeza. Bandingkan tarikh mendesak di Brightspace secara langsung."
+        },
+        {
+          "question": "Bolehkah saya memilih satu kursus dan bukannya setiap kursus?",
+          "answer": "ya. Dalam menu langganan Brightspace, pilih kalendar tertentu sebelum anda menyalin URLnya."
+        }
+      ]
+    },
+    "nb": {
+      "title": "Slik synkroniserer du Brightspace-kalender til Outlook eller Google-kalender",
+      "description": "Aktiver kalenderfeeder i D2L Brightspace, velg hvilke kurs som skal inkluderes og abonner i Outlook på nettet eller Google Kalender.",
+      "intro": "Et Brightspace-kalenderabonnement setter kurshendelser i kalenderen du allerede sjekker. Du kan velge et bestemt kurs eller bruke en feed som kombinerer kalendere og oppgaver.",
+      "answer": "I Brightspace Kalender, åpne Innstillinger, aktiver kalenderfeeds og lagre. Velg Abonner, velg en kalender og kopier dens URL. I Outlook på nettet velger du Abonner fra web. I Google Kalender på en datamaskin velger du Fra URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Få din D2L Brightspace-kalenderlink",
+          "paragraphs": [
+            "Hvis kurshjemmesiden har en Kalender-widget, bruk den til å åpne hele kalenderen. Hold abonnementslenken privat."
+          ],
+          "steps": [
+            "Åpne Innstillinger i Kalender, velg Aktiver kalenderinnmatinger og lagre.",
+            "Velg Abonner. Velg ett kurs, Alle kalendere og oppgaver, eller Kun oppgaver. Kopier URL-en for utvalget du ønsker."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synkroniser Brightspace til Outlook",
+          "paragraphs": [
+            "I Outlook på nettet, åpne Kalender, velg Legg til kalender og velg Abonner fra nettet. Lim inn Brightspace URL og bekreft. Microsoft sier at endringer kan ta mer enn 24 timer før de vises."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synkroniser Brightspace til Google Kalender",
+          "paragraphs": [
+            "I Google Kalender på en datamaskin klikker du på plusset ved siden av Andre kalendere. Velg Fra URL, lim inn Brightspace URL og legg til kalenderen. En filimport gir deg et øyeblikksbilde. Bruk abonnements-URLen for å motta senere endringer."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Hvorfor mangler et kurs eller en oppgave i kalenderen?",
+          "answer": "Sjekk at den er synlig i Brightspace Kalender. Sjekk hvilken feed du abonnerer på, siden en enkelt-retters feed og en feed-bare for oppgaver inkluderer forskjellige elementer. Sammenlign hastedatoer i Brightspace direkte."
+        },
+        {
+          "question": "Kan jeg velge ett kurs i stedet for hvert kurs?",
+          "answer": "Ja. I Brightspace abonnementsmenyen velger du den spesifikke kalenderen før du kopierer URL-adressen."
+        }
+      ]
+    },
+    "ro": {
+      "title": "Cum să sincronizați calendarul Brightspace cu Outlook sau Google Calendar",
+      "description": "Activați fluxurile de calendar în D2L Brightspace, alegeți ce cursuri să includeți și abonați-vă în Outlook pe web sau Google Calendar.",
+      "intro": "Un abonament de calendar Brightspace pune evenimentele cursului în calendarul pe care îl verificați deja. Puteți alege un anumit curs sau puteți utiliza un feed care combină calendare și sarcini.",
+      "answer": "În Brightspace Calendar, deschideți Setări, activați fluxurile de calendar și salvați. Selectați Abonare, alegeți un calendar și copiați adresa URL a acestuia. În Outlook pe web, alegeți Abonați-vă de pe web. În Google Calendar pe un computer, alegeți Din URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Obțineți linkul calendarului D2L Brightspace",
+          "paragraphs": [
+            "Dacă pagina de pornire a cursului are un widget Calendar, utilizați-l pentru a deschide calendarul complet. Păstrați linkul de abonament privat."
+          ],
+          "steps": [
+            "Deschide Setări în Calendar, selectează Enable Calendar Feeds și salvează.",
+            "Selectați Abonare. Alegeți un curs, Toate calendarele și sarcinile sau Numai sarcini. Copiați adresa URL pentru selecția dorită."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sincronizați Brightspace cu Outlook",
+          "paragraphs": [
+            "În Outlook pe web, deschideți Calendar, alegeți Adăugare calendar și selectați Abonare de pe web. Lipiți adresa URL Brightspace și confirmați. Microsoft spune că modificările pot dura mai mult de 24 de ore să apară."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sincronizați Brightspace cu Google Calendar",
+          "paragraphs": [
+            "În Google Calendar de pe computer, faceți clic pe plus de lângă Alte calendare. Alegeți Din URL, inserați URL-ul Brightspace și adăugați calendarul. Un import de fișiere vă oferă un instantaneu. Utilizați adresa URL a abonamentului pentru a primi modificări ulterioare."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "De ce lipsește un curs sau o sarcină din calendar?",
+          "answer": "Verificați dacă este vizibil în calendarul Brightspace. Verificați la ce feed v-ați abonat, deoarece un feed cu un singur curs și un feed cu sarcini numai includ articole diferite. Comparați datele urgente în Brightspace direct."
+        },
+        {
+          "question": "Pot alege un curs în loc de fiecare curs?",
+          "answer": "Da. În meniul de abonament Brightspace, alegeți calendarul specific înainte de a-i copia adresa URL."
+        }
+      ]
+    },
+    "hr": {
+      "title": "Kako sinkronizirati Brightspace kalendar s Outlookom ili Google kalendarom",
+      "description": "Omogućite feedove kalendara u D2L Brightspace, odaberite koje ćete tečajeve uključiti i pretplatite se u Outlooku na webu ili Google kalendaru.",
+      "intro": "Pretplata na kalendar Brightspace stavlja događaje tečaja u kalendar koji već provjerite. Možete odabrati određeni tečaj ili koristiti feed koji kombinira kalendare i zadatke.",
+      "answer": "U Brightspace Kalendaru, otvorite Postavke, omogućite feedove kalendara i spremite. Odaberite Pretplati se, odaberite kalendar i kopirajte njegov URL. U programu Outlook na webu odaberite Pretplati se s weba. U Google kalendaru na računalu odaberite From URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Nabavite poveznicu na svoj D2L Brightspace kalendar",
+          "paragraphs": [
+            "Ako početna stranica tečaja ima widget Kalendar, upotrijebite ga za otvaranje cijelog Kalendara. Držite vezu za pretplatu privatnom."
+          ],
+          "steps": [
+            "Otvorite Postavke u Kalendaru, odaberite Omogući feedove kalendara i spremite.",
+            "Odaberite Pretplati se. Odaberite jedan tečaj, Svi kalendari i zadaci ili Samo zadaci. Kopirajte URL za odabir koji želite."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sinkronizirajte Brightspace s Outlookom",
+          "paragraphs": [
+            "U Outlooku na webu otvorite Kalendar, odaberite Dodaj kalendar i odaberite Pretplati se s weba. Zalijepite Brightspace URL i potvrdite. Microsoft kaže da može proći više od 24 sata da se promjene pojave."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sinkronizirajte Brightspace s Google kalendarom",
+          "paragraphs": [
+            "U Google kalendaru na računalu kliknite plus pored Ostali kalendari. Odaberite From URL, zalijepite Brightspace URL i dodajte kalendar. Uvoz datoteke daje vam snimku. Upotrijebite URL pretplate za primanje kasnijih promjena."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Zašto tečaj ili zadatak nedostaje u kalendaru?",
+          "answer": "Provjerite je li vidljiv u kalendaru Brightspace. Provjerite na koji ste se feed pretplatili, jer feed s jednim tečajem i feed samo sa zadacima uključuju različite stavke. Usporedite hitne datume izravno u Brightspace."
+        },
+        {
+          "question": "Mogu li odabrati jedan tečaj umjesto svakog tečaja?",
+          "answer": "da U izborniku pretplate Brightspace odaberite određeni kalendar prije nego što kopirate njegov URL."
+        }
+      ]
+    },
+    "sk": {
+      "title": "Ako synchronizovať kalendár Brightspace s aplikáciou Outlook alebo Kalendár Google",
+      "description": "Povoľte informačné kanály kalendára v D2L Brightspace, vyberte, ktoré kurzy chcete zahrnúť, a prihláste sa na odber v Outlooku na webe alebo v Kalendári Google.",
+      "intro": "Predplatné kalendára Brightspace vloží udalosti kurzu do kalendára, ktorý už kontrolujete. Môžete si vybrať konkrétny kurz alebo použiť informačný kanál, ktorý kombinuje kalendáre a úlohy.",
+      "answer": "V kalendári Brightspace otvorte Nastavenia, povoľte informačné kanály kalendára a uložte. Vyberte možnosť Prihlásiť sa na odber, vyberte kalendár a skopírujte jeho adresu URL. V Outlooku na webe vyberte Prihlásiť sa na odber z webu. V Kalendári Google na počítači vyberte z adresy URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Získajte odkaz na kalendár D2L Brightspace",
+          "paragraphs": [
+            "Ak má domovská stránka kurzu miniaplikáciu Kalendár, použite ju na otvorenie celého Kalendára. Ponechajte odkaz na odber súkromný."
+          ],
+          "steps": [
+            "Otvorte Nastavenia v Kalendári, vyberte Povoliť informačné kanály kalendára a uložte.",
+            "Vyberte možnosť Predplatiť. Vyberte jeden kurz, Všetky kalendáre a úlohy alebo Iba úlohy. Skopírujte adresu URL požadovaného výberu."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Synchronizujte Brightspace s Outlookom",
+          "paragraphs": [
+            "V Outlooku na webe otvorte Kalendár, vyberte Pridať kalendár a vyberte Prihlásiť sa na odber z webu. Prilepte webovú adresu Brightspace a potvrďte. Microsoft tvrdí, že zmeny môžu trvať viac ako 24 hodín, kým sa prejavia."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Synchronizujte Brightspace s Kalendárom Google",
+          "paragraphs": [
+            "V Kalendári Google na počítači kliknite na znamienko plus vedľa položky Iné kalendáre. Vyberte z adresy URL, prilepte adresu URL Brightspace a pridajte kalendár. Import súboru vám poskytne snímku. Na získanie neskorších zmien použite webovú adresu odberu."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Prečo v kalendári chýba kurz alebo úloha?",
+          "answer": "Skontrolujte, či je viditeľný v kalendári Brightspace. Skontrolujte, ktorý informačný kanál ste sa prihlásili na odber, pretože informačný kanál s jedným kurzom a informačný kanál iba s úlohami obsahujú rôzne položky. Porovnajte naliehavé termíny priamo v Brightspace."
+        },
+        {
+          "question": "Môžem si vybrať jeden kurz namiesto každého kurzu?",
+          "answer": "áno. V ponuke odberu Brightspace vyberte konkrétny kalendár predtým, ako skopírujete jeho adresu URL."
+        }
+      ]
+    },
+    "sl": {
+      "title": "Kako sinhronizirati Koledar Brightspace z Outlookom ali Google Koledarjem",
+      "description": "Omogočite koledarske vire v D2L Brightspace, izberite, katere tečaje želite vključiti, in se naročite v Outlooku v spletu ali Google Koledarju.",
+      "intro": "Naročnina na koledar Brightspace postavi dogodke tečajev v koledar, ki ste ga že preverili. Izberete lahko določen tečaj ali uporabite vir, ki združuje koledarje in opravila.",
+      "answer": "V koledarju Brightspace odprite nastavitve, omogočite vire koledarja in shranite. Izberite Naroči se, izberite koledar in kopirajte njegov URL. V Outlooku v spletu izberite Naroči se iz spleta. V Google Koledarju v računalniku izberite From URL.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "Pridobite povezavo do koledarja D2L Brightspace",
+          "paragraphs": [
+            "Če ima domača stran tečaja pripomoček za koledar, ga uporabite za odpiranje celotnega koledarja. Povezava do naročnine naj bo zasebna."
+          ],
+          "steps": [
+            "Odprite nastavitve v koledarju, izberite Omogoči vire koledarja in shranite.",
+            "Izberite Naroči se. Izberite en tečaj, Vsi koledarji in opravila ali Samo opravila. Kopirajte URL za izbiro, ki jo želite."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Sinhronizirajte Brightspace z Outlookom",
+          "paragraphs": [
+            "V Outlooku v spletu odprite Koledar, izberite Dodaj koledar in izberite Naroči se iz spleta. Prilepite URL Brightspace in potrdite. Microsoft pravi, da lahko traja več kot 24 ur, da se spremembe pojavijo."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Sinhronizirajte Brightspace z Google Koledarjem",
+          "paragraphs": [
+            "V Google Koledarju v računalniku kliknite plus poleg možnosti Drugi koledarji. Izberite Od URL, prilepite Brightspace URL in dodajte koledar. Z uvozom datoteke dobite posnetek. Za kasnejše prejemanje sprememb uporabite URL naročnine."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Zakaj predmet ali naloga manjka na koledarju?",
+          "answer": "Preverite, ali je viden v Koledarju Brightspace. Preverite, na kateri vir ste naročeni, saj vir za eno jed in vir samo za opravila vključujeta različne elemente. Primerjajte nujne datume neposredno v Brightspace."
+        },
+        {
+          "question": "Ali lahko izberem en tečaj namesto vseh tečajev?",
+          "answer": "ja V naročniškem meniju Brightspace izberite določen koledar, preden kopirate njegov URL."
+        }
+      ]
+    },
+    "gu": {
+      "title": "Brightspace કૅલેન્ડરને Outlook અથવા Google કૅલેન્ડર સાથે કેવી રીતે સમન્વયિત કરવું",
+      "description": "D2L Brightspace માં કૅલેન્ડર ફીડ્સ સક્ષમ કરો, વેબ અથવા Google કૅલેન્ડર પર Outlook માં કયા અભ્યાસક્રમો શામેલ કરવા અને સબ્સ્ક્રાઇબ કરવા તે પસંદ કરો.",
+      "intro": "Brightspace કૅલેન્ડર સબ્સ્ક્રિપ્શન તમે પહેલેથી જ તપાસો છો તે કૅલેન્ડરમાં કોર્સ ઇવેન્ટ્સ મૂકે છે. તમે ચોક્કસ કોર્સ પસંદ કરી શકો છો અથવા ફીડનો ઉપયોગ કરી શકો છો જે કેલેન્ડર્સ અને કાર્યોને જોડે છે.",
+      "answer": "Brightspace કૅલેન્ડરમાં, સેટિંગ્સ ખોલો, કૅલેન્ડર ફીડ્સ સક્ષમ કરો અને સાચવો. સબ્સ્ક્રાઇબ પસંદ કરો, કૅલેન્ડર પસંદ કરો અને તેના URL ને કૉપિ કરો. વેબ પર આઉટલુકમાં, વેબ પરથી સબ્સ્ક્રાઇબ કરો પસંદ કરો. કમ્પ્યુટર પર Google કૅલેન્ડરમાં, URLમાંથી પસંદ કરો.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "તમારી D2L Brightspace કૅલેન્ડર લિંક મેળવો",
+          "paragraphs": [
+            "જો કોર્સ હોમ પેજ પર કેલેન્ડર વિજેટ હોય, તો સંપૂર્ણ કેલેન્ડર ખોલવા માટે તેનો ઉપયોગ કરો. સબ્સ્ક્રિપ્શન લિંક ખાનગી રાખો."
+          ],
+          "steps": [
+            "કેલેન્ડરમાં સેટિંગ્સ ખોલો, કેલેન્ડર ફીડ્સ સક્ષમ કરો અને સાચવો પસંદ કરો.",
+            "સબ્સ્ક્રાઇબ પસંદ કરો. એક કોર્સ પસંદ કરો, બધા કૅલેન્ડર્સ અને કાર્યો, અથવા ફક્ત કાર્યો. તમને જોઈતી પસંદગી માટે URL કૉપિ કરો."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace ને Outlook સાથે સમન્વયિત કરો",
+          "paragraphs": [
+            "વેબ પર આઉટલુકમાં, કેલેન્ડર ખોલો, કેલેન્ડર ઉમેરો પસંદ કરો અને વેબ પરથી સબસ્ક્રાઇબ કરો પસંદ કરો. Brightspace URL પેસ્ટ કરો અને પુષ્ટિ કરો. માઇક્રોસોફ્ટનું કહેવું છે કે ફેરફારો દેખાવામાં 24 કલાકથી વધુ સમય લાગી શકે છે."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace ને Google કેલેન્ડર સાથે સમન્વયિત કરો",
+          "paragraphs": [
+            "કમ્પ્યુટર પર Google કૅલેન્ડરમાં, અન્ય કૅલેન્ડરની બાજુમાં વત્તા પર ક્લિક કરો. URLમાંથી પસંદ કરો, Brightspace URL પેસ્ટ કરો અને કૅલેન્ડર ઉમેરો. ફાઇલ આયાત તમને સ્નેપશોટ આપે છે. પછીના ફેરફારો મેળવવા માટે સબ્સ્ક્રિપ્શન URL નો ઉપયોગ કરો."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "કેલેન્ડરમાંથી કોર્સ અથવા કાર્ય કેમ ખૂટે છે?",
+          "answer": "તપાસો કે તે Brightspace કૅલેન્ડરમાં દૃશ્યમાન છે. તમે કઈ ફીડમાં સબ્સ્ક્રાઇબ કર્યું છે તે તપાસો, કારણ કે સિંગલ-કોર્સ ફીડ અને ટાસ્ક-ઓન્લી ફીડમાં વિવિધ આઇટમ્સ શામેલ છે. Brightspace માં તાત્કાલિક તારીખોની સીધી સરખામણી કરો."
+        },
+        {
+          "question": "શું હું દરેક કોર્સને બદલે એક કોર્સ પસંદ કરી શકું?",
+          "answer": "હા. Brightspace સબ્સ્ક્રિપ્શન મેનૂમાં, તમે તેના URLને કૉપિ કરો તે પહેલાં ચોક્કસ કૅલેન્ડરને પસંદ કરો."
+        }
+      ]
+    },
+    "kn": {
+      "title": "Brightspace ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು ಔಟ್ಲುಕ್ ಅಥವಾ ಗೂಗಲ್ ಕ್ಯಾಲೆಂಡರ್ಗೆ ಸಿಂಕ್ ಮಾಡುವುದು ಹೇಗೆ",
+      "description": "D2L Brightspace ನಲ್ಲಿ ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ, ವೆಬ್ ಅಥವಾ Google ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ Outlook ನಲ್ಲಿ ಯಾವ ಕೋರ್ಸ್‌ಗಳನ್ನು ಸೇರಿಸಬೇಕು ಮತ್ತು ಚಂದಾದಾರರಾಗಬೇಕೆಂದು ಆಯ್ಕೆಮಾಡಿ.",
+      "intro": "Brightspace ಕ್ಯಾಲೆಂಡರ್ ಚಂದಾದಾರಿಕೆಯು ನೀವು ಈಗಾಗಲೇ ಪರಿಶೀಲಿಸಿದ ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಕೋರ್ಸ್ ಈವೆಂಟ್‌ಗಳನ್ನು ಇರಿಸುತ್ತದೆ. ನೀವು ನಿರ್ದಿಷ್ಟ ಕೋರ್ಸ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು ಅಥವಾ ಕ್ಯಾಲೆಂಡರ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಗಳನ್ನು ಸಂಯೋಜಿಸುವ ಫೀಡ್ ಅನ್ನು ಬಳಸಬಹುದು.",
+      "answer": "Brightspace ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ, ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಉಳಿಸಿ. ಚಂದಾದಾರಿಕೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ, ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಅದರ URL ಅನ್ನು ನಕಲಿಸಿ. ವೆಬ್‌ನಲ್ಲಿನ ಔಟ್‌ಲುಕ್‌ನಲ್ಲಿ, ವೆಬ್‌ನಿಂದ ಚಂದಾದಾರರಾಗಿ ಆಯ್ಕೆಮಾಡಿ. ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ Google ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ, URL ನಿಂದ ಆಯ್ಕೆಮಾಡಿ.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "ನಿಮ್ಮ D2L Brightspace ಕ್ಯಾಲೆಂಡರ್ ಲಿಂಕ್ ಪಡೆಯಿರಿ",
+          "paragraphs": [
+            "ಕೋರ್ಸ್ ಮುಖಪುಟವು ಕ್ಯಾಲೆಂಡರ್ ವಿಜೆಟ್ ಹೊಂದಿದ್ದರೆ, ಪೂರ್ಣ ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಲು ಅದನ್ನು ಬಳಸಿ. ಚಂದಾದಾರಿಕೆ ಲಿಂಕ್ ಅನ್ನು ಖಾಸಗಿಯಾಗಿ ಇರಿಸಿ."
+          ],
+          "steps": [
+            "ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ, ಕ್ಯಾಲೆಂಡರ್ ಫೀಡ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಉಳಿಸಿ.",
+            "ಚಂದಾದಾರರಾಗಿ ಆಯ್ಕೆಮಾಡಿ. ಒಂದು ಕೋರ್ಸ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಎಲ್ಲಾ ಕ್ಯಾಲೆಂಡರ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಗಳು ಅಥವಾ ಕಾರ್ಯಗಳು ಮಾತ್ರ. ನಿಮಗೆ ಬೇಕಾದ ಆಯ್ಕೆಗಾಗಿ URL ಅನ್ನು ನಕಲಿಸಿ."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Outlook ಗೆ Brightspace ಸಿಂಕ್ ಮಾಡಿ",
+          "paragraphs": [
+            "ವೆಬ್‌ನಲ್ಲಿನ ಔಟ್‌ಲುಕ್‌ನಲ್ಲಿ, ಕ್ಯಾಲೆಂಡರ್ ತೆರೆಯಿರಿ, ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸು ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ವೆಬ್‌ನಿಂದ ಚಂದಾದಾರರಾಗಿ ಆಯ್ಕೆಮಾಡಿ. Brightspace URL ಅನ್ನು ಅಂಟಿಸಿ ಮತ್ತು ದೃಢೀಕರಿಸಿ. ಬದಲಾವಣೆಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಲು 24 ಗಂಟೆಗಳಿಗಿಂತ ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು ಎಂದು ಮೈಕ್ರೋಸಾಫ್ಟ್ ಹೇಳುತ್ತದೆ."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace ಅನ್ನು Google ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಿ",
+          "paragraphs": [
+            "ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ Google ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ, ಇತರೆ ಕ್ಯಾಲೆಂಡರ್‌ಗಳ ಪಕ್ಕದಲ್ಲಿರುವ ಪ್ಲಸ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. URL ನಿಂದ ಆರಿಸಿ, Brightspace URL ಅನ್ನು ಅಂಟಿಸಿ ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸಿ. ಫೈಲ್ ಆಮದು ನಿಮಗೆ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ನೀಡುತ್ತದೆ. ನಂತರದ ಬದಲಾವಣೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಚಂದಾದಾರಿಕೆ URL ಅನ್ನು ಬಳಸಿ."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಕೋರ್ಸ್ ಅಥವಾ ಟಾಸ್ಕ್ ಏಕೆ ಕಾಣೆಯಾಗಿದೆ?",
+          "answer": "ಇದು Brightspace ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಗೋಚರಿಸುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ. ಏಕ-ಕೋರ್ಸ್ ಫೀಡ್ ಮತ್ತು ಕಾರ್ಯಗಳು-ಮಾತ್ರ ಫೀಡ್ ವಿಭಿನ್ನ ಐಟಂಗಳನ್ನು ಒಳಗೊಂಡಿರುವುದರಿಂದ ನೀವು ಯಾವ ಫೀಡ್‌ಗೆ ಚಂದಾದಾರರಾಗಿರುವಿರಿ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ. Brightspace ನಲ್ಲಿ ತುರ್ತು ದಿನಾಂಕಗಳನ್ನು ನೇರವಾಗಿ ಹೋಲಿಕೆ ಮಾಡಿ."
+        },
+        {
+          "question": "ಪ್ರತಿ ಕೋರ್ಸ್‌ಗೆ ಬದಲಾಗಿ ನಾನು ಒಂದು ಕೋರ್ಸ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದೇ?",
+          "answer": "ಹೌದು. Brightspace ಚಂದಾದಾರಿಕೆ ಮೆನುವಿನಲ್ಲಿ, ನೀವು ಅದರ URL ಅನ್ನು ನಕಲಿಸುವ ಮೊದಲು ನಿರ್ದಿಷ್ಟ ಕ್ಯಾಲೆಂಡರ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+        }
+      ]
+    },
+    "ml": {
+      "title": "Brightspace കലണ്ടർ Outlook അല്ലെങ്കിൽ Google കലണ്ടറിലേക്ക് എങ്ങനെ സമന്വയിപ്പിക്കാം",
+      "description": "D2L Brightspace-ൽ കലണ്ടർ ഫീഡുകൾ പ്രവർത്തനക്ഷമമാക്കുക, വെബിലെ Outlook അല്ലെങ്കിൽ Google കലണ്ടറിൽ ഏതൊക്കെ കോഴ്സുകൾ ഉൾപ്പെടുത്തണമെന്നും സബ്സ്ക്രൈബ് ചെയ്യണമെന്നും തിരഞ്ഞെടുക്കുക.",
+      "intro": "ഒരു Brightspace കലണ്ടർ സബ്‌സ്‌ക്രിപ്‌ഷൻ നിങ്ങൾ ഇതിനകം പരിശോധിച്ച കലണ്ടറിൽ കോഴ്‌സ് ഇവൻ്റുകൾ ഇടുന്നു. നിങ്ങൾക്ക് ഒരു നിർദ്ദിഷ്ട കോഴ്സ് തിരഞ്ഞെടുക്കാം അല്ലെങ്കിൽ കലണ്ടറുകളും ടാസ്ക്കുകളും സംയോജിപ്പിക്കുന്ന ഒരു ഫീഡ് ഉപയോഗിക്കാം.",
+      "answer": "Brightspace കലണ്ടറിൽ, ക്രമീകരണങ്ങൾ തുറക്കുക, കലണ്ടർ ഫീഡുകൾ പ്രവർത്തനക്ഷമമാക്കി സംരക്ഷിക്കുക. സബ്‌സ്‌ക്രൈബ് തിരഞ്ഞെടുക്കുക, ഒരു കലണ്ടർ തിരഞ്ഞെടുത്ത് അതിൻ്റെ URL പകർത്തുക. വെബിലെ ഔട്ട്‌ലുക്കിൽ, വെബിൽ നിന്ന് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക തിരഞ്ഞെടുക്കുക. ഒരു കമ്പ്യൂട്ടറിലെ Google കലണ്ടറിൽ, URL-ൽ നിന്ന് തിരഞ്ഞെടുക്കുക.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "നിങ്ങളുടെ D2L Brightspace കലണ്ടർ ലിങ്ക് നേടുക",
+          "paragraphs": [
+            "കോഴ്‌സ് ഹോം പേജിൽ ഒരു കലണ്ടർ വിജറ്റ് ഉണ്ടെങ്കിൽ, മുഴുവൻ കലണ്ടറും തുറക്കാൻ അത് ഉപയോഗിക്കുക. സബ്‌സ്‌ക്രിപ്‌ഷൻ ലിങ്ക് സ്വകാര്യമായി സൂക്ഷിക്കുക."
+          ],
+          "steps": [
+            "കലണ്ടറിൽ ക്രമീകരണങ്ങൾ തുറക്കുക, കലണ്ടർ ഫീഡുകൾ പ്രവർത്തനക്ഷമമാക്കുക തിരഞ്ഞെടുത്ത് സംരക്ഷിക്കുക.",
+            "സബ്സ്ക്രൈബ് ചെയ്യുക തിരഞ്ഞെടുക്കുക. ഒരു കോഴ്‌സ് തിരഞ്ഞെടുക്കുക, എല്ലാ കലണ്ടറുകളും ടാസ്‌ക്കുകളും അല്ലെങ്കിൽ ടാസ്‌ക്കുകൾ മാത്രം. നിങ്ങൾ ആഗ്രഹിക്കുന്ന തിരഞ്ഞെടുക്കലിനായി URL പകർത്തുക."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Outlook-ലേക്ക് Brightspace സമന്വയിപ്പിക്കുക",
+          "paragraphs": [
+            "വെബിലെ ഔട്ട്‌ലുക്കിൽ, കലണ്ടർ തുറക്കുക, കലണ്ടർ ചേർക്കുക തിരഞ്ഞെടുത്ത് വെബിൽ നിന്ന് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക തിരഞ്ഞെടുക്കുക. Brightspace URL ഒട്ടിച്ച് സ്ഥിരീകരിക്കുക. മാറ്റങ്ങൾ ദൃശ്യമാകാൻ 24 മണിക്കൂറിലധികം എടുക്കുമെന്ന് മൈക്രോസോഫ്റ്റ് പറയുന്നു."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Google കലണ്ടറിലേക്ക് Brightspace സമന്വയിപ്പിക്കുക",
+          "paragraphs": [
+            "ഒരു കമ്പ്യൂട്ടറിലെ Google കലണ്ടറിൽ, മറ്റ് കലണ്ടറുകൾക്ക് അരികിലുള്ള പ്ലസ് ക്ലിക്ക് ചെയ്യുക. URL-ൽ നിന്ന് തിരഞ്ഞെടുക്കുക, Brightspace URL ഒട്ടിച്ച് കലണ്ടർ ചേർക്കുക. ഒരു ഫയൽ ഇറക്കുമതി നിങ്ങൾക്ക് ഒരു സ്നാപ്പ്ഷോട്ട് നൽകുന്നു. പിന്നീടുള്ള മാറ്റങ്ങൾ ലഭിക്കാൻ സബ്സ്ക്രിപ്ഷൻ URL ഉപയോഗിക്കുക."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "കലണ്ടറിൽ നിന്ന് ഒരു കോഴ്‌സോ ചുമതലയോ നഷ്‌ടമായിരിക്കുന്നത് എന്തുകൊണ്ട്?",
+          "answer": "Brightspace കലണ്ടറിൽ ഇത് ദൃശ്യമാണോയെന്ന് പരിശോധിക്കുക. സിംഗിൾ-കോഴ്‌സ് ഫീഡിലും ടാസ്‌ക്കുകൾക്ക് മാത്രമുള്ള ഫീഡിലും വ്യത്യസ്‌ത ഇനങ്ങൾ ഉൾപ്പെടുന്നതിനാൽ, ഏത് ഫീഡാണ് നിങ്ങൾ സബ്‌സ്‌ക്രൈബ് ചെയ്‌തതെന്ന് പരിശോധിക്കുക. അടിയന്തിര തീയതികൾ Brightspace-ൽ നേരിട്ട് താരതമ്യം ചെയ്യുക."
+        },
+        {
+          "question": "എല്ലാ കോഴ്സിനും പകരം എനിക്ക് ഒരു കോഴ്സ് തിരഞ്ഞെടുക്കാമോ?",
+          "answer": "അതെ. Brightspace സബ്‌സ്‌ക്രിപ്‌ഷൻ മെനുവിൽ, നിങ്ങൾ അതിൻ്റെ URL പകർത്തുന്നതിന് മുമ്പ് നിർദ്ദിഷ്ട കലണ്ടർ തിരഞ്ഞെടുക്കുക."
+        }
+      ]
+    },
+    "mr": {
+      "title": "Brightspace कॅलेंडर Outlook किंवा Google Calendar वर कसे सिंक करावे",
+      "description": "D2L Brightspace मध्ये कॅलेंडर फीड सक्षम करा, वेब किंवा Google कॅलेंडरवर Outlook मध्ये कोणते अभ्यासक्रम समाविष्ट करायचे आणि सदस्यता घ्या.",
+      "intro": "Brightspace कॅलेंडर सबस्क्रिप्शन तुम्ही आधीच तपासत असलेल्या कॅलेंडरमध्ये कोर्स इव्हेंट ठेवते. तुम्ही विशिष्ट कोर्स निवडू शकता किंवा कॅलेंडर आणि कार्ये एकत्रित करणारे फीड वापरू शकता.",
+      "answer": "Brightspace कॅलेंडरमध्ये, सेटिंग्ज उघडा, कॅलेंडर फीड सक्षम करा आणि सेव्ह करा. सदस्यता निवडा, एक कॅलेंडर निवडा आणि त्याची URL कॉपी करा. वेबवरील Outlook मध्ये, वेबवरून सदस्यता घ्या निवडा. संगणकावरील Google Calendar मध्ये, URL मधून निवडा.",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "तुमची D2L Brightspace कॅलेंडर लिंक मिळवा",
+          "paragraphs": [
+            "कोर्सच्या मुख्यपृष्ठावर कॅलेंडर विजेट असल्यास, संपूर्ण कॅलेंडर उघडण्यासाठी त्याचा वापर करा. सबस्क्रिप्शन लिंक खाजगी ठेवा."
+          ],
+          "steps": [
+            "कॅलेंडरमध्ये सेटिंग्ज उघडा, कॅलेंडर फीड सक्षम करा आणि सेव्ह करा निवडा.",
+            "सदस्यता घ्या निवडा. एक कोर्स निवडा, सर्व कॅलेंडर आणि कार्ये किंवा फक्त कार्ये. तुम्हाला हव्या असलेल्या निवडीसाठी URL कॉपी करा."
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace Outlook मध्ये समक्रमित करा",
+          "paragraphs": [
+            "वेबवरील Outlook मध्ये, Calendar उघडा, कॅलेंडर जोडा निवडा आणि वेबवरून सदस्यता घ्या निवडा. Brightspace URL पेस्ट करा आणि पुष्टी करा. मायक्रोसॉफ्टचे म्हणणे आहे की बदल दिसण्यासाठी 24 तासांपेक्षा जास्त वेळ लागू शकतो."
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Google Calendar वर Brightspace सिंक करा",
+          "paragraphs": [
+            "संगणकावरील Google Calendar मध्ये, इतर कॅलेंडरच्या बाजूला प्लस वर क्लिक करा. URL मधून निवडा, Brightspace URL पेस्ट करा आणि कॅलेंडर जोडा. फाइल आयात केल्याने तुम्हाला स्नॅपशॉट मिळेल. नंतरचे बदल प्राप्त करण्यासाठी सदस्यता URL वापरा."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "कॅलेंडरमधून कोर्स किंवा कार्य का गहाळ आहे?",
+          "answer": "ते Brightspace कॅलेंडरमध्ये दृश्यमान असल्याचे तपासा. सिंगल-कोर्स फीड आणि टास्क-ओन्ली फीडमध्ये भिन्न आयटम समाविष्ट असल्याने तुम्ही कोणत्या फीडचे सदस्यत्व घेतले आहे ते तपासा. Brightspace मधील तातडीच्या तारखांची थेट तुलना करा."
+        },
+        {
+          "question": "मी प्रत्येक कोर्सऐवजी एक कोर्स निवडू शकतो का?",
+          "answer": "होय. Brightspace सदस्यता मेनूमध्ये, विशिष्ट कॅलेंडरची URL कॉपी करण्यापूर्वी निवडा."
+        }
+      ]
+    },
+    "or": {
+      "title": "Brightspace କ୍ୟାଲେଣ୍ଡରକୁ Outlook କିମ୍ବା ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରକୁ କିପରି ସିଙ୍କ କରିବେ |",
+      "description": "D2L Brightspace ରେ କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ ସକ୍ଷମ କର, ୱେବ୍ କିମ୍ବା ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ Outlook ରେ କେଉଁ ପାଠ୍ୟକ୍ରମ ଅନ୍ତର୍ଭୂକ୍ତ ଏବଂ ସବସ୍କ୍ରାଇବ କରିବାକୁ ବାଛ |",
+      "intro": "ଏକ Brightspace କ୍ୟାଲେଣ୍ଡର ସଦସ୍ୟତା ଆପଣ ପୂର୍ବରୁ ଯାଞ୍ଚ କରିଥିବା କ୍ୟାଲେଣ୍ଡରରେ ପାଠ୍ୟକ୍ରମ ଇଭେଣ୍ଟଗୁଡିକ ରଖନ୍ତି | ଆପଣ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ପାଠ୍ୟକ୍ରମ ବାଛିପାରିବେ କିମ୍ବା ଏକ ଫିଡ୍ ବ୍ୟବହାର କରିପାରିବେ ଯାହା କ୍ୟାଲେଣ୍ଡର ଏବଂ କାର୍ଯ୍ୟଗୁଡ଼ିକୁ ଏକତ୍ର କରିଥାଏ |",
+      "answer": "Brightspace କ୍ୟାଲେଣ୍ଡରରେ, ସେଟିଂସମୂହ ଖୋଲନ୍ତୁ, କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ ସକ୍ଷମ କରନ୍ତୁ ଏବଂ ସଞ୍ଚୟ କରନ୍ତୁ | ସଦସ୍ୟତା ଚୟନ କରନ୍ତୁ, ଏକ କ୍ୟାଲେଣ୍ଡର ବାଛନ୍ତୁ ଏବଂ ଏହାର URL କପି କରନ୍ତୁ | ୱେବରେ Outlook ରେ, ୱେବରୁ ସବସ୍କ୍ରାଇବ୍ ବାଛନ୍ତୁ | ଏକ କମ୍ପ୍ୟୁଟରରେ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ, URL ରୁ ବାଛନ୍ତୁ |",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "ଆପଣଙ୍କର D2L Brightspace କ୍ୟାଲେଣ୍ଡର ଲିଙ୍କ୍ ପାଆନ୍ତୁ |",
+          "paragraphs": [
+            "ଯଦି ପାଠ୍ୟକ୍ରମର ମୂଳପୃଷ୍ଠାରେ ଏକ କ୍ୟାଲେଣ୍ଡର ୱିଜେଟ୍ ଅଛି, ତେବେ ପୂର୍ଣ୍ଣ କ୍ୟାଲେଣ୍ଡର ଖୋଲିବାକୁ ଏହାକୁ ବ୍ୟବହାର କରନ୍ତୁ | ସଦସ୍ୟତା ଲିଙ୍କକୁ ବ୍ୟକ୍ତିଗତ ରଖନ୍ତୁ |"
+          ],
+          "steps": [
+            "କ୍ୟାଲେଣ୍ଡରରେ ସେଟିଂସମୂହ ଖୋଲନ୍ତୁ, କ୍ୟାଲେଣ୍ଡର ଫିଡ୍ ସକ୍ଷମ କରନ୍ତୁ ଏବଂ ସଂରକ୍ଷଣ କରନ୍ତୁ |",
+            "ସଦସ୍ୟତା ଚୟନ କରନ୍ତୁ | ଗୋଟିଏ ପାଠ୍ୟକ୍ରମ, ସମସ୍ତ କ୍ୟାଲେଣ୍ଡର ଏବଂ ଟାସ୍କ, କିମ୍ବା କେବଳ ଟାସ୍କ ବାଛନ୍ତୁ | ଆପଣ ଚାହୁଁଥିବା ଚୟନ ପାଇଁ URL କପି କରନ୍ତୁ |"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Outlook କୁ Brightspace ସିଙ୍କ କରନ୍ତୁ |",
+          "paragraphs": [
+            "ୱେବରେ Outlook ରେ, କ୍ୟାଲେଣ୍ଡର ଖୋଲନ୍ତୁ, କ୍ୟାଲେଣ୍ଡର ଯୋଡନ୍ତୁ ବାଛନ୍ତୁ ଏବଂ ୱେବରୁ ସଦସ୍ୟତା ଚୟନ କରନ୍ତୁ | Brightspace URL ଲେପନ କରନ୍ତୁ ଏବଂ ନିଶ୍ଚିତ କରନ୍ତୁ | ମାଇକ୍ରୋସଫ୍ଟ କହିଛି ଯେ ପରିବର୍ତ୍ତନଗୁଡିକ ଦେଖାଯିବାକୁ 24 ଘଣ୍ଟାରୁ ଅଧିକ ସମୟ ନେଇପାରେ |"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ Brightspace ସିଙ୍କ୍ କରନ୍ତୁ |",
+          "paragraphs": [
+            "ଏକ କମ୍ପ୍ୟୁଟରରେ ଗୁଗୁଲ୍ କ୍ୟାଲେଣ୍ଡରରେ, ଅନ୍ୟ କ୍ୟାଲେଣ୍ଡରଗୁଡ଼ିକ ପାଖରେ ଥିବା ପ୍ଲସ୍ କ୍ଲିକ୍ କରନ୍ତୁ | URL ରୁ ବାଛନ୍ତୁ, Brightspace URL ଲେପନ କରନ୍ତୁ ଏବଂ କ୍ୟାଲେଣ୍ଡର ଯୋଡନ୍ତୁ | ଏକ ଫାଇଲ୍ ଆମଦାନୀ ଆପଣଙ୍କୁ ଏକ ସ୍ନାପସଟ୍ ଦେଇଥାଏ | ପରବର୍ତ୍ତୀ ପରିବର୍ତ୍ତନ ଗ୍ରହଣ କରିବାକୁ ସଦସ୍ୟତା URL ବ୍ୟବହାର କରନ୍ତୁ |"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "କ୍ୟାଲେଣ୍ଡରରୁ ଏକ ପାଠ୍ୟକ୍ରମ କିମ୍ବା କାର୍ଯ୍ୟ କାହିଁକି ହଜିଯାଉଛି?",
+          "answer": "ଯାଞ୍ଚ କରନ୍ତୁ ଯେ ଏହା Brightspace କ୍ୟାଲେଣ୍ଡରରେ ଦୃଶ୍ୟମାନ ହେଉଛି | ଆପଣ କେଉଁ ଫିଡ୍କୁ ସବସ୍କ୍ରାଇବ କରିଛନ୍ତି ଯାଞ୍ଚ କରନ୍ତୁ, ଯେହେତୁ ଗୋଟିଏ ପାଠ୍ୟ ଫିଡ୍ ଏବଂ ଏକ ଟାସ୍କ-କେବଳ ଫିଡ୍ ବିଭିନ୍ନ ଆଇଟମ୍ ଅନ୍ତର୍ଭୂକ୍ତ କରେ | ସିଧାସଳଖ Brightspace ରେ ଜରୁରୀ ତାରିଖ ତୁଳନା କରନ୍ତୁ |"
+        },
+        {
+          "question": "ମୁଁ ପ୍ରତ୍ୟେକ ପାଠ୍ୟକ୍ରମ ପରିବର୍ତ୍ତେ ଗୋଟିଏ ପାଠ୍ୟକ୍ରମ ବାଛିବି କି?",
+          "answer": "ହଁ Brightspace ସଦସ୍ୟତା ତାଲିକାରେ, ଆପଣ ଏହାର URL କପି କରିବା ପୂର୍ବରୁ ନିର୍ଦ୍ଦିଷ୍ଟ କ୍ୟାଲେଣ୍ଡର ବାଛନ୍ତୁ |"
+        }
+      ]
+    },
+    "pa": {
+      "title": "Brightspace ਕੈਲੰਡਰ ਨੂੰ ਆਉਟਲੁੱਕ ਜਾਂ ਗੂਗਲ ਕੈਲੰਡਰ ਨਾਲ ਕਿਵੇਂ ਸਿੰਕ ਕਰਨਾ ਹੈ",
+      "description": "D2L Brightspace ਵਿੱਚ ਕੈਲੰਡਰ ਫੀਡਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ, ਚੁਣੋ ਕਿ ਕਿਹੜੇ ਕੋਰਸਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨਾ ਹੈ ਅਤੇ ਵੈੱਬ ਜਾਂ Google ਕੈਲੰਡਰ 'ਤੇ Outlook ਵਿੱਚ ਗਾਹਕ ਬਣਨਾ ਹੈ।",
+      "intro": "ਇੱਕ Brightspace ਕੈਲੰਡਰ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਕੋਰਸ ਇਵੈਂਟਾਂ ਨੂੰ ਕੈਲੰਡਰ ਵਿੱਚ ਰੱਖਦਾ ਹੈ ਜਿਸਦੀ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਜਾਂਚ ਕਰਦੇ ਹੋ। ਤੁਸੀਂ ਇੱਕ ਖਾਸ ਕੋਰਸ ਚੁਣ ਸਕਦੇ ਹੋ ਜਾਂ ਇੱਕ ਫੀਡ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਕੈਲੰਡਰਾਂ ਅਤੇ ਕਾਰਜਾਂ ਨੂੰ ਜੋੜਦੀ ਹੈ।",
+      "answer": "Brightspace ਕੈਲੰਡਰ ਵਿੱਚ, ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ, ਕੈਲੰਡਰ ਫੀਡਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰੋ। ਸਬਸਕ੍ਰਾਈਬ ਚੁਣੋ, ਇੱਕ ਕੈਲੰਡਰ ਚੁਣੋ ਅਤੇ ਇਸਦਾ URL ਕਾਪੀ ਕਰੋ। ਵੈੱਬ 'ਤੇ ਆਉਟਲੁੱਕ ਵਿੱਚ, ਵੈੱਬ ਤੋਂ ਸਬਸਕ੍ਰਾਈਬ ਚੁਣੋ। ਕੰਪਿਊਟਰ 'ਤੇ Google ਕੈਲੰਡਰ ਵਿੱਚ, URL ਤੋਂ ਚੁਣੋ।",
+      "sections": [
+        {
+          "id": "enable-the-feed",
+          "heading": "ਆਪਣਾ D2L Brightspace ਕੈਲੰਡਰ ਲਿੰਕ ਪ੍ਰਾਪਤ ਕਰੋ",
+          "paragraphs": [
+            "ਜੇਕਰ ਕੋਰਸ ਦੇ ਮੁੱਖ ਪੰਨੇ 'ਤੇ ਕੈਲੰਡਰ ਵਿਜੇਟ ਹੈ, ਤਾਂ ਪੂਰਾ ਕੈਲੰਡਰ ਖੋਲ੍ਹਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰੋ। ਗਾਹਕੀ ਲਿੰਕ ਨੂੰ ਨਿੱਜੀ ਰੱਖੋ।"
+          ],
+          "steps": [
+            "ਕੈਲੰਡਰ ਵਿੱਚ ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ, ਕੈਲੰਡਰ ਫੀਡ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ ਅਤੇ ਸੇਵ ਕਰੋ ਨੂੰ ਚੁਣੋ।",
+            "ਸਬਸਕ੍ਰਾਈਬ ਚੁਣੋ। ਇੱਕ ਕੋਰਸ ਚੁਣੋ, ਸਾਰੇ ਕੈਲੰਡਰ ਅਤੇ ਕਾਰਜ, ਜਾਂ ਕੇਵਲ ਕਾਰਜ। ਆਪਣੀ ਪਸੰਦ ਦੀ ਚੋਣ ਲਈ URL ਕਾਪੀ ਕਰੋ।"
+          ]
+        },
+        {
+          "id": "set-up-outlook",
+          "heading": "Brightspace ਨੂੰ ਆਉਟਲੁੱਕ ਨਾਲ ਸਿੰਕ ਕਰੋ",
+          "paragraphs": [
+            "ਵੈੱਬ 'ਤੇ ਆਉਟਲੁੱਕ ਵਿੱਚ, ਕੈਲੰਡਰ ਖੋਲ੍ਹੋ, ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ ਚੁਣੋ ਅਤੇ ਵੈੱਬ ਤੋਂ ਸਬਸਕ੍ਰਾਈਬ ਚੁਣੋ। Brightspace URL ਨੂੰ ਪੇਸਟ ਕਰੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ। ਮਾਈਕ੍ਰੋਸਾਫਟ ਦਾ ਕਹਿਣਾ ਹੈ ਕਿ ਤਬਦੀਲੀਆਂ ਨੂੰ ਦਿਖਾਈ ਦੇਣ ਲਈ 24 ਘੰਟਿਆਂ ਤੋਂ ਵੱਧ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ।"
+          ]
+        },
+        {
+          "id": "set-up-google",
+          "heading": "Brightspace ਨੂੰ Google ਕੈਲੰਡਰ ਨਾਲ ਸਿੰਕ ਕਰੋ",
+          "paragraphs": [
+            "ਕੰਪਿਊਟਰ 'ਤੇ Google ਕੈਲੰਡਰ ਵਿੱਚ, ਹੋਰ ਕੈਲੰਡਰਾਂ ਦੇ ਨਾਲ ਪਲੱਸ 'ਤੇ ਕਲਿੱਕ ਕਰੋ। URL ਤੋਂ ਚੁਣੋ, Brightspace URL ਪੇਸਟ ਕਰੋ ਅਤੇ ਕੈਲੰਡਰ ਸ਼ਾਮਲ ਕਰੋ। ਇੱਕ ਫਾਈਲ ਆਯਾਤ ਤੁਹਾਨੂੰ ਇੱਕ ਸਨੈਪਸ਼ਾਟ ਦਿੰਦਾ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਗਾਹਕੀ URL ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "ਕੈਲੰਡਰ ਵਿੱਚੋਂ ਕੋਈ ਕੋਰਸ ਜਾਂ ਕੰਮ ਕਿਉਂ ਗਾਇਬ ਹੈ?",
+          "answer": "ਜਾਂਚ ਕਰੋ ਕਿ ਇਹ Brightspace ਕੈਲੰਡਰ ਵਿੱਚ ਦਿਖਾਈ ਦੇ ਰਿਹਾ ਹੈ। ਜਾਂਚ ਕਰੋ ਕਿ ਤੁਸੀਂ ਕਿਹੜੀ ਫੀਡ ਦੀ ਗਾਹਕੀ ਲਈ ਹੈ, ਕਿਉਂਕਿ ਇੱਕ ਸਿੰਗਲ-ਕੋਰਸ ਫੀਡ ਅਤੇ ਇੱਕ ਟਾਸਕ-ਓਨਲੀ ਫੀਡ ਵਿੱਚ ਵੱਖ-ਵੱਖ ਆਈਟਮਾਂ ਸ਼ਾਮਲ ਹਨ। Brightspace ਵਿੱਚ ਜ਼ਰੂਰੀ ਮਿਤੀਆਂ ਦੀ ਸਿੱਧੀ ਤੁਲਨਾ ਕਰੋ।"
+        },
+        {
+          "question": "ਕੀ ਮੈਂ ਹਰ ਕੋਰਸ ਦੀ ਬਜਾਏ ਇੱਕ ਕੋਰਸ ਚੁਣ ਸਕਦਾ/ਦੀ ਹਾਂ?",
+          "answer": "ਹਾਂ। Brightspace ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਮੀਨੂ ਵਿੱਚ, ਇਸਦੇ URL ਨੂੰ ਕਾਪੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਖਾਸ ਕੈਲੰਡਰ ਦੀ ਚੋਣ ਕਰੋ।"
+        }
+      ]
+    }
+  }
+}

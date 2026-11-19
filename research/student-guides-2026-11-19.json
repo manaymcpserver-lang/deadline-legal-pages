@@ -1,0 +1,64 @@
+{
+  "researched": "2026-11-19",
+  "method": "Google Autocomplete in English (United States), live web results and official platform or university documentation.",
+  "volume_data": null,
+  "observations": [
+    {
+      "input": "how to keep track of college assignments",
+      "suggestions": [
+        "how to keep track of college assignments",
+        "best way to keep track of college assignments",
+        "how to keep up with college assignments",
+        "how to keep track of assignments in college reddit",
+        "apps to keep track of college assignments",
+        "best app to keep track of college assignments",
+        "how to keep track of assignments and due dates in college",
+        "how to organize your college assignments"
+      ],
+      "guide": "how-to-keep-track-of-college-assignments"
+    },
+    {
+      "input": "how to add blackboard calendar to",
+      "suggestions": [
+        "how to add blackboard calendar to apple calendar",
+        "how to add blackboard calendar to google calendar",
+        "how to add blackboard calendar to outlook",
+        "how to add blackboard calendar to iphone",
+        "how to add blackboard calendar to notion",
+        "how to add blackboard to calendar",
+        "how to add blackboard assignments to calendar",
+        "how to add blackboard assignments to google calendar"
+      ],
+      "guide": "add-blackboard-calendar-to-apple-google-calendar"
+    },
+    {
+      "input": "how to sync brightspace calendar",
+      "suggestions": [
+        "how to sync brightspace calendar to outlook",
+        "how to sync brightspace calendar to google calendar",
+        "how to sync brightspace calendar to iphone",
+        "how to connect brightspace to calendar",
+        "how to connect brightspace to google calendar",
+        "how to sync d2l to google calendar",
+        "how to connect brightspace calendar to apple calendar",
+        "how to connect brightspace to outlook calendar"
+      ],
+      "guide": "sync-brightspace-calendar-to-outlook-google"
+    }
+  ],
+  "decisions": [
+    "The college tracker covers work spread across course platforms. It includes a sample week with overlapping deadlines.",
+    "The Blackboard guide covers the global Ultra feed, with separate iPhone and Google Calendar procedures.",
+    "The Brightspace guide documents the opt-in calendar setting, feed selection and separate Outlook and Google Calendar procedures."
+  ],
+  "sources": [
+    "https://studentsuccess.utdallas.edu/online-resources/academic-success-coaching-resources/",
+    "https://activelearning.uga.edu/student-engagement/explore-student-resources/time-management/",
+    "https://www.bu.edu/tech/services/teaching/lms/blackboard/ultra/calendar/",
+    "https://support.apple.com/en-us/102301",
+    "https://support.google.com/calendar/answer/37100?hl=en",
+    "https://community.d2l.com/brightspace/kb/articles/18153-manage-course-events-with-the-calendar-tool",
+    "https://support.microsoft.com/en-us/outlook/import-or-subscribe-to-a-calendar-in-outlook-com-or-outlook-on-the-web"
+  ],
+  "translation_review": "Machine-assisted translation with back-translation checks and targeted editorial corrections."
+}
