@@ -34,16 +34,18 @@ test("guide indexes link to available translations and label the English fallbac
   const translated = JSON.parse(await readFile(new URL("../app/guides/planning-locales.json", import.meta.url), "utf8"));
   for (const locale of locales) {
     const body = visible(await read(`guides/${locale === 'en' ? '' : `${locale}/`}index.html`));
-    if (locale !== 'en' && translated.includes(locale)) {
-      const card = body.match(new RegExp(`<article[^>]*lang="${locale}"[\\s\\S]*?<\\/article>`))?.[0];
-      assert.ok(card, `${locale}: localized card`);
-      assert.ok(card.includes(`href="/guides/${locale}/a-deadline-is-not-a-plan/"`));
+    const localized = locale !== 'en' && translated.includes(locale);
+    const href = localized ? `/guides/${locale}/a-deadline-is-not-a-plan/` : route;
+    const card = [...body.matchAll(/<article\b[\s\S]*?<\/article>/g)]
+      .map(([markup]) => markup)
+      .find(markup => markup.includes(`href="${href}"`));
+    assert.ok(card, `${locale}: planning guide card`);
+    if (localized) {
+      assert.ok(card.includes(`lang="${locale}"`));
       assert.ok(!card.includes('Read in English'));
       continue;
     }
-    const card = body.match(/<article[^>]*lang="en"[\s\S]*?<\/article>/)?.[0];
-    assert.ok(card, `${locale}: English-language card`);
-    assert.ok(card.includes(`href="${route}"`), locale);
+    assert.match(card, /lang="en"/);
     assert.match(card, /dir="ltr"/);
     assert.match(card, /Read in English/);
   }

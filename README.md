@@ -4,10 +4,11 @@ Production source for [nonlate.app](https://nonlate.app/). The site is a static 
 
 The October 26 batch covers studying, Canvas, Google Classroom and Todoist.
 The October 27 batch adds Google Tasks, Microsoft To Do and a checklist for
-choosing an app blocker for 2027. These seven guides have complete copy in all
-47 supported website language variants: 329 article pages and 712 canonical
-sitemap URLs across the site. Every guide index links to matching-language
-articles. Future guides must cover all 47 languages.
+choosing an app blocker for 2027. The November 19 releases add college assignment
+tracking and calendar setup for Canvas, Blackboard and Brightspace. The 11
+search guides cover all 47 supported website language variants. Each guide index
+groups guides by topic and links to their matching translations. When adding a
+guide, place its slug in one section of `app/guides/topics.json`.
 Research evidence is recorded in `research/search-intents-2026-10-26.json`,
 `research/search-strategy-2026-10-27.json` and the provider research files;
 observations are qualitative, not measured search volumes or ranking forecasts.

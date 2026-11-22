@@ -132,6 +132,29 @@ test("search-guide alternates, menus and sitemap reference only available same-p
   }
 });
 
+test("localized guide indexes expose descriptive topic navigation and one card per guide", async () => {
+  const { topics, labels, updated } = JSON.parse(await read("app/guides/topics.json"));
+  const sitemap = await read("out/sitemap.xml");
+  for (const locale of locales) {
+    const route = locale === "en" ? "/guides/" : `/guides/${locale}/`;
+    const html = await read(`out${route}index.html`);
+    const title = html.match(/<title>(.*?) \| Nonlate<\/title>/)[1];
+    assert.ok(html.includes(`<h1>${title}</h1>`), route);
+    assert.ok(sitemap.includes(`<loc>https://nonlate.app${route}</loc><lastmod>${updated}</lastmod>`), route);
+    const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)[1];
+    for (const [topic, slugs] of Object.entries(topics)) {
+      const label = escaped(labels[locale][topic]);
+      assert.ok(main.includes(`<a href="#${topic}">${label}</a>`), route);
+      const prefix = `<section id="${topic}" class="guide-topic"><h2>${label}</h2>`;
+      assert.ok(main.includes(prefix), route);
+      const section = main.split(prefix)[1].split("</section>")[0];
+      const cards = [...section.matchAll(/<h3><a\b[^>]+href="([^"]+)"/g)];
+      assert.deepEqual(cards.map(([, href]) => href.split("/").at(-2)), slugs, route);
+      assert.doesNotMatch(section, /<h2>/, route);
+    }
+  }
+});
+
 test("all 47 indexes expose new guides in their actual language and retain old translations", async () => {
   for (const locale of locales) {
     const html = await read(`out/guides/${locale === "en" ? "" : `${locale}/`}index.html`);

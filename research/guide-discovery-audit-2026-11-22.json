@@ -1,0 +1,59 @@
+{
+  "researched": "2026-11-22",
+  "method": "AgriciDaniel's SEO audit, technical and international workflows, checked against Google Search Central. The production sample used canonical URLs from robots.txt, the sitemap and the guide registry.",
+  "sample": {
+    "sitemap_urls": 900,
+    "duplicate_sitemap_urls": 0,
+    "pages_fetched": 49,
+    "http_200": 49,
+    "guide_index_locales": [
+      "en",
+      "es",
+      "fr",
+      "de",
+      "pt-BR",
+      "ar",
+      "he",
+      "ja",
+      "zh-Hant"
+    ],
+    "pages": [
+      "Guide index and four articles in each sampled guide locale",
+      "English and Arabic home and support pages"
+    ],
+    "nonreciprocal_alternates_in_sample": 0,
+    "missing_canonicals_or_conflicting_index_directives": 0
+  },
+  "findings": [
+    {
+      "id": "guide-index-heading",
+      "evidence": "On every sampled guide index the H1 was a translated two-part slogan. The existing title had a clear topic description.",
+      "change": "Use the localized page title without its brand suffix as the page heading.",
+      "verification": "Compare the title and H1 in every exported guide index."
+    },
+    {
+      "id": "guide-index-navigation",
+      "evidence": "Guide cards appeared in an ungrouped sequence. Readers had to scan the whole index for school, app blocking or task planning topics.",
+      "change": "Group all guide cards into three labeled sections with plain anchor navigation and descriptive article links.",
+      "verification": "Check that each index links to every available guide once as a heading. Follow the topic links in mobile and RTL layouts."
+    },
+    {
+      "id": "guide-index-sitemap-dates",
+      "evidence": "Localized guide index sitemap entries omitted lastmod.",
+      "change": "Record the date of the navigation update for the 47 affected index URLs.",
+      "verification": "Check that the date appears on each guide index entry and that the sitemap still lists only canonical public pages."
+    }
+  ],
+  "unknown": [
+    "Google indexing and impressions",
+    "Ranking and click-through changes",
+    "Field Core Web Vitals"
+  ],
+  "sources": [
+    "https://github.com/AgriciDaniel/chatgpt-seo",
+    "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+    "https://developers.google.com/search/docs/appearance/title-link",
+    "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+  ]
+}
