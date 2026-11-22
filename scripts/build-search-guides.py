@@ -19,6 +19,7 @@ DATA = ROOT / "app/guides/search-content"
 ORIGIN = "https://nonlate.app"
 PILLAR = "block-distracting-apps-until-tasks-are-done"
 UI = json.loads((ROOT / "app/guides/search-ui.json").read_text())
+INDEX = json.loads((ROOT / "app/guides/topics.json").read_text())
 SHARED_TERMS = {"Nonlate", "Canvas", "Google Classroom", "Todoist", "Plus", "Pro", "Focus Lock", "iPhone", "iOS", "Android", "App Store", "Google Play", "Live Sync", "Screen Time", "Planner", "Schedule", "Home", "FAQ"}
 
 
@@ -210,30 +211,80 @@ def build_article(guide, locale, guides_by_slug):
     output.write_text(g.render(tree))
 
 
+def search_card(guide, locale):
+    copy = guide["locales"][locale]
+    updated = guide.get("updated", guide["published"])
+    direction = "rtl" if locale in g.RTL else "ltr"
+    slug = guide["slug"]
+    html = (
+        f'<article class="guide-card" lang="{locale}" dir="{direction}" data-search-guide="{slug}">'
+        f'<h3><a href="{route(locale, slug)}" hreflang="{hreflang(locale)}">{esc(copy["title"])}</a></h3>'
+        f'<p>{esc(copy["description"])}</p>'
+        f'<p class="guide-byline">Nonlate · <time datetime="{updated}">{updated}</time></p></article>'
+    )
+    return fragment(html)[0]
+
+
+def build_index(locale, guides):
+    path = ROOT / "out" / route(locale).strip("/") / "index.html"
+    tree = g.Tree(path.read_text()).root
+    static_shell(tree, locale)
+    main = next(node for node in g.descendants(tree) if node.tag == "main")
+    title = next(node for node in g.descendants(tree) if node.tag == "title")
+    heading = next(node for node in g.descendants(main) if node.tag == "h1")
+    heading.children = [g.Node(text=g.text_content(title).removesuffix(" | Nonlate"))]
+    cards = {guide["slug"]: search_card(guide, locale) for guide in guides}
+    # Move the original cards after localization so their language labels and
+    # links, including any explicit English fallback, stay intact.
+    for group in list(main.children):
+        if "guides-list" not in group.attrs.get("class", "").split():
+            continue
+        for card in (node for node in group.children if node.tag == "article"):
+            card_heading = next(node for node in card.children if node.tag == "h2")
+            link = next(node for node in g.descendants(card_heading) if node.tag == "a")
+            slug = link.attrs["href"].rstrip("/").rsplit("/", 1)[-1]
+            if slug in cards:
+                raise ValueError(f"Duplicate guide card: {locale}/{slug}")
+            card_heading.tag = "h3"
+            cards[slug] = card
+        main.children.remove(group)
+    topics, labels = INDEX["topics"], INDEX["labels"][locale]
+    listed = [slug for slugs in topics.values() for slug in slugs]
+    if set(listed) != set(cards) or len(listed) != len(cards):
+        raise ValueError(f"Guide topics must list every guide exactly once: {locale}")
+    jumps = "".join(f'<li><a href="#{topic}">{esc(labels[topic])}</a></li>' for topic in topics)
+    main.children.extend(fragment(f'<nav class="guide-topics" aria-label="{esc(UI[locale]["toc"])}"><ul>{jumps}</ul></nav>'))
+    for topic, slugs in topics.items():
+        section = fragment(f'<section id="{topic}" class="guide-topic"><h2>{esc(labels[topic])}</h2><div class="guides-list"></div></section>')[0]
+        section.children[-1].children.extend(cards[slug] for slug in slugs)
+        main.children.append(section)
+    path.write_text(g.render(tree))
+
+
 def main():
     guides = load_guides()
     guides_by_slug = {guide["slug"]: guide for guide in guides}
+    if set(INDEX["labels"]) != set(g.LOCALES) or any(
+        set(labels) != set(INDEX["topics"]) or any(not label.strip() for label in labels.values())
+        for labels in INDEX["labels"].values()
+    ):
+        raise ValueError("Guide topics require labels in every supported locale")
     for guide in guides:
         for locale in guide["locales"]:
             build_article(guide, locale, guides_by_slug)
-    # Add cards after legacy localization so its frozen source stays stable.
     for locale in g.LOCALES:
-        index = ROOT / "out" / route(locale).strip("/") / "index.html"
-        tree = g.Tree(index.read_text()).root
-        static_shell(tree, locale)
-        main_node = next(n for n in g.descendants(tree) if n.tag == "main")
-        cards = []
-        for guide in guides:
-            target = locale
-            t, ui = guide["locales"][target], UI[target]
-            label = ui["read"]
-            updated = guide.get("updated", guide["published"])
-            direction = "rtl" if target in g.RTL else "ltr"
-            cards.append(f'<article class="guide-card" lang="{target}" dir="{direction}" data-search-guide="{guide["slug"]}"><h2><a href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{esc(t["title"])}</a></h2><p>{esc(t["description"])}</p><p class="guide-byline">Nonlate · <time datetime="{updated}">{updated}</time></p><a class="guide-read-link" href="{route(target, guide["slug"])}" hreflang="{hreflang(target)}">{label} ↗</a></article>')
-        main_node.children.extend(fragment('<div class="guides-list search-guides">' + ''.join(cards) + '</div>'))
-        index.write_text(g.render(tree))
+        build_index(locale, guides)
     sitemap = ROOT / "out/sitemap.xml"
     xml = sitemap.read_text()
+    for locale in g.LOCALES:
+        index_loc = f"<loc>{ORIGIN}{route(locale)}</loc>"
+        xml, count = re.subn(
+            re.escape(index_loc) + r"(?:\s*<lastmod>[^<]*</lastmod>)?",
+            index_loc + f'<lastmod>{INDEX["updated"]}</lastmod>',
+            xml,
+        )
+        if count != 1:
+            raise ValueError(f"Expected one sitemap entry for the guide index: {locale}")
     entries = ''.join(f'<url><loc>{ORIGIN}{route(locale, guide["slug"])}</loc><lastmod>{guide.get("updated", guide["published"])}</lastmod></url>\n' for guide in guides for locale in guide["locales"])
     sitemap.write_text(xml.replace('</urlset>', entries + '</urlset>'))
     print(f'Built {sum(len(guide["locales"]) for guide in guides)} reviewed search-intent guides; linked from all 47 indexes.')

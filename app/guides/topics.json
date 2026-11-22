@@ -1,0 +1,262 @@
+{
+  "updated": "2026-11-22",
+  "topics": {
+    "school": [
+      "how-to-keep-track-of-college-assignments",
+      "canvas-assignment-planner",
+      "add-canvas-to-google-calendar",
+      "add-blackboard-calendar-to-apple-google-calendar",
+      "sync-brightspace-calendar-to-outlook-google",
+      "google-classroom-assignment-planner"
+    ],
+    "focus": [
+      "block-distracting-apps-until-tasks-are-done",
+      "block-apps-while-studying",
+      "choosing-an-app-blocker-for-2027"
+    ],
+    "planning": [
+      "a-deadline-is-not-a-plan",
+      "best-productivity-app",
+      "google-tasks-distraction-blocker",
+      "microsoft-to-do-distraction-blocker",
+      "todoist-distraction-blocker"
+    ]
+  },
+  "labels": {
+    "en": {
+      "school": "School assignments and calendars",
+      "focus": "App blocking and study focus",
+      "planning": "Task apps and planning"
+    },
+    "es": {
+      "school": "Tareas de clase y calendarios académicos",
+      "focus": "Bloqueo de apps y concentración al estudiar",
+      "planning": "Apps de tareas y planificación"
+    },
+    "fr": {
+      "school": "Devoirs et calendriers scolaires",
+      "focus": "Blocage d’applications et concentration",
+      "planning": "Applications de tâches et planification"
+    },
+    "hi": {
+      "school": "पढ़ाई के असाइनमेंट और कैलेंडर",
+      "focus": "ऐप ब्लॉक करना और पढ़ाई पर ध्यान देना",
+      "planning": "टास्क ऐप और योजना बनाना"
+    },
+    "ar": {
+      "school": "الواجبات الدراسية والتقويمات",
+      "focus": "حظر التطبيقات والتركيز أثناء الدراسة",
+      "planning": "تطبيقات المهام والتخطيط"
+    },
+    "zh-Hans": {
+      "school": "课程作业与校历",
+      "focus": "应用屏蔽与学习专注",
+      "planning": "任务应用与计划安排"
+    },
+    "pt-BR": {
+      "school": "Tarefas escolares e calendários acadêmicos",
+      "focus": "Bloqueio de apps e foco nos estudos",
+      "planning": "Apps de tarefas e planejamento"
+    },
+    "pt-PT": {
+      "school": "Trabalhos escolares e calendários académicos",
+      "focus": "Bloqueio de aplicações e concentração no estudo",
+      "planning": "Aplicações de tarefas e planeamento"
+    },
+    "de": {
+      "school": "Studienaufgaben und Kurskalender",
+      "focus": "Apps blockieren und konzentriert lernen",
+      "planning": "Aufgaben-Apps und Planung"
+    },
+    "ja": {
+      "school": "課題と授業カレンダー",
+      "focus": "アプリをブロックして勉強に集中する",
+      "planning": "タスクアプリと計画"
+    },
+    "id": {
+      "school": "Tugas sekolah dan kalender akademik",
+      "focus": "Pemblokiran aplikasi dan fokus belajar",
+      "planning": "Aplikasi tugas dan perencanaan"
+    },
+    "ru": {
+      "school": "Учебные задания и календари",
+      "focus": "Блокировка приложений и концентрация на учёбе",
+      "planning": "Приложения для задач и планирование"
+    },
+    "ko": {
+      "school": "과제와 학사 일정",
+      "focus": "앱 차단과 공부 집중",
+      "planning": "할 일 앱과 계획 세우기"
+    },
+    "it": {
+      "school": "Compiti e calendari dei corsi",
+      "focus": "Blocco delle app e concentrazione nello studio",
+      "planning": "App per le attività e pianificazione"
+    },
+    "tr": {
+      "school": "Okul ödevleri ve ders takvimleri",
+      "focus": "Uygulama engelleme ve derse odaklanma",
+      "planning": "Görev uygulamaları ve planlama"
+    },
+    "vi": {
+      "school": "Bài tập và lịch học",
+      "focus": "Chặn ứng dụng và tập trung học",
+      "planning": "Ứng dụng quản lý việc và lập kế hoạch"
+    },
+    "pl": {
+      "school": "Zadania szkolne i kalendarze zajęć",
+      "focus": "Blokowanie aplikacji i skupienie na nauce",
+      "planning": "Aplikacje do zadań i planowanie"
+    },
+    "fa": {
+      "school": "تکالیف درسی و تقویم‌های آموزشی",
+      "focus": "مسدود کردن برنامه‌ها و تمرکز هنگام مطالعه",
+      "planning": "برنامه‌های مدیریت کار و برنامه‌ریزی"
+    },
+    "th": {
+      "school": "งานที่ได้รับมอบหมายและปฏิทินการเรียน",
+      "focus": "การบล็อกแอปและการมีสมาธิในการเรียน",
+      "planning": "แอปจัดการงานและการวางแผน"
+    },
+    "nl": {
+      "school": "Schoolopdrachten en lesagenda’s",
+      "focus": "Apps blokkeren en geconcentreerd studeren",
+      "planning": "Takenapps en planning"
+    },
+    "uk": {
+      "school": "Навчальні завдання й календарі",
+      "focus": "Блокування застосунків і зосереджене навчання",
+      "planning": "Застосунки для завдань і планування"
+    },
+    "bn": {
+      "school": "পড়াশোনার অ্যাসাইনমেন্ট ও ক্যালেন্ডার",
+      "focus": "অ্যাপ ব্লক করা ও পড়ায় মনোযোগ",
+      "planning": "কাজের অ্যাপ ও পরিকল্পনা"
+    },
+    "ur": {
+      "school": "درسی اسائنمنٹس اور تعلیمی کیلنڈر",
+      "focus": "ایپس بلاک کرنا اور پڑھائی پر توجہ",
+      "planning": "کاموں کی ایپس اور منصوبہ بندی"
+    },
+    "ta": {
+      "school": "பாடப் பணிகளும் கல்வி நாட்காட்டிகளும்",
+      "focus": "செயலிகளைத் தடுத்துப் படிப்பில் கவனம் செலுத்துதல்",
+      "planning": "பணிச் செயலிகளும் திட்டமிடலும்"
+    },
+    "te": {
+      "school": "పాఠ్య అసైన్‌మెంట్‌లు, క్యాలెండర్లు",
+      "focus": "యాప్‌లను బ్లాక్ చేసి చదువుపై దృష్టి పెట్టడం",
+      "planning": "పని యాప్‌లు, ప్రణాళిక"
+    },
+    "zh-Hant": {
+      "school": "課程作業與行事曆",
+      "focus": "封鎖應用程式與專心讀書",
+      "planning": "任務應用程式與規劃"
+    },
+    "he": {
+      "school": "מטלות לימוד ויומני קורסים",
+      "focus": "חסימת אפליקציות וריכוז בלימודים",
+      "planning": "אפליקציות לניהול משימות ותכנון"
+    },
+    "fil": {
+      "school": "Mga takdang-aralin at kalendaryo ng klase",
+      "focus": "Pag-block ng apps at pagtutok sa pag-aaral",
+      "planning": "Mga app para sa gawain at pagpaplano"
+    },
+    "cs": {
+      "school": "Školní úkoly a kalendáře kurzů",
+      "focus": "Blokování aplikací a soustředění na studium",
+      "planning": "Aplikace pro úkoly a plánování"
+    },
+    "sv": {
+      "school": "Skoluppgifter och kurskalendrar",
+      "focus": "Blockera appar och fokusera på studierna",
+      "planning": "Uppgiftsappar och planering"
+    },
+    "ca": {
+      "school": "Tasques escolars i calendaris acadèmics",
+      "focus": "Bloqueig d’aplicacions i concentració en l’estudi",
+      "planning": "Aplicacions de tasques i planificació"
+    },
+    "da": {
+      "school": "Skoleopgaver og undervisningskalendere",
+      "focus": "Blokering af apps og fokus på studiet",
+      "planning": "Opgaveapps og planlægning"
+    },
+    "fi": {
+      "school": "Opiskelutehtävät ja kurssikalenterit",
+      "focus": "Sovellusten estäminen ja opiskelurauha",
+      "planning": "Tehtäväsovellukset ja suunnittelu"
+    },
+    "el": {
+      "school": "Σχολικές εργασίες και ημερολόγια μαθημάτων",
+      "focus": "Αποκλεισμός εφαρμογών και συγκέντρωση στη μελέτη",
+      "planning": "Εφαρμογές εργασιών και προγραμματισμός"
+    },
+    "hu": {
+      "school": "Iskolai feladatok és tanulmányi naptárak",
+      "focus": "Alkalmazások blokkolása és koncentrált tanulás",
+      "planning": "Feladatkezelő alkalmazások és tervezés"
+    },
+    "ms": {
+      "school": "Tugasan sekolah dan kalendar pembelajaran",
+      "focus": "Sekatan aplikasi dan tumpuan semasa belajar",
+      "planning": "Aplikasi tugasan dan perancangan"
+    },
+    "nb": {
+      "school": "Skoleoppgaver og kurskalendere",
+      "focus": "Blokker apper og konsentrer deg om studiene",
+      "planning": "Oppgaveapper og planlegging"
+    },
+    "ro": {
+      "school": "Teme și calendare de curs",
+      "focus": "Blocarea aplicațiilor și concentrarea la studiu",
+      "planning": "Aplicații de sarcini și planificare"
+    },
+    "hr": {
+      "school": "Školski zadaci i kalendari nastave",
+      "focus": "Blokiranje aplikacija i koncentracija pri učenju",
+      "planning": "Aplikacije za zadatke i planiranje"
+    },
+    "sk": {
+      "school": "Školské úlohy a kalendáre kurzov",
+      "focus": "Blokovanie aplikácií a sústredenie pri učení",
+      "planning": "Aplikácie na správu úloh a plánovanie"
+    },
+    "sl": {
+      "school": "Šolske naloge in koledarji predmetov",
+      "focus": "Blokiranje aplikacij in zbranost pri učenju",
+      "planning": "Aplikacije za naloge in načrtovanje"
+    },
+    "gu": {
+      "school": "અભ્યાસનાં અસાઇનમેન્ટ અને કૅલેન્ડર",
+      "focus": "ઍપ બ્લૉક કરવી અને અભ્યાસ પર ધ્યાન આપવું",
+      "planning": "કામની ઍપ અને આયોજન"
+    },
+    "kn": {
+      "school": "ಅಧ್ಯಯನದ ಅಸೈನ್‌ಮೆಂಟ್‌ಗಳು ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್‌ಗಳು",
+      "focus": "ಆ್ಯಪ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುವುದು ಮತ್ತು ಓದಿನತ್ತ ಗಮನ ಹರಿಸುವುದು",
+      "planning": "ಕೆಲಸದ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಯೋಜನೆ"
+    },
+    "ml": {
+      "school": "പഠന അസൈൻമെന്റുകളും കലണ്ടറുകളും",
+      "focus": "ആപ്പുകൾ തടയലും പഠനത്തിൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കലും",
+      "planning": "ടാസ്‌ക് ആപ്പുകളും ആസൂത്രണവും"
+    },
+    "mr": {
+      "school": "अभ्यासाची असाइनमेंट्स आणि कॅलेंडर",
+      "focus": "ॲप्स ब्लॉक करणे आणि अभ्यासावर लक्ष केंद्रित करणे",
+      "planning": "कामांची ॲप्स आणि नियोजन"
+    },
+    "or": {
+      "school": "ପାଠପଢ଼ାର ଆସାଇନମେଣ୍ଟ ଓ କ୍ୟାଲେଣ୍ଡର",
+      "focus": "ଆପ୍ ବ୍ଲକ୍ କରିବା ଓ ପଢ଼ାରେ ଧ୍ୟାନ ଦେବା",
+      "planning": "କାମର ଆପ୍ ଓ ଯୋଜନା"
+    },
+    "pa": {
+      "school": "ਪੜ੍ਹਾਈ ਦੇ ਅਸਾਈਨਮੈਂਟ ਅਤੇ ਕੈਲੰਡਰ",
+      "focus": "ਐਪਾਂ ਨੂੰ ਬਲੌਕ ਕਰਨਾ ਅਤੇ ਪੜ੍ਹਾਈ 'ਤੇ ਧਿਆਨ ਦੇਣਾ",
+      "planning": "ਕੰਮਾਂ ਦੀਆਂ ਐਪਾਂ ਅਤੇ ਯੋਜਨਾਬੰਦੀ"
+    }
+  }
+}
