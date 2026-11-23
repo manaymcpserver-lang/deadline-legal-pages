@@ -132,6 +132,29 @@ test("search-guide alternates, menus and sitemap reference only available same-p
   }
 });
 
+test("original guides link to related articles in every available language", async () => {
+  const links = JSON.parse(await read("app/guides/legacy-related.json"));
+  const ui = JSON.parse(await read("app/guides/search-ui.json"));
+  const planning = JSON.parse(await read("app/guides/planning-locales.json"));
+  for (const [slug, targets] of Object.entries(links)) {
+    for (const locale of slug === "a-deadline-is-not-a-plan" ? planning : locales) {
+      const route = searchGuidePath(locale, slug);
+      const html = visible(await read(`out${route}index.html`));
+      const navs = [...html.matchAll(/<nav id="related"(?=[ >])[\s\S]*?<\/nav>/g)];
+      assert.equal(navs.length, 1, route);
+      const [nav] = navs[0];
+      assert.ok(nav.includes(`lang="${locale}"`), route);
+      assert.ok(nav.includes(`<h2>${escaped(ui[locale].related)}</h2>`), route);
+      const rendered = [...nav.matchAll(/<a href="([^"]+)" hreflang="([^"]+)">(.*?)<\/a>/gi)];
+      const expected = targets.map(target => {
+        const guide = searchGuides.find(item => item.slug === target);
+        return [searchGuidePath(locale, target), hreflang(locale), escaped(guide.locales[locale].title)];
+      });
+      assert.deepEqual(rendered.map(([, ...parts]) => parts), expected, route);
+    }
+  }
+});
+
 test("localized guide indexes expose descriptive topic navigation and one card per guide", async () => {
   const { topics, labels, updated } = JSON.parse(await read("app/guides/topics.json"));
   const sitemap = await read("out/sitemap.xml");

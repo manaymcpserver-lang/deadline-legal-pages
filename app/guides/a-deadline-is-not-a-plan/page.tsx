@@ -1,3 +1,4 @@
+import LegacyRelatedGuides from "../LegacyRelatedGuides";
 /* eslint-disable @next/next/no-html-link-for-pages -- the post-export guide index requires full-page navigation instead of the older RSC payload */
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -117,6 +118,7 @@ export default function PlanningGuide() {
           <div className="guide-downloads"><a className="guide-read-link" href={appStoreUrl}>Get Nonlate for iPhone ↗</a><a className="guide-read-link" href={playStoreUrl}>Get Nonlate for Android ↗</a></div>
           <p className="guide-disclosure">Connections, sync behavior and blocking controls vary by platform and plan. See <Link href="/#plans">current plans</Link> or <Link href="/support/">contact support</Link> for setup help.</p>
         </aside>
+        <LegacyRelatedGuides guide="a-deadline-is-not-a-plan" />
       </article>
       <a className="guide-back" href="/guides/">← All guides</a>
     </>

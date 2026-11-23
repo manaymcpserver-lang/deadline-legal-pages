@@ -18,6 +18,9 @@ spec.loader.exec_module(g)
 DATA = ROOT / "app/guides/search-content"
 ORIGIN = "https://nonlate.app"
 PILLAR = "block-distracting-apps-until-tasks-are-done"
+PLANNING = "a-deadline-is-not-a-plan"
+PLANNING_LOCALES = json.loads((ROOT / "app/guides/planning-locales.json").read_text())
+LEGACY_RELATED = json.loads((ROOT / "app/guides/legacy-related.json").read_text())
 UI = json.loads((ROOT / "app/guides/search-ui.json").read_text())
 INDEX = json.loads((ROOT / "app/guides/topics.json").read_text())
 SHARED_TERMS = {"Nonlate", "Canvas", "Google Classroom", "Todoist", "Plus", "Pro", "Focus Lock", "iPhone", "iOS", "Android", "App Store", "Google Play", "Live Sync", "Screen Time", "Planner", "Schedule", "Home", "FAQ"}
@@ -211,6 +214,28 @@ def build_article(guide, locale, guides_by_slug):
     output.write_text(g.render(tree))
 
 
+def localize_legacy_related(guides_by_slug):
+    # English markup is rendered by Next so its interactive shell can hydrate.
+    # The existing locale exports are script-free and reuse reviewed guide titles.
+    for source, targets in LEGACY_RELATED.items():
+        locales = PLANNING_LOCALES if source == PLANNING else g.LOCALES
+        for locale in locales:
+            if locale == "en":
+                continue
+            path = ROOT / "out" / route(locale, source).strip("/") / "index.html"
+            tree = g.Tree(path.read_text()).root
+            nav = next(node for node in g.descendants(tree) if node.tag == "nav" and node.attrs.get("id") == "related")
+            label = UI[locale]["related"]
+            nav.attrs.update(lang=locale, **{"aria-label": label})
+            links = "".join(
+                f'<li><a href="{route(locale, slug)}" hreflang="{hreflang(locale)}">'
+                f'{esc(guides_by_slug[slug]["locales"][locale]["title"])}</a></li>'
+                for slug in targets
+            )
+            nav.children = fragment(f'<h2>{esc(label)}</h2><ul>{links}</ul>')
+            path.write_text(g.render(tree))
+
+
 def search_card(guide, locale):
     copy = guide["locales"][locale]
     updated = guide.get("updated", guide["published"])
@@ -272,6 +297,7 @@ def main():
     for guide in guides:
         for locale in guide["locales"]:
             build_article(guide, locale, guides_by_slug)
+    localize_legacy_related(guides_by_slug)
     for locale in g.LOCALES:
         build_index(locale, guides)
     sitemap = ROOT / "out/sitemap.xml"
