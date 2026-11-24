@@ -203,6 +203,16 @@ def build_article(guide, locale, guides_by_slug):
             replacement = fragment(language_menu(guide, locale, "website-languages"))[0]
             node.children = replacement.children
     head = next(n for n in g.descendants(tree) if n.tag == "head")
+    # The pillar shell preloads its store badges. Search guides render text
+    # download links, so its badge resources are never used on these pages.
+    head.children = [
+        node for node in head.children if not (
+            node.tag == "link"
+            and node.attrs.get("rel") == "preload"
+            and node.attrs.get("as") == "image"
+            and node.attrs.get("href", "").startswith("/assets/store-badges/")
+        )
+    ]
     for target in [*guide["locales"], "x-default"]:
         head.children.append(g.Node("link", [("rel", "alternate"), ("hreflang", hreflang(target)), ("href", ORIGIN + route("en" if target == "x-default" else target, guide["slug"]))]))
     graph = [{"@type": "Article", "headline": t["title"], "description": t["description"], "mainEntityOfPage": canonical, "datePublished": guide["published"], "dateModified": updated, "inLanguage": locale, "author": {"@type": "Organization", "name": "Nonlate", "url": ORIGIN + "/"}, "publisher": {"@type": "Organization", "name": "Nonlate"}, "image": ORIGIN + "/og-launch-2026-10.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": ui["home"], "item": ORIGIN + ("/" if locale == "en" else f"/{locale}/")}, {"@type": "ListItem", "position": 2, "name": ui["guides"], "item": ORIGIN + route(locale)}, {"@type": "ListItem", "position": 3, "name": t["title"], "item": canonical}]}]

@@ -85,6 +85,7 @@ test("search guides publish reviewed, complete translations with matching visibl
       assert.ok(html.includes(`rel="canonical" href="https://nonlate.app${route}"`), route);
       assert.ok(html.includes(`content="${escapedAttr(copy.description)}"`), route);
       assert.doesNotMatch(html, /<script(?![^>]*application\/ld\+json|[^>]*language-suggestion\.js)/i, route);
+      assert.doesNotMatch(html, /<link\b(?=[^>]*rel="preload")[^>]*href="\/assets\/store-badges\//, route);
       assert.doesNotMatch(body, /<button\b/, `${route}: inert control`);
       const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
       assert.equal(schema["@graph"].length, 2);
