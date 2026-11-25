@@ -24,7 +24,7 @@ def extract():
     for route in PAGES:
         root=p.Tree((ROOT/'out'/route.strip('/')/'index.html').read_text()).root
         def walk(node,grouped=False):
-            if node.tag in {'script','style'} or 'data-language-switcher' in node.attrs:return
+            if node.tag in {'script','style'} or 'data-language-switcher' in node.attrs or 'data-related-guides' in node.attrs:return
             if not grouped and p.paragraph_unit(node) and p.useful(p.text_content(node)):
                 strings.add(p.text_content(node).strip());grouped=True
                 for child in p.descendants(node):
@@ -58,6 +58,7 @@ def build(strings,locales=None):
             root=p.Tree((ROOT/'out'/route.strip('/')/'index.html').read_text()).root
             def walk(node):
                 if node.tag=='script':return False
+                if 'data-related-guides' in node.attrs:return True
                 if node.tag=='link' and (node.attrs.get('as')=='script' or node.attrs.get('rel')=='modulepreload'):return False
                 if node.tag=='html':node.attrs.update(lang=locale,dir='rtl' if locale in p.RTL else 'ltr')
                 if 'data-language-switcher' in node.attrs:

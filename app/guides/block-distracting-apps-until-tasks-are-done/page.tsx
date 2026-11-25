@@ -1,4 +1,4 @@
-import LegacyRelatedGuides from "../LegacyRelatedGuides";
+import RelatedGuides from "../RelatedGuides";
 /* eslint-disable @next/next/no-html-link-for-pages -- the post-export guide index requires full-page navigation instead of the older RSC payload */
 /* eslint-disable @next/next/no-img-element -- reuse the existing, pre-sized product screenshots and official badges */
 import type { Metadata } from "next";
@@ -154,7 +154,7 @@ export default function AppBlockingGuide() {
           <p className="guide-disclosure">Free download with optional Plus and Pro subscriptions. Device compatibility and store availability vary by country.</p>
         </aside>
         <footer className="guide-notes"><h2>About this guide</h2><p>By Nonlate. Product instructions were checked against Nonlate’s iOS and Android settings and blocking rules for this publication. Screenshots show platform examples; your theme and app version may differ.</p><p>For more details, see <Link href="/#moment">how Nonlate works</Link>, <Link href="/#faq">product questions</Link> and our <Link href="/privacy/">privacy policy</Link>.</p></footer>
-        <LegacyRelatedGuides guide="block-distracting-apps-until-tasks-are-done" />
+        <RelatedGuides page="block-distracting-apps-until-tasks-are-done" />
       </article>
       <a className="guide-back" href="/guides/">← All guides</a>
     </>

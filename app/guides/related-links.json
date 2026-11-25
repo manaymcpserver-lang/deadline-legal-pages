@@ -13,5 +13,10 @@
     "choosing-an-app-blocker-for-2027",
     "google-tasks-distraction-blocker",
     "todoist-distraction-blocker"
+  ],
+  "support": [
+    "add-canvas-to-google-calendar",
+    "add-blackboard-calendar-to-apple-google-calendar",
+    "sync-brightspace-calendar-to-outlook-google"
   ]
 }

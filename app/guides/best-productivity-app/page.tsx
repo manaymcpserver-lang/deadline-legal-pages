@@ -1,4 +1,4 @@
-import LegacyRelatedGuides from "../LegacyRelatedGuides";
+import RelatedGuides from "../RelatedGuides";
 /* eslint-disable @next/next/no-html-link-for-pages -- the post-export guide index requires full-page navigation instead of the older RSC payload */
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -41,7 +41,7 @@ export default function ProductivityGuide() {
         <div className="guide-downloads"><a className="guide-read-link" href={appStoreUrl}>Download Nonlate on the App Store</a><a className="guide-read-link" href={playStoreUrl}>Get Nonlate on Google Play</a></div>
       </section>
       <nav className="guide-toc" aria-label="Guides"><ul><li><Link href={firstGuide.href}>{firstGuide.title}</Link></li></ul></nav>
-      <LegacyRelatedGuides guide="best-productivity-app" />
+      <RelatedGuides page="best-productivity-app" />
     </article>
     <a className="guide-back" href="/guides/">← All guides</a>
   </>;

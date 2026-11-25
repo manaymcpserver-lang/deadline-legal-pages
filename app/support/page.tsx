@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import RelatedGuides from "../guides/RelatedGuides";
 import { LegalPage } from "../components/LegalPage";
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function SupportPage() {
         <section className="support-card"><h3>Subscriptions and source trial</h3><p>Questions about store purchases, restoring access, or the 30-day source trial.</p></section>
         <section className="support-card"><h3>Data deletion requests</h3><p>Requests to remove data associated with Nonlate.</p></section>
       </div>
+      <RelatedGuides page="support" />
     </LegalPage>
   );
 }

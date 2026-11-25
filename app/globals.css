@@ -553,6 +553,8 @@ p { text-wrap: pretty; }
 .legal-content h3 { margin: 25px 0 9px; font-size: 19px; }
 .legal-content p, .legal-content li { color: #b4b8c7; }
 .legal-content ul, .legal-content ol { padding-left: 22px; }
+.legal-content .guide-toc { margin-top: 38px; }
+.legal-content .guide-toc ul { padding: 0; padding-inline-start: 22px; }
 .legal-content li + li { margin-top: 7px; }
 .legal-content a { color: var(--violet-soft); text-decoration: underline; text-underline-offset: 3px; }
 .legal-content code { padding: 2px 5px; border-radius: 5px; background: rgba(255, 255, 255, .06); font-family: var(--font-jetbrains), monospace; }
