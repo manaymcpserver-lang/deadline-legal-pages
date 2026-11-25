@@ -133,13 +133,15 @@ test("search-guide alternates, menus and sitemap reference only available same-p
   }
 });
 
-test("original guides link to related articles in every available language", async () => {
-  const links = JSON.parse(await read("app/guides/legacy-related.json"));
+test("original guides and Support link to related articles in every available language", async () => {
+  const links = JSON.parse(await read("app/guides/related-links.json"));
   const ui = JSON.parse(await read("app/guides/search-ui.json"));
   const planning = JSON.parse(await read("app/guides/planning-locales.json"));
   for (const [slug, targets] of Object.entries(links)) {
     for (const locale of slug === "a-deadline-is-not-a-plan" ? planning : locales) {
-      const route = searchGuidePath(locale, slug);
+      const route = slug === "support"
+        ? (locale === "en" ? "/support/" : `/${locale}/support/`)
+        : searchGuidePath(locale, slug);
       const html = visible(await read(`out${route}index.html`));
       const navs = [...html.matchAll(/<nav id="related"(?=[ >])[\s\S]*?<\/nav>/g)];
       assert.equal(navs.length, 1, route);

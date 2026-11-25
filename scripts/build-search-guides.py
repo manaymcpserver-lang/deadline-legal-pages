@@ -20,7 +20,7 @@ ORIGIN = "https://nonlate.app"
 PILLAR = "block-distracting-apps-until-tasks-are-done"
 PLANNING = "a-deadline-is-not-a-plan"
 PLANNING_LOCALES = json.loads((ROOT / "app/guides/planning-locales.json").read_text())
-LEGACY_RELATED = json.loads((ROOT / "app/guides/legacy-related.json").read_text())
+RELATED_LINKS = json.loads((ROOT / "app/guides/related-links.json").read_text())
 UI = json.loads((ROOT / "app/guides/search-ui.json").read_text())
 INDEX = json.loads((ROOT / "app/guides/topics.json").read_text())
 SHARED_TERMS = {"Nonlate", "Canvas", "Google Classroom", "Todoist", "Plus", "Pro", "Focus Lock", "iPhone", "iOS", "Android", "App Store", "Google Play", "Live Sync", "Screen Time", "Planner", "Schedule", "Home", "FAQ"}
@@ -224,15 +224,16 @@ def build_article(guide, locale, guides_by_slug):
     output.write_text(g.render(tree))
 
 
-def localize_legacy_related(guides_by_slug):
+def localize_related_links(guides_by_slug):
     # English markup is rendered by Next so its interactive shell can hydrate.
     # The existing locale exports are script-free and reuse reviewed guide titles.
-    for source, targets in LEGACY_RELATED.items():
+    for source, targets in RELATED_LINKS.items():
         locales = PLANNING_LOCALES if source == PLANNING else g.LOCALES
         for locale in locales:
             if locale == "en":
                 continue
-            path = ROOT / "out" / route(locale, source).strip("/") / "index.html"
+            page = f"/{locale}/support/" if source == "support" else route(locale, source)
+            path = ROOT / "out" / page.strip("/") / "index.html"
             tree = g.Tree(path.read_text()).root
             nav = next(node for node in g.descendants(tree) if node.tag == "nav" and node.attrs.get("id") == "related")
             label = UI[locale]["related"]
@@ -307,7 +308,7 @@ def main():
     for guide in guides:
         for locale in guide["locales"]:
             build_article(guide, locale, guides_by_slug)
-    localize_legacy_related(guides_by_slug)
+    localize_related_links(guides_by_slug)
     for locale in g.LOCALES:
         build_index(locale, guides)
     sitemap = ROOT / "out/sitemap.xml"

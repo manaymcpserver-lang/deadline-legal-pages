@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import related from "./legacy-related.json";
+import related from "./related-links.json";
 import ui from "./search-ui.json";
 
 const contentDir = join(process.cwd(), "app/guides/search-content");
@@ -15,12 +15,12 @@ const titles = new Map(
     }),
 );
 
-export default function LegacyRelatedGuides({ guide }: { guide: keyof typeof related }) {
+export default function RelatedGuides({ page }: { page: keyof typeof related }) {
   return (
-    <nav id="related" className="guide-toc" lang="en" aria-label={ui.en.related}>
+    <nav id="related" className="guide-toc" data-related-guides="" lang="en" aria-label={ui.en.related}>
       <h2>{ui.en.related}</h2>
       <ul>
-        {related[guide].map(slug => {
+        {related[page].map(slug => {
           const title = titles.get(slug);
           if (!title) throw new Error(`Unknown related guide: ${slug}`);
           return <li key={slug}><a href={`/guides/${slug}/`} hrefLang="en">{title}</a></li>;
