@@ -22,6 +22,7 @@ PLANNING = "a-deadline-is-not-a-plan"
 PLANNING_LOCALES = json.loads((ROOT / "app/guides/planning-locales.json").read_text())
 RELATED_LINKS = json.loads((ROOT / "app/guides/related-links.json").read_text())
 UI = json.loads((ROOT / "app/guides/search-ui.json").read_text())
+LOCALIZED_SOURCES = json.loads((ROOT / "app/guides/localized-sources.json").read_text())
 INDEX = json.loads((ROOT / "app/guides/topics.json").read_text())
 SHARED_TERMS = {"Nonlate", "Canvas", "Google Classroom", "Todoist", "Plus", "Pro", "Focus Lock", "iPhone", "iOS", "Android", "App Store", "Google Play", "Live Sync", "Screen Time", "Planner", "Schedule", "Home", "FAQ"}
 
@@ -160,8 +161,14 @@ def article_markup(guide, locale, guides_by_slug):
     parts.append('</ul></nav>')
     if guide.get("sources"):
         parts.append(f'<section id="sources" class="guide-notes"><h2>{ui["sources"]}</h2><ul>')
-        # Source titles retain their original language, explicitly labelled.
-        parts.extend(f'<li><a href="{esc(s["url"])}" lang="en" hreflang="en" dir="ltr">{esc(s["label"])}</a></li>' for s in guide["sources"])
+        for source in guide["sources"]:
+            localized = LOCALIZED_SOURCES.get(source["url"], {}).get(locale)
+            link, language = (localized, locale) if localized else (source, "en")
+            direction = "rtl" if language in g.RTL else "ltr"
+            parts.append(
+                f'<li><a href="{esc(link["url"])}" lang="{language}" '
+                f'hreflang="{hreflang(language)}" dir="{direction}">{esc(link["label"])}</a></li>'
+            )
         parts.append('</ul></section>')
     parts.append('</article>')
     if locale != "en":

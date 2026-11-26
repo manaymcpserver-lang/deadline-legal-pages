@@ -59,6 +59,7 @@ test("search guides publish reviewed, complete translations with matching visibl
   const uiSource = await read("app/guides/search-ui.json");
   assert.equal(createHash("sha256").update(uiSource).digest("hex"), reviews.uiSha256);
   const ui = JSON.parse(uiSource);
+  const localizedSources = JSON.parse(await read("app/guides/localized-sources.json"));
   assert.deepEqual(Object.keys(ui).sort(), [...locales].sort());
   for (const copy of Object.values(ui)) {
     assert.deepEqual(Object.keys(copy).sort(), Object.keys(ui.en).sort());
@@ -104,6 +105,14 @@ test("search guides publish reviewed, complete translations with matching visibl
       for (const faq of copy.faq) {
         assert.ok(body.includes(escaped(faq.question)), route);
         assert.ok(body.includes(escaped(faq.answer)), route);
+      }
+      const sources = html.match(/<section id="sources"[\s\S]*?<\/section>/)?.[0] ?? "";
+      for (const source of guide.sources ?? []) {
+        const localized = localizedSources[source.url]?.[locale];
+        const { url, label } = localized ?? source;
+        const language = localized ? locale : "en";
+        const expected = `<a href="${escapedAttr(url)}" lang="${language}" hreflang="${hreflang(language)}" dir="${direction(language)}">${escaped(label)}</a>`;
+        assert.ok(sources.includes(expected), `${route}: source ${url}`);
       }
       assert.ok(body.includes('href="https://apps.apple.com/app/id6759996284"'));
       assert.ok(body.includes('href="https://play.google.com/store/apps/details?id=com.nonlate.app"'));
