@@ -1,0 +1,310 @@
+{
+  "https://support.google.com/calendar/answer/37100?hl=en": {
+    "es": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=es",
+      "label": "Añadir un calendario desde una URL"
+    },
+    "fr": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=fr",
+      "label": "Ajouter un agenda à partir d'une URL"
+    },
+    "hi": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=hi",
+      "label": "यूआरएल से कोई कैलेंडर जोड़ना"
+    },
+    "ar": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ar",
+      "label": "إضافة تقويم من عنوان URL"
+    },
+    "zh-Hans": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=zh-CN",
+      "label": "通过网址添加日历"
+    },
+    "pt-BR": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=pt-BR",
+      "label": "Adicionar uma agenda a partir de um URL"
+    },
+    "pt-PT": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=pt-PT",
+      "label": "Adicionar uma agenda a partir de um URL"
+    },
+    "de": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=de",
+      "label": "Kalender über eine URL hinzufügen"
+    },
+    "ja": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ja",
+      "label": "URL からカレンダーを追加"
+    },
+    "id": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=id",
+      "label": "Tambahkan kalender dari URL"
+    },
+    "ru": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ru",
+      "label": "Добавить календарь по URL"
+    },
+    "ko": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ko",
+      "label": "URL에서 캘린더 추가하기"
+    },
+    "it": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=it",
+      "label": "Aggiungi un calendario da un URL"
+    },
+    "tr": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=tr",
+      "label": "URL ile takvim ekleyin"
+    },
+    "vi": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=vi",
+      "label": "Thêm lịch từ URL"
+    },
+    "pl": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=pl",
+      "label": "Dodaj kalendarz z adresu URL"
+    },
+    "fa": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=fa",
+      "label": "افزودن تقویم از نشانی وب"
+    },
+    "th": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=th",
+      "label": "เพิ่มปฏิทินจาก URL"
+    },
+    "nl": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=nl",
+      "label": "Een agenda toevoegen via een URL"
+    },
+    "uk": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=uk",
+      "label": "Додати календар за URL-адресою"
+    },
+    "ta": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ta",
+      "label": "URLலில் இருந்து கேலெண்டரைச் சேர்"
+    },
+    "te": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=te",
+      "label": "URL నుండి క్యాలెండర్‌ను జోడించండి"
+    },
+    "zh-Hant": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=zh-TW",
+      "label": "透過網址新增日曆"
+    },
+    "he": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=he",
+      "label": "להוספת יומן מכתובת URL"
+    },
+    "fil": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=fil",
+      "label": "Magdagdag ng kalendaryo mula sa isang URL"
+    },
+    "cs": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=cs",
+      "label": "Přidání kalendáře z adresy URL"
+    },
+    "sv": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=sv",
+      "label": "Lägga till en kalender från en webbadress"
+    },
+    "ca": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ca",
+      "label": "Afegir un calendari a partir d'un URL"
+    },
+    "da": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=da",
+      "label": "Tilføj en kalender via en webadresse"
+    },
+    "fi": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=fi",
+      "label": "Lisää kalenteri URL-osoitteesta"
+    },
+    "el": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=el",
+      "label": "Προσθήκη ημερολογίου από URL"
+    },
+    "hu": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=hu",
+      "label": "Naptár hozzáadása URL-ből"
+    },
+    "nb": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=no",
+      "label": "Legg til kalendere fra nettadresser"
+    },
+    "ro": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=ro",
+      "label": "Adaugă un calendar dintr-o adresă URL"
+    },
+    "hr": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=hr",
+      "label": "Dodavanje kalendara s URL-a"
+    },
+    "sk": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=sk",
+      "label": "Pridať kalendár z webovej adresy"
+    },
+    "sl": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=sl",
+      "label": "Dodajanje koledarja z URL-ja"
+    },
+    "mr": {
+      "url": "https://support.google.com/calendar/answer/37100?hl=mr",
+      "label": "URL मधून कॅलेंडर जोडणे"
+    }
+  },
+  "https://support.google.com/calendar/answer/37118?hl=en": {
+    "es": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=es",
+      "label": "Importar eventos a Google Calendar"
+    },
+    "fr": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=fr",
+      "label": "Importer des événements dans Google Agenda"
+    },
+    "hi": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=hi",
+      "label": "Google Calendar में इवेंट इंपोर्ट करें"
+    },
+    "ar": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ar",
+      "label": "استيراد الأحداث إلى \"تقويم Google\""
+    },
+    "zh-Hans": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=zh-CN",
+      "label": "将活动导入到 Google 日历"
+    },
+    "pt-BR": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=pt-BR",
+      "label": "Importar eventos para o Google Agenda"
+    },
+    "pt-PT": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=pt-PT",
+      "label": "Importar eventos para o Google Agenda"
+    },
+    "de": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=de",
+      "label": "Termine in Google Kalender importieren"
+    },
+    "ja": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ja",
+      "label": "Google カレンダーに予定を読み込む"
+    },
+    "id": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=id",
+      "label": "Mengimpor acara ke Google Kalender"
+    },
+    "ru": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ru",
+      "label": "Как импортировать мероприятия в Google Календарь"
+    },
+    "ko": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ko",
+      "label": "Google Calendar로 일정 가져오기"
+    },
+    "it": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=it",
+      "label": "Importare eventi in Google Calendar"
+    },
+    "tr": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=tr",
+      "label": "Etkinlikleri Google Takvim'e aktarma"
+    },
+    "vi": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=vi",
+      "label": "Nhập các sự kiện vào Lịch Google"
+    },
+    "pl": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=pl",
+      "label": "Importowanie wydarzeń do Kalendarza Google"
+    },
+    "fa": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=fa",
+      "label": "وارد کردن رویدادها به «تقویم Google»"
+    },
+    "th": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=th",
+      "label": "นำเข้ากิจกรรมสู่ Google ปฏิทิน"
+    },
+    "nl": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=nl",
+      "label": "Afspraken importeren in Google Agenda"
+    },
+    "uk": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=uk",
+      "label": "Як імпортувати події в Google Календар"
+    },
+    "ta": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ta",
+      "label": "Google Calendarரில் நிகழ்வுகளை இறக்குதல்"
+    },
+    "te": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=te",
+      "label": "Google క్యాలెండర్‌కు ఈవెంట్‌లను దిగుమతి చేయండి"
+    },
+    "zh-Hant": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=zh-TW",
+      "label": "將活動匯入 Google 日曆"
+    },
+    "he": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=he",
+      "label": "ייבוא אירועים ליומן Google"
+    },
+    "fil": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=fil",
+      "label": "Mag-import ng mga event sa Google Calendar"
+    },
+    "cs": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=cs",
+      "label": "Importování událostí do Kalendáře Google"
+    },
+    "sv": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=sv",
+      "label": "Importera händelser till Google Kalender"
+    },
+    "ca": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ca",
+      "label": "Importar esdeveniments a Google Calendar"
+    },
+    "da": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=da",
+      "label": "Importér begivenheder i Google Kalender"
+    },
+    "fi": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=fi",
+      "label": "Tapahtumien tuominen Google Kalenteriin"
+    },
+    "el": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=el",
+      "label": "Εισαγωγή συμβάντων στο Ημερολόγιο Google"
+    },
+    "hu": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=hu",
+      "label": "Események importálása a Google Naptárba"
+    },
+    "nb": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=no",
+      "label": "Importér aktiviteter til Google Kalender"
+    },
+    "ro": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=ro",
+      "label": "Importă evenimente în Google Calendar"
+    },
+    "hr": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=hr",
+      "label": "Uvoz događaja u Google kalendar"
+    },
+    "sk": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=sk",
+      "label": "Import udalostí do Kalendára Google"
+    },
+    "sl": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=sl",
+      "label": "Uvoz dogodkov v Google Koledar"
+    },
+    "mr": {
+      "url": "https://support.google.com/calendar/answer/37118?hl=mr",
+      "label": "Google Calendar मध्ये इव्हेंट इंपोर्ट करा"
+    }
+  }
+}
