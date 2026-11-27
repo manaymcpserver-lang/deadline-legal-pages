@@ -5,10 +5,12 @@ links, contact addresses, security terms and original policy dates are retained.
 """
 import argparse
 import copy
+from html import escape, unescape
 import importlib.util
 import json
 import os
 from pathlib import Path
+import re
 
 ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('guide_html',ROOT/'scripts/localize-guides.py')
@@ -18,6 +20,31 @@ PAGES=['/privacy/','/terms/','/support/','/data-deletion/']
 
 def destination(locale,path):
     return path if locale=='en' else f'/{locale}{path}'
+
+def share_metadata(document, canonical):
+    # Reuse the reviewed page metadata and leave Next's body markup intact.
+    head, separator, body = document.partition("</head>")
+    title = re.search(r"<title>([^<]+)</title>", head)
+    description = re.search(r'<meta name="description" content="([^"]+)"', head)
+    if not separator or not title or not description:
+        raise ValueError(f"{canonical}: missing title or description for sharing")
+    escaped_title = escape(unescape(title[1]), quote=True)
+    replacements = {
+        'property="og:title"': escaped_title,
+        'property="og:description"': description[1],
+        'property="og:url"': escape(canonical, quote=True),
+        'name="twitter:title"': escaped_title,
+        'name="twitter:description"': description[1],
+    }
+    for attribute, content in replacements.items():
+        head, count = re.subn(
+            r'(<meta ' + re.escape(attribute) + r' content=")[^"]*',
+            lambda match: match[1] + content,
+            head,
+        )
+        if count != 1:
+            raise ValueError(f"{canonical}: expected one {attribute} tag")
+    return head + separator + body
 
 def extract():
     strings={p.NOTE,'English version','Language','Available languages','Home','Guides'}
@@ -77,7 +104,6 @@ def build(strings,locales=None):
                     if node.tag=='meta' and key=='content':
                         kind=node.attrs.get('name',node.attrs.get('property',''))
                         if kind in {'description','og:title','og:description','twitter:title','twitter:description','og:image:alt'}:node.attrs[key]=tr(value)
-                        if kind=='og:url':node.attrs[key]=p.ORIGIN+destination(locale,route)
                         if kind=='robots' and document.get('reviewStatus')!='approved':node.attrs[key]='noindex, nofollow'
                     if node.tag=='link' and node.attrs.get('rel')=='canonical':node.attrs['href']=p.ORIGIN+destination(locale,route)
                 if p.paragraph_unit(node) and p.useful(p.text_content(node)):
@@ -103,7 +129,10 @@ def build(strings,locales=None):
             head.children.append(p.Node('link',[('rel','alternate'),('hreflang','x-default'),('href',p.ORIGIN+route)]))
             main=next(n for n in p.descendants(root) if n.tag=='main')
             note=p.Node('p',[('class','guide-translation-note')]);note.children=[p.Node(text=values[p.NOTE]+' '),p.Node('a',[('href',route),('hreflang','en')])];note.children[1].children=[p.Node(text=values['English version'])];main.children.append(note)
-            file=ROOT/'out'/destination(locale,route).strip('/')/'index.html';file.parent.mkdir(parents=True,exist_ok=True);file.write_text(p.render(root))
+            page = destination(locale, route)
+            file = ROOT / 'out' / page.strip('/') / 'index.html'
+            file.parent.mkdir(parents=True, exist_ok=True)
+            file.write_text(share_metadata(p.render(root), p.ORIGIN + page))
     # English pages also switch to translations of the same policy, not home.
     for route in PAGES:
         # Do not parse/reserialize Next's English hydration markup or comments.
@@ -111,6 +140,7 @@ def build(strings,locales=None):
         file=ROOT/'out'/route.strip('/')/'index.html';html=file.read_text()
         links=''.join(f'<link rel="alternate" hreflang="{"tl" if code=="fil" else code}" href="{p.ORIGIN}{destination(code,route)}">' for code in p.LOCALES)
         links+=f'<link rel="alternate" hreflang="x-default" href="{p.ORIGIN}{route}">'
+        html = share_metadata(html, p.ORIGIN + route)
         file.write_text(html.replace('</head>',links+'</head>',1))
     print(f'Built {4*len([code for code in (locales or p.LOCALES) if code!="en"])} localized privacy, terms, support and deletion pages')
 
