@@ -1,6 +1,6 @@
 {
   "locale": "da",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate er bygget omkring den mindst mulige praktiske mængde data, der er nødvendig for at synkronisere frister og vise fokuspåmindelser.",
     "Nonlate pages": "Nonlate-sider",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate bruger kun Googles brugerdata til at synkronisere tilsluttede elementer fra Google Classroom, Google Calendar og Google Tasks til Nonlate, vise påmindelser og fokusfunktioner for disse elementer, opretholde den forbindelse, du har anmodet om, og understøtte anmodninger om afbrydelse eller sletning. Nonlate opretter, redigerer eller sletter ikke dit indhold i Google Classroom, Calendar eller Tasks. Nonlate sælger ikke Googles brugerdata, bruger dem ikke til reklamer og bruger dem ikke til at udvikle, forbedre eller træne generelle AI- eller maskinlæringsmodeller.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Mere forbundet. Mindre distraheret.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Nonlates brug og overførsel af oplysninger modtaget fra Google API'er overholder Google API Services User Data Policy, herunder kravene om Limited Use.",
     "Option 1: Remove local app data": "Mulighed 1: Fjern lokale appdata",
     "Option 2: Email deletion request": "Mulighed 2: Sletteanmodning via e-mail",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Vise påmindelser og fokusfunktioner.",
     "Skip to content": "Gå til indhold",
     "Source trial and device integrity": "Kildeprøveperiode og enhedsintegritet",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Vær på forkant med dine frister. Saml manuelle og tilsluttede opgaver, planlæg din dag og afbryd udvalgte distraktioner, når arbejdet kræver opmærksomhed.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Oplysninger om abonnementskøb og adgangsrettigheder, behandlet med appbutikken og RevenueCat for at validere adgang og gendanne køb.",
     "Subscriptions": "Abonnementer",
     "Subscriptions and source trial": "Abonnementer og kildeprøveperiode",

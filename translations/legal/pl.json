@@ -1,6 +1,6 @@
 {
   "locale": "pl",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate opiera się na najmniejszej praktycznej ilości danych potrzebnych do synchronizacji terminów i wyświetlania przypomnień o skupieniu.",
     "Nonlate pages": "Strony Nonlate",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate wykorzystuje dane użytkownika Google wyłącznie do synchronizowania połączonych elementów Google Classroom, Google Calendar i Google Tasks z Nonlate, wyświetlania dla nich przypomnień i funkcji skupienia, utrzymywania żądanego połączenia oraz obsługi próśb o odłączenie lub usunięcie. Nonlate nie tworzy, nie edytuje ani nie usuwa Twoich treści w Google Classroom, Calendar ani Tasks. Nonlate nie sprzedaje danych użytkownika Google, nie wykorzystuje ich do reklam ani do opracowywania, ulepszania lub trenowania ogólnych modeli sztucznej inteligencji lub uczenia maszynowego.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Więcej połączeń. Mniej rozproszeń.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Wykorzystywanie i przekazywanie przez Nonlate informacji otrzymanych z interfejsów API Google jest zgodne z Google API Services User Data Policy, w tym z wymogami Limited Use.",
     "Option 1: Remove local app data": "Opcja 1: Usuń lokalne dane aplikacji",
     "Option 2: Email deletion request": "Opcja 2: Wniosek o usunięcie e-mailem",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Wyświetlanie przypomnień i funkcji skupienia.",
     "Skip to content": "Przejdź do treści",
     "Source trial and device integrity": "Okres próbny źródła i integralność urządzenia",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Wyprzedzaj terminy. Połącz ręczne i pobrane zadania, zaplanuj dzień i przerywaj wybrane rozpraszacze, gdy praca wymaga uwagi.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Informacje o zakupie subskrypcji i uprawnieniach, przetwarzane ze sklepem aplikacji i RevenueCat w celu weryfikacji dostępu i przywracania zakupów.",
     "Subscriptions": "Subskrypcje",
     "Subscriptions and source trial": "Subskrypcje i okres próbny źródła",

@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import { legalMetadata } from "../components/legal-metadata";
 import { LegalPage } from "../components/LegalPage";
 
-export const metadata: Metadata = {
-  title: "Data Deletion",
-  description: "How to remove local and connected data associated with Nonlate.",
-  alternates: { canonical: "/data-deletion/" },
-};
+export const metadata = legalMetadata(
+  "Data Deletion",
+  "How to remove local and connected data associated with Nonlate.",
+  "/data-deletion/",
+);
 
 export default function DataDeletionPage() {
   return (

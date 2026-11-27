@@ -1,6 +1,6 @@
 {
   "locale": "fil",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Dinisenyo ang Nonlate gamit ang pinakamaliit na praktikal na dami ng data na kailangan upang i-sync ang mga deadline at magpakita ng mga paalala sa pagtutok.",
     "Nonlate pages": "Mga pahina ng Nonlate",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Ginagamit lamang ng Nonlate ang data ng user ng Google upang i-sync sa Nonlate ang mga item sa nakakonektang Google Classroom, Google Calendar, at Google Tasks, magpakita ng mga paalala at feature sa pagtutok para sa mga item na iyon, panatilihin ang koneksyong hiniling mo, at tugunan ang mga kahilingan sa pagdiskonekta o pagbura. Hindi gumagawa, nag-e-edit, o nagbubura ang Nonlate ng iyong nilalaman sa Google Classroom, Calendar, o Tasks. Hindi ibinebenta ng Nonlate ang data ng user ng Google, hindi ito ginagamit para sa pag-advertise, at hindi ito ginagamit upang bumuo, magpahusay, o magsanay ng mga pangkalahatang modelo ng AI o machine learning.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Mas konektado. Mas kaunting pagkaabala.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Ang paggamit at paglilipat ng Nonlate ng impormasyong natanggap mula sa mga Google API ay sumusunod sa Patakaran sa Data ng User ng Mga Serbisyo ng Google API, kabilang ang mga kinakailangan ng Limitadong Paggamit.",
     "Option 1: Remove local app data": "Opsyon 1: Alisin ang lokal na data ng app",
     "Option 2: Email deletion request": "Opsyon 2: I-email ang kahilingan sa pagbura",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Magpakita ng mga paalala at feature sa pagtutok.",
     "Skip to content": "Lumaktaw sa nilalaman",
     "Source trial and device integrity": "Pagsubok ng source at integridad ng device",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Mauna sa iyong mga deadline. Pagsamahin ang mga manwal at nakakonektang gawain, planuhin ang araw, at pigilan ang mga napiling pang-abala kapag kailangan ng trabaho ang iyong pansin.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Impormasyon ng pagbili at karapatan sa subscription, na pinoproseso kasama ang app store at RevenueCat upang mapatunayan ang access at maibalik ang mga binili.",
     "Subscriptions": "Mga subscription",
     "Subscriptions and source trial": "Mga subscription at pagsubok ng source",

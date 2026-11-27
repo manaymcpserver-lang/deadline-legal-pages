@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+import { legalMetadata } from "../components/legal-metadata";
 import RelatedGuides from "../guides/RelatedGuides";
 import { LegalPage } from "../components/LegalPage";
 
-export const metadata: Metadata = {
-  title: "Support",
-  description: "Get help with Nonlate integrations, sync, privacy choices, or data deletion.",
-  alternates: { canonical: "/support/" },
-};
+export const metadata = legalMetadata(
+  "Support",
+  "Get help with Nonlate integrations, sync, privacy choices, or data deletion.",
+  "/support/",
+);
 
 export default function SupportPage() {
   return (

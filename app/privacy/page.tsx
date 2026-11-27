@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+import { legalMetadata } from "../components/legal-metadata";
 import Link from "next/link";
 import { LegalPage } from "../components/LegalPage";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "What information Nonlate processes, how it is used, and the controls available to you.",
-  alternates: { canonical: "/privacy/" },
-};
+export const metadata = legalMetadata(
+  "Privacy Policy",
+  "What information Nonlate processes, how it is used, and the controls available to you.",
+  "/privacy/",
+);
 
 export default function PrivacyPage() {
   return (

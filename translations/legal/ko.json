@@ -1,6 +1,6 @@
 {
   "locale": "ko",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate는 마감일 동기화와 집중 알림 표시에 필요한 데이터를 실용적으로 가능한 최소한으로 처리하도록 설계되었습니다.",
     "Nonlate pages": "Nonlate 페이지",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate는 연결된 Google Classroom, Google Calendar 및 Google Tasks 항목을 Nonlate에 동기화하고, 해당 항목의 알림과 집중 기능을 제공하며, 귀하가 요청한 연결을 유지하고, 연결 해제 또는 삭제 요청을 처리하는 데에만 Google 사용자 데이터를 사용합니다. Nonlate는 귀하의 Google Classroom, Calendar 또는 Tasks 콘텐츠를 생성, 수정 또는 삭제하지 않습니다. Nonlate는 Google 사용자 데이터를 판매하거나 광고에 사용하지 않으며, 범용 AI 또는 머신러닝 모델을 개발, 개선하거나 학습시키는 데에도 사용하지 않습니다.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | 더 긴밀하게 연결하고. 방해는 줄이고.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Nonlate는 Google API로부터 받은 정보를 사용하고 전송할 때 Limited Use 요건을 포함한 Google API Services User Data Policy를 준수합니다.",
     "Option 1: Remove local app data": "방법 1: 로컬 앱 데이터 삭제",
     "Option 2: Email deletion request": "방법 2: 이메일로 삭제 요청",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "알림 및 집중 기능을 제공합니다.",
     "Skip to content": "콘텐츠로 건너뛰기",
     "Source trial and device integrity": "외부 소스 체험 및 기기 무결성",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "마감일보다 한발 앞서. 직접 추가한 작업과 연결된 작업을 모으고 하루를 계획하며, 일이 집중을 필요로 할 때 선택한 방해 요소를 중단하세요.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "구독 구매 및 이용 권한 정보. 접근 권한을 검증하고 구매를 복원하기 위해 앱 스토어 및 RevenueCat과 함께 처리합니다.",
     "Subscriptions": "구독",
     "Subscriptions and source trial": "구독 및 외부 소스 체험",

@@ -26,6 +26,19 @@ test('all 188 privacy, terms, support and deletion pages keep localized routes a
   const route=path(code,page),html=await read('out'+route+'index.html'),body=visible(html);
   assert.match(html,new RegExp(`<html[^>]*lang="${code}"`));
   assert.ok(html.includes(`rel="canonical" href="https://nonlate.app${route}"`),route);
+  const head = html.split('</head>')[0];
+  const title = head.match(/<title>([^<]+)<\/title>/)[1];
+  const description = head.match(/<meta name="description" content="([^"]+)"/)[1];
+  const display = value => value.replace(/&quot;/g, '"').replace(/&#(?:x27|39);/g, "'");
+  for (const tag of ['property="og:title"', 'name="twitter:title"']) {
+   const titles = [...head.matchAll(new RegExp(`<meta ${tag} content="([^"]+)"`, 'g'))];
+   assert.deepEqual(titles.map(match => display(match[1])), [display(title)], `${route}: ${tag}`);
+  }
+  for (const tag of ['property="og:description"', 'name="twitter:description"']) {
+   const descriptions = [...head.matchAll(new RegExp(`<meta ${tag} content="([^"]+)"`, 'g'))];
+   assert.deepEqual(descriptions.map(match => match[1]), [description], `${route}: ${tag}`);
+  }
+  assert.ok(head.includes(`property="og:url" content="https://nonlate.app${route}"`),route);
   assert.equal((body.match(/<h1\b/g)||[]).length,1,route);
   assert.ok(sitemap.includes(`<loc>https://nonlate.app${route}</loc>`));
   assert.ok(body.includes('mailto:support@nonlate.app'),route);

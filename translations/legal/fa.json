@@ -1,6 +1,6 @@
 {
   "locale": "fa",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate بر کمترین مقدار عملی داده لازم برای همگام‌سازی مهلت‌ها و نمایش یادآورهای تمرکز بنا شده است.",
     "Nonlate pages": "صفحه‌های Nonlate",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate داده‌های کاربران Google را فقط برای همگام‌سازی موارد Google Classroom، Google Calendar و Google Tasks متصل در Nonlate، نمایش یادآورها و قابلیت‌های تمرکز برای آن موارد، حفظ اتصال درخواستی شما و پشتیبانی از درخواست‌های قطع اتصال یا حذف استفاده می‌کند. Nonlate محتوای Google Classroom، Calendar یا Tasks شما را ایجاد، ویرایش یا حذف نمی‌کند. Nonlate داده‌های کاربران Google را نمی‌فروشد، برای تبلیغات استفاده نمی‌کند و برای توسعه، بهبود یا آموزش مدل‌های هوش مصنوعی یا یادگیری ماشین همه‌منظوره به کار نمی‌برد.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | اتصال بیشتر. حواس‌پرتی کمتر.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "استفاده و انتقال اطلاعات دریافتی از Google APIs توسط Nonlate مطابق خط‌مشی داده‌های کاربر خدمات Google API، شامل الزامات استفاده محدود است.",
     "Option 1: Remove local app data": "گزینه 1: حذف داده‌های محلی برنامه",
     "Option 2: Email deletion request": "گزینه 2: ارسال درخواست حذف با ایمیل",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "نمایش یادآورها و قابلیت‌های تمرکز.",
     "Skip to content": "به محتوا بروید",
     "Source trial and device integrity": "دوره آزمایشی منبع و یکپارچگی دستگاه",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "از مهلت‌ها جلوتر باشید. کارهای دستی و متصل را جمع کنید، روزتان را برنامه‌ریزی کنید و زمانی که کار نیاز به توجه دارد، حواس‌پرتی‌های انتخابی را متوقف کنید.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "اطلاعات خرید و استحقاق اشتراک که با فروشگاه برنامه و RevenueCat برای اعتبارسنجی دسترسی و بازیابی خریدها پردازش می‌شود.",
     "Subscriptions": "اشتراک‌ها",
     "Subscriptions and source trial": "اشتراک‌ها و دوره آزمایشی منبع",
