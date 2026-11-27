@@ -1,6 +1,6 @@
 {
   "locale": "id",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate dibangun dengan jumlah data paling sedikit yang secara praktis diperlukan untuk menyinkronkan tenggat dan menampilkan pengingat fokus.",
     "Nonlate pages": "Halaman Nonlate",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate menggunakan data pengguna Google hanya untuk menyinkronkan item Google Classroom, Google Calendar, dan Google Tasks yang terhubung ke Nonlate, menampilkan pengingat dan fitur fokus untuk item tersebut, mempertahankan koneksi yang Anda minta, serta mendukung permintaan pemutusan atau penghapusan. Nonlate tidak membuat, mengedit, atau menghapus konten Google Classroom, Calendar, atau Tasks Anda. Nonlate tidak menjual data pengguna Google, menggunakannya untuk iklan, atau menggunakannya untuk mengembangkan, meningkatkan, atau melatih model AI atau pembelajaran mesin serbaguna.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Lebih terhubung. Lebih sedikit gangguan.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Penggunaan dan transfer informasi yang diterima Nonlate dari API Google mematuhi Kebijakan Data Pengguna Layanan API Google, termasuk persyaratan Penggunaan Terbatas.",
     "Option 1: Remove local app data": "Opsi 1: Hapus data lokal aplikasi",
     "Option 2: Email deletion request": "Opsi 2: Kirim permintaan penghapusan melalui email",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Menampilkan pengingat dan fitur fokus.",
     "Skip to content": "Lompat ke konten",
     "Source trial and device integrity": "Uji coba sumber dan integritas perangkat",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Selangkah di depan tenggat. Satukan tugas manual dan terhubung, rencanakan hari Anda, dan sela gangguan terpilih saat pekerjaan perlu perhatian.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Informasi pembelian dan hak langganan, diproses bersama toko aplikasi dan RevenueCat untuk memvalidasi akses dan memulihkan pembelian.",
     "Subscriptions": "Langganan",
     "Subscriptions and source trial": "Langganan dan uji coba sumber",

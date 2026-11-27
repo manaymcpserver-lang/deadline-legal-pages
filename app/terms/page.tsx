@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import { legalMetadata } from "../components/legal-metadata";
 import { LegalPage } from "../components/LegalPage";
 
-export const metadata: Metadata = {
-  title: "Terms of Service",
-  description: "The terms that apply when using Nonlate.",
-  alternates: { canonical: "/terms/" },
-};
+export const metadata = legalMetadata(
+  "Terms of Service",
+  "The terms that apply when using Nonlate.",
+  "/terms/",
+);
 
 export default function TermsPage() {
   return (

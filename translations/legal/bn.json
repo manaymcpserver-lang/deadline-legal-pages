@@ -1,6 +1,6 @@
 {
   "locale": "bn",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "নির্ধারিত সময়সীমা সিঙ্ক ও মনোযোগের রিমাইন্ডার দেখাতে বাস্তবে যতটুকু ডেটা দরকার, Nonlate ততটুকু নিয়েই তৈরি।",
     "Nonlate pages": "Nonlate পৃষ্ঠাসমূহ",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate শুধু সংযুক্ত Google Classroom, Google Calendar ও Google Tasks আইটেম Nonlate-এ সিঙ্ক করা, সেগুলোর জন্য রিমাইন্ডার ও মনোযোগের বৈশিষ্ট্য দেখানো, আপনার অনুরোধ করা সংযোগ বজায় রাখা এবং বিচ্ছিন্ন বা মুছে ফেলার অনুরোধে সহায়তা করার জন্য Google ব্যবহারকারীর ডেটা ব্যবহার করে। Nonlate আপনার Google Classroom, Calendar বা Tasks-এর বিষয়বস্তু তৈরি, সম্পাদনা বা মুছে ফেলে না। Nonlate Google ব্যবহারকারীর ডেটা বিক্রি করে না, বিজ্ঞাপনের জন্য ব্যবহার করে না, কিংবা সাধারণ উদ্দেশ্যের AI বা মেশিন লার্নিং মডেল তৈরি, উন্নত বা প্রশিক্ষণ দেওয়ার জন্য ব্যবহার করে না।",
-    "Nonlate | More connected. Less distracted.": "Nonlate | আরও সংযুক্ত। মনোযোগের ব্যাঘাত কম।",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Google API থেকে পাওয়া তথ্যের Nonlate-এর ব্যবহার ও স্থানান্তর সীমিত ব্যবহারের শর্তসহ Google API পরিষেবার ব্যবহারকারীর ডেটা নীতি মেনে চলে।",
     "Option 1: Remove local app data": "বিকল্প 1: স্থানীয় অ্যাপ ডেটা সরান",
     "Option 2: Email deletion request": "বিকল্প 2: ইমেইলে মুছে ফেলার অনুরোধ",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "রিমাইন্ডার ও মনোযোগের বৈশিষ্ট্য দেখানো।",
     "Skip to content": "মূল বিষয়বস্তুতে যান",
     "Source trial and device integrity": "উৎস-ট্রায়াল ও ডিভাইসের অখণ্ডতা",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "সময়সীমার আগেই এগিয়ে থাকুন। হাতে যোগ করা ও সংযুক্ত কাজ একত্র করুন, দিনের পরিকল্পনা করুন এবং কাজে মনোযোগ দরকার হলে নির্বাচিত ব্যাঘাত থামান।",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "সাবস্ক্রিপশন কেনা ও অধিকার সংক্রান্ত তথ্য, যা অ্যাক্সেস যাচাই ও কেনাকাটা পুনরুদ্ধার করতে অ্যাপ স্টোর ও RevenueCat-এর সঙ্গে প্রক্রিয়া করা হয়।",
     "Subscriptions": "সাবস্ক্রিপশন",
     "Subscriptions and source trial": "সাবস্ক্রিপশন ও উৎস-ট্রায়াল",

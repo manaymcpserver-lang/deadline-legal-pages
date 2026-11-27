@@ -1,6 +1,6 @@
 {
   "locale": "hu",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "A Nonlate a határidők szinkronizálásához és az összpontosítási emlékeztetők megjelenítéséhez szükséges legkisebb, gyakorlatban megvalósítható adatmennyiségre épül.",
     "Nonlate pages": "Nonlate-oldalak",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "A Nonlate a Google felhasználói adatait kizárólag a csatlakoztatott Google Classroom-, Google Calendar- és Google Tasks-elemek Nonlate-be szinkronizálására, az elemekhez tartozó emlékeztetők és összpontosítási funkciók megjelenítésére, az Ön által kért kapcsolat fenntartására, valamint leválasztási vagy törlési kérések támogatására használja. A Nonlate nem hoz létre, nem szerkeszt és nem töröl tartalmat az Ön Google Classroom, Calendar vagy Tasks szolgáltatásaiban. A Nonlate nem értékesít Google felhasználói adatokat, nem használja őket hirdetésre, sem általános célú mesterségesintelligencia- vagy gépi tanulási modellek fejlesztésére, javítására vagy tanítására.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Több összekapcsolódás. Kevesebb figyelemelterelés.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "A Nonlate a Google API-któl kapott információk használata és továbbítása során betartja a Google API Services User Data Policy előírásait, beleértve a Limited Use követelményeket.",
     "Option 1: Remove local app data": "1. lehetőség: Helyi alkalmazásadatok eltávolítása",
     "Option 2: Email deletion request": "2. lehetőség: Törlési kérés e-mailben",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Emlékeztetők és összpontosítási funkciók megjelenítése.",
     "Skip to content": "Ugrás a tartalomhoz",
     "Source trial and device integrity": "Forráspróba és eszközintegritás",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Járj a határidők előtt. Rendezd egybe a kézi és csatlakoztatott feladatokat, tervezd meg a napodat, és szakítsd meg a kijelölt figyelemeltereléseket, amikor a munka figyelmet igényel.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Előfizetés-vásárlási és jogosultsági információk, amelyeket az alkalmazásáruházzal és a RevenueCat szolgáltatással dolgozunk fel a hozzáférés ellenőrzéséhez és a vásárlások visszaállításához.",
     "Subscriptions": "Előfizetések",
     "Subscriptions and source trial": "Előfizetések és forráspróba",

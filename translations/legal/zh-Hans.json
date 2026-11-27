@@ -1,6 +1,6 @@
 {
   "locale": "zh-Hans",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate 仅围绕同步截止日期和显示专注提醒所需的最少实际数据构建。",
     "Nonlate pages": "Nonlate 页面",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate 仅使用 Google 用户数据，将已连接的 Google Classroom、Google Calendar 和 Google Tasks 项目同步至 Nonlate，为这些项目显示提醒和专注功能，维护您请求的连接，并支持断开连接或删除请求。Nonlate 不会创建、编辑或删除您的 Google Classroom、Calendar 或 Tasks 内容。Nonlate 不出售 Google 用户数据，不将其用于广告，也不将其用于开发、改进或训练通用人工智能或机器学习模型。",
-    "Nonlate | More connected. Less distracted.": "Nonlate | 多些连接。少些分心。",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Nonlate 对从 Google API 收到的信息的使用和传输遵守 Google API 服务用户数据政策，包括“有限使用”要求。",
     "Option 1: Remove local app data": "选项 1：删除本地应用数据",
     "Option 2: Email deletion request": "选项 2：通过电子邮件申请删除",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "显示提醒和专注功能。",
     "Skip to content": "跳到正文",
     "Source trial and device integrity": "来源试用与设备完整性",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "从容应对每个截止日期。汇集手动和已连接来源的任务，规划你的一天，在工作需要关注时打断所选分心应用。",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "订阅购买和权益信息，由应用商店和 RevenueCat 共同处理，用于验证访问权限及恢复购买。",
     "Subscriptions": "订阅",
     "Subscriptions and source trial": "订阅与来源试用",

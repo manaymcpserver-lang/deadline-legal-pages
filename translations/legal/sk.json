@@ -1,6 +1,6 @@
 {
   "locale": "sk",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate je postavené na najmenšom prakticky možnom množstve údajov potrebnom na synchronizáciu termínov a zobrazovanie pripomienok sústredenia.",
     "Nonlate pages": "Stránky Nonlate",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate používa používateľské údaje Google iba na synchronizáciu pripojených položiek Google Classroom, Google Calendar a Google Tasks do Nonlate, zobrazovanie pripomienok a funkcií sústredenia pre tieto položky, udržiavanie vami požadovaného pripojenia a vybavovanie žiadostí o odpojenie alebo vymazanie. Nonlate nevytvára, neupravuje ani nevymazáva váš obsah v Google Classroom, Calendar ani Tasks. Nonlate nepredáva používateľské údaje Google, nepoužíva ich na reklamu ani na vývoj, zlepšovanie alebo trénovanie všeobecných modelov umelej inteligencie alebo strojového učenia.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Viac prepojenia. Menej rozptýlenia.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Používanie a prenos informácií získaných z rozhraní Google API spoločnosťou Nonlate dodržiava Google API Services User Data Policy vrátane požiadaviek Limited Use.",
     "Option 1: Remove local app data": "Možnosť 1: Odstráňte miestne údaje aplikácie",
     "Option 2: Email deletion request": "Možnosť 2: Žiadosť o vymazanie e-mailom",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Zobrazovať pripomienky a funkcie sústredenia.",
     "Skip to content": "Prejsť na obsah",
     "Source trial and device integrity": "Skúšobné obdobie zdroja a integrita zariadenia",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Buďte o krok pred termínmi. Spojte manuálne a pripojené úlohy, naplánujte deň a prerušte vybrané rozptýlenia, keď si práca vyžaduje pozornosť.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Informácie o nákupe predplatného a oprávneniach, spracúvané s obchodom aplikácií a RevenueCat na overenie prístupu a obnovenie nákupov.",
     "Subscriptions": "Predplatné",
     "Subscriptions and source trial": "Predplatné a skúšobné obdobie zdroja",

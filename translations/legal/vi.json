@@ -1,6 +1,6 @@
 {
   "locale": "vi",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "Nonlate được xây dựng dựa trên lượng dữ liệu ít nhất có thể trong thực tế để đồng bộ hạn chót và hiển thị lời nhắc tập trung.",
     "Nonlate pages": "Các trang Nonlate",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "Nonlate chỉ dùng dữ liệu người dùng Google để đồng bộ các mục Google Classroom, Google Calendar và Google Tasks đã kết nối vào Nonlate, hiển thị lời nhắc và tính năng tập trung cho các mục đó, duy trì kết nối bạn yêu cầu và hỗ trợ yêu cầu ngắt kết nối hoặc xóa. Nonlate không tạo, chỉnh sửa hoặc xóa nội dung Google Classroom, Calendar hoặc Tasks của bạn. Nonlate không bán dữ liệu người dùng Google, dùng dữ liệu đó cho quảng cáo hoặc dùng để phát triển, cải thiện hay huấn luyện các mô hình AI hoặc máy học đa dụng.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | Kết nối nhiều hơn. Ít xao nhãng hơn.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Việc Nonlate sử dụng và chuyển thông tin nhận từ API Google tuân thủ Chính sách Dữ liệu Người dùng Dịch vụ API Google, bao gồm các yêu cầu Sử dụng Hạn chế.",
     "Option 1: Remove local app data": "Lựa chọn 1: Xóa dữ liệu cục bộ của ứng dụng",
     "Option 2: Email deletion request": "Lựa chọn 2: Gửi email yêu cầu xóa",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "Hiển thị lời nhắc và tính năng tập trung.",
     "Skip to content": "Chuyển đến phần nội dung",
     "Source trial and device integrity": "Dùng thử nguồn và tính toàn vẹn thiết bị",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "Đi trước hạn chót. Kết hợp nhiệm vụ tự nhập và được kết nối, lập kế hoạch cho ngày của bạn và ngắt yếu tố gây xao nhãng đã chọn khi công việc cần chú ý.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "Thông tin mua và quyền hưởng thuê bao, được xử lý cùng cửa hàng ứng dụng và RevenueCat để xác thực truy cập và khôi phục giao dịch mua.",
     "Subscriptions": "Thuê bao",
     "Subscriptions and source trial": "Thuê bao và dùng thử nguồn",

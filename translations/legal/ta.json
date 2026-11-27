@@ -1,6 +1,6 @@
 {
   "locale": "ta",
-  "sourceHash": "5e87deb30a588f9368c3f0e94040579f23896afa122e9fa709564dc38256a97e",
+  "sourceHash": "79ac2d10e8db47f3dc5bbba705fd102a0278797f3c1ef14289035ba65c27c650",
   "reviewStatus": "approved",
   "method": "Direct AI-assisted translation and in-session review; existing reviewed chrome reused; not professional legal or native-speaker certification",
   "strings": {
@@ -82,7 +82,6 @@
     "Nonlate is built around the smallest practical amount of data needed to sync deadlines and show focus reminders.": "காலக்கெடுக்களை ஒத்திசைக்கவும் கவன நினைவூட்டல்களைக் காட்டவும் நடைமுறையில் தேவைப்படும் குறைந்தபட்சத் தரவை அடிப்படையாகக் கொண்டே Nonlate உருவாக்கப்பட்டுள்ளது.",
     "Nonlate pages": "Nonlate பக்கங்கள்",
     "Nonlate uses Google user data only to sync connected Google Classroom, Google Calendar, and Google Tasks items into Nonlate, show reminders and focus features for those items, maintain the connection you requested, and support disconnect or deletion requests. Nonlate does not create, edit, or delete your Google Classroom, Calendar, or Tasks content. Nonlate does not sell Google user data, use it for advertising, or use it to develop, improve, or train generalized AI or machine learning models.": "இணைக்கப்பட்ட Google Classroom, Google Calendar மற்றும் Google Tasks உருப்படிகளை Nonlate-க்கு ஒத்திசைக்கவும், அவற்றிற்கான நினைவூட்டல்கள் மற்றும் கவன அம்சங்களைக் காட்டவும், நீங்கள் கோரிய இணைப்பைப் பராமரிக்கவும், இணைப்புத் துண்டிப்பு அல்லது அழிப்புக் கோரிக்கைகளை ஆதரிக்கவும் மட்டுமே Google பயனர் தரவை Nonlate பயன்படுத்துகிறது. உங்கள் Google Classroom, Calendar அல்லது Tasks உள்ளடக்கத்தை Nonlate உருவாக்கவோ திருத்தவோ அழிக்கவோ செய்யாது. Google பயனர் தரவை Nonlate விற்பதில்லை, விளம்பரத்திற்குப் பயன்படுத்துவதில்லை, அல்லது பொதுப் பயன்பாட்டு AI அல்லது இயந்திரக் கற்றல் மாதிரிகளை உருவாக்கவும் மேம்படுத்தவும் பயிற்றுவிக்கவும் பயன்படுத்துவதில்லை.",
-    "Nonlate | More connected. Less distracted.": "Nonlate | மேலும் இணைப்பு. குறைவான கவனச்சிதறல்.",
     "Nonlate’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.": "Google API-களிலிருந்து பெறப்பட்ட தகவல்களை Nonlate பயன்படுத்துவதும் பரிமாறுவதும், வரையறுக்கப்பட்ட பயன்பாட்டுத் தேவைகள் உட்பட Google API சேவைகளின் பயனர் தரவுக் கொள்கைக்கு இணங்கும்.",
     "Option 1: Remove local app data": "விருப்பம் 1: உள்ளகச் செயலித் தரவை அகற்றுதல்",
     "Option 2: Email deletion request": "விருப்பம் 2: மின்னஞ்சல் மூலம் அழிப்புக் கோரிக்கை",
@@ -110,7 +109,6 @@
     "Show reminders and focus features.": "நினைவூட்டல்களையும் கவன அம்சங்களையும் காட்டுதல்.",
     "Skip to content": "உள்ளடக்கத்திற்குச் செல்லவும்",
     "Source trial and device integrity": "மூலச் சோதனையும் சாதன ஒருமைப்பாடும்",
-    "Stay ahead of what’s due. Bring manual and connected tasks together, plan your day, and interrupt selected distractions when work needs attention.": "காலக்கெடுகளுக்கு முன் தயாராக இருங்கள். கைமுறை மற்றும் இணைக்கப்பட்ட பணிகளை ஒன்றாக்கி, உங்கள் நாளைத் திட்டமிட்டு, வேலைக்குக் கவனம் தேவைப்படும்போது தேர்ந்தெடுத்த கவனச்சிதறல்களை இடைமறியுங்கள்.",
     "Subscription purchase and entitlement information, processed with the app store and RevenueCat to validate access and restore purchases.": "அணுகலைச் சரிபார்க்கவும் வாங்குதல்களை மீட்டெடுக்கவும் ஆப் ஸ்டோர் மற்றும் RevenueCat உடன் செயலாக்கப்படும் சந்தா வாங்குதல் மற்றும் உரிமைத் தகவல்கள்.",
     "Subscriptions": "சந்தாக்கள்",
     "Subscriptions and source trial": "சந்தாக்களும் மூலச் சோதனையும்",
